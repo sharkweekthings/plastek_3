@@ -117,6 +117,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "5DBC2689FE6F632D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "73137DDB28E13EB8"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_ender_golem"
@@ -138,6 +145,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "15D7E8FCB3C81470"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "74C73857A257C3CF"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_ender_guardian"
@@ -204,6 +218,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "4C768B06DFB3F32E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "372ED30522952274"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
@@ -228,6 +249,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "12B082F2EDAF58B5"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "26B873DE118E28C1"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "mowziesmobs:kill_umvuthi"
@@ -253,6 +281,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "3F32D3058F4252A9"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "2111B587EBD2C464"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "botania:challenge/gaia_guardian_hardmode"
@@ -274,6 +309,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "08403CB99A4EC2F5"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "4E34E06B899D64B5"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_ignis"
@@ -399,6 +441,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "626202CAFA33890B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "5F955ECB0114B8A4"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
@@ -423,6 +472,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "31640691D0B16C27"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "6341F4B6D7A55994"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
@@ -449,6 +505,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "3F7CE22F62C37F50"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "45A9E94177950A73"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
@@ -473,6 +536,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "0BBD91D8455C1E1A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "326E4857E8D17BD3"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
@@ -637,6 +707,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "166E456491DCCA1F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "3A05408568AA5724"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "blue_skies:everbright/kill_starlit_crusher"
@@ -665,6 +742,13 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "05B18C5ACD173767"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 75000"
+				icon: "kubejs:p3_xp"
+				id: "7008CDB5B5F99535"
+				title: "75000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "blue_skies:everdawn/kill_arachnarch"

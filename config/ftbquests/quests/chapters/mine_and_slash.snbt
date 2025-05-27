@@ -19,6 +19,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "6964FE997F4C39E7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "70F16389F37EC0B1"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "067F50C3E83EC611"
@@ -26,8 +31,8 @@
 				type: "checkmark"
 			}]
 			title: "Auras"
-			x: 6.5d
-			y: -1.5d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
@@ -39,6 +44,11 @@
 				"You &2can toggle&r to salvage individual item types of &3Skill Gems&r, &3Gear&r, and &3Jewels&r, and will &2automatically receive&r the appropriate stone &2instead of the specified rarity of item&r."
 			]
 			id: "0C794C6B6C513375"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "4755D7E71530A7CC"
+				type: "command"
+			}]
 			tasks: [{
 				id: "52023DB2B21F84C2"
 				item: "mmorpg:salvaging_station"
@@ -52,6 +62,11 @@
 			dependencies: ["33CA3CE459F326BD"]
 			description: ["There are &2lower level range&r versions of every &6Mine and Slash&r food. "]
 			id: "46AE04B160AC037A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "19AA60618ED18776"
+				type: "command"
+			}]
 			tasks: [{
 				id: "43DF870EAF6303A2"
 				item: "mmorpg:cooking_station"
@@ -65,6 +80,11 @@
 			dependencies: ["33CA3CE459F326BD"]
 			description: ["There are &2lower level range&r versions of every &6Mine and Slash&r potion. "]
 			id: "74582CCB20372137"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "269DBC989E887471"
+				type: "command"
+			}]
 			tasks: [{
 				id: "42F7C29F3C238222"
 				item: "mmorpg:alchemy_station"
@@ -82,6 +102,11 @@
 				"Most gear can be converted into a &6Mine and Slash&r piece using a &3Gear Soul&r of it's appropriate type."
 			]
 			id: "3E1A4B71A4F4B629"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "0FDFB756464072C4"
+				type: "command"
+			}]
 			tasks: [{
 				id: "5945189F7A98E2E0"
 				item: "mmorpg:gear_crafting_station"
@@ -94,6 +119,11 @@
 		{
 			dependencies: ["33CA3CE459F326BD"]
 			id: "5A24E649CC6113B2"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "78D2DC92C40CE1B2"
+				type: "command"
+			}]
 			tasks: [{
 				id: "415BE621E8600DAB"
 				item: "mmorpg:enchanting_station"
@@ -114,6 +144,11 @@
 				}
 			}
 			id: "76A1FE9EB45B7129"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "72A65BFD48FE927A"
+				type: "command"
+			}]
 			tasks: [{
 				id: "39522D9C64E7CBB5"
 				title: "Ok"
@@ -128,6 +163,11 @@
 			description: ["Breeding various animals will reward you with &2Animal Breeding XP&r."]
 			icon: "artifacts:crystal_heart"
 			id: "583EDF1348567060"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "4CC534A39FF4C18D"
+				type: "command"
+			}]
 			tasks: [{
 				id: "25CCBC1C5C297B6F"
 				title: "Ok"
@@ -148,6 +188,11 @@
 				}
 			}
 			id: "2D5030058520A28F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "1FA947421FAFA3BF"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2EAC8063E6CD19F0"
 				title: "Ok"
@@ -171,6 +216,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "33CA3CE459F326BD"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				id: "6516C3AB0114355C"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "487739AC7E3C0025"
@@ -442,6 +492,11 @@
 				}
 			}
 			id: "689E99FDE8DCA119"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "6C61180BA2C09926"
+				type: "command"
+			}]
 			tasks: [{
 				id: "26A055E11FEC9E3C"
 				title: "Ok"
@@ -531,6 +586,11 @@
 		{
 			icon: "kubejs:p3_chat"
 			id: "09EFFD4A4D7C74D3"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "1C92C883C1BDB8D7"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "03E40368B848603C"
@@ -550,6 +610,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "0996B597E654479B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "26C6E1DD35C5B855"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "1D13BC4093D70CB6"
@@ -569,6 +634,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "333E9B9520ED6962"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "4251FD8DA4A03B39"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "7F8883030D36FC41"
@@ -592,11 +662,18 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "76171D4EB0C9B147"
-			rewards: [{
-				id: "29E598325D86BB14"
-				item: "dimdungeons:item_homeward_pearl"
-				type: "item"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 200"
+					id: "4E7CFB5552AC305C"
+					type: "command"
+				}
+				{
+					id: "087FD38147465367"
+					item: "dimdungeons:item_homeward_pearl"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "6C26AD7F088526F5"
@@ -616,6 +693,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "4259DC7F600AEFD0"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "56BB5A03F35FFD77"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "7DEF6A3C19D382AD"
@@ -635,6 +717,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "54A25EB74E87B514"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "18B312DFBCCC1899"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "366207674C8E9185"
@@ -649,6 +736,11 @@
 			dependencies: ["76171D4EB0C9B147"]
 			description: ["With these items, you'll need to construct the portal frame like the example below:"]
 			id: "27DC0C3CC30F4B14"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "73D56E624E41652E"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -675,6 +767,11 @@
 		{
 			dependencies: ["27DC0C3CC30F4B14"]
 			id: "352CF64632D7B8C4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				id: "75C1A1D9272CE0D7"
+				type: "command"
+			}]
 			tasks: [{
 				id: "17751C4FF29D75AE"
 				item: "dimdungeons:block_portal_crown"
@@ -687,6 +784,11 @@
 		{
 			dependencies: ["352CF64632D7B8C4"]
 			id: "60223DCA99A51C8F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "7163F46178237959"
+				type: "command"
+			}]
 			tasks: [{
 				id: "1EA9078243B768B8"
 				item: "minecraft:purple_banner"
@@ -698,6 +800,11 @@
 		{
 			dependencies: ["352CF64632D7B8C4"]
 			id: "7631258D29C88891"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "0CC5F291A9575643"
+				type: "command"
+			}]
 			tasks: [{
 				id: "16523823E5A736B8"
 				item: "minecraft:white_banner"
@@ -709,6 +816,11 @@
 		{
 			dependencies: ["118F616C9D40B661"]
 			id: "4EE1ADF352D1FA90"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "69FDD3453DCF8FE3"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "04798798B76E8E3C"
@@ -732,6 +844,11 @@
 		{
 			dependencies: ["27DC0C3CC30F4B14"]
 			id: "118F616C9D40B661"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "72A705DFAEE57184"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7E160ABED8E267E0"
@@ -744,6 +861,11 @@
 		{
 			dependencies: ["118F616C9D40B661"]
 			id: "59F00D0D0EC19210"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				id: "52F079C79DE36715"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "36A7AD75F8D7B245"
@@ -762,6 +884,11 @@
 		{
 			dependencies: ["4EE1ADF352D1FA90"]
 			id: "12579E6833952F07"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2000"
+				id: "52ADA0EC400400C0"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "035B4794F4CEC472"
@@ -811,6 +938,11 @@
 		{
 			dependencies: ["333E9B9520ED6962"]
 			id: "390CBCD821BF7053"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "3BF5E49AB8BB946F"
+				type: "command"
+			}]
 			tasks: [{
 				id: "6CE030B59D7D800A"
 				item: "the_harvest:harvest"
@@ -823,6 +955,11 @@
 		{
 			dependencies: ["4259DC7F600AEFD0"]
 			id: "54359FFC46E7D2D7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "74A30BCC8C3A5B5C"
+				type: "command"
+			}]
 			tasks: [{
 				id: "3235C7D805EAA67D"
 				item: "ancient_obelisks:obelisk"
@@ -834,6 +971,11 @@
 		{
 			dependencies: ["0996B597E654479B"]
 			id: "4729694FE3DA1015"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 250"
+				id: "6B19BBF6C5993B66"
+				type: "command"
+			}]
 			tasks: [{
 				id: "6606476B0746C1FC"
 				item: "dungeon_realm:map_device"
@@ -845,6 +987,11 @@
 		{
 			dependencies: ["54A25EB74E87B514"]
 			id: "5B2B4D277DEC25C2"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 250"
+				id: "2D6FEA68D9FC7AFF"
+				type: "command"
+			}]
 			tasks: [{
 				id: "50BFD976019A2D20"
 				item: "dungeon_realm:map_device"
@@ -938,6 +1085,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "4E16F320E38FA179"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "73B3B85074859636"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "70F1B212160A661E"
@@ -945,8 +1097,8 @@
 				type: "checkmark"
 			}]
 			title: "Skills, and Support Gems"
-			x: 6.5d
-			y: 4.5d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -958,6 +1110,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "2D8EC1DB50B1A94F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "06E4F3234FA45C1E"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "4D361D8EE7522D36"
@@ -982,6 +1139,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "574AC5D8C97B3095"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				id: "406C13C8874F4D06"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "73B48224DBBA6F81"

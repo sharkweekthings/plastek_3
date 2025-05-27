@@ -37,7 +37,9 @@
 			id: "4D066612A3161831"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
 				id: "71E97DF08C6E67C2"
+				title: "2500 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -75,7 +77,9 @@
 			id: "148A671947C8AF0A"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
 				id: "5AB344CD415930EC"
+				title: "2500 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -104,7 +108,9 @@
 			id: "55AF7F08E21B9C47"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
 				id: "40E2FBEAEDB9C88D"
+				title: "2500 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -142,7 +148,9 @@
 			id: "50CE6DEAA1CF8989"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
 				id: "5B3D76D306B2BDA0"
+				title: "2500 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -167,7 +175,9 @@
 			id: "49E1ABD5ED0E5C46"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
 				id: "31055E34E03A4E76"
+				title: "2500 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -199,7 +209,9 @@
 			id: "7DB99D418A52B8A2"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
 				id: "2B6C78E0E4246B9C"
+				title: "2500 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -227,7 +239,9 @@
 			id: "447B1E1A38883148"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2600"
+				icon: "kubejs:p3_xp"
 				id: "6BFD2CFAE5764579"
+				title: "2600 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -293,7 +307,9 @@
 			id: "457F149D17FFBA60"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2700"
+				icon: "kubejs:p3_xp"
 				id: "145DBE9A05B5D1D5"
+				title: "2700 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -322,7 +338,9 @@
 			id: "4BAB781BF077B982"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2700"
+				icon: "kubejs:p3_xp"
 				id: "12D771AC1D7CD8DC"
+				title: "2700 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -361,7 +379,9 @@
 			id: "6FE071B5C8B9423E"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2700"
+				icon: "kubejs:p3_xp"
 				id: "230F92A2C998D112"
+				title: "2700 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -396,7 +416,9 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 13000"
+					icon: "kubejs:p3_xp"
 					id: "7BF92C40C435466C"
+					title: "13000 Experience Points"
 					type: "command"
 				}
 				{
@@ -437,7 +459,9 @@
 			id: "1896513C210B0066"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2800"
+				icon: "kubejs:p3_xp"
 				id: "31A17EAD78D459F8"
+				title: "2800 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -490,7 +514,9 @@
 			id: "416C9CFC16835399"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2700"
+				icon: "kubejs:p3_xp"
 				id: "61DA6DCA83272DF6"
+				title: "2700 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -519,7 +545,9 @@
 			id: "2682A76544743663"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2700"
+				icon: "kubejs:p3_xp"
 				id: "41B1FBC5575E5D20"
+				title: "2700 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -549,7 +577,9 @@
 			id: "5F297F76372B6D6B"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2600"
+				icon: "kubejs:p3_xp"
 				id: "3D8DB32A9B28F53A"
+				title: "2600 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -567,7 +597,9 @@
 			id: "25BE44FE2AF88B91"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2800"
+				icon: "kubejs:p3_xp"
 				id: "7EAF80836CE8BE25"
+				title: "2800 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -586,7 +618,9 @@
 			id: "7C135F3DEC9A42D1"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2800"
+				icon: "kubejs:p3_xp"
 				id: "55D5BA74ABB8DC83"
+				title: "2800 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -610,7 +644,9 @@
 			id: "013D1546C4D8CFF3"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2800"
+				icon: "kubejs:p3_xp"
 				id: "08CEC3A63FC0F48D"
+				title: "2800 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -649,7 +685,7 @@
 					value: 1L
 				}
 			]
-			title: "It's Definitely a Cult.."
+			title: "Might Be a Cult!"
 			x: 3.5d
 			y: 6.5d
 		}
@@ -659,17 +695,19 @@
 				"&ePhase 1&r:"
 				"The &dAlchemist&r will cycle between 4 different attacks. "
 				"1) Spawn Lingering Poison in the 4 corners of the room."
+				""
 				"2) Will launch 3 arrows in different directions."
+				""
 				"3) Can blind you."
+				""
 				"4) Summons a line of 0 to 11 spikes in the direction of a player."
-				""
-				""
 				""
 				"&ePhase 2&r:"
 				"Starts when The &dAlchemist&r gets to 50% health. "
 				""
 				"He will gain an additional 2 attacks:"
 				"1) Will begin regenerating rapidly that last a few seconds. Hitting him will interrupt this."
+				""
 				"2) Turns the water fountains into lava fountains."
 				""
 				"&dThe Alchemist&r has &825 flat Physical Damage&r converted to &cFire Damage&r and &dChaos Damage&r, and &a20% Elemental Resist&r."
@@ -682,11 +720,26 @@
 				tag: { }
 			}
 			id: "6010F7590E6F7082"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 13000"
-				id: "09B51B4429C1EC51"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 13000"
+					icon: "kubejs:p3_xp"
+					id: "09B51B4429C1EC51"
+					title: "13000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "5381F4E8381E3C2F"
+					item: {
+						Count: 1
+						id: "endrem:witch_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "blue_skies:everdawn/kill_alchemist"
@@ -725,7 +778,9 @@
 			id: "2346EB1DEEE7B6B4"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2700"
+				icon: "kubejs:p3_xp"
 				id: "494F054868047FCC"
+				title: "2700 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -762,7 +817,9 @@
 			id: "6CF84165B15E6380"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 3000"
+				icon: "kubejs:p3_xp"
 				id: "50E831A9AB2B8C87"
+				title: "3000 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -792,7 +849,9 @@
 			id: "634B23A7A5FC082F"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2600"
+				icon: "kubejs:p3_xp"
 				id: "49E40BE006BC0119"
+				title: "2600 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -839,7 +898,9 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 3000"
+					icon: "kubejs:p3_xp"
 					id: "3FE28B43969C7CED"
+					title: "3000 Experience Points"
 					type: "command"
 				}
 				{
@@ -905,6 +966,17 @@
 				}
 			}
 			id: "675F4BCB3856D891"
+			rewards: [{
+				id: "287977B5B7A8806D"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "heart"
 			tasks: [{
 				id: "7A9EF2C1DBE27EEF"

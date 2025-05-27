@@ -27,6 +27,13 @@
 				tag: { }
 			}
 			id: "7EA63909997D6C3D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				icon: "kubejs:p3_xp"
+				id: "659EB57C5C9C97B8"
+				title: "4000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "7D63FBB4B47990A7"
@@ -60,6 +67,13 @@
 				tag: { }
 			}
 			id: "60B581E389E8085A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				icon: "kubejs:p3_xp"
+				id: "39923439F31CD40B"
+				title: "4000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "671769913DB2EF8E"
@@ -73,6 +87,13 @@
 		{
 			dependencies: ["14527A39D456F6C1"]
 			id: "20A30498BD2020C5"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				icon: "kubejs:p3_xp"
+				id: "59931E8C330E721C"
+				title: "4000 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				advancement: "cataclysm:find_soul_black_smith"
@@ -97,6 +118,13 @@
 				tag: { }
 			}
 			id: "5866F87BD76B6909"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 20000"
+				icon: "kubejs:p3_xp"
+				id: "2ADBA8D144D76A69"
+				title: "20000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_monstrosity"
@@ -116,6 +144,13 @@
 		{
 			dependencies: ["14527A39D456F6C1"]
 			id: "7949FA7849F2A6D9"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				icon: "kubejs:p3_xp"
+				id: "543654A4B4C33672"
+				title: "4000 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				advancement: "cataclysm:find_frosted_prison"
@@ -140,6 +175,13 @@
 				tag: { }
 			}
 			id: "36B7721A801BBFE4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 20000"
+				icon: "kubejs:p3_xp"
+				id: "6A52D637D3F89A00"
+				title: "20000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_maledictus"
@@ -159,6 +201,13 @@
 		{
 			dependencies: ["5866F87BD76B6909"]
 			id: "157B7989DC9152D0"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4200"
+				icon: "kubejs:p3_xp"
+				id: "14FA56EAB9FD6D02"
+				title: "4200 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "443DC2FB2F3B2FB7"
@@ -175,6 +224,13 @@
 		{
 			dependencies: ["36B7721A801BBFE4"]
 			id: "453F4E3ED2EE7DE8"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4200"
+				icon: "kubejs:p3_xp"
+				id: "655D4CDDC78F772A"
+				title: "4200 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "15EED3A7009B2B01"
@@ -206,6 +262,13 @@
 				"&5&oThe monsters inside Setback will start at level 55&r&r."
 			]
 			id: "752D1CA4C2899415"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4500"
+				icon: "kubejs:p3_xp"
+				id: "731D0A5CDBE6E1D1"
+				title: "4500 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -259,6 +322,13 @@
 				tag: { }
 			}
 			id: "14527A39D456F6C1"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				icon: "kubejs:p3_xp"
+				id: "44875E5AB163092C"
+				title: "4000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "46CEA9AD30A164F7"
@@ -282,6 +352,13 @@
 				tag: { }
 			}
 			id: "2F8641C83A673683"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 20000"
+				icon: "kubejs:p3_xp"
+				id: "4D247D18A8126C5B"
+				title: "20000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				advancement: "mowziesmobs:kill_frostmaw"
@@ -303,7 +380,7 @@
 			description: [
 				"Your main objective is the &3Ice Crystal&r which usually rest in a &dFrostmaw&r hand. "
 				""
-				"If you could &2be sneaky enough&r, you might be able to &4avoid a fight with the beast&r."
+				"If you take the &4stones off your feet&r, and try to be &2be sneaky enough&r, you might be able to &4avoid a fight with the beast&r."
 			]
 			icon: {
 				Count: 1
@@ -311,7 +388,15 @@
 				tag: { }
 			}
 			id: "4B6984CE3691DF66"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				icon: "kubejs:p3_xp"
+				id: "5AB478FE6C51D80A"
+				title: "4000 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
+			subtitle: "Sneaky sneaky!"
 			tasks: [{
 				advancement: "mowziesmobs:find_frostmaw"
 				criterion: ""
@@ -330,6 +415,13 @@
 		{
 			dependencies: ["4B6984CE3691DF66"]
 			id: "4A15E187C9741B83"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4200"
+				icon: "kubejs:p3_xp"
+				id: "6801FEF1B345530F"
+				title: "4200 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "449C9241540F755B"
@@ -360,16 +452,21 @@
 				tag: { }
 			}
 			id: "1366ED1233E603A7"
-			rewards: [{
-				count: 2
-				id: "0FB0992D21170DB7"
-				item: {
-					Count: 1
-					id: "kubejs:royal_pixie_dust"
-					tag: { }
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 4200"
+					icon: "kubejs:p3_xp"
+					id: "53A773D3398AB20C"
+					title: "4200 Experience Points"
+					type: "command"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "31F13BCB0F3BD6BD"
+					item: "kubejs:royal_pixie_dust"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "4F888F2FBD6F4877"
@@ -411,6 +508,13 @@
 		{
 			dependencies: ["752D1CA4C2899415"]
 			id: "680E0CE425EB05A3"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4500"
+				icon: "kubejs:p3_xp"
+				id: "20EDD75ADB14DC2A"
+				title: "4500 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -455,6 +559,13 @@
 				tag: { }
 			}
 			id: "5A3B99BC18DF73ED"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4500"
+				icon: "kubejs:p3_xp"
+				id: "616759B18BAA603F"
+				title: "4500 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -501,6 +612,13 @@
 				"5A3B99BC18DF73ED"
 			]
 			id: "03D3EED70D7C3A8C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "0CADE6AABA5F8FEC"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5DBD98B25DB412D0"
@@ -556,6 +674,13 @@
 				"&5&oThe monsters inside The End will start at level 60&r&r."
 			]
 			id: "025597A8B0943247"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4500"
+				icon: "kubejs:p3_xp"
+				id: "7B3DB588CF39959E"
+				title: "4500 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
 				advancement: "minecraft:story/enter_the_end"
@@ -581,6 +706,13 @@
 				"As you re-focus on the conversation, the &dQueen&r was just about to &2tell you that all you need is to either find an&r &eEnd Portal Frame&r, or attain the frame pieces some other way, and build your own."
 			]
 			id: "699199EA3FA6DE99"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4500"
+				icon: "kubejs:p3_xp"
+				id: "2E73C45BCC22434B"
+				title: "4500 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -648,6 +780,13 @@
 				tag: { }
 			}
 			id: "7E76D8E2927D53D7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 50000"
+				icon: "kubejs:p3_xp"
+				id: "2335C4D1B2D37C2B"
+				title: "50000 Experience Points"
+				type: "command"
+			}]
 			shape: "gear"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -681,6 +820,13 @@
 				tag: { }
 			}
 			id: "19234246C5D4818A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4600"
+				icon: "kubejs:p3_xp"
+				id: "12FC6AA0384C27F0"
+				title: "4600 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "0C515B58C0A0C7CB"
@@ -712,6 +858,13 @@
 				tag: { }
 			}
 			id: "3144E5B8E9551900"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4600"
+				icon: "kubejs:p3_xp"
+				id: "4D6374718910378D"
+				title: "4600 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2D48B80BC7CA10A2"
 				title: "Ok"
@@ -778,6 +931,13 @@
 				tag: { }
 			}
 			id: "3907CC2E404A2C31"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4800"
+				icon: "kubejs:p3_xp"
+				id: "220C1BEB765FCC88"
+				title: "4800 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "5716A99C59CD2C7E"
@@ -809,6 +969,13 @@
 				tag: { }
 			}
 			id: "4C1EF8F51267FEC5"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "29380AE9D48E8DC3"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "4A0840D1128ED1F6"
@@ -836,6 +1003,13 @@
 				tag: { }
 			}
 			id: "204722BDD681089C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "32D6166029C21558"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "72AA692443A5A007"
@@ -861,6 +1035,13 @@
 				tag: { }
 			}
 			id: "6E6A6B9EC3AE9C50"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "0E6553530FA05626"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "3323E42EB77FA1A6"
@@ -890,6 +1071,13 @@
 				tag: { }
 			}
 			id: "6FE134FB9BECA29D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "7931D2A7ED8EA1B5"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "409E351E4ECD7F66"
@@ -921,6 +1109,13 @@
 				tag: { }
 			}
 			id: "0513603A119AFBAE"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "41ACF7D98DBB4967"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6FFE27A09DEE2D33"
@@ -946,6 +1141,13 @@
 				tag: { }
 			}
 			id: "7D642A89D54EDEF6"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "40A6E838463721DD"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "3C85622734A20CE7"
@@ -980,6 +1182,13 @@
 				tag: { }
 			}
 			id: "31ABF97A4BE2448F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 100000"
+				icon: "kubejs:p3_xp"
+				id: "74A47CE93D2727C1"
+				title: "100000 Experience Points"
+				type: "command"
+			}]
 			shape: "heart"
 			subtitle: "I appreciate you!"
 			tasks: [{
@@ -1006,6 +1215,13 @@
 				tag: { }
 			}
 			id: "315740FFD6D8A200"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "63D85F01E976DD7B"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "5AE10D2A4BCB2EA7"
@@ -1037,6 +1253,13 @@
 				tag: { }
 			}
 			id: "5CE47BF7E2224681"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "38669CC7CCA658A5"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "1C89CCCDAFAC3A84"
@@ -1051,6 +1274,13 @@
 			dependencies: ["7949FA7849F2A6D9"]
 			icon: "kubejs:p3_mob"
 			id: "4AE9E8E4B0FE6478"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 15000"
+				icon: "kubejs:p3_xp"
+				id: "489A437F7A42314E"
+				title: "15000 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				entity: "cataclysm:aptrgangr"
 				icon: "kubejs:p3_mob"
@@ -1065,6 +1295,13 @@
 			dependencies: ["4C1EF8F51267FEC5"]
 			icon: "kubejs:p3_chat"
 			id: "464B7D793B1D05A4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "4285542B1CC2D00E"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "45B14F7D0C1EC271"
@@ -1082,7 +1319,16 @@
 				""
 				"If you're in &4melee range, the boss will use a melee attack&r and &4slam the ground&r, dealing damage and &4knocking you up, then you'll take additional fall damage.&r      "
 			]
+			icon: "kubejs:p3_chat"
 			id: "6DFE4C83E03A804C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				icon: "kubejs:p3_xp"
+				id: "6E1CBCBF30540F41"
+				title: "4000 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
 			tasks: [{
 				id: "4CA9DDA1C45A4A29"
 				title: "Ok"
@@ -1094,12 +1340,22 @@
 		}
 		{
 			dependencies: ["7949FA7849F2A6D9"]
+			icon: "kubejs:p3_chat"
 			id: "60248D80D0C868B2"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				icon: "kubejs:p3_xp"
+				id: "354B503A2B9F1FB6"
+				title: "4000 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
 			tasks: [{
 				id: "4C7AB2A07898E9D6"
 				title: "Ok"
 				type: "checkmark"
 			}]
+			title: "Maledictus Strategy"
 			x: 0.5d
 			y: 0.5d
 		}
