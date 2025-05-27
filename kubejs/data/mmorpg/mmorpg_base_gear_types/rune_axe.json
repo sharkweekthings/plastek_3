@@ -1,0 +1,39 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 5.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "rune_axe",
+  "guid": "rune_axe",
+  "possible_items": [
+    {
+      "item_id": "roe_weapons:axe_6",
+      "min_rar": "runeword",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.15,
+      "intelligence": 0.15
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "intelligence",
+      "axe",
+      "rune",
+      "melee_weapon",
+      "mage_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "rune_axe",
+  "weight": 1000
+}

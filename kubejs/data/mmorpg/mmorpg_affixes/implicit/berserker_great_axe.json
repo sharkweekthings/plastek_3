@@ -1,0 +1,28 @@
+{
+  "type": "implicit",
+  "eye_aura_req": "",
+  "guid": "berserker_great_axe",
+  "one_of_a_kind": "",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "great_axe"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 5.0,
+      "stat": "energy_on_kill"
+    }
+  ],
+  "weight": 1000
+}

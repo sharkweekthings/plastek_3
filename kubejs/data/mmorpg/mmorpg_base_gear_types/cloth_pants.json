@@ -1,0 +1,133 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "gear_slot": "pants",
+  "guid": "cloth_pants",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:cloth_0_leggings",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "create:cardboard_leggings",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:wandering_magician_leggings",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_1_leggings",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "astral_dimension:pajama_leggings",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:electromancer_leggings",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_2_leggings",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "botania:manaweave_leggings",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:cultist_leggings",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:cryomancer_leggings",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:shadowwalker_leggings",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:priest_leggings",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:plagued_leggings",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:netherite_mage_leggings",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_3_leggings",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "allthewizardgear:allthemodium_mage_leggings",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_4_leggings",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "allthewizardgear:vibranium_mage_leggings",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_5_leggings",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "allthewizardgear:unobtainium_mage_leggings",
+      "min_rar": "legendary",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.4
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "armor_family",
+      "pants",
+      "magic_shield_stat",
+      "intelligence",
+    "cloth_pants",
+    "cloth"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

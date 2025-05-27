@@ -1,0 +1,45 @@
+{
+  "base_gear": "sword",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "excalibur",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 150.0,
+      "min": 25.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 10.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 10.0,
+      "stat": "weapon_skill_spell_dmg"
+    },
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 10.0,
+      "stat": "lightning_any_wep_damage"
+    }
+  ],
+  "weight": 1000
+}

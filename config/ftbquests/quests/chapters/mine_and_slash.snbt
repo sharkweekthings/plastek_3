@@ -1,0 +1,997 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mine_and_slash"
+	group: "2FC07CCE1ABE9089"
+	id: "6D97D94978BEAF17"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eAuras&r can be equipped through the &6Mine and Slash&r &eHub 'H' by default&r, and navigating to your &eSpell Hotbar&r."
+				""
+				"In the middle you should see a &2row of slots with a number to the right&r. "
+				""
+				"The number is your current available &eAura Reserve&r.  Each &eAura&r you equip will &4take up a portion of your total pool&r, limiting the amount of &eAuras&r you can have &2on you at one time&r. "
+				""
+				"You should &2find these as you fight monsters, or loot chests&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "6964FE997F4C39E7"
+			shape: "octagon"
+			tasks: [{
+				id: "067F50C3E83EC611"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Auras"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33CA3CE459F326BD"]
+			description: [
+				"There are &2two ways&r to salvage your &6Mine and Slash&r items &2into stones you need for crafting&r. "
+				""
+				"You can use the &9Salvage Station&r to &2salvage items manually&r, or you can use the '&eSalvaging&r' menu from your &6Mine and Slash&r Hub &2as you pick up certain items&r. "
+				""
+				"You &2can toggle&r to salvage individual item types of &3Skill Gems&r, &3Gear&r, and &3Jewels&r, and will &2automatically receive&r the appropriate stone &2instead of the specified rarity of item&r."
+			]
+			id: "0C794C6B6C513375"
+			tasks: [{
+				id: "52023DB2B21F84C2"
+				item: "mmorpg:salvaging_station"
+				type: "item"
+			}]
+			title: "Salvaging"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33CA3CE459F326BD"]
+			description: ["There are &2lower level range&r versions of every &6Mine and Slash&r food. "]
+			id: "46AE04B160AC037A"
+			tasks: [{
+				id: "43DF870EAF6303A2"
+				item: "mmorpg:cooking_station"
+				type: "item"
+			}]
+			title: "Cooking"
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33CA3CE459F326BD"]
+			description: ["There are &2lower level range&r versions of every &6Mine and Slash&r potion. "]
+			id: "74582CCB20372137"
+			tasks: [{
+				id: "42F7C29F3C238222"
+				item: "mmorpg:alchemy_station"
+				type: "item"
+			}]
+			title: "Alchemy"
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33CA3CE459F326BD"]
+			description: [
+				"If you aren't having &4luck with drops&r, there is &2always crafting!&r "
+				""
+				"Most gear can be converted into a &6Mine and Slash&r piece using a &3Gear Soul&r of it's appropriate type."
+			]
+			id: "3E1A4B71A4F4B629"
+			tasks: [{
+				id: "5945189F7A98E2E0"
+				item: "mmorpg:gear_crafting_station"
+				type: "item"
+			}]
+			title: "Gear Crafting"
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33CA3CE459F326BD"]
+			id: "5A24E649CC6113B2"
+			tasks: [{
+				id: "415BE621E8600DAB"
+				item: "mmorpg:enchanting_station"
+				type: "item"
+			}]
+			title: "Infusing"
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33CA3CE459F326BD"]
+			description: ["As you &2harvest various crops&r; you will &2randomly be rewarded&r with a &2produce type item&r within your &2profession level range&r."]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76A1FE9EB45B7129"
+			tasks: [{
+				id: "39522D9C64E7CBB5"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Farming"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33CA3CE459F326BD"]
+			description: ["Breeding various animals will reward you with &2Animal Breeding XP&r."]
+			icon: "artifacts:crystal_heart"
+			id: "583EDF1348567060"
+			tasks: [{
+				id: "25CCBC1C5C297B6F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Animal Breeding"
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33CA3CE459F326BD"]
+			description: ["Breaking &2various ores, and some stone blocks&r with your pickaxe should &2reward Mining XP&r, as well as randomly giving you &6Mine and Slash&r &3ore&r."]
+			icon: {
+				Count: 1
+				id: "ae2:nether_quartz_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2D5030058520A28F"
+			tasks: [{
+				id: "2EAC8063E6CD19F0"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Mining"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Professions in &6Mine and Slash&r are &2extremely important&r as they will &2grant&r your character \"&eRested Combat Experience&r\". "
+				""
+				"The &2more you work on your professions, the more bonus xp you will earn&r, which will make your &2leveling journey much more comfortable&r. "
+				""
+				"Likewise, &2during combat&r; you will gain a \"&eRested Profession Experience&r\" which will &2give you bonus to your professions&r. "
+				""
+				"For professions that require a station; you &4must craft the items through that station to get experience&r. "
+				""
+				"Example: using the &6Cooking For Blockheads&r kitchen &4will not&r get you &6Mine and Slash&r experience &2for cooking various recipes&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "33CA3CE459F326BD"
+			shape: "octagon"
+			tasks: [{
+				id: "487739AC7E3C0025"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Non Combat Professions"
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C794C6B6C513375"]
+			id: "55A31F7A6D5C5131"
+			tasks: [
+				{
+					id: "5C0719CF6502E339"
+					item: "mmorpg:stone/0"
+					type: "item"
+				}
+				{
+					id: "04A8C38D70456CCB"
+					item: "mmorpg:stone/1"
+					type: "item"
+				}
+				{
+					id: "037CB74B62934DE5"
+					item: "mmorpg:stone/2"
+					type: "item"
+				}
+				{
+					id: "568C386B5FDFCD5C"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					id: "72BE37A0B885D2D1"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					id: "68BFFC8ACF497471"
+					item: "mmorpg:stone/5"
+					type: "item"
+				}
+			]
+			title: "Stones"
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["46AE04B160AC037A"]
+			id: "5E3FA2EEF2DDC0CD"
+			tasks: [
+				{
+					id: "0796E7EDAF421229"
+					item: {
+						Count: 1
+						id: "mmorpg:food/mythic_mana"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50062DDD2FD279F6"
+					item: {
+						Count: 1
+						id: "mmorpg:food/mythic_magic"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5666D8150ED0BB92"
+					item: {
+						Count: 1
+						id: "mmorpg:food/mythic_life"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "767B0D7AE661B7BB"
+					item: {
+						Count: 1
+						id: "mmorpg:food/mythic_energy"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EC16374281D4393"
+					item: {
+						Count: 1
+						id: "mmorpg:seafood/mythic_loot"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "791DD99C1CBF384E"
+					item: {
+						Count: 1
+						id: "mmorpg:seafood/mythic_exp"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Meals"
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["74582CCB20372137"]
+			id: "42EBC985E0CBEEA0"
+			tasks: [
+				{
+					id: "2C516CCFE22577FB"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/5"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F197F4712D49DD9"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/resource/5"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2635EDF983063B12"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/mythic_str"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1756B438E97385F4"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/mythic_dex"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5105CAFDAF624602"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/mythic_int"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "189E0A1BA7FA5F46"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/mythic_arcane"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65F0EBB0ED9AC7AA"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/mythic_might"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E4056F4D27A686E"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/mythic_crit"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Potions"
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["76A1FE9EB45B7129"]
+			id: "3D037A1341BDE24A"
+			tasks: [
+				{
+					id: "48EC15B072C0D526"
+					item: "mmorpg:material/farming/0"
+					type: "item"
+				}
+				{
+					id: "43D1B0FF0C5D322C"
+					item: "mmorpg:material/farming/1"
+					type: "item"
+				}
+				{
+					id: "7A96ADB5AE5A3B84"
+					item: "mmorpg:material/farming/2"
+					type: "item"
+				}
+				{
+					id: "72C66640416D76C7"
+					item: "mmorpg:material/farming/3"
+					type: "item"
+				}
+				{
+					id: "47FF67C1AE2705A3"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					id: "752ADDE9CF2F71DA"
+					item: "mmorpg:material/farming/5"
+					type: "item"
+				}
+			]
+			title: "Produce"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33CA3CE459F326BD"]
+			description: ["As you &2fish&r; you will &2randomly be rewarded&r with a &2raw fish type item&r within your &2profession level range&r."]
+			icon: {
+				Count: 1
+				id: "aquaculture:neptunium_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "689E99FDE8DCA119"
+			tasks: [{
+				id: "26A055E11FEC9E3C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Fishing"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["689E99FDE8DCA119"]
+			id: "691E13C9FB33FF60"
+			tasks: [
+				{
+					id: "47C4E35FDA6674C2"
+					item: "mmorpg:material/fishing/0"
+					type: "item"
+				}
+				{
+					id: "1757CCB55439776F"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					id: "5E85AA64573563AA"
+					item: "mmorpg:material/fishing/2"
+					type: "item"
+				}
+				{
+					id: "2F34CD7C8110D008"
+					item: "mmorpg:material/fishing/3"
+					type: "item"
+				}
+				{
+					id: "32DE6E19BD395B33"
+					item: "mmorpg:material/fishing/4"
+					type: "item"
+				}
+				{
+					id: "71CFB35D4DA86294"
+					item: "mmorpg:material/fishing/5"
+					type: "item"
+				}
+			]
+			title: "Fish"
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2D5030058520A28F"]
+			id: "0A8B1188D49C3D2E"
+			tasks: [
+				{
+					id: "775393EBCC7EEF90"
+					item: "mmorpg:material/mining/0"
+					type: "item"
+				}
+				{
+					id: "10DC543EE056AB10"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+				{
+					id: "34FDD2BD280D26F4"
+					item: "mmorpg:material/mining/2"
+					type: "item"
+				}
+				{
+					id: "59A2D6C33854B955"
+					item: "mmorpg:material/mining/3"
+					type: "item"
+				}
+				{
+					id: "74DDC23060FA0268"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					id: "43797C9F39123BD8"
+					item: "mmorpg:material/mining/5"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			icon: "kubejs:p3_chat"
+			id: "09EFFD4A4D7C74D3"
+			shape: "octagon"
+			tasks: [{
+				id: "03E40368B848603C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Dungeons, Maps, and More!"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09EFFD4A4D7C74D3"]
+			description: [
+				"Throughout your adventure you will find various &6Adventurer Map&r items. "
+				""
+				"If you put your &6Adventurer Map&r map inside a &9Map Device&r, you will be able to &2challenge the dungeon&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "0996B597E654479B"
+			shape: "octagon"
+			tasks: [{
+				id: "1D13BC4093D70CB6"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Maps"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09EFFD4A4D7C74D3"]
+			description: [
+				"Throughout your adventure you will find various &6Harvest&r items. "
+				""
+				"If you put your &6Harvest&r map inside a &9Harvest Altar&r, you will be able to &2challenge the arena&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "333E9B9520ED6962"
+			shape: "octagon"
+			tasks: [{
+				id: "7F8883030D36FC41"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Harvest"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09EFFD4A4D7C74D3"]
+			description: [
+				"&6Dimensional Dungeons&r is not part of &6Mine and Slash&r."
+				""
+				"It did however &2fit into this particular category pretty well&r, so here it is. "
+				""
+				"The dungeons created by this mod are &4various puzzles, and traps&r. "
+				""
+				"In order to get to &6The End&r you'll need to find a &3Dimensional Eye&r in a random chest inside the &6Dimensional Dungeons&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "76171D4EB0C9B147"
+			rewards: [{
+				id: "29E598325D86BB14"
+				item: "dimdungeons:item_homeward_pearl"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6C26AD7F088526F5"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Dimensional Dungeons"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09EFFD4A4D7C74D3"]
+			description: [
+				"Throughout your adventure you will find various &6Ancient Obelisk&r items. "
+				""
+				"If you put your &6Obelisk&r map inside a &9Obelisk Altar&r, you will be able to &2challenge the arena&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "4259DC7F600AEFD0"
+			shape: "octagon"
+			tasks: [{
+				id: "7DEF6A3C19D382AD"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ancient Obelisk"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09EFFD4A4D7C74D3"]
+			description: [
+				"Throughout your adventure you will find various &6Dungeon Realm&r items. "
+				""
+				"If you put your &6Dungeon&r map inside a &9Map Device&r, you will be able to &2challenge the dungeon&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "54A25EB74E87B514"
+			shape: "octagon"
+			tasks: [{
+				id: "366207674C8E9185"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Dungeon Realm"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76171D4EB0C9B147"]
+			description: ["With these items, you'll need to construct the portal frame like the example below:"]
+			id: "27DC0C3CC30F4B14"
+			shape: "square"
+			tasks: [
+				{
+					id: "0FC9A903695E42C4"
+					item: "dimdungeons:block_portal_keyhole"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7BC7582FD56C5DD0"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					id: "0C52C28D6B6EA088"
+					item: "dimdungeons:block_gilded_portal"
+					type: "item"
+				}
+			]
+			title: "Entry Into the Dimensional Dungeons"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27DC0C3CC30F4B14"]
+			id: "352CF64632D7B8C4"
+			tasks: [{
+				id: "17751C4FF29D75AE"
+				item: "dimdungeons:block_portal_crown"
+				type: "item"
+			}]
+			title: "Upgrades!"
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["352CF64632D7B8C4"]
+			id: "60223DCA99A51C8F"
+			tasks: [{
+				id: "1EA9078243B768B8"
+				item: "minecraft:purple_banner"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["352CF64632D7B8C4"]
+			id: "7631258D29C88891"
+			tasks: [{
+				id: "16523823E5A736B8"
+				item: "minecraft:white_banner"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["118F616C9D40B661"]
+			id: "4EE1ADF352D1FA90"
+			shape: "square"
+			tasks: [{
+				id: "04798798B76E8E3C"
+				item: "dimdungeons:block_key_charger"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EE1ADF352D1FA90"]
+			id: "13B173109F8FD470"
+			tasks: [{
+				id: "3AEE1A5B76B50CD2"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27DC0C3CC30F4B14"]
+			id: "118F616C9D40B661"
+			shape: "square"
+			tasks: [{
+				id: "7E160ABED8E267E0"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["118F616C9D40B661"]
+			id: "59F00D0D0EC19210"
+			tasks: [
+				{
+					id: "36A7AD75F8D7B245"
+					item: "dimdungeons:item_blank_advanced_key"
+					type: "item"
+				}
+				{
+					id: "7156A287C9B9988D"
+					item: "dimdungeons:item_blank_build_key"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EE1ADF352D1FA90"]
+			id: "12579E6833952F07"
+			shape: "square"
+			tasks: [{
+				id: "035B4794F4CEC472"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12579E6833952F07"]
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B69DB8C5CFCDF69"
+			rewards: [{
+				id: "7D86327112E88877"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "1910DE91E75921D0"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Dimensional Eye Recovery"
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["333E9B9520ED6962"]
+			id: "390CBCD821BF7053"
+			tasks: [{
+				id: "6CE030B59D7D800A"
+				item: "the_harvest:harvest"
+				type: "item"
+			}]
+			title: "Harvest Altar"
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4259DC7F600AEFD0"]
+			id: "54359FFC46E7D2D7"
+			tasks: [{
+				id: "3235C7D805EAA67D"
+				item: "ancient_obelisks:obelisk"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0996B597E654479B"]
+			id: "4729694FE3DA1015"
+			tasks: [{
+				id: "6606476B0746C1FC"
+				item: "dungeon_realm:map_device"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54A25EB74E87B514"]
+			id: "5B2B4D277DEC25C2"
+			tasks: [{
+				id: "50BFD976019A2D20"
+				item: "dungeon_realm:map_device"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4729694FE3DA1015"]
+			description: ["If you earn yourself any &3Prophecy Coins&r, you can use the &eProphecy&r tab in the &6Mine and Slash&r Hub while you are in a map. "]
+			id: "594E8BFBFAE0A844"
+			tasks: [
+				{
+					id: "570C21A0AFBE3971"
+					item: {
+						Count: 1
+						id: "mmorpg:coin/prophecy"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D6BED9E573E1DCE"
+					item: {
+						Count: 1
+						id: "mmorpg:coin/prophecy"
+						tag: {
+							tier: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5143DA7360F1EE61"
+					item: {
+						Count: 1
+						id: "mmorpg:coin/prophecy"
+						tag: {
+							tier: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4093C50FB8FD38AD"
+					item: {
+						Count: 1
+						id: "mmorpg:coin/prophecy"
+						tag: {
+							tier: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41D03367F74FD0C1"
+					item: {
+						Count: 1
+						id: "mmorpg:coin/prophecy"
+						tag: {
+							tier: 4
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74D12BF04F0A4903"
+					item: {
+						Count: 1
+						id: "mmorpg:coin/prophecy"
+						tag: {
+							tier: 5
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Once you &2pick a class or two&r; you'll likely have a &2skill or two&r!"
+				""
+				"You can equip the skills by opening your &6Mine and Slash&r &eHub&r and navigaing to the \"&eSpell Hotbar&r\", then clicking the &e+&r sign above any of the columns."
+				""
+				"Depending on your level, and the skill level - you can add &3Support Gems&r to it which further &2enhance your abilities&r. These can be &2equipped in the column below the equipped skill&r. Your first &eSupport Slot&r will open up when the &2skill is level 4&r. "
+			]
+			icon: "kubejs:p3_chat"
+			id: "4E16F320E38FA179"
+			shape: "octagon"
+			tasks: [{
+				id: "70F1B212160A661E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Skills, and Support Gems"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Both of these are a way to &2power your weapons&r and gear up. "
+				""
+				"There are &2many varieties of gems&r which you can &2find in JEI by searching @mmorpg,&r and looking at the &2gems portion&r. Slotting these into your gear &2has different effects depending on whether it's a weapon, gear, or jewelry&r."
+				""
+				"&3Runes&r are special items that that grant various effects, depending on the &3Rune&r. There are many items called '&eRunewords&r' that &2have a predetermined order of runes&r, with specific bonuses. If you put a &3Rune&r on your &2hotbar and right click&r, it will open the &6Mine and Slash&r library, and show you the available &eRunewords&r that specific &eRune&r can create."
+			]
+			icon: "kubejs:p3_chat"
+			id: "2D8EC1DB50B1A94F"
+			shape: "octagon"
+			tasks: [{
+				id: "4D361D8EE7522D36"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Gems and Runes"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&eFavor&r &2rewards you for staying alive&r. "
+				""
+				"You generate a little bit of &eFavor&r &2every minute, up to 1000&r. This is the soft-cap."
+				""
+				"If you reach this cap, you &2may exceed it&r by exploring and &2opening various chests and barrels&r. "
+				""
+				"The more &eFavor&r you have, the higher your &eLoot and Experience&r multiplier will be. "
+				""
+				"Your favor can be seen in the &6Mine and Slash&r &eHub&r at the &2top of the UI&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "574AC5D8C97B3095"
+			shape: "octagon"
+			tasks: [{
+				id: "73B48224DBBA6F81"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Favor"
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+	title: "Mine and Slash"
+}

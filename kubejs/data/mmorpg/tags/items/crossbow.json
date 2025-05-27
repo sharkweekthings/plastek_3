@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "tconstruct:crossbow", "required": false},
+    {"id": "tconstruct:war_pick", "required": false}
+
+  ]
+}

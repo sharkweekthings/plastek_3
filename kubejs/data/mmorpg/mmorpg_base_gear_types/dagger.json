@@ -1,0 +1,276 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 4.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "dagger",
+  "guid": "dagger",
+  "possible_items": [
+    {
+      "item_id": "roe_weapons:dagger_0",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:wooden_dagger",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "aquaculture:wooden_fillet_knife",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:wooden_dagger",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:wooden_chakram",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:wooden_sai",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:wooden_dagger",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:wooden_parrying_dagger",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:dagger_1",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:stone_dagger",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "aquaculture:stone_fillet_knife",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:stone_dagger",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:stone_chakram",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:stone_sai",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:stone_dagger",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:stone_parrying_dagger",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:dagger_2",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:iron_dagger",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "aquaculture:iron_fillet_knife",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:iron_dagger",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:iron_chakram",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:iron_sai",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:iron_dagger",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:iron_parrying_dagger",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:dagger_3",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:golden_dagger",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "aquaculture:gold_fillet_knife",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:golden_dagger",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:golden_chakram",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:golden_sai",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samuraidynasty:sai",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:golden_dagger",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:golden_parrying_dagger",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:dagger_4",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:diamond_dagger",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "aquaculture:diamond_fillet_knife",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:diamond_dagger",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:diamond_chakram",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:diamond_sai",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:diamond_dagger",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:diamond_parrying_dagger",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:dagger_5",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:netherite_dagger",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "aquaculture:neptunium_fillet_knife",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:netherite_dagger",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:netherite_chakram",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:netherite_sai",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:netherite_dagger",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:netherite_parrying_dagger",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.4
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "weapon_family",
+      "melee_weapon",
+      "dagger"
+    ]
+  },
+  "weapon_type": "dagger",
+  "weight": 1000
+}

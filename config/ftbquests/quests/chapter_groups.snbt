@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "0B1C7C243DF15207", title: "Welcome" }
+		{ id: "506A6F854E7C4775", title: "Storage" }
+		{ id: "1F979D7131BCCB17", title: "Campaign" }
+		{ id: "2FC07CCE1ABE9089", title: "Support Quests" }
+		{ id: "76418A7EF5488336", title: "Collections" }
+		{ id: "13F09995BA8FB39E", title: "TEMP" }
+	]
+}

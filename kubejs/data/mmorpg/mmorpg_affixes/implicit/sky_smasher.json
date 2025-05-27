@@ -1,0 +1,34 @@
+{
+  "type": "implicit",
+  "eye_aura_req": "",
+  "guid": "sky_smasher",
+  "one_of_a_kind": "",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "pike"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": -30.0,
+      "min": -50.0,
+      "stat": "move_speed"
+    },
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 20.0,
+      "stat": "gear_weapon_damage"
+    }
+  ],
+  "weight": 1000
+}

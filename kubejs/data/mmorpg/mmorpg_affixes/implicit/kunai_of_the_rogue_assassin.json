@@ -1,0 +1,28 @@
+{
+  "type": "implicit",
+  "eye_aura_req": "",
+  "guid": "kunai_of_the_rogue_assassin",
+  "one_of_a_kind": "",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "throwing_dagger"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": -20.0,
+      "min": -70.0,
+      "stat": "threat_generated"
+    }
+  ],
+  "weight": 1000
+}

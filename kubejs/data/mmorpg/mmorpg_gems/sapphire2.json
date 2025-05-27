@@ -1,0 +1,35 @@
+{
+  "gem_type": "sapphire",
+  "identifier": "sapphire2",
+  "item_id": "mmorpg:gems/sapphire/2",
+  "min_lvl_multi": 0.2,
+  "on_armor_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "magic_shield",
+      "v1": 12.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "mana",
+      "v1": 7.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "increase_healing",
+      "v1": 10.0
+    }
+  ],
+  "perc_upgrade_chance": 50,
+  "rar": "uncommon",
+  "text_format": "BLUE",
+  "tier": 2,
+  "weight": 25000
+}

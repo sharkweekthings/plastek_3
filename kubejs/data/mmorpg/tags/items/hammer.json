@@ -1,0 +1,55 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "roe_weapons:hammer_0", "required": false},
+    {"id": "roe_weapons:hammer_1", "required": false},
+    {"id": "roe_weapons:hammer_2", "required": false},
+    {"id": "roe_weapons:hammer_3", "required": false},
+    {"id": "roe_weapons:hammer_4", "required": false},
+    {"id": "roe_weapons:hammer_5", "required": false},
+    {"id": "roe_weapons:hammer_7", "required": false},
+    {"id": "roe_weapons:cursed_hammer", "required": false},
+
+    {"id": "magistuarmory:barbedclub", "required": false},
+    {"id": "magistuarmory:club", "required": false},
+    {"id": "magistuarmory:rusted_heavymace", "required": false},
+
+    {"id": "simplyswords:frostfall", "required": false},
+    {"id": "simplyswords:mjornir", "required": false},
+
+    {"id": "spartanweaponry:wooden_club", "required": false},
+    {"id": "spartanweaponry:studded_club", "required": false},
+
+    {"id": "spartanweaponry:wooden_battle_hammer", "required": false},
+    {"id": "spartanweaponry:stone_battle_hammer", "required": false},
+    {"id": "spartanweaponry:copper_battle_hammer", "required": false},
+    {"id": "spartanweaponry:iron_battle_hammer", "required": false},
+    {"id": "spartanweaponry:golden_battle_hammer", "required": false},
+    {"id": "spartanweaponry:diamond_battle_hammer", "required": false},
+    {"id": "spartanweaponry:netherite_battle_hammer", "required": false},
+    {"id": "spartanweaponry:tin_battle_hammer", "required": false},
+    {"id": "spartanweaponry:bronze_battle_hammer", "required": false},
+    {"id": "spartanweaponry:steel_battle_hammer", "required": false},
+    {"id": "spartanweaponry:silver_battle_hammer", "required": false},
+    {"id": "spartanweaponry:electrum_battle_hammer", "required": false},
+    {"id": "spartanweaponry:lead_battle_hammer", "required": false},
+    {"id": "spartanweaponry:nickel_battle_hammer", "required": false},
+    {"id": "spartanweaponry:invar_battle_hammer", "required": false},
+    {"id": "spartanweaponry:constantan_battle_hammer", "required": false},
+    {"id": "spartanweaponry:platinum_battle_hammer", "required": false},
+    {"id": "spartanweaponry:aluminium_battle_hammer", "required": false},
+
+    {"id": "spartanskies:pyrope_battle_hammer", "required": false},
+    {"id": "spartanskies:aquite_battle_hammer", "required": false},
+    {"id": "spartanskies:diopside_battle_hammer", "required": false},
+    {"id": "spartanskies:charoite_battle_hammer", "required": false},
+    {"id": "spartanskies:horizonite_battle_hammer", "required": false},
+
+    {"id": "spartanundergarden:cloggrum_hammer", "required": false},
+    {"id": "spartanundergarden:froststeel_hammer", "required": false},
+    {"id": "spartanundergarden:utherium_hammer", "required": false},
+    {"id": "spartanundergarden:forgotten_hammer", "required": false},
+
+    {"id": "soulsweapons:mjolnir", "required": false}
+  ]
+}

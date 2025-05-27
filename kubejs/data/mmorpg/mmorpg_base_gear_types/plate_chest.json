@@ -1,0 +1,239 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 12.0,
+      "min": 6.0,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "chest",
+  "guid": "plate_chest",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:plate_0_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "create:cardboard_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:red_samurai_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:blue_samurai_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:green_samurai_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:gray_samurai_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gothic_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:rustedhalfarmor_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:rustedcrusader_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:rustedchainmail_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:plate_1_chestplate",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "minecraft:chainmail_chestplate",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:iron_samurai_chestplate",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:iron_ninja_chestplate",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:platemail_chestplate",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:kastenbrust_chestplate",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:plate_2_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "minecraft:iron_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:white_samurai_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:steel_ninja_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "epicpaladins:jade_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "epicpaladins:knight_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:jousting_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:maximilian_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:plate_3_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "minecraft:golden_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:gold_samurai_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:gold_ninja_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "epicpaladins:moonlight_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:knight_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wingedhussar_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:plate_4_chestplate",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "minecraft:diamond_chestplate",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:diamond_samurai_chestplate",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:diamond_ninja_chestplate",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:ceremonial_chestplate",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:plate_5_chestplate",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "minecraft:netherite_chestplate",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:netherite_samurai_chestplate",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:netherite_ninja_chestplate",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.4
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "chest",
+      "armor_family",
+      "strength",
+      "armor_stat",
+    "plate_chest",
+    "plate"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

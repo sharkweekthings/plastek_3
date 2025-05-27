@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "translate": "Follow Lolli Poppins",
+            "color": "dark_purple"
+        },
+        "description": {
+            "translate": "You followed Lolli to the Ice Cream village. It's been overrun by violent Penguins, and she's pleading for your help!"
+        },
+        "icon": {
+            "item": "sweet_calamity:ice_cream"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "sweet_calamity:ice_cream_village"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "sweet_calamity:deliciously_dangerous_advancement"
+}
+

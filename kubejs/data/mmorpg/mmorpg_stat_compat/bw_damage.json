@@ -1,0 +1,13 @@
+{
+  "attribute_id": "",
+  "conversion": 2.0,
+  "enchant_id": "better_weaponry:damage",
+  "id": "bw_damage_compat",
+  "maximum_cap": 50,
+  "minimum_cap": 0,
+  "mns_stat_id": "all_physical_damage",
+  "mod_type": "FLAT",
+  "per_item_max": 50,
+  "per_item_min": 0,
+  "scaling": "NONE"
+}

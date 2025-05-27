@@ -1,0 +1,59 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id": "spartanweaponry:wooden_longbow", "required": false},
+    {"id": "spartanweaponry:stone_longbow", "required": false},
+    {"id": "spartanweaponry:copper_longbow", "required": false},
+    {"id": "spartanweaponry:iron_longbow", "required": false},
+    {"id": "spartanweaponry:golden_longbow", "required": false},
+    {"id": "spartanweaponry:diamond_longbow", "required": false},
+    {"id": "spartanweaponry:netherite_longbow", "required": false},
+    {"id": "spartanweaponry:tin_longbow", "required": false},
+    {"id": "spartanweaponry:bronze_longbow", "required": false},
+    {"id": "spartanweaponry:steel_longbow", "required": false},
+    {"id": "spartanweaponry:silver_longbow", "required": false},
+    {"id": "spartanweaponry:electrum_longbow", "required": false},
+    {"id": "spartanweaponry:lead_longbow", "required": false},
+    {"id": "spartanweaponry:nickel_longbow", "required": false},
+    {"id": "spartanweaponry:invar_longbow", "required": false},
+    {"id": "spartanweaponry:constantan_longbow", "required": false},
+    {"id": "spartanweaponry:platinum_longbow", "required": false},
+    {"id": "spartanweaponry:aluminium_longbow", "required": false},
+
+    {"id": "spartanskies:pyrope_longbow", "required": false},
+    {"id": "spartanskies:aquite_longbow", "required": false},
+    {"id": "spartanskies:diopside_longbow", "required": false},
+    {"id": "spartanskies:charoite_longbow", "required": false},
+    {"id": "spartanskies:horizonite_longbow", "required": false},
+
+    {"id": "spartanundergarden:cloggrum_longbow", "required": false},
+    {"id": "spartanundergarden:froststeel_longbow", "required": false},
+    {"id": "spartanundergarden:utherium_longbow", "required": false},
+    {"id": "spartanundergarden:forgotten_longbow", "required": false},
+
+    {"id": "spartanfire:dragon_bone_longbow", "required": false},
+    {"id": "spartanfire:iced_dragon_bone_longbow", "required": false},
+    {"id": "spartanfire:lightning_dragon_bone_longbow", "required": false},
+    {"id": "spartanfire:desert_myrmex_chitin_longbow", "required": false},
+    {"id": "spartanfire:jungle_myrmex_chitin_longbow", "required": false},
+    {"id": "spartanfire:desert_myrmex_stinger_longbow", "required": false},
+    {"id": "spartanfire:jungle_myrmex_stinger_longbow", "required": false},
+    {"id": "spartanfire:fire_dragonsteel_longbow", "required": false},
+    {"id": "spartanfire:ice_dragonsteel_longbow", "required": false},
+    {"id": "spartanfire:lightning_dragonsteel_longbow", "required": false},
+
+    {"id": "spartantwilight:ironwood_longbow", "required": false},
+    {"id": "spartantwilight:steeleaf_longbow", "required": false},
+    {"id": "spartantwilight:knightmetal_longbow", "required": false},
+    {"id": "spartantwilight:fiery_longbow", "required": false},
+
+    {"id": "jeg:compound_bow", "required": false},
+    {"id": "fabledweaponry:longbow", "required": false},
+    {"id": "fabledweaponry:longbow_leather", "required": false},
+    {"id": "fabledweaponry:longbow_iron", "required": false},
+    {"id": "fabledweaponry:longbow_gold", "required": false},
+    {"id": "fabledweaponry:longbow_diamond", "required": false},
+    {"id": "fabledweaponry:longbow_netherite", "required": false}
+  ]
+}

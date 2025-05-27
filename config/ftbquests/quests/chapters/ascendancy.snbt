@@ -1,0 +1,748 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascendancy"
+	group: "1F979D7131BCCB17"
+	icon: "kubejs:p3_asc"
+	id: "113FEEC2F6EE41C9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Deep in &6The Nether&r exists the &eBurning Arena&r. "
+				""
+				"The arena was constructed by the denizens of the dimension. The &dPiglin Queen of Old&r used to enjoy watching gladitorial battles. She would often &4kidnap villagers&r and force them to &4fight against&r the &dRevenant&r.  They were never much of a fight, it was m&4ore in line with a magic trick&r, because the rumor is that one second you would &4see the villager, and the next, well... no villager&r."
+				""
+				"It wasn't until an &2uprising about 80,000 years ago&r that the new &dPiglin Queen&r would rise up, and create a new champion..... &dIgnis&r. "
+				""
+				"&dIgnis&r serves to &4destroy anything in it's path&r, and was able to defeat the &dRevenan&rt with ease. "
+				""
+				"It's rumored that some crazy person repaired the &dRevenant&r, and if you want to challenge &dIgnis&r, you're going to have to go through the &dRevenant&r first..."
+			]
+			id: "0DA207BFBD992F48"
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "6B0D9E33138047E7"
+				type: "advancement"
+			}]
+			title: "Find a Burning Arena"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["08403CB99A4EC2F5"]
+			description: ["As you touch the &3Ignitium Ingot&r, you &2feel a warmth over body&r, you start to &2turn a feint orange&r as you feel some sort of &2power coursing through you&r."]
+			icon: "kubejs:p3_asc"
+			id: "5F7CE47E4494300E"
+			rewards: [{
+				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				icon: "kubejs:p3_asc"
+				id: "7437E3C2316DAC8C"
+				title: "+1 Ascendancy Point"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "Ignis"
+			title: "+1 Ascendancy Point"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0593A121B67328ED"]
+			description: [
+				"It's time to take what &dProfessor Trev&r taught you and put it to the test."
+				""
+				"You're going to need to create an infinite pool of &3Chocolate&r. "
+				""
+				"To do this, you need to fill up &210,000 blocks with fluid&r. "
+				""
+				"A sample dimension could be &220x20 that is dug 25 blocks deep&r. This should give you exactly 10,000 blocks to fill up with fluid.  "
+				""
+				"Once you have your &2fluid ready, and the hole ready&r -- you can &2start filling up&r!"
+				""
+				"&l&2Make sure that ALL of the fluid passes through the \"Task Screen\" block in order to receive credit.&r&r"
+			]
+			id: "4ECF02F06B62281E"
+			tasks: [{
+				amount: 10000000L
+				fluid: "create:chocolate"
+				id: "4BE86E112C6EC2A5"
+				type: "fluid"
+			}]
+			title: "Becoming Wonka"
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A014908D3585BF"]
+			description: ["If you have a &2quest that requires a fluid&r; be certain to &2pass your fluids directly through the task screen&r in order to &2receive quest credit&r."]
+			id: "0593A121B67328ED"
+			tasks: [{
+				id: "6320F75AF1FD5395"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Somewhere in the &6End&r is a &eRuined Citadel&r. "
+				""
+				"Home to the &dGuardian of the End&r, and it's royal guard the &dEnder Golem&r. "
+				""
+				"The &dEnder Guardian&r used to protect the realm, but many millenia ago; the &dEnder Dragon&r was born, and there was no need for the &dEnder Guardian&r.  The guardian retired to a &eRuined Citadel&r, where it &4unknowingly absorbed&r an unknown amount of &eVoid Energy&r due to it's &4close proximity to the purple energy beam&r from the &eDraconic Disaster&r event. "
+				""
+				"Over the next few hundred thousand years, the &4guardian has become warped&r with &eVoid Energy&r and must be stopped."
+			]
+			id: "4D3038925D851C51"
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "6D0D372C33C7BCD5"
+				type: "advancement"
+			}]
+			title: "Find a Ruined Citadel"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D3038925D851C51"]
+			description: [
+				"&dEnder Golem&r has &850 flat Physical Damage&r converted to &dChaos Damage&r."
+				""
+				"&5&oEnder Golem will start at level 60.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "5DBC2689FE6F632D"
+			shape: "gear"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_golem"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "0846EAA0D188A0D3"
+				type: "advancement"
+			}]
+			title: "Defeat Ender Golem"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D3038925D851C51"]
+			description: [
+				"&dEnder Guardian&r has &850 flat Physical Damage&r converted to &dChaos Damage&r, and &825 flat Physical Damage&r converted to &eLightning Damage&r.."
+				""
+				"&5&oEnder Guardian will start at level 60.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "15D7E8FCB3C81470"
+			shape: "gear"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "6CF51C02836ACA66"
+				type: "advancement"
+			}]
+			title: "Defeat Ender Guardian"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A7796DBDB44AC45"]
+			description: ["You &2jumped from stone to stone&r, all the way up - completed &eTongbi's Challenge&r, and now you can &4zip up your pants&r, and give yourself a good long &2pat on the back&r, because you've just joined the &dMile High Club&r!"]
+			id: "6966D91FA5027C12"
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "68AAD9B847D8A9DC"
+				type: "advancement"
+			}]
+			title: "Mile High Club"
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["586F689DCFC44AE6"]
+			description: [
+				"Before you can accept &dTongbi's&r challenge, you'll need some &3Bluff Rods&r."
+				""
+				"Depending on &4how good you are at jumping puzzles&r, you'll only need &21&r, or &4458&r."
+			]
+			id: "7A7796DBDB44AC45"
+			tasks: [{
+				id: "7ABBDD8CB74A3494"
+				item: "mowziesmobs:bluff_rod"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			description: ["The &eMonastery&r from &6Mowzies Mobs&r is home to &dTongbi the Sculptor&r. "]
+			id: "586F689DCFC44AE6"
+			tasks: [{
+				id: "77A160D36F8CD86F"
+				structure: "mowziesmobs:monastery"
+				type: "structure"
+			}]
+			title: "Find a Monastery"
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Nobody knows the true idenity of the &dFerrous Wroughtnaut&r.  He's rumored to have been &4slaughtering people for hundreds of thousands of years&r. "
+				""
+				"Some believe him to be &4immortal&r, others believe he &2may have a squire&r that takes up the mantle when one passes."
+				""
+				"&dFerrous Wroughtnaut&r has &850 flat Physical Damage&r converted to &dChaos Damage&r, and &815% Physical Resist&r."
+				""
+				"&5&oFerrous Wroughtnaut will start at level 55.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "4C768B06DFB3F32E"
+			shape: "gear"
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "15203D22023FFB66"
+				type: "advancement"
+			}]
+			title: "Defeat Ferrous Wroughtnaut"
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"You remember &2overhearing one of the tavernsfolk&r talking about a &2big yellow bird&r. "
+				"'"
+				"You &2assume it was a giant chicken&r, and &4went after it&r; not knowing they they were actually talking about &dUmvuthi, the Subird&r. "
+				""
+				"&dUmvuthi&r has &850 flat Physical Damage&r converted to &eLightning Damage&r, &825 flat Physical Damage&r converted to &cFire Damage&r, and &e25% Lightning Resist&r."
+				""
+				"&5&oUmvuthi will start at level 55.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "12B082F2EDAF58B5"
+			shape: "gear"
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "161197E2BB1CEDBE"
+				type: "advancement"
+			}]
+			title: "Defeat Umvuthi the Sunbird"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67929281D6D59AC6"]
+			description: [
+				"Tim told you that &2there was a genie&r, and it would &2grant you 3 wishes&r. He said all you have to do is use the &3Gaia Spirit Ingot&r on the &3Beacon&r, and &2chant the magical words&r \"&4Ohhh... Yeaaahh!&r\". "
+				""
+				"Apparently, he &2read it in a book from ancient time&r. "
+				""
+				"&dGaia Guardian&r has &850 flat Physical Damage&r converted to &bAll Elemental Damage&r."
+				""
+				"&5&oGaia Guardian will start at level 55.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "3F32D3058F4252A9"
+			shape: "gear"
+			tasks: [{
+				advancement: "botania:challenge/gaia_guardian_hardmode"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "46D517F1B8A137D3"
+				type: "advancement"
+			}]
+			title: "Defeat the Gaia Guardian"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DA207BFBD992F48"]
+			description: [
+				"&dIgnis&r has &875 flat Physical Damage&r converted to &cFire Damage&r, and &c75% Fire Resist&r."
+				""
+				"&5&oIgnis will start at level 55.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "08403CB99A4EC2F5"
+			shape: "gear"
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "0597464276B38F54"
+				type: "advancement"
+			}]
+			title: "Defeat Ignis"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4C768B06DFB3F32E"
+				"12B082F2EDAF58B5"
+			]
+			description: [
+				"You attempted to lift off the &dFerrous Wroughtnaut&r mask, but could not, you now look &415% weaker in front of your peers&r, and feel a &4tinge of embarassment&r. "
+				""
+				"You also decided to &2not eat Umvuthi's corpse&r, you were really just wanting some &2party wings anyways&r, and this big bird seems like the meat &4wouldn't be too tasty&r."
+				""
+				"By defeating these two bosses; you have earned &e1 Ascendancy Point&r!"
+			]
+			icon: "kubejs:p3_asc"
+			id: "7030D7639993BCFE"
+			rewards: [{
+				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				icon: "kubejs:p3_asc"
+				id: "7B30F59947605B99"
+				title: "+1 Ascendancy Point"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "073B12E132E5FBCE"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "+1 Ascendancy Point"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5DBC2689FE6F632D"
+				"15D7E8FCB3C81470"
+			]
+			description: [
+				"With the &dEnder Guardian&r, and &dEnder Golem&r defeated, your body &2surges with an unknown power&r. "
+				""
+				"You &2feel stronger&r than you did before; &4even though you didn't level up&r."
+			]
+			icon: "kubejs:p3_asc"
+			id: "1731A66B3F94C366"
+			rewards: [{
+				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				icon: "kubejs:p3_asc"
+				id: "29A770458EF0B76A"
+				title: "+1 Ascendancy Point"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "Yummy"
+			tasks: [{
+				id: "2E704C0DA320B8C6"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "+1 Ascendancy Point"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BF942E244B10172"]
+			description: [
+				"You'll need to first challenge the normal &dGuardian of Gaia&r using a &3Terrasteel Ingot&r. "
+				""
+				"After you defeat this guardian, you can craft a &3Gaia Ingot&r. "
+				""
+				"Use the &3Gaia Ingot&r on the &3Beacon&r to challenge a &2harder version of the guardian.&r"
+			]
+			id: "67929281D6D59AC6"
+			tasks: [{
+				id: "2EBDD98C6B8AC8CE"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: ["Using your &3Eccentric Tome&r, setting it to the &3Lexica Botanica&r; and navigating to the &dGuardian of Gaia&r page, you can put a &2hologram of the layout into the world&r. "]
+			id: "1BF942E244B10172"
+			tasks: [
+				{
+					count: 4L
+					id: "3A9820AAC6799A15"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "6643D0044D41EEB8"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "Building an Arena"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The &dNight Lich&r is a being that existed well before even the &ePlastimpocalypse&r. "
+				""
+				"It's said that this &4creature is responsible for the creation of Phantoms&r, and those are super annoying. "
+				""
+				"Maybe you can &2help future generations&r by reducing the &dPhantom&r population &2once and for all&r."
+				""
+				"&dNight Lich&r has &880 flat Physical Damage&r converted to &bAll Elemental Damage&r, and &b50% Elemental Resist&r."
+				""
+				"&5&oNight Lich will start at level 55.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "626202CAFA33890B"
+			shape: "gear"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "6525052BBD9F53AD"
+				type: "advancement"
+			}]
+			title: "Defeat the Night Lich"
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &dNether Gauntlet&r is another creature that was created during the &eDraconic Disaster&r. "
+				""
+				"You've &2heard rumors that it lurks&r deep within &6The Nether&r. "
+				""
+				"&dNether Gauntlet&r has &850 flat Physical Damage&r converted to &cFire Damage&r, and &825 flat Physical Damage&r converted to &dChaos Damage&r.."
+				""
+				"&5&oNether Gauntlet will start at level 55.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "31640691D0B16C27"
+			shape: "gear"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "56EF68DC5ADF4EF2"
+				type: "advancement"
+			}]
+			title: "Defeat the Nether Gauntlet"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A strange being from &6The End&r. "
+				""
+				"From &dTim's&r understanding of lore, &dObsidilith&r is the result of an adventurer being fused into an &eEnd Tower&r during the &eDraconic Disaster&r. "
+				""
+				"The adventurer over the &4course of thousands of years&r has gone completely mad; and &4attacks other adventurers with deadly puzzles&r."
+				""
+				"&dObsidilith&r has &880 flat Physical Damage&r converted to &dChaos Damage&r."
+				""
+				"&5&oObsidilith will start at level 60.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "3F7CE22F62C37F50"
+			shape: "gear"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "587C7D3F0B35E56E"
+				type: "advancement"
+			}]
+			title: "Defeat Obsidilith"
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The &dVoid Blossom&r has absorbed quite a bit of &eVoid Energy&r. It's been plaguing miners in the &6Overworld&r for many centuries. "
+				""
+				"Now that you are much more powerful, you &2should be able to stop it&r, and hopefully &2gain more power&r!"
+				""
+				"&dVoid Blossom&r has &875 flat Physical Damage&r converted to &dChaos Damage&r."
+				""
+				"&5&oVoid Blossom will start at level 55.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "0BBD91D8455C1E1A"
+			shape: "gear"
+			tasks: [{
+				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "027DAF43258EA75C"
+				type: "advancement"
+			}]
+			title: "Defeat the Void Blossom"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"626202CAFA33890B"
+				"3F7CE22F62C37F50"
+			]
+			description: [
+				"As the &2boss falls to the ground&r; &4purple void energy shoots&r from it's corpse, &4flooding your body&r with an unknown amount of &eVoid Energy&r. "
+				""
+				"Ooops?"
+			]
+			icon: "kubejs:p3_asc"
+			id: "658A7EFAE367F2F9"
+			rewards: [{
+				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				icon: "kubejs:p3_asc"
+				id: "7F64F489726F8C9F"
+				title: "+1 Ascendancy Point"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "574C1C3535849C2B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "+1 Ascendancy Point"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"31640691D0B16C27"
+				"0BBD91D8455C1E1A"
+			]
+			description: [
+				"The &dMiners Guild&r thanks you for your service and &2sent you a purple orb of some sort&r. "
+				""
+				"You realize that your &4hands are still slippery&r due to your &4gloves causing sweaty hands&r. You &4drop the orb, it shatters&r in front of you. "
+				""
+				"You immediately &2feel a surge of power course through you&r. As your vision comes back, you &4see a beam of purple energy&r firing into you, slowly fading out."
+				""
+				"Hopefully you &4don't turn into some kind of void beast&r."
+			]
+			icon: "kubejs:p3_asc"
+			id: "262789E7EE7A7C35"
+			rewards: [{
+				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				icon: "kubejs:p3_asc"
+				id: "609D537FC439EC91"
+				title: "+1 Ascendancy Point"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0BAFAB8D339A408E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "+1 Ascendancy Point"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6966D91FA5027C12"]
+			description: ["This membership awards you &e1 Ascendancy Point&r. "]
+			icon: "kubejs:p3_asc"
+			id: "1C3E877C2452D7D2"
+			rewards: [{
+				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				icon: "kubejs:p3_asc"
+				id: "06172B922D080638"
+				title: "+1 Ascendancy Point"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1E663EEEA9444DA3"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "+1 Ascendancy Point"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F32D3058F4252A9"]
+			description: [
+				"Well, the &dGaia Guardian&r wasn't exaclty a genie, More like a &4hyper aggressive boss monster&r&l.."
+				""
+				"You &4can barely breathe&r, but you &2managed to overpower the guardian&r."
+			]
+			icon: "kubejs:p3_asc"
+			id: "0F6A019DDF84CB5A"
+			rewards: [{
+				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				icon: "kubejs:p3_asc"
+				id: "68CC71103F21B979"
+				title: "+1 Ascendancy Point"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7E2A89D760CBBA36"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "+1 Ascendancy Point"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ECF02F06B62281E"]
+			description: [
+				"After creating an &2infinite amount of chocolate&r, you went into a &4short diabetic coma&r from too much consumption of chocolate. "
+				""
+				"In your coma, you are &2visited by a chocolate bunny&r who &2bestowed some of it's power into you&r, to aide in your recovery."
+				""
+				"Orrr...... &4maybe you're just&r having some &eVoid Sickness&r."
+			]
+			icon: "kubejs:p3_asc"
+			id: "4D618E37E7437C9E"
+			rewards: [{
+				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				icon: "kubejs:p3_asc"
+				id: "29ED6E3803905FBA"
+				title: "+1 Ascendancy Point"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "00C588ED392B3C0A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "+1 Ascendancy Point"
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Once a guardian of &6Everbright&r, has unfortunately &4succumbed to void poisoning&r; as the many years of &eVoid Energy&r finally &4corrupted&r the &dStarlit Crusher&r. "
+				""
+				"The denizens of &6Everbright&r would like for you to help &2put their guardian at rest&r. "
+				""
+				"Find the &eNature Dungeon&r, complete it's &24 floors&r, attain the &3key&r on each floor, and challenge the &dStarlit Crusher&r."
+				""
+				"&dStarlit Crusher&r has &850 flat Physical Damage&r converted to &9Water Damage&r."
+				""
+				"&5&oStarlit Crusher will start at level 55.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "166E456491DCCA1F"
+			shape: "gear"
+			tasks: [{
+				advancement: "blue_skies:everbright/kill_starlit_crusher"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "66E0B871EA5C2FE8"
+				type: "advancement"
+			}]
+			title: "Defeat Starlit Crusader"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&6Everdawn&r has become &4infested by spiders&r. "
+				""
+				"They are being birthed by &dArachnarch&r. "
+				""
+				"Denizens of the area have requested that you &2take out this foul beast&r. "
+				""
+				"Find the &ePoison Dungeon&r, complete it's &24 floors&r, attain the &3key&r on each floor, and challenge &dArachnarch&r."
+				""
+				"&dArachnarch&r has &850 flat Physical Damage&r converted to &dChaos Damage&r, and &725% Dodge&r."
+				""
+				"&5&oArachnarch will start at level 55.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "05B18C5ACD173767"
+			shape: "gear"
+			tasks: [{
+				advancement: "blue_skies:everdawn/kill_arachnarch"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "43C03A1A176B1358"
+				type: "advancement"
+			}]
+			title: "Defeat Arachnarch"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"166E456491DCCA1F"
+				"05B18C5ACD173767"
+			]
+			description: [
+				"Thanks to you &6Everbright&r and &6Everdawn&r are completely safe. "
+				""
+				"This makes you &2feel really good about yourself&r. You didn't even &4ask for a reward&r, and they didn't give you one!"
+				""
+				"Because of &2your selfeless act&r, you are bestowed &e1 Ascendancy Point&r from &dThe God of Cats&r."
+			]
+			icon: "kubejs:p3_asc"
+			id: "5F897E7A4F68E851"
+			rewards: [{
+				command: "/mine_and_slash points give @p ASCENDANCY 2"
+				icon: "kubejs:p3_asc"
+				id: "1236CAE8CF067655"
+				title: "+2 Ascendancy Points"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2BCD0A6CC6621DC5"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "+2 Ascendancy Points"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DA207BFBD992F48"]
+			description: [
+				"&dIgnis&r is considered one of the &4most challenging bosses&r in the &6Cataclysm&r mod. "
+				""
+				"This boss will take you through &23 phases&r."
+				""
+				"If the &4boss hits you, it will return HP to itself&r and apply a &4debuff that reduces your armor&r. "
+				""
+				"During the 3 phases, &dIgnis&r will &4launch Fireballs&r at you which is &2fairly easy to dodge&r, it will also &4jab at you with a jousting attack&r, and there will be &4multiple shockwave attacks that can pull you in.&r "
+				""
+				"During Phase 3 &dIgnis&r will &4increase the frequency of his attacks&r, as well as &2drop his shield&r; leaving him &2exposed to ranged attacks&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "43E85CFC6F729404"
+			tasks: [{
+				id: "0D65B0468947408C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Strategy For Ignis"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "64A014908D3585BF"
+			tasks: [{
+				id: "772CE2CFD7E38F70"
+				item: "pamhc2foodcore:chocolatebaritem"
+				type: "item"
+			}]
+			title: "Step Into a World of Pure Imagination"
+			x: -13.0d
+			y: 4.5d
+		}
+	]
+	title: "Ascendancy"
+}

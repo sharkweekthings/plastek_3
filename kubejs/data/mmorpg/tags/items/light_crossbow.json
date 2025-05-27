@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id": "rpgsmw:stone_one_handed_crossbow", "required": false},
+    {"id": "rpgsmw:copper_one_handed_crossbow", "required": false},
+    {"id": "rpgsmw:iron_one_handed_crossbow", "required": false},
+    {"id": "rpgsmw:steel_one_handed_crossbow", "required": false},
+    {"id": "rpgsmw:diamond_one_handed_crossbow", "required": false},
+    {"id": "rpgsmw:miphril_one_handed_crossbow", "required": false},
+    {"id": "rpgsmw:netherite_one_handed_crossbow", "required": false},
+    {"id": "rpgsmw:nephris_one_handed_crossbow", "required": false}
+  ]
+}

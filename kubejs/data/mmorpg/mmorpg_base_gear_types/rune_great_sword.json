@@ -1,0 +1,49 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 11.0,
+      "min": 5.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "great_sword",
+  "guid": "rune_great_sword",
+  "possible_items": [
+    {
+      "item_id": "roe_weapons:greatsword_6",
+      "min_rar": "runeword",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:emerald_broadsword",
+      "min_rar": "runeword",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:emerald_claymore",
+      "min_rar": "runeword",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.15,
+      "intelligence": 0.15
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "strength",
+      "great_sword",
+      "rune",
+      "melee_weapon",
+      "mage_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "rune_great_sword",
+  "weight": 1000
+}

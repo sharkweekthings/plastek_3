@@ -1,0 +1,50 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 13.0,
+      "min": 7.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 2.0,
+      "stat": "block_chance"
+    }
+  ],
+  "gear_slot": "rune_shield_large",
+  "guid": "rune_shield_large",
+  "possible_items": [
+    {
+      "item_id": "roe_weapons:tower_shield_6",
+      "min_rar": "runeword",
+      "weight": 300
+    },
+    {
+      "item_id": "better_weaponry:emerald_shield",
+      "min_rar": "runeword",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.15,
+      "intelligence": 0.15
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "shield",
+      "shield_large",
+      "rune",
+      "strength",
+      "offhand_family",
+      "armor_stat"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

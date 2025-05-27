@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "roe_weapons:tome_0", "required": false},
+    {"id": "roe_weapons:tome_1", "required": false},
+    {"id": "roe_weapons:tome_2", "required": false},
+    {"id": "roe_weapons:tome_3", "required": false},
+    {"id": "roe_weapons:tome_4", "required": false},
+    {"id": "roe_weapons:tome_5", "required": false},
+    {"id": "roe_weapons:tome_6", "required": false},
+    {"id": "roe_weapons:tome_7", "required": false},
+    {"id": "roe_weapons:cursed_tome", "required": false},
+
+    {"id": "fabledweaponry:tome_leather", "required": false},
+    {"id": "fabledweaponry:tome_iron", "required": false},
+    {"id": "fabledweaponry:tome_gold", "required": false},
+    {"id": "fabledweaponry:tome_diamond", "required": false},
+    {"id": "fabledweaponry:tome_netherite", "required": false}
+  ]
+}

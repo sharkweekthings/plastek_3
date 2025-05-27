@@ -1,0 +1,1644 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_i"
+	group: "1F979D7131BCCB17"
+	icon: {
+		Count: 1
+		id: "minecraft:nether_star"
+		tag: { }
+	}
+	id: "2B55AE528683FD7E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Your village was &4ransacked by Barbarians&r while all of the Warriors were out hunting. "
+				""
+				"Luckily, you were out researching the cause of the recent &2celestial shifts in the moon&r, so you didn't take witness to the slaughter. "
+				""
+				"Upon arriving back in your village, you notice your friend on the ground moving slowly and rush over to help them. As you go to reach your hand out to their shoulder, you hear a groaning noise, as they slowly turn around, their &4jaw dislocated from their face, and their eyes cold&r. "
+				""
+				"&4The dead have risen again!&r"
+				""
+				"As you back up and look off into the distance, &2you witness an eerie purple glow slowly engulfing your village&r. Out of the haze comes dozens more villagers that were recently turned, slowly walking toward you. You are &4forced to flee the cursed village&r, so you run for hundreds of blocks until you're out of energy and pass out...."
+				""
+				"Luckily, you passed out near a village, and some of the &2villagers were out foraging and helped you back to their community&r."
+				""
+				"You &2find yourself in a fascinating town&r, like the ones you read about in stories. With the large gears moving and structures taller than you've ever seen. You're &2awestruck by your surroundings&r, &4almost forgetting the horrors you just witnessed&r."
+				""
+				"As you're looking around the town, a villager lets you know that &2the community leader wants to speak with you&r. They point you in the direction you need to go."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "35042D2E8A921FF8"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
+				id: "35220BBF3260FB25"
+				title: "200 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "357C361B5A40176A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "New Beginnings"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35042D2E8A921FF8"]
+			description: [
+				"You spoke with the village leader whose name is &dRyan Vermillionson&r. "
+				""
+				"He informed you that &2one of the medics found you&r, and brought you back to the village. He told you the story of how the &2village of Shyran Peaks&r came to be."
+				""
+				"He lets you know that &2you can stay in the village for as long as you need&r, but does &2require that you do some work&r to help out around the town. "
+				""
+				"&2You're given what looks to be more of a stick than an actual weapon&r -- but you thank him anyways, and let him know that you will &2help clear out the zombies&r..."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "3F18B971B4E3F6AD"
+			rewards: [
+				{
+					id: "5B94B63538FB16A4"
+					item: {
+						Count: 1
+						id: "better_weaponry:wooden_dagger"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":5},\"imp\":{\"p\":1,\"imp\":\"assassin_dagger\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":7,\"id\":\"wep_item_both\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":1,\"gtype\":\"dagger\"}"
+							mmorpg_potential: "{\"potential\":5}"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @p 200"
+					icon: "kubejs:p3_xp"
+					id: "2E21A57FF23908E0"
+					title: "200 Experience Points"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2184AF2711ADD7EF"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Awakened"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F18B971B4E3F6AD"]
+			description: [
+				"The &4undead have started to arise all over&r the world. "
+				""
+				"&dRyan&r wants you to &2help out the village by killing 5 Zombies&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "61563D99394AE671"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
+				id: "09E88A1070AFF56C"
+				title: "200 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "40633127B589AF57"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Zombie Cleanup Crew"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F18B971B4E3F6AD"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "1088AFC04181D210"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 250"
+				icon: "kubejs:p3_xp"
+				id: "4DA636A916CFDC2F"
+				title: "250 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "271C15CB8977B04F"
+				type: "kill"
+				value: 3L
+			}]
+			title: "An Explosive Bonus"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F18B971B4E3F6AD"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "40C137454D3DEF35"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 250"
+				icon: "kubejs:p3_xp"
+				id: "39731C6EC48120D9"
+				title: "250 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "2333FB688587A08E"
+				type: "kill"
+				value: 2L
+			}]
+			title: "An Elusive Bonus"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61563D99394AE671"]
+			description: [
+				"&dRyan&r and the town is extremely grateful for your help. "
+				""
+				"They know the worst of it is yet to come. However, tonight -- &2they threw a feast in your honor&r. A new friend, and ally to the town. "
+				""
+				"&oAt some point during the night you decide to stuff a few apetizers into your pockets while nobody was looking.&r "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "22C75020F2564783"
+			rewards: [
+				{
+					id: "68C444ED109D049D"
+					item: {
+						Count: 1
+						id: "pamhc2foodextended:ceasarsaladitem"
+						tag: { }
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "7C2C3D1C155D5AB4"
+					item: {
+						Count: 1
+						id: "pamhc2foodextended:gravyitem"
+						tag: { }
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "5FF8F79C8F58884E"
+					item: {
+						Count: 1
+						id: "pamhc2foodextended:scallionbakedpotatoitem"
+						tag: { }
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4B75C1A03E1EB7FC"
+					item: {
+						Count: 1
+						id: "pamhc2foodcore:fruitpunchitem"
+						tag: { }
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "06CE660F2FF70D44"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Hey, Thanks!"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22C75020F2564783"]
+			description: [
+				"The next morning &dRyan&r asks for your &2help once again&r. "
+				""
+				"This time he's needing you to &4go to a much more dangerous place&r, a place not of this realm. "
+				""
+				"He explains that many years ago when the Chaos Dragon was defeated, and the &2purple energy was blasted into the End; it disrupted the balance of reality, causing a weakness in the boundary that separates our world from many other worlds&r. There used to be only a few various dimensions, and even &2some dimensions that used to be accessible, but have been lost to time during the Plastimpocalypse&r. "
+				""
+				"You wonder how he knows this, but you don't really question it."
+				""
+				"He's asking that you travel into the &6Toybox&r, and retrieve some items that will aide him in a project that's being worked on. He &2promises to share the tech with you&r; assuming you can get whats needed."
+				""
+				"There have been &4rumors that the toys inside have started to come alive&r. Surely this has something to do with the events that caused your village to perish. Wanting to know more, you take up the challenge. "
+				""
+				"You're going to need at least &310 Red Concrete&r, setup in the shape of a basic &9Nether Portal&r. You'll need to craft an item called a \"&3Toybox&r\" to light the portal. "
+				""
+				"&5&oThe monsters inside Toybox will start at level 10&r&r."
+			]
+			id: "531D0D2C3FB0F966"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
+				id: "0A4EF86EEA6AC6D0"
+				title: "200 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 10L
+					id: "2442092BC607CDC8"
+					item: {
+						Count: 1
+						id: "minecraft:red_concrete"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "558B66B37159B120"
+					item: {
+						Count: 1
+						id: "toybox:toybox"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Entry Into the Toybox"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["531D0D2C3FB0F966"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "08EF1FCBD5EE830D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 350"
+				icon: "kubejs:p3_xp"
+				id: "3E9193166F42E498"
+				title: "350 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "toybox:walking_wooden_bricks"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "0AB2D872302FA422"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "toybox:toy_tank"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "561CED23124C5AAB"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "toybox:tin_robot"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "18E812F47DA4348B"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Plastic Soldiers"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["531D0D2C3FB0F966"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "015D3A4DD99A2031"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				icon: "kubejs:p3_xp"
+				id: "6A3ACE7D8C629A87"
+				title: "300 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "toybox:doll"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "5EC3FAF4B1C1A251"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "toybox:faceless_doll"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "2F2D024CB75AB0CE"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Don't Mess With Annabelle?"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["531D0D2C3FB0F966"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "3AC0581900A27CF5"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				icon: "kubejs:p3_xp"
+				id: "0F72B153DF1DA77B"
+				title: "300 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "toybox:teddy"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "4F0A6F3682C2769E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Unbearable"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["531D0D2C3FB0F966"]
+			description: [
+				"You were told that &2many of the toys will have a&r &3Rubix Cube&r on them.  "
+				""
+				"To get the instructions for solving the &3Rubix Cube&r, you'll need to &2get lucky with the Dice game&r.  Take out enemies in the area until you get a Dice. Then you can &2look for the Game Post structure&r."
+				""
+				"Place the &3Dice&r in the middle of the structure, &2retrieve it with a pick axe, and repeat 3 times&r. If you don't get the instructions, you'll need to find another Game Post structure. "
+				""
+				"Craft the &3Rubix Cube&r and the &3Instructions&r together to get a &3Solved Rubix Cube&r. "
+			]
+			id: "24D670162910F39E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 250"
+				icon: "kubejs:p3_xp"
+				id: "02D2D718B3576F90"
+				title: "250 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "6D5DF8CD62CC5A64"
+					item: {
+						Count: 1
+						id: "toybox:rubix_cube"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "21125E044560141C"
+					item: {
+						Count: 1
+						id: "toybox:puzzle_solving_instructions"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Solving The Puzzle"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24D670162910F39E"]
+			description: [
+				"With your &3Solved Rubix Cube&r, you'll need to find a &9Circus&r."
+				""
+				"Inside the middle of the circus will be the \"&9Clown Altar&r\".  Clear off the &3White Carpet&r, and click the &3Solved Rubix Cube&r onto the &9altar&r. "
+				""
+				"This will summon &dBonk the Clown&r, a &4demon clown who rules over the Toybox&r. "
+				""
+				"Defeat &dBonk&r, claim his shiny &3Red Nose&r. The &3Red Nose&r is the key to creating the item that &dRyan&r needs."
+				""
+				"&dBonk&r has &850 flat Physical Damage&r converted to &9Water Damage&r."
+				""
+				"&5&oBonk will start at level 15&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "6D0A6B342D53A353"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2000"
+					icon: "kubejs:p3_xp"
+					id: "0B9C6B3F23E36A1B"
+					title: "2000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "3A785FBBB47052C3"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Boss Fight"
+			tasks: [{
+				entity: "toybox:bonk"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "44018A98B187C9CD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Bonk the Clown"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23F4CCBC3A3CC571"]
+			description: [
+				"You hand the &3Vortex of Fun&r over to &dRyan&r. "
+				""
+				"You watch as he walks over to his machine, and starts to make beeping and booping noises with his mouth. "
+				""
+				"Something seems off, but he proceeds to walk back with a square plate like piece of tech. "
+				""
+				"You question what he hands you -- as he explains: "
+				""
+				"This device is a &9Transmutation Table&r. &2Any item that has&r \"&eEMC&r\" &2on the Tooltip can be placed inside of the device&r. Valid items are assigned EMC based on their difficulty. As long as you have items in your &9Transmutation Table&r, you should have EMC. The more items you put in, the more EMC you will have. "
+				""
+				"Lets say you have &31 Iron Ingot&r worth &e256 EMC&r. You put that into your &9Transmutation Table&r, and with the other items you have in there - you have an accumulative total of &e45,646 EMC&r. Using that EMC as 'currency' you can actually withdrawl around &3178 Iron Ingots&r."
+			]
+			id: "4915AF0A4FCA28C4"
+			rewards: [
+				{
+					id: "2B5D4CB14004A449"
+					item: {
+						Count: 1
+						id: "projecte:transmutation_table"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "444138C49F673510"
+					item: "kubejs:infused_nether_stone"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "73C6577C10B21DF7"
+				item: {
+					Count: 1
+					id: "toybox:vortex_of_fun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "It Does What..?"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"531D0D2C3FB0F966"
+				"6D0A6B342D53A353"
+			]
+			description: [
+				"Upon returning to &dRyan&r, he lets you know that there is &2a few more items that are needed&r. However, you should have all, if not most of them from your time in the &6Toybox&r. "
+				""
+				"We're needing to craft a &3Vortex of Fun&r, which should in theory be the final piece to &dRyan's&r latest invention. "
+				""
+				"If you &2don't have all of the items you need, you'll need to head back&r to the &6Toybox&r and get what you need. "
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "23F4CCBC3A3CC571"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				icon: "kubejs:p3_xp"
+				id: "29EECF98D3ABCE3C"
+				title: "300 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3FCE247505CE78F2"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "A Triumphant Return"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4915AF0A4FCA28C4"]
+			description: [
+				"After handing over the device, &dRyan&r admits that he was &2hoping you would test the device out&r on an &3Infused Nether Stone&r that he found. "
+				""
+				"If you could &2replicate enough blocks to get into the Nether&r, you might be able to &2find some Soul Sand and Wither Skeletons&r. He said that he needs some to be able to &2summon something called a \"Wither\"&r, which will drop an important item needed for his next project."
+				""
+				"Using the &3Infused Nether Stone&r, build a &9Nether Portal&r and light it with &3Flint and Steel&r. "
+				""
+				"&5&oThe monsters inside The Nether will start at level 15.&r&r"
+			]
+			id: "1E96DBB3286A736F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 350"
+				icon: "kubejs:p3_xp"
+				id: "7F6E47482021806E"
+				title: "350 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 10L
+					id: "7D6A93335DCF9ADF"
+					item: "kubejs:infused_nether_stone"
+					type: "item"
+				}
+				{
+					id: "70170F68D1F9DA8C"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Entry Into the Nether"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E96DBB3286A736F"]
+			description: [
+				"&dRyan&r mentioned that the &cPiglin&r of the &6Nether&r may have more information on where to find a &eNether Fortress&r. "
+				""
+				"He said that I should probably rough a few up if they won't talk. "
+				""
+				"You begin to suspect that &dRyan&r may not have your best intentions at heart. "
+				""
+				"You rough up a few of the &cPiglin&r, and eventually decide to give one a &3Gold Ingot&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "323B6BECF06EC7A1"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 400"
+				icon: "kubejs:p3_xp"
+				id: "0E0E84AFB37DD62B"
+				title: "400 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "2D33876C67D31CD7"
+					type: "kill"
+					value: 10L
+				}
+				{
+					consume_items: true
+					id: "17E9DEE252C4AB88"
+					item: {
+						Count: 1
+						id: "minecraft:gold_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Don't Make Me Turn You Into Bacon!"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E96DBB3286A736F"]
+			description: [
+				"Luckily, a &cPiglin&r bribed with a &3gold&r never lies. "
+				""
+				"The &eNether Fortress&r was right where she said it would be."
+			]
+			id: "47AFBCC9706D5A4E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "28D2C8A5FE3CEBC7"
+				title: "500 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "5DCADADD33A4EE42"
+				type: "advancement"
+			}]
+			title: "The Nether Fortress"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E96DBB3286A736F"]
+			description: ["You just needed &31 Blaze Rod&r, but decided to eliminate a few extra &cBlaze&r for good measure."]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "696103BCE53FF152"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 600"
+				icon: "kubejs:p3_xp"
+				id: "769FB3153DFBB494"
+				title: "600 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "268F984283EAECA9"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Too Hot To Handle"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E96DBB3286A736F"]
+			description: ["He said that we're going to need &33 Wither Skeleton Skulls&r for the process. "]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "3704E2607CFD1C4B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 600"
+				icon: "kubejs:p3_xp"
+				id: "28930CED8D85C2EB"
+				title: "600 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "25A37560AE37AA9F"
+					type: "kill"
+					value: 15L
+				}
+				{
+					count: 3L
+					id: "5CD7ACB4B8542746"
+					item: {
+						Count: 1
+						id: "minecraft:wither_skeleton_skull"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "3 Heads Are Better Than None"
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E96DBB3286A736F"]
+			description: ["Hulking monstrosities of delicious meat."]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "61F88611B965C4EA"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 400"
+				icon: "kubejs:p3_xp"
+				id: "30E89F9A3B08AB8A"
+				title: "400 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "3791D199BC1535C6"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Big Enough For a Holiday Ham"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E96DBB3286A736F"]
+			description: [
+				"These passive mobs mean you no harm. "
+				""
+				"However.... One looked at you funny, so you decided to take a few out."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "7369CE683B8BD25A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 400"
+				icon: "kubejs:p3_xp"
+				id: "4F9AA4B7B9042EF0"
+				title: "400 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "62FD675AF1D4C3DA"
+				type: "kill"
+				value: 10L
+			}]
+			title: "This Meat Is Past It's Prime"
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E96DBB3286A736F"]
+			description: [
+				"&dRyan&r said something about &2making a tea with the&r &2Soul Sand&r. "
+				""
+				"You're pretty sure that you don't want to drink this stuff, and if he tries to make you, you will likely decline."
+			]
+			id: "2CFEE8CC55216682"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 600"
+				icon: "kubejs:p3_xp"
+				id: "623877896831F230"
+				title: "600 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 4L
+				id: "3297AF43733077C5"
+				item: {
+					Count: 1
+					id: "minecraft:soul_sand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Sand of the Damned"
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3704E2607CFD1C4B"]
+			description: [
+				"Defeating the &dWither&r will grant you the &3Nether Star&r that &dRyan&r was looking for."
+				""
+				"&oYou now have a better understanding of what &dRyan&r &2meant when he said T&r.&r"
+				""
+				"&dThe Wither&r has &850 flat Physical Damage&r converted to &5Chaos Damage&r."
+				""
+				"&5&oThe Wither will start at level 20&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "09C89272A29EFB01"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "5431F63B1A34EE61"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "Boss Fight"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "181789DE7F3D5987"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a Wither"
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1E96DBB3286A736F"
+				"09C89272A29EFB01"
+			]
+			description: [
+				"You hand &dRyan&r the &3Nether Star&r. "
+				""
+				"He takes the &3Nether Star&r over to his machine where you can hear him vocally letting out a grinding noise, then you see him make a crushing noise, followed by a beep blip beep sound. "
+				""
+				"You look dumbfounded as you watch him do this. "
+				""
+				"He walks back over to you and hands you &32 Nether Star Shards&r, and an item called a &9Waystone&r. "
+				""
+				"He lets you know that he had to crush up the &3Nether Star&r in his machine, which only returned &33 shards&r. Though, the device he was wanting to make was a the &9Waystone&r, which will let you travel to other Waystones you might have located in the world. "
+				""
+				"This time, you let him know that you saw him making the noises with his mouth, and you were curious what he was doing. "
+				""
+				"He looks you dead in the eye, and with a straight face says \"No, that was my machine. See, here?\" as he places a piece of &3Stone&r in the machine, and proceeds to make the same crushing, grinding, and beeping sequence as before. "
+				""
+				"He asks if you were interested in any &3Gravel&r, and for some reason, you accept..."
+			]
+			id: "7D14DC69052ECEAA"
+			rewards: [
+				{
+					count: 2
+					id: "59202E0A7B9B2FF4"
+					item: {
+						Count: 1
+						id: "mysticalagradditions:nether_star_shard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4DFBE218AF0CE440"
+					item: {
+						Count: 1
+						id: "waystones:waystone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1BE2D5EA468C0A47"
+					item: {
+						Count: 1
+						id: "minecraft:suspicious_gravel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "17FC07BC0D4A2469"
+				item: {
+					Count: 1
+					id: "minecraft:nether_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Nether Star"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D14DC69052ECEAA"]
+			description: [
+				"Intrigued, and honestly quite scared -- you are inspired by &dRyan&r, his village, and the technology. "
+				""
+				"You thank &dRyan&r for the hospitality that the town bestowed, and for saving your life. You let them know that they've inspired you to &2go forth and try to rebuild a village&r."
+				""
+				"You bid your farewells, as you wave goodbye to the fascinating town, and it's people. "
+				""
+				"You could always put a &9Waystone&r in the town, but you're unsure if you want to visit again. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "2A82C1CC3BE1763A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				icon: "kubejs:p3_xp"
+				id: "37CF3477F9344917"
+				title: "800 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1DC42E63CA598023"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Inspiration"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A82C1CC3BE1763A"]
+			description: [
+				"In this pack &6MineColonies&r is only partially required. While it's &2encouraged to play the whole mod&r, to progress in the pack &2you only need to do the following&r:"
+				""
+				"Place the &9Town Hall&r"
+				"Build a &9Builder's Hut&r"
+				"Build a &eTavern&r"
+				""
+				"After that, &2MineColonies will be a Side Quest&r if you wish to ignore it. &6Mine and Slash&r &2rewards will be granted for going through the quest series&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "7B91BD993D902FFE"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 700"
+				icon: "kubejs:p3_xp"
+				id: "64F2E977436BA49E"
+				title: "700 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "2376D40F19C9ABF0"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "A New Colony"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B91BD993D902FFE"]
+			description: [
+				"You found the perfect location for your colony!"
+				""
+				"Just select your preferred Supply Camp or Ship, depending if you want your colony to thrive in the ocean, or on the land. It &2doesn't really matter where you place it as it doesn't have any bearing on your Town&r. "
+				""
+				"&2Rummage through the chests until you find your Town Hall and a Build Tool&r, and place the Town Hall with your Build Tool."
+				""
+				"&6MineColonies&r villages &2can take up a huge portion of land&r, so it's best to &2find a place you can expand on&r."
+				""
+				"Tip: When you click to place your structure and the MineColonies UI comes up that allows you to adjust your building, you can &2tap 'Esc' to back your character up and get a better view of the structure sample&r.  Then you can &2use the on screen Arrow UI to adjust the placement of your structure&r. This will &2apply to the&r &3Build Tool&r as well when you start using it."
+			]
+			id: "725586269FDA5525"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 700"
+				icon: "kubejs:p3_xp"
+				id: "4AEC06B08671D080"
+				title: "700 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/root"
+				criterion: ""
+				id: "6A5D81B06EDC5D11"
+				type: "advancement"
+			}]
+			title: "By Land or By Sea"
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["725586269FDA5525"]
+			description: [
+				"The &9Town Hall&r will be considered the center of your colony. &2The more buildings you place, and upgrade the larger your colony area will be&r."
+				""
+				"Be sure to &2select the style of your town before actually placing the Town Hall&r!"
+				""
+				"If you're using the &3Build Too&rl, you can find the &9Town Hall&r under '&eFundamentals&r'."
+			]
+			id: "3D43ED615FAFBF0C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 700"
+				icon: "kubejs:p3_xp"
+				id: "625223AB16E465EC"
+				title: "700 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "0C5A9759EC6C5DBD"
+					item: {
+						Count: 1
+						id: "structurize:sceptergold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					advancement: "minecolonies:minecolonies/place_townhall"
+					criterion: ""
+					id: "403BD93DB5CADEC6"
+					type: "advancement"
+				}
+			]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D43ED615FAFBF0C"]
+			description: [
+				"Now that you have a &eTavern&r built -- you'll be able to &2get information from the villagers, or visitors&r. "
+				""
+				"One night you found a villagers glass eye on the floor of the &eTavern&r. "
+				""
+				"You're not sure why, but you have a feeling that &2this might be an important item&r. You decide to &4not return it to the villager&r, to justify this, you just tell yourself that the villager passed away in a recent raid."
+				""
+				"If you wish to continue with &6MineColonies&r, you can go through the quest line under '&eSuper Side Quests&r'."
+			]
+			id: "3BF749C81871D375"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 800"
+					icon: "kubejs:p3_xp"
+					id: "33647146C5355C9A"
+					title: "800 Experience Points"
+					type: "command"
+				}
+				{
+					id: "30CBAF64E5015DE2"
+					item: {
+						Count: 1
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				advancement: "minecolonies:minecolonies/build_tavern"
+				criterion: ""
+				id: "43FEDE732AAA5644"
+				type: "advancement"
+			}]
+			title: "I Think I'll Have That Ale, Now"
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3BF749C81871D375"]
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "308AE43ABFF067B4"
+			rewards: [{
+				id: "5B37680DCEDBD488"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "1310DF3070D497CB"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Colonist Eye Recovery"
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B91BD993D902FFE"]
+			description: [
+				"&2You feel great&r!"
+				""
+				"You set out to &2accomplish your goal&r, and people showed up. You were able to &2pay someone an extremely low wage&r to start building for you, and you aren't done yet. You're &2destined to employ many more folks at outrageously low wages&r."
+				""
+				"You decide to call it a day with a big smile on your face."
+				""
+				"As you drift off, &2you have a thought about Ryan, and what could have possessed him to make those beeping/crunching noises&r."
+				""
+				"&5&oFrom here you can continue with Act II!&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "013139457D6C5A3C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				icon: "kubejs:p3_xp"
+				id: "408C0758A3D04CF2"
+				title: "1000 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "26BBF6A0107D645A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "A Day In the Life"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4915AF0A4FCA28C4"]
+			description: ["If you take a &3brush&r to &3suspicious blocks&r; &2you might uncover something cool&r!"]
+			id: "416DDBECE6C483A3"
+			tasks: [{
+				id: "1FA0FC502557F84E"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22C75020F2564783"]
+			description: [
+				"Working through &6Create&r a little bit &2could prove to be useful&r. For now you would just &2need a little Rotational Power and an Encased Fan&r. "
+				""
+				"While &6Create&r is &2not a requirement for this pack&r, it will have &2recipes that can make things easier&r. "
+			]
+			id: "02FE81FBE0B4EEBD"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 400"
+				icon: "kubejs:p3_xp"
+				id: "0BBBE00B8A640507"
+				title: "400 Experience Points"
+				type: "command"
+			}]
+			subtitle: "Create: Not Required"
+			tasks: [{
+				id: "3DA13611BEDCF93B"
+				item: {
+					Count: 1
+					id: "create:encased_fan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F18B971B4E3F6AD"]
+			description: ["If you prefer, you can just get some normal Vanilla tools. "]
+			id: "046DB8D3AA2E72F0"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
+				id: "62550694445B4E2C"
+				title: "200 Experience Points"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "68F1E683DB5139C2"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C425025DB494B17"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Maybe I Should Get Some Tools"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F18B971B4E3F6AD"]
+			description: [
+				"&6Tinker's Construct&r will allow you to make some of the &2best Pickaxe, Axe, Shovel, and Hoe's&r. While &4Armor and Weapons can be made with Tinker's they still need to be converted into Mine and Slash gear&r to be effective. "
+				" "
+				"While &2some of the Tinker's effects may be active and work as expected&r, &4Mine and Slash overwrites many aspects of the game making many of the effects useless&r.  Because of this, think of &2Tinker's more as a way to craft an item you like aesthetically&r, and &2don't care too much about the materials going into the weapon&r. Do &4take some caution&r in making your armor and weapon though; as &4some of the negative effects of the various materials will still effect you&r. "
+				""
+				"&9The Smeltery&r will be a requirement &2by the end of the pack, but not by the end of the Act&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "601D9194F25B2FE7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
+				id: "7F3EA5DA0F79B56A"
+				title: "200 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
+			subtitle: "Tinker's Construct"
+			tasks: [{
+				id: "603B82AA8BF17274"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Maybe I Should Get Some Better Tools"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66B493CAB3AEA070"]
+			description: ["The &9Seared Melter&r is your starter multiblock. Eventually you'll want to make yourself a &9Smeltery&r, but you can probably get by on the &9Melter&r for a little bit. "]
+			id: "0A9958157E41AD97"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				icon: "kubejs:p3_xp"
+				id: "3AE7819341439EC2"
+				title: "300 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5A19D88C3B9E42F9"
+					item: {
+						Count: 1
+						id: "tconstruct:seared_melter"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "647F2A29F903B62E"
+					item: {
+						Count: 1
+						id: "tconstruct:seared_heater"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "22CE597C2B98696D"
+					item: {
+						Count: 1
+						id: "tconstruct:seared_faucet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66B493CAB3AEA070"]
+			description: ["Use the &9Basin&r to make &3Blocks&r out of your &2molten materials&r."]
+			id: "745B3DE2BAE81C78"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				icon: "kubejs:p3_xp"
+				id: "6C9A465E4133EE16"
+				title: "300 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				id: "098DC03DD9A4FECE"
+				item: {
+					Count: 1
+					id: "create:basin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66B493CAB3AEA070"]
+			description: ["It might be worth it to rush at least &31 Golden Ingot Cast&r. You will be able to &2double up on your ore to ingots&r, that means &2more EMC&r later on!"]
+			id: "237E1888E06BD8E6"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				icon: "kubejs:p3_xp"
+				id: "63704555BA5D1124"
+				title: "300 Experience Points"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "4EFD2EA3DB62E9B5"
+					item: {
+						Count: 1
+						id: "tconstruct:seared_table"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3B7F923FE6EFAE0D"
+					item: {
+						Count: 1
+						id: "tconstruct:ingot_cast"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A9958157E41AD97"]
+			description: ["To &2mix some alloys later on&r, you're going to need the &9Smeltery&r. "]
+			id: "389BBF67F5743022"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				icon: "kubejs:p3_xp"
+				id: "404078B682BF82CB"
+				title: "1000 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "68E824FEBDC15BDC"
+					item: {
+						Count: 1
+						id: "tconstruct:smeltery_controller"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6ABE9CEAF65EAE8F"
+					item: {
+						Count: 1
+						id: "tconstruct:seared_fuel_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "089C8A0D1DCDFE26"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:smeltery_bricks"
+						}
+					}
+					title: "Smeltery Bricks"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["601D9194F25B2FE7"]
+			id: "66B493CAB3AEA070"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				icon: "kubejs:p3_xp"
+				id: "0AE2E15671DAE1B1"
+				title: "300 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2A6C9375792DECCD"
+				item: {
+					Count: 1
+					id: "tconstruct:grout"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09C89272A29EFB01"]
+			icon: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54BA5FD3B9389E4D"
+			rewards: [{
+				id: "0AFAEB8FC95BB4EB"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "05D15310C4ECC54B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Nether Eye Recovery"
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6D0A6B342D53A353"]
+			icon: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0BE46333CA25B8E1"
+			rewards: [{
+				id: "781538C5EDFAA7B0"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "7C3A77369D755A96"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Possessed Action Figure Eye Recovery"
+			x: 7.0d
+			y: 4.5d
+		}
+	]
+	title: "Act I"
+}

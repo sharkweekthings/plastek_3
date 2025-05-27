@@ -1,0 +1,44 @@
+[
+  {
+    "mob": "born_in_chaos_v1:missioner",
+    "persecond": 0.01,
+    "conditions": {
+      "dimension": "blue_skies:everdawn",
+      "mindist": 25,
+      "maxdist": 75
+    }
+  },
+  {
+    "mob": "minecraft:witch",
+    "persecond": 0.01,
+    "conditions": {
+      "dimension": "blue_skies:everdawn",
+      "minheight": 70,
+      "maxheight" : 90,
+      "mindist": 25,
+      "maxdist": 75
+    }
+  },
+  {
+    "mob": "born_in_chaos_v1:bonescaller",
+    "persecond": 0.01,
+    "conditions": {
+      "dimension": "blue_skies:everbright",
+      "minheight": 70,
+      "maxheight" : 90,
+      "mindist": 25,
+      "maxdist": 75
+    }
+  },
+  {
+    "mob": "minecraft:witch",
+    "persecond": 0.01,
+    "conditions": {
+      "dimension": "blue_skies:everbright",
+      "minheight": 70,
+      "maxheight" : 90,
+      "mindist": 25,
+      "maxdist": 75
+    }
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 4.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "mace",
+  "guid": "mace",
+  "possible_items": [
+    {
+      "item_id": "roe_weapons:mace_0",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:wooden_flanged_mace",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wood_heavymace",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wood_morgenstern",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wood_chainmorgenstern",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:mace_1",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:stone_flanged_mace",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:stone_heavymace",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:stone_morgenstern",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:stone_chainmorgenstern",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:mace_2",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "born_in_chaos_v1:nut_hammer",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "born_in_chaos_v1:skullbreaker_hammer",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:iron_flanged_mace",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:iron_heavymace",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:iron_morgenstern",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:iron_chainmorgenstern",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:mace_3",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "born_in_chaos_v1:shell_mace",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:golden_flanged_mace",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gold_heavymace",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gold_morgenstern",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gold_chainmorgenstern",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:mace_4",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:diamond_flanged_mace",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:diamond_heavymace",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:diamond_morgenstern",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:diamond_chainmorgenstern",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "roe_weapons:mace_5",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:netherite_flanged_mace",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:netherite_heavymace",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:netherite_morgenstern",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:netherite_chainmorgenstern",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.4
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "strength",
+      "mace",
+      "melee_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "mace",
+  "weight": 1000
+}

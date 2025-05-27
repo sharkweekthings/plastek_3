@@ -1,0 +1,51 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "spartanweaponry:wooden_boomerang", "required": false},
+    {"id": "spartanweaponry:stone_boomerang", "required": false},
+    {"id": "spartanweaponry:copper_boomerang", "required": false},
+    {"id": "spartanweaponry:iron_boomerang", "required": false},
+    {"id": "spartanweaponry:golden_boomerang", "required": false},
+    {"id": "spartanweaponry:diamond_boomerang", "required": false},
+    {"id": "spartanweaponry:netherite_boomerang", "required": false},
+    {"id": "spartanweaponry:tin_boomerang", "required": false},
+    {"id": "spartanweaponry:bronze_boomerang", "required": false},
+    {"id": "spartanweaponry:steel_boomerang", "required": false},
+    {"id": "spartanweaponry:silver_boomerang", "required": false},
+    {"id": "spartanweaponry:electrum_boomerang", "required": false},
+    {"id": "spartanweaponry:lead_boomerang", "required": false},
+    {"id": "spartanweaponry:nickel_boomerang", "required": false},
+    {"id": "spartanweaponry:invar_boomerang", "required": false},
+    {"id": "spartanweaponry:constantan_boomerang", "required": false},
+    {"id": "spartanweaponry:platinum_boomerang", "required": false},
+    {"id": "spartanweaponry:aluminium_boomerang", "required": false},
+
+    {"id": "spartanskies:pyrope_boomerang", "required": false},
+    {"id": "spartanskies:aquite_boomerang", "required": false},
+    {"id": "spartanskies:diopside_boomerang", "required": false},
+    {"id": "spartanskies:charoite_boomerang", "required": false},
+    {"id": "spartanskies:horizonite_boomerang", "required": false},
+
+    {"id": "spartanundergarden:cloggrum_boomerang", "required": false},
+    {"id": "spartanundergarden:froststeel_boomerang", "required": false},
+    {"id": "spartanundergarden:utherium_boomerang", "required": false},
+    {"id": "spartanundergarden:forgotten_boomerang", "required": false},
+
+    {"id": "spartanfire:dragon_bone_boomerang", "required": false},
+    {"id": "spartanfire:flamed_dragon_bone_boomerang", "required": false},
+    {"id": "spartanfire:iced_dragon_bone_boomerang", "required": false},
+    {"id": "spartanfire:lightning_dragon_bone_boomerang", "required": false},
+    {"id": "spartanfire:desert_myrmex_chitin_boomerang", "required": false},
+    {"id": "spartanfire:jungle_myrmex_chitin_boomerang", "required": false},
+    {"id": "spartanfire:desert_myrmex_stinger_boomerang", "required": false},
+    {"id": "spartanfire:jungle_myrmex_stinger_boomerang", "required": false},
+    {"id": "spartanfire:fire_dragonsteel_boomerang", "required": false},
+    {"id": "spartanfire:ice_dragonsteel_boomerang", "required": false},
+    {"id": "spartanfire:lightning_dragonsteel_boomerang", "required": false},
+
+    {"id": "spartantwilight:ironwood_boomerang", "required": false},
+    {"id": "spartantwilight:steeleaf_boomerang", "required": false},
+    {"id": "spartantwilight:knightmetal_boomerang", "required": false},
+    {"id": "spartantwilight:fiery_boomerang", "required": false}
+  ]
+}

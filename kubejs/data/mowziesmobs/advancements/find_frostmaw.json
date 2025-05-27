@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "translate": "Find a Frostmaw",
+            "color": "blue"
+        },
+        "description": {
+            "translate": "You found a Frostmaw. Odds are you probably want to run."
+        },
+        "icon": {
+            "item": "mowziesmobs:ice_crystal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mowziesmobs:frostmaw_spawn"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "mowziesmobs:root"
+}
+

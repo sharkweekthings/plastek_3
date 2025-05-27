@@ -1,0 +1,35 @@
+{
+  "gem_type": "opal",
+  "identifier": "opal1",
+  "item_id": "mmorpg:gems/opal/1",
+  "min_lvl_multi": 0.1,
+  "on_armor_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "dodge",
+      "v1": 10.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "roll_cooldown",
+      "v1": 0.4
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "projectile_damage",
+      "v1": 5.0
+    }
+  ],
+  "perc_upgrade_chance": 75,
+  "rar": "common",
+  "text_format": "GOLD",
+  "tier": 1,
+  "weight": 50000
+}

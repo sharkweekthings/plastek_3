@@ -1,0 +1,242 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "halberd",
+  "guid": "halberd",
+  "possible_items": [
+    {
+      "item_id": "divine_weaponry:wooden_glaive",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:wooden_glaive",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:wooden_halberd",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:wooden_glaive",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wood_lochaberaxe",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wood_concavehalberd",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wood_guisarme",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:stone_glaive",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:stone_glaive",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:stone_halberd",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:stone_glaive",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:stone_lochaberaxe",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:stone_concavehalberd",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:stone_guisarme",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:iron_glaive",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:iron_glaive",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:iron_halberd",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:iron_glaive",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:iron_lochaberaxe",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:iron_concavehalberd",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:iron_guisarme",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:golden_glaive",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:golden_glaive",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:golden_halberd",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:golden_glaive",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gold_lochaberaxe",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gold_concavehalberd",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gold_guisarme",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:diamond_glaive",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:diamond_glaive",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:diamond_halberd",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:diamond_glaive",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:diamond_lochaberaxe",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:diamond_concavehalberd",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:diamond_guisarme",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:netherite_glaive",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:netherite_glaive",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:netherite_halberd",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:netherite_glaive",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:netherite_lochaberaxe",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:netherite_concavehalberd",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:netherite_guisarme",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.8,
+      "dexterity": 0.4
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "strength",
+      "halberd",
+      "melee_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "halberd",
+  "weight": 1000
+}

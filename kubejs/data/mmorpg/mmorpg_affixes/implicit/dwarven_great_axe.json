@@ -1,0 +1,28 @@
+{
+  "type": "implicit",
+  "eye_aura_req": "",
+  "guid": "dwarven_great_axe",
+  "one_of_a_kind": "",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "great_axe"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 2.0,
+      "stat": "all_fire_damage"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,1090 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iv"
+	group: "1F979D7131BCCB17"
+	icon: {
+		Count: 1
+		id: "feywild:teleportation_orb"
+		tag: { }
+	}
+	id: "48A2481FFE016B71"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F33D8BC3ED7FA76"]
+			description: [
+				"It's been a few months and you've &2learned quite a bit&r about the &dCult of the Void&r."
+				""
+				"You &2knew&r their objective was to &2merge the soul of the Chaos Dragon to the recently reborn Ender Dragon&r. "
+				""
+				"However, due to a &4recent raid on your village&r, you found out that &dBarnaby&r and &dBueford&r were actually &2high up officials of the cult&r, and when you killed them -- you &2dealt the cult a deep blow&r and the &4other leaders have considered you an enemy&r. "
+				""
+				"You've &4tried to ask surrounding villages for help&r, but despite the threat being very real to them, they think if they stay out of it, they will be left alone. "
+				""
+				"One thing is for sure, &2you're going to need some help&r if you wish to go forward."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "7C59D5DBE8687558"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3000"
+				id: "5161306C91866457"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0A47A8674C5C1E5E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "We Need Help"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7C59D5DBE8687558"]
+			description: [
+				"&dShaun&r tells you a &2story about the reason he became a chef&r. Initially, he wanted to be a baker. As a child, he would give the &ePixies&r &3Cookies&r. He became quite &2good friends with the Pixies&r as they bonded over a variety of &3Cookies&r. As he grew older, he eventually became a chef, but still loves to bake &3Cookies&r."
+				""
+				"&dShaun&r &4hasn't been in contact&r with his &ePixie&r friends &4over the years&r, and &4isn't sure if the ones he knew still live&r. He does &2know that most Fey like cookies though&r, and it's a good place to start."
+				""
+				"&dShaun&r prepared a batch of &3Cookies&r for you incase you run into a &ePixie&r in the wild."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "624D30C106066ECE"
+			rewards: [{
+				count: 32
+				id: "5D1339B30E9EB24A"
+				item: {
+					Count: 1
+					id: "minecraft:cookie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5085FA954ABA2871"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "What a Delicious Surprise"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["624D30C106066ECE"]
+			description: [
+				"You shared the &3Cookies&r with a &aPixie&r. "
+				""
+				"The &aPixie&r tells you that the &aPixie&r community in the &6Overworld&r is pretty scarce, many of them &2escaped here to avoid war&r, &4others arrived here to cause mischief&r. &2Some still have a connection to Feywild&r, while &4others do not&r. "
+				""
+				"You tell the &aPixie&r your reasons for sharing such exquisite delicacies. "
+				""
+				"The Pixie proceeds to tell you that while she herself cannot help directly, she can tell you &2how to summon a &aPixie&r from&r &6Feywild&r. It's a &4very disruptive process&r; and while some &aPixie's&r are &2okay with it&r, &4others may be quite irritated&r. "
+				""
+				"You will likely need to &2earn the trust of the summoned&r &aPixie&r before they will help or listen to you. "
+				""
+				"In order to summon a &aPixie&r, you will need to craft a &9Fey Altar&r then create a &3Summoning Scroll&r using the altar. "
+				""
+				"Before creating the scroll though, she says that you will need to decide on &2which faction&r of &aPixie's&r you will &2align yourself with&r."
+			]
+			id: "35C71A8666770D89"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3000"
+				id: "267E38DF1385567F"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "feywild:feywild/fey_dust"
+				criterion: ""
+				id: "481C0B204EE81444"
+				type: "advancement"
+			}]
+			title: "Friends Enough"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["177E8457E2BB0F76"]
+			description: [
+				"Each &aPixie&r will have a &2series of 6 quests&r to complete, and &2ultimately&r get you the &2same rewards&r. "
+				""
+				"For this pack, all of the Pixie quests are effectively the same. However, If you wish to &2complete all of the Pixie quests in a single playthrough&r, you can use a &3Potion of Mandrake&r to &2unbind from the court&r."
+			]
+			id: "0ECE30D152BB18D8"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3500"
+				id: "4F7AD01A1E078B8E"
+				type: "command"
+			}]
+			shape: "square"
+			subtitle: "You only need to work on 1 faction."
+			tasks: [{
+				id: "61F5B69B4216282C"
+				item: {
+					Count: 1
+					id: "feywild:summoning_scroll_spring_pixie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["177E8457E2BB0F76"]
+			description: [
+				"Each &aPixie&r will have a &2series of 6 quests&r to complete, and &2ultimately&r get you the &2same rewards&r. "
+				""
+				"If you wish to &2complete all of the Pixie quests in a single playthrough&r, you can use a &3Potion of Mandrake&r to &2unbind from the court&r."
+			]
+			id: "626847570214D4E9"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3500"
+				id: "288928873B645CA9"
+				type: "command"
+			}]
+			shape: "square"
+			subtitle: "You only need to work on 1 faction."
+			tasks: [{
+				id: "3A3CE5D3474B8CFC"
+				item: {
+					Count: 1
+					id: "feywild:summoning_scroll_summer_pixie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["177E8457E2BB0F76"]
+			description: [
+				"Each &aPixie&r will have a &2series of 6 quests&r to complete, and &2ultimately&r get you the &2same rewards&r. "
+				""
+				"If you wish to &2complete all of the Pixie quests in a single playthrough&r, you can use a &3Potion of Mandrake&r to &2unbind from the court&r."
+			]
+			id: "4FD35B9E85573466"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3500"
+				id: "7AE224FEC14DE68F"
+				type: "command"
+			}]
+			shape: "square"
+			subtitle: "You only need to work on 1 faction."
+			tasks: [{
+				id: "465A40EC20AD1024"
+				item: {
+					Count: 1
+					id: "feywild:summoning_scroll_autumn_pixie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["177E8457E2BB0F76"]
+			description: [
+				"Each &aPixie&r will have a &2series of 6 quests&r to complete, and &2ultimately&r get you the &2same rewards&r. "
+				""
+				"If you wish to &2complete all of the Pixie quests in a single playthrough&r, you can use a &3Potion of Mandrake&r to &2unbind from the court&r."
+			]
+			id: "53BC8C07E88CECDD"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3500"
+				id: "0C3B2AC1A0488A13"
+				type: "command"
+			}]
+			shape: "square"
+			subtitle: "You only need to work on 1 faction."
+			tasks: [{
+				id: "566427048E131FE2"
+				item: {
+					Count: 1
+					id: "feywild:summoning_scroll_winter_pixie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["35C71A8666770D89"]
+			description: [
+				"It doesn't matter too much which &9Fey Altar&r you make. "
+				""
+				"You were told that &dQueen Titania&r used to be the Queen of all &eFae&r until the &eGreat War&r broke out &2over 5,000 years ago&r. Now those &2loyal&r to &dQueen Titania&r are the &2Autumn and Summer courts&r. &dQueen Mab&r reigns over &2Spring and Winter&r. The &dAutumn Court&r used to be &2neutral&r, and ruled by &dElder Ashe&r, but recently they &2joined forces&r with &dQueen Titania&r."
+			]
+			id: "177E8457E2BB0F76"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3000"
+				id: "41ECEE72E4E8135B"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "58A4C68496D5AD5C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "p3:fey_altar"
+					}
+				}
+				type: "item"
+			}]
+			title: "An Altar to the Fey"
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4FD35B9E85573466"
+				"0ECE30D152BB18D8"
+				"626847570214D4E9"
+				"53BC8C07E88CECDD"
+			]
+			description: [
+				"Now that you've &2formed a pact&r with a &aPixie&r and &2aligned yourself to one of their factions&r, you will need to &2work on their individual quests&r by speaking with them."
+				""
+				"Complete their tasks,&2 earn their trust&r, and hopefully they will grant you an &2audience with their&r &eQueen&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "38496C1692F8B3F2"
+			min_required_dependencies: 1
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3200"
+				id: "45B7BE08EA8E104D"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0AE18D72981E9499"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "A Pact Is Formed"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["54FA108603E8DBE3"]
+			description: [
+				"Leftover from an ancient civilization is the &dHarbinger&r. "
+				""
+				"A &4mechanical construct&r of gears, chips, and components. "
+				""
+				"&dThe Harbinger&r has &835 flat Physical Damage&r converted to &eLightning Damage&r and &825 Physical Damage&r converted to &dChaos Damage&r"
+				""
+				"&5&oThe Harbinger will start at level 40&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "79B4E8514BAB4B8A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 15000"
+				id: "6D61EA275317C638"
+				ignore_reward_blocking: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "3B1EDFA0C0454AEF"
+				type: "advancement"
+			}]
+			title: "Defeat the Harbinger"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C725AFB88690002"]
+			description: [
+				"It's like Pet Cemetary and Jurassic Park had a baby, and now &4your head is about to get chomped off&r. "
+				""
+				"&dAncient Remnant&r has &835 flat Physical Damage&r converted to &cFire Damage&r and &825 Physical Damage&r converted to &dChaos Damage&r. It is also &4immune&r to &3Bow and Arrow&r attacks."
+				""
+				"&5&oThe Harbinger will start at level 40&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "6975A62C0745C013"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 15000"
+				id: "25764538132F6025"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "cataclysm:kill_remnant"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "kubejs:p3_boss"
+						tag: { }
+					}
+					id: "6F36CF5525D6F62B"
+					type: "advancement"
+				}
+				{
+					entity: "cataclysm:wadjet"
+					icon: "kubejs:p3_mob"
+					id: "6C49DE3C62B89C16"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:kobolediator"
+					icon: "kubejs:p3_mob"
+					id: "137E77B2D0F5C311"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Defeat the Ancient Remnant, Wadjet, and the Koboldiator"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38496C1692F8B3F2"]
+			description: [
+				"During your time with the &aPixie&r, you learn more about the cause of the war. You learn that one of the &cPixies&r from the &dWinter Court&r &4betrayed the realm&r and let the &dCult of the Void&r into &6Feywild&r. "
+				""
+				"Dozens of &4villages have been corrupted&r and many &4loved ones have been lost&r. "
+				""
+				"Despite the war, both &eQueens&r have been &2exhausting themselves by clearing out the undead as villages&r get corrupted. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "3469ED62942E1428"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3200"
+				id: "26BAC9624E5EE62F"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0A79D91251B61814"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Betrayal"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3469ED62942E1428"]
+			description: [
+				"The &aPixie&r has spoken with their &eQueen&r and she's &2agreed to give you an audience&r."
+				""
+				"Unfortunately, what you &4need to get to there won't be so easy to get&r. "
+			]
+			id: "1076EAAF2F4486EA"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3200"
+				id: "291B3BC57374AD0C"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "675F23D6B834DFB7"
+				item: {
+					Count: 1
+					id: "minecraft:stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Some Big Nasties"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6975A62C0745C013"
+				"79B4E8514BAB4B8A"
+			]
+			description: [
+				"You've earned the &aPixie's&r trust and she told you how to get into &6Feywild&r."
+				""
+				"You'll just need to construct the &3Teleportation Orb&r and you can be on your way."
+				""
+				"&5&oThe monsters inside Feywild will start at level 40&r&r."
+			]
+			id: "1D69F1C606E69084"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3500"
+				id: "6D566E8EC4918FD7"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "45A54607EFC76EA4"
+				item: {
+					Count: 1
+					id: "feywild:teleportation_orb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Entry Into Feywild"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1D69F1C606E69084"]
+			description: [
+				"You've arrived in &6Feywild&r. "
+				""
+				"The &2lands are lush and beautiful&r. You feel honored to even be stepping foot on the beautiful green &3Grass Blocks&r."
+				""
+				"You &2breathe in the unpolluted air&r, it tingles your nostril hairs. It's almost like a &2party in your nostrils&r and all the &2little hairs are dancing&r. "
+				""
+				"You must now make your way to the &dQueen&r and &2plead your case.&r"
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "322EA65C491FF167"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3500"
+				id: "3AC91594334B62E5"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "524E9F329711C8B5"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "You Made It!"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["322EA65C491FF167"]
+			description: [
+				"You meet with the &dQueen&r and &2explain your situation&r, from the beginning. "
+				""
+				"You talk about &eYowling Llama Village&r, and the &4ones you've lost&r, but you &2also talk about the new friends you've made&r along the way, the new village you've started; and of course there is much discussion about the &dCult of the Void&r."
+				""
+				"The &dQueen&r has made the decision to &2form an alliance with you&r. "
+				""
+				"She tells you know that the &aPixie's&r gain their power from the &6Astral Dimension&r, and when &6Feywild&r was infiltrated, the &6Astral Dimension&r was as well."
+				""
+				"She's &2asking for your help&r to go into the &6Astral Dimension&r and find out what happend to the &dAstral Guardian&r. "
+				""
+				"She &2gives you instructio&rn about how to &2navigate the dimension&r, and how to summon the &dAstral Guardian&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "30FCD781F2AF82FE"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3600"
+				id: "714DBC829CB678A2"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "69F1A2521C6753C6"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "A Meeting With a Queen"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30FCD781F2AF82FE"]
+			description: [
+				"Your mission inside is simple. Find out what happened to the &dAstral Guardian&r. A being of &2great power that protects this realm.&r "
+				""
+				"&4Getting TO the guardian though, will be no easy feat&r. "
+				""
+				"This whole dimension was created by the &aPixies&r as a way to &2harness their immense magical powers&r, and the &4creatures here can be pretty powerful&r because of it. The land here is supposed to look serene, and beautiful, however due to the actions of the &dCult of the Void&r; the &4land and creatures are starting to become warped with void energy, and hostile&r. "
+				""
+				"&5&oThe monsters inside the Astral Dimension will start at level 40&r&r."
+			]
+			id: "7CC75BAF82133DE7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3600"
+				id: "74466460813CD917"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 10L
+					id: "23CEB0DB754EF181"
+					item: {
+						Count: 1
+						id: "astral_dimension:glowing_obsidian"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4C90380026360797"
+					item: {
+						Count: 1
+						id: "astral_dimension:astral_dimension"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Entry Into the Astral Dimension"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27471FA5DFBB4DBF"]
+			id: "6FB3DC8DC1D1D44A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3900"
+				id: "1B078479D1242A48"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "490F1DB5D8EF4C5A"
+				item: {
+					Count: 1
+					id: "astral_dimension:astral_altar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27471FA5DFBB4DBF"]
+			id: "238A1EBEE2D4BE14"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3900"
+				id: "78D5CF4959769867"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2881697EA92F0383"
+				item: {
+					Count: 1
+					id: "astral_dimension:void_pillar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7CC75BAF82133DE7"]
+			description: [
+				"Once inside, were supposed to speak with the &dAmethyst Knights&r. "
+				""
+				"However, in order to approach we'll need to create &34 Astral Eyes&r to use inside the &94 Postrum Eyes&r.  If we don't deactivate the &9Postrum Eyes&r, we'll be &4detected as intruders and surely killed on sight&r."
+				""
+				"The &dQueen&r told me that the &3Burning Shards&r needed to create &3Astral Eyes&r can be found in &eFiery Forest&r biomes."
+			]
+			id: "20031CA3CF500CED"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3700"
+				id: "2C6D567049D593EC"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 4L
+				id: "6983167AD5CE32D9"
+				item: {
+					Count: 1
+					id: "astral_dimension:astral_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Astral Eyes"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73B89A457AB9E16B"]
+			description: [
+				"Despite doing exactly as the &dQueen&r stated. Unfortunately, the &dAmethyst Knights&r still &4registered you as an intruder&r and attacked you. "
+				"Judging by their appearance, they were surely &4corrupted by Void Energy&r. "
+				""
+				"&oYou begin to wonder if the &2keys that they dropped might go to any chests around here&r.&r"
+			]
+			id: "15BAD58ECC06D101"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3800"
+				id: "471848AAE2805232"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "astral_dimension:malfunction_repaired"
+				criterion: ""
+				id: "6F5EDC14D5706A8F"
+				type: "advancement"
+			}]
+			title: "A Tale of Two Knights"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15BAD58ECC06D101"]
+			description: [
+				"You found some &3Broken Amethyst Shards&r inside the chests that the &dAmethyst Knights&r were guarding. "
+				""
+				"Something tells you that &2nobody will notice if you take them&r, so you &4pocket a few just incase&r."
+			]
+			id: "4B0144F9B711B7DE"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3800"
+				id: "07017491D1ABF48B"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 2L
+				id: "2FAE0BABCDACF278"
+				item: {
+					Count: 2
+					id: "astral_dimension:broken_amethyst_shard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Ooh, Piece of Candy!"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20031CA3CF500CED"]
+			description: [
+				"The knights should be inside an &eAmethyst Sanctuary&r. "
+				""
+				"Now that I have the &34 Astral Eyes&r, I should probably head toward one. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "73B89A457AB9E16B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3700"
+				id: "4CC5C02BA3C1BD84"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4B8C6E8F438F834B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Sanctuary of the Knights"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B0144F9B711B7DE"]
+			description: [
+				"You &2almost have everything you need&r. There is &2just a few more components&r and they are &2all underground&r. "
+				""
+				"You'll need to find &3Void Ore&r to get &3Void Gems&r which will make &33 Blocks of Void&r, &34 Void Fangs&r by killing a few &cVoid Menaces&r which spawn on &3Void Mycelium&r; &2deep underground&r, and lastly at least &31 Void Mycelium&r. "
+			]
+			id: "27471FA5DFBB4DBF"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3900"
+				id: "477D327C274283CE"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 27L
+					id: "3B2C7069B7119C9B"
+					item: {
+						Count: 1
+						id: "astral_dimension:void_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "29A31BD3B2A228A8"
+					item: {
+						Count: 1
+						id: "astral_dimension:void_fang"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "188B4325D654DB1B"
+					item: {
+						Count: 1
+						id: "astral_dimension:void_mycelium"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Going Down?"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6FB3DC8DC1D1D44A"
+				"238A1EBEE2D4BE14"
+			]
+			description: [
+				"It would seem that the &dAstral Guardian&r itself has become corrupted by &eVoid Energy&r. "
+				""
+				"You had no other choice to &4engage in battle with it&r. "
+				""
+				"Somehow, &2you won&r... "
+				""
+				"As the &dAstral Guardian&r fell; an &4eruption occurred that shook the very essence of reality&r. This &2didn't come from the guardian itself&r, it was just purely coincidence that it happened at the same time. But what could it be? What could have happened?"
+				""
+				"You better &2make your way&r to the &dQueen&r and &2report whats happened&r, hopefully she will be okay with what you had to do..."
+				""
+				"&dAstral Guardian&r has &875 flat Physical Damage&r converted to &cChaos Damage&r, and &e35% Elemental Resist&r"
+				""
+				"&5&oAstral Guardian will start at level 45&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "1E39835799877646"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 18000"
+					id: "09F50F0C7560F707"
+					type: "command"
+				}
+				{
+					id: "66CCDE5F69762C8C"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				advancement: "astral_dimension:titan_slayer"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "21B002C62DC63FE3"
+				type: "advancement"
+			}]
+			title: "Defeat the Astral Guardian"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1E39835799877646"]
+			description: [
+				"The &dQueen&r lets you know that she understands what you had to do. "
+				""
+				"She tells you that the &dAstral Guardian&r was created to protect the dimension; but the &dCult of the Void&r corrupted it. Once the &aPixie's&r recover, they can &2create a new guardian&r. "
+				""
+				"From the damage done to the dimension itself, it's likely that it will take &4many years to recover&r. It's also &4concerning how much magical energy&r was actually &4sapped out of the dimension&r. "
+				""
+				"As for the &4fabric of reality shaking&r; the &4Pixie's felt it as well&r. It sent ripples into &4every known dimension&r."
+				""
+				"The &dQueen&r tells you &4more than 75%&r of the &6Astral Dimension's&r magical resevoir &4was taken&r; it's the equivilent of about 285,000 years worth of energy being stored."
+				""
+				"She says that the &dCult of the Void&r must be stopped, it's time to enact a plan as a collective.\\"
+				""
+				"It's time to &2reconvene back in your village&r."
+				""
+				"&5&oFrom here you can continue with Act V!&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "336A24BEB4CBD5EB"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				id: "4225173223CBB27B"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "2A354777ABFC1DEA"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Reinforcements"
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1E39835799877646"]
+			icon: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C7854A727EB25DF"
+			rewards: [{
+				id: "3C2E42195999D13E"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "534C731F3E1FCEF9"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Black Eye Recovery"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1076EAAF2F4486EA"]
+			description: [
+				"The &aPixie&r tells you that one of your stops will be finding an &eAncient Factory&r. "
+				""
+				"She said that these factories were &2constructed many thousands of years ago&r. Whoever built them put up some &4serious safeguards&r. "
+				""
+				"It's &4one of those safeguards&r you need to &2retrieve some parts&r from."
+			]
+			id: "4B13BACB32631E4E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3300"
+				id: "07E80112B72F9794"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "43E15DCBB6D06E42"
+				type: "advancement"
+			}]
+			title: "Find an Ancient Factory"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1076EAAF2F4486EA"]
+			description: [
+				"The &aPixie&r told you that &eCursed Pyramids&r have been &2part of the land for billions of years&r. Even before the &ePlastimpocalypse&r. From a time when a &4different type of beast roamed the lan&rd. "
+				""
+				"You'll need to find one, activate the &dAncient Remnant&r inside, which should&2 look like a large dinosaur&r, then take the &2Sandstorm in a Bottle&r that it guards."
+			]
+			id: "3C78258E5FA55DE7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3300"
+				id: "70F955FFF7762F4F"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "1B59B166A7EA948F"
+				type: "advancement"
+			}]
+			title: "Find a Cursed Pyramid"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B13BACB32631E4E"]
+			description: ["In order to &2activate&r the &dHarbinger&r, you're going to need to &2click&r on it with a &3Nether Star&r."]
+			id: "54FA108603E8DBE3"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3500"
+				id: "40B915F706918757"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "13EA08FEB1361728"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Another One?!"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C78258E5FA55DE7"]
+			description: [
+				"First of all, you need a &3Brush&r. "
+				""
+				"With your &3Brush&r, head into the &eCurse Pyramid&r and look for any &3Suspicious Sand&r. "
+				""
+				"brush away the &3Suspicious Sand&r until you find a &3Necklace of the Desert&r. You'll &2need this item to activate the next boss.&r"
+				""
+				"The &dAncient Remnant&r has &4two guards&r with it, &dWadjet&r and the &dKoboldiator&r."
+			]
+			id: "5C725AFB88690002"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3500"
+				id: "66DA2AF608FFD7CC"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "0AA99A249FFA7433"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BEF7A9BE526DD78"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+			]
+			title: "A Rare Find"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B13BACB32631E4E"]
+			description: [
+				"&dThe Harbinger&r has two phases."
+				""
+				"This boss will &2switch between&r Missile, Rocket, and Laser mode. "
+				""
+				"It will periodically &4power up and release a laser onto enemies&r; this is a good time to &2run and heal&r. The boss will also do a &4charge attack that will destroy blocks in it's path&r."
+				""
+				"You can disable the &dHarbinger&r by getting it to hit one of the &3EMP blocks&r in the room with it's &eDeath Laser&r ability. "
+				""
+				"&2At 50%&r the &dHarbinger&r will enter the &4second phase&r and become &4shielded&r. This will cause it to be&4 immune to Bow and Arrow, and give it additional Health Regeneration&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "3E1CF8EB3DA3A779"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3000"
+				id: "7D4C491E5B25A427"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "26615688D62386DD"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Harbinger Guide"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C78258E5FA55DE7"]
+			description: [
+				"After you activate the boss, it will have &4several abilities&r to keep an eye on:"
+				""
+				"&eCharge&r: You'll know this is coming if you &4hear two slow stomps&r. Often caused by &4getting too far away from the boss&r. &2Run sideways&r from the boss to avoid him."
+				""
+				"&eTornados&r: Listen for a &4very large roar&r, and &2keep your distance from the boss&r until the tornados pass."
+				""
+				"&eBite&r: You &4will be stunned&r for a period of time &4if this lands on you&r. You can &2use a shield to block this&r. "
+				""
+				"&eTail Whip&r: The boss will look like it's &4abouyt to pounce&r. When it appears this way, the &eTail Whip&r is coming. You can &2throw some&r &3Ender Pearls&r &2if the ability lands on you&r in an effort to get out of it, without being stunned too long."
+				""
+				"&eShockwave&r: The &4boss will stamp his foot&r on the ground. The &2shockwave can be jumped over with precision timing&r. If you don't make the jump, you will be &4pulled toward the boss&r."
+				""
+				"&eFalling Sand&r: If you &4see blocks in the air&r, &2dodge out of them&r."
+			]
+			icon: "kubejs:p3_chat"
+			id: "79AEA6F77E00CEF4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3000"
+				id: "3D5992FF68E5CF41"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "10A913FBE7054B0B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ancient Remnant Guide"
+			x: 5.5d
+			y: -0.5d
+		}
+	]
+	title: "Act IV"
+}

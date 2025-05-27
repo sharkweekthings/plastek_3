@@ -1,0 +1,658 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "read_me"
+	group: "0B1C7C243DF15207"
+	icon: {
+		Count: 1
+		id: "minecraft:oak_sign"
+		tag: { }
+	}
+	id: "002703EC44A65616"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Thank you for checking out &6Plastek 3&r!  I hope you enjoy the pack. "
+				""
+				"If you have any questions, or would like to provide any feedback / bugs, feel free to join the Discord:"
+				""
+				"&b&nhttps://discord.gg/Tt8sGvQRH4&r&r"
+				""
+				"This pack will focus more on the &eAdventure RPG&r aspect. &6Mine and Slash&r is a complete overhaul mod that turns the game into more of a &bDiablo style looter aRPG&r. "
+				""
+				"The &dmain goal of this pack will be to defeat various bosses as you progress through several dimensions&r. &bSome tech and magic mods have been added to the pack&r, including &6Project E&r, which will be &aintroduced very early&r to let you focus on your adventure, while having the &aability to quickly craft items&r. "
+				""
+				"&bSome recipes may be modified&r to fit certain progression goals, but &2no where near as extreme as my previous packs.&r "
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:oak_sign"
+				tag: { }
+			}
+			id: "3842A04BB4A957D9"
+			shape: "square"
+			subtitle: "<3"
+			tasks: [{
+				id: "70BE71F8F05B9C4F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Welcome!"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3842A04BB4A957D9"]
+			description: [
+				"You can open your &6Mine and Slash&r Main Hub by &epressing 'H'&r by default. "
+				""
+				"From here you can &enavigate to \"Classes\"&r and distribute your &estarting Spell and Talent point&r after deciding on which tree you want to start with."
+				""
+				"There are currently &e6 different paths&r that you can invest points into:"
+				""
+				"&9Sorcerer&r - For those wanting to cast various spells consisting primarily of Ice and Fire."
+				""
+				"&4Warrior&r - For those wanting to fight up close and personal."
+				""
+				"&5Warlock&r - For those wanting to cast some spells, and have minions like Zombies and Skeletons do damage for them. "
+				""
+				"&6Minstrel&r - For those wanting to play a more supportive role. "
+				""
+				"&dShaman&r - For those wanting to use electric type abilities, and totems. "
+				""
+				"&aHunter&r - For those wanting to play a ranged type class, which is NOT limited to bows / crossbows."
+				""
+				"Each class comes with it's own &2unique abilities, and passive abilities&r."
+				""
+				"You are able to &2put points&r into &2two separate trees &rif you wish to &2cross your class&r."
+			]
+			icon: {
+				Count: 1
+				id: "statues:player_statue_spawn_egg"
+				tag: { }
+			}
+			id: "0174B8D037486CC7"
+			shape: "square"
+			tasks: [{
+				id: "5E8B402074D527F0"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Classes"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0174B8D037486CC7"]
+			description: [
+				"There are a few ways to attain more HP. "
+				""
+				"&eLeveling&r - You get 6 base HP per level"
+				""
+				"&2Stat Distribution&r - 1 point of Strength will give you 1.5 HP. &a&oSee the Hub to view what each stat gives you&r&r. "
+				""
+				"&3Talent Point&r - Talent points can be accessed in the Hub. "
+				""
+				"&6Food&r - Eating unique foods will grant you -FIGURE THIS OUT LATER-."
+				""
+				"&dEnchantments&r - Some Enchantments give Mine and Slash stats and may add HP."
+				""
+				"&cDIET&r - Using the various foods in the pack, you must keep your Fruits, Grains, Proteins, and Vegetables all above 10%. If any one of them drop below, you will begin to suffer negative penalties. However, maintaining above (I FORGOT)% will begin to yield positive results. Keeping your sugars below 75% is important to not receive a sugar crash. Maintaining a balance between X and Y will grant a Sugar Rush buff. It's overall best to keep your Sugar's low, though."
+				""
+				""
+				"2 Hearts = 1 HP. "
+			]
+			icon: {
+				Count: 1
+				id: "mmorpg:potion/health/5"
+				tag: {
+					tier: 0
+				}
+			}
+			id: "59518B193D9F7836"
+			shape: "square"
+			tasks: [{
+				id: "04DD70F89B27E461"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Health and Stats"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59518B193D9F7836"]
+			description: [
+				"At &cLevel 25,  50, and 75 you will receive a -25% Resist Penalty&r, which means that you will &2need to find better Resist gear&r. All &dResists will cap at 75%&r, and it's &2highly encouraged to get as close to the cap as possible&r, otherwise mobs &cmay one shot, or deal significant damage to you&r. "
+				""
+				"To help assist in planning your build, here are the caps for the pack:"
+				""
+				"&eLevel&r: 100"
+				"&2Stat&r: 200"
+				"&9Spell&r: 100"
+				"&3Passive&r: 100"
+				"&6Talent&r: 175"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7DA184125BC90240"
+			shape: "square"
+			tasks: [{
+				id: "460C73B41FFB058B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Resists and Level Caps"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2953D10883305166"]
+			description: [
+				"Progression in this pack is largely focused on following the story, &2navigating through the various dimensions, and defeating bosses&r. The quests will take you up through \"The End\" in Act V."
+				""
+				"The '&2endgame&r' is the &6Mine and Slash&r Map system which will first become &2accessible at level 50&r. "
+				""
+				"&6MineColonies&r is highly encouraged for something to do between adventuring, and &2will be partially required&r, and something to do between adventuring."
+				""
+				"&2I do know this mod isn't for everybody though&r, so if this one isn't for you, don't worry. &2The forced interction will be very limited&r, then you can pretty much do whatever. "
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:map"
+				tag: { }
+			}
+			id: "57A6C5F1F66202C7"
+			shape: "square"
+			tasks: [{
+				id: "3C872594DA9F9BF0"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Progression and End Game"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57A6C5F1F66202C7"]
+			description: [
+				"&6Project E&r can be used to replicate most items, granted you have the &eEMC&r to exchange. "
+				""
+				"&6Mystical Agriculture&r is also included in the pack to fill in any gaps, or to be used in any automations you might need."
+			]
+			icon: {
+				Count: 1
+				id: "mysticalagradditions:insanium_essence"
+				tag: { }
+			}
+			id: "0A3BE2D164E4F854"
+			shape: "square"
+			tasks: [{
+				id: "094D7B5E63515907"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Resource Generation"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A3BE2D164E4F854"]
+			description: [
+				"&aOverworld&r - 1 to 70"
+				"&eToybox&r - 10 to 25"
+				"&cThe Nether&r - 15 to 30"
+				"&9The Aether&r - 20 to 35"
+				"&6Sweet Lands&r - 20 to 35"
+				"&bEverbright&r - 30 to 45"
+				"&3Everdawn&r - 30 to 45"
+				"&2Feywild&r - 40 to 55"
+				"&5Astral Dimension&r - 40 to 55 "
+				"&dSetback&r - 50 to 65"
+				"&0The End&r - 60 to 65"
+				""
+				"&6Dimensional Dungeons&r, &6Ancient Obelisk&r, &6The Harvest&r, and &6Dungeon Realm&r should be &2available as early as level 1&r, but you may &4need to make the respective portal, obelisk, or map device&r to use anything you find. "
+				""
+				"You can start running &6Mine and Slash&r &2maps at level 50&r. "
+			]
+			icon: {
+				Count: 1
+				id: "aether:aether_portal_frame"
+				tag: { }
+			}
+			id: "3F93CF6B70529166"
+			shape: "square"
+			subtitle: "UPDATE ME BEFORE RELEASE"
+			tasks: [{
+				id: "68736F50E343B879"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The World"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F93CF6B70529166"]
+			description: [
+				"&eSupport Quests&r offer a few different &omostly&r optional (&o&aand sometimes useful&r&r) quest lines for you to enjoy and complete."
+				""
+				"These will include various &6Mine and Slash&r, &6Minecolonies&r quests to help you through the mods, &2Cooking and Farming Quests&r, and more. "
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "092D2D9BBD18EB72"
+			shape: "square"
+			tasks: [{
+				id: "7B6D820009636631"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Support Quests"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "576F9F679631AB49"
+			shape: "octagon"
+			subtitle: "This shape is used for various dialogues that help push the story forward."
+			tasks: [{
+				id: "60D45721C73A8E8B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Dialogue"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			hide_dependency_lines: true
+			id: "47BD1CC1D06A34DF"
+			shape: "rsquare"
+			subtitle: "This shape is used as the shape to represent all other shapes."
+			tasks: [{
+				id: "0CF21407C8DB4555"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Quest Shapes"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			description: ["Sometimes a Main Quest will include quite a bit of dialogue that may be story, or important information."]
+			id: "7D67FB6BC04B6B7E"
+			shape: "square"
+			subtitle: "It is intended to have to complete all or most of this quest shape."
+			tasks: [{
+				id: "444DEE1333E4D2E8"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Main Quest"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			description: [
+				"When a boss battle comes up, look at the quests surrounding it. There is a generalized strategy for some bosses, but not all. "
+				""
+				"Before engaging in battle with a boss, it's worth it to place down a Waystone for quick access back if you end up dying."
+				""
+				"At the bottom of each Boss Battle quest you will find the bosses minimum level, damage type, and whether or not it has any additional static buffs. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "74E5A584646FC35D"
+			shape: "gear"
+			subtitle: "Boss monsters are much more challenging than regular monsters."
+			tasks: [{
+				id: "1ECECE173ECA7282"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Boss Battle"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			id: "341EAF79D87E5CCD"
+			subtitle: "Quests that may support your adventure, but shouldn't be necessary to complete the pack."
+			tasks: [{
+				id: "7376799C40A17552"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Side Quest"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			id: "57981D417D475021"
+			shape: "heart"
+			subtitle: "This shape represents a quest to recover certain special items if lost."
+			tasks: [{
+				id: "54397C2C965C8288"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Reclaimable Item"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			description: ["Most crops and trees have a season associated with them. &cIf the crop is not in season&r, it will &l&cnot&r&r grow. You can counter this by using &3Greenhouse Glass&r (&oany &aGreen Stained Glass&r&r) "]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:wheat_seeds"
+				tag: { }
+			}
+			id: "672220A1E0B85F2D"
+			shape: "square"
+			tasks: [{
+				id: "3CEC1A64A4F543E5"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Crops"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			description: [
+				"Whoops. Did you &4just die&r? "
+				""
+				"That &4might happen a lot&r, especially early on. The &4mobs can be pretty vicious.&r "
+				""
+				"In this pack, if you die you will &2retain all of your items&r, including your C&6urios&r slots."
+				""
+				"Starting at &eLevel 30&r, you will incur &410% XP loss per death&r as well as a significant portion of &eFavor&r. Furthermore, if you attempt to &4challenge more powerful monsters&r than you can handle, this &4penalty is multiplied,&r so be careful!"
+			]
+			hide_dependency_lines: true
+			icon: "minecolonies:blockminecoloniesgrave"
+			id: "545937C5689C339F"
+			shape: "square"
+			tasks: [{
+				id: "55B8B88EFBA1D4BB"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Death"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			description: [
+				"Don't forget to set a home with &a/sethome <name>&r no brackets. &aIf you dont put a name you can just use /home&r, otherwise you'll need to &a/home <name>&r. This command has a 5 minute cooldown."
+				""
+				"Each Age will unlock an additional quantity of home points. "
+				""
+				"&bAge 1&r: 1"
+				"&bAge 2&r: 3"
+				"&bAge 3&r: 6"
+				"&bAge 4&r: 10"
+				"&bAge 5&r: 20"
+				""
+				"&6Create 0.6&r: While not integrated into the pack for progression, this pack does use Create 0.6, so enjoy all the new features! "
+				""
+				"Looking for a good breakdown of the Create changes? Check out &6Polartt's&r video: &b&b&n&ohttps://www.youtube.com/watch?v=FGVkC8ZVHHw&r&r&r&r"
+				""
+				"You can use the &a/back&r command to go back through your various teleports (5 minute cooldown)"
+				""
+				"The &a/rtp&r command randomly teleports you somewhere within 25,000 blocks (10 minute cooldown)"
+				""
+				"If you're playing on a server, you can use the &a/tpa <name>&r command to teleport to a friend. This TP must be approved by the person  you are trying to TP to."
+				""
+				"&aF7&r will enable Light Overlays which will show potential for monster spawns."
+				""
+				"&aF9&r will cycle between various chunk view modes, being able to view the chunk grid, or the region grid. "
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsutility:creative_screen"
+			id: "7C437754A4ECF3C2"
+			shape: "square"
+			tasks: [{
+				id: "06405AEDABBD97CA"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Fancy Features"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			description: [
+				"Don't forget to create or join an FTB Teams. "
+				""
+				"This will unlock features like Land Claim and Chunk Loading. "
+				""
+				"Each age you will unlock additional claims and force loading. "
+				""
+				"&bAge 1&r: 10 Claims | 0 Chunk Loading"
+				"&bAge 2&r: 50 Claims | 10 Chunk Loading"
+				"&bAge 3&r: 100 Claims | 20 Chunk Loading"
+				"&bAge 4&r: 500 Claims | 50 Chunk Loading"
+				"&bAge 5&r: 1000 Claims | 100 Chunk Loading"
+				""
+				"You can also see various leaderboard stats by typing &b/leaderboards&r and tabbing through the various statistics."
+				""
+				"If your chunks and claims don't update after selecting your 'Age Reward' you'll need to reload the client."
+				""
+				"&c&oIf you select your age and you don't see an update to your claims or chunks in the UI, you will need to restart your game client.&r&r"
+				""
+				""
+				"You can also create a Mine and Slash party which will let you heal, buff, and not do damage to your friends."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:writable_book"
+				tag: { }
+			}
+			id: "4A2336D2932CBBAF"
+			shape: "square"
+			tasks: [{
+				id: "2E072492462F9A37"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Teams and Party"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"672220A1E0B85F2D"
+				"545937C5689C339F"
+				"4A2336D2932CBBAF"
+				"7C437754A4ECF3C2"
+			]
+			description: [
+				"You will need to complete various tasks in each dimension to unlock a few of the End Remastered Eyes which will be used on the End Portal Frame to get to The End."
+				""
+				"&3Honey Eye&r - Bumblezone"
+				"&3Nether Eye&r - The Nether"
+				"&3Alf Eye&r - Alfheim"
+				"&3Dimensional Eye&r - Dimensional Dungeons"
+				"&3Spirit Eye&r - Create your first Spiritfire"
+				"&3Thermal Paste Eye&r - Make your first Finished PCB"
+				"&3Plastic Eye&r - Make your first Plastic Sheet"
+				"&3Dragon Eye&r - Alfheim"
+				"&3Sky Eye&r - Blue Skies"
+				"&3Insanium Eye&r - Make your first Insanium"
+				"&3Aether Eye&r - The Aether"
+				"&3Infused Eye&r - Created in a Draconic tiered Infusion Crafter."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:end_portal_frame"
+				tag: { }
+			}
+			id: "30F9D708441CB9FC"
+			shape: "square"
+			tasks: [{
+				id: "42F32BB1BB0E0A79"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The End"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7DA184125BC90240"]
+			description: [
+				"&6Better Combat&r - your character will have a range of new attack animations with various weapons, as well as attack combos. "
+				""
+				"&6Mine and Slash&r - the mobs in each dimension will scale to the nearest player. This means that if you're level 20, the mobs in the area should also be around level 20."
+				""
+				"&6Combat Roll&r - you can press 'R' which will let you dodge roll forward. "
+				""
+				"&6Level Cap&r - Most dimensions are 65. However you will have access to &6Dimensional Dungeons&r, &6Ancient Obelisks&r, &6The Harvest&r, and &6Dungeon Realm&r starting as early as level 1 (&2if you get extremely lucky&r), and &2Maps starting at level 50&r -- all of which will &2take you to level 100&r. "
+				""
+				"This pack uses &6Anti Mob Farm&r which &4restricts loot, and experience&r after k&2illing mobs in the same chunk for too long&r. It's strongly &2advised and encouraged&r to &2travel about and kill monsters&r, do not sit in one spot for very long."
+			]
+			icon: {
+				Count: 1
+				id: "aether:vampire_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2953D10883305166"
+			shape: "square"
+			tasks: [{
+				id: "1C501EBA82CC3C3C"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Combat and Leveling"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			description: [
+				"Grants 1 Ascendancy Point. "
+				""
+				"This is an extra Talent tree with extremely powerful changes that will alter your character. "
+				""
+				"You will be able to access the Ascendancy tree from the Hub when you are higher level, and have at least 1 Ascendancy Point. "
+			]
+			icon: "kubejs:p3_asc"
+			id: "09EE7BF567B5482D"
+			shape: "diamond"
+			tasks: [{
+				id: "4CAC6942D055A85F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ascendancy Point"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&cRefers to a Hostile Enemy&r"
+				"&4Refers to something bad or negative&r"
+			]
+			id: "64A8C0DE962DEDCB"
+			rewards: [
+				{
+					count: 10
+					id: "1AA0CD9630DC544E"
+					item: {
+						Count: 1
+						id: "waystones:waystone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3ACE0B08C55AF3DE"
+					item: {
+						Count: 1
+						id: "minecraft:ender_pearl"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash points give @p ASCENDANCY 1"
+					id: "1B2CA9A7085C7A26"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "723389E4EBCE29C6"
+				title: "ok"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D67FB6BC04B6B7E"]
+			description: ["Same as above, except the task is to kill X amount of monsters."]
+			icon: "kubejs:p3_mob"
+			id: "2D192377F9B82A2E"
+			shape: "square"
+			tasks: [{
+				id: "5C9C082776811946"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Main Quest - Mob Battle"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["341EAF79D87E5CCD"]
+			description: ["Same as above, except the task is to kill X amount of monsters."]
+			icon: "kubejs:p3_mob"
+			id: "7E557E0A285AF534"
+			tasks: [{
+				id: "79E8C64C055C875E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Side Quest - Mob Battle"
+			x: 0.5d
+			y: 4.5d
+		}
+	]
+	title: "Read Me!"
+}

@@ -1,0 +1,211 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 4.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "short_sword",
+  "guid": "short_sword",
+  "possible_items": [
+    {
+      "item_id": "divine_weaponry:wooden_cutlass",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:wooden_cutlass",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:wooden_saber",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wood_stylet",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wood_shortsword",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:wood_katzbalger",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:stone_cutlass",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:stone_cutlass",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:stone_saber",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:stone_stylet",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:stone_shortsword",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:stone_katzbalger",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:iron_cutlass",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:iron_cutlass",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:iron_saber",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:iron_stylet",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:iron_katzbalger",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:iron_shortsword",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:golden_cutlass",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:golden_cutlass",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:golden_saber",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gold_stylet",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gold_shortsword",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gold_katzbalger",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:diamond_cutlass",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:diamond_cutlass",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:diamond_saber",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:diamond_stylet",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:diamond_shortsword",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:diamond_katzbalger",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:netherite_cutlass",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:netherite_cutlass",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:netherite_saber",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:netherite_stylet",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:netherite_shortsword",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:netherite_katzbalger",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.4
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "short_sword",
+      "melee_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "short_sword",
+  "weight": 1000
+}

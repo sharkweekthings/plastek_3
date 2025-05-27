@@ -1,0 +1,37 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 5.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "rune_bow",
+  "guid": "rune_bow",
+  "possible_items": [
+    {
+      "item_id": "roe_weapons:bow_6",
+      "min_rar": "runeword",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.15,
+      "dexterity": 0.15
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "ranged_weapon",
+      "weapon_family",
+      "bow"
+    ]
+  },
+  "weapon_type": "bow",
+  "weight": 1000
+}

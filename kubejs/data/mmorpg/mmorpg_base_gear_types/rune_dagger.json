@@ -1,0 +1,69 @@
+1{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 5.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "rune_dagger",
+  "guid": "rune_dagger",
+  "possible_items": [
+    {
+      "item_id": "roe_weapons:dagger_6",
+      "min_rar": "runeword",
+      "weight": 1000
+    },
+    {
+      "item_id": "samuraidynasty:wakizashi",
+      "min_rar": "runeword",
+      "weight": 1000
+    },
+    {
+      "item_id": "samuraidynasty:kunai",
+      "min_rar": "runeword",
+      "weight": 1000
+    },
+    {
+      "item_id": "samuraidynasty:sai",
+      "min_rar": "runeword",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:emerald_dagger",
+      "min_rar": "runeword",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:emerald_chakram",
+      "min_rar": "runeword",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:emerald_sai",
+      "min_rar": "runeword",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.15,
+      "dexterity": 0.15
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "dagger",
+      "rune",
+      "melee_weapon",
+      "mage_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "rune_dagger",
+  "weight": 1000
+}

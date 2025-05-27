@@ -1,0 +1,2076 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_ii"
+	group: "1F979D7131BCCB17"
+	icon: {
+		Count: 1
+		id: "sweet_calamity:ice_cream"
+		tag: { }
+	}
+	id: "6DC8D6324A5C9C0B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["013139457D6C5A3C"]
+			description: [
+				"It's not always so peaceful. "
+				""
+				"After a few weeks of quiet, you are suddenly bombarded w/ multiple requests, and good information. "
+				""
+				"You take the time to sift through the towns messages and you'll address what you can."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "5D425E8E1FA0219F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				id: "2CB80144C5535447"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "632AFC5DC7F77BAE"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ahh, Peace"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D425E8E1FA0219F"]
+			description: [
+				"One of the future medics named &dEmily&r says that there are &2important resources&r in &6The Aether&r that the &2town needs&r. She's also looking for somethinig from an enemy called a \"&dSun Spirit&r\"."
+				""
+				"This one sounds &2easy enough&r, and you'll be helping the town -- so you &2add this to your ToDo list&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "6BEA4A41C47F3A77"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1100"
+				id: "3AB7D76D0CDFB5BB"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "12767A5F5423A672"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "We Just Need a Few Materials"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D425E8E1FA0219F"]
+			description: [
+				"&dProfessor Trevor&r has gone missing. "
+				""
+				"This is unfortunate news as he was &2teaching the children how to dig holes&r. Without his knowledge, the &4future of the town could be in jeopardy&r. "
+				""
+				"The details of his potential whereabouts say that he was &4lost about 50 blocks outside of town.&r "
+				""
+				"Now you can &2save the town teacher, and make yourself look like a hero&r in the process! "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "636A09E8D95A37C5"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1200"
+				id: "119FA2657178FCF5"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6721F3A5B05B1586"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Where Are You, Professor Trevor?"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D425E8E1FA0219F"]
+			description: [
+				"As you're rifling through the &9Notice Board&r, you see &4one about a lost child&r, another about a &4mans missing cat&r, and.. oh, &2here you go&r! "
+				""
+				"&dShaun&r, an up and coming chef has put in a request that somebody travel to the &6Sweet Lands&r to retrieve some ingredients. "
+				""
+				"You think to yourself about how much you like food, and figure this will be an easy task."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "663CBB97F0B94D4F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1100"
+				id: "39122F70356DB09A"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "44BB128875DC9943"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Like Taking Candy From a Baby"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50C100F479EC368B"]
+			description: [
+				"As you read through the rest of the quest, &4you realize that this won't be as easy as you thought&r. "
+				""
+				"It looks like in order &2to challenge the Sun Spirit, you'll need to fight a Valkyrie Queen, and some sort of stone being that slides around&r. "
+				""
+				"You start to have &2some regrets, but you press forward&r."
+			]
+			id: "0672BAC409DC8596"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1100"
+				id: "3F37BCCC165AAEAB"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "aether:enter_aether"
+				criterion: ""
+				id: "3FC68E550DC7E32C"
+				type: "advancement"
+			}]
+			title: "Well, This Is More Than I Thought"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6BEA4A41C47F3A77"]
+			description: [
+				"You'll need at least &310 Glowstone Blocks&r constructed in the shape of a basic &9Nether Portal&r. "
+				""
+				"If constructed correctly, using a &3Water Bucket&r will activate the portal."
+				""
+				"&5&oThe monsters inside The Aether will start at level 20.&r&r"
+			]
+			id: "50C100F479EC368B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1100"
+				id: "40CC10E2D23511D5"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 10L
+					id: "1C296B224652F642"
+					item: {
+						Count: 1
+						id: "minecraft:glowstone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "047805F333C26E37"
+					item: {
+						Count: 1
+						id: "minecraft:water_bucket"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Entry Into the Aether"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0672BAC409DC8596"]
+			description: [
+				"As you were walking through the Silver Dungeon, you accidentally &2bumped into one of the Valkyries&r. "
+				""
+				"They didn't really seem hostile, but &4one did said that you looked funny&r. "
+				""
+				"You &4took great offense&r to this, and decided to&4 beat up a few&r. "
+				""
+				"You &2need the medals, anyways&r..."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "1BF8C975A75134B6"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1300"
+				id: "1F11D6A86849FC04"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "aether:valkyrie"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "0F170F364EDAED42"
+					type: "kill"
+					value: 10L
+				}
+				{
+					count: 10L
+					id: "631E605A3104DDC0"
+					item: {
+						Count: 1
+						id: "aether:victory_medal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Valkyrie's Are Rude"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0672BAC409DC8596"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "359353B0760C9872"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1200"
+				id: "0D55FF3F9E40F8DA"
+				type: "command"
+			}]
+			tasks: [
+				{
+					entity: "aether:phyg"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "7F2C19EC024C596C"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "aether:flying_cow"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "6B76F042541DE47A"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Beasts of the Aether 2"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0672BAC409DC8596"]
+			description: ["&dEmily&r said that she needed a few &3Blue Swet Balls&r to make some medicine. "]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "1DE0B2C104A25E73"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1200"
+				id: "1841F5493F2B5654"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "aether:blue_swet"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "7D03A5D4143769BA"
+					type: "kill"
+					value: 5L
+				}
+				{
+					count: 5L
+					id: "4CFE64A28ED3C277"
+					item: {
+						Count: 5
+						id: "aether:swet_ball"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Kinda Squishy"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0672BAC409DC8596"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "0A6AE539D92AF009"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1200"
+				id: "2E793B91E2BAF3B9"
+				type: "command"
+			}]
+			tasks: [
+				{
+					entity: "aether:golden_swet"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "130F6E5BBBF5F9B7"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "aether:moa"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "1A7A4EDCE858CD8F"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Beasts of The Aether 1"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0672BAC409DC8596"]
+			description: [
+				"This dungeon can be &2located underground&r. "
+				""
+				"Sentry Mobs will be activated as you adventure through the dungeon and will explode on you."
+				""
+				"Challenging the Boss:"
+				""
+				"&dThe Slider&r will move around the room gaining speed as you do damage to it. "
+				""
+				"&2The only way to do any damage is to use a Pickaxe&r."
+				""
+				"&dSlider&r has &850 flat Physical Damage&r converted to &5Chaos Damage&r."
+				""
+				"&5&oSlider will start at level 25&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "663C2D6C6B87DBC8"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 6500"
+				id: "3EAD6E097D62A2D9"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "Boss Fight"
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "5CCED6F810E92C08"
+				type: "advancement"
+			}]
+			title: "Defeat Slider"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6AE461A8C9FCEBC6"
+				"663C2D6C6B87DBC8"
+			]
+			description: [
+				"Unlike normal cases of &6the Aether&r, you can actually &2do some damage to the Sun Spirit with your Mine and Slash weapons&r."
+				""
+				"However, the &2original mechanic also applies. For dealing damage to the boss, you will need to wait for Ice Crystals to be launched, and hit them with your sword toward the Sun Spirt&r. This will spawn an add that you should take out. "
+				""
+				"&dSun Spirit&r has &850 flat Physical Damage&r converted to &cFire Damage&r, &c10% to all Fire Damage&r, and &c100% Fire Resistance&r."
+				""
+				"&5&oSun Spirit will start at level 25&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "5D73505C3C4B00D7"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 6500"
+					id: "3FF1ADD0F542D1AF"
+					type: "command"
+				}
+				{
+					id: "476B27C3491AE3F0"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "7187791F1BC3813D"
+				type: "advancement"
+			}]
+			title: "Defeat the Sun Spirit"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1BF8C975A75134B6"]
+			description: [
+				"The Valkyrie Queen has:"
+				""
+				"&dValkytrie Queen&r has &850 flat Physical Damage&r converted to &eLightning Damage&r, and &e50% Lightning Resistance&r."
+				""
+				"&5&oValkyrie Queen will start at level 25&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "6AE461A8C9FCEBC6"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 6500"
+				id: "0D0B65DE592B9A6F"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "Boss Fight"
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "463A519B7EC31831"
+				type: "advancement"
+			}]
+			title: "Defeat the Valkyrie Queen"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D73505C3C4B00D7"]
+			description: [
+				"As you get back to the village, you see &dEmily&r heading into the tavern. "
+				""
+				"You catch up with her and hand over the items. "
+				""
+				"She thanks you, and asks if you can &2come back the next day&r."
+			]
+			id: "1DD3B21A8A051FE7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1300"
+				id: "789BB35AB91E3F50"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "7421AE30E3BD3986"
+					item: {
+						Count: 1
+						id: "aether:sun_altar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "54E7B6688577245D"
+					item: {
+						Count: 5
+						id: "aether:swet_ball"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1DD3B21A8A051FE7"]
+			description: [
+				"&dEmily&r thanks you again. "
+				""
+				"She let you know that the &3Swet Balls&r made the medicine she needed, and that she needed one of the components inside the &3Sun Altar&r to make some sort of &9Infusion Altar&r device."
+				""
+				"She let me know that she made one for herself, and also mentioned she won't have to worry about &3Swet Balls&r again."
+				""
+				"Curious, you ask her what exactly she made."
+				""
+				"She lets you know that while she's just a simple doctor, she comes from a family of Mages. Her family is a master of the &6Mystical Agriculture&r, while she herself is not a master agricultrialist, she is still willing to &2teach you what she knows&r, in hope that you will &2use it for the betterment of the town&r."
+			]
+			id: "277B7ECC076EB804"
+			rewards: [{
+				id: "7B408F8C2CBAD73C"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:infusion_altar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4ED9761F5C8D2732"
+				item: {
+					Count: 1
+					id: "minecraft:gold_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Just One More Thing"
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34C6E99130CC78B0"]
+			id: "365F73907A77FBCA"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1400"
+				id: "29927C7247C0B706"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 8L
+				id: "67C31F5BBD3FE968"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:infusion_pedestal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["34C6E99130CC78B0"]
+			description: ["You'll need the &3Prosperity Seed Base&r if you want to create &2seeds for most materials&r. The &3Soulium Seed Base&r is used when for creating &2seeds that involve entities&r."]
+			id: "412FEBB10DC98C65"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1400"
+				id: "543BEE4581643DF1"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "1C088B208B05F8C0"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:prosperity_seed_base"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "29775F155316F1D0"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:soulium_seed_base"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["34C6E99130CC78B0"]
+			id: "062CF3A747BD99D3"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 10000"
+				id: "16A7F0F0C8B4678C"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "466EAA88FAC5EF89"
+					item: {
+						Count: 1
+						id: "matc:inferium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3131FA1C70751E59"
+					item: {
+						Count: 1
+						id: "matc:prudentium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "765E4FB9307F2EE1"
+					item: {
+						Count: 1
+						id: "matc:tertium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1006F8293BF2D819"
+					item: {
+						Count: 1
+						id: "matc:imperium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "227BC2073F860B9A"
+					item: {
+						Count: 1
+						id: "matc:supremium_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6850D855306FA6CE"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:master_infusion_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["277B7ECC076EB804"]
+			description: [
+				"With the &9Infusion Altar&r that &dEmily&r gave you, she says that all you need is &98 Infusion Pedestals&r. "
+				""
+				"With the setup built, you can start making seeds by using your &3Prosperity&r or &3Soulium Seed Base&r on the altar, add &34 of the material&r you're looking to make a seed of, and &34 essences&r of the appropriate tier."
+				""
+				"She advised that you &2check JEI to learn the exact recipes&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "34C6E99130CC78B0"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1300"
+				id: "736113DA40203B5B"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5F99FB560B477ECE"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Mystical Agriculture"
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["115C7088A2143C33"]
+			description: [
+				"You get to the area but the &dProfessor&r is no where in sight. "
+				""
+				"You look around, &2find an old tattered and stained cloth on the ground&r, so you &2lean down to pick it up&r. "
+				""
+				"As you &2inspect the fabric&r, you hold it up to the wind, then &2taste it in order to test the overall trajectory of the cloth&r. You also realize that makes no sense, but you &4needed some excuse for tasting what was most likely toilet paper&r... "
+				""
+				"As you &4lean down to hurl and re-think lifes choices&r, you &2notice a group of footprints heading off in one of the cardinal directions&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "26FFDEE435AE6608"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1200"
+				id: "1A59C6FFEE16668B"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5C1483A0C2881B56"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Won't Be Doing That Again"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["636A09E8D95A37C5"]
+			description: ["Along the way to investigate you were &4ambushed by a few monsters&r, but you make &2quick work of them&r. "]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "115C7088A2143C33"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1200"
+				id: "15C775E06A6F3DD5"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "7861F26F422C04B5"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:spider"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "0FD61E1FD75C21F5"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Where Did They Come From?!"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26FFDEE435AE6608"]
+			description: [
+				"The trail leads you to the ocean, but the footprints stop at the water. "
+				""
+				"On the ground you &2see a journal and reach down to pick it up&r."
+				""
+				"Off &2in the distance you see an abandoned ramshackled rowboat&r just floating there. "
+				""
+				"You rush back to the village to see if anyone knows what the note might mean. "
+				""
+				"You &4feel a tap on your shoulder&r as you turn around. There stands before you a tall, burly man, with a full beard, and a magic staff in the shape of a lumber axe. "
+				""
+				"&oYou're certain that you saw this man selling paper towels at one point in your life.&r "
+				""
+				"'Sir', he said with an &3unexpectedly squeaky voice&r, that &4caused you to raise your eyebrow&r. 'I am the great Archmage of the South East, &dTimilimit Popsi Archibald the III&r'"
+				""
+				"'I believe I know what this means!'.  "
+				""
+				"Disregarding what he said, &2you let him know that you are unable to call him that&r, and will just &2call him 'Tim' going forward&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "66D697E25F8FEEB5"
+			rewards: [{
+				id: "7E2BA716828E1BAF"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Bob the Bandit"
+						filtered_title: "Sacrifice"
+						pages: ["{\"text\":\"1 Nautilus Shell\\n1 Athame\\n1 Coral Chunk\\n1 Block of Diamond\\n1 Block of Emerald\\n1 Block of Iron\\n1 Block of Amethyst\\n1 Block of Gold\\n1 Heart of the Sea\\n1 Human Sacrifice\"}"]
+						resolved: 1b
+						title: "Sacrifice"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3FA1DDFE39B3E2B3"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "That's Unexpected"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"348FEDA58A141527"
+				"06FAEA5AF22F98C1"
+			]
+			description: [
+				"&dTim's&r research discovered -- if you craft an &3Abyssal Sacrifice&r; and use it on an &9Altar of Abyss&r you will be &2bestowed great treasure&r. "
+				""
+				"Surely this &dBob the Bandit&r was going to sacrifice our beloved &dProfessor&r, and try to &4claim the treasure himself&r. "
+				""
+				"With the &dProfessor&r saved, we will have to use &dBob&r as the sacrifice, and claim the treasure... Not that you ever had any thoughts to sacrifice the &dProfessor&r, but if he was already gone, well.. y'know?"
+				""
+				"First we're going to need a couple of items to make the &3Abyssal Sacrifice&r, though. We'll &2need a few material blocks&r, which shouldn't be a problem. We're also going to need the &3Sacrificed Heart of Bob&r, as well as &2some items which come from monsters local to the altar&r. "
+				""
+				"&oCheck JEI on how to attain the Nautilus Shell, and Coral Chunk or Crystallized Coral&r"
+			]
+			id: "0383770870A3ECE2"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3000"
+				id: "1A1AE7B7AB7B52BD"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "00205731CB525D6F"
+				item: {
+					Count: 1
+					id: "cataclysm:abyssal_sacrifice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66D697E25F8FEEB5"]
+			description: [
+				"&dTim&r lets you know that he has an idea, but he needs you to &2go under the ocean to confirm&r."
+				""
+				"You, and a few of the villagers head back to the spot you saw the rowboat. "
+				""
+				"This time, you &2swim out to the rowboat, and swim below&r. You see a &2strange aura below, despite the waters being cloudy&r. "
+				""
+				"As you get closer, you start to make out two figures. One appears to be the &dProfessor&r, the other must be &dBob&r. swimming is a little difficult, but you make your way over to them."
+				""
+				"You're able to sneak up on &dBob&r, &2notice his eerie purple cloak&r, and wonder why he didn't take it before off going under the ocean. You quickly take &dBob&r out by &4wrapping the cloak around his head&r. "
+				""
+				"You &2swim over to the altar and proceed to unbind the Professor&r.."
+				""
+				"You both &2swim back to the surface and return to town&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "2F0F2C0E693DD0A0"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1200"
+				id: "52FDB6F4F9F43953"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "35C48D6588B62212"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Deep Blue Sea"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F0F2C0E693DD0A0"]
+			description: ["With the &dProfessor&r safely secured, and &dBob&r out of the way -- you can head back to the area and &2look for the last few items you probably need&r, and claim the treasure!"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "3193DF1F9D9C4CF7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1300"
+				id: "13A2DE0C607876A6"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "7AAFCA8CBF024967"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "The Return of the Professor"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3193DF1F9D9C4CF7"]
+			description: ["&cDeepling Priests&r and &cDeepling Warlocks&r have a low chance to drop &3Athame&r. "]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "348FEDA58A141527"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1400"
+					id: "5342439607811A86"
+					type: "command"
+				}
+				{
+					id: "1050862F6CD60871"
+					item: {
+						Count: 1
+						id: "cataclysm:athame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					entity: "cataclysm:deepling_warlock"
+					id: "101013EB651BBA58"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "cataclysm:deepling_priest"
+					id: "59163AC285626A8F"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Retrieving Athame"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3193DF1F9D9C4CF7"]
+			description: ["Regular &cDeeplings&r, and &cDeepling Brutes&r have a low chance to drop the &3Nautilus Shell&r. "]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "06FAEA5AF22F98C1"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1400"
+					id: "560D8BF31EE4643E"
+					type: "command"
+				}
+				{
+					id: "2E8506D28C2A2307"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					entity: "cataclysm:deepling"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "77F55E8A043F4E16"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "cataclysm:deepling_brute"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "659A56B091F7DB13"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Retrieving the Nautilus Shell"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0383770870A3ECE2"]
+			description: [
+				"There are &2a few things you can do to prep up for this boss battle&r:"
+				""
+				"1) a &3Trident&r or two. Seriously. You can probably beat the &dLeviathan&r with another weapon, but to make it a lot more manageable, you'll want a &3Trident&r."
+				""
+				"2) The &3Impaling Enchant&r generally allows you to do more damage to underwater monsters. In &2this pack, Impaling will grant you some Water Penetration&r to help you do more damage. "
+				""
+				"3) The&3 Loyalty Enchant&r - If you're using a Trident, it allows the &2Trident to return to the player&r. "
+				""
+				"4) The &3Riptide Enchant&r - This one is &2almost a necessity&r, and should be &2placed on a secondary Trident&r. This will &2help you dash around underwater&r. "
+				""
+				"5) &3Blessed Amethyst Crab Meat&r - This crab meat will give you a &2buff that last for about 1 minute&r, and will &2protect against many of the Leviathan's special attacks&r. Find crabs in &eLush Cave Biomes&r, and take them to an &9Altar of Amethyst&r in the &eSunken City&r to be blessed. "
+				""
+				"6) an &3Underwater Breathing Potion&r or something to help you breathe under water."
+				""
+				"7) &3Night Vision&r - The water near the &dLeviathan&r is &4very dark&r, &3Night Vision Goggles&r, or &3Night Vision potion&r is &2extremely helpful&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "174E97B4DA587E02"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1400"
+				id: "076DD8ADB147034C"
+				type: "command"
+			}]
+			shape: "octagon"
+			subtitle: "Read the next two quests to prep for a Boss Battle!"
+			tasks: [{
+				id: "1B7CBCCE337C8202"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "What The Hell, Man?!"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35543A6762C513F7"]
+			description: [
+				"&4Well that was no treasure&r. "
+				""
+				"What you summoned was a &dLeviathan&r. Was &dTim&r trying to get you killed?"
+				""
+				"It seems it was no normal &dLeviathan&r, either. This &dLeviathan&r seems to &4be infused with the same purple energy that engulfed your last village&r. "
+				""
+				"&dLeviathan&r has &825 flat Physical Damage&r converted to &9Water Damage&r and &5Chaos Damage&r."
+				""
+				"&5&oLeviathan will start at level 30&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "71008A763EB4C66D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 10000"
+				id: "132C53CA0A157019"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "Boss Fight"
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "6F3BB8FE41655108"
+				type: "advancement"
+			}]
+			title: "Defeat the Leviathan"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["174E97B4DA587E02"]
+			description: [
+				"&dThe Leviathan&r has &22 phases&r, with the &2second phase starting at 50%&r. "
+				""
+				"It will cycle between several different attacks like lasers, mines, pulling you in with it's tongue, a bite attack, and a purple vortex that will vaccuum you up and cause damage. "
+				""
+				"If you get speared with the tongue attack and &2pulled close to the boss, you can quickly try to melee the boss for bonus damage&r, if you can survive. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "35543A6762C513F7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1400"
+				id: "13DAABAEC185E00D"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "33FBEB9E2FDF35E5"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "A Little Strategy"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3193DF1F9D9C4CF7"]
+			description: ["Killing this mob should yield &31 Coral Chunk&r. "]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "4C441AB2DBE56DB3"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				id: "4986CDC8C2C3EBB1"
+				type: "command"
+			}]
+			subtitle: "This one"
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "5FA4B716A6488670"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Coralssus"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3193DF1F9D9C4CF7"]
+			description: ["Killing &c4 Coral Golems&r should yield &34 Crystallized Coral Fragments&r, which should craft into a &3Crystallized Coral&r."]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "7239A74CCC203924"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3500"
+				id: "4DEF62D4459E8CD6"
+				type: "command"
+			}]
+			subtitle: "Or that one"
+			tasks: [{
+				entity: "cataclysm:coral_golem"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "03954A58DE5D9CB9"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Coral Golem"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["663CBB97F0B94D4F"]
+			description: [
+				"&dChef Shaun's&r quest states that &4he's never actually BEEN&r to the &6Sweet Lands&r, and he doesn't actually know how to get there."
+				""
+				"&2Entry is only taught to Diamond Chef's&r. However, &2any Chef that has knowledge of entry can teach you if they want&r."
+				""
+				"&dShaun&r mentioned he trained under &dChef Ramsickle&r, a &4somewhat violent chef&r who lives in the &eCherry Groves&r. "
+				""
+				"If you're looking at the &3Explorer's Compass&r, you can search for the \"&9Village Bakery&r\""
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "3AB38812065A1C84"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1100"
+				id: "197FE0A0DF43275F"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5C82F7386DE069D4"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Seeking Out a Mentor"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3AB38812065A1C84"]
+			description: [
+				"After pleading with &dChef Ramsickle&r for hours, &2he put you to the test&r. "
+				""
+				"He asked you to make a &3Bread&r. What you returned to him was &4harder than most metals&r. "
+				""
+				"He suggested that you try some &3tea&r. You mixed some &3water&r, and a few drops of &3Chammomile&r into a &3mug&r. When the &dChef&r takes it from you, &4he pours it over a rose; and instantly turns it into a Withered Rose&r."
+				""
+				"He tells you that you have work to do."
+				""
+				"You train under the &dChef&r for weeks, &2returning to him every morning at 3 AM sharp&r to prepare the kitchen, harvest the garden, and get the courses ready for the day. "
+				""
+				"One day; he asks that you try and make some &3Toast&r. &2You try your hardest&r, grinding the &3finest flours&r, you even tried to use the &3Holy Water&r from the towns church.  "
+				""
+				"The Chef looks at you and tells you \"&cITS RAW!&r\". You &2look down at the &3Toast&r you so excitedly prepared&r, and &4quickly realized that you didn't even bake the dough&r. "
+				""
+				"He gives you one more chance, and this time with some moderate success. He says that the &3Toast&r is passable. "
+				""
+				"The &dChef&r hands you down his recipe book and tells you to &4not to come back, again.&r. "
+			]
+			id: "0A23C7A0BA6AAA22"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1100"
+				id: "7D40A8DF9196B5B5"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "sweet_calamity:recipe_book_advancement"
+				criterion: ""
+				id: "78B0D55499216504"
+				type: "advancement"
+			}]
+			title: "Yes, Chef!"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A23C7A0BA6AAA22"]
+			description: [
+				"You take the recipe back to town and get to work. "
+				""
+				"One night, while you're preparing a dish, &2you wonder to yourself why you even feel bound to complete this task&r. You could likely just get up, and walk away. However, you also &2remembered that Shaun made some pretty good eggs that one time&r."
+				""
+				"Later that evening &dShaun&r came over with a few goodies. He was helping you out with some ingredients for the &3Echo Lollipop&r, &3Totem Cake&r, and &3Honeyed Brick&r, but the &2rest is up to you&r."
+				""
+				"&oOnce you complete all of the recipes, make sure to claim the Melted Caramel item from the Recipe Book.&r"
+			]
+			id: "683CB909FE694A79"
+			rewards: [
+				{
+					id: "0AB0D6D4F425CA96"
+					item: {
+						Count: 1
+						id: "sweet_calamity:honeyed_brick"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "67978EDC04581DB7"
+					item: {
+						Count: 1
+						id: "sweet_calamity:echo_lollipop"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2E8958F974E98B80"
+					item: {
+						Count: 1
+						id: "sweet_calamity:totem_cake"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "6AB97C61051D00B4"
+					title: "Ok"
+					type: "checkmark"
+				}
+				{
+					id: "0484439C96CBE362"
+					item: {
+						Count: 1
+						id: "sweet_calamity:beetroot_churro"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "22DCEDD8E97DF912"
+					item: {
+						Count: 1
+						id: "sweet_calamity:candied_coal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "14665716075BF2A5"
+					item: {
+						Count: 1
+						id: "sweet_calamity:fish_in_chocolate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2EC9D7761848E189"
+					item: {
+						Count: 1
+						id: "sweet_calamity:meat_roll_stuffed_with_moss"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "34764BC140446893"
+					item: {
+						Count: 1
+						id: "sweet_calamity:potato_split"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3893B587797EF9A0"
+					item: {
+						Count: 1
+						id: "sweet_calamity:weathered_copper_cake"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "I Didn't Sign Up For This"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["683CB909FE694A79"]
+			description: [
+				"You shipped off the recipes to the &dChef&r, and he shipped you back some Melted Caramel. "
+				""
+				"He says that if you at least &310 Sugar Blocks&r and place them in the shape of a basic &9Nether Portal&r, then pour some &3Melted Caramel&r onto it, it should light the way to the &6Sweet Lands&r."
+				""
+				"&5&oThe monsters inside Sweet Lands will start at level 25&r&r."
+			]
+			id: "45117984A00EE197"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1200"
+				id: "1DE0931823CE577A"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "09A82306CD792C5A"
+					item: {
+						Count: 1
+						id: "sweet_calamity:sweet_lands"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "04A814007AEDC403"
+					item: {
+						Count: 1
+						id: "sweet_calamity:sugar_block"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Entry Into the Sweet Lands"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71008A763EB4C66D"]
+			description: [
+				"You make it back to the village in one piece, but you're pretty beaten up, and still hacking up water. "
+				""
+				"Some villagers rush over to help you. "
+				""
+				"The ground trembles as &dTim&r approaches. As he arrives next to you, he extends his hand and asks what's happened. "
+				""
+				"His voice &4pierces your head, causing it to throb&r. "
+				""
+				"You explain that the only treasure there was from a purple glowing &dLeviathan&r, and you &2throw down one of the tentacles at his feet&r. "
+				""
+				"'Fascinating' he says, followed by what seems to be a very deep apology. "
+				""
+				"He clarifies that the &dLeviathan&r was always the guardian of the &eSunken City&r, but it was supposed to be a peaceful, passive beast.  Something must have changed it.  Perhaps something to do with the purple energy it was emitting. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "7AC71338933B4294"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1500"
+				id: "4963B0DDFD110988"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0A3C160C1B4E1073"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Okay, I Guess That Makes Sense"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45117984A00EE197"]
+			description: [
+				"You've &2made it&r to the tastiest lands in all of the multidimensional plane of existence. &6Sweet Lands&r! "
+				""
+				"You're greeted by an envoy named &dLolli Poppins&r. "
+				""
+				"Are &2you the hero we've been waiting for?&r We sent for a hero weeks ago. &4Our lands are in dire trouble&r!"
+				""
+				"With a confused look on your face, you ask the envoy what they mean. "
+				""
+				"The envoy explains that they sent out a request &2with a really sweet reward weeks ago&r, and she's been waiting for the arrival of a hero. "
+				""
+				"For a moment you think to flex your muscles, stand tall, and say that you are the hero. Instead, &2you try to stand up, and trip over a candy vine as you try to state that you are the hero&r. "
+				""
+				"&dLolli&r chuckles at you and asks that &2you follow her&r."
+			]
+			id: "32AB67CEEF056996"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1200"
+				id: "1B48BADC9CA62E53"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "sweet_calamity:deliciously_dangerous_advancement"
+				criterion: ""
+				id: "7A6661FE84794AC5"
+				type: "advancement"
+			}]
+			title: "Smells Like Sugar"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32AB67CEEF056996"]
+			description: [
+				"&dLolli&r led you to the outskirts of her village."
+				""
+				"Along the way, she explained that ultra violent &4Penguins&r from the &dCake and Ice Cream Clans&r have invaded her town and declared it theirs. "
+				""
+				"Due to the peaceful nature of &dLolli's&r people, they &4had no warriors to defend&r, and not enough fish to subdue the massive penguin army.. "
+				""
+				"Thinking about the reward, &2you officially agree to help out&r the &eIce Cream Village&r. "
+			]
+			id: "13A85D3177116167"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1300"
+				id: "4FE1BC367F29F991"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "sweet_calamity:find_ice_cream_village"
+				criterion: ""
+				id: "178296226B83E108"
+				type: "advancement"
+			}]
+			title: "Following Lolli Poppins"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13A85D3177116167"]
+			description: ["Members of the &dCake&r clan have shown up to &eIce Cream village&r to help the &cIce Cream Penguins&r claim the &eIce Cream Village&r."]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "36DC19475494BE74"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1300"
+				id: "6A5487D1F51FFDF3"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "sweet_calamity:cake_penguin"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "7D997FCAC361E28B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "The Cake Clan"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["13A85D3177116167"]
+			description: [
+				"For many generations &dLolli Poppins&r and her people have been at war with the &cIce Cream Penguins&r. "
+				""
+				"Despite the village being named after the &cIce Cream Penguins&r, the land was &2actually a shared community&r. One day, many millenia ago -- the &cIce Cream Penguins&r made &4an attempt to eradicate &dLolli's&r people&r. Despite not having fighters, they were &2able to subdue the small amount of penguins with fish&r, and &4marched them off a cliff&r. This was a horrible night in the history of the &6Sweet Lands&r. known as '&4The Melting&r'."
+				""
+				"The &2remaining penguins eventually split off into two factions&r, Cake and Ice Cream, and had been &4warring with themselves for thousands of years&r. "
+				""
+				"Something happened in recent weeks though that caused the &cCake&r and &cIce Cream Penguins&r to &4try and re-take the village&r that they once called home."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "41D0AA47E1F0612B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1300"
+				id: "3CAD96513F245CAA"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "sweet_calamity:ice_cream_penguin"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_mob"
+					tag: { }
+				}
+				id: "1D6360886DB1D5B5"
+				type: "kill"
+				value: 5L
+			}]
+			title: "The Ice Cream Clan"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"36DC19475494BE74"
+				"41D0AA47E1F0612B"
+			]
+			description: [
+				"You've helped &2clear out the bulk of the penguin&rs. Some still remain, but &2they can be subdued some fish&r by &dLolli's&r people. "
+				""
+				"&dLolli&r lets you know that the &dSweet Witch&r is responsible for whats happening here. "
+				""
+				"She lets you know that it started with the &4towns golem getting aggressive&r. They were able to lock it up under the city before the penguin invasion. "
+				""
+				"She asks if you can &2destroy it so they can rebuild a new one&r.  "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "11F49AC2AB305F49"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1400"
+				id: "06F46EC643C55A94"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "2719D79BFAE9F64F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Thank You From the Ice Cream Village"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11F49AC2AB305F49"]
+			description: [
+				"&dCreamy&r has &850 flat Physical Damage&r converted to &9Water Damage&r, and &950% Water Resistance&r."
+				""
+				"&5&oCreamy, the Ice Cream Golem will start at level 30&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "7CB5A795F71B38A3"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 8000"
+				id: "5F8D603736099A14"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "Boss Fight"
+			tasks: [{
+				entity: "sweet_calamity:creamy"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "2BD1D05BC12CA108"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Creamy, the Ice Cream Golem"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CB5A795F71B38A3"]
+			description: [
+				"Once again &dLolli&r, and the &eIce Cream Village&r thank you. &2They are beyond grateful for your help&r. "
+				""
+				"&dLolli&r has &2one more request&r, and that's to help with the &6Sweet Witch&r. "
+				""
+				"She says that there are &35 Magic Plates&r &2scattered in chests&r throughout the &6Sweet Lands&r, and if those tablets are put into the &9Witches Cauldron&r in the &eChocolate Witch House&r, the &dSweet Witch&r will be summoned. "
+				""
+				"You &2take a hard long breathe&r and before you &4let her down easily&r as you have other business to attend; &dLolli&r lets you know that there will be a &2nice bonus reward&r in it for you. "
+				""
+				"&2Your ears perk up, and you respond with a resounding yes&r, as if you were already out the door on the way to look for the plates."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "273DA5D2530F89D9"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1400"
+				id: "4C1B9ADB8BC5ED49"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "1648EDDEF9036EBF"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Forever In Your Debt"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["273DA5D2530F89D9"]
+			description: [
+				"With all &35 Magic Plates&r found you can now summon the &dSweet Witch&r."
+				""
+				"You'll need to find a &eChocolate Witch House&r structure and use the plates on the &9cauldron&r inside. "
+				""
+				"Once the &25th plate has been placed in, the witch will be summoned&r! "
+			]
+			id: "6E572801B0EA6E34"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1500"
+				id: "1C63368B2FB5C16C"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "371E6246E7445908"
+					item: {
+						Count: 1
+						id: "sweet_calamity:chocolate_magic_plate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5068E4B11E1D0841"
+					item: {
+						Count: 1
+						id: "sweet_calamity:cream_magic_plate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "271A4E5F6032EF12"
+					item: {
+						Count: 1
+						id: "sweet_calamity:crunchy_magic_plate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "03765EB2F1D269D3"
+					item: {
+						Count: 1
+						id: "sweet_calamity:sticky_magic_plate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "41F0EA587C032DB8"
+					item: {
+						Count: 1
+						id: "sweet_calamity:sweet_magic_plate"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E572801B0EA6E34"]
+			description: [
+				"You notice that the witch was also in similar purple robes as &dBob&r."
+				""
+				"On her person, you find a note...."
+				""
+				"It's a &2list of towns and villages&r, and you &4see your previous village listed on here&r -- '&eYowling Llama Village&r'. "
+				""
+				"You've only been to &eSan Creeper City&r once, and that was when you were a kid. The &4other villages on the list you havent heard about&r, and sound like they &2could be from other dimensions&r."
+				""
+				"It might be worth &2asking around&r the &etavern&r when you get back."
+				""
+				"&dSweet Witch&r has &825 flat Physical Damage&r converted to &aAll Elements&r, &a10% Elemental Damage&r, and &a20% Elemental Resist&r."
+				""
+				"&5&oSweet Witch will start at level 30&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "4E44995904180ECE"
+			rewards: [
+				{
+					id: "13305C8E6EAC8163"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Glendale, the Sweet Witch"
+							pages: ["{\"text\":\"Town of Sprybrooke\\nSan Creeper City\\nYowling Llama Village\\nHoneybeak Farms\\nLos Dragon City\\nTown of Hammerhorn\\n\\n\"}"]
+							title: "List of Towns"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1A48AE616B52343D"
+					item: {
+						Count: 1
+						id: "sweet_calamity:magic_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @p 10000"
+					id: "52C8B8E1B2EFE47B"
+					type: "command"
+				}
+				{
+					id: "636D3F04BA542030"
+					item: {
+						Count: 1
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Boss Fight"
+			tasks: [{
+				entity: "sweet_calamity:sweet_witch"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "60DBCFDDB0561C37"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Sweet Witch"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E44995904180ECE"]
+			description: [
+				"You have a long conversation with Lolli and her people, and just as you were about to leave -- a knight, looking gallant and true arrives. "
+				""
+				"'A hero is needed?' they ask. "
+				""
+				"You look down at Lolli as she looks up at you and you both have a laugh. "
+				""
+				"As you leave, Lolli walks over to the knight and explains that the hero is no longer needed. "
+				""
+				"As you head back to the portal, you recall that your adventure here was actually to recover some ingredients for Shaun.  You inspect the note once again to see what he was looking for. "
+				""
+				"Shaun is looking to make a \"Magic Charge\" which will require 3 Magic Powder. Something about a new, interactive recipe that literally explodes with flavor in your mouth. "
+				""
+				"You check your pockets and pull out several pieces of lint, a bottle cap, a worn tennis ball, and.. oh, here we go.. 3 Magic Powder! It seems like the Sweet Witch had them on her when you looted the body."
+			]
+			id: "0B332A8866319A7F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1500"
+				id: "0F2484DC9B3E2F1C"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "02DD1E9DCD42423A"
+				item: {
+					Count: 3
+					id: "sweet_calamity:magic_powder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "A Hero Is Needed?"
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0B332A8866319A7F"
+				"7AC71338933B4294"
+			]
+			description: [
+				"Your first order of business was to meet up with &dShaun&r and give him the ingredients. "
+				""
+				"You both walk over to the tavern together and start to ask around about the other towns. "
+				""
+				"Several visitors speak up -- some say that they &4passed through and those towns no longer exist&r, some have heard only rumor of them being wiped off the FTB map. "
+				""
+				"Nevertheless, you're now &4certain that what happened at Yowling Llama Village, what happened with Bob, and what happened in the Sweet Lands was all connected&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "0435DFB13F76DF19"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1500"
+				id: "0FF3B0097A8C46C8"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "17FB9490FE2E7E51"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Back Home"
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0435DFB13F76DF19"]
+			description: [
+				"Days go by no new occurences pop up. "
+				""
+				"You start taking this moment of peace to prepare the city for any possible invasions."
+				""
+				"&5&oFrom here you can continue with Act III!&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "7BBDACD0CDD6AB37"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				id: "16F55FD56FEBC4B8"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "725F840E1D076E63"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "A Little Rest and Relaxation"
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D73505C3C4B00D7"]
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C58FB93486CCDED"
+			rewards: [{
+				id: "13ED5D5AC0CCB128"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "7A30A9E7B444AA28"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Aether Eye Recovery"
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E44995904180ECE"]
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37C10AE4C2B24B2B"
+			rewards: [{
+				id: "227844DBCF36B933"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "34B5B58C7DFCF1F2"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Gumball Eye Recovery"
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["277B7ECC076EB804"]
+			icon: {
+				Count: 1
+				id: "mysticalagriculture:infusion_altar"
+				tag: { }
+			}
+			id: "20447876F46FDFAA"
+			rewards: [{
+				id: "019F6629A9585742"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:infusion_altar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "1C7569D4C87B8725"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Infusion Altar Recovery"
+			x: 11.0d
+			y: -3.5d
+		}
+	]
+	title: "Act II"
+}

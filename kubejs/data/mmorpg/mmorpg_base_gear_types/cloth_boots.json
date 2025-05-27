@@ -1,0 +1,144 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "gear_slot": "boots",
+  "guid": "cloth_boots",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:cloth_0_boots",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "create:cardboard_boots",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:wandering_magician_boots",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_1_boots",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "astral_dimension:pajama_boots",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:pumpkin_boots",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:pyromancer_boots",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:electromancer_boots",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:archevoker_boots",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_2_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:cultist_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:cryomancer_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:shadowwalker_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:priest_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:plagued_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:netherite_mage_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_3_boots",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "allthewizardgear:allthemodium_mage_boots",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_4_boots",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "allthewizardgear:vibranium_mage_boots",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_5_boots",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "allthewizardgear:unobtainium_mage_boots",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.4
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "armor_family",
+      "magic_shield_stat",
+      "magic_shield_stat_half",
+      "boots",
+      "intelligence",
+    "cloth_boots",
+    "cloth"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

@@ -1,0 +1,95 @@
+{
+  "base_stats": [],
+  "gear_slot": "ring",
+  "guid": "ring",
+  "possible_items": [
+    {
+      "item_id": "mmorpg:jewelry/ring/iron",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "aether:iron_ring",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:mana_ring",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:silver_ring",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:cooldown_ring",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:cast_time_ring",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:emerald_stoneplate_ring",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "mmorpg:jewelry/ring/gold",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "aether:golden_ring",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:fireward_ring",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:frostward_ring",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:poisonward_ring",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "mmorpg:jewelry/ring/diamond",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "aether:zanite_ring",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "aether:ice_ring",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {}
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "ring",
+      "jewelry_family"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

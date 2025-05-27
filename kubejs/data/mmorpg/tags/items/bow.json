@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "roe_weapons:bow_0", "required": false},
+    {"id": "roe_weapons:bow_1", "required": false},
+    {"id": "roe_weapons:bow_2", "required": false},
+    {"id": "roe_weapons:bow_3", "required": false},
+    {"id": "roe_weapons:bow_4", "required": false},
+    {"id": "roe_weapons:bow_5", "required": false},
+    {"id": "roe_weapons:bow_7", "required": false},
+    {"id": "roe_weapons:cursed_bow", "required": false},
+
+    {"id": "tconstruct:longbow", "required": false},
+
+    {"id": "cataclysm:cursed_bow", "required": false},
+    {"id": "cataclysm:wrath_of_the_desert", "required": false},
+    {"id": "undergarden:slingshot", "required": false}
+
+  ]
+}

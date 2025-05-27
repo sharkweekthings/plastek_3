@@ -1,0 +1,28 @@
+{
+  "type": "implicit",
+  "eye_aura_req": "",
+  "guid": "executioners_guillotine",
+  "one_of_a_kind": "",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "great_axe"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 2.0,
+      "stat": "health_on_kill"
+    }
+  ],
+  "weight": 1000
+}

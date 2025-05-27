@@ -1,0 +1,621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecolonies"
+	group: "2FC07CCE1ABE9089"
+	icon: "minecolonies:blockhuttownhall"
+	id: "3D2DEE321C4AA86A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Your &2new life&r as a &4ruthless overlord&r, hellbent on taking out huma... I mean, your &2new life as a gentle and kind leader begins today&r."
+				""
+				"You will &2rule over your people with kindness&r, and &4stuff&r. "
+				""
+				"This &2questline&r will walk you through the rest of &2getting your colony established&r. "
+				""
+				"Lets start with getting your &2citizens some food&r. "
+				""
+				"You &4wouldn't want them to starve&r... would you? "
+			]
+			icon: "kubejs:p3_chat"
+			id: "009BB242F0FB6D2D"
+			tasks: [{
+				id: "1EF126C64A040E07"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Your New Life"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["009BB242F0FB6D2D"]
+			id: "78FCD872F5E0E387"
+			tasks: [{
+				id: "16A8DA580E1C95BD"
+				item: "minecolonies:blockhutfisherman"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["009BB242F0FB6D2D"]
+			id: "016A4274558D16BD"
+			tasks: [{
+				id: "719C6245A04F88DE"
+				item: "minecolonies:blockhutfarmer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["009BB242F0FB6D2D"]
+			id: "1DC20928E22D390D"
+			tasks: [{
+				id: "2AB4B1C34C021983"
+				item: "minecolonies:blockhutchickenherder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0B093DBD5E92E3E1"
+				"016A4274558D16BD"
+				"78FCD872F5E0E387"
+				"1DC20928E22D390D"
+				"30D83D7F1A590E3F"
+				"2699833EF109DB43"
+			]
+			description: [
+				"Great, you've &2established at least 1 type of food source&r. "
+				""
+				"Just make sure to&2 keep it stocked with whatever it needs&r to the goods keep on comin. "
+				""
+				"For now, you'll have to &4manually give the citizens food&r, so don't neglect them. "
+			]
+			icon: "kubejs:p3_chat"
+			id: "1503F590D0814D73"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "698C002250E30792"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Well Fed"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1503F590D0814D73"]
+			description: [
+				"You opened up your &2first restaurant&r and things &4aren't going so well&r. It's &4kind of a hole in the wall&r, and even though those are &2supposed to be the best places&r, &4yours just isn't&r. "
+				""
+				"You can &2upgrade your restaurant whenever&r you're ready by assigning the &2builder to upgrade&r. "
+				""
+				"Once your &2establishment looks nicer&r, &dShaun&r said that he would &2help out around the kitchen&r and &2teach people how to cook&r some good meals. "
+			]
+			id: "7A07D22D4EA3623C"
+			tasks: [{
+				id: "33F33FBB1D795CCF"
+				item: "minecolonies:blockhutkitchen"
+				type: "item"
+			}]
+			title: "Gordon Ramsay Would Be Ashamed"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32999855766E0F67"]
+			id: "7288270CFFD1F68B"
+			tasks: [{
+				id: "1B7B1955BF3AEAC7"
+				item: "minecolonies:blockhutlumberjack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32999855766E0F67"]
+			id: "657167DB8A2A44A4"
+			tasks: [{
+				id: "30A66B0A1BBBF60D"
+				item: "minecolonies:blockhutminer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A07D22D4EA3623C"]
+			description: [
+				"Your colony is coming along pretty okay."
+				""
+				"So far, none of your buildings have collapsed, so at least the Builders are being trained well. "
+				""
+				"The jobless population is unfortunately on the rise, so you're going to need to create some jobs. "
+				""
+				"Right now you should focus on getting some basic resources incoming. Setting up a Forester and Miner will help get you some Wood, Stone, and Ore. "
+				""
+				"You're probably already using &6Project E&r to replicate most of these resources, but these are just part of the process, and gives your citizens tasks to do."
+			]
+			icon: "kubejs:p3_chat"
+			id: "32999855766E0F67"
+			tasks: [{
+				id: "27612998A124B907"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Resourceful Citizens"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32999855766E0F67"]
+			description: ["If you notice your &4homeless population on the rise&r, you'll need to &2build adequate housing.&r "]
+			icon: "minecolonies:blockhutcitizen"
+			id: "0DD56943FEACEC41"
+			tasks: [{
+				id: "3290A6497A672409"
+				item: "minecolonies:blockhutcitizen"
+				type: "item"
+			}]
+			title: "The Homeless"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7288270CFFD1F68B"
+				"657167DB8A2A44A4"
+			]
+			description: [
+				"Lets be real. You &4don't want to sit there and hand deliver items to everybody&r. That's getting old, and you're a &2strong leader&r who &2don't have time&r for that. "
+				""
+				"It's time to deploy your greatest buildings, yet! &eThe Courier&r, and &eWarehouse&r."
+				""
+				"This &2little guy will work tirelessly&r hand &2delivering items&r from the &eWarehouse&r to various&2 workers in the town&r, and your back will thank you for it. "
+			]
+			icon: "kubejs:p3_chat"
+			id: "6784A5082FC79CF0"
+			tasks: [{
+				id: "185DD2121661BC9E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "You're a Leader, Not a Courier!"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6784A5082FC79CF0"]
+			description: [
+				"Once you get your &eWarehouse&r situated, you can place the &eCourier&r, and then assign the &eCourier&r to work the &eWarehouse&r."
+				""
+				"&oAssigning the work should happen automatically&r."
+			]
+			id: "5E977289D0E99439"
+			tasks: [
+				{
+					id: "6C35C30E1FE1E00B"
+					item: "minecolonies:blockhutwarehouse"
+					type: "item"
+				}
+				{
+					id: "1DDBC4CCF4367DBE"
+					item: "minecolonies:blockhutdeliveryman"
+					type: "item"
+				}
+			]
+			title: "Warehouse and Courier"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E977289D0E99439"]
+			description: [
+				"Some inspectors have visited the town and have approved you to be put on the map. "
+				""
+				"The town is coming together, but you have little defenses. "
+			]
+			icon: "kubejs:p3_chat"
+			id: "55E6DE3D4ECCF1E7"
+			tasks: [{
+				id: "17C987E639C7A079"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Lookin Better"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["009BB242F0FB6D2D"]
+			id: "0B093DBD5E92E3E1"
+			tasks: [{
+				id: "20E3C6D037B5A84C"
+				item: "minecolonies:blockhutswineherder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["009BB242F0FB6D2D"]
+			id: "30D83D7F1A590E3F"
+			tasks: [{
+				id: "47C48EBE0EBCA499"
+				item: "minecolonies:blockhutcowboy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["009BB242F0FB6D2D"]
+			id: "2699833EF109DB43"
+			tasks: [{
+				id: "631FB20EA8E3DE40"
+				item: "minecolonies:blockhutshepherd"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55E6DE3D4ECCF1E7"]
+			id: "4F048C95812025D1"
+			subtitle: "Don't forget to equip your guards!"
+			tasks: [{
+				id: "5A9D479754873CEA"
+				item: "minecolonies:blockhutguardtower"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55E6DE3D4ECCF1E7"]
+			id: "70ACA61F1A1FF810"
+			subtitle: "Don't forget to equip your guards!"
+			tasks: [{
+				id: "189750112149F004"
+				item: "minecolonies:blockhutbarracks"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4F048C95812025D1"
+				"70ACA61F1A1FF810"
+				"26059FEE6EFD1E99"
+			]
+			description: [
+				"Great, now you have a good &2solid foundation&r for the core of your town. "
+				""
+				"There are &2many other buildings&r and &2structures&r you can build from here, each with their &2own upgrades, jobs, and benefits&r to the town. "
+				""
+				"Look below for a list so you can make a full town!"
+			]
+			icon: "kubejs:p3_chat"
+			id: "035B5BF00E0C9501"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "74998CB55AEC25CF"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Give Yourself a Pat on the Back"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			id: "00F81073D4657BBC"
+			tasks: [{
+				id: "0A3E78D2F3A0FF3F"
+				item: "minecolonies:blockhutschool"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "074486D9C594B411"
+			tasks: [{
+				id: "50A53B9DCEACF977"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "72B6978D94282E5F"
+			tasks: [{
+				id: "0DCB17866DD3F606"
+				item: "minecolonies:blockhutenchanter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "06C5F3A55B8A476B"
+			tasks: [{
+				id: "7EBF5DD2EC7FD4E9"
+				item: "minecolonies:blockhutlibrary"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["55E6DE3D4ECCF1E7"]
+			id: "26059FEE6EFD1E99"
+			tasks: [{
+				id: "1D008E5F5E9D8939"
+				item: "minecolonies:blockhutcombatacademy"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "07F504A66E2E9B82"
+			tasks: [{
+				id: "2D9A841FB53582A4"
+				item: "minecolonies:blockhutalchemist"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "298600CCD0BDFD87"
+			tasks: [{
+				id: "733388EF51339A01"
+				item: "minecolonies:blockhutblacksmith"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "0EED82024D483F3E"
+			tasks: [{
+				id: "488A449FB9D055EF"
+				item: "minecolonies:blockhutsmeltery"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "0D734D846878A212"
+			tasks: [{
+				id: "48F439740BA52E64"
+				item: "minecolonies:blockhutmechanic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "467F4EB7247ABF0D"
+			tasks: [{
+				id: "7FA6EDC092B03147"
+				item: "minecolonies:blockhutbaker"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "474BEFCD11978582"
+			tasks: [{
+				id: "50B6FDE27E7055AE"
+				item: "minecolonies:blockhutcrusher"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "3B247D80BE44595A"
+			tasks: [{
+				id: "12317FDDEDAF1E39"
+				item: "minecolonies:blockhutconcretemixer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "3C80E478C516611C"
+			tasks: [{
+				id: "2DC89A58EA9227E9"
+				item: "minecolonies:blockhutsifter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "4A0F31A129F2540D"
+			tasks: [{
+				id: "59D904838A732B62"
+				item: "minecolonies:simplequarry"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "3DA2D29AE585FB7D"
+			tasks: [{
+				id: "0F2C52A4DF00A158"
+				item: "minecolonies:mediumquarry"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "5D200316D87C080E"
+			tasks: [{
+				id: "58A838CEF133242A"
+				item: "minecolonies:blockhutglassblower"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "04005E9ED37D81C4"
+			tasks: [{
+				id: "386C4C4031CB9203"
+				item: "minecolonies:blockhutcomposter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "66A193BCFE291FBF"
+			tasks: [{
+				id: "25DFC00AA53FB3F6"
+				item: "minecolonies:blockhutrabbithutch"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "7F4AF348050F4D17"
+			tasks: [{
+				id: "69F60D4CD3D0A515"
+				item: "minecolonies:blockhutflorist"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "1D1A56FA6CE1F3ED"
+			tasks: [{
+				id: "6C69DA76F83EEE6A"
+				item: "minecolonies:blockpostbox"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			id: "21C0EE697625BF42"
+			tasks: [{
+				id: "62F264E309C98B68"
+				item: "minecolonies:blockhutstonesmeltery"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "4DF717037521AF3F"
+			tasks: [{
+				id: "7D7A2B3282E70C10"
+				item: "minecolonies:blockhutnetherworker"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "02587FFE92B79803"
+			tasks: [{
+				id: "653FA155646D4344"
+				item: "minecolonies:blockhutfletcher"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "6E6B349D30180BC6"
+			tasks: [{
+				id: "7EB81026E94CA0C0"
+				item: "minecolonies:blockhutsawmill"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "4342B61463C2AEB8"
+			tasks: [
+				{
+					id: "2B3AA8A20DB39B72"
+					item: "minecolonies:blockhutplantation"
+					type: "item"
+				}
+				{
+					id: "2797D6C86B49AF00"
+					item: "minecolonies:blockhutplantationfield"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "4CDB3B0B921A24CB"
+			tasks: [{
+				id: "21BEADAC3C4C181B"
+				item: "minecolonies:blockhutfield"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "652BE14926326B54"
+			tasks: [{
+				id: "7FE8CAB7429A78B3"
+				item: "minecolonies:blockhutbeekeeper"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			id: "190EDC9899236B03"
+			tasks: [{
+				id: "5001A741BC4A9E00"
+				item: "minecolonies:blockhutmysticalsite"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			id: "3BC07F8C2FE9AC62"
+			tasks: [{
+				id: "3FA81014D6D7C277"
+				item: "minecolonies:blockhutgraveyard"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+	]
+	title: "MineColonies"
+}

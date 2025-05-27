@@ -1,0 +1,162 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "katana",
+  "guid": "katana",
+  "possible_items": [
+    {
+      "item_id": "divine_weaponry:wooden_katana",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:katana",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:wooden_katana",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:wooden_katana",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:stone_katana",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:nagamaki",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:stone_katana",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:stone_katana",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:iron_katana",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:katana_netherite",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:iron_katana",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:iron_katana",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:golden_katana",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:katana_oni",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:golden_katana",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:golden_katana",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:diamond_katana",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:katana_kitsune",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:katana_kitsune_blue",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:diamond_katana",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:diamond_katana",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:netherite_katana",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:katana_jorogumo",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:katana_akaname",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:netherite_katana",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "spartanweaponry:netherite_katana",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.8
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "katana",
+      "melee_weapon",
+      "mage_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "katana",
+  "weight": 1000
+}

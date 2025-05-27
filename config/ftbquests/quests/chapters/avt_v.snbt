@@ -1,0 +1,1108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "avt_v"
+	group: "1F979D7131BCCB17"
+	icon: {
+		Count: 1
+		id: "minecraft:dragon_egg"
+		tag: { }
+	}
+	id: "3A6C75814B397FA2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["336A24BEB4CBD5EB"]
+			description: [
+				"When you arrived &2back at your village&r, you were surprised to see &dRyan&r there. "
+				""
+				"&dRyan&r, &dShaun&r, &dEmily&r, and &dTim&r were all together &4discussing the massive quake&r that rippled through all realms. "
+				""
+				"You let everyone know &2what happened after you fought&r the &dAstral Guardian&r and how the &2events are likely connected&r through the &dCult of the Void&r, then you introduced your new allies to the town."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "7EA63909997D6C3D"
+			shape: "octagon"
+			tasks: [{
+				id: "7D63FBB4B47990A7"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Together Again"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EA63909997D6C3D"]
+			description: [
+				"In the morning, &2everyone convened&r for breakfast and started to &2discuss options for a plan of attack&r. "
+				""
+				"Unfortunately, things were &4interrupted&r as once more the &4fabric of reality started shaking&r. "
+				""
+				"This time it &4brought all of the Pixies to their knees&r. "
+				""
+				"You look over and &2assist the ones you can back to their feet&r. "
+				""
+				"&dThe Queen&r says she &2knows exactly whats happening&r. "
+				""
+				"She says that the &2last time she felt this&r specific magical energy was when the &2Astral Dimension was created&r. However, &4this feels wrong&r. Warped..... &eVoid Energy&r must be involved. "
+				""
+				"&dThe Queen&r &4seems weaker&r as she tells you that&4 she can feel her magic starting to drain&r, this time at a more &4rapid pace&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "60B581E389E8085A"
+			shape: "octagon"
+			tasks: [{
+				id: "671769913DB2EF8E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Plans Interrupted"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14527A39D456F6C1"]
+			id: "20A30498BD2020C5"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "043827EC70E14808"
+				type: "advancement"
+			}]
+			title: "Find a Soulforge"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20A30498BD2020C5"]
+			description: [
+				"&dNetherite Monstrosity&r has &850 flat Physical Damage&r converted to &cFire Damage&r, and &c75% Fire Resistance.&r"
+				""
+				"&5&oThe Netherite Monstrosity will start at level 50&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "5866F87BD76B6909"
+			shape: "gear"
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "6A44C10F963A10D0"
+				type: "advancement"
+			}]
+			title: "Defeat the Netherite Monstrosity"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14527A39D456F6C1"]
+			id: "7949FA7849F2A6D9"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "079A0C0BEF828864"
+				type: "advancement"
+			}]
+			title: "Find a Frosted Prison"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7949FA7849F2A6D9"]
+			description: [
+				"&dMaledictus&r has &825 flat Physical Damage&r converted to &9Water Damage&r, &850 flat Physical Damage&r converted to &dChaos Damage&r, and &950% Water Resistance&r."
+				""
+				"&5&oMaledictus will start at level 50&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "36B7721A801BBFE4"
+			shape: "gear"
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "28867CC39089DC54"
+				type: "advancement"
+			}]
+			title: "Defeat Maledictus"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5866F87BD76B6909"]
+			id: "157B7989DC9152D0"
+			shape: "square"
+			tasks: [{
+				id: "443DC2FB2F3B2FB7"
+				item: {
+					Count: 1
+					id: "cataclysm:lava_power_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36B7721A801BBFE4"]
+			id: "453F4E3ED2EE7DE8"
+			shape: "square"
+			tasks: [{
+				id: "15EED3A7009B2B01"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1366ED1233E603A7"
+				"453F4E3ED2EE7DE8"
+				"157B7989DC9152D0"
+			]
+			description: [
+				"Take the &3Ice Crystal&r, &34 Insanium Essence&r, &32 Royal Pixie Dust&r, and &31 Cursium&r to the &6Mystical Agriculture&r &9Infusion Altar&r. "
+				""
+				"You should be able to infuse the &dQueen's&r magic into the &3Ice Crystal&r, which &2should hopefully act as a key to get into this new dimension&r."
+				""
+				"For the &ePortal Frame,&r just construct it in the same basic shape as a &eNether Portal&r."
+				""
+				"&dThe Queen&r is requesting that you &2enter the dimension&r and take some &2samples of the wildlife, and terrain&r -- if there is any. "
+				""
+				"&5&oThe monsters inside Setback will start at level 55&r&r."
+			]
+			id: "752D1CA4C2899415"
+			shape: "square"
+			tasks: [
+				{
+					count: 10L
+					id: "4A2B8CBFC29BE564"
+					item: {
+						Count: 1
+						id: "astral_dimension:gloomy_obsidian"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5E94B5BF9096BE10"
+					item: {
+						Count: 1
+						id: "astral_dimension:setback"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Entry Into Setback"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60B581E389E8085A"]
+			description: [
+				"&dThe Queen&r tells you that she &2can create a key&r that will &2open a portal to the dimension&r using her connection to the dimension. "
+				""
+				"Unfortunately, once you go beyond the portal; &4anything could happen&r. You could be stepping into an endless void, or directly into a monsters belly. It &4could be anything, or anywhere&r. "
+				""
+				"She says the last time &2any new dimensions were created, discovered, or opened&r - was when the &2Chaos Dragon was defeated&r, which ultimately opened up access to many new dimensions."
+				""
+				"&4Unfortunately&r, you don't think &4anything good is going to come of this one&r. "
+				""
+				"Despite all this, you &2agree to take up the mission&r. "
+				""
+				"&dThe Queen&r tells you the only way to &2create a key and portal&r is to attain some incredibly hard to get &2materials that must be infused with Insanium, then blessed by Pixie magic&r. "
+				""
+				"To create a &ePortal Frame&r and &3Nanta Star&r you're going to &2need a few things from 3 separate monsters&r. You should be able to l&2ocate the structures or spawns&r on your &3Explorer's Compass&r."
+				""
+				"She is requesting that you enter the dimension and take some samples of the wildlife, and terrain -- if there is any. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "14527A39D456F6C1"
+			shape: "octagon"
+			tasks: [{
+				id: "46CEA9AD30A164F7"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "A New Dimension?"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14527A39D456F6C1"]
+			description: [
+				"&dFrostmaw&r has &850 flat Physical Damage&r converted to &9Water Damage&r, and &935% Water Resistance&r."
+				""
+				"&5&oFrostmaw will start at level 50&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "2F8641C83A673683"
+			shape: "gear"
+			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "6570D9D344392A73"
+				type: "advancement"
+			}]
+			title: "Defeat Frostmaw"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14527A39D456F6C1"]
+			description: [
+				"Your main objective is the &3Ice Crystal&r which usually rest in a &dFrostmaw&r hand. "
+				""
+				"If you could &2be sneaky enough&r, you might be able to &4avoid a fight with the beast&r."
+			]
+			icon: {
+				Count: 1
+				id: "chipped:packed_ice_pointed_dripstone"
+				tag: { }
+			}
+			id: "4B6984CE3691DF66"
+			shape: "square"
+			tasks: [{
+				advancement: "mowziesmobs:find_frostmaw"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "chipped:packed_ice_pointed_dripstone"
+					tag: { }
+				}
+				id: "5D064F4ADE21BE0F"
+				type: "advancement"
+			}]
+			title: "Find a Frostmaw"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B6984CE3691DF66"]
+			id: "4A15E187C9741B83"
+			shape: "square"
+			tasks: [{
+				id: "449C9241540F755B"
+				item: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A15E187C9741B83"]
+			description: [
+				"&dThe Queen&r handed me some of her &3Royal Pixie Dust.&r It &2smells magical&r. Almost like what one &2would imagine unicorn poop to smell like&r."
+				""
+				"You &2take a deep breath&r, and get a &4little light headed.&r "
+				""
+				"You should &4probably stop sniffing&r &2Pixie Dust&r, man."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "1366ED1233E603A7"
+			rewards: [{
+				count: 2
+				id: "0FB0992D21170DB7"
+				item: {
+					Count: 1
+					id: "kubejs:royal_pixie_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4F888F2FBD6F4877"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "It Smells Magical"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1366ED1233E603A7"]
+			icon: {
+				Count: 1
+				id: "kubejs:royal_pixie_dust"
+				tag: { }
+			}
+			id: "31D524FCCBFEF709"
+			rewards: [{
+				count: 2
+				id: "19856186783679AB"
+				item: {
+					Count: 1
+					id: "kubejs:royal_pixie_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "188B200F302B829D"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Royal Pixie Dust Recovery"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["752D1CA4C2899415"]
+			id: "680E0CE425EB05A3"
+			shape: "square"
+			tasks: [
+				{
+					count: 15L
+					id: "4484C6D4E62AB7DA"
+					item: {
+						Count: 1
+						id: "astral_dimension:worm_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "2B4917622DAA7522"
+					item: {
+						Count: 1
+						id: "astral_dimension:twisted_coral"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "18BADC143262C412"
+					item: {
+						Count: 1
+						id: "astral_dimension:sick_log"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["752D1CA4C2899415"]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_mob"
+				tag: { }
+			}
+			id: "5A3B99BC18DF73ED"
+			shape: "square"
+			tasks: [
+				{
+					entity: "astral_dimension:void_menace"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "6B587679D228E2E3"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "astral_dimension:tornpillar"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "18AAD7F47C22A7E8"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "astral_dimension:fatal_shroom"
+					icon: {
+						Count: 1
+						id: "kubejs:p3_mob"
+						tag: { }
+					}
+					id: "1A7FF306C0A32C4D"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Taking a Limb or Three"
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"680E0CE425EB05A3"
+				"5A3B99BC18DF73ED"
+			]
+			id: "03D3EED70D7C3A8C"
+			shape: "square"
+			tasks: [{
+				id: "5DBD98B25DB412D0"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "THE LAST EYE"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["03D3EED70D7C3A8C"]
+			icon: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39CD54B8C1E1FE2B"
+			rewards: [{
+				id: "66779D0AF9E23AC8"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "7719456D07A44EC8"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Cursed Eye Recovery"
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["699199EA3FA6DE99"]
+			description: [
+				"To locate an End Portal Frame you can either find a Stronghold, or buy the frame blocks from the Market. "
+				""
+				"&5&oThe monsters inside The End will start at level 60&r&r."
+			]
+			id: "025597A8B0943247"
+			shape: "square"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "78F7E34E847EC1D9"
+				type: "advancement"
+			}]
+			title: "Entry Into The End"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["03D3EED70D7C3A8C"]
+			description: [
+				"You tell the &dQueen&r about the landscape, the monsters you killed, about a few items you gathered, and the &2strange orb&r you found. "
+				""
+				"She &2focuses on the orb&r and tells you that it's an &eEye to The End&r. She says if only you &2had another 11 eyes; you could get to&r &6The End&r before the &dCult of the Void&r, and kill the &cEnder Dragon&r before they can &4infuse the Chaos Dragons soul into it&r. "
+				""
+				"You tell her that throughout your adventure &2you've been finding orbs in various dimensions&r, and even took one from one of your villa.... a skeleton that had a glowing green eye."
+				""
+				"&oYou could see in the distanct background near the Tavern, a man with an eyepatch entering the building. You tell yourself you saw nothing.&r "
+				""
+				"As you re-focus on the conversation, the &dQueen&r was just about to &2tell you that all you need is to either find an&r &eEnd Portal Frame&r, or attain the frame pieces some other way, and build your own."
+			]
+			id: "699199EA3FA6DE99"
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					count: 15L
+					id: "16C68A8F266A9AD3"
+					item: {
+						Count: 15
+						id: "astral_dimension:worm_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 15L
+					id: "1FA20D4C64BA1410"
+					item: {
+						Count: 15
+						id: "astral_dimension:twisted_coral"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 15L
+					id: "7D3C5EC32011FB35"
+					item: {
+						Count: 15
+						id: "astral_dimension:sick_log"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Heading Home"
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["19234246C5D4818A"]
+			description: [
+				"As you arrived to the surface you come &4face to face with a massive flying dragon&r. "
+				""
+				"A bright purple aura fades from it; as it &4begins to roar in what appears to be agony&r. The roar was &4so powerful that it knocked you back 3 blocks&r. "
+				""
+				"As you regain your footing, you &2see 3 figures in purple cloaks about 30 blocks in front of you&r.  As you start to run toward them, the &dEnder Dragon&r roars again; &4pushing you back once more&r."
+				""
+				"&oThe 3 figures seem to enter through some type of portable teleportation device.&r "
+				""
+				"You look up as an &4enormous explosion of purple energy&r takes place high above in the air, causing the &4entire dimension to light up with void energy&r that caused &2everything to appear and taste like purple&r. "
+				""
+				"As the energy clears, the &2dragon emerges from the cloud&r of smoke in the sky. "
+				""
+				"You see the &4dragons appearance has changed&r. When you saw it moments ago it &4had 1 head, now it has 3&r. Clearly the cult was successful in merging the &dChaos Dragon's&r soul to the &dEnder Dragon&r."
+				""
+				"You &2take a deep breath&r, try to swallow, but your &4mouth is dry&r, then &4draw your weapon and prepare yourself for the battle&r.  "
+				""
+				"&5&oThe Ender Dragon will start at level 60&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_boss"
+				tag: { }
+			}
+			id: "7E76D8E2927D53D7"
+			shape: "gear"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					Count: 1
+					id: "kubejs:p3_boss"
+					tag: { }
+				}
+				id: "20838967061901FB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Ender Dragon"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["025597A8B0943247"]
+			description: [
+				"As you were traveling through the portal &4you felt a painful vibration coursing through your body&r. "
+				""
+				"You have &4no idea what happened&r, you just know that &4every nerve in your body feels like it's on fire&r. "
+				""
+				"As &2you emerge on the otherside&r, your feet firmly on the &3End Stone&r; you &4hear a roaring&r of a beast you never imagined yourself seeing face to face."
+				""
+				"You &2take a deep breathe&r, your weapon at your side; ready to do battle with the &dEnder Dragon&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "19234246C5D4818A"
+			shape: "octagon"
+			tasks: [{
+				id: "0C515B58C0A0C7CB"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "What Was That?!"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["19234246C5D4818A"]
+			description: [
+				"This pack uses the mod &6Ender Trigon&r which changes the &dEnder Dragon&r significantly. "
+				""
+				"The &2dragon should strafe the player more often&r, and follow up with &21 of 4 different attacks&r:"
+				""
+				"&eCharge&r - Includes a flaming breathe; shooting balls of fire at the player during a charge attack."
+				""
+				"&eSnatch&r - Will go toward the player to try and carry the player off."
+				""
+				"&eCrash&r - Will dive at the player and drill down into the blocks below, which will cause explosions and fling the blocks into the air."
+				""
+				"&eDive Bomb&r - Drop eggs near the player which will spawn baby Ender Dragons"
+			]
+			icon: {
+				Count: 1
+				id: "simplehats:dragonskullender"
+				tag: { }
+			}
+			id: "3144E5B8E9551900"
+			tasks: [{
+				id: "2D48B80BC7CA10A2"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ender Trigon Battle Preperation"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7E76D8E2927D53D7"]
+			description: [
+				"After the battle you &2see something sparkling in the distance&r; near where the cult members vanished. "
+				""
+				"You walk over to it and &2pick up the item on the ground&r. "
+				""
+				"As you're handling it, you &4accidentally press a button&r, and a &2portal emerges&r. "
+				""
+				"You &4aren't sure where it leads&r, but you &2know that it doesn't lead back to your village&r. "
+				""
+				"You put the &2device in your backpack&r, and make your way back home."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "27B2A3A08EC5EF8A"
+			rewards: [{
+				id: "5A4A8EBC0FF952D3"
+				item: {
+					Count: 1
+					id: "tempad:he_who_remains_tempad"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5E6F77B318C3F624"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Home Again"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27B2A3A08EC5EF8A"]
+			description: [
+				"You call a &2meeting with the town&r and &2tell them what happened&r with the cult, the dragon, and the device you found. "
+				""
+				"&dThe Queen&r asks you to &2hand her the item&r; and she inspects it. "
+				""
+				"She says that the device is called a &3Tempad&r, and it has &2several locations programmed into it&r. "
+				""
+				"She tells you that it's &2time for you to rest&r and let the &aPixie's&r take care of things from here. "
+				""
+				"She &4erases the locations&r and explains that you &2can use this device to travel between saved locations&r, and it &2should work interdimensionally&r, as well. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "3907CC2E404A2C31"
+			shape: "octagon"
+			tasks: [{
+				id: "5716A99C59CD2C7E"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "One Last Meeting"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3907CC2E404A2C31"]
+			description: [
+				"The next morning &dThe Queen&r tells you that because of the &3Tempad&r, she was able to make a truce with the other &dQueen&r and both &dTitania&r and &dMab&r worked together to &2raise multiple armies&r of &aPixie's&r and &aDwarves&r; then &2sent them to each of the locations&r, and was able to &2successfully sever the head of every&r &dCult of the Void&r member, and leader."
+				""
+				"The &2world was once again safe&r, and this time &2you were the hero&r. &2Your name ever etched into history&r. "
+				""
+				"That night &2friends from all over the realms showed up&r. &dLolli&r and her people &2showed up with delicious treats&r, and &4worked tirelessly for hours&r with &dShaun&r to &2prepare a feast fit for royalty&r."
+				""
+				"Even the folks from the &eCalming Skies&r village showed up for the festivities. "
+				""
+				"The last to show up to the party was the &dYorkington's&r. &2Almost every letter showed up&r, which caused a whole lot of confusion during the evening. Letter &dV&r was &4not able to make the festivities&r. &dCoxworth's&r said that &dCoxworth V. Yorkington&r was &2off on an adventure trying to uncover&r another &6Everdawn&r portal that was &2rumored to exist&r. "
+				""
+				"Everyone throughout the night &2danced, drank, and enjoyed the party into the early hours of the morning&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "4C1EF8F51267FEC5"
+			shape: "octagon"
+			tasks: [{
+				id: "4A0840D1128ED1F6"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "At Least We Didn't Blow Up This Time"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C1EF8F51267FEC5"]
+			description: [
+				"&dDr. Emily&r &2eventually mastered the mystical arts of agriculture, AND medicine&r.  She graduated the &2top of her class&r, with &41 villager closely behind&r her scores."
+				""
+				"She went on an &2away mission&r to what is supposedly the &6Twilight Forest&r, even though that &2dimension was supposed to be lost during&r the &ePlastimpocalypse&r. "
+				""
+				"Whether it's actually the &6Twilight Forest&r, &2or another dimension&r remains to be seen; but &2she wanted to be there incase anyone got hurt&r. "
+				""
+				"She left the town in the &2capable hands of her mentor&r &dDr. Mandi Mandibles&r, who went on to be the &2first doctor in the 88 currently known dimensions&r to successfully transplant an &3Alpaca's Head&r onto the &dWandering Merchant&r, which &2saved the life&r of the merchant and allowed him to become the &2first&r &3Wandering Merchant&r to achieve the &2goal of 100 billion currencies&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "204722BDD681089C"
+			shape: "octagon"
+			tasks: [{
+				id: "72AA692443A5A007"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Emily"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C1EF8F51267FEC5"]
+			description: [
+				"&dTim&r &2stayed in the village&r and opened &dThe Arcane School For People That Have Money&r. "
+				""
+				"It was a &2place for the magically inclined to learn magic&r, &4for a pretty penny of course&r. "
+				""
+				"People from &2all over the land came to train&r under &dTim&r, and he was &2happy to take their coin&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "6E6A6B9EC3AE9C50"
+			shape: "octagon"
+			tasks: [{
+				id: "3323E42EB77FA1A6"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Timilimit Popsi Archibald the III"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C1EF8F51267FEC5"]
+			description: [
+				"&dShaun&r became the top &eDiamond Chef&r in over &237 different dimensions&r. "
+				""
+				"His cuilnary expertise was impeccable, he &2had a dish for every occasion&r. "
+				""
+				"Someone in the family pass away? He had a dish that literally would make you smile and feel happy.  Feeling too happy? He had a dish that would bring you so down that it felt like you were walking on Bedrock. "
+				""
+				"Now that you think about it, &dShaun&r &4might be using his delicious food to poison or drug people&r......"
+				""
+				"&oShould you say something....?&r"
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "6FE134FB9BECA29D"
+			shape: "octagon"
+			tasks: [{
+				id: "409E351E4ECD7F66"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Shaun"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C1EF8F51267FEC5"]
+			description: [
+				"&dRyan&r, and &dGertrude&r &2lived fairly happily&r as their &2village continued to thrive&r and create new technologies, and bring existing technologies back. "
+				""
+				"Unfortunately, one night; little &dHumphrey&r got his &4leg stuck in some crushing wheels&r, but &dRyan&r was able to &2create a cybernetik leg replacement&r. Then &dHumphrey&r got his &4hand jammed in the gears of the leg&r and &4lost his hand&r.  "
+				""
+				"&dRyan&r started to &4work tirelessly each night&r trying to create a hand replacement. "
+				""
+				"One time you went to visit &dRyan's&r village; and as you approached his door; &4you heard it&r... "
+				""
+				"BEEP.. CLANK. BLIPBLEEEP... *inaudible crushing noises*... BBZZZZZZTTT... *the sound of failing*"
+				""
+				"You &2opted to put your cloak on your head and continue walking&r. You knew there was a reason you &4didn't want to come back&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "0513603A119AFBAE"
+			shape: "octagon"
+			tasks: [{
+				id: "6FFE27A09DEE2D33"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Ryan Vermillionson"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C1EF8F51267FEC5"]
+			description: [
+				"&dCoxworth V. Yorkington&r eventually found the &6Everdawn&r portal they were seeking. "
+				""
+				"They &2setup their house deep in a snowy biome&r; to &2forever be a hermit&r. "
+				""
+				"The &2town would deliver produce, and baked goods&r to all of the &dYorkington's&r every harvest, however most of the &dYorkington's&r didn't like the crops, or baked goods so they would &2feed the food to their pet&r &agrizzly bear&r named &dFoe&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "7D642A89D54EDEF6"
+			shape: "octagon"
+			tasks: [{
+				id: "3C85622734A20CE7"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Coxworth Yorkington"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"204722BDD681089C"
+				"6E6A6B9EC3AE9C50"
+				"6FE134FB9BECA29D"
+				"0513603A119AFBAE"
+				"7D642A89D54EDEF6"
+				"315740FFD6D8A200"
+				"5CE47BF7E2224681"
+				"464B7D793B1D05A4"
+			]
+			description: [
+				"All I have to say from here is &2thank you&r! "
+				""
+				"Thank you for taking the time to play this modpack, and an &2extra thank you if you took the time to read through my nonsense&r. "
+				""
+				"From here the activities you have are any &eAscendancy&r quests you may not have finished, &6Mine and Slash&r &eMaps&r as the &2main content for Endgame&r. &6Ancient Obelisk&r, &6The Harvest&r, and &6Dungeon Realms&r are &2other alternatives to keep on leveling&r while you &2build your&r &6Minecolonies&r (&oif you chose to make one&r). "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "31ABF97A4BE2448F"
+			shape: "heart"
+			subtitle: "I appreciate you!"
+			tasks: [{
+				id: "37C59A87E8894A7A"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Thank You"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C1EF8F51267FEC5"]
+			description: [
+				"&dLolli&r and her people eventually &4got into another dispute&r with the penguin clan; all under &4one united banner&r, renamed the &dPopsicle Clan&r. "
+				""
+				"This &4led to an all out war&r. &dLolli&r eventually &2requested help&r, they were &2trained to fight and pushed back the penguin army&r. "
+				""
+				"The &2penguins eventually surrendered&r after &4many penguin lives were lost&r. Peace negotiations took many months, but now &dLolli&r is &2proud to call the remaining penguins her people as well&r. "
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "315740FFD6D8A200"
+			shape: "octagon"
+			tasks: [{
+				id: "5AE10D2A4BCB2EA7"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Lolli Poppins"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C1EF8F51267FEC5"]
+			description: [
+				"&dProfessor Trev&r heroically &4sacrificed himself&r to save a group of &4students who had fallen into a hole&r. "
+				""
+				"The moment that he heard they were trapped, he packed his bags and &2headed out to save them&r. He was &2an expert at holes&r, after all. With his trusty &3Netherite Shovel&r named &dMittens&r; he &2headed out on his own adventure&r. Little did he know, it &4would be his last&r. "
+				""
+				"As &dProfessor Trev&r helped each individual student out from the hole, there was one student by the name of &dFred&r; who was &4unfortunately not the brightest&r. &dTrev&r asked &dFred&r to place &31 Dirt Block&r to lift himself up, but the kid ended up placing a &3Gravel Block&r, which &4immediately dropped down; just as the child took his step&r."
+				""
+				"As the heroic professor &2reached his hand down to save the student&r, &dFred&r quickly &2latched on to his hand&r, &4panicked, and ran up Trev's arm like a demonic little gremlin&r. It was the final step that &dFred&r took that caused &dTrev&r to lose his footing and &4fall roughly 78 blocks down&r, straight into a &4pit of lava&r."
+				""
+				"&eAugust 38th Year, 10002 is forever known as Trev's Hole Day&r where the &2town goes out for the whole day&r and &2buries any holes that they can find&r, to &2prevent such a tragedy&r from happening again. "
+				""
+				"Nowadays; the &2hole digging class is taught&r by &dProfessor Eric Blockhater&r. He graduated top of &dProfessor Trev's&r last known class, and went on to &2teach the children how to dig safe, and managed holes&r."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:p3_chat"
+				tag: { }
+			}
+			id: "5CE47BF7E2224681"
+			shape: "octagon"
+			tasks: [{
+				id: "1C89CCCDAFAC3A84"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Professor Trev"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7949FA7849F2A6D9"]
+			icon: "kubejs:p3_mob"
+			id: "4AE9E8E4B0FE6478"
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				icon: "kubejs:p3_mob"
+				id: "653E0DBCD43AAF3D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C1EF8F51267FEC5"]
+			icon: "kubejs:p3_chat"
+			id: "464B7D793B1D05A4"
+			shape: "octagon"
+			tasks: [{
+				id: "45B14F7D0C1EC271"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Pixie Friend"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20A30498BD2020C5"]
+			description: [
+				"If you &4aren't within melee range the boss may launch a projectile&r at you. Once the projectile &4lands, it will summon a pool of lava&r. You can &2place some Netherrack down to stop the spread of lava&r.'"
+				""
+				"If you're in &4melee range, the boss will use a melee attack&r and &4slam the ground&r, dealing damage and &4knocking you up, then you'll take additional fall damage.&r      "
+			]
+			id: "6DFE4C83E03A804C"
+			tasks: [{
+				id: "4CA9DDA1C45A4A29"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Netherite Monstrosity Strategy"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7949FA7849F2A6D9"]
+			id: "60248D80D0C868B2"
+			tasks: [{
+				id: "4C7AB2A07898E9D6"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	title: "Avt V"
+}

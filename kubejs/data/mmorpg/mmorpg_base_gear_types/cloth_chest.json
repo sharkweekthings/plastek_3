@@ -1,0 +1,133 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "magic_shield"
+    }
+  ],
+  "gear_slot": "chest",
+  "guid": "cloth_chest",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:cloth_0_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "create:cardboard_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:wandering_magician_chestplate",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_1_chestplate",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "astral_dimension:pajama_chestplate",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:electromancer_chestplate",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_2_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "botania:manaweave_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:cultist_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:cryomancer_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:shadowwalker_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:priest_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:plagued_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "irons_spellbooks:netherite_mage_chestplate",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_3_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "allthewizardgear:allthemodium_mage_chestplate",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_4_chestplate",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "allthewizardgear:vibranium_mage_chestplate",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:cloth_5_chestplate",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "allthewizardgear:unobtainium_mage_chestplate",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.4
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "chest",
+      "armor_family",
+      "magic_shield_stat",
+      "intelligence",
+    "cloth_chest",
+    "cloth"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

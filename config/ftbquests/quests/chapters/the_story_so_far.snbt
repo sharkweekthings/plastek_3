@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_story_so_far"
+	group: "0B1C7C243DF15207"
+	icon: {
+		Count: 1
+		id: "minecraft:writable_book"
+		tag: { }
+	}
+	id: "36359D6440CA8C88"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&l&6Plastek 1&r&r"
+				"About 500,000 years ago the world was brought to ruin by the discovery of &3Plastim&r. An &2extremely powerful alloy&r forged by combining &3Sharkinite&r and &3Weekonium&r. As dimensions and planets were mined of every last block. &3Plastim&r became part of everything, every block, every component, and was so ingrained into society as the '&aSavior Ingot&r'. For many years everything seemed great, despite the fact that an entire galaxy of planets was mined away. "
+				""
+				"Ultimately, the element became unstable causing a mass apocalyptic event dubbed the &ePlastimpocalypse&r. Turning the &conce peaceful world into a hostile environment&r of the undead, demons, and other aggressive creatures. "
+				""
+				"There were &2some communities and dimensions that were against the use of Plastim&r, and while they still felt the effects of the damage to the world; they survived, and &2thrived for many thousands of years&r, assisting in rebuilding the world. "
+			]
+			id: "51A9C0A183BB2661"
+			subtitle: "Plastek 1"
+			tasks: [{
+				id: "5F39368AC26ADCFA"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Part 1"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51A9C0A183BB2661"]
+			description: [
+				"&l&6Plastek 2&r&r"
+				"While &3Plastim&r hasn't been used in &2many thousands of years&r, the &4effects of Plastim remain&r. Devastating &4Plastim Storms sweep through the world every 30 minutes&r, destroying any and all loose items on the ground, but have little effect on anything within a short range of a person. "
+				""
+				"&4Many planets and dimensions were inacessible&r either due to c&4omplete and total destruction from mining away all the blocks&r, or due the &ePlastimpocalypse&r. "
+				""
+				"150,000 years later a new threat emerged which called for a hero to rise up and slay the &dChaos Guardian&r. The journey &2was completed&r after learning a variety of new technologies that allowed the hero to engage in battle with the &dChaos Dragon&r."
+				""
+				"Unfortunately, during the celebrations a &4saboteur snuck into the main base and slipped a small fragment of Plastim into the Draconic Reactor&r, which &4caused a massive explosion&r, and sent an &4unknown wave of purple energy directly into the End Portal&r which was witnessed by traveler's who were thousands of blocks away from the explosion. Aptly named the &eDraconic Disaster&r, the hero, their party, friends, family, and anyone else in the radius of the explosion had been &4eliminated instantly&r. "
+			]
+			id: "0A27E54DBB4F8ADB"
+			subtitle: "Plastek 2"
+			tasks: [{
+				id: "440263B1030CBFAB"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Part 2"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A27E54DBB4F8ADB"]
+			description: [
+				"The bees of the &6Bumblezone&r and the elves of &6Alfheim&r finally &4cut ties&r with the &6Overworld&r, and &4closed access to their worlds&r. "
+				""
+				"Nobody knows how or &4if they survived, or what their lands look like&r after the &eDraconic Disaster&r."
+			]
+			id: "2C7CBC69FB5A35F6"
+			subtitle: "Dimensional Update"
+			tasks: [{
+				id: "34A7B8191F96AF93"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Part 3"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "The Story So Far"
+}

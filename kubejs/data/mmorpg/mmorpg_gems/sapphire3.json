@@ -1,0 +1,35 @@
+{
+  "gem_type": "sapphire",
+  "identifier": "sapphire3",
+  "item_id": "mmorpg:gems/sapphire/3",
+  "min_lvl_multi": 0.3,
+  "on_armor_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "magic_shield",
+      "v1": 14.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "mana",
+      "v1": 9.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "increase_healing",
+      "v1": 15.0
+    }
+  ],
+  "perc_upgrade_chance": 25,
+  "rar": "rare",
+  "text_format": "BLUE",
+  "tier": 3,
+  "weight": 10000
+}

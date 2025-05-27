@@ -1,0 +1,28 @@
+{
+  "type": "implicit",
+  "eye_aura_req": "",
+  "guid": "barbarian_javelin",
+  "one_of_a_kind": "",
+  "only_one_per_item": true,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "type": "GearSlot",
+        "excluded": [],
+        "included": [
+          "javelin"
+        ],
+        "req_type": "HAS_ALL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 18.0,
+      "min": 8.0,
+      "stat": "poison_chance"
+    }
+  ],
+  "weight": 1000
+}

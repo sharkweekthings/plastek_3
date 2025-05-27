@@ -1,0 +1,140 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 3.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "FLAT",
+      "max": 2.0,
+      "min": 1.0,
+      "stat": "health"
+    }
+  ],
+  "gear_slot": "boots",
+  "guid": "leather_boots",
+  "possible_items": [
+    {
+      "item_id": "cte_essentials:leather_0_boots",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:red_samurai_boots_light",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:blue_samurai_boots_light",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:green_samurai_boots_light",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:gray_samurai_boots_light",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:gambeson_boots",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:leather_1_boots",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:iron_samurai_boots_light",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:cuirassier_boots",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:leather_2_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:white_samurai_boots_light",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "epicpaladins:assassin_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "epicpaladins:bloodstone_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "magistuarmory:lamellar_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:leather_3_boots",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:gold_samurai_boots_light",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:leather_4_boots",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:diamond_samurai_boots_light",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "cte_essentials:leather_5_boots",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "samurai_dynasty:netherite_samurai_boots_light",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.4
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "dodge_stat_half",
+      "armor_family",
+      "boots",
+    "leather_boots",
+    "leather"
+    ]
+  },
+  "weapon_type": "none",
+  "weight": 1000
+}

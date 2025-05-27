@@ -1,0 +1,35 @@
+{
+  "gem_type": "tourmaline",
+  "identifier": "tourmaline6",
+  "item_id": "mmorpg:gems/tourmaline/6",
+  "min_lvl_multi": 0.6,
+  "on_armor_stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "physical_resist",
+      "v1": 20.0
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "health",
+      "v1": 20.0
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "type": "PERCENT",
+      "scale_to_lvl": false,
+      "stat": "all_physical_damage",
+      "v1": 25.0
+    }
+  ],
+  "perc_upgrade_chance": 0,
+  "rar": "mythic",
+  "text_format": "LIGHT_PURPLE",
+  "tier": 6,
+  "weight": 1
+}

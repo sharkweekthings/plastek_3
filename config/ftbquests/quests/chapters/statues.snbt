@@ -1,0 +1,1739 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "statues"
+	group: "76418A7EF5488336"
+	icon: {
+		Count: 1
+		id: "statues:sheep_statue_red"
+		tag: { }
+	}
+	id: "48FF4E18FD9798B0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "21F0A61964B89448"
+			tasks: [{
+				id: "65398FDBC8B583E4"
+				item: {
+					Count: 1
+					id: "statues:angry_bee_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "13D28F7CCDE2E7C1"
+			tasks: [{
+				id: "4453C0DB0AA2701F"
+				item: {
+					Count: 1
+					id: "statues:baby_zombie_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "577048CBCCC5FBEE"
+			tasks: [{
+				id: "1632FA6946E6E3EF"
+				item: {
+					Count: 1
+					id: "statues:bee_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "1470254434ABB552"
+			tasks: [{
+				id: "09E87853B1AC2EE1"
+				item: {
+					Count: 1
+					id: "statues:trans_bee_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "4421E5582BC36E43"
+			tasks: [{
+				id: "4161333D2BEF27BE"
+				item: {
+					Count: 1
+					id: "statues:blaze_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "235AC44BEA40D1BE"
+			tasks: [{
+				id: "35E048FD4FCFE6B2"
+				item: {
+					Count: 1
+					id: "statues:brown_mooshroom_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "1C3FFE91676FBD9C"
+			tasks: [{
+				id: "472E7ABD6E9CFE78"
+				item: {
+					Count: 1
+					id: "statues:campfire_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "1D64279995776956"
+			tasks: [{
+				id: "0DC216BB94A6D8D3"
+				item: {
+					Count: 1
+					id: "statues:cat_black_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "660053BA9189D717"
+			tasks: [{
+				id: "0EFF9F1CAAFF6A0B"
+				item: {
+					Count: 1
+					id: "statues:cat_british_shorthair_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "4A68D50B33B991DF"
+			tasks: [{
+				id: "23C7B07C1E244995"
+				item: {
+					Count: 1
+					id: "statues:cat_calico_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "074971509140C03B"
+			tasks: [{
+				id: "439A78A26C197B14"
+				item: {
+					Count: 1
+					id: "statues:cat_jellie_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "4B1604C8B86289B4"
+			tasks: [{
+				id: "09324DEE32D83C61"
+				item: {
+					Count: 1
+					id: "statues:cat_persian_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "389C0D282AF8DF88"
+			tasks: [{
+				id: "724EE4D5E582B4B6"
+				item: {
+					Count: 1
+					id: "statues:cat_ragdoll_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "55F360DBCA499C9C"
+			tasks: [{
+				id: "11F2C5C5FC74EB19"
+				item: {
+					Count: 1
+					id: "statues:cat_red_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "25D369697F06CF50"
+			tasks: [{
+				id: "0F567EAFF0CE0C56"
+				item: {
+					Count: 1
+					id: "statues:cat_siamese_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "4B001EF1CD5FB52C"
+			tasks: [{
+				id: "4BF6A993A6864CDB"
+				item: {
+					Count: 1
+					id: "statues:cat_tabby_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "29589D029912C8E6"
+			tasks: [{
+				id: "5EBF6041657B6561"
+				item: {
+					Count: 1
+					id: "statues:cat_tuxedo_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "473C3F6ECF90E38C"
+			tasks: [{
+				id: "62051F3425C53D27"
+				item: {
+					Count: 1
+					id: "statues:cat_white_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "77A0832ECEDA1096"
+			tasks: [{
+				id: "523CFEB9EC893927"
+				item: {
+					Count: 1
+					id: "statues:chicken_jockey_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "0CAF1335DF8D76D1"
+			tasks: [{
+				id: "38B013822DA8AD5D"
+				item: {
+					Count: 1
+					id: "statues:chicken_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "53E7754C72C46B05"
+			tasks: [{
+				id: "37B337BD8A3FE9B3"
+				item: {
+					Count: 1
+					id: "statues:cod_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "4ABC9057565A43F0"
+			tasks: [{
+				id: "059ED76A062750F4"
+				item: {
+					Count: 1
+					id: "statues:cow_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "4CF784BC22C2D16B"
+			tasks: [{
+				id: "0B8EC055061921D7"
+				item: {
+					Count: 1
+					id: "statues:creeper_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "58BF4C0A3C1C82F3"
+			tasks: [{
+				id: "4E4F9BB237C08A76"
+				item: {
+					Count: 1
+					id: "statues:detective_platypus_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "2F48C4C20F190965"
+			tasks: [{
+				id: "27A310F1B5D5963C"
+				item: {
+					Count: 1
+					id: "statues:dolphin_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "4DF31ABDBEE0FCBC"
+			tasks: [{
+				id: "502456556F36581B"
+				item: {
+					Count: 1
+					id: "statues:drowned_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "62DCDE48942B4DF4"
+			tasks: [{
+				id: "6FB6C8520A4DAE92"
+				item: {
+					Count: 1
+					id: "statues:elder_guardian_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "26203BF2C9A2DB04"
+			tasks: [{
+				id: "1D8C1C4778973D76"
+				item: {
+					Count: 1
+					id: "statues:enderman_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "1D7E71B2B348A6DB"
+			tasks: [{
+				id: "2EFF296C825B0E69"
+				item: {
+					Count: 1
+					id: "statues:endermite_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "62370D9766960983"
+			tasks: [{
+				id: "3672D7EB868AE742"
+				item: {
+					Count: 1
+					id: "statues:evoker_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "49ED88EAAFB009C2"
+			tasks: [{
+				id: "34B87EF225B198F8"
+				item: {
+					Count: 1
+					id: "statues:flood_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "4EA95E562F741637"
+			tasks: [{
+				id: "1788AF4CB2CA81ED"
+				item: {
+					Count: 1
+					id: "statues:fox_snow_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "6856403DE12D3B4A"
+			tasks: [{
+				id: "2D1CE83484DFCBC1"
+				item: {
+					Count: 1
+					id: "statues:fox_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "1289862D9D617511"
+			tasks: [{
+				id: "174AFBA8EC71FC4C"
+				item: {
+					Count: 1
+					id: "statues:ghast_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "0BD2743E7B43A7BD"
+			tasks: [{
+				id: "2A151764A694418B"
+				item: {
+					Count: 1
+					id: "statues:guardian_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "6CE1FADB0CF4E55D"
+			tasks: [{
+				id: "4D34095A043C9923"
+				item: {
+					Count: 1
+					id: "statues:husk_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "22C04BDEB154386E"
+			tasks: [{
+				id: "34F2BDA9CA735E8F"
+				item: {
+					Count: 1
+					id: "statues:info_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "63A527E4A8447483"
+			tasks: [{
+				id: "057AA347F79D7156"
+				item: {
+					Count: 1
+					id: "statues:king_cluck_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "0364FAA4E97E4EC6"
+			tasks: [{
+				id: "414716BA0694BA0E"
+				item: {
+					Count: 1
+					id: "statues:magma_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "4E26F7BF180EC47D"
+			tasks: [{
+				id: "0AC37B8A4BC22C31"
+				item: {
+					Count: 1
+					id: "statues:mooshroom_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "118C74C7220735ED"
+			tasks: [{
+				id: "0D49C066605253E5"
+				item: {
+					Count: 1
+					id: "statues:panda_angry_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "45324C9C712CE2C6"
+			tasks: [{
+				id: "1B035B39EEC9015A"
+				item: {
+					Count: 1
+					id: "statues:panda_brown_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "53E7771D85935729"
+			tasks: [{
+				id: "790ED5F29EBF2239"
+				item: {
+					Count: 1
+					id: "statues:panda_lazy_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "22975245603F07BB"
+			tasks: [{
+				id: "304BE6C9D76D6A8B"
+				item: {
+					Count: 1
+					id: "statues:panda_normal_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "38B45FF12F320654"
+			tasks: [{
+				id: "6363BD74946DD656"
+				item: {
+					Count: 1
+					id: "statues:panda_playful_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "53630E3BFC90B6F0"
+			tasks: [{
+				id: "4571A1BFB245AEFE"
+				item: {
+					Count: 1
+					id: "statues:panda_weak_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "31F19405006F3CAA"
+			tasks: [{
+				id: "40B71ED422496F82"
+				item: {
+					Count: 1
+					id: "statues:panda_worried_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "4825DCD64EA89A01"
+			tasks: [{
+				id: "56BDE72C80AD7BED"
+				item: {
+					Count: 1
+					id: "statues:pig_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "405315EA36CCCB59"
+			tasks: [{
+				id: "07FE568831642C0A"
+				item: {
+					Count: 1
+					id: "statues:pillager_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "17B73A81A26755A3"
+			tasks: [{
+				id: "4AD9C20E8D44443F"
+				item: {
+					Count: 1
+					id: "statues:player_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "36C4A82F124B49C4"
+			tasks: [{
+				id: "58F4C3BF0298F330"
+				item: {
+					Count: 1
+					id: "statues:pufferfish_medium_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "5CCA0CA94935D822"
+			tasks: [{
+				id: "73C321A25958F315"
+				item: {
+					Count: 1
+					id: "statues:pufferfish_small_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "0CC1DA32FF82DC30"
+			tasks: [{
+				id: "7DAB01BC13EBF97C"
+				item: {
+					Count: 1
+					id: "statues:pufferfish_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "5F86D9ABD2EC622B"
+			tasks: [{
+				id: "77C415D04863CFE5"
+				item: {
+					Count: 1
+					id: "statues:rabbit_br_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "730F6E20CEA32975"
+			tasks: [{
+				id: "7768DB6CAF1FD42C"
+				item: {
+					Count: 1
+					id: "statues:rabbit_bs_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "521E2866753D510B"
+			tasks: [{
+				id: "1CA90BD0396D87DC"
+				item: {
+					Count: 1
+					id: "statues:rabbit_bw_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "1B22EAA0774E4FEF"
+			tasks: [{
+				id: "4A18C7BBB5BAEDC8"
+				item: {
+					Count: 1
+					id: "statues:rabbit_go_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "7DA0EA71309D5C18"
+			tasks: [{
+				id: "1AA914181BC2B78E"
+				item: {
+					Count: 1
+					id: "statues:rabbit_wh_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "11872ABC69C561C9"
+			tasks: [{
+				id: "42027CF77AD90D0C"
+				item: {
+					Count: 1
+					id: "statues:rabbit_ws_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "4E7B685EA9C7B5C9"
+			tasks: [{
+				id: "430B5A489B1F2C01"
+				item: {
+					Count: 1
+					id: "statues:ravager_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "04E7398953D2DE2E"
+			tasks: [{
+				id: "5686A2A771ED6220"
+				item: {
+					Count: 1
+					id: "statues:salmon_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "2A3F398784B6D756"
+			tasks: [{
+				id: "1FD6AA277767B3E2"
+				item: {
+					Count: 1
+					id: "statues:sheep_shaven_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "4641A38F183C5F90"
+			tasks: [{
+				id: "22CF29607A57713F"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_black"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "600966F1D2CBC9F0"
+			tasks: [{
+				id: "5C4B00BB003EA5BC"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_blue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "49EFB340E1B16E2C"
+			tasks: [{
+				id: "4FF2525B2E846278"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_brown"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "02942F67873E388E"
+			tasks: [{
+				id: "12A659E13B2985B8"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_cyan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "6A4EEAC1C0230BC5"
+			tasks: [{
+				id: "094D5C1946127690"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_gray"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "0DBF0951411900BD"
+			tasks: [{
+				id: "25D6FDD550E02BD4"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_green"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			id: "39982C3FD5EDD4AE"
+			tasks: [{
+				id: "50AAB3882208227E"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_light_blue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			id: "4B294047B9D7652D"
+			tasks: [{
+				id: "6DAAF0BF0AC5AB3F"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_light_gray"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			id: "198AA0727A1010E4"
+			tasks: [{
+				id: "747C020DCE05638E"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_lime"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			id: "6DFB950FC6610E07"
+			tasks: [{
+				id: "45969E2A52F59E06"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_magenta"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			id: "398BAC809AC73C22"
+			tasks: [{
+				id: "0AFDAC5D49B4D4B1"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_orange"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "3946A3E09C998CA2"
+			tasks: [{
+				id: "3A1CD33C80087DAA"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_pink"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "2EB8DD8EEC992368"
+			tasks: [{
+				id: "3CA1446996F39D3B"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_purple"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			id: "73D5E47506A9CD62"
+			tasks: [{
+				id: "446E8B7591B3BAB3"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_red"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			id: "0B6D60C4F1428D9D"
+			tasks: [{
+				id: "3003232838878C39"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_white"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			id: "4778A15B8882A5F6"
+			tasks: [{
+				id: "5EF051FB09627F60"
+				item: {
+					Count: 1
+					id: "statues:sheep_statue_yellow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			id: "0F56B34163D1399F"
+			tasks: [{
+				id: "1E3045807C0CF07E"
+				item: {
+					Count: 1
+					id: "statues:shulker_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			id: "7D3A0417B1308A7D"
+			tasks: [{
+				id: "7F8D6A058B39A3E8"
+				item: {
+					Count: 1
+					id: "statues:slime_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			id: "52DC12181D0264E7"
+			tasks: [{
+				id: "42D7E7B8C3F1BB0C"
+				item: {
+					Count: 1
+					id: "statues:snow_golem_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			id: "16CF80B20B6A5F22"
+			tasks: [{
+				id: "1E18C635E24BF581"
+				item: {
+					Count: 1
+					id: "statues:spider_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			id: "1D2A3A18A9608ED6"
+			tasks: [{
+				id: "423994F319BF188E"
+				item: {
+					Count: 1
+					id: "statues:squid_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "2BE1CC12852D545F"
+			tasks: [{
+				id: "0250CDEF361C4553"
+				item: {
+					Count: 1
+					id: "statues:totem_of_undying_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "160F4ABF8EA1CE8A"
+			tasks: [{
+				id: "1A0A595190934522"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_b"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			id: "44FAC15404161045"
+			tasks: [{
+				id: "772BFEFB922FB966"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_bb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "3076174FD07DD822"
+			tasks: [{
+				id: "1F61CBBE1ABC2D82"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_be"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			id: "21CF3E21EF6DE0D4"
+			tasks: [{
+				id: "3C779A291B4F71B4"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_bm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			id: "5749683E62BEC03B"
+			tasks: [{
+				id: "25A672675497B821"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_bmb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			id: "6A9F63ACE7246168"
+			tasks: [{
+				id: "3E327BB289C41350"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_bms"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "5D1B7381B58CD4A8"
+			tasks: [{
+				id: "390E82ACE25A4621"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_e"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			id: "6CFCA98D5B17BDA3"
+			tasks: [{
+				id: "6D517D8D7A398CCF"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_es"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "41D376E6A8BEF111"
+			tasks: [{
+				id: "58164CFD88AE1DF8"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_hb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "419151107B42EE34"
+			tasks: [{
+				id: "5A21A1531C416B05"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_sb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			id: "36EACF84922356CD"
+			tasks: [{
+				id: "5F62D2CF5188C9F6"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_sd"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			id: "7F4E9F3ACA9231A9"
+			tasks: [{
+				id: "2667F724677DC819"
+				item: {
+					Count: 1
+					id: "statues:tropical_fish_ss"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			id: "3EFD104B09BE94AE"
+			tasks: [{
+				id: "5F75166014C09A87"
+				item: {
+					Count: 1
+					id: "statues:turtle_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			id: "6EBF8FF3E1BA6153"
+			tasks: [{
+				id: "0E74414E211F0423"
+				item: {
+					Count: 1
+					id: "statues:villager_br_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			id: "56D56B8B994B6BCB"
+			tasks: [{
+				id: "2611E170879ED074"
+				item: {
+					Count: 1
+					id: "statues:villager_gr_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			id: "130BDDDE357AB804"
+			tasks: [{
+				id: "0BF85AEC039810A8"
+				item: {
+					Count: 1
+					id: "statues:villager_pu_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			id: "5F4DEEF3ACC44946"
+			tasks: [{
+				id: "3F2E7FE37FBE59B0"
+				item: {
+					Count: 1
+					id: "statues:villager_wh_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			id: "3ED3B28F94CF6630"
+			tasks: [{
+				id: "69AC0DA0D560BD47"
+				item: {
+					Count: 1
+					id: "statues:vindicator_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			id: "031E5C589A4F8A39"
+			tasks: [{
+				id: "68FE90BB28C74546"
+				item: {
+					Count: 1
+					id: "statues:wasteland_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			id: "3063EFBABF26B85C"
+			tasks: [{
+				id: "0415E775FA9C5037"
+				item: {
+					Count: 1
+					id: "statues:witch_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			id: "6C01DED719E4B59B"
+			tasks: [{
+				id: "3893F99AE1495CD7"
+				item: {
+					Count: 1
+					id: "statues:zombie_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			id: "5CEC46DAF5C458F7"
+			tasks: [{
+				id: "6DD1E355B89244C2"
+				item: {
+					Count: 1
+					id: "statues:allay_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			id: "46E5E6B6A516E7A7"
+			tasks: [{
+				id: "3C65AA6ECC13759A"
+				item: {
+					Count: 1
+					id: "statues:axolotl_lucy_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			id: "41D07F65DB55B604"
+			tasks: [{
+				id: "59D4A192EF1059C6"
+				item: {
+					Count: 1
+					id: "statues:axolotl_wild_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			id: "094D629CBC4502ED"
+			tasks: [{
+				id: "61B2A1F6E52CD84E"
+				item: {
+					Count: 1
+					id: "statues:axolotl_gold_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			id: "6CD3468C1EA6F692"
+			tasks: [{
+				id: "4752CFA082700FCD"
+				item: {
+					Count: 1
+					id: "statues:axolotl_cyan_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			id: "495120836480D6C6"
+			tasks: [{
+				id: "08BDEA8BC7E653DB"
+				item: {
+					Count: 1
+					id: "statues:frog_temperate_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			id: "70CEAABB4624903D"
+			tasks: [{
+				id: "2BF89BAC54C74671"
+				item: {
+					Count: 1
+					id: "statues:axolotl_blue_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			id: "242ED0A9EF367429"
+			tasks: [{
+				id: "3AF59E1037D825A9"
+				item: {
+					Count: 1
+					id: "statues:frog_warm_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			id: "5FB0871982EA0CAC"
+			tasks: [{
+				id: "19F0C0ECF21AB675"
+				item: {
+					Count: 1
+					id: "statues:frog_cold_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			id: "5448DF101DD3FF13"
+			tasks: [{
+				id: "37A1F10A7F398511"
+				item: {
+					Count: 1
+					id: "statues:tadpole_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			id: "4BA2131AA92532DE"
+			tasks: [{
+				id: "5A8408875670749A"
+				item: {
+					Count: 1
+					id: "statues:warden_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			id: "1A3829BBA9CB29B1"
+			tasks: [{
+				id: "663130906DBD005A"
+				item: {
+					Count: 1
+					id: "statues:bumbo_statue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			id: "50E052D150FE994C"
+			tasks: [{
+				id: "59E8E946C80EFE1D"
+				item: {
+					Count: 1
+					id: "statues:sombrero"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			id: "3E0B8D7C173ED351"
+			tasks: [{
+				id: "66BEFF46A90B2B08"
+				item: {
+					Count: 1
+					id: "statues:tropibee"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			id: "39C0E68C04C0D582"
+			tasks: [{
+				id: "21731E47F11DB86C"
+				item: {
+					Count: 1
+					id: "statues:eagle_ray"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			id: "3CAAF496F27BB335"
+			tasks: [{
+				id: "734EEB65F3D88ADE"
+				item: {
+					Count: 1
+					id: "statues:slabfish"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			id: "5C8125B0762D492A"
+			tasks: [{
+				id: "7C286B27C7F93936"
+				item: {
+					Count: 1
+					id: "statues:azzaro"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "6A4D9AD68F91A682"
+			tasks: [{
+				id: "72B5B3261CBCBC8E"
+				item: {
+					Count: 1
+					id: "statues:display_stand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+	]
+	title: "Statues"
+}

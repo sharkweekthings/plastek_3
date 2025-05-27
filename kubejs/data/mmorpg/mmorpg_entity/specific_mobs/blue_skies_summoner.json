@@ -1,0 +1,34 @@
+{
+  "dmg_multi": 1.1,
+  "exp_multi": 1.5,
+  "hp_multi": 0.85,
+  "identifier": "blue_skies:summoner",
+  "loot_multi": 5.0,
+  "max_lvl": 1000000,
+  "min_lvl": 35,
+  "set_health_damage_override": true,
+  "set_rar": "rare",
+  "stat_multi": 1.0,
+  "stats": {
+    "stats": [
+      {
+        "type": "flat",
+        "scale_to_lvl": false,
+        "v1": 25.0,
+        "stat": "phys_to_lightning"
+      },
+      {
+        "type": "flat",
+        "scale_to_lvl": false,
+        "v1": 25.0,
+        "stat": "phys_to_chaos"
+      },
+      {
+        "type": "percent",
+        "scale_to_lvl": false,
+        "v1": 25.0,
+        "stat": "elemental_resist"
+      }
+	]
+  }
+}

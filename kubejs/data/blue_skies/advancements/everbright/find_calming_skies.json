@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "translate": "Village of the Calming Skies",
+            "color": "blue"
+        },
+        "description": {
+            "translate": "You stumbled into a village. Hopefully they have some more information for you, because you think you're lost."
+        },
+        "icon": {
+            "item": "blue_skies:bluebright_hanging_sign"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "blue_skies:village_calming_skies"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "blue_skies:everbright/enter"
+}
+

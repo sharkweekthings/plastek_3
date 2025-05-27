@@ -1,0 +1,22 @@
+{
+  "dmg_multi": 0.6,
+  "exp_multi": 2.0,
+  "hp_multi": 0.7,
+  "identifier": "bosses_of_mass_destruction:void_blossom",
+  "loot_multi": 10.0,
+  "max_lvl": 1000000,
+  "min_lvl": 55,
+  "set_health_damage_override": true,
+  "set_rar": "mythic",
+  "stat_multi": 1.0,
+  "stats": {
+    "stats": [
+      {
+        "type": "flat",
+        "scale_to_lvl": false,
+        "v1": 75.0,
+        "stat": "phys_to_chaos"
+      }
+	]
+  }
+}
