@@ -22,6 +22,13 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "009BB242F0FB6D2D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "73F63E5C473C8014"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "1EF126C64A040E07"
 				title: "Ok"
@@ -34,6 +41,13 @@
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			id: "78FCD872F5E0E387"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "35D9482EDCC4F886"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "16A8DA580E1C95BD"
 				item: "minecolonies:blockhutfisherman"
@@ -45,6 +59,13 @@
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			id: "016A4274558D16BD"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "413CFB8333EE648E"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "719C6245A04F88DE"
 				item: "minecolonies:blockhutfarmer"
@@ -56,6 +77,13 @@
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			id: "1DC20928E22D390D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "75EEFDC356DBB916"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2AB4B1C34C021983"
 				item: "minecolonies:blockhutchickenherder"
@@ -83,6 +111,13 @@
 			icon: "kubejs:p3_chat"
 			id: "1503F590D0814D73"
 			min_required_dependencies: 1
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "1D9E4AAF96A6812C"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "698C002250E30792"
 				title: "Ok"
@@ -102,6 +137,13 @@
 				"Once your &2establishment looks nicer&r, &dShaun&r said that he would &2help out around the kitchen&r and &2teach people how to cook&r some good meals. "
 			]
 			id: "7A07D22D4EA3623C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "4975A382BC25932C"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "33F33FBB1D795CCF"
 				item: "minecolonies:blockhutkitchen"
@@ -114,6 +156,13 @@
 		{
 			dependencies: ["32999855766E0F67"]
 			id: "7288270CFFD1F68B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "4575BA738DB4F94E"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "1B7B1955BF3AEAC7"
 				item: "minecolonies:blockhutlumberjack"
@@ -125,6 +174,13 @@
 		{
 			dependencies: ["32999855766E0F67"]
 			id: "657167DB8A2A44A4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "378402B02D073525"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "30A66B0A1BBBF60D"
 				item: "minecolonies:blockhutminer"
@@ -148,6 +204,13 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "32999855766E0F67"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "74DE9A837D2CE6D2"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "27612998A124B907"
 				title: "Ok"
@@ -162,6 +225,13 @@
 			description: ["If you notice your &4homeless population on the rise&r, you'll need to &2build adequate housing.&r "]
 			icon: "minecolonies:blockhutcitizen"
 			id: "0DD56943FEACEC41"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "4116CCDD96216FB8"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "3290A6497A672409"
 				item: "minecolonies:blockhutcitizen"
@@ -185,6 +255,13 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "6784A5082FC79CF0"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "3D11947F964BB7C5"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "185DD2121661BC9E"
 				title: "Ok"
@@ -199,9 +276,16 @@
 			description: [
 				"Once you get your &eWarehouse&r situated, you can place the &eCourier&r, and then assign the &eCourier&r to work the &eWarehouse&r."
 				""
-				"&oAssigning the work should happen automatically&r."
+				"&oAssigning the work should happen automatically unless you made specific changes in your Town Hall&r."
 			]
 			id: "5E977289D0E99439"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "5291F6C050EBC5D9"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "6C35C30E1FE1E00B"
@@ -227,6 +311,13 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "55E6DE3D4ECCF1E7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "6DDB45EAC67ABF21"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "17C987E639C7A079"
 				title: "Ok"
@@ -239,6 +330,13 @@
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			id: "0B093DBD5E92E3E1"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "07E2262E6AF9D25C"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "20E3C6D037B5A84C"
 				item: "minecolonies:blockhutswineherder"
@@ -250,6 +348,13 @@
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			id: "30D83D7F1A590E3F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "47737D3188B61CA2"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "47C48EBE0EBCA499"
 				item: "minecolonies:blockhutcowboy"
@@ -261,6 +366,13 @@
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			id: "2699833EF109DB43"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "204CE1E5C5D8203B"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "631FB20EA8E3DE40"
 				item: "minecolonies:blockhutshepherd"
@@ -272,6 +384,13 @@
 		{
 			dependencies: ["55E6DE3D4ECCF1E7"]
 			id: "4F048C95812025D1"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "11BD7D6765C68924"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			subtitle: "Don't forget to equip your guards!"
 			tasks: [{
 				id: "5A9D479754873CEA"
@@ -284,6 +403,13 @@
 		{
 			dependencies: ["55E6DE3D4ECCF1E7"]
 			id: "70ACA61F1A1FF810"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "298CA1098631814F"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			subtitle: "Don't forget to equip your guards!"
 			tasks: [{
 				id: "189750112149F004"
@@ -309,6 +435,13 @@
 			icon: "kubejs:p3_chat"
 			id: "035B5BF00E0C9501"
 			min_required_dependencies: 1
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "008B8F0AA132D478"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "74998CB55AEC25CF"
 				title: "Ok"
@@ -320,6 +453,13 @@
 		}
 		{
 			id: "00F81073D4657BBC"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "2944B1302E38F55D"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0A3E78D2F3A0FF3F"
 				item: "minecolonies:blockhutschool"
@@ -330,6 +470,13 @@
 		}
 		{
 			id: "074486D9C594B411"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "3AD0AF6B8C7E2E72"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "50A53B9DCEACF977"
 				item: "minecolonies:blockhutuniversity"
@@ -340,6 +487,13 @@
 		}
 		{
 			id: "72B6978D94282E5F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "40C7D1C74827AFB7"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0DCB17866DD3F606"
 				item: "minecolonies:blockhutenchanter"
@@ -350,6 +504,13 @@
 		}
 		{
 			id: "06C5F3A55B8A476B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "762EF1F0F32C9DAD"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7EBF5DD2EC7FD4E9"
 				item: "minecolonies:blockhutlibrary"
@@ -361,6 +522,13 @@
 		{
 			dependencies: ["55E6DE3D4ECCF1E7"]
 			id: "26059FEE6EFD1E99"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "50E40D37382C41B4"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "1D008E5F5E9D8939"
 				item: "minecolonies:blockhutcombatacademy"
@@ -371,6 +539,13 @@
 		}
 		{
 			id: "07F504A66E2E9B82"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "6B4AFCB75EB78F31"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2D9A841FB53582A4"
 				item: "minecolonies:blockhutalchemist"
@@ -381,6 +556,13 @@
 		}
 		{
 			id: "298600CCD0BDFD87"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "24B03305052E70AB"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "733388EF51339A01"
 				item: "minecolonies:blockhutblacksmith"
@@ -391,6 +573,13 @@
 		}
 		{
 			id: "0EED82024D483F3E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "542A8E4B7B47C069"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "488A449FB9D055EF"
 				item: "minecolonies:blockhutsmeltery"
@@ -401,6 +590,13 @@
 		}
 		{
 			id: "0D734D846878A212"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "085FD4378343813A"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "48F439740BA52E64"
 				item: "minecolonies:blockhutmechanic"
@@ -411,6 +607,13 @@
 		}
 		{
 			id: "467F4EB7247ABF0D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "6888157033B3BB62"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7FA6EDC092B03147"
 				item: "minecolonies:blockhutbaker"
@@ -421,6 +624,13 @@
 		}
 		{
 			id: "474BEFCD11978582"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "314EED3B8BF0AE08"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "50B6FDE27E7055AE"
 				item: "minecolonies:blockhutcrusher"
@@ -431,6 +641,13 @@
 		}
 		{
 			id: "3B247D80BE44595A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "3FC7ACE55003AB77"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "12317FDDEDAF1E39"
 				item: "minecolonies:blockhutconcretemixer"
@@ -441,6 +658,13 @@
 		}
 		{
 			id: "3C80E478C516611C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "5E39A11CC342F7BF"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2DC89A58EA9227E9"
 				item: "minecolonies:blockhutsifter"
@@ -451,6 +675,13 @@
 		}
 		{
 			id: "4A0F31A129F2540D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "3AD905AD651BEC8B"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "59D904838A732B62"
 				item: "minecolonies:simplequarry"
@@ -461,6 +692,13 @@
 		}
 		{
 			id: "3DA2D29AE585FB7D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "64752CC95829262C"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0F2C52A4DF00A158"
 				item: "minecolonies:mediumquarry"
@@ -471,6 +709,13 @@
 		}
 		{
 			id: "5D200316D87C080E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "7B315306DBB0C188"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "58A838CEF133242A"
 				item: "minecolonies:blockhutglassblower"
@@ -481,6 +726,13 @@
 		}
 		{
 			id: "04005E9ED37D81C4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "246BFF5099AC00C1"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "386C4C4031CB9203"
 				item: "minecolonies:blockhutcomposter"
@@ -491,6 +743,13 @@
 		}
 		{
 			id: "66A193BCFE291FBF"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "2DE2F68FC617023A"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "25DFC00AA53FB3F6"
 				item: "minecolonies:blockhutrabbithutch"
@@ -501,6 +760,13 @@
 		}
 		{
 			id: "7F4AF348050F4D17"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "0C35ABA34346E1A3"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "69F60D4CD3D0A515"
 				item: "minecolonies:blockhutflorist"
@@ -511,6 +777,13 @@
 		}
 		{
 			id: "1D1A56FA6CE1F3ED"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "68064F3895C766F4"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "6C69DA76F83EEE6A"
 				item: "minecolonies:blockpostbox"
@@ -521,6 +794,13 @@
 		}
 		{
 			id: "21C0EE697625BF42"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "4C9E5DAAA89A3F19"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "62F264E309C98B68"
 				item: "minecolonies:blockhutstonesmeltery"
@@ -531,6 +811,13 @@
 		}
 		{
 			id: "4DF717037521AF3F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "374FBF2E1279C63D"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7D7A2B3282E70C10"
 				item: "minecolonies:blockhutnetherworker"
@@ -541,6 +828,13 @@
 		}
 		{
 			id: "02587FFE92B79803"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "2AEA41B218CB0BC3"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "653FA155646D4344"
 				item: "minecolonies:blockhutfletcher"
@@ -551,6 +845,13 @@
 		}
 		{
 			id: "6E6B349D30180BC6"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "381F7A00D2A55FCF"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7EB81026E94CA0C0"
 				item: "minecolonies:blockhutsawmill"
@@ -561,6 +862,13 @@
 		}
 		{
 			id: "4342B61463C2AEB8"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "0C06EEDB82355364"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "2B3AA8A20DB39B72"
@@ -578,6 +886,13 @@
 		}
 		{
 			id: "4CDB3B0B921A24CB"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "3D3342D0D490B445"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "21BEADAC3C4C181B"
 				item: "minecolonies:blockhutfield"
@@ -588,6 +903,13 @@
 		}
 		{
 			id: "652BE14926326B54"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "19089201E6E6548C"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7FE8CAB7429A78B3"
 				item: "minecolonies:blockhutbeekeeper"
@@ -598,6 +920,13 @@
 		}
 		{
 			id: "190EDC9899236B03"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "749758362C8C27B1"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "5001A741BC4A9E00"
 				item: "minecolonies:blockhutmysticalsite"
@@ -608,6 +937,13 @@
 		}
 		{
 			id: "3BC07F8C2FE9AC62"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "5195B578F39FCAB2"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "3FA81014D6D7C277"
 				item: "minecolonies:blockhutgraveyard"
