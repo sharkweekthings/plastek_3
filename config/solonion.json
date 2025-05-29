@@ -1,0 +1,1200 @@
+{
+  "foodItems": {
+    "entries": [],
+    "isWhitelist": false
+  },
+  "trackCount": 32,
+  "resetOnDeath": true,
+  "limitProgressionToSurvival": false,
+  "minFoodsToActivate": 0,
+  "benefits": [
+    {
+      "threshold": 2,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 4,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 6,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:6.0d}"
+    },
+    {
+      "threshold": 8,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:8.0d}"
+    },
+    {
+      "threshold": 10,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:10.0d}"
+    },
+    {
+      "threshold": 10,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:1.0d}"
+    },
+    {
+      "threshold": 10,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:0.2d}"
+    },
+    {
+      "threshold": 12,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:12.0d}"
+    },
+    {
+      "threshold": 14,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:14.0d}"
+    },
+    {
+      "threshold": 16,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:16.0d}"
+    },
+    {
+      "threshold": 18,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:18.0d}"
+    },
+    {
+      "threshold": 20,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:20.0d}"
+    },
+    {
+      "threshold": 20,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 22,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:22.0d}"
+    },
+    {
+      "threshold": 24,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:24.0d}"
+    },
+    {
+      "threshold": 26,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:26.0d}"
+    },
+    {
+      "threshold": 28,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:28.0d}"
+    },
+    {
+      "threshold": 30,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:30.0d}"
+    },
+    {
+      "threshold": 30,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:3.0d}"
+    },
+    {
+      "threshold": 32,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:32.0d}"
+    },
+    {
+      "threshold": 34,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:34.0d}"
+    },
+    {
+      "threshold": 36,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:36.0d}"
+    },
+    {
+      "threshold": 38,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:38.0d}"
+    },
+    {
+      "threshold": 40,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:40.0d}"
+    },
+    {
+      "threshold": 40,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 42,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:42.0d}"
+    },
+    {
+      "threshold": 44,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:44.0d}"
+    },
+    {
+      "threshold": 46,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:46.0d}"
+    },
+    {
+      "threshold": 48,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:48.0d}"
+    },
+    {
+      "threshold": 50,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:50.0d}"
+    },
+    {
+      "threshold": 50,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:0.4d}"
+    },
+    {
+      "threshold": 50,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:5.0d}"
+    },
+    {
+      "threshold": 52,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:52.0d}"
+    },
+    {
+      "threshold": 54,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:54.0d}"
+    },
+    {
+      "threshold": 56,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:56.0d}"
+    },
+    {
+      "threshold": 58,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:58.0d}"
+    },
+    {
+      "threshold": 60,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:60.0d}"
+    },
+    {
+      "threshold": 60,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:6.0d}"
+    },
+    {
+      "threshold": 62,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:62.0d}"
+    },
+    {
+      "threshold": 64,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:64.0d}"
+    },
+    {
+      "threshold": 66,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:66.0d}"
+    },
+    {
+      "threshold": 68,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:68.0d}"
+    },
+    {
+      "threshold": 70,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:70.0d}"
+    },
+    {
+      "threshold": 70,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:7.0d}"
+    },
+    {
+      "threshold": 72,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:72.0d}"
+    },
+    {
+      "threshold": 74,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:74.0d}"
+    },
+    {
+      "threshold": 76,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:76.0d}"
+    },
+    {
+      "threshold": 78,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:78.0d}"
+    },
+    {
+      "threshold": 80,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:80.0d}"
+    },
+    {
+      "threshold": 80,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:8.0d}"
+    },
+    {
+      "threshold": 82,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:82.0d}"
+    },
+    {
+      "threshold": 84,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:84.0d}"
+    },
+    {
+      "threshold": 86,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:86.0d}"
+    },
+    {
+      "threshold": 88,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:88.0d}"
+    },
+    {
+      "threshold": 90,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:90.0d}"
+    },
+    {
+      "threshold": 90,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:9.0d}"
+    },
+    {
+      "threshold": 92,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:92.0d}"
+    },
+    {
+      "threshold": 94,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:94.0d}"
+    },
+    {
+      "threshold": 96,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:96.0d}"
+    },
+    {
+      "threshold": 98,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:98.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:100.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"combatroll:count\",op:0,type:\"att\",val:1.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:10.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:0.6d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.001d}"
+    },
+    {
+      "threshold": 102,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:102.0d}"
+    },
+    {
+      "threshold": 104,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:104.0d}"
+    },
+    {
+      "threshold": 106,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:106.0d}"
+    },
+    {
+      "threshold": 108,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:108.0d}"
+    },
+    {
+      "threshold": 110,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:110.0d}"
+    },
+    {
+      "threshold": 110,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:11.0d}"
+    },
+    {
+      "threshold": 112,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:112.0d}"
+    },
+    {
+      "threshold": 114,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:114.0d}"
+    },
+    {
+      "threshold": 116,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:116.0d}"
+    },
+    {
+      "threshold": 118,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:118.0d}"
+    },
+    {
+      "threshold": 120,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:120.0d}"
+    },
+    {
+      "threshold": 120,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:12.0d}"
+    },
+    {
+      "threshold": 122,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:122.0d}"
+    },
+    {
+      "threshold": 124,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:124.0d}"
+    },
+    {
+      "threshold": 126,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:126.0d}"
+    },
+    {
+      "threshold": 128,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:128.0d}"
+    },
+    {
+      "threshold": 130,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:130.0d}"
+    },
+    {
+      "threshold": 130,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:13.0d}"
+    },
+    {
+      "threshold": 132,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:132.0d}"
+    },
+    {
+      "threshold": 134,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:134.0d}"
+    },
+    {
+      "threshold": 136,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:136.0d}"
+    },
+    {
+      "threshold": 138,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:138.0d}"
+    },
+    {
+      "threshold": 140,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:140.0d}"
+    },
+    {
+      "threshold": 140,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:14.0d}"
+    },
+    {
+      "threshold": 142,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:142.0d}"
+    },
+    {
+      "threshold": 144,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:144.0d}"
+    },
+    {
+      "threshold": 146,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:146.0d}"
+    },
+    {
+      "threshold": 148,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:148.0d}"
+    },
+    {
+      "threshold": 150,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:150.0d}"
+    },
+    {
+      "threshold": 150,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:15.0d}"
+    },
+    {
+      "threshold": 150,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:0.8d}"
+    },
+    {
+      "threshold": 152,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:152.0d}"
+    },
+    {
+      "threshold": 154,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:154.0d}"
+    },
+    {
+      "threshold": 156,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:156.0d}"
+    },
+    {
+      "threshold": 158,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:158.0d}"
+    },
+    {
+      "threshold": 160,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:160.0d}"
+    },
+    {
+      "threshold": 160,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:16.0d}"
+    },
+    {
+      "threshold": 162,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:162.0d}"
+    },
+    {
+      "threshold": 164,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:164.0d}"
+    },
+    {
+      "threshold": 166,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:166.0d}"
+    },
+    {
+      "threshold": 168,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:168.0d}"
+    },
+    {
+      "threshold": 170,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:170.0d}"
+    },
+    {
+      "threshold": 170,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:17.0d}"
+    },
+    {
+      "threshold": 172,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:172.0d}"
+    },
+    {
+      "threshold": 174,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:174.0d}"
+    },
+    {
+      "threshold": 176,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:176.0d}"
+    },
+    {
+      "threshold": 178,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:178.0d}"
+    },
+    {
+      "threshold": 180,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:180.0d}"
+    },
+    {
+      "threshold": 180,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:18.0d}"
+    },
+    {
+      "threshold": 182,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:182.0d}"
+    },
+    {
+      "threshold": 184,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:184.0d}"
+    },
+    {
+      "threshold": 186,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:186.0d}"
+    },
+    {
+      "threshold": 188,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:188.0d}"
+    },
+    {
+      "threshold": 190,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:190.0d}"
+    },
+    {
+      "threshold": 190,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:19.0d}"
+    },
+    {
+      "threshold": 192,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:192.0d}"
+    },
+    {
+      "threshold": 194,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:194.0d}"
+    },
+    {
+      "threshold": 196,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:196.0d}"
+    },
+    {
+      "threshold": 198,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:198.0d}"
+    },
+    {
+      "threshold": 200,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:200.0d}"
+    },
+    {
+      "threshold": 200,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:20.0d}"
+    },
+    {
+      "threshold": 200,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:1.0d}"
+    },
+    {
+      "threshold": 200,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.002d}"
+    },
+    {
+      "threshold": 202,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:202.0d}"
+    },
+    {
+      "threshold": 204,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:204.0d}"
+    },
+    {
+      "threshold": 206,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:206.0d}"
+    },
+    {
+      "threshold": 208,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:208.0d}"
+    },
+    {
+      "threshold": 210,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:210.0d}"
+    },
+    {
+      "threshold": 210,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:21.0d}"
+    },
+    {
+      "threshold": 212,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:212.0d}"
+    },
+    {
+      "threshold": 214,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:214.0d}"
+    },
+    {
+      "threshold": 216,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:216.0d}"
+    },
+    {
+      "threshold": 218,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:218.0d}"
+    },
+    {
+      "threshold": 220,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:220.0d}"
+    },
+    {
+      "threshold": 220,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:22.0d}"
+    },
+    {
+      "threshold": 222,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:222.0d}"
+    },
+    {
+      "threshold": 224,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:224.0d}"
+    },
+    {
+      "threshold": 226,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:226.0d}"
+    },
+    {
+      "threshold": 228,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:228.0d}"
+    },
+    {
+      "threshold": 230,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:230.0d}"
+    },
+    {
+      "threshold": 230,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:23.0d}"
+    },
+    {
+      "threshold": 232,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:232.0d}"
+    },
+    {
+      "threshold": 234,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:234.0d}"
+    },
+    {
+      "threshold": 236,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:236.0d}"
+    },
+    {
+      "threshold": 238,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:238.0d}"
+    },
+    {
+      "threshold": 240,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:240.0d}"
+    },
+    {
+      "threshold": 240,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:24.0d}"
+    },
+    {
+      "threshold": 242,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:242.0d}"
+    },
+    {
+      "threshold": 244,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:244.0d}"
+    },
+    {
+      "threshold": 246,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:246.0d}"
+    },
+    {
+      "threshold": 248,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:248.0d}"
+    },
+    {
+      "threshold": 250,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:250.0d}"
+    },
+    {
+      "threshold": 250,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:25.0d}"
+    },
+    {
+      "threshold": 250,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:1.5d}"
+    },
+    {
+      "threshold": 252,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:252.0d}"
+    },
+    {
+      "threshold": 254,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:254.0d}"
+    },
+    {
+      "threshold": 256,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:256.0d}"
+    },
+    {
+      "threshold": 258,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:258.0d}"
+    },
+    {
+      "threshold": 260,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:260.0d}"
+    },
+    {
+      "threshold": 260,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:26.0d}"
+    },
+    {
+      "threshold": 262,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:262.0d}"
+    },
+    {
+      "threshold": 264,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:264.0d}"
+    },
+    {
+      "threshold": 266,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:266.0d}"
+    },
+    {
+      "threshold": 268,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:268.0d}"
+    },
+    {
+      "threshold": 270,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:270.0d}"
+    },
+    {
+      "threshold": 272,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:272.0d}"
+    },
+    {
+      "threshold": 274,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:274.0d}"
+    },
+    {
+      "threshold": 276,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:276.0d}"
+    },
+    {
+      "threshold": 278,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:278.0d}"
+    },
+    {
+      "threshold": 280,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:27.0d}"
+    },
+    {
+      "threshold": 280,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:280.0d}"
+    },
+    {
+      "threshold": 280,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:28.0d}"
+    },
+    {
+      "threshold": 282,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:282.0d}"
+    },
+    {
+      "threshold": 284,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:284.0d}"
+    },
+    {
+      "threshold": 286,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:286.0d}"
+    },
+    {
+      "threshold": 288,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:288.0d}"
+    },
+    {
+      "threshold": 290,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:290.0d}"
+    },
+    {
+      "threshold": 290,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:29.0d}"
+    },
+    {
+      "threshold": 292,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:292.0d}"
+    },
+    {
+      "threshold": 294,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:294.0d}"
+    },
+    {
+      "threshold": 296,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:296.0d}"
+    },
+    {
+      "threshold": 298,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:298.0d}"
+    },
+    {
+      "threshold": 300,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:300.0d}"
+    },
+    {
+      "threshold": 300,
+      "benefit": "{key:\"combatroll:count\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 300,
+      "benefit": "{key:\"kubejs:elemental_resistance\",op:0,type:\"att\",val:30.0d}"
+    },
+    {
+      "threshold": 300,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 300,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.003d}"
+    },
+    {
+      "threshold": 302,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:302.0d}"
+    },
+    {
+      "threshold": 304,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:304.0d}"
+    },
+    {
+      "threshold": 306,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:306.0d}"
+    },
+    {
+      "threshold": 308,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:308.0d}"
+    },
+    {
+      "threshold": 310,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:310.0d}"
+    },
+    {
+      "threshold": 312,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:312.0d}"
+    },
+    {
+      "threshold": 314,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:314.0d}"
+    },
+    {
+      "threshold": 316,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:316.0d}"
+    },
+    {
+      "threshold": 318,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:318.0d}"
+    },
+    {
+      "threshold": 320,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:320.0d}"
+    },
+    {
+      "threshold": 322,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:322.0d}"
+    },
+    {
+      "threshold": 324,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:324.0d}"
+    },
+    {
+      "threshold": 326,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:326.0d}"
+    },
+    {
+      "threshold": 328,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:328.0d}"
+    },
+    {
+      "threshold": 330,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:330.0d}"
+    },
+    {
+      "threshold": 332,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:332.0d}"
+    },
+    {
+      "threshold": 334,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:334.0d}"
+    },
+    {
+      "threshold": 336,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:336.0d}"
+    },
+    {
+      "threshold": 338,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:338.0d}"
+    },
+    {
+      "threshold": 340,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:340.0d}"
+    },
+    {
+      "threshold": 342,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:342.0d}"
+    },
+    {
+      "threshold": 344,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:344.0d}"
+    },
+    {
+      "threshold": 346,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:346.0d}"
+    },
+    {
+      "threshold": 348,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:348.0d}"
+    },
+    {
+      "threshold": 350,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:350.0d}"
+    },
+    {
+      "threshold": 352,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:352.0d}"
+    },
+    {
+      "threshold": 354,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:354.0d}"
+    },
+    {
+      "threshold": 356,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:356.0d}"
+    },
+    {
+      "threshold": 358,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:358.0d}"
+    },
+    {
+      "threshold": 360,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:360.0d}"
+    },
+    {
+      "threshold": 362,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:362.0d}"
+    },
+    {
+      "threshold": 364,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:364.0d}"
+    },
+    {
+      "threshold": 366,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:366.0d}"
+    },
+    {
+      "threshold": 368,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:368.0d}"
+    },
+    {
+      "threshold": 370,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:370.0d}"
+    },
+    {
+      "threshold": 372,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:372.0d}"
+    },
+    {
+      "threshold": 374,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:374.0d}"
+    },
+    {
+      "threshold": 376,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:376.0d}"
+    },
+    {
+      "threshold": 378,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:378.0d}"
+    },
+    {
+      "threshold": 380,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:380.0d}"
+    },
+    {
+      "threshold": 382,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:382.0d}"
+    },
+    {
+      "threshold": 384,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:384.0d}"
+    },
+    {
+      "threshold": 386,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:386.0d}"
+    },
+    {
+      "threshold": 388,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:388.0d}"
+    },
+    {
+      "threshold": 390,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:390.0d}"
+    },
+    {
+      "threshold": 392,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:392.0d}"
+    },
+    {
+      "threshold": 394,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:394.0d}"
+    },
+    {
+      "threshold": 396,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:396.0d}"
+    },
+    {
+      "threshold": 398,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:398.0d}"
+    },
+    {
+      "threshold": 400,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:400.0d}"
+    },
+    {
+      "threshold": 402,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:402.0d}"
+    },
+    {
+      "threshold": 404,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:404.0d}"
+    },
+    {
+      "threshold": 406,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:406.0d}"
+    },
+    {
+      "threshold": 408,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:408.0d}"
+    },
+    {
+      "threshold": 410,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:410.0d}"
+    },
+    {
+      "threshold": 412,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:412.0d}"
+    },
+    {
+      "threshold": 414,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:414.0d}"
+    },
+    {
+      "threshold": 416,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:416.0d}"
+    },
+    {
+      "threshold": 418,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:418.0d}"
+    },
+    {
+      "threshold": 420,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:420.0d}"
+    },
+    {
+      "threshold": 422,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:422.0d}"
+    },
+    {
+      "threshold": 424,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:424.0d}"
+    },
+    {
+      "threshold": 426,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:426.0d}"
+    },
+    {
+      "threshold": 428,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:428.0d}"
+    },
+    {
+      "threshold": 430,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:430.0d}"
+    },
+    {
+      "threshold": 432,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:432.0d}"
+    },
+    {
+      "threshold": 434,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:434.0d}"
+    },
+    {
+      "threshold": 436,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:436.0d}"
+    },
+    {
+      "threshold": 438,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:438.0d}"
+    },
+    {
+      "threshold": 440,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:440.0d}"
+    },
+    {
+      "threshold": 442,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:442.0d}"
+    },
+    {
+      "threshold": 444,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:444.0d}"
+    },
+    {
+      "threshold": 446,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:446.0d}"
+    },
+    {
+      "threshold": 448,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:448.0d}"
+    },
+    {
+      "threshold": 450,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:450.0d}"
+    },
+    {
+      "threshold": 452,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:452.0d}"
+    },
+    {
+      "threshold": 454,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:454.0d}"
+    },
+    {
+      "threshold": 456,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:456.0d}"
+    },
+    {
+      "threshold": 458,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:458.0d}"
+    },
+    {
+      "threshold": 460,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:460.0d}"
+    },
+    {
+      "threshold": 462,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:462.0d}"
+    },
+    {
+      "threshold": 464,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:464.0d}"
+    },
+    {
+      "threshold": 466,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:466.0d}"
+    },
+    {
+      "threshold": 468,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:468.0d}"
+    },
+    {
+      "threshold": 470,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:470.0d}"
+    },
+    {
+      "threshold": 472,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:472.0d}"
+    },
+    {
+      "threshold": 474,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:474.0d}"
+    },
+    {
+      "threshold": 476,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:476.0d}"
+    },
+    {
+      "threshold": 478,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:478.0d}"
+    },
+    {
+      "threshold": 480,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:480.0d}"
+    },
+    {
+      "threshold": 482,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:482.0d}"
+    },
+    {
+      "threshold": 484,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:484.0d}"
+    },
+    {
+      "threshold": 486,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:486.0d}"
+    },
+    {
+      "threshold": 488,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:488.0d}"
+    },
+    {
+      "threshold": 490,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:490.0d}"
+    },
+    {
+      "threshold": 492,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:492.0d}"
+    },
+    {
+      "threshold": 494,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:494.0d}"
+    },
+    {
+      "threshold": 496,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:496.0d}"
+    },
+    {
+      "threshold": 498,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:498.0d}"
+    },
+    {
+      "threshold": 500,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:500.0d}"
+    }
+  ],
+  "shouldExcludedCount": true,
+  "complexityStandardNutrition": 5,
+  "complexityStandardSaturation": 0.6,
+  "complexityBenefitEffectModifier": 0.2,
+  "complexityNeutralEffectModifier": 0,
+  "complexityHarmEffectModifier": -0.2,
+  "foodDiversity": [
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:golden_carrot\"}",
+      "diversity": 100
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:golden_apple\"}",
+      "diversity": 200
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:enchanted_golden_apple\"}",
+      "diversity": 300
+    }
+  ]
+}
