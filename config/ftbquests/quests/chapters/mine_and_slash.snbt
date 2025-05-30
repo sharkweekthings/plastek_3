@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "mine_and_slash"
 	group: "2FC07CCE1ABE9089"
+	icon: "dungeon_realm:map_device"
 	id: "6D97D94978BEAF17"
 	order_index: 0
 	quest_links: [ ]
@@ -59,8 +60,8 @@
 				type: "item"
 			}]
 			title: "Salvaging"
-			x: 12.5d
-			y: 5.0d
+			x: 14.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
@@ -79,8 +80,8 @@
 				type: "item"
 			}]
 			title: "Cooking"
-			x: 13.0d
-			y: 6.0d
+			x: 14.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
@@ -99,8 +100,8 @@
 				type: "item"
 			}]
 			title: "Alchemy"
-			x: 15.5d
-			y: 5.0d
+			x: 17.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
@@ -123,8 +124,8 @@
 				type: "item"
 			}]
 			title: "Gear Crafting"
-			x: 12.5d
-			y: 4.0d
+			x: 14.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
@@ -142,8 +143,8 @@
 				type: "item"
 			}]
 			title: "Infusing"
-			x: 14.0d
-			y: 3.5d
+			x: 15.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
@@ -169,8 +170,8 @@
 				type: "checkmark"
 			}]
 			title: "Farming"
-			x: 15.0d
-			y: 3.0d
+			x: 16.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
@@ -190,8 +191,8 @@
 				type: "checkmark"
 			}]
 			title: "Animal Breeding"
-			x: 15.5d
-			y: 4.0d
+			x: 17.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
@@ -217,8 +218,8 @@
 				type: "checkmark"
 			}]
 			title: "Mining"
-			x: 13.0d
-			y: 3.0d
+			x: 14.5d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -247,8 +248,8 @@
 				type: "checkmark"
 			}]
 			title: "Non Combat Professions"
-			x: 14.0d
-			y: 5.0d
+			x: 15.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0C794C6B6C513375"]
@@ -286,8 +287,8 @@
 				}
 			]
 			title: "Stones"
-			x: 11.5d
-			y: 5.0d
+			x: 13.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["46AE04B160AC037A"]
@@ -361,8 +362,8 @@
 				}
 			]
 			title: "Meals"
-			x: 13.0d
-			y: 7.0d
+			x: 14.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["74582CCB20372137"]
@@ -458,8 +459,8 @@
 				}
 			]
 			title: "Potions"
-			x: 16.5d
-			y: 5.0d
+			x: 18.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["76A1FE9EB45B7129"]
@@ -497,8 +498,8 @@
 				}
 			]
 			title: "Produce"
-			x: 15.0d
-			y: 2.0d
+			x: 16.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
@@ -524,8 +525,8 @@
 				type: "checkmark"
 			}]
 			title: "Fishing"
-			x: 15.0d
-			y: 6.0d
+			x: 16.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["689E99FDE8DCA119"]
@@ -563,8 +564,8 @@
 				}
 			]
 			title: "Fish"
-			x: 15.0d
-			y: 7.0d
+			x: 16.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2D5030058520A28F"]
@@ -601,8 +602,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 2.0d
+			x: 14.5d
+			y: 2.5d
 		}
 		{
 			icon: "kubejs:p3_chat"
@@ -971,6 +972,7 @@
 				type: "command"
 			}]
 			shape: "square"
+			subtitle: "Eye 1 of 12"
 			tasks: [{
 				id: "035B4794F4CEC472"
 				item: {
@@ -1019,13 +1021,22 @@
 		{
 			dependencies: ["333E9B9520ED6962"]
 			id: "390CBCD821BF7053"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 500"
-				icon: "kubejs:p3_xp"
-				id: "3BF5E49AB8BB946F"
-				title: "500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 500"
+					icon: "kubejs:p3_xp"
+					id: "3BF5E49AB8BB946F"
+					title: "500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "131ADB053134B514"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "6CE030B59D7D800A"
 				item: "the_harvest:harvest"
@@ -1038,13 +1049,22 @@
 		{
 			dependencies: ["4259DC7F600AEFD0"]
 			id: "54359FFC46E7D2D7"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 500"
-				icon: "kubejs:p3_xp"
-				id: "74A30BCC8C3A5B5C"
-				title: "500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 500"
+					icon: "kubejs:p3_xp"
+					id: "74A30BCC8C3A5B5C"
+					title: "500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "2624B0092F83B6C9"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "3235C7D805EAA67D"
 				item: "ancient_obelisks:obelisk"
@@ -1074,13 +1094,22 @@
 		{
 			dependencies: ["54A25EB74E87B514"]
 			id: "5B2B4D277DEC25C2"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 250"
-				icon: "kubejs:p3_xp"
-				id: "2D6FEA68D9FC7AFF"
-				title: "250 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 250"
+					icon: "kubejs:p3_xp"
+					id: "2D6FEA68D9FC7AFF"
+					title: "250 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "20E4302563121603"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "50BFD976019A2D20"
 				item: "dungeon_realm:map_device"
@@ -1248,6 +1277,69 @@
 			title: "Favor"
 			x: 6.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5B2B4D277DEC25C2"]
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46EA0C38329726E4"
+			rewards: [{
+				id: "2DFB7021F337D1A4"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Eye 2 of 12"
+			tasks: [{
+				id: "682AB6F06AF89812"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Broken Compass Eye"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46EA0C38329726E4"]
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46636BD6FE41FD78"
+			rewards: [{
+				id: "2AAA1D9BCF936BA0"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "470C4F991EA40434"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Broken Compass Eye Recovery"
+			x: 12.5d
+			y: 2.5d
 		}
 	]
 	title: "Mine and Slash"

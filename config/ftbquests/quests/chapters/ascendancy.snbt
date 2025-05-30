@@ -45,6 +45,11 @@
 			}]
 			shape: "diamond"
 			subtitle: "Ignis"
+			tasks: [{
+				id: "3215A3531E13400B"
+				title: "Ok"
+				type: "checkmark"
+			}]
 			title: "+1 Ascendancy Point"
 			x: -5.5d
 			y: 2.5d
@@ -117,13 +122,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "5DBC2689FE6F632D"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "73137DDB28E13EB8"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "73137DDB28E13EB8"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "5E79644560EFE84D"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_ender_golem"
@@ -145,13 +159,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "15D7E8FCB3C81470"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "74C73857A257C3CF"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "74C73857A257C3CF"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "09B54B0D8BD40D57"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_ender_guardian"
@@ -218,13 +241,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "4C768B06DFB3F32E"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "372ED30522952274"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "372ED30522952274"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "7DB9E87CF955B19C"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
@@ -249,13 +281,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "12B082F2EDAF58B5"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "26B873DE118E28C1"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "26B873DE118E28C1"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "28BAAA2C38274E46"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "mowziesmobs:kill_umvuthi"
@@ -281,14 +322,24 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "3F32D3058F4252A9"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "2111B587EBD2C464"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "2111B587EBD2C464"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "109CC30D0402B0FC"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
+			subtitle: "Hardmode"
 			tasks: [{
 				advancement: "botania:challenge/gaia_guardian_hardmode"
 				criterion: ""
@@ -309,13 +360,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "08403CB99A4EC2F5"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "4E34E06B899D64B5"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "4E34E06B899D64B5"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "486E59C0EC9632C2"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_ignis"
@@ -399,11 +459,23 @@
 				"Use the &3Gaia Ingot&r on the &3Beacon&r to challenge a &2harder version of the guardian.&r"
 			]
 			id: "67929281D6D59AC6"
-			tasks: [{
-				id: "2EBDD98C6B8AC8CE"
-				item: "botania:gaia_ingot"
-				type: "item"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 50000"
+				icon: "kubejs:p3_xp"
+				id: "3E8E59BE0C43D6CC"
+				title: "50000 Experience Points"
+				type: "command"
 			}]
+			shape: "gear"
+			subtitle: "Easy Mode"
+			tasks: [{
+				advancement: "botania:main/gaia_guardian_kill"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "4C13ABBA6B011587"
+				type: "advancement"
+			}]
+			title: "Defeat the Gaia Guardian"
 			x: -2.5d
 			y: -2.0d
 		}
@@ -441,13 +513,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "626202CAFA33890B"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "5F955ECB0114B8A4"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "5F955ECB0114B8A4"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "3DC9545261C2D065"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
@@ -472,13 +553,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "31640691D0B16C27"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "6341F4B6D7A55994"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "6341F4B6D7A55994"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "2F3A3C0D8B047294"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
@@ -505,13 +595,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "3F7CE22F62C37F50"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "45A9E94177950A73"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "45A9E94177950A73"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "1D4A4B25A255AD16"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
@@ -536,13 +635,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "0BBD91D8455C1E1A"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "326E4857E8D17BD3"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "326E4857E8D17BD3"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "384038183742C46A"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
@@ -707,13 +815,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "166E456491DCCA1F"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "3A05408568AA5724"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "3A05408568AA5724"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "4F49B05DD74DDA96"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "blue_skies:everbright/kill_starlit_crusher"
@@ -742,13 +859,22 @@
 			]
 			icon: "kubejs:p3_boss"
 			id: "05B18C5ACD173767"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 75000"
-				icon: "kubejs:p3_xp"
-				id: "7008CDB5B5F99535"
-				title: "75000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 75000"
+					icon: "kubejs:p3_xp"
+					id: "7008CDB5B5F99535"
+					title: "75000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "3F4B45404EBCE7D5"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "blue_skies:everdawn/kill_arachnarch"

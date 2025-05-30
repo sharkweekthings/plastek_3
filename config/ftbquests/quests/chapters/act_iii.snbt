@@ -422,15 +422,11 @@
 					type: "command"
 				}
 				{
-					id: "7C0E59015D4035F5"
-					item: {
-						Count: 1
-						id: "endrem:cold_eye"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "60CFB5D57672B832"
+					title: "1 Talent Point"
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -729,15 +725,11 @@
 					type: "command"
 				}
 				{
-					id: "5381F4E8381E3C2F"
-					item: {
-						Count: 1
-						id: "endrem:witch_eye"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "61E2920F9E2778D3"
+					title: "1 Talent Point"
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -926,7 +918,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1C8E8DA779B10929"]
+			dependencies: ["6D4DADC126BBBFCC"]
 			icon: {
 				Count: 1
 				id: "endrem:cold_eye"
@@ -952,12 +944,12 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Cold Eye Recovery"
+			title: "Summoner's Eye Recovery"
 			x: -2.5d
-			y: 9.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["6010F7590E6F7082"]
+			dependencies: ["5495EE438B5D31B8"]
 			icon: {
 				Count: 1
 				id: "endrem:witch_eye"
@@ -984,6 +976,70 @@
 				type: "checkmark"
 			}]
 			title: "Alchemist Eye Recovery"
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1C8E8DA779B10929"]
+			icon: {
+				Count: 1
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D4DADC126BBBFCC"
+			rewards: [{
+				id: "6345C2128CF44E01"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Eye 8 of 12"
+			tasks: [{
+				id: "7D0C8D85007A2900"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Summoner's Eye"
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6010F7590E6F7082"]
+			icon: {
+				Count: 1
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5495EE438B5D31B8"
+			rewards: [{
+				id: "3410AAC3684075AA"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Eye 9 of 12"
+			tasks: [{
+				id: "7E9CB15C705B4952"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Alchemist Eye"
 			x: 3.5d
 			y: 9.5d
 		}

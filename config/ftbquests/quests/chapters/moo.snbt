@@ -957,6 +957,16 @@
 			x: -6.0d
 			y: 1.0d
 		}
+		{
+			id: "397D9F7ABC967F71"
+			tasks: [{
+				id: "7EC7EFA9ADE31AA0"
+				item: "rangedpumps:pump"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
 	]
 	title: "Moo"
 }

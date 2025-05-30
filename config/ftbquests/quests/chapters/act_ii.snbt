@@ -416,13 +416,22 @@
 				tag: { }
 			}
 			id: "663C2D6C6B87DBC8"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 6500"
-				icon: "kubejs:p3_xp"
-				id: "3EAD6E097D62A2D9"
-				title: "6500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 6500"
+					icon: "kubejs:p3_xp"
+					id: "3EAD6E097D62A2D9"
+					title: "6500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "5C6EBC63ADFEB4EA"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			subtitle: "Boss Fight"
 			tasks: [{
@@ -469,15 +478,11 @@
 					type: "command"
 				}
 				{
-					id: "476B27C3491AE3F0"
-					item: {
-						Count: 1
-						id: "endrem:magical_eye"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "788093E8C3C2DA62"
+					title: "1 Talent Point"
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -511,13 +516,22 @@
 				tag: { }
 			}
 			id: "6AE461A8C9FCEBC6"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 6500"
-				icon: "kubejs:p3_xp"
-				id: "0D0B65DE592B9A6F"
-				title: "6500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 6500"
+					icon: "kubejs:p3_xp"
+					id: "0D0B65DE592B9A6F"
+					title: "6500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "021B9A9C69692269"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			subtitle: "Boss Fight"
 			tasks: [{
@@ -1181,13 +1195,22 @@
 				tag: { }
 			}
 			id: "71008A763EB4C66D"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 10000"
-				icon: "kubejs:p3_xp"
-				id: "132C53CA0A157019"
-				title: "10000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 10000"
+					icon: "kubejs:p3_xp"
+					id: "132C53CA0A157019"
+					title: "10000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "6B76A425B7EA3D23"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			subtitle: "Boss Fight"
 			tasks: [{
@@ -1755,13 +1778,22 @@
 				tag: { }
 			}
 			id: "7CB5A795F71B38A3"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 8000"
-				icon: "kubejs:p3_xp"
-				id: "5F8D603736099A14"
-				title: "8000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 8000"
+					icon: "kubejs:p3_xp"
+					id: "5F8D603736099A14"
+					title: "8000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "7C9470299A473AC6"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			subtitle: "Boss Fight"
 			tasks: [{
@@ -1937,15 +1969,11 @@
 					type: "command"
 				}
 				{
-					id: "636D3F04BA542030"
-					item: {
-						Count: 1
-						id: "endrem:guardian_eye"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "5E2274D00A59B427"
+					title: "1 Talent Point"
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -2075,7 +2103,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["5D73505C3C4B00D7"]
+			dependencies: ["0CF343CBA71513AB"]
 			icon: {
 				Count: 1
 				id: "endrem:magical_eye"
@@ -2103,10 +2131,10 @@
 			}]
 			title: "Aether Eye Recovery"
 			x: 6.5d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["4E44995904180ECE"]
+			dependencies: ["7906E45DB7964AA5"]
 			icon: {
 				Count: 1
 				id: "endrem:guardian_eye"
@@ -2134,7 +2162,7 @@
 			}]
 			title: "Gumball Eye Recovery"
 			x: 14.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["277B7ECC076EB804"]
@@ -2162,6 +2190,70 @@
 			title: "Infusion Altar Recovery"
 			x: 11.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["5D73505C3C4B00D7"]
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0CF343CBA71513AB"
+			rewards: [{
+				id: "074141EB037A9E97"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Eye 6 of 12"
+			tasks: [{
+				id: "2EC462E65459DA08"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Aether Eye"
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E44995904180ECE"]
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7906E45DB7964AA5"
+			rewards: [{
+				id: "4144988EE00A6250"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Eye 7 of 12"
+			tasks: [{
+				id: "7EE89F2B26EAFCD2"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Gumball Eye"
+			x: 14.0d
+			y: 3.5d
 		}
 	]
 	title: "Act II"

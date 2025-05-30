@@ -53,7 +53,7 @@
     "ASCENDANCY": {
       "type": "ASCENDANCY",
       "base_points": 0,
-      "max_bonus_points": 7,
+      "max_bonus_points": 10,
       "max_total_points": 10,
       "points_per_lvl": 0.0
     },
@@ -74,14 +74,14 @@
     "STATS": {
       "type": "STATS",
       "base_points": 0,
-      "max_bonus_points": 50,
-      "max_total_points": 300,
+      "max_bonus_points": 300,
+      "max_total_points": 500,
       "points_per_lvl": 1.0
     },
     "TALENTS": {
       "type": "TALENTS",
       "base_points": 1,
-      "max_bonus_points": 25,
+      "max_bonus_points": 30,
       "max_total_points": 200,
       "points_per_lvl": 1.0
     }

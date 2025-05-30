@@ -13,6 +13,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: [
 				"Your village was &4ransacked by Barbarians&r while all of the Warriors were out hunting. "
 				""
@@ -58,7 +59,7 @@
 			description: [
 				"You spoke with the village leader whose name is &dRyan Vermillionson&r. "
 				""
-				"He informed you that &2one of the medics found you&r, and brought you back to the village. He told you the story of how the &2village of Shyran Peaks&r came to be."
+				"He informed you that &2one of the medics found you&r, and brought you back to the village. He told you the story of how the village of &eShyran Peaks&r came to be."
 				""
 				"He lets you know that &2you can stay in the village for as long as you need&r, but does &2require that you do some work&r to help out around the town. "
 				""
@@ -203,7 +204,9 @@
 			description: [
 				"&dRyan&r and the town is extremely grateful for your help. "
 				""
-				"They know the worst of it is yet to come. However, tonight -- &2they threw a feast in your honor&r. A new friend, and ally to the town. "
+				"They know the worst of it is yet to come. However, tonight -- &2they threw a feast in your honor&r. "
+				""
+				"A new friend, and ally to the village of &eShryan Peaks&r!"
 				""
 				"&oAt some point during the night you decide to stuff a few apetizers into your pockets while nobody was looking.&r "
 			]
@@ -524,15 +527,11 @@
 					type: "command"
 				}
 				{
-					id: "3A785FBBB47052C3"
-					item: {
-						Count: 1
-						id: "endrem:evil_eye"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "12D4CB9B994B4125"
+					title: "1 Talent Point"
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -947,13 +946,22 @@
 				tag: { }
 			}
 			id: "09C89272A29EFB01"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
-				icon: "kubejs:p3_xp"
-				id: "5431F63B1A34EE61"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 5000"
+					icon: "kubejs:p3_xp"
+					id: "5431F63B1A34EE61"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "18F04651831E63A8"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			subtitle: "Boss Fight"
 			tasks: [{
@@ -1081,7 +1089,9 @@
 				"Build a &9Builder's Hut&r"
 				"Build a &eTavern&r"
 				""
-				"After that, &2MineColonies will be a Side Quest&r if you wish to ignore it. &6Mine and Slash&r &2rewards will be granted for going through the quest series&r. "
+				"After that, &6MineColonies&r &2will not be required&r, if you wish to ignore it. "
+				""
+				"&6Mine and Slash&r rewards will be granted on most &2MineColonies&r quests for going through the series. "
 			]
 			icon: {
 				Count: 1
@@ -1197,15 +1207,10 @@
 					type: "command"
 				}
 				{
-					id: "30CBAF64E5015DE2"
-					item: {
-						Count: 1
-						id: "endrem:rogue_eye"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					command: "/mine_and_slash points give @p STATS 2"
+					id: "070FB610D6A03C80"
+					title: "2 Attribute Points"
+					type: "command"
 				}
 			]
 			shape: "square"
@@ -1221,7 +1226,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3BF749C81871D375"]
+			dependencies: ["7E46C4ED06D78B9C"]
 			icon: {
 				Count: 1
 				id: "endrem:rogue_eye"
@@ -1249,7 +1254,7 @@
 			}]
 			title: "Colonist Eye Recovery"
 			x: 14.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7B91BD993D902FFE"]
@@ -1578,7 +1583,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["09C89272A29EFB01"]
+			dependencies: ["7766A356952F2BF4"]
 			icon: {
 				Count: 1
 				id: "endrem:nether_eye"
@@ -1606,10 +1611,10 @@
 			}]
 			title: "Nether Eye Recovery"
 			x: 11.5d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["6D0A6B342D53A353"]
+			dependencies: ["0AD5B46FFFCE7266"]
 			icon: {
 				Count: 1
 				id: "endrem:evil_eye"
@@ -1637,7 +1642,104 @@
 			}]
 			title: "Possessed Action Figure Eye Recovery"
 			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D0A6B342D53A353"]
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0AD5B46FFFCE7266"
+			rewards: [{
+				id: "5277608A774CE361"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Eye 3 of 12"
+			tasks: [{
+				id: "76E225B7822514A2"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Evil"
+			x: 7.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["3BF749C81871D375"]
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7E46C4ED06D78B9C"
+			rewards: [{
+				id: "40C62579E3DA9758"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Eye 5 of 12"
+			tasks: [{
+				id: "6BCD23595233B776"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Colonist Eye"
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09C89272A29EFB01"]
+			icon: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7766A356952F2BF4"
+			rewards: [{
+				id: "21CD1A374F67B958"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Eye 4 of 12"
+			tasks: [{
+				id: "0E196015E4FFD505"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Nether Eye"
+			x: 11.5d
+			y: 7.0d
 		}
 	]
 	title: "Act I"

@@ -10,6 +10,8 @@ StartupEvents.registry('item', e => {
   e.create('p3_asc')
   e.create('p3_xp')
   e.create('p3_find')
+  e.create('p3_stat')
+  e.create('p3_passive')
   
   e.create('royal_pixie_dust')
 

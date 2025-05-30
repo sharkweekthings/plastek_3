@@ -22,7 +22,7 @@
 				""
 				"This pack will focus more on the &eAdventure RPG&r aspect. &6Mine and Slash&r is a complete overhaul mod that turns the game into more of a &bDiablo style looter aRPG&r. "
 				""
-				"The &dmain goal of this pack will be to defeat various bosses as you progress through several dimensions&r. &bSome tech and magic mods have been added to the pack&r, including &6Project E&r, which will be &aintroduced very early&r to let you focus on your adventure, while having the &aability to quickly craft items&r. "
+				"The &dmain goal of this pack will be to defeat various bosses as you progress through several dimensions&r. &bSome tech and magic mods have been added to the pack&r, including &6Project E&r, which will be &2introduced very early&r to let you focus on your adventure, while having the &2ability to quickly craft items&r. "
 				""
 				"&bSome recipes may be modified&r to fit certain progression goals, but &2no where near as extreme as my previous packs.&r "
 			]
@@ -95,14 +95,13 @@
 				""
 				"&3Talent Point&r - Talent points can be accessed in the Hub. "
 				""
-				"&6Food&r - Eating unique foods will grant you -FIGURE THIS OUT LATER-."
-				""
 				"&dEnchantments&r - Some Enchantments give Mine and Slash stats and may add HP."
 				""
-				"&cDIET&r - Using the various foods in the pack, you must keep your Fruits, Grains, Proteins, and Vegetables all above 10%. If any one of them drop below, you will begin to suffer negative penalties. However, maintaining above (I FORGOT)% will begin to yield positive results. Keeping your sugars below 75% is important to not receive a sugar crash. Maintaining a balance between X and Y will grant a Sugar Rush buff. It's overall best to keep your Sugar's low, though."
+				"&6Spice of Life Carrot and Onion&r - Using both &6Spice of Life Carrot&r, and &6Onion&r will &2offer a various effects&r. While &6Spice of Life Carrot&r focuses more on &2HP only&r, &6Onion&r will give you &2HP, Elemental Resistance, Combat Roll Distance, and Count&r! "
 				""
+				"&cDIET&r - Using the various foods in the pack, you must keep your &eFruits, Grains, Proteins, and Vegetables&r all &2above 10%&r. If &4any one of them drop below&r, you will begin to suffer &4negative penalties&r. For &eSugar&r, you want to &2stay between 20% and 30%&r to gain additional bonuses."
 				""
-				"2 Hearts = 1 HP. "
+				"See the &2next quest up&r for more specific details on the &6DIET&r mod."
 			]
 			icon: {
 				Count: 1
@@ -127,13 +126,14 @@
 			description: [
 				"At &cLevel 25,  50, and 75 you will receive a -25% Resist Penalty&r, which means that you will &2need to find better Resist gear&r. All &dResists will cap at 75%&r, and it's &2highly encouraged to get as close to the cap as possible&r, otherwise mobs &cmay one shot, or deal significant damage to you&r. "
 				""
-				"To help assist in planning your build, here are the caps for the pack:"
+				"To help assist in planning your build, here are the point caps for the pack:"
 				""
 				"&eLevel&r: 100"
-				"&2Stat&r: 200"
+				"&2Stat&r: 160 (60 come from quests)"
 				"&9Spell&r: 100"
-				"&3Passive&r: 100"
-				"&6Talent&r: 175"
+				"&3Passive&r: 50"
+				"&6Talent&r: 130 (29 come from quests)"
+				"&dAscendancy&r: 10"
 			]
 			icon: {
 				Count: 1
@@ -158,7 +158,7 @@
 			description: [
 				"Progression in this pack is largely focused on following the story, &2navigating through the various dimensions, and defeating bosses&r. The quests will take you up through \"The End\" in Act V."
 				""
-				"The '&2endgame&r' is the &6Mine and Slash&r Map system which will first become &2accessible at level 50&r. "
+				"The '&eendgame&r' is the &6Mine and Slash&r Map system which will first become &2accessible at level 50&r. "
 				""
 				"&6MineColonies&r is highly encouraged for something to do between adventuring, and &2will be partially required&r, and something to do between adventuring."
 				""
@@ -583,48 +583,6 @@
 			y: 3.5d
 		}
 		{
-			can_repeat: true
-			description: [
-				"&cRefers to a Hostile Enemy&r"
-				"&4Refers to something bad or negative&r"
-			]
-			id: "64A8C0DE962DEDCB"
-			rewards: [
-				{
-					count: 10
-					id: "1AA0CD9630DC544E"
-					item: {
-						Count: 1
-						id: "waystones:waystone"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "3ACE0B08C55AF3DE"
-					item: {
-						Count: 1
-						id: "minecraft:ender_pearl"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					command: "/mine_and_slash points give @p ASCENDANCY 1"
-					id: "1B2CA9A7085C7A26"
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "723389E4EBCE29C6"
-				title: "ok"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: 7.0d
-		}
-		{
 			dependencies: ["7D67FB6BC04B6B7E"]
 			description: ["Same as above, except the task is to kill X amount of monsters."]
 			icon: "kubejs:p3_mob"
@@ -652,6 +610,69 @@
 			title: "Side Quest - Mob Battle"
 			x: 0.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["59518B193D9F7836"]
+			description: [
+				"You must &4maintain at least above 10%&r for &2each&r &eProteins, Fruits, Vegetables, and Grains&r. If &2any one&r of them&4 fall under 10%&r you will begin to &4suffer negative penalties&r such as &eHunger, Slowness, and Mining Fatigue&r. "
+				""
+				"For &2each category&r that you get &2above 60%&r you will &dgain 25 HP, 5 to Str/Dex/Int, 1.25% flat Elemental Resist, and 5% Bonus Experience&r, which do &2stack together&r. I.E if you have &eProteins&r and &eFruits&r at &260%&r you should have &d50 HP, 10 to Str/Dex/Int, 2% flat Elemental Resist, and 10% Bonus Experience&r. "
+				""
+				"If you manage to get up to &280%&r in &eProteins, Fruits, Vegetables, or Grains&r you will gain a &2bonus&r to &dTotal Damage, an additional 5 to Str/Dex/Int, and another 2.25% flat Elemental Resist&r for each category. "
+				""
+				"By maintaining between &220% and 30%&r &eSugar&r levels you will gain a &dbonus to Movement Speed, and 15% flat Chaos Resist&r."
+				""
+				"If you &4find yourself stuck&r in a &eSugar Crash&r, or you &4didn't eat anything&r, you can &2do the repeatable quest&r \"&eGotta Go Poop&r\""
+			]
+			icon: "minecolonies:clipboard"
+			id: "3F2F44D7BC690425"
+			subtitle: "Read the small print"
+			tasks: [{
+				id: "7484EBD087DCE2BD"
+				title: "DIET"
+				type: "checkmark"
+			}]
+			title: "Nutrition Facts"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3F2F44D7BC690425"]
+			description: [
+				"Did you do a naughty thing and &4eat something you shouldn't have&r? "
+				""
+				"Don't worry! Just take this pill *&4crams it down your throat&r* and you'll be &2pooping in no time&r. "
+				""
+				"Whether you &2poop out the food you ate&r, or &4poop out your organs&r because you &4haven't eaten anything&r --  this product is &eguaranteed to reset your DIET stats to default&r, or your money back! "
+				""
+				"Now go on, &4get to poopin&r.  "
+				""
+				"&oDon't forge to wipe!&r"
+			]
+			id: "43D311CB01BBCD9B"
+			rewards: [{
+				command: "/diet reset @p"
+				icon: "decocraft:toilet_paper_gold"
+				id: "3817CF15992F24DA"
+				type: "command"
+			}]
+			subtitle: "Flush the negative status away."
+			tasks: [{
+				id: "3C63CE9464BCF51A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "refurbished_furniture:wooden_toilets"
+					}
+				}
+				title: "Any #refurbished_furniture:wooden_toilets"
+				type: "item"
+			}]
+			title: "Gotta Go Poop"
+			x: -4.5d
+			y: -3.0d
 		}
 	]
 	title: "Read Me!"

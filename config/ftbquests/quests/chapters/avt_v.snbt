@@ -118,13 +118,22 @@
 				tag: { }
 			}
 			id: "5866F87BD76B6909"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 20000"
-				icon: "kubejs:p3_xp"
-				id: "2ADBA8D144D76A69"
-				title: "20000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 20000"
+					icon: "kubejs:p3_xp"
+					id: "2ADBA8D144D76A69"
+					title: "20000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "7F5B70D96B322482"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_monstrosity"
@@ -175,13 +184,22 @@
 				tag: { }
 			}
 			id: "36B7721A801BBFE4"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 20000"
-				icon: "kubejs:p3_xp"
-				id: "6A52D637D3F89A00"
-				title: "20000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 20000"
+					icon: "kubejs:p3_xp"
+					id: "6A52D637D3F89A00"
+					title: "20000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "02C968C1594E567A"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_maledictus"
@@ -352,13 +370,22 @@
 				tag: { }
 			}
 			id: "2F8641C83A673683"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 20000"
-				icon: "kubejs:p3_xp"
-				id: "4D247D18A8126C5B"
-				title: "20000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 20000"
+					icon: "kubejs:p3_xp"
+					id: "4D247D18A8126C5B"
+					title: "20000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "62A52A7F51F5A868"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "mowziesmobs:kill_frostmaw"
@@ -620,6 +647,7 @@
 				type: "command"
 			}]
 			shape: "square"
+			subtitle: "Eye 12 of 12"
 			tasks: [{
 				id: "5DBD98B25DB412D0"
 				item: {
@@ -780,13 +808,22 @@
 				tag: { }
 			}
 			id: "7E76D8E2927D53D7"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 50000"
-				icon: "kubejs:p3_xp"
-				id: "2335C4D1B2D37C2B"
-				title: "50000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 50000"
+					icon: "kubejs:p3_xp"
+					id: "2335C4D1B2D37C2B"
+					title: "50000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "2C4350EF6BB825B3"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				entity: "minecraft:ender_dragon"

@@ -319,14 +319,23 @@
 				tag: { }
 			}
 			id: "79B4E8514BAB4B8A"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 15000"
-				icon: "kubejs:p3_xp"
-				id: "6D61EA275317C638"
-				ignore_reward_blocking: true
-				title: "15000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 15000"
+					icon: "kubejs:p3_xp"
+					id: "6D61EA275317C638"
+					ignore_reward_blocking: true
+					title: "15000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "6FA82A38CB557A06"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "cataclysm:kill_harbinger"
@@ -358,13 +367,22 @@
 				tag: { }
 			}
 			id: "6975A62C0745C013"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 15000"
-				icon: "kubejs:p3_xp"
-				id: "25764538132F6025"
-				title: "15000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 15000"
+					icon: "kubejs:p3_xp"
+					id: "25764538132F6025"
+					title: "15000 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "376ECDD46963D14A"
+					title: "1 Talent Point"
+					type: "command"
+				}
+			]
 			shape: "gear"
 			tasks: [
 				{
@@ -527,7 +545,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["322EA65C491FF167"]
+			dependencies: ["6161525041DA06DE"]
 			description: [
 				"You meet with the &dQueen&r and &2explain your situation&r, from the beginning. "
 				""
@@ -561,7 +579,7 @@
 				type: "checkmark"
 			}]
 			title: "A Meeting With a Queen"
-			x: 6.0d
+			x: 7.5d
 			y: 3.5d
 		}
 		{
@@ -608,7 +626,7 @@
 				}
 			]
 			title: "Entry Into the Astral Dimension"
-			x: 7.5d
+			x: 9.0d
 			y: 3.5d
 		}
 		{
@@ -631,7 +649,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.5d
 			y: -5.5d
 		}
 		{
@@ -654,7 +672,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: -5.5d
 		}
 		{
@@ -686,7 +704,7 @@
 				type: "item"
 			}]
 			title: "Astral Eyes"
-			x: 7.5d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
@@ -713,7 +731,7 @@
 				type: "advancement"
 			}]
 			title: "A Tale of Two Knights"
-			x: 7.5d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
@@ -743,7 +761,7 @@
 				type: "item"
 			}]
 			title: "Ooh, Piece of Candy!"
-			x: 7.5d
+			x: 9.0d
 			y: -2.5d
 		}
 		{
@@ -773,7 +791,7 @@
 				type: "checkmark"
 			}]
 			title: "Sanctuary of the Knights"
-			x: 7.5d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -824,7 +842,7 @@
 				}
 			]
 			title: "Going Down?"
-			x: 7.5d
+			x: 9.0d
 			y: -4.0d
 		}
 		{
@@ -862,15 +880,11 @@
 					type: "command"
 				}
 				{
-					id: "66CCDE5F69762C8C"
-					item: {
-						Count: 1
-						id: "endrem:black_eye"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					command: "/mine_and_slash points give @p TALENTS 1"
+					icon: "kubejs:p3_passive"
+					id: "3A63FAD00F3FA967"
+					title: "1 Talent Point"
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -886,7 +900,7 @@
 				type: "advancement"
 			}]
 			title: "Defeat the Astral Guardian"
-			x: 7.5d
+			x: 9.0d
 			y: -7.0d
 		}
 		{
@@ -928,11 +942,11 @@
 				type: "checkmark"
 			}]
 			title: "Reinforcements"
-			x: 7.5d
+			x: 9.0d
 			y: -8.5d
 		}
 		{
-			dependencies: ["1E39835799877646"]
+			dependencies: ["74ADC7769F79FB70"]
 			icon: {
 				Count: 1
 				id: "endrem:black_eye"
@@ -958,8 +972,8 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Black Eye Recovery"
-			x: 9.0d
+			title: "Astral Guardian Eye Recovery"
+			x: 12.0d
 			y: -7.0d
 		}
 		{
@@ -1146,6 +1160,88 @@
 			title: "Ancient Remnant Guide"
 			x: 5.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["1E39835799877646"]
+			icon: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "74ADC7769F79FB70"
+			rewards: [{
+				id: "5FD00D97A3037151"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Eye 11 of 12"
+			tasks: [{
+				id: "73A692B6D27A3D74"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Astral Guardian Eye"
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["322EA65C491FF167"]
+			id: "6161525041DA06DE"
+			shape: "square"
+			subtitle: "Eye 10 of 12"
+			tasks: [{
+				id: "252C7B4D6E72D43C"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6161525041DA06DE"]
+			icon: {
+				Count: 1
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2B4CCA9458CBB613"
+			rewards: [{
+				id: "73D9ED438F40AD39"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "29022736ADC9F6F9"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Exotic Eye Recovery"
+			x: 6.0d
+			y: 5.0d
 		}
 	]
 	title: "Act IV"

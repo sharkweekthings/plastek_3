@@ -36,70 +36,71 @@
 			}]
 			title: "Your New Life"
 			x: 1.5d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			id: "78FCD872F5E0E387"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "35D9482EDCC4F886"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "35D9482EDCC4F886"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "7CE1E4D45949AF96"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "16A8DA580E1C95BD"
-				item: "minecolonies:blockhutfisherman"
-				type: "item"
+				advancement: "minecolonies:production/build_fisherman"
+				criterion: ""
+				id: "0B3F2803773F92E4"
+				type: "advancement"
 			}]
-			x: 1.0d
-			y: -3.5d
+			title: "Fisher's Hut"
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			id: "016A4274558D16BD"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "413CFB8333EE648E"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "413CFB8333EE648E"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "0AC67AF0907AC4A6"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "719C6245A04F88DE"
-				item: "minecolonies:blockhutfarmer"
-				type: "item"
+				advancement: "minecolonies:production/build_farmer"
+				criterion: ""
+				id: "7699A16353A9CB7F"
+				type: "advancement"
 			}]
+			title: "Farm"
 			x: 0.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["009BB242F0FB6D2D"]
-			id: "1DC20928E22D390D"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "75EEFDC356DBB916"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
-			tasks: [{
-				id: "2AB4B1C34C021983"
-				item: "minecolonies:blockhutchickenherder"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"0B093DBD5E92E3E1"
 				"016A4274558D16BD"
 				"78FCD872F5E0E387"
-				"1DC20928E22D390D"
-				"30D83D7F1A590E3F"
-				"2699833EF109DB43"
+				"26BC57AC40A8FFBB"
 			]
 			description: [
 				"Great, you've &2established at least 1 type of food source&r. "
@@ -125,7 +126,7 @@
 			}]
 			title: "Well Fed"
 			x: 1.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1503F590D0814D73"]
@@ -137,57 +138,89 @@
 				"Once your &2establishment looks nicer&r, &dShaun&r said that he would &2help out around the kitchen&r and &2teach people how to cook&r some good meals. "
 			]
 			id: "7A07D22D4EA3623C"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "4975A382BC25932C"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "4975A382BC25932C"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "7F1818B71372CD37"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "33F33FBB1D795CCF"
-				item: "minecolonies:blockhutkitchen"
-				type: "item"
+				advancement: "minecolonies:production/build_cook"
+				criterion: ""
+				id: "2E9077BCC670FDE7"
+				type: "advancement"
 			}]
-			title: "Gordon Ramsay Would Be Ashamed"
+			title: "Restaurant"
 			x: 1.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["32999855766E0F67"]
 			id: "7288270CFFD1F68B"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "4575BA738DB4F94E"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "4575BA738DB4F94E"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "5CCB407328AF728C"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "1B7B1955BF3AEAC7"
-				item: "minecolonies:blockhutlumberjack"
-				type: "item"
+				advancement: "minecolonies:production/build_lumberjack"
+				criterion: ""
+				id: "2202970774BFA233"
+				type: "advancement"
 			}]
+			title: "Foresters Hut"
 			x: 4.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["32999855766E0F67"]
 			id: "657167DB8A2A44A4"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "378402B02D073525"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "378402B02D073525"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "630CF59E733BECD9"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "30A66B0A1BBBF60D"
-				item: "minecolonies:blockhutminer"
-				type: "item"
+				advancement: "minecolonies:production/build_miner"
+				criterion: ""
+				id: "1452D538A35F0E96"
+				type: "advancement"
 			}]
+			title: "Mine"
 			x: 4.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7A07D22D4EA3623C"]
@@ -218,7 +251,7 @@
 			}]
 			title: "Resourceful Citizens"
 			x: 3.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["32999855766E0F67"]
@@ -239,7 +272,7 @@
 			}]
 			title: "The Homeless"
 			x: 3.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -269,7 +302,7 @@
 			}]
 			title: "You're a Leader, Not a Courier!"
 			x: 6.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6784A5082FC79CF0"]
@@ -279,31 +312,37 @@
 				"&oAssigning the work should happen automatically unless you made specific changes in your Town Hall&r."
 			]
 			id: "5E977289D0E99439"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "5291F6C050EBC5D9"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "6C35C30E1FE1E00B"
-					item: "minecolonies:blockhutwarehouse"
-					type: "item"
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "5291F6C050EBC5D9"
+					title: "2500 Experience Points"
+					type: "command"
 				}
 				{
-					id: "1DDBC4CCF4367DBE"
-					item: "minecolonies:blockhutdeliveryman"
-					type: "item"
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "3246F139538A0226"
+					title: "2 Attribute Points"
+					type: "command"
 				}
 			]
-			title: "Warehouse and Courier"
+			tasks: [{
+				advancement: "minecolonies:production/build_warehouse"
+				criterion: ""
+				id: "7B2DE9510B95AB76"
+				type: "advancement"
+			}]
+			title: "Warehouse"
 			x: 7.5d
-			y: -0.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["5E977289D0E99439"]
+			dependencies: [
+				"5E977289D0E99439"
+				"4A9FF37DB34CECA5"
+			]
 			description: [
 				"Some inspectors have visited the town and have approved you to be put on the map. "
 				""
@@ -325,99 +364,67 @@
 			}]
 			title: "Lookin Better"
 			x: 9.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["009BB242F0FB6D2D"]
-			id: "0B093DBD5E92E3E1"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "07E2262E6AF9D25C"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
-			tasks: [{
-				id: "20E3C6D037B5A84C"
-				item: "minecolonies:blockhutswineherder"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["009BB242F0FB6D2D"]
-			id: "30D83D7F1A590E3F"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "47737D3188B61CA2"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
-			tasks: [{
-				id: "47C48EBE0EBCA499"
-				item: "minecolonies:blockhutcowboy"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["009BB242F0FB6D2D"]
-			id: "2699833EF109DB43"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "204CE1E5C5D8203B"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
-			tasks: [{
-				id: "631FB20EA8E3DE40"
-				item: "minecolonies:blockhutshepherd"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["55E6DE3D4ECCF1E7"]
 			id: "4F048C95812025D1"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "11BD7D6765C68924"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "11BD7D6765C68924"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "2B094C7B95324366"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			subtitle: "Don't forget to equip your guards!"
 			tasks: [{
-				id: "5A9D479754873CEA"
-				item: "minecolonies:blockhutguardtower"
-				type: "item"
+				advancement: "minecolonies:minecolonies/build_guard_tower"
+				criterion: ""
+				id: "362145524C9B39C6"
+				type: "advancement"
 			}]
+			title: "The Guard in the High Tower"
 			x: 10.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["55E6DE3D4ECCF1E7"]
 			id: "70ACA61F1A1FF810"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "298CA1098631814F"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "298CA1098631814F"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "2D326483A2C26D14"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			subtitle: "Don't forget to equip your guards!"
 			tasks: [{
-				id: "189750112149F004"
-				item: "minecolonies:blockhutbarracks"
-				type: "item"
+				advancement: "minecolonies:military/build_barracks"
+				criterion: ""
+				id: "697D03BAD1DD0565"
+				type: "advancement"
 			}]
+			title: "Barracks"
 			x: 10.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -449,7 +456,7 @@
 			}]
 			title: "Give Yourself a Pat on the Back"
 			x: 12.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			id: "00F81073D4657BBC"
@@ -465,8 +472,8 @@
 				item: "minecolonies:blockhutschool"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			id: "074486D9C594B411"
@@ -482,60 +489,93 @@
 				item: "minecolonies:blockhutuniversity"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 11.0d
+			y: 5.0d
 		}
 		{
 			id: "72B6978D94282E5F"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "40C7D1C74827AFB7"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "40C7D1C74827AFB7"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "660B160915798F63"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "0DCB17866DD3F606"
-				item: "minecolonies:blockhutenchanter"
-				type: "item"
+				advancement: "minecolonies:production/build_enchanter"
+				criterion: ""
+				id: "370AC5776E4113D0"
+				type: "advancement"
 			}]
+			title: "Enchanter's Tower"
 			x: 8.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "06C5F3A55B8A476B"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "762EF1F0F32C9DAD"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "762EF1F0F32C9DAD"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "0983A5EC9B67D948"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "7EBF5DD2EC7FD4E9"
-				item: "minecolonies:blockhutlibrary"
-				type: "item"
+				advancement: "minecolonies:production/build_library"
+				criterion: ""
+				id: "60175EFD4BF73951"
+				type: "advancement"
 			}]
+			title: "Library"
 			x: 7.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["55E6DE3D4ECCF1E7"]
 			id: "26059FEE6EFD1E99"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "50E40D37382C41B4"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "50E40D37382C41B4"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "27FC841C9F0AAB85"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "1D008E5F5E9D8939"
-				item: "minecolonies:blockhutcombatacademy"
-				type: "item"
+				advancement: "minecolonies:military/build_combat_academy"
+				criterion: ""
+				id: "6DC5AD94FAE53D54"
+				type: "advancement"
 			}]
+			title: "Combat Academy"
 			x: 10.5d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			id: "07F504A66E2E9B82"
@@ -552,41 +592,63 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "298600CCD0BDFD87"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "24B03305052E70AB"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "24B03305052E70AB"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "4DFDAE9BE2FF0396"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "733388EF51339A01"
-				item: "minecolonies:blockhutblacksmith"
-				type: "item"
+				advancement: "minecolonies:production/build_blacksmith"
+				criterion: ""
+				id: "557777E937A0FEF9"
+				type: "advancement"
 			}]
-			x: 4.0d
-			y: 2.0d
+			title: "Blacksmith's Hut"
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			id: "0EED82024D483F3E"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "542A8E4B7B47C069"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "542A8E4B7B47C069"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "125DF715B2EB900C"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "488A449FB9D055EF"
-				item: "minecolonies:blockhutsmeltery"
-				type: "item"
+				advancement: "minecolonies:production/build_smeltery"
+				criterion: ""
+				id: "1FFA5EFD824D5979"
+				type: "advancement"
 			}]
-			x: 6.0d
-			y: 2.0d
+			title: "Smeltery"
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "0D734D846878A212"
@@ -602,42 +664,64 @@
 				item: "minecolonies:blockhutmechanic"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			id: "467F4EB7247ABF0D"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "6888157033B3BB62"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "6888157033B3BB62"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "77D2FA5634345B4F"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "7FA6EDC092B03147"
-				item: "minecolonies:blockhutbaker"
-				type: "item"
+				advancement: "minecolonies:production/build_baker"
+				criterion: ""
+				id: "26F628C6530B07C3"
+				type: "advancement"
 			}]
-			x: 4.0d
-			y: 3.0d
+			title: "Bakery"
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			id: "474BEFCD11978582"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "314EED3B8BF0AE08"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "314EED3B8BF0AE08"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "6F6A7B889C0F2C59"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "50B6FDE27E7055AE"
-				item: "minecolonies:blockhutcrusher"
-				type: "item"
+				advancement: "minecolonies:production/build_crusher"
+				criterion: ""
+				id: "34FAA4E751D32C57"
+				type: "advancement"
 			}]
-			x: 8.0d
-			y: 2.0d
+			title: "Crusher"
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			id: "3B247D80BE44595A"
@@ -654,24 +738,35 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			id: "3C80E478C516611C"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "5E39A11CC342F7BF"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "5E39A11CC342F7BF"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "1CFECDE633F12CFE"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "2DC89A58EA9227E9"
-				item: "minecolonies:blockhutsifter"
-				type: "item"
+				advancement: "minecolonies:production/build_sifter"
+				criterion: ""
+				id: "71B8526D60EB12C2"
+				type: "advancement"
 			}]
-			x: 10.0d
-			y: 2.0d
+			title: "Sifter's Hut"
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			id: "4A0F31A129F2540D"
@@ -687,8 +782,8 @@
 				item: "minecolonies:simplequarry"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 5.5d
+			y: 6.0d
 		}
 		{
 			id: "3DA2D29AE585FB7D"
@@ -704,8 +799,8 @@
 				item: "minecolonies:mediumquarry"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 6.5d
+			y: 6.0d
 		}
 		{
 			id: "5D200316D87C080E"
@@ -721,93 +816,120 @@
 				item: "minecolonies:blockhutglassblower"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			id: "04005E9ED37D81C4"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "246BFF5099AC00C1"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "246BFF5099AC00C1"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "5307D26E800EEC3B"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "386C4C4031CB9203"
-				item: "minecolonies:blockhutcomposter"
-				type: "item"
+				advancement: "minecolonies:production/build_composter"
+				criterion: ""
+				id: "672D7C9BDC3028DF"
+				type: "advancement"
 			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			id: "66A193BCFE291FBF"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "2DE2F68FC617023A"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
-			tasks: [{
-				id: "25DFC00AA53FB3F6"
-				item: "minecolonies:blockhutrabbithutch"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.0d
+			title: "Composter's Hut"
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "7F4AF348050F4D17"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "0C35ABA34346E1A3"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "0C35ABA34346E1A3"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "3D36390E20CA7FF5"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "69F60D4CD3D0A515"
-				item: "minecolonies:blockhutflorist"
-				type: "item"
+				advancement: "minecolonies:production/build_florist"
+				criterion: ""
+				id: "71B36FE8A2A4FF12"
+				type: "advancement"
 			}]
-			x: 8.0d
-			y: 3.0d
+			title: "Flower Shop"
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			id: "1D1A56FA6CE1F3ED"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "68064F3895C766F4"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "68064F3895C766F4"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "63A737F257743D40"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "6C69DA76F83EEE6A"
-				item: "minecolonies:blockpostbox"
-				type: "item"
+				advancement: "minecolonies:production/post_and_stash"
+				criterion: ""
+				id: "76EC3186141ED471"
+				type: "advancement"
 			}]
-			x: 7.0d
-			y: 8.0d
+			title: "Postbox"
+			x: 6.5d
+			y: 7.0d
 		}
 		{
 			id: "21C0EE697625BF42"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "4C9E5DAAA89A3F19"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "4C9E5DAAA89A3F19"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "55994DCB50B9AC7E"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "62F264E309C98B68"
-				item: "minecolonies:blockhutstonesmeltery"
-				type: "item"
+				advancement: "minecolonies:production/build_stone_smeltery"
+				criterion: ""
+				id: "3B393A97843D49B2"
+				type: "advancement"
 			}]
-			x: 5.0d
-			y: 2.0d
+			title: "Stone Smeltery"
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			id: "4DF717037521AF3F"
@@ -823,8 +945,8 @@
 				item: "minecolonies:blockhutnetherworker"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			id: "02587FFE92B79803"
@@ -840,25 +962,36 @@
 				item: "minecolonies:blockhutfletcher"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			id: "6E6B349D30180BC6"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "381F7A00D2A55FCF"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "381F7A00D2A55FCF"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "15DD5B063589542F"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "7EB81026E94CA0C0"
-				item: "minecolonies:blockhutsawmill"
-				type: "item"
+				advancement: "minecolonies:production/build_sawmill"
+				criterion: ""
+				id: "6EDC88D25E8D1D41"
+				type: "advancement"
 			}]
-			x: 10.0d
-			y: 3.0d
+			title: "Sawmill"
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "4342B61463C2AEB8"
@@ -881,7 +1014,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 8.5d
 			y: 6.0d
 		}
 		{
@@ -898,7 +1031,7 @@
 				item: "minecolonies:blockhutfield"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 9.5d
 			y: 6.0d
 		}
 		{
@@ -915,25 +1048,36 @@
 				item: "minecolonies:blockhutbeekeeper"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.5d
 			y: 6.0d
 		}
 		{
 			id: "190EDC9899236B03"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "749758362C8C27B1"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "749758362C8C27B1"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "3FB9567851C330EA"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "5001A741BC4A9E00"
-				item: "minecolonies:blockhutmysticalsite"
-				type: "item"
+				advancement: "minecolonies:minecolonies/build_mysticalsite"
+				criterion: ""
+				id: "1CC556DD4AAFB8CA"
+				type: "advancement"
 			}]
-			x: 6.5d
-			y: 7.0d
+			title: "Mystical Site"
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			id: "3BC07F8C2FE9AC62"
@@ -951,6 +1095,79 @@
 			}]
 			x: 7.5d
 			y: 7.0d
+		}
+		{
+			dependencies: ["6784A5082FC79CF0"]
+			id: "4A9FF37DB34CECA5"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "745051C13B1CF7F6"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "59775EF1511A7E35"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:production/build_delivery_person"
+				criterion: ""
+				id: "18175400EC376813"
+				type: "advancement"
+			}]
+			title: "Courier"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["009BB242F0FB6D2D"]
+			description: [
+				"You'll need 1 of each Herding Hut for this. "
+				""
+				"Chicken Herder, Cow Herder, Swine Herder, Rabbit Hutch, and a Shepherd Hut."
+			]
+			id: "26BC57AC40A8FFBB"
+			rewards: [{
+				command: "/mine_and_slash points give @p STATS 10"
+				icon: "kubejs:p3_stat"
+				id: "5995122FE3B28F99"
+				title: "10 Attribute Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "minecolonies:production/build_all_herders"
+				criterion: ""
+				id: "71146D55E02649B2"
+				type: "advancement"
+			}]
+			title: "You're a Herding Person, Now!"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "51D76856A39BD0E1"
+			rewards: [{
+				command: "/mine_and_slash points give @p STATS 2"
+				icon: "kubejs:p3_stat"
+				id: "0D84CA4FC94AFAE0"
+				title: "2 Attribute Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "minecolonies:military/build_archery"
+				criterion: ""
+				id: "09F80EC6AF2E642C"
+				type: "advancement"
+			}]
+			title: "Archery"
+			x: 4.5d
+			y: 6.0d
 		}
 	]
 	title: "MineColonies"

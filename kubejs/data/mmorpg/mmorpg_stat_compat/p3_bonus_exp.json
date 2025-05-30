@@ -1,0 +1,14 @@
+{
+  "attribute_id": "kubejs:bonus_exp",
+  "conversion": 5.0,
+  "enchant_id": "",
+  "id": "p3_bonus_exp_compat",
+  "maximum_cap": 100,
+  "minimum_cap": 0,
+  "mns_stat_id": "bonus_exp",
+  "mod_type": "FLAT",
+  "per_item_max": 100,
+  "per_item_min": 0,
+  "scaling": "NONE"
+}
+
