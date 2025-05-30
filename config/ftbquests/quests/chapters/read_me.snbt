@@ -14,17 +14,17 @@
 	quests: [
 		{
 			description: [
-				"Thank you for checking out &6Plastek 3&r!  I hope you enjoy the pack. "
+				"Thank you for checking out &6Plastek 3&r! I hope you enjoy the pack."
 				""
-				"If you have any questions, or would like to provide any feedback / bugs, feel free to join the Discord:"
+				"If you have any questions or would like to provide any feedback or bug reports, feel free to join the Discord:"
 				""
 				"&b&nhttps://discord.gg/Tt8sGvQRH4&r&r"
 				""
-				"This pack will focus more on the &eAdventure RPG&r aspect. &6Mine and Slash&r is a complete overhaul mod that turns the game into more of a &bDiablo style looter aRPG&r. "
+				"This pack will focus more on the &eAdventure RPG&r aspect. &6Mine and Slash&r is a complete overhaul mod that turns the game into more of a &bDiablo style looter aRPG&r."
 				""
-				"The &dmain goal of this pack will be to defeat various bosses as you progress through several dimensions&r. &bSome tech and magic mods have been added to the pack&r, including &6Project E&r, which will be &2introduced very early&r to let you focus on your adventure, while having the &2ability to quickly craft items&r. "
+				"The &dmain goal of this pack will be to defeat various bosses as you progress through several dimensions&r. &bSome tech and magic mods have been added to the pack&r, including &6Project E&r, which will be &2introduced very early&r to let you focus on your adventure while having the &2ability to quickly craft items&r."
 				""
-				"&bSome recipes may be modified&r to fit certain progression goals, but &2no where near as extreme as my previous packs.&r "
+				"&bSome recipes may be modified&r to fit certain progression goals, but &2nowhere near as extreme as my previous packs.&r"
 			]
 			icon: {
 				Count: 1
@@ -46,27 +46,27 @@
 		{
 			dependencies: ["3842A04BB4A957D9"]
 			description: [
-				"You can open your &6Mine and Slash&r Main Hub by &epressing 'H'&r by default. "
+				"You can open your &6Mine and Slash&r Main Hub by &epressing 'H'&r by default."
 				""
-				"From here you can &enavigate to \"Classes\"&r and distribute your &estarting Spell and Talent point&r after deciding on which tree you want to start with."
+				"From here, you can &enavigate to \"Classes\"&r and distribute your &estarting Spell and Talent point&r after deciding on which tree you want to start with."
 				""
 				"There are currently &e6 different paths&r that you can invest points into:"
 				""
-				"&9Sorcerer&r - For those wanting to cast various spells consisting primarily of Ice and Fire."
+				"&9Sorcerer&r – For those wanting to cast various spells consisting primarily of Ice and Fire."
 				""
-				"&4Warrior&r - For those wanting to fight up close and personal."
+				"&4Warrior&r – For those wanting to fight up close and personal."
 				""
-				"&5Warlock&r - For those wanting to cast some spells, and have minions like Zombies and Skeletons do damage for them. "
+				"&5Warlock&r – For those wanting to cast some spells, and have minions like Zombies and Skeletons do damage for them."
 				""
-				"&6Minstrel&r - For those wanting to play a more supportive role. "
+				"&6Minstrel&r – For those wanting to play a more supportive role."
 				""
-				"&dShaman&r - For those wanting to use electric type abilities, and totems. "
+				"&dShaman&r – For those wanting to use electric-type abilities and totems."
 				""
-				"&aHunter&r - For those wanting to play a ranged type class, which is NOT limited to bows / crossbows."
+				"&aHunter&r – For those wanting to play a ranged-type class, which is NOT limited to bows and crossbows."
 				""
 				"Each class comes with it's own &2unique abilities, and passive abilities&r."
 				""
-				"You are able to &2put points&r into &2two separate trees &rif you wish to &2cross your class&r."
+				"You are able to &2put points&r into &2two separate trees&r if you wish to &2cross your class&r."
 			]
 			icon: {
 				Count: 1
@@ -87,19 +87,19 @@
 		{
 			dependencies: ["0174B8D037486CC7"]
 			description: [
-				"There are a few ways to attain more HP. "
+				"There are a few ways to attain more HP."
 				""
-				"&eLeveling&r - You get 6 base HP per level"
+				"&eLeveling&r – You get 6 base HP per level."
 				""
-				"&2Stat Distribution&r - 1 point of Strength will give you 1.5 HP. &a&oSee the Hub to view what each stat gives you&r&r. "
+				"&2Stat Distribution&r – 1 point of Strength will give you 1.5 HP. &a&oSee the Hub to view what each stat gives you&r&r."
 				""
-				"&3Talent Point&r - Talent points can be accessed in the Hub. "
+				"&3Talent Point&r – Talent points can be accessed in the Hub."
 				""
-				"&dEnchantments&r - Some Enchantments give Mine and Slash stats and may add HP."
+				"&dEnchantments&r – Some Enchantments give Mine and Slash stats and may add HP."
 				""
-				"&6Spice of Life Carrot and Onion&r - Using both &6Spice of Life Carrot&r, and &6Onion&r will &2offer a various effects&r. While &6Spice of Life Carrot&r focuses more on &2HP only&r, &6Onion&r will give you &2HP, Elemental Resistance, Combat Roll Distance, and Count&r! "
+				"&6Spice of Life Carrot and Onion&r – Using both &6Spice of Life Carrot&r and &6Onion&r will &2offer various effects&r. While &6Spice of Life Carrot&r focuses more on &2HP only&r, &6Onion&r will give you &2HP, Elemental Resistance, Combat Roll Distance, and Count&r!"
 				""
-				"&cDIET&r - Using the various foods in the pack, you must keep your &eFruits, Grains, Proteins, and Vegetables&r all &2above 10%&r. If &4any one of them drop below&r, you will begin to suffer &4negative penalties&r. For &eSugar&r, you want to &2stay between 20% and 30%&r to gain additional bonuses."
+				"&cDIET&r – Using the various foods in the pack, you must keep your &eFruits, Grains, Proteins, and Vegetables&r all &2above 10%&r. If &4any one of them drops below&r, you will begin to suffer &4negative penalties&r. For &eSugar&r, you want to &2stay between 20% and 30%&r to gain additional bonuses."
 				""
 				"See the &2next quest up&r for more specific details on the &6DIET&r mod."
 			]
@@ -124,9 +124,9 @@
 		{
 			dependencies: ["59518B193D9F7836"]
 			description: [
-				"At &cLevel 25,  50, and 75 you will receive a -25% Resist Penalty&r, which means that you will &2need to find better Resist gear&r. All &dResists will cap at 75%&r, and it's &2highly encouraged to get as close to the cap as possible&r, otherwise mobs &cmay one shot, or deal significant damage to you&r. "
+				"At &cLevels 25, 50, and 75 you will receive a -25% Resist Penalty&r, which means that you will &2need to find better Resist gear&r. All &dResists will cap at 75%&r, and it's &2highly encouraged to get as close to the cap as possible&r; otherwise, mobs &cmay one-shot, or deal significant damage to you&r."
 				""
-				"To help assist in planning your build, here are the point caps for the pack:"
+				"To assist in planning your build, here are the point caps for the pack:"
 				""
 				"&eLevel&r: 100"
 				"&2Stat&r: 160 (60 come from quests)"
@@ -158,11 +158,11 @@
 			description: [
 				"Progression in this pack is largely focused on following the story, &2navigating through the various dimensions, and defeating bosses&r. The quests will take you up through \"The End\" in Act V."
 				""
-				"The '&eendgame&r' is the &6Mine and Slash&r Map system which will first become &2accessible at level 50&r. "
+				"The '&eendgame&r' is the &6Mine and Slash&r Map system, which will first become &2accessible at level 50&r."
 				""
-				"&6MineColonies&r is highly encouraged for something to do between adventuring, and &2will be partially required&r, and something to do between adventuring."
+				"&6MineColonies&r is highly encouraged for something to do between adventuring, and &2will be partially required&r."
 				""
-				"&2I do know this mod isn't for everybody though&r, so if this one isn't for you, don't worry. &2The forced interction will be very limited&r, then you can pretty much do whatever. "
+				"&2I do know this mod isn't for everybody though&r, so if this one isn't for you, don't worry. &2The forced interaction will be very limited&r; then you can pretty much do whatever."
 			]
 			icon: {
 				Count: 1
@@ -183,9 +183,9 @@
 		{
 			dependencies: ["57A6C5F1F66202C7"]
 			description: [
-				"&6Project E&r can be used to replicate most items, granted you have the &eEMC&r to exchange. "
+				"&6Project E&r can be used to replicate most items, granted you have the &eEMC&r to exchange."
 				""
-				"&6Mystical Agriculture&r is also included in the pack to fill in any gaps, or to be used in any automations you might need."
+				"&6Mystical Agriculture&r is also included in the pack to fill in any gaps or to be used in any automations you might need."
 			]
 			icon: {
 				Count: 1
@@ -218,7 +218,7 @@
 				"&dSetback&r - 50 to 65"
 				"&0The End&r - 60 to 65"
 				""
-				"&6Dimensional Dungeons&r, &6Ancient Obelisk&r, &6The Harvest&r, and &6Dungeon Realm&r should be &2available as early as level 1&r, but you may &4need to make the respective portal, obelisk, or map device&r to use anything you find. "
+				"&6Dimensional Dungeons&r, &6Ancient Obelisk&r, &6The Harvest&r, and &6Dungeon Realm&r should be &2available as early as level 1&r, but you may &4need to make the respective Portal, Obelisk, or Map Device&r to use anything you find. "
 				""
 				"You can start running &6Mine and Slash&r &2maps at level 50&r. "
 			]
@@ -242,9 +242,9 @@
 		{
 			dependencies: ["3F93CF6B70529166"]
 			description: [
-				"&eSupport Quests&r offer a few different &omostly&r optional (&o&aand sometimes useful&r&r) quest lines for you to enjoy and complete."
+				"&eSupport Quests&r offer a few different &omostly&r optional (&o&aand sometimes useful&r&r) questlines for you to enjoy and complete."
 				""
-				"These will include various &6Mine and Slash&r, &6Minecolonies&r quests to help you through the mods, &2Cooking and Farming Quests&r, and more. "
+				"These will include quests various &6Mine and Slash&r, &6Minecolonies&r quests to help you through the mods, &2Cooking and Farming Quests&r, and more."
 			]
 			icon: {
 				Count: 1
@@ -300,7 +300,7 @@
 		}
 		{
 			dependencies: ["47BD1CC1D06A34DF"]
-			description: ["Sometimes a Main Quest will include quite a bit of dialogue that may be story, or important information."]
+			description: ["Sometimes a &eMain Quest&r will include quite a bit of dialogue that may be story, or important information."]
 			id: "7D67FB6BC04B6B7E"
 			shape: "square"
 			subtitle: "It is intended to have to complete all or most of this quest shape."
@@ -316,11 +316,11 @@
 		{
 			dependencies: ["47BD1CC1D06A34DF"]
 			description: [
-				"When a boss battle comes up, look at the quests surrounding it. There is a generalized strategy for some bosses, but not all. "
+				"When a boss battle comes up, look at the &2quests surrounding it&r. There is a &2generalized strategy for some bosses&r, but &4not all&r."
 				""
-				"Before engaging in battle with a boss, it's worth it to place down a Waystone for quick access back if you end up dying."
+				"Before engaging in battle with a boss, it's worth it to place down a &3Waystone&r for quick access back if you &4end up dying&r."
 				""
-				"At the bottom of each Boss Battle quest you will find the bosses minimum level, damage type, and whether or not it has any additional static buffs. "
+				"At the &2bottom of each Boss Battle quest&r, you will find the &2boss's minimum level, damage type, and whether or not it has any additional static buffs&r."
 			]
 			icon: {
 				Count: 1
@@ -368,7 +368,7 @@
 		}
 		{
 			dependencies: ["092D2D9BBD18EB72"]
-			description: ["Most crops and trees have a season associated with them. &cIf the crop is not in season&r, it will &l&cnot&r&r grow. You can counter this by using &3Greenhouse Glass&r (&oany &aGreen Stained Glass&r&r) "]
+			description: ["Most crops and trees have a season associated with them. &cIf the crop is not in season&r, it will &l&cnot&r&r grow. You can counter this by using &3Greenhouse Glass&r (&oany &aGreen Stained Glass&r&r)."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -389,13 +389,15 @@
 		{
 			dependencies: ["092D2D9BBD18EB72"]
 			description: [
-				"Whoops. Did you &4just die&r? "
+				"Whoops. Did you &4just die&r?"
 				""
-				"That &4might happen a lot&r, especially early on. The &4mobs can be pretty vicious.&r "
+				"That &4might happen a lot&r, especially early on. The &4mobs can be pretty vicious.&r"
 				""
-				"In this pack, if you die you will &2retain all of your items&r, including your C&6urios&r slots."
+				"In this pack, if you die, you will &2retain all of your items&r, including your &6Curios&r slots."
 				""
-				"Starting at &eLevel 30&r, you will incur &410% XP loss per death&r as well as a significant portion of &eFavor&r. Furthermore, if you attempt to &4challenge more powerful monsters&r than you can handle, this &4penalty is multiplied,&r so be careful!"
+				"Starting at &eLevel 30&r, you will incur &410% XP loss per death&r, as well as a significant portion of &eFavor&r."
+				""
+				"Furthermore, if you attempt to &4challenge powerful monsters that are higher level&r than you can handle, this &4penalty is multiplied,&r so be careful &4not to fight mobs that show a \"Skull\"&r for their level."
 			]
 			hide_dependency_lines: true
 			icon: "minecolonies:blockminecoloniesgrave"
@@ -413,32 +415,22 @@
 		{
 			dependencies: ["092D2D9BBD18EB72"]
 			description: [
-				"Don't forget to set a home with &a/sethome <name>&r no brackets. &aIf you dont put a name you can just use /home&r, otherwise you'll need to &a/home <name>&r. This command has a 5 minute cooldown."
+				"By default, your &6Mine and Slash&r &eHub is 'H'&r. You can see pretty much &2all information pertaining to your character here&r: talents, spells, etc. "
 				""
-				"Each Age will unlock an additional quantity of home points. "
+				"Within this hub is a &eLibrary, Features, and Salvaging&r. The &eLibrary&r will overview &evarious affixes, runes, etc&r. With the &eSalvaging&r section, you can choose to &2auto salvage specific rarities of drops&r, and &eFeatures&r will let you &2enable/disable&r specific &6Mine and Slash&r features that let you see things like &2Exp, Combat Damage, Loot information&r, and more."
 				""
-				"&bAge 1&r: 1"
-				"&bAge 2&r: 3"
-				"&bAge 3&r: 6"
-				"&bAge 4&r: 10"
-				"&bAge 5&r: 20"
+				"Typing &e/sethome <name>&r will let you set a &2teleport&r point to the &2specified location.&r If you &2don't specify a name&r, you can &2use /home to return&r; otherwise, you will need to type &2/home <name>&r."
 				""
-				"&6Create 0.6&r: While not integrated into the pack for progression, this pack does use Create 0.6, so enjoy all the new features! "
+				"If you're playing on a server, you can use the &2/tpa <name>&r command to &2teleport to a friend&r. This TP must be &2approved by the person&r you are trying to TP to."
 				""
-				"Looking for a good breakdown of the Create changes? Check out &6Polartt's&r video: &b&b&n&ohttps://www.youtube.com/watch?v=FGVkC8ZVHHw&r&r&r&r"
+				"You can also see &2various leaderboard stats&r by typing &e/leaderboards&r and tabbing through the various statistics."
 				""
-				"You can use the &a/back&r command to go back through your various teleports (5 minute cooldown)"
+				"&eF7&r will enable Light Overlays, which will show potential for monster spawns."
 				""
-				"The &a/rtp&r command randomly teleports you somewhere within 25,000 blocks (10 minute cooldown)"
-				""
-				"If you're playing on a server, you can use the &a/tpa <name>&r command to teleport to a friend. This TP must be approved by the person  you are trying to TP to."
-				""
-				"&aF7&r will enable Light Overlays which will show potential for monster spawns."
-				""
-				"&aF9&r will cycle between various chunk view modes, being able to view the chunk grid, or the region grid. "
+				"&eF9&r will cycle between various chunk view modes, being able to view the chunk grid or the region grid."
 			]
 			hide_dependency_lines: true
-			icon: "rftoolsutility:creative_screen"
+			icon: "ftbquests:task_screen_configurator"
 			id: "7C437754A4ECF3C2"
 			shape: "square"
 			tasks: [{
@@ -453,26 +445,11 @@
 		{
 			dependencies: ["092D2D9BBD18EB72"]
 			description: [
-				"Don't forget to create or join an FTB Teams. "
+				"There is the &6FTB&r &2Party system&r, and &6Mine and Slash&r &2Teams system&r. If you're playing with friends, you should do both."
 				""
-				"This will unlock features like Land Claim and Chunk Loading. "
+				"For &6FTB Teams&r, you can do this by using the command: &e/ftbteams party create, invite&r or &e/ftbteams party join&r. This will allow you to &2share your quest progress with your friends&r and allow you to start &2claiming land&r, which will setup some &2building protection&r and let you &2force load chunks&r if you wish."
 				""
-				"Each age you will unlock additional claims and force loading. "
-				""
-				"&bAge 1&r: 10 Claims | 0 Chunk Loading"
-				"&bAge 2&r: 50 Claims | 10 Chunk Loading"
-				"&bAge 3&r: 100 Claims | 20 Chunk Loading"
-				"&bAge 4&r: 500 Claims | 50 Chunk Loading"
-				"&bAge 5&r: 1000 Claims | 100 Chunk Loading"
-				""
-				"You can also see various leaderboard stats by typing &b/leaderboards&r and tabbing through the various statistics."
-				""
-				"If your chunks and claims don't update after selecting your 'Age Reward' you'll need to reload the client."
-				""
-				"&c&oIf you select your age and you don't see an update to your claims or chunks in the UI, you will need to restart your game client.&r&r"
-				""
-				""
-				"You can also create a Mine and Slash party which will let you heal, buff, and not do damage to your friends."
+				"For &6Mine and Slash&r, you can use the command &e/mine_and_slash teams create, invite or join&r. This will allow you to &2heal and buff each other&r and &2prevent PvP&r within the team."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -499,20 +476,31 @@
 				"7C437754A4ECF3C2"
 			]
 			description: [
-				"You will need to complete various tasks in each dimension to unlock a few of the End Remastered Eyes which will be used on the End Portal Frame to get to The End."
+				"You will need to complete &2various tasks in each dimension&r to unlock a few of the &6End Remastered&r &3Eyes&r, which will be used on the &9End Portal Frame&r to get to &6The End&r."
 				""
-				"&3Honey Eye&r - Bumblezone"
-				"&3Nether Eye&r - The Nether"
-				"&3Alf Eye&r - Alfheim"
-				"&3Dimensional Eye&r - Dimensional Dungeons"
-				"&3Spirit Eye&r - Create your first Spiritfire"
-				"&3Thermal Paste Eye&r - Make your first Finished PCB"
-				"&3Plastic Eye&r - Make your first Plastic Sheet"
-				"&3Dragon Eye&r - Alfheim"
-				"&3Sky Eye&r - Blue Skies"
-				"&3Insanium Eye&r - Make your first Insanium"
-				"&3Aether Eye&r - The Aether"
-				"&3Infused Eye&r - Created in a Draconic tiered Infusion Crafter."
+				"&3Broken Compass Eye&r – Can be found inside the chests of &6Dungeon Realm&r."
+				""
+				"&3Dimensional Eye&r – Can be found inside the chests of &6Dimensional Dungeons&r."
+				""
+				"&3Possessed Action Figure Eye&r – Received after defeating &dBonk the Clown&r in &6Toybox&r."
+				""
+				"&3Colonist Eye&r – Received after you complete your &eTavern&r."
+				""
+				"&3Nether Eye&r – Received after defeating the &dWither&r."
+				""
+				"&3Aether Eye&r – Received after defeating the &dSun Spirit&r."
+				""
+				"&3Gumball Eye&r – Received after defeating the &dSweet Witch&r."
+				""
+				"&3Summoner's Eye&r – Received after defeating &dBueford, the Summoner&r."
+				""
+				"&3Alchemist's Eye&r – Received after defeating &dBarnaby, the Alchemist&r."
+				""
+				"&3Fey King Eye&r – Can be found by digging in &6Feywild&r (stone or dirt)."
+				""
+				"&3Astral Guardian Eye&r – Received after defeating the &dAstral Guardian&r."
+				""
+				"&3Cursed Eye&r – Can be found in the &6Setback&r dimension by ??????????"
 			]
 			icon: {
 				Count: 1
@@ -533,15 +521,15 @@
 		{
 			dependencies: ["7DA184125BC90240"]
 			description: [
-				"&6Better Combat&r - your character will have a range of new attack animations with various weapons, as well as attack combos. "
+				"&6Better Combat&r – Your character will have a range of new attack animations with various weapons, as well as attack combos."
 				""
-				"&6Mine and Slash&r - the mobs in each dimension will scale to the nearest player. This means that if you're level 20, the mobs in the area should also be around level 20."
+				"&6Mine and Slash&r – The mobs in each dimension will scale to the nearest player. This means that if you're level 20, the mobs in the area should also be around level 20."
 				""
-				"&6Combat Roll&r - you can press 'R' which will let you dodge roll forward. "
+				"&6Combat Roll&r – You can press 'R', which will let you dodge roll forward."
 				""
-				"&6Level Cap&r - Most dimensions are 65. However you will have access to &6Dimensional Dungeons&r, &6Ancient Obelisks&r, &6The Harvest&r, and &6Dungeon Realm&r starting as early as level 1 (&2if you get extremely lucky&r), and &2Maps starting at level 50&r -- all of which will &2take you to level 100&r. "
+				"&6Level Cap&r – Most dimensions are 65. However, you will have access to &6Dimensional Dungeons&r, &6Ancient Obelisks&r, &6The Harvest&r, and &6Dungeon Realm&r starting as early as level 1 (&2if you get extremely lucky&r), and &2Maps starting at level 50&r – all of which will &2take you to level 100&r."
 				""
-				"This pack uses &6Anti Mob Farm&r which &4restricts loot, and experience&r after k&2illing mobs in the same chunk for too long&r. It's strongly &2advised and encouraged&r to &2travel about and kill monsters&r, do not sit in one spot for very long."
+				"This pack uses &6Anti Mob Farm&r, which &4restricts loot and experience&r after &2killing mobs in the same chunk for too long&r. It's strongly &2advised and encouraged&r to &2travel about and kill monsters&r – &4do not sit in one spot&r for very long."
 			]
 			icon: {
 				Count: 1
@@ -564,11 +552,11 @@
 		{
 			dependencies: ["47BD1CC1D06A34DF"]
 			description: [
-				"Grants 1 Ascendancy Point. "
+				"Grants &e1 Ascendancy Point&r."
 				""
-				"This is an extra Talent tree with extremely powerful changes that will alter your character. "
+				"This is an &2extra Talent tree&r with extremely powerful &2changes that will alter your character&r."
 				""
-				"You will be able to access the Ascendancy tree from the Hub when you are higher level, and have at least 1 Ascendancy Point. "
+				"You will be able to access the &eAscendancy tree&r from the &eHub&r when you reach a higher level and have at least &e1 Ascendancy Point&r."
 			]
 			icon: "kubejs:p3_asc"
 			id: "09EE7BF567B5482D"
@@ -614,15 +602,15 @@
 		{
 			dependencies: ["59518B193D9F7836"]
 			description: [
-				"You must &4maintain at least above 10%&r for &2each&r &eProteins, Fruits, Vegetables, and Grains&r. If &2any one&r of them&4 fall under 10%&r you will begin to &4suffer negative penalties&r such as &eHunger, Slowness, and Mining Fatigue&r. "
+				"You must &4maintain at least above 10%&r for &2each&r &eProteins, Fruits, Vegetables, and Grains&r. If &2any one&r of them&4 falls under 10%&r, you will begin to &4suffer negative penalties&r, such as &eHunger, Slowness, and Mining Fatigue&r."
 				""
-				"For &2each category&r that you get &2above 60%&r you will &dgain 25 HP, 5 to Str/Dex/Int, 1.25% flat Elemental Resist, and 5% Bonus Experience&r, which do &2stack together&r. I.E if you have &eProteins&r and &eFruits&r at &260%&r you should have &d50 HP, 10 to Str/Dex/Int, 2% flat Elemental Resist, and 10% Bonus Experience&r. "
+				"For &2each category&r that you get &2above 60%&r, you will &dgain 25 HP, 5 to Str/Dex/Int, 1.25% flat Elemental Resist, and 5% Bonus Experience&r, which do &2stack together&r. i.e., if you have &eProteins&r and &eFruits&r at &260%&r, you should have &d50 HP, 10 to Str/Dex/Int, 2% flat Elemental Resist, and 10% Bonus Experience&r."
 				""
-				"If you manage to get up to &280%&r in &eProteins, Fruits, Vegetables, or Grains&r you will gain a &2bonus&r to &dTotal Damage, an additional 5 to Str/Dex/Int, and another 2.25% flat Elemental Resist&r for each category. "
+				"If you manage to get up to &280%&r in &eProteins, Fruits, Vegetables, or Grains&r, you will gain a &2bonus&r to &dTotal Damage, an additional 5 to Str/Dex/Int, and another 2.25% flat Elemental Resist&r for each category."
 				""
-				"By maintaining between &220% and 30%&r &eSugar&r levels you will gain a &dbonus to Movement Speed, and 15% flat Chaos Resist&r."
+				"By maintaining between &220% and 30%&r &eSugar&r levels, you will gain a &dbonus to Movement Speed, and 15% flat Chaos Resist&r."
 				""
-				"If you &4find yourself stuck&r in a &eSugar Crash&r, or you &4didn't eat anything&r, you can &2do the repeatable quest&r \"&eGotta Go Poop&r\""
+				"If you &4find yourself stuck&r in a &eSugar Crash&r, or you &4didn't eat anything&r, you can &2do the repeatable quest&r \"&eGotta Go Poop&r.\""
 			]
 			icon: "minecolonies:clipboard"
 			id: "3F2F44D7BC690425"
@@ -640,15 +628,15 @@
 			can_repeat: true
 			dependencies: ["3F2F44D7BC690425"]
 			description: [
-				"Did you do a naughty thing and &4eat something you shouldn't have&r? "
+				"Did you do a naughty thing and &4eat something you shouldn't have&r?"
 				""
-				"Don't worry! Just take this pill *&4crams it down your throat&r* and you'll be &2pooping in no time&r. "
+				"Don't worry! Just take this pill &4crams it down your throat&r, and you'll be &2pooping in no time&r."
 				""
-				"Whether you &2poop out the food you ate&r, or &4poop out your organs&r because you &4haven't eaten anything&r --  this product is &eguaranteed to reset your DIET stats to default&r, or your money back! "
+				"Whether you &2poop out the food you ate&r, or &4poop out your organs&r because you &4haven't eaten anything&r – this product is &eguaranteed to reset your DIET stats to default&r, or your money back!"
 				""
-				"Now go on, &4get to poopin&r.  "
+				"Now go on, &4get to poopin&r."
 				""
-				"&oDon't forge to wipe!&r"
+				"&oDon't forget to wipe!&r"
 			]
 			id: "43D311CB01BBCD9B"
 			rewards: [{

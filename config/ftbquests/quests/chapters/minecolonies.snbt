@@ -1140,6 +1140,7 @@
 				title: "10 Attribute Points"
 				type: "command"
 			}]
+			subtitle: "This is worth more Attribute Points"
 			tasks: [{
 				advancement: "minecolonies:production/build_all_herders"
 				criterion: ""

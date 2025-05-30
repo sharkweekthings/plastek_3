@@ -15,11 +15,11 @@
 		{
 			description: [
 				"&l&6Plastek 1&r&r"
-				"About 500,000 years ago the world was brought to ruin by the discovery of &3Plastim&r. An &2extremely powerful alloy&r forged by combining &3Sharkinite&r and &3Weekonium&r. As dimensions and planets were mined of every last block. &3Plastim&r became part of everything, every block, every component, and was so ingrained into society as the '&aSavior Ingot&r'. For many years everything seemed great, despite the fact that an entire galaxy of planets was mined away. "
+				"About 500,000 years ago, the world was brought to ruin by the discovery of &3Plastim&r – an &2extremely powerful alloy&r forged by combining &3Sharkinite&r and &3Weekonium&r. As dimensions and planets were mined of every last block, &3Plastim&r became part of everything – every block, every component – and was so ingrained into society as the '&aSavior Ingot&r'. For many years, everything seemed great, despite the fact that an entire galaxy of planets was stripped bare."
 				""
-				"Ultimately, the element became unstable causing a mass apocalyptic event dubbed the &ePlastimpocalypse&r. Turning the &conce peaceful world into a hostile environment&r of the undead, demons, and other aggressive creatures. "
+				"Ultimately, the element became unstable, causing a mass apocalyptic event dubbed the &ePlastimpocalypse&r, which turned the &conce peaceful world into a hostile environment&r of the undead, demons, and other aggressive creatures."
 				""
-				"There were &2some communities and dimensions that were against the use of Plastim&r, and while they still felt the effects of the damage to the world; they survived, and &2thrived for many thousands of years&r, assisting in rebuilding the world. "
+				"There were &2some communities and dimensions that were against the use of Plastim&r, and while they still felt the effects of the damage to the world, they survived and &2thrived for many thousands of years&r, assisting in rebuilding the world."
 			]
 			id: "51A9C0A183BB2661"
 			subtitle: "Plastek 1"
@@ -36,13 +36,13 @@
 			dependencies: ["51A9C0A183BB2661"]
 			description: [
 				"&l&6Plastek 2&r&r"
-				"While &3Plastim&r hasn't been used in &2many thousands of years&r, the &4effects of Plastim remain&r. Devastating &4Plastim Storms sweep through the world every 30 minutes&r, destroying any and all loose items on the ground, but have little effect on anything within a short range of a person. "
+				"While &3Plastim&r hasn't been used in &2many thousands of years&r, the &4effects of Plastim remain&r. Devastating &4Plastim Storms sweep through the world every 30 minutes&r, destroying any and all loose items on the ground but having little effect on anything within a short range of a person."
 				""
-				"&4Many planets and dimensions were inacessible&r either due to c&4omplete and total destruction from mining away all the blocks&r, or due the &ePlastimpocalypse&r. "
+				"&4Many planets and dimensions were inaccessible&r, either due to &4complete and total destruction from mining away all the blocks&r or due to the &ePlastimpocalypse&r."
 				""
-				"150,000 years later a new threat emerged which called for a hero to rise up and slay the &dChaos Guardian&r. The journey &2was completed&r after learning a variety of new technologies that allowed the hero to engage in battle with the &dChaos Dragon&r."
+				"150,000 years later, a new threat emerged, which called for a hero to rise up and slay the &dChaos Guardian&r. The journey &2was completed&r after learning a variety of new technologies that allowed the hero to engage in battle with the &dChaos Dragon&r."
 				""
-				"Unfortunately, during the celebrations a &4saboteur snuck into the main base and slipped a small fragment of Plastim into the Draconic Reactor&r, which &4caused a massive explosion&r, and sent an &4unknown wave of purple energy directly into the End Portal&r which was witnessed by traveler's who were thousands of blocks away from the explosion. Aptly named the &eDraconic Disaster&r, the hero, their party, friends, family, and anyone else in the radius of the explosion had been &4eliminated instantly&r. "
+				"Unfortunately, during the celebrations, a &4saboteur snuck into the main base and slipped a small fragment of Plastim into the Draconic Reactor&r, which &4caused a massive explosion&r and sent an &4unknown wave of purple energy directly into the End Portal&r, which was witnessed by travelers who were thousands of blocks away from the explosion. Aptly named the &eDraconic Disaster&r, the hero, their party, friends, family, and anyone else in the radius of the explosion had been &4eliminated instantly&r."
 			]
 			id: "0A27E54DBB4F8ADB"
 			subtitle: "Plastek 2"

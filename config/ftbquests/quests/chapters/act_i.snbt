@@ -15,21 +15,21 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: [
-				"Your village was &4ransacked by Barbarians&r while all of the Warriors were out hunting. "
+				"Your village was ransacked by Barbarians while all of the Warriors were out hunting."
 				""
-				"Luckily, you were out researching the cause of the recent &2celestial shifts in the moon&r, so you didn't take witness to the slaughter. "
+				"Luckily, you were out researching the cause of the recent celestial shifts in the moon, so you didn't bear witness to the slaughter."
 				""
-				"Upon arriving back in your village, you notice your friend on the ground moving slowly and rush over to help them. As you go to reach your hand out to their shoulder, you hear a groaning noise, as they slowly turn around, their &4jaw dislocated from their face, and their eyes cold&r. "
+				"Upon arriving back in your village, you notice your friend on the ground, moving slowly, and rush over to help them. As you go to reach your hand out to their shoulder, you hear a groaning noise, as they slowly turn around, their jaw dislocated from their face, and their eyes cold."
 				""
-				"&4The dead have risen again!&r"
+				"&cThe dead have risen again!&r"
 				""
-				"As you back up and look off into the distance, &2you witness an eerie purple glow slowly engulfing your village&r. Out of the haze comes dozens more villagers that were recently turned, slowly walking toward you. You are &4forced to flee the cursed village&r, so you run for hundreds of blocks until you're out of energy and pass out...."
+				"As you back up and look off into the distance, you witness an eerie purple glow slowly engulfing your village. Out of the haze come dozens more villagers that were recently turned, slowly walking toward you. You are forced to flee the cursed village, so you run for hundreds of blocks until you're out of energy and pass out..."
 				""
-				"Luckily, you passed out near a village, and some of the &2villagers were out foraging and helped you back to their community&r."
+				"Luckily, you passed out near a village, and some of the villagers were out foraging and helped you back to their community."
 				""
-				"You &2find yourself in a fascinating town&r, like the ones you read about in stories. With the large gears moving and structures taller than you've ever seen. You're &2awestruck by your surroundings&r, &4almost forgetting the horrors you just witnessed&r."
+				"You find yourself in a fascinating town, like the ones you read about in stories. with the large gears moving and structures taller than you've ever seen. You're awestruck by your surroundings, almost forgetting the horrors you just witnessed."
 				""
-				"As you're looking around the town, a villager lets you know that &2the community leader wants to speak with you&r. They point you in the direction you need to go."
+				"As you're looking around the town, a villager lets you know that the community leader wants to speak with you. They point you in the direction you need to go."
 			]
 			icon: {
 				Count: 1
@@ -57,13 +57,13 @@
 		{
 			dependencies: ["35042D2E8A921FF8"]
 			description: [
-				"You spoke with the village leader whose name is &dRyan Vermillionson&r. "
+				"You spoke with the village leader, whose name is &dRyan Vermillionson&r."
 				""
-				"He informed you that &2one of the medics found you&r, and brought you back to the village. He told you the story of how the village of &eShyran Peaks&r came to be."
+				"He informed you that one of the medics found you and brought you back to the village. He told you the story of how the village of &eShyran Peaks&r came to be."
 				""
-				"He lets you know that &2you can stay in the village for as long as you need&r, but does &2require that you do some work&r to help out around the town. "
+				"He lets you know that you can stay in the village for as long as you need but does require that you do some work to help out around the town."
 				""
-				"&2You're given what looks to be more of a stick than an actual weapon&r -- but you thank him anyways, and let him know that you will &2help clear out the zombies&r..."
+				"You're given what looks to be more of a stick than an actual weapon – but you thank him anyway and let him know that you will help clear out the zombies..."
 			]
 			icon: {
 				Count: 1
@@ -106,9 +106,9 @@
 		{
 			dependencies: ["3F18B971B4E3F6AD"]
 			description: [
-				"The &4undead have started to arise all over&r the world. "
+				"The undead have started to arise all over the world."
 				""
-				"&dRyan&r wants you to &2help out the village by killing 5 Zombies&r. "
+				"&dRyan&r wants you to help out the village by killing &c5 Zombies&r."
 			]
 			icon: {
 				Count: 1
@@ -204,11 +204,11 @@
 			description: [
 				"&dRyan&r and the town is extremely grateful for your help. "
 				""
-				"They know the worst of it is yet to come. However, tonight -- &2they threw a feast in your honor&r. "
+				"They know the worst of it is yet to come. However, tonight -- they threw a feast in your honor. "
 				""
 				"A new friend, and ally to the village of &eShryan Peaks&r!"
 				""
-				"&oAt some point during the night you decide to stuff a few apetizers into your pockets while nobody was looking.&r "
+				"&oAt some point during the night you decide to stuff a few appetizers into your pockets while nobody was looking.&r "
 			]
 			icon: {
 				Count: 1
@@ -271,19 +271,19 @@
 		{
 			dependencies: ["22C75020F2564783"]
 			description: [
-				"The next morning &dRyan&r asks for your &2help once again&r. "
+				"The next morning, &dRyan&r asks for your help once again."
 				""
-				"This time he's needing you to &4go to a much more dangerous place&r, a place not of this realm. "
+				"This time, he's needing you to go to a much more dangerous place – a place not of this realm."
 				""
-				"He explains that many years ago when the Chaos Dragon was defeated, and the &2purple energy was blasted into the End; it disrupted the balance of reality, causing a weakness in the boundary that separates our world from many other worlds&r. There used to be only a few various dimensions, and even &2some dimensions that used to be accessible, but have been lost to time during the Plastimpocalypse&r. "
+				"He explains that many years ago, when the &cChaos Dragon&r was defeated and the purple energy was blasted into the End; it disrupted the balance of reality, causing a weakness in the boundary that separates our world from many other worlds. There used to be only a few various dimensions, and even some dimensions that used to be accessible but have been lost to time during the era of the &ePlastimpocalypse&r."
 				""
 				"You wonder how he knows this, but you don't really question it."
 				""
-				"He's asking that you travel into the &6Toybox&r, and retrieve some items that will aide him in a project that's being worked on. He &2promises to share the tech with you&r; assuming you can get whats needed."
+				"He's asking that you travel into the &6Toybox&r and retrieve some items that will aid him in a project that's being worked on. He promises to share the tech with you; assuming you can get what's needed."
 				""
-				"There have been &4rumors that the toys inside have started to come alive&r. Surely this has something to do with the events that caused your village to perish. Wanting to know more, you take up the challenge. "
+				"There have been rumors that the toys inside have started to come alive. Surely this has something to do with the events that caused your village to perish. Wanting to know more, you take up the challenge."
 				""
-				"You're going to need at least &310 Red Concrete&r, setup in the shape of a basic &9Nether Portal&r. You'll need to craft an item called a \"&3Toybox&r\" to light the portal. "
+				"You're going to need at least &310 Red Concrete&r, set up in the shape of a basic &9Nether Portal&r. You'll need to craft an item called a \"&3Toybox&r\" to light the portal."
 				""
 				"&5&oThe monsters inside Toybox will start at level 10&r&r."
 			]
@@ -456,13 +456,13 @@
 		{
 			dependencies: ["531D0D2C3FB0F966"]
 			description: [
-				"You were told that &2many of the toys will have a&r &3Rubix Cube&r on them.  "
+				"You were told that many of the toys will have a &3Rubix Cube&r on them."
 				""
-				"To get the instructions for solving the &3Rubix Cube&r, you'll need to &2get lucky with the Dice game&r.  Take out enemies in the area until you get a Dice. Then you can &2look for the Game Post structure&r."
+				"To get the instructions for solving the &3Rubix Cube&r, you'll need to get lucky with the &eDice&r game. Take out enemies in the area until you get a &3Dice&r. Then you can look for the &eGame Post&r structure."
 				""
-				"Place the &3Dice&r in the middle of the structure, &2retrieve it with a pick axe, and repeat 3 times&r. If you don't get the instructions, you'll need to find another Game Post structure. "
+				"Place the &3Dice&r in the middle of the structure, retrieve it with a pickaxe, and repeat 3 times. If you don't get the instructions, you'll need to find another &eGame Post&r structure."
 				""
-				"Craft the &3Rubix Cube&r and the &3Instructions&r together to get a &3Solved Rubix Cube&r. "
+				"Craft the &3Rubix Cube&r and the &3Instructions&r together to get a &3Solved Rubix Cube&r."
 			]
 			id: "24D670162910F39E"
 			rewards: [{
@@ -500,15 +500,15 @@
 		{
 			dependencies: ["24D670162910F39E"]
 			description: [
-				"With your &3Solved Rubix Cube&r, you'll need to find a &9Circus&r."
+				"With your &3Solved Rubix Cube&r, you'll need to find a &eCircus&r."
 				""
-				"Inside the middle of the circus will be the \"&9Clown Altar&r\".  Clear off the &3White Carpet&r, and click the &3Solved Rubix Cube&r onto the &9altar&r. "
+				"Inside the middle of the circus will be the \"&9Clown Altar&r\". Clear off the &3White Carpet&r and click the &3Solved Rubix Cube&r onto the &9altar&r."
 				""
-				"This will summon &dBonk the Clown&r, a &4demon clown who rules over the Toybox&r. "
+				"This will summon &cBonk the Clown&r, a demon clown who rules over the &6Toybox&r."
 				""
-				"Defeat &dBonk&r, claim his shiny &3Red Nose&r. The &3Red Nose&r is the key to creating the item that &dRyan&r needs."
+				"Defeat &cBonk&r, and claim his shiny &3Red Nose&r. The &3Red Nose&r is the key to creating the item that &dRyan&r needs."
 				""
-				"&dBonk&r has &850 flat Physical Damage&r converted to &9Water Damage&r."
+				"&cBonk&r has &850 flat Physical Damage&r converted to &9Water Damage&r."
 				""
 				"&5&oBonk will start at level 15&r&r."
 			]
@@ -554,17 +554,17 @@
 		{
 			dependencies: ["23F4CCBC3A3CC571"]
 			description: [
-				"You hand the &3Vortex of Fun&r over to &dRyan&r. "
+				"You hand the &3Vortex of Fun&r over to &dRyan&r."
 				""
-				"You watch as he walks over to his machine, and starts to make beeping and booping noises with his mouth. "
+				"You watch as he walks over to his machine and starts to make beeping and booping noises with his mouth."
 				""
-				"Something seems off, but he proceeds to walk back with a square plate like piece of tech. "
+				"Something seems off, but he proceeds to walk back with a square, plate-like piece of tech."
 				""
-				"You question what he hands you -- as he explains: "
+				"You question what he hands you – as he explains:"
 				""
-				"This device is a &9Transmutation Table&r. &2Any item that has&r \"&eEMC&r\" &2on the Tooltip can be placed inside of the device&r. Valid items are assigned EMC based on their difficulty. As long as you have items in your &9Transmutation Table&r, you should have EMC. The more items you put in, the more EMC you will have. "
+				"This device is a &9Transmutation Table&r. Any item that has \"&eEMC&r\" on the Tooltip can be placed inside of the device. Valid items are assigned &eEMC&r based on their difficulty. As long as you have items in your &9Transmutation Table&r, you should have &eEMC&r. The more items you put in, the more &eEMC&r you will have."
 				""
-				"Lets say you have &31 Iron Ingot&r worth &e256 EMC&r. You put that into your &9Transmutation Table&r, and with the other items you have in there - you have an accumulative total of &e45,646 EMC&r. Using that EMC as 'currency' you can actually withdrawl around &3178 Iron Ingots&r."
+				"Let's say you have &31 Iron Ingot&r worth &e256 EMC&r. You put that into your &9Transmutation Table&r, and with the other items you have in there, you have an accumulative total of &e45,646 EMC&r. Using that EMC as '&ecurrency&r,' you can actually withdraw around &3178 Iron Ingots&r."
 			]
 			id: "4915AF0A4FCA28C4"
 			rewards: [
@@ -606,11 +606,11 @@
 				"6D0A6B342D53A353"
 			]
 			description: [
-				"Upon returning to &dRyan&r, he lets you know that there is &2a few more items that are needed&r. However, you should have all, if not most of them from your time in the &6Toybox&r. "
+				"Upon returning to &dRyan&r, he lets you know that there are a few more items that are needed. However, you should have all, if not most, of them from your time in the &6Toybox&r."
 				""
-				"We're needing to craft a &3Vortex of Fun&r, which should in theory be the final piece to &dRyan's&r latest invention. "
+				"We're needing to craft a &3Vortex of Fun&r, which should, in theory, be the final piece to &dRyan's&r latest invention."
 				""
-				"If you &2don't have all of the items you need, you'll need to head back&r to the &6Toybox&r and get what you need. "
+				"If you don't have all of the items you need, you'll need to head back to the &6Toybox&r and get what you need."
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -639,11 +639,11 @@
 		{
 			dependencies: ["4915AF0A4FCA28C4"]
 			description: [
-				"After handing over the device, &dRyan&r admits that he was &2hoping you would test the device out&r on an &3Infused Nether Stone&r that he found. "
+				"After handing over the device, &dRyan&r admits that he was hoping you would test the device out on an &3Infused Nether Stone&r that he found."
 				""
-				"If you could &2replicate enough blocks to get into the Nether&r, you might be able to &2find some Soul Sand and Wither Skeletons&r. He said that he needs some to be able to &2summon something called a \"Wither\"&r, which will drop an important item needed for his next project."
+				"If you could replicate enough blocks to get into the Nether, you might be able to find some &3Soul Sand&r and &cWither Skeletons&r. He said that he needs some to be able to summon something called a \"&cWither&r\", which will drop an important item needed for his next project."
 				""
-				"Using the &3Infused Nether Stone&r, build a &9Nether Portal&r and light it with &3Flint and Steel&r. "
+				"Using the &3Infused Nether Stone&r, build a &9Nether Portal&r and light it with &3Flint and Steel&r."
 				""
 				"&5&oThe monsters inside The Nether will start at level 15.&r&r"
 			]
@@ -682,13 +682,13 @@
 		{
 			dependencies: ["1E96DBB3286A736F"]
 			description: [
-				"&dRyan&r mentioned that the &cPiglin&r of the &6Nether&r may have more information on where to find a &eNether Fortress&r. "
+				"&dRyan&r mentioned that the &cPiglin&r of the &6Nether&r may have more information on where to find a &eNether Fortress&r."
 				""
-				"He said that I should probably rough a few up if they won't talk. "
+				"He said that I should probably rough a few up if they won't talk."
 				""
-				"You begin to suspect that &dRyan&r may not have your best intentions at heart. "
+				"You begin to suspect that &dRyan&r may not have your best intentions at heart."
 				""
-				"You rough up a few of the &cPiglin&r, and eventually decide to give one a &3Gold Ingot&r. "
+				"You rough up a few of the &cPiglin&r and eventually decide to give one a &3Gold Ingot&r."
 			]
 			icon: {
 				Count: 1
@@ -734,7 +734,7 @@
 		{
 			dependencies: ["1E96DBB3286A736F"]
 			description: [
-				"Luckily, a &cPiglin&r bribed with a &3gold&r never lies. "
+				"Luckily, a &cPiglin&r bribed with a &3gold&r never lies."
 				""
 				"The &eNether Fortress&r was right where she said it would be."
 			]
@@ -759,7 +759,7 @@
 		}
 		{
 			dependencies: ["1E96DBB3286A736F"]
-			description: ["You just needed &31 Blaze Rod&r, but decided to eliminate a few extra &cBlaze&r for good measure."]
+			description: ["You just needed &31 Blaze Rod&r but decided to eliminate a few extra &cBlaze&r for good measure."]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -791,7 +791,7 @@
 		}
 		{
 			dependencies: ["1E96DBB3286A736F"]
-			description: ["He said that we're going to need &33 Wither Skeleton Skulls&r for the process. "]
+			description: ["He said that we would need &33 Wither Skeleton Skulls&r for the process."]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -867,9 +867,9 @@
 		{
 			dependencies: ["1E96DBB3286A736F"]
 			description: [
-				"These passive mobs mean you no harm. "
+				"These passive mobs mean you no harm."
 				""
-				"However.... One looked at you funny, so you decided to take a few out."
+				"However... one looked at you funny, so you decided to take a few out."
 			]
 			icon: {
 				Count: 1
@@ -902,7 +902,7 @@
 		{
 			dependencies: ["1E96DBB3286A736F"]
 			description: [
-				"&dRyan&r said something about &2making a tea with the&r &2Soul Sand&r. "
+				"&dRyan&r said something about making a tea with the &2Soul Sand&r."
 				""
 				"You're pretty sure that you don't want to drink this stuff, and if he tries to make you, you will likely decline."
 			]
@@ -932,11 +932,11 @@
 		{
 			dependencies: ["3704E2607CFD1C4B"]
 			description: [
-				"Defeating the &dWither&r will grant you the &3Nether Star&r that &dRyan&r was looking for."
+				"Defeating the &cWither&r will grant you the &3Nether Star&r that &dRyan&r was looking for."
 				""
-				"&oYou now have a better understanding of what &dRyan&r &2meant when he said T&r.&r"
+				"&oYou now have a better understanding of what&r. &o&dRyan&r&r &omeant when he said T&r."
 				""
-				"&dThe Wither&r has &850 flat Physical Damage&r converted to &5Chaos Damage&r."
+				"&cThe Wither&r has &850 flat Physical Damage&r converted to &5Chaos Damage&r."
 				""
 				"&5&oThe Wither will start at level 20&r&r."
 			]
@@ -1049,13 +1049,13 @@
 		{
 			dependencies: ["7D14DC69052ECEAA"]
 			description: [
-				"Intrigued, and honestly quite scared -- you are inspired by &dRyan&r, his village, and the technology. "
+				"Intrigued, and honestly quite scared – you are inspired by &dRyan&r, his village, and the technology."
 				""
-				"You thank &dRyan&r for the hospitality that the town bestowed, and for saving your life. You let them know that they've inspired you to &2go forth and try to rebuild a village&r."
+				"You thank &dRyan&r for the hospitality that the town bestowed, and for saving your life. You let them know that they've inspired you to go forth and try to rebuild a village."
 				""
-				"You bid your farewells, as you wave goodbye to the fascinating town, and it's people. "
+				"You bid your farewells as you wave goodbye to the fascinating town and its people."
 				""
-				"You could always put a &9Waystone&r in the town, but you're unsure if you want to visit again. "
+				"You could always put a &9Waystone&r in the town, but you're unsure if you want to visit again."
 			]
 			icon: {
 				Count: 1
@@ -1083,15 +1083,17 @@
 		{
 			dependencies: ["2A82C1CC3BE1763A"]
 			description: [
-				"In this pack &6MineColonies&r is only partially required. While it's &2encouraged to play the whole mod&r, to progress in the pack &2you only need to do the following&r:"
+				"In this pack, &6MineColonies&r is only partially required."
+				""
+				"While it's encouraged to play the whole mod, to progress in the pack, you only need to do the following:"
 				""
 				"Place the &9Town Hall&r"
 				"Build a &9Builder's Hut&r"
 				"Build a &eTavern&r"
 				""
-				"After that, &6MineColonies&r &2will not be required&r, if you wish to ignore it. "
+				"After that, &6MineColonies&r will not be required if you wish to ignore it."
 				""
-				"&6Mine and Slash&r rewards will be granted on most &2MineColonies&r quests for going through the series. "
+				"&6Mine and Slash&r rewards will be granted on most &2MineColonies&r quests for going through the series. You will get around &e60 Attribute Points&r and a decent amount of &eExperience Points&r."
 			]
 			icon: {
 				Count: 1
@@ -1121,13 +1123,13 @@
 			description: [
 				"You found the perfect location for your colony!"
 				""
-				"Just select your preferred Supply Camp or Ship, depending if you want your colony to thrive in the ocean, or on the land. It &2doesn't really matter where you place it as it doesn't have any bearing on your Town&r. "
+				"Just select your preferred &9Supply Camp&r or &9Supply Ship&r, depending on whether you want your colony to thrive in the ocean or on the land. It doesn't really matter where you place it as it doesn't have any bearing on your town."
 				""
-				"&2Rummage through the chests until you find your Town Hall and a Build Tool&r, and place the Town Hall with your Build Tool."
+				"Rummage through the chests until you find your &9Town Hall&r and a &3Build Tool&r, and place the &9Town Hall&r with your &3Build Tool&r."
 				""
-				"&6MineColonies&r villages &2can take up a huge portion of land&r, so it's best to &2find a place you can expand on&r."
+				"&6MineColonies&r villages can take up a huge portion of land, so it's best to find a place you can expand on."
 				""
-				"Tip: When you click to place your structure and the MineColonies UI comes up that allows you to adjust your building, you can &2tap 'Esc' to back your character up and get a better view of the structure sample&r.  Then you can &2use the on screen Arrow UI to adjust the placement of your structure&r. This will &2apply to the&r &3Build Tool&r as well when you start using it."
+				"Tip: When you click to place your structure and the &6MineColonies&r UI comes up that allows you to adjust your building, you can tap 'Esc' to back your character up and get a better view of the structure sample. Then you can use the on screen Arrow UI to adjust the placement of your structure. This will apply to the &3Build Tool&r as well when you start using it."
 			]
 			id: "725586269FDA5525"
 			rewards: [{
@@ -1151,11 +1153,11 @@
 		{
 			dependencies: ["725586269FDA5525"]
 			description: [
-				"The &9Town Hall&r will be considered the center of your colony. &2The more buildings you place, and upgrade the larger your colony area will be&r."
+				"The &9Town Hall&r will be considered the center of your colony. The more buildings you place and upgrade, the larger your colony area will be."
 				""
-				"Be sure to &2select the style of your town before actually placing the Town Hall&r!"
+				"Be sure to select the style of your town before actually placing the &9Town Hall&r!"
 				""
-				"If you're using the &3Build Too&rl, you can find the &9Town Hall&r under '&eFundamentals&r'."
+				"If you're using the &3Build Tool&r, you can find the &9Town Hall&r under '&eFundamentals&r'."
 			]
 			id: "3D43ED615FAFBF0C"
 			rewards: [{
@@ -1189,13 +1191,13 @@
 		{
 			dependencies: ["3D43ED615FAFBF0C"]
 			description: [
-				"Now that you have a &eTavern&r built -- you'll be able to &2get information from the villagers, or visitors&r. "
+				"Now that you have a &eTavern&r built – you'll be able to get information from the villagers, or visitors."
 				""
-				"One night you found a villagers glass eye on the floor of the &eTavern&r. "
+				"One night, you found a villager's glass eye on the floor of the &eTavern&r."
 				""
-				"You're not sure why, but you have a feeling that &2this might be an important item&r. You decide to &4not return it to the villager&r, to justify this, you just tell yourself that the villager passed away in a recent raid."
+				"You're not sure why, but you have a feeling that this might be an important item. You decide to not return it to the villager. To justify this, you just tell yourself that the villager passed away in a recent raid."
 				""
-				"If you wish to continue with &6MineColonies&r, you can go through the quest line under '&eSuper Side Quests&r'."
+				"If you wish to continue with &6MineColonies&r, you can go through the quest line under '&eSupport Quests&r'."
 			]
 			id: "3BF749C81871D375"
 			rewards: [
@@ -1208,6 +1210,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
 					id: "070FB610D6A03C80"
 					title: "2 Attribute Points"
 					type: "command"
@@ -1259,15 +1262,15 @@
 		{
 			dependencies: ["7B91BD993D902FFE"]
 			description: [
-				"&2You feel great&r!"
+				"You feel great!"
 				""
-				"You set out to &2accomplish your goal&r, and people showed up. You were able to &2pay someone an extremely low wage&r to start building for you, and you aren't done yet. You're &2destined to employ many more folks at outrageously low wages&r."
+				"You set out to accomplish your goal, and people showed up. You were able to pay someone an extremely low wage to start building for you, and you aren't done yet. You're destined to employ many more folks at outrageously low wages."
 				""
 				"You decide to call it a day with a big smile on your face."
 				""
-				"As you drift off, &2you have a thought about Ryan, and what could have possessed him to make those beeping/crunching noises&r."
+				"As you drift off, you have a thought about &dRyan&r, and &owhat could have possessed him to make those beeping/crunching noises&r."
 				""
-				"&5&oFrom here you can continue with Act II!&r&r"
+				"&5&oFrom here, you can continue with Act II!&r&r"
 			]
 			icon: {
 				Count: 1
@@ -1294,7 +1297,7 @@
 		}
 		{
 			dependencies: ["4915AF0A4FCA28C4"]
-			description: ["If you take a &3brush&r to &3suspicious blocks&r; &2you might uncover something cool&r!"]
+			description: ["If you take a &3brush&r to &3suspicious blocks&r, you might uncover something cool!"]
 			id: "416DDBECE6C483A3"
 			tasks: [{
 				id: "1FA0FC502557F84E"
@@ -1313,9 +1316,9 @@
 		{
 			dependencies: ["22C75020F2564783"]
 			description: [
-				"Working through &6Create&r a little bit &2could prove to be useful&r. For now you would just &2need a little Rotational Power and an Encased Fan&r. "
+				"Working through &6Create&r a little bit could prove to be useful. For now, you would just need a little &eRotational Power&r and an &3Encased Fan&r."
 				""
-				"While &6Create&r is &2not a requirement for this pack&r, it will have &2recipes that can make things easier&r. "
+				"While &6Create&r is not a requirement for this pack, it will have recipes that can make things easier."
 			]
 			id: "02FE81FBE0B4EEBD"
 			rewards: [{
@@ -1340,7 +1343,7 @@
 		}
 		{
 			dependencies: ["3F18B971B4E3F6AD"]
-			description: ["If you prefer, you can just get some normal Vanilla tools. "]
+			description: ["If you prefer, you can just get some normal &3Vanilla tools&r. "]
 			id: "046DB8D3AA2E72F0"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 200"
@@ -1380,11 +1383,11 @@
 		{
 			dependencies: ["3F18B971B4E3F6AD"]
 			description: [
-				"&6Tinker's Construct&r will allow you to make some of the &2best Pickaxe, Axe, Shovel, and Hoe's&r. While &4Armor and Weapons can be made with Tinker's they still need to be converted into Mine and Slash gear&r to be effective. "
-				" "
-				"While &2some of the Tinker's effects may be active and work as expected&r, &4Mine and Slash overwrites many aspects of the game making many of the effects useless&r.  Because of this, think of &2Tinker's more as a way to craft an item you like aesthetically&r, and &2don't care too much about the materials going into the weapon&r. Do &4take some caution&r in making your armor and weapon though; as &4some of the negative effects of the various materials will still effect you&r. "
+				"&6Tinker's Construct&r will allow you to make some of the best Pickaxe, Axe, Shovel, and Hoe's. While &3Armor&r and &3Weapons&r can be made with &6Tinker's&r, they still need to be converted into &6Mine and Slash&r gear to be effective."
 				""
-				"&9The Smeltery&r will be a requirement &2by the end of the pack, but not by the end of the Act&r. "
+				"While some of the &6Tinker's&r effects may be active and work as expected, &6Mine and Slash&r overwrites many aspects of the game, making many of the effects useless. Because of this, think of &6Tinker's&r more as a way to craft an item you like aesthetically, and don't care too much about the materials going into the weapon. Do take some caution in making your armor and weapon, though, as some of the negative effects of the various materials will still affect you."
+				""
+				"&9The Smeltery&r will be a requirement by the end of the pack, but not by the end of the Act."
 			]
 			icon: {
 				Count: 1
@@ -1412,7 +1415,7 @@
 		}
 		{
 			dependencies: ["66B493CAB3AEA070"]
-			description: ["The &9Seared Melter&r is your starter multiblock. Eventually you'll want to make yourself a &9Smeltery&r, but you can probably get by on the &9Melter&r for a little bit. "]
+			description: ["The &9Seared Melter&r is your starter multiblock. Eventually, you'll want to make yourself a &9Smeltery&r, but you can probably get by on the &9Melter&r for a little bit."]
 			id: "0A9958157E41AD97"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 300"
@@ -1456,7 +1459,7 @@
 		}
 		{
 			dependencies: ["66B493CAB3AEA070"]
-			description: ["Use the &9Basin&r to make &3Blocks&r out of your &2molten materials&r."]
+			description: ["Use the &9Basin&r to make &3Blocks&r out of your molten materials."]
 			id: "745B3DE2BAE81C78"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 300"
@@ -1479,7 +1482,7 @@
 		}
 		{
 			dependencies: ["66B493CAB3AEA070"]
-			description: ["It might be worth it to rush at least &31 Golden Ingot Cast&r. You will be able to &2double up on your ore to ingots&r, that means &2more EMC&r later on!"]
+			description: ["It might be worth it to rush at least &31 Golden Ingot Cast&r. You will be able to double up on your ore to ingots – that means more &eEMC&r later on!"]
 			id: "237E1888E06BD8E6"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 300"
@@ -1513,7 +1516,7 @@
 		}
 		{
 			dependencies: ["0A9958157E41AD97"]
-			description: ["To &2mix some alloys later on&r, you're going to need the &9Smeltery&r. "]
+			description: ["To mix some alloys later on, you're going to need the &9Smeltery&r. "]
 			id: "389BBF67F5743022"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 1000"

@@ -76,6 +76,9 @@ config/cucumber-tags.json
 config/cumulus_menus-client.toml
 config/curios-client.toml
 config/curios-common.toml
+config/cosmeticarmorreworked-client.toml
+config/cosmeticarmorreworked-common.toml
+config/hardcorerevival-common.toml
 config/dimdungeons-client.toml
 config/dimdungeons-common-r190.toml
 config/embeddium-fingerprint.json

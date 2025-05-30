@@ -17,17 +17,17 @@
 		{
 			dependencies: ["7BBDACD0CDD6AB37"]
 			description: [
-				"One morning as you're having your morning oatmeal -- the town crier runs into your quarters with &4devastating news&r. "
+				"One morning, as you're having your morning oatmeal — the town crier runs into your quarters with &4devastating news&r."
 				""
-				"&dRyan&r is &2requesting your help&r once again. "
+				"&dRyan&r is &2requesting your help&r once again."
 				""
-				"Apparently his &4wife and child have been abducted&r. All signs are pointing to them being taken to &6Everbright&r or &6Everdawn&r. "
+				"Apparently, his &4wife and child have been abducted&r. All signs are pointing to them being taken to &6Everbright&r or &6Everdawn&r."
 				""
-				"You look up from your oatmeal, put your spoon down, and slide the bowl to the side. "
+				"You look up from your oatmeal, put your spoon down, and slide the bowl to the side."
 				""
 				"You stand tall at the table and &2tell the town crier to relay the news&r:"
 				""
-				"Anyone who has knowledge of &6Everbright&r and &6Everdawn&r come forward. We must save &dGertrude&r and &dHumphrey&r! Please come to the &eTavern&r immediately!"
+				"Anyone who has knowledge of &6Everbright&r and &6Everdawn&r, come forward. We must save &dGertrude&r and &dHumphrey&r! Please come to the &eTavern&r immediately!"
 			]
 			icon: {
 				Count: 1
@@ -57,17 +57,17 @@
 			description: [
 				"You feel the ground begin to tremble."
 				""
-				"You begin to &4prepare your ear drums&r for whats about to come."
+				"You begin to &4prepare your ear drums&r for what's about to come."
 				""
-				"'I can get you in the right direction' Tim said, &2his high pitch voice was..... gone&r? Instead, his &2voice trembled and shook the tavern&r; matching his fit, and lean physique. "
+				"\"I can get you in the right direction,\" Tim said. &2His high-pitched voice was... gone&r? Instead, his &2voice trembled and shook the tavern&r, matching his fit and lean physique."
 				""
-				"Absolutely dumbfounded, you stare at Tim for a few moments. Knowing better, you decide to not question this for now, and &2due to the urgency of the situation ask him to explain&r."
+				"Absolutely dumbfounded, you stare at Tim for a few moments. Knowing better, you decide not to question this for now, and &2due to the urgency of the situation, ask him to explain what he means&r."
 				""
-				"Tim lets you know that you must &2seek out a Keeper of the Skies&r - their names are &dCoxworth Yorkington&r. "
+				"Tim lets you know that you must &2seek out a Keeper of the Skies&r — their names are &dCoxworth Yorkington&r."
 				""
-				"&dCoxworth&r and his family guard the known portals to both &6Everbright&r and &6Everdawn&r, their family &2separates them by middle initial&r."
+				"&dCoxworth&r and his family guard the known portals to both &6Everbright&r and &6Everdawn&r. Their family &2separates them by middle initial&r."
 				""
-				"&oIt is more common to find an Everbright portal than it is to find an Everdawn.&r "
+				"&oIt is more common to find an Everbright portal than it is to find an Everdawn.&r"
 			]
 			icon: {
 				Count: 1
@@ -95,15 +95,15 @@
 		{
 			dependencies: ["148A671947C8AF0A"]
 			description: [
-				"You arrive at the house of &dCoxworth J. Yorkington&r. "
+				"You arrive at the house of &dCoxworth J. Yorkington&r."
 				""
-				"You let them know your reasoning for needing to enter the dimension, and they gladly are &2happy to assist you&r. All it will cost is 8 &3Emeralds&r to buy their &3Zeal Lighter&r."
+				"You let them know your reasoning for needing to enter the dimension, and they are gladly &2happy to assist you&r. All it will cost is 8 &3Emeralds&r to buy their &3Zeal Lighter&r."
 				""
-				"They let you know that the &2portal is somewhere on the property&r, but may need to be cleared of cobwebs. "
+				"They let you know that the &2portal is somewhere on the property&r, but it may need to be cleared of cobwebs."
 				""
-				"They let you know that an &6Everbright&r portal was activated several hours ago, but there are &4many portals in the world; and all of their locations have been lost to over time&r. "
+				"They also inform you that an &6Everbright&r portal was activated several hours ago, but there are &4many portals in the world, and all of their locations have been lost to time&r."
 				""
-				"&6Coxworth&r lets you know that a powerful summoner named &dMarty&r reigns over the dimension these days. "
+				"&6Coxworth&r lets you know that a powerful summoner named &dBueford&r reigns over the dimension these days."
 			]
 			id: "55AF7F08E21B9C47"
 			rewards: [{
@@ -132,13 +132,13 @@
 		{
 			dependencies: ["148A671947C8AF0A"]
 			description: [
-				"You arrive at the house of &dCoxworth B. Yorkington&r. "
+				"You arrive at the house of &dCoxworth B. Yorkington&r."
 				""
-				"You let them know the situation, and they &4seem to not really care&r; but are &2still willing to help&r. "
+				"You let them know the situation, and they &4seem to not really care&r, but are &2still willing to help&r."
 				""
-				"They assume that you have a &3Zeal Lighter&r already, but you can buy one for &38 Emeralds&r if you don't. "
+				"They assume that you have a &3Zeal Lighter&r already, but you can buy one for &38 Emeralds&r if you don't."
 				""
-				"They tell you to go find the portal and light it yourself. "
+				"They tell you to go find the portal and light it yourself."
 			]
 			icon: {
 				Count: 1
@@ -166,9 +166,9 @@
 		{
 			dependencies: ["55AF7F08E21B9C47"]
 			description: [
-				"You begin to realize that &4after all of this work, you don't really know what you're doing&r. "
+				"You begin to realize that &4after all of this work, you don't really know what you're doing&r."
 				""
-				"How are you supposed to find &dGertrude&r and &dHumphrey&r in this dimension? What if they aren't here; and are in &6Everdawn&r instead? and why didn't &4you bother asking for more details&r....... again."
+				"How are you supposed to find &dGertrude&r and &dHumphrey&r in this dimension? What if they aren't here, and are in &6Everdawn&r instead? And why didn't &4you bother asking for more details&r... again?"
 				""
 				"&5&oThe monsters inside Everbright will start at level 30&r&r."
 			]
@@ -194,13 +194,13 @@
 		{
 			dependencies: ["50CE6DEAA1CF8989"]
 			description: [
-				"Before you stepped into the portal &dCoxworth&r came out and let you know that &4you left the door open&r. "
+				"Before you stepped into the portal, &dCoxworth&r came out and let you know that &4you left the door open&r."
 				""
-				"Behind him is &dRyan&r, panting and out of breathe he mutters the word '&dAlchemist&r'. You're confused, but 90% of your body was already through the portal, and just as he was about to speak again --- &4the rest of you went through&r. "
+				"Behind him is &dRyan&r, panting and out of breath. He mutters the word '&dAlchemist&r'. You're confused, but 90% of your body was already through the portal, and just as he was about to speak again — &4the rest of you went through&r."
 				""
-				"Knowing that it's &2easy to just go back and forth between the portals&r, you give Ryan a &4few minutes to catch up to you&r, but he never shows up. "
+				"Knowing that it's &2easy to just go back and forth between the portals&r, you give Ryan a &4few minutes to catch up to you&r, but he never shows up."
 				""
-				"&4You wait a little longer, but nothing&r. "
+				"&4You wait a little longer, but nothing&r."
 				""
 				"Whatever he was &2trying to tell you must not have been important&r, so you chose to walk off."
 				""
@@ -230,11 +230,11 @@
 			description: [
 				"You found a village named &eCalming Skies&r."
 				""
-				"It's &2people are just as kind as the name&r. "
+				"Its &2people are just as kind as the name&r."
 				""
 				"They feed you, give you temporary shelter, and then they ask for your help."
 				""
-				"A pack of &cDiophyde Prowlers&r has been &4leveling villages&r. Find them before they find us.  They also let you know that the &cFrost Spirits&r of the area &2have been corrupted&r and have &4turned aggressive&r. Clear a few out before they freeze our crops. "
+				"A pack of &cDiophyde Prowlers&r has been &4leveling villages&r. Find them before they find us. They also let you know that the &cFrost Spirits&r of the area &2have been corrupted&r and have &4turned aggressive&r. Clear a few out before they freeze our crops."
 			]
 			id: "447B1E1A38883148"
 			rewards: [{
@@ -258,13 +258,13 @@
 		{
 			dependencies: ["7DB99D418A52B8A2"]
 			description: [
-				"You got yourself into another fine situation; &4clueless on what you're doing&r. "
+				"You got yourself into another fine situation; &4clueless on what you're doing&r."
 				""
-				"Thankfully, your &2dumb luck strikes once again&r. "
+				"Thankfully, your &2dumb luck strikes once again&r."
 				""
-				"On the ground you &2find a note from Barnaby, the 72nd Alchemist&r. "
+				"On the ground, you find a note from &dBarnaby, the 72nd Alchemist&r."
 				""
-				"It clicks that &4Ryan must have meant this Alchemist has kidnapped&r &dGertrude&r and &dHumphrey&r.... You continue to read the note and see that it mentions something about the &4souls of the recently corrupted villages&r. "
+				"It clicks that &dRyan&r must have meant this &dBarnaby&r has kidnapped &dGertrude&r and &dHumphrey&r... You continue to read the note and see that it mentions something about the &4souls of the recently corrupted villages&r."
 				""
 				"Was this &dAlchemist&r also &4responsible for what happened to your village&r?"
 			]
@@ -365,11 +365,11 @@
 				"4BAB781BF077B982"
 			]
 			description: [
-				"The village elder tells you that the person you seek sits atop a tall tower. If you had an &3Explorer's Compass&r you could find it by looking for the &eEverbright Blinding Dungeon&r "
+				"The village elder tells you that the person you seek sits atop a tall tower. If you had an &3Explorer's Compass&r, you could find it by looking for the &eEverbright Blinding Dungeon&r."
 				""
-				"He mentioned his name is &dBueford, the Summoner&r and he likes to &4stay atop the tower with no entrance to that floor&r, but everyone knows &2he stores the keys in random chests on the lower levels of the tower&r. Nobody ever messes with him though as he is quite powerful. "
+				"He mentioned his name is &dBueford, the Summoner&r, and he likes to &4stay atop the tower with no entrance to that floor&r, but everyone knows &2he stores the keys in random chests on the lower levels of the tower&r. Nobody ever messes with him, though, as he is quite powerful."
 				""
-				"The village elder also tells you that they've heard &2rumor of the Yorkington family selling Blinding Dungeon Keys&r; but you have to &2prove that you found a few&r before they will start selling them."
+				"The village elder also tells you that they've heard &2rumor of the Yorkington family selling Blinding Dungeon Keys&r, but you have to &2prove that you found a few&r before they will start selling them."
 			]
 			icon: {
 				Count: 1
@@ -398,14 +398,14 @@
 			dependencies: ["25BE44FE2AF88B91"]
 			description: [
 				"&ePhase 1&r:"
-				"&dThe Summoner&r will teleport around the room while shooting spheres, and summoning adds. "
+				"&dBueford, the Summoner&r will teleport around the room while shooting spheres and summoning adds."
 				""
-				"&ePhase 2&r: "
+				"&ePhase 2&r:"
 				"Now he will begin to regenerate, summon lightning, and continue to summon adds."
 				""
-				"&dThe Summoner&r has &825 flat Physical Damage&r converted to &eLightning Damage&r and &dChaos Damage&r, and &a25% Elemental Resist&r."
+				"&dBueford, the Summoner&r has &825 flat Physical Damage&r converted to &eLightning Damage&r and &dChaos Damage&r and &a25% Elemental Resist&r."
 				""
-				"&5&oThe Summoner will start at level 35&r&r."
+				"&5&oBueford, the Summoner will start at level 35&r&r."
 			]
 			icon: {
 				Count: 1
@@ -564,7 +564,7 @@
 		}
 		{
 			dependencies: ["0CF95C7C279B8A3B"]
-			description: ["Honestly, you're &4quite frustrated&r with everything going on and you decide to &4take your aggression out on some of the wildlife&r."]
+			description: ["Honestly, you're &4quite frustrated&r with everything going on, and you decide to &4take your aggression out on some of the wildlife&r."]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_chat"
@@ -689,26 +689,28 @@
 			dependencies: ["7C135F3DEC9A42D1"]
 			description: [
 				"&ePhase 1&r:"
-				"The &dAlchemist&r will cycle between 4 different attacks. "
-				"1) Spawn Lingering Poison in the 4 corners of the room."
+				"&dBarnaby, the Alchemist&r will cycle between 4 different attacks:"
 				""
-				"2) Will launch 3 arrows in different directions."
+				"1) Spawns Lingering Poison in the 4 corners of the room."
+				""
+				"2) Launches 3 arrows in different directions."
 				""
 				"3) Can blind you."
 				""
 				"4) Summons a line of 0 to 11 spikes in the direction of a player."
 				""
 				"&ePhase 2&r:"
-				"Starts when The &dAlchemist&r gets to 50% health. "
+				"Starts when &dBarnaby, the Alchemist&r gets to 50% health."
 				""
 				"He will gain an additional 2 attacks:"
-				"1) Will begin regenerating rapidly that last a few seconds. Hitting him will interrupt this."
+				""
+				"1) Begins regenerating rapidly; this lasts a few seconds. Hitting him will interrupt it."
 				""
 				"2) Turns the water fountains into lava fountains."
 				""
-				"&dThe Alchemist&r has &825 flat Physical Damage&r converted to &cFire Damage&r and &dChaos Damage&r, and &a20% Elemental Resist&r."
+				"&dBarnaby, the Alchemist&r has &825 flat Physical Damage&r converted to &cFire Damage&r and &dChaos Damage&r and &a20% Elemental Resist&r."
 				""
-				"&5&oThe Alchemist will start at level 35&r&r."
+				"&5&oBarnaby, the Alchemist will start at level 35&r&r."
 			]
 			icon: {
 				Count: 1
@@ -754,11 +756,11 @@
 				"416C9CFC16835399"
 			]
 			description: [
-				"While taking out the wildlife; you saw someone on the path. "
+				"While taking out the wildlife, you saw someone on the path."
 				""
-				"You &2hid in a bush&r and &2overheard their conversation&r. "
+				"You &2hid in a bush&r and &2overheard their conversation&r."
 				""
-				"They are on their way to the &dAlchemist's&r tower."
+				"They are on their way to the &dBarnaby's&r tower."
 				""
 				"If you're &2careful enough, you can follow them&r there."
 			]
@@ -791,13 +793,13 @@
 				"6010F7590E6F7082"
 			]
 			description: [
-				"You've rescued &dGertrude&r and &dHumphrey&r. All that's left is to get them back home, safe and sound to &dRyan&r. "
+				"You've rescued &dGertrude&r and &dHumphrey&r. All that's left is to get them back home, safe and sound to &dRyan&r."
 				""
-				"During the rescue you &2learn quite a bit more about the people in purple robes&r. "
+				"During the rescue, you &2learn quite a bit more about the people in purple robes&r."
 				""
-				"Apparently they are the &dCult of the Void&r, and their goal has been to &4merge the soul&r of the &dChaos Dragon&r into the &dEnder Dragon&r, which has &2recently been reborn&r. "
+				"Apparently, they are the &dCult of the Void&r, and their goal has been to &4merge the soul&r of the &dChaos Dragon&r into the &dEnder Dragon&r, which has &2recently been reborn&r."
 				""
-				"You were under the impression that the &dChaos Dragon&r died many thousands of years ago; so &4you're confused&r, but this is your &2first bit of solid information&r. "
+				"You were under the impression that the &dChaos Dragon&r died many thousands of years ago, so &4you're confused&r, but this is your &2first bit of solid information&r."
 				""
 				"For now, you need to get back. Perhaps &dTim&r, or &2someone at town will have more information&r."
 			]
@@ -827,11 +829,11 @@
 		{
 			dependencies: ["447B1E1A38883148"]
 			description: [
-				"Before heading out you decide to take a short rest. However, you ate so much food that your short rest turns into a full on sleep. "
+				"Before heading out, you decide to take a short rest. However, you ate so much food that your short rest turns into a full-on sleep."
 				""
 				"Whoops!"
 				""
-				"At least you feel rested, now."
+				"At least you feel rested now."
 			]
 			icon: {
 				Count: 1
@@ -859,25 +861,25 @@
 		{
 			dependencies: ["6CF84165B15E6380"]
 			description: [
-				"You &2arrive back to your town&r. &dRyan&r reuinites with his beloved &dGertrude&r, and his child &dHumphrey&r. "
+				"You &2arrive back to your town&r. &dRyan&r reunites with his beloved &dGertrude&r and his child, &dHumphrey&r."
 				""
-				"&dRyan&r &2thanks you&r for your efforts. He lets you know that he was just &2working on the finishing touches of his latest project&r. "
+				"&dRyan&r &2thanks you&r for your efforts. He lets you know that he was just &2working on the finishing touches of his latest project&r."
 				""
-				"He walks over to one of the machines in your base, and s&4tarts making a grinding noise, then some sort of laser sound, followed by exactly 17 bleeps and one blip&r. "
+				"He walks over to one of the machines in your base and s&4tarts making a grinding noise, then some sort of laser sound, followed by exactly 17 bleeps and one blip&r."
 				""
-				"This time there are &2multiple people around&r. &dTim&r, &dShaun&r, &dEmily&r, more of the townsfolk, and &2none of them have any reaction&r, despite &2visibly seeing Ryan do this&r. "
+				"This time, there are &2multiple people around&r: &dTim&r, &dShaun&r, &dEmily&r, more of the townsfolk, and &2none of them have any reaction&r, despite &2visibly seeing Ryan do this&r."
 				""
 				"As &dRyan&r extends this device over to you, he asks:"
 				""
-				"'Somethin the matter?'"
+				"\"Somethin' the matter?\" as he smiles gleefully."
 				""
-				"You stammer slightly 'N..n...o..noo..nothing wrong.. nope..' "
+				"You stammer slightly, \"N...n...o...no...nothing wrong... nope...\""
 				""
 				"People around you &4start to judge you and think you're lying&r, which &4causes awkward tension in the room&r."
 				""
-				"Ryan &2smiles at you and thanks you for being a friend&r. "
+				"&dRyan&r &2smiles at you and thanks you for being a friend&r."
 				""
-				"He tells you the &2item he handed you is a portal Waystone&r. It will let you &2travel to any Waystone location you've already been to&r. "
+				"He tells you the &2item he handed you is a portal Waystone&r. It will let you &2travel to any Waystone location you've already been to&r."
 				""
 				"&5&oFrom here you can continue with Act IV!&r&r"
 			]

@@ -15,11 +15,11 @@
 		{
 			dependencies: ["013139457D6C5A3C"]
 			description: [
-				"It's not always so peaceful. "
+				"It's not always so peaceful."
 				""
-				"After a few weeks of quiet, you are suddenly bombarded w/ multiple requests, and good information. "
+				"After a few weeks of quiet, you are suddenly bombarded with multiple requests and good information."
 				""
-				"You take the time to sift through the towns messages and you'll address what you can."
+				"You take the time to sift through the town's messages, and you'll address what you can."
 			]
 			icon: {
 				Count: 1
@@ -47,9 +47,9 @@
 		{
 			dependencies: ["5D425E8E1FA0219F"]
 			description: [
-				"One of the future medics named &dEmily&r says that there are &2important resources&r in &6The Aether&r that the &2town needs&r. She's also looking for somethinig from an enemy called a \"&dSun Spirit&r\"."
+				"One of the future medics, named &dEmily&r, says that there are important resources in &6The Aether&r that the town needr. She's also looking for something from an enemy called a \"&dSun Spirit&r\"."
 				""
-				"This one sounds &2easy enough&r, and you'll be helping the town -- so you &2add this to your ToDo list&r."
+				"This one sounds easy enougr, and you'll be helping the town – so you add this to your ToDo list."
 			]
 			icon: {
 				Count: 1
@@ -77,13 +77,15 @@
 		{
 			dependencies: ["5D425E8E1FA0219F"]
 			description: [
-				"&dProfessor Trevor&r has gone missing. "
+				"&dProfessor Trevor&r has gone missing."
 				""
-				"This is unfortunate news as he was &2teaching the children how to dig holes&r. Without his knowledge, the &4future of the town could be in jeopardy&r. "
+				"This is unfortunate news, as he was teaching the children how to dig holes. "
 				""
-				"The details of his potential whereabouts say that he was &4lost about 50 blocks outside of town.&r "
+				"Without his knowledge, the future of the town could be in jeopardy."
 				""
-				"Now you can &2save the town teacher, and make yourself look like a hero&r in the process! "
+				"The details of his potential whereabouts say that he was lost about 50 blocks outside of town."
+				""
+				"Now you can save the town teacher, and make yourself look like a hero in the process!"
 			]
 			icon: {
 				Count: 1
@@ -111,11 +113,11 @@
 		{
 			dependencies: ["5D425E8E1FA0219F"]
 			description: [
-				"As you're rifling through the &9Notice Board&r, you see &4one about a lost child&r, another about a &4mans missing cat&r, and.. oh, &2here you go&r! "
+				"As you're rifling through the &9Notice Board&r, you see one about a lost child, another about a man's missing cat, and... oh, here you go!"
 				""
-				"&dShaun&r, an up and coming chef has put in a request that somebody travel to the &6Sweet Lands&r to retrieve some ingredients. "
+				"&dShaun&r, an up-and-coming chef, has put in a request that somebody travel to the &6Sweet Lands&r to retrieve some ingredients."
 				""
-				"You think to yourself about how much you like food, and figure this will be an easy task."
+				"You think to yourself about how much you like food, and how easy this sounds, so naturally you accept."
 			]
 			icon: {
 				Count: 1
@@ -143,11 +145,11 @@
 		{
 			dependencies: ["50C100F479EC368B"]
 			description: [
-				"As you read through the rest of the quest, &4you realize that this won't be as easy as you thought&r. "
+				"As you read through the rest of the quest, you realize that this won't be as easy as you thought."
 				""
-				"It looks like in order &2to challenge the Sun Spirit, you'll need to fight a Valkyrie Queen, and some sort of stone being that slides around&r. "
+				"It looks like in order to challenge the &cSun Spirit&r, you'll need to fight a &cValkyrie Queen&r and some sort of stone being that slides around."
 				""
-				"You start to have &2some regrets, but you press forward&r."
+				"You start to have some regrets, but you press forward."
 			]
 			id: "0672BAC409DC8596"
 			rewards: [{
@@ -171,7 +173,7 @@
 		{
 			dependencies: ["6BEA4A41C47F3A77"]
 			description: [
-				"You'll need at least &310 Glowstone Blocks&r constructed in the shape of a basic &9Nether Portal&r. "
+				"You'll need at least &310 Glowstone Blocks&r constructed in the shape of a basic &9Nether Portal&r."
 				""
 				"If constructed correctly, using a &3Water Bucket&r will activate the portal."
 				""
@@ -214,13 +216,13 @@
 		{
 			dependencies: ["0672BAC409DC8596"]
 			description: [
-				"As you were walking through the Silver Dungeon, you accidentally &2bumped into one of the Valkyries&r. "
+				"As you were walking through the &eSilver Dungeon&r, you accidentally bumped into one of the &cValkyries&r."
 				""
-				"They didn't really seem hostile, but &4one did said that you looked funny&r. "
+				"They didn't really seem hostile, but one did say that you smelled of old shoes."
 				""
-				"You &4took great offense&r to this, and decided to&4 beat up a few&r. "
+				"You took great offense to this and decided to beat up a few."
 				""
-				"You &2need the medals, anyways&r..."
+				"You need the &3medals&r, anyways..."
 			]
 			icon: {
 				Count: 1
@@ -308,7 +310,7 @@
 		}
 		{
 			dependencies: ["0672BAC409DC8596"]
-			description: ["&dEmily&r said that she needed a few &3Blue Swet Balls&r to make some medicine. "]
+			description: ["&dEmily&r said that she needed a few &3Blue Swet Balls&r to make some medicine."]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -396,17 +398,17 @@
 		{
 			dependencies: ["0672BAC409DC8596"]
 			description: [
-				"This dungeon can be &2located underground&r. "
+				"This dungeon can be located underground."
 				""
-				"Sentry Mobs will be activated as you adventure through the dungeon and will explode on you."
+				"&cSentry&r mobs will be activated as you adventure through the dungeon and will explode on you."
 				""
-				"Challenging the Boss:"
+				"&lChallenging the Boss&r:"
 				""
-				"&dThe Slider&r will move around the room gaining speed as you do damage to it. "
+				"&cSlider&r will move around the room, gaining speed as you do damage to it."
 				""
-				"&2The only way to do any damage is to use a Pickaxe&r."
+				"The only way to do any damage is to use a &3Pickaxe&r."
 				""
-				"&dSlider&r has &850 flat Physical Damage&r converted to &5Chaos Damage&r."
+				"&cSlider&r has &850 flat Physical Damage&r converted to &5Chaos Damage&r."
 				""
 				"&5&oSlider will start at level 25&r&r."
 			]
@@ -455,11 +457,11 @@
 				"663C2D6C6B87DBC8"
 			]
 			description: [
-				"Unlike normal cases of &6the Aether&r, you can actually &2do some damage to the Sun Spirit with your Mine and Slash weapons&r."
+				"Unlike normal cases of &6the Aether&r, you can actually do some damage to the &cSun Spirit&r with your &6Mine and Slash&r weapons."
 				""
-				"However, the &2original mechanic also applies. For dealing damage to the boss, you will need to wait for Ice Crystals to be launched, and hit them with your sword toward the Sun Spirt&r. This will spawn an add that you should take out. "
+				"However, the original mechanic also applies. For dealing damage to the boss, you will need to wait for &3Ice Crystals&r to be launched and hit them with your sword toward the &cSun Spirit&r. This will spawn an add that you should take out."
 				""
-				"&dSun Spirit&r has &850 flat Physical Damage&r converted to &cFire Damage&r, &c10% to all Fire Damage&r, and &c100% Fire Resistance&r."
+				"&cSun Spirit&r has &850 flat Physical Damage&r converted to &cFire Damage&r, &c10% to all Fire Damage&r and &c100% Fire Resistance&r."
 				""
 				"&5&oSun Spirit will start at level 25&r&r."
 			]
@@ -504,9 +506,9 @@
 		{
 			dependencies: ["1BF8C975A75134B6"]
 			description: [
-				"The Valkyrie Queen has:"
+				"The &cValkyrie Queen&r has:"
 				""
-				"&dValkytrie Queen&r has &850 flat Physical Damage&r converted to &eLightning Damage&r, and &e50% Lightning Resistance&r."
+				"&cValkyrie Queen&r has &850 flat Physical Damage&r converted to &eLightning Damage&r and &e50% Lightning Resistance&r."
 				""
 				"&5&oValkyrie Queen will start at level 25&r&r."
 			]
@@ -552,11 +554,11 @@
 		{
 			dependencies: ["5D73505C3C4B00D7"]
 			description: [
-				"As you get back to the village, you see &dEmily&r heading into the tavern. "
+				"As you get back to the village, you see &dEmily&r heading into the &eTavern&r."
 				""
-				"You catch up with her and hand over the items. "
+				"You catch up with her and hand over the items."
 				""
-				"She thanks you, and asks if you can &2come back the next day&r."
+				"She thanks you and asks if you can come back the next day."
 			]
 			id: "1DD3B21A8A051FE7"
 			rewards: [{
@@ -596,15 +598,17 @@
 		{
 			dependencies: ["1DD3B21A8A051FE7"]
 			description: [
-				"&dEmily&r thanks you again. "
+				"&dEmily&r thanks you again."
 				""
 				"She let you know that the &3Swet Balls&r made the medicine she needed, and that she needed one of the components inside the &3Sun Altar&r to make some sort of &9Infusion Altar&r device."
 				""
-				"She let me know that she made one for herself, and also mentioned she won't have to worry about &3Swet Balls&r again."
+				"She let me know that she made one for herself and also mentioned she won't have to worry about &3Swet Balls&r again."
 				""
 				"Curious, you ask her what exactly she made."
 				""
-				"She lets you know that while she's just a simple doctor, she comes from a family of Mages. Her family is a master of the &6Mystical Agriculture&r, while she herself is not a master agricultrialist, she is still willing to &2teach you what she knows&r, in hope that you will &2use it for the betterment of the town&r."
+				"She lets you know that while she's just a simple doctor, she comes from a family of Mages. Her family is a master of the &6Mystical Agriculture&r."
+				""
+				"While she herself is not a master agriculturalist, she is still willing to teach you what she knows, in hope that you will use it for the betterment of the town."
 			]
 			id: "277B7ECC076EB804"
 			rewards: [{
@@ -656,7 +660,7 @@
 		}
 		{
 			dependencies: ["34C6E99130CC78B0"]
-			description: ["You'll need the &3Prosperity Seed Base&r if you want to create &2seeds for most materials&r. The &3Soulium Seed Base&r is used when for creating &2seeds that involve entities&r."]
+			description: ["You'll need the &3Prosperity Seed Base&r if you want to create seeds for most materials. The &3Soulium Seed Base&r is used when creating seeds that involve entities."]
 			id: "412FEBB10DC98C65"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 1400"
@@ -770,11 +774,11 @@
 		{
 			dependencies: ["277B7ECC076EB804"]
 			description: [
-				"With the &9Infusion Altar&r that &dEmily&r gave you, she says that all you need is &98 Infusion Pedestals&r. "
+				"With the &9Infusion Altar&r that &dEmily&r gave you, she says that all you need is &98 Infusion Pedestals&r."
 				""
-				"With the setup built, you can start making seeds by using your &3Prosperity&r or &3Soulium Seed Base&r on the altar, add &34 of the material&r you're looking to make a seed of, and &34 essences&r of the appropriate tier."
+				"With the setup built, you can start making seeds by using your &3Prosperity&r or &3Soulium Seed Base&r on the altar, adding &34 of the material&r you're looking to make a seed of, and &34 essences&r of the appropriate tier."
 				""
-				"She advised that you &2check JEI to learn the exact recipes&r."
+				"She advised that you check JEI to learn the exact recipes."
 			]
 			icon: {
 				Count: 1
@@ -802,13 +806,13 @@
 		{
 			dependencies: ["115C7088A2143C33"]
 			description: [
-				"You get to the area but the &dProfessor&r is no where in sight. "
+				"You get to the area, but the &dProfessor&r is nowhere in sight."
 				""
-				"You look around, &2find an old tattered and stained cloth on the ground&r, so you &2lean down to pick it up&r. "
+				"You look around, find an old &3tattered and stained cloth&r on the ground, so you lean down to pick it up."
 				""
-				"As you &2inspect the fabric&r, you hold it up to the wind, then &2taste it in order to test the overall trajectory of the cloth&r. You also realize that makes no sense, but you &4needed some excuse for tasting what was most likely toilet paper&r... "
+				"As you inspect the fabric, you hold it up to the wind, then taste it in order to test the overall trajectory of the cloth. You also realize that makes no sense, but you needed some excuse for tasting what was most likely &3toilet paper&r..."
 				""
-				"As you &4lean down to hurl and re-think lifes choices&r, you &2notice a group of footprints heading off in one of the cardinal directions&r. "
+				"As you lean down to hurl and re-think life's choices, you notice a group of footprints heading off in one of the cardinal directions."
 			]
 			icon: {
 				Count: 1
@@ -835,7 +839,7 @@
 		}
 		{
 			dependencies: ["636A09E8D95A37C5"]
-			description: ["Along the way to investigate you were &4ambushed by a few monsters&r, but you make &2quick work of them&r. "]
+			description: ["Along the way to investigate, you were &4ambushed by a few monsters&r, but you make &2quick work of them&r."]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -881,23 +885,23 @@
 		{
 			dependencies: ["26FFDEE435AE6608"]
 			description: [
-				"The trail leads you to the ocean, but the footprints stop at the water. "
+				"The trail leads you to the ocean, but the footprints stop at the water."
 				""
-				"On the ground you &2see a journal and reach down to pick it up&r."
+				"On the ground, you see a journal and reach down to pick it up."
 				""
-				"Off &2in the distance you see an abandoned ramshackled rowboat&r just floating there. "
+				"Off in the distance, you see an abandoned ramshackled rowboat just floating there."
 				""
-				"You rush back to the village to see if anyone knows what the note might mean. "
+				"You rush back to the village to see if anyone knows what the note might mean."
 				""
-				"You &4feel a tap on your shoulder&r as you turn around. There stands before you a tall, burly man, with a full beard, and a magic staff in the shape of a lumber axe. "
+				"You feel a tap on your shoulder. As you turn around, there stands before you a tall, burly man with a full beard and a magic staff in the shape of a lumber axe."
 				""
-				"&oYou're certain that you saw this man selling paper towels at one point in your life.&r "
+				"You're certain that you saw this man selling paper towels at one point in your life."
 				""
-				"'Sir', he said with an &3unexpectedly squeaky voice&r, that &4caused you to raise your eyebrow&r. 'I am the great Archmage of the South East, &dTimilimit Popsi Archibald the III&r'"
+				"'Sir,' he said with an unexpectedly squeaky voice that caused you to raise your eyebrow, 'I am the great Archmage of the South East, &dTimilimit Popsi Archibald the III&r.'"
 				""
-				"'I believe I know what this means!'.  "
+				"'I believe I know what this means!'"
 				""
-				"Disregarding what he said, &2you let him know that you are unable to call him that&r, and will just &2call him 'Tim' going forward&r."
+				"Disregarding what he said, you let him know that you are unable to call him that&r and will just call him \"&dTim&r\" going forward."
 			]
 			icon: {
 				Count: 1
@@ -936,13 +940,13 @@
 				"06FAEA5AF22F98C1"
 			]
 			description: [
-				"&dTim's&r research discovered -- if you craft an &3Abyssal Sacrifice&r; and use it on an &9Altar of Abyss&r you will be &2bestowed great treasure&r. "
+				"&dTim's&r research discovered – if you craft an &3Abyssal Sacrifice&r and use it on an &9Altar of Abyss&r, you will be bestowed great treasure."
 				""
-				"Surely this &dBob the Bandit&r was going to sacrifice our beloved &dProfessor&r, and try to &4claim the treasure himself&r. "
+				"Surely, this &cBob the Bandit&r was going to sacrifice our beloved &dProfessor&r and try to &claim the treasure himself."
 				""
-				"With the &dProfessor&r saved, we will have to use &dBob&r as the sacrifice, and claim the treasure... Not that you ever had any thoughts to sacrifice the &dProfessor&r, but if he was already gone, well.. y'know?"
+				"With the &dProfessor&r saved, we will have to use &cBob&r as the sacrifice and claim the treasure... Not that you ever had any thoughts to sacrifice the &dProfessor&r, but if he was already gone, well... y'know?"
 				""
-				"First we're going to need a couple of items to make the &3Abyssal Sacrifice&r, though. We'll &2need a few material blocks&r, which shouldn't be a problem. We're also going to need the &3Sacrificed Heart of Bob&r, as well as &2some items which come from monsters local to the altar&r. "
+				"First, we're going to need a couple of items to make the &3Abyssal Sacrifice&r, though. We'll need a few material blocks, which shouldn't be a problem. We're also going to need the &3Sacrificed Heart of Bob&r, as well as some items which come from monsters local to the altar."
 				""
 				"&oCheck JEI on how to attain the Nautilus Shell, and Coral Chunk or Crystallized Coral&r"
 			]
@@ -970,19 +974,19 @@
 		{
 			dependencies: ["66D697E25F8FEEB5"]
 			description: [
-				"&dTim&r lets you know that he has an idea, but he needs you to &2go under the ocean to confirm&r."
+				"&dTim&r lets you know that he has an idea, but he needs you to go under the ocean to confirm."
 				""
-				"You, and a few of the villagers head back to the spot you saw the rowboat. "
+				"You and a few of the villagers head back to the spot you saw the rowboat."
 				""
-				"This time, you &2swim out to the rowboat, and swim below&r. You see a &2strange aura below, despite the waters being cloudy&r. "
+				"This time, you swim out to the rowboat, and swim below. You see a strange aura below, despite the waters being cloudy."
 				""
-				"As you get closer, you start to make out two figures. One appears to be the &dProfessor&r, the other must be &dBob&r. swimming is a little difficult, but you make your way over to them."
+				"As you get closer, you start to make out two figures. One appears to be the &dProfessor&r; the other must be &cBob&r. Swimming is a little difficult, but you make your way over to them."
 				""
-				"You're able to sneak up on &dBob&r, &2notice his eerie purple cloak&r, and wonder why he didn't take it before off going under the ocean. You quickly take &dBob&r out by &4wrapping the cloak around his head&r. "
+				"You're able to sneak up on &cBob&r, notice his eerie purple cloak, and wonder why he didn't take it off before going under the ocean. You quickly take &cBob&r out by wrapping the cloak around his head."
 				""
-				"You &2swim over to the altar and proceed to unbind the Professor&r.."
+				"You swim over to the &9altar&r and proceed to unbind the &dProfessor&r..."
 				""
-				"You both &2swim back to the surface and return to town&r."
+				"You both swim back to the surface and return to town."
 			]
 			icon: {
 				Count: 1
@@ -1009,7 +1013,7 @@
 		}
 		{
 			dependencies: ["2F0F2C0E693DD0A0"]
-			description: ["With the &dProfessor&r safely secured, and &dBob&r out of the way -- you can head back to the area and &2look for the last few items you probably need&r, and claim the treasure!"]
+			description: ["With the &dProfessor&r safely secured and &cBob&r out of the way – you can head back to the area and look for the last few items you probably need, and claim the treasure!"]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_chat"
@@ -1083,7 +1087,7 @@
 		}
 		{
 			dependencies: ["3193DF1F9D9C4CF7"]
-			description: ["Regular &cDeeplings&r, and &cDeepling Brutes&r have a low chance to drop the &3Nautilus Shell&r. "]
+			description: ["Regular &cDeeplings&r and &cDeepling Brutes&r have a low chance to drop the &3Nautilus Shell&r."]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -1136,21 +1140,21 @@
 		{
 			dependencies: ["0383770870A3ECE2"]
 			description: [
-				"There are &2a few things you can do to prep up for this boss battle&r:"
+				"There are a few things you can do to prep up for this boss battle:"
 				""
-				"1) a &3Trident&r or two. Seriously. You can probably beat the &dLeviathan&r with another weapon, but to make it a lot more manageable, you'll want a &3Trident&r."
+				"1) A &3Trident&r or two. Seriously. You can probably beat the &cLeviathan&r with another weapon, but to make it a lot more manageable, you'll want a &3Trident&r."
 				""
-				"2) The &3Impaling Enchant&r generally allows you to do more damage to underwater monsters. In &2this pack, Impaling will grant you some Water Penetration&r to help you do more damage. "
+				"2) The &3Impaling Enchant&r generally allows you to do more damage to underwater monsters. In this pack, &3Impaling&r will grant you some &9Water Penetration&r to help you do more damage."
 				""
-				"3) The&3 Loyalty Enchant&r - If you're using a Trident, it allows the &2Trident to return to the player&r. "
+				"3) The &3Loyalty Enchant&r – If you're using a &3Trident&r, it allows the &3Trident&r to return to the player."
 				""
-				"4) The &3Riptide Enchant&r - This one is &2almost a necessity&r, and should be &2placed on a secondary Trident&r. This will &2help you dash around underwater&r. "
+				"4) The &3Riptide Enchant&r – This one is almost a necessity and should be placed on a secondary Trident. This will help you dash around underwater."
 				""
-				"5) &3Blessed Amethyst Crab Meat&r - This crab meat will give you a &2buff that last for about 1 minute&r, and will &2protect against many of the Leviathan's special attacks&r. Find crabs in &eLush Cave Biomes&r, and take them to an &9Altar of Amethyst&r in the &eSunken City&r to be blessed. "
+				"5) &3Blessed Amethyst Crab Meat&r – This crab meat will give you a buff that lasts for about 1 minute and will protect against many of the &cLeviathan's&r special attacks. Find crabs in &eLush Cave Biomes&r and take them to an &9Altar of Amethyst&r in the &eSunken City&r to be blessed."
 				""
-				"6) an &3Underwater Breathing Potion&r or something to help you breathe under water."
+				"6) An &3Underwater Breathing Potion&r or something to help you breathe underwater."
 				""
-				"7) &3Night Vision&r - The water near the &dLeviathan&r is &4very dark&r, &3Night Vision Goggles&r, or &3Night Vision potion&r is &2extremely helpful&r."
+				"7) &3Night Vision&r – The water near the &cLeviathan&r is very dark. &3Night Vision Goggles&r or a &3Night Vision Potion&r is extremely helpful."
 			]
 			icon: {
 				Count: 1
@@ -1179,13 +1183,13 @@
 		{
 			dependencies: ["35543A6762C513F7"]
 			description: [
-				"&4Well that was no treasure&r. "
+				"Well that was no treasure."
 				""
-				"What you summoned was a &dLeviathan&r. Was &dTim&r trying to get you killed?"
+				"What you summoned was a &cLeviathan&r. Was &dTim&r trying to get you killed?"
 				""
-				"It seems it was no normal &dLeviathan&r, either. This &dLeviathan&r seems to &4be infused with the same purple energy that engulfed your last village&r. "
+				"It seems it was no normal &cLeviathan&r, either. This &cLeviathan&r seems to be infused with the same purple energy that engulfed your last village."
 				""
-				"&dLeviathan&r has &825 flat Physical Damage&r converted to &9Water Damage&r and &5Chaos Damage&r."
+				"&cLeviathan&r has &825 flat Physical Damage&r converted to &9Water Damage&r and &5Chaos Damage&r."
 				""
 				"&5&oLeviathan will start at level 30&r&r."
 			]
@@ -1231,11 +1235,11 @@
 		{
 			dependencies: ["174E97B4DA587E02"]
 			description: [
-				"&dThe Leviathan&r has &22 phases&r, with the &2second phase starting at 50%&r. "
+				"&cThe Leviathan&r has &22 phases&r, with the second phase starting at 50%."
 				""
-				"It will cycle between several different attacks like lasers, mines, pulling you in with it's tongue, a bite attack, and a purple vortex that will vaccuum you up and cause damage. "
+				"It will cycle between several different attacks like lasers, mines, pulling you in with its tongue, a bite attack, and a purple vortex that will vacuum you up and cause damage."
 				""
-				"If you get speared with the tongue attack and &2pulled close to the boss, you can quickly try to melee the boss for bonus damage&r, if you can survive. "
+				"If you get speared with the tongue attack and pulled close to the boss, you can quickly try to melee the boss for bonus damage – if you can survive."
 			]
 			icon: {
 				Count: 1
@@ -1262,7 +1266,7 @@
 		}
 		{
 			dependencies: ["3193DF1F9D9C4CF7"]
-			description: ["Killing this mob should yield &31 Coral Chunk&r. "]
+			description: ["Killing this mob should yield &31 Coral Chunk&r."]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -1327,13 +1331,13 @@
 		{
 			dependencies: ["663CBB97F0B94D4F"]
 			description: [
-				"&dChef Shaun's&r quest states that &4he's never actually BEEN&r to the &6Sweet Lands&r, and he doesn't actually know how to get there."
+				"&dChef Shaun's&r quest states that he's never actually BEEN to the &6Sweet Lands&r, and he doesn't actually know how to get there."
 				""
-				"&2Entry is only taught to Diamond Chef's&r. However, &2any Chef that has knowledge of entry can teach you if they want&r."
+				"Entry is only taught to Diamond Chefs. However, any chef that has knowledge of entry can teach you if they want."
 				""
-				"&dShaun&r mentioned he trained under &dChef Ramsickle&r, a &4somewhat violent chef&r who lives in the &eCherry Groves&r. "
+				"&dShaun&r mentioned he trained under &dChef Ramsickle&r, a somewhat violent chef who lives in the &eCherry Groves&r."
 				""
-				"If you're looking at the &3Explorer's Compass&r, you can search for the \"&9Village Bakery&r\""
+				"If you're looking at the &3Explorer's Compass&r, you can search for the \"&eVillage Bakery&r.\""
 			]
 			icon: {
 				Count: 1
@@ -1361,23 +1365,23 @@
 		{
 			dependencies: ["3AB38812065A1C84"]
 			description: [
-				"After pleading with &dChef Ramsickle&r for hours, &2he put you to the test&r. "
+				"After pleading with &dChef Ramsickle&r for hours, he put you to the test."
 				""
-				"He asked you to make a &3Bread&r. What you returned to him was &4harder than most metals&r. "
+				"He asked you to make a &3Bread&r. What you returned to him was harder than most metals."
 				""
-				"He suggested that you try some &3tea&r. You mixed some &3water&r, and a few drops of &3Chammomile&r into a &3mug&r. When the &dChef&r takes it from you, &4he pours it over a rose; and instantly turns it into a Withered Rose&r."
+				"He suggested that you try some &3tea&r. You mixed some &3water&r and a few drops of &3Chamomile&r into a &3mug&r. When the &dChef&r takes it from you, he pours it over a &3rose&r and instantly turns it into a &3Withered Rose.&r"
 				""
 				"He tells you that you have work to do."
 				""
-				"You train under the &dChef&r for weeks, &2returning to him every morning at 3 AM sharp&r to prepare the kitchen, harvest the garden, and get the courses ready for the day. "
+				"You train under the &dChef&r for weeks, returning to him every morning at 3 AM sharp to prepare the kitchen, harvest the garden, and get the courses ready for the day."
 				""
-				"One day; he asks that you try and make some &3Toast&r. &2You try your hardest&r, grinding the &3finest flours&r, you even tried to use the &3Holy Water&r from the towns church.  "
+				"One day, he asks that you try and make some &3Toast&r. You try your hardest, grinding the finest flour—you even tried to use the &3Holy Water&r from the town’s church."
 				""
-				"The Chef looks at you and tells you \"&cITS RAW!&r\". You &2look down at the &3Toast&r you so excitedly prepared&r, and &4quickly realized that you didn't even bake the dough&r. "
+				"The &dChef&r looks at you and tells you, \"&cIT'S RAW!&r\" You look down at the &3Toast&r you so excitedly prepared and quickly realize that you didn't even bake the &3dough&r."
 				""
-				"He gives you one more chance, and this time with some moderate success. He says that the &3Toast&r is passable. "
+				"He gives you one more chance, and this time, with some moderate success, he says that the &3Toast&r is passable."
 				""
-				"The &dChef&r hands you down his recipe book and tells you to &4not to come back, again.&r. "
+				"The &dChef&r hands you down his recipe book and tells you to not come back again."
 			]
 			id: "0A23C7A0BA6AAA22"
 			rewards: [{
@@ -1401,11 +1405,11 @@
 		{
 			dependencies: ["0A23C7A0BA6AAA22"]
 			description: [
-				"You take the recipe back to town and get to work. "
+				"You take the recipe back to town and get to work."
 				""
-				"One night, while you're preparing a dish, &2you wonder to yourself why you even feel bound to complete this task&r. You could likely just get up, and walk away. However, you also &2remembered that Shaun made some pretty good eggs that one time&r."
+				"One night, while you're preparing a dish, you wonder to yourself why you even feel bound to complete this task. You could likely just get up and walk away. However, you also remembered that Shaun made some pretty good eggs that one time&r."
 				""
-				"Later that evening &dShaun&r came over with a few goodies. He was helping you out with some ingredients for the &3Echo Lollipop&r, &3Totem Cake&r, and &3Honeyed Brick&r, but the &2rest is up to you&r."
+				"Later that evening, &dShaun&r came over with a few goodies. He was helping you out with some ingredients for the &3Echo Lollipop&r, &3Totem Cake&r, and &3Honeyed Brick&r, but the rest is up to you&r."
 				""
 				"&oOnce you complete all of the recipes, make sure to claim the Melted Caramel item from the Recipe Book.&r"
 			]
@@ -1441,11 +1445,6 @@
 			]
 			shape: "square"
 			tasks: [
-				{
-					id: "6AB97C61051D00B4"
-					title: "Ok"
-					type: "checkmark"
-				}
 				{
 					id: "0484439C96CBE362"
 					item: {
@@ -1508,9 +1507,9 @@
 		{
 			dependencies: ["683CB909FE694A79"]
 			description: [
-				"You shipped off the recipes to the &dChef&r, and he shipped you back some Melted Caramel. "
+				"You shipped off the recipes to the &dChef&r, and he shipped you back some &3Melted Caramel&r."
 				""
-				"He says that if you at least &310 Sugar Blocks&r and place them in the shape of a basic &9Nether Portal&r, then pour some &3Melted Caramel&r onto it, it should light the way to the &6Sweet Lands&r."
+				"He says that if you have at least &310 Sugar Blocks&r and place them in the shape of a basic &9Nether Portal&r, then pour some &3Melted Caramel&r onto it, it should light the way to the &6Sweet Lands&r."
 				""
 				"&5&oThe monsters inside Sweet Lands will start at level 25&r&r."
 			]
@@ -1553,19 +1552,19 @@
 		{
 			dependencies: ["71008A763EB4C66D"]
 			description: [
-				"You make it back to the village in one piece, but you're pretty beaten up, and still hacking up water. "
+				"You make it back to the village in one piece, but you're pretty beaten up and still hacking up water."
 				""
-				"Some villagers rush over to help you. "
+				"Some villagers rush over to help you."
 				""
-				"The ground trembles as &dTim&r approaches. As he arrives next to you, he extends his hand and asks what's happened. "
+				"The ground trembles as &dTim&r approaches. As he arrives next to you, he extends his hand and asks what happened."
 				""
-				"His voice &4pierces your head, causing it to throb&r. "
+				"His voice pierces your head, causing it to throb."
 				""
-				"You explain that the only treasure there was from a purple glowing &dLeviathan&r, and you &2throw down one of the tentacles at his feet&r. "
+				"You explain that the only treasure there was from a purple glowing &cLeviathan&r, and you throw down one of the tentacles at his feet."
 				""
-				"'Fascinating' he says, followed by what seems to be a very deep apology. "
+				"\"Fascinating,\" he says, followed by what seems to be a very deep apology."
 				""
-				"He clarifies that the &dLeviathan&r was always the guardian of the &eSunken City&r, but it was supposed to be a peaceful, passive beast.  Something must have changed it.  Perhaps something to do with the purple energy it was emitting. "
+				"He clarifies that the &cLeviathan&r was always the guardian of the &eSunken City&r, but it was supposed to be a peaceful, passive beast. Something must have changed it—perhaps something to do with the purple energy it was emitting."
 			]
 			icon: {
 				Count: 1
@@ -1593,19 +1592,19 @@
 		{
 			dependencies: ["45117984A00EE197"]
 			description: [
-				"You've &2made it&r to the tastiest lands in all of the multidimensional plane of existence. &6Sweet Lands&r! "
+				"You've made it to the tastiest lands in all of the multidimensional plane of existence — &6Sweet Lands&r!"
 				""
-				"You're greeted by an envoy named &dLolli Poppins&r. "
+				"You're greeted by an envoy named &dLolli Poppins&r."
 				""
-				"Are &2you the hero we've been waiting for?&r We sent for a hero weeks ago. &4Our lands are in dire trouble&r!"
+				"\"Are you the hero we've been waiting for? We sent for a hero weeks ago. Our lands are in dire trouble!\""
 				""
-				"With a confused look on your face, you ask the envoy what they mean. "
+				"With a confused look on your face, you ask the envoy what they mean."
 				""
-				"The envoy explains that they sent out a request &2with a really sweet reward weeks ago&r, and she's been waiting for the arrival of a hero. "
+				"The envoy explains that they sent out a request with a really sweet reward weeks ago, and she's been waiting for the arrival of a hero."
 				""
-				"For a moment you think to flex your muscles, stand tall, and say that you are the hero. Instead, &2you try to stand up, and trip over a candy vine as you try to state that you are the hero&r. "
+				"For a moment, you think to flex your muscles, stand tall, and say that you are the hero. Instead, you try to stand up and trip over a &3candy vine&r as you try to state that you are the hero."
 				""
-				"&dLolli&r chuckles at you and asks that &2you follow her&r."
+				"&dLolli&r chuckles at you and asks that you follow her."
 			]
 			id: "32AB67CEEF056996"
 			rewards: [{
@@ -1631,11 +1630,11 @@
 			description: [
 				"&dLolli&r led you to the outskirts of her village."
 				""
-				"Along the way, she explained that ultra violent &4Penguins&r from the &dCake and Ice Cream Clans&r have invaded her town and declared it theirs. "
+				"Along the way, she explained that ultra-violent &4Penguins&r from the &cCake and Ice Cream Clans&r have invaded her town and declared it theirs."
 				""
-				"Due to the peaceful nature of &dLolli's&r people, they &4had no warriors to defend&r, and not enough fish to subdue the massive penguin army.. "
+				"Due to the peaceful nature of &dLolli's&r people, they had no warriors to defend and not enough &3fish&r to subdue the massive penguin army..."
 				""
-				"Thinking about the reward, &2you officially agree to help out&r the &eIce Cream Village&r. "
+				"Thinking about the reward that she mentioned, you officially agree to help out the &eIce Cream Village&r."
 			]
 			id: "13A85D3177116167"
 			rewards: [{
@@ -1658,7 +1657,7 @@
 		}
 		{
 			dependencies: ["13A85D3177116167"]
-			description: ["Members of the &dCake&r clan have shown up to &eIce Cream village&r to help the &cIce Cream Penguins&r claim the &eIce Cream Village&r."]
+			description: ["Members of the &eCake&r clan have shown up to &eIce Cream Village&r to help the &cIce Cream Penguins&r claim the &eIce Cream Village&r."]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -1691,13 +1690,15 @@
 		{
 			dependencies: ["13A85D3177116167"]
 			description: [
-				"For many generations &dLolli Poppins&r and her people have been at war with the &cIce Cream Penguins&r. "
+				"For many generations &dLolli Poppins&r and her people have been at war with the &cIce Cream Penguins&r."
 				""
-				"Despite the village being named after the &cIce Cream Penguins&r, the land was &2actually a shared community&r. One day, many millenia ago -- the &cIce Cream Penguins&r made &4an attempt to eradicate &dLolli's&r people&r. Despite not having fighters, they were &2able to subdue the small amount of penguins with fish&r, and &4marched them off a cliff&r. This was a horrible night in the history of the &6Sweet Lands&r. known as '&4The Melting&r'."
+				"Despite the village being named after the &cIce Cream Penguins&r, the land was actually a shared community. One day, many millennia ago — the &cIce Cream Penguins&r made an attempt to eradicate &dLolli's&r people. "
 				""
-				"The &2remaining penguins eventually split off into two factions&r, Cake and Ice Cream, and had been &4warring with themselves for thousands of years&r. "
+				"Despite not having fighters, they were able to subdue the small amount of penguins with fish and marched them off a cliff. This was a horrible night in the history of the &6Sweet Lands&r, known as '&eThe Melting&r'."
 				""
-				"Something happened in recent weeks though that caused the &cCake&r and &cIce Cream Penguins&r to &4try and re-take the village&r that they once called home."
+				"The remaining penguins eventually split off into two factions — &eCake&r and &eIce Cream&r — and had been warring with themselves for thousands of years."
+				""
+				"Something happened in recent weeks, though, that caused the &cCake&r and &cIce Cream Penguins&r to try and re-take the village that they once called home."
 			]
 			icon: {
 				Count: 1
@@ -1734,13 +1735,13 @@
 				"41D0AA47E1F0612B"
 			]
 			description: [
-				"You've helped &2clear out the bulk of the penguin&rs. Some still remain, but &2they can be subdued some fish&r by &dLolli's&r people. "
+				"You've helped clear out the bulk of the penguins. Some still remain, but they can be subdued with some fish by &dLolli's&r people."
 				""
-				"&dLolli&r lets you know that the &dSweet Witch&r is responsible for whats happening here. "
+				"&dLolli&r lets you know that the &cSweet Witch&r is responsible for what's happening here."
 				""
-				"She lets you know that it started with the &4towns golem getting aggressive&r. They were able to lock it up under the city before the penguin invasion. "
+				"She lets you know that it started with the town's golem getting aggressive. They were able to lock it up under the city before the penguin invasion."
 				""
-				"She asks if you can &2destroy it so they can rebuild a new one&r.  "
+				"She asks if you can destroy it so they can rebuild a new one."
 			]
 			icon: {
 				Count: 1
@@ -1768,9 +1769,9 @@
 		{
 			dependencies: ["11F49AC2AB305F49"]
 			description: [
-				"&dCreamy&r has &850 flat Physical Damage&r converted to &9Water Damage&r, and &950% Water Resistance&r."
+				"&cCreamy&r has &850 flat Physical Damage&r converted to &9Water Damage&r and &950% Water Resistance&r."
 				""
-				"&5&oCreamy, the Ice Cream Golem will start at level 30&r&r."
+				"&5&oCreamy, the Ice Cream Golem, will start at level 30&r&r."
 			]
 			icon: {
 				Count: 1
@@ -1814,15 +1815,15 @@
 		{
 			dependencies: ["7CB5A795F71B38A3"]
 			description: [
-				"Once again &dLolli&r, and the &eIce Cream Village&r thank you. &2They are beyond grateful for your help&r. "
+				"Once again, &dLolli&r and the &eIce Cream Village&r thank you. They are beyond grateful for your help."
 				""
-				"&dLolli&r has &2one more request&r, and that's to help with the &6Sweet Witch&r. "
+				"&dLolli&r has one more request, and that's to help with the &cSweet Witch&r."
 				""
-				"She says that there are &35 Magic Plates&r &2scattered in chests&r throughout the &6Sweet Lands&r, and if those tablets are put into the &9Witches Cauldron&r in the &eChocolate Witch House&r, the &dSweet Witch&r will be summoned. "
+				"She says that there are &35 Magic Plates&r scattered in chests throughout the &6Sweet Lands&r, and if those tablets are put into the &9Witches Cauldron&r in the &eChocolate Witch House&r, the &cSweet Witch&r will be summoned."
 				""
-				"You &2take a hard long breathe&r and before you &4let her down easily&r as you have other business to attend; &dLolli&r lets you know that there will be a &2nice bonus reward&r in it for you. "
+				"You take a hard, long breath, and before you let her down easily, as you have other business to attend, &dLolli&r lets you know that there will be a nice bonus reward in it for you."
 				""
-				"&2Your ears perk up, and you respond with a resounding yes&r, as if you were already out the door on the way to look for the plates."
+				"Your ears perk up, and you respond with a resounding yes, as if you were already out the door on the way to look for the &3plates&r."
 			]
 			icon: {
 				Count: 1
@@ -1850,11 +1851,11 @@
 		{
 			dependencies: ["273DA5D2530F89D9"]
 			description: [
-				"With all &35 Magic Plates&r found you can now summon the &dSweet Witch&r."
+				"With all &35 Magic Plates&r found, you can now summon the &cSweet Witch&r."
 				""
-				"You'll need to find a &eChocolate Witch House&r structure and use the plates on the &9cauldron&r inside. "
+				"You'll need to find a &eChocolate Witch House&r structure and use the plates on the &9cauldron&r inside."
 				""
-				"Once the &25th plate has been placed in, the witch will be summoned&r! "
+				"Once the 5th plate has been placed in, the witch will be summoned!"
 			]
 			id: "6E572801B0EA6E34"
 			rewards: [{
@@ -1917,17 +1918,17 @@
 		{
 			dependencies: ["6E572801B0EA6E34"]
 			description: [
-				"You notice that the witch was also in similar purple robes as &dBob&r."
+				"You notice that the witch was also in similar purple robes as &cBob&r."
 				""
-				"On her person, you find a note...."
+				"On her person, you find a note..."
 				""
-				"It's a &2list of towns and villages&r, and you &4see your previous village listed on here&r -- '&eYowling Llama Village&r'. "
+				"It's a list of towns and villages, and you see your previous village listed on here — '&eYowling Llama Village&r'."
 				""
-				"You've only been to &eSan Creeper City&r once, and that was when you were a kid. The &4other villages on the list you havent heard about&r, and sound like they &2could be from other dimensions&r."
+				"You've only been to &eSan Creeper City&r once, and that was when you were a kid. The other villages on the list you haven't heard about, and sound like they could be from other dimensions."
 				""
-				"It might be worth &2asking around&r the &etavern&r when you get back."
+				"It might be worth asking around the &eTavern&r when you get back."
 				""
-				"&dSweet Witch&r has &825 flat Physical Damage&r converted to &aAll Elements&r, &a10% Elemental Damage&r, and &a20% Elemental Resist&r."
+				"&cSweet Witch&r has &825 flat Physical Damage&r converted to &aAll Elements&r, &a10% Elemental Damage&r and &a20% Elemental Resist&r."
 				""
 				"&5&oSweet Witch will start at level 30&r&r."
 			]
@@ -1996,19 +1997,19 @@
 		{
 			dependencies: ["4E44995904180ECE"]
 			description: [
-				"You have a long conversation with Lolli and her people, and just as you were about to leave -- a knight, looking gallant and true arrives. "
+				"You have a long conversation with &dLolli&r and her people, and just as you were about to leave — a knight, looking gallant and true, arrives."
 				""
-				"'A hero is needed?' they ask. "
+				"\"A hero is needed?\" they ask."
 				""
-				"You look down at Lolli as she looks up at you and you both have a laugh. "
+				"You look down at &dLolli&r as she looks up at you, and you both have a laugh."
 				""
-				"As you leave, Lolli walks over to the knight and explains that the hero is no longer needed. "
+				"As you leave, &dLolli&r walks over to the knight and explains that the hero is no longer needed."
 				""
-				"As you head back to the portal, you recall that your adventure here was actually to recover some ingredients for Shaun.  You inspect the note once again to see what he was looking for. "
+				"As you head back to the portal, you recall that your adventure here was actually to recover some ingredients for &dShaun&r. You inspect the note once again to see what he was looking for."
 				""
-				"Shaun is looking to make a \"Magic Charge\" which will require 3 Magic Powder. Something about a new, interactive recipe that literally explodes with flavor in your mouth. "
+				"&dShaun&r is looking to make a \"&3Magic Charge&r,\" which will require &33 Magic Powder&r — something about a new, interactive recipe that literally explodes with flavor in your mouth."
 				""
-				"You check your pockets and pull out several pieces of lint, a bottle cap, a worn tennis ball, and.. oh, here we go.. 3 Magic Powder! It seems like the Sweet Witch had them on her when you looted the body."
+				"You check your pockets and pull out several pieces of &3lint&r, a &3bottle cap&r, a &3worn tennis ball&r, and... oh, here we go — &33 Magic Powder&r! It seems like the &dSweet Witch&r had them on her when you looted her body."
 			]
 			id: "0B332A8866319A7F"
 			rewards: [{
@@ -2039,13 +2040,13 @@
 				"7AC71338933B4294"
 			]
 			description: [
-				"Your first order of business was to meet up with &dShaun&r and give him the ingredients. "
+				"Your first order of business was to meet up with &dShaun&r and give him the ingredients."
 				""
-				"You both walk over to the tavern together and start to ask around about the other towns. "
+				"You both walk over to the tavern together and start to ask around about the other towns."
 				""
-				"Several visitors speak up -- some say that they &4passed through and those towns no longer exist&r, some have heard only rumor of them being wiped off the FTB map. "
+				"Several visitors speak up—some say that they passed through and those towns no longer exist, some have heard only rumor of them being wiped off the FTB map."
 				""
-				"Nevertheless, you're now &4certain that what happened at Yowling Llama Village, what happened with Bob, and what happened in the Sweet Lands was all connected&r. "
+				"Nevertheless, you're now certain that what happened at &eYowling Llama Village&r, what happened with &cBob&r, and what happened in the &6Sweet Lands&r was all connected."
 			]
 			icon: {
 				Count: 1
@@ -2073,7 +2074,7 @@
 		{
 			dependencies: ["0435DFB13F76DF19"]
 			description: [
-				"Days go by no new occurences pop up. "
+				"Days go by—no new occurrences pop up."
 				""
 				"You start taking this moment of peace to prepare the city for any possible invasions."
 				""
