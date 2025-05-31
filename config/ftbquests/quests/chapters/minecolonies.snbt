@@ -12,13 +12,13 @@
 			description: [
 				"Your new life as a ruthless overlord, hellbent on taking out huma... I mean, your new life as a gentle and kind leader begins today."
 				""
-				"You will rule over your people with kindness, and stuff. "
+				"You will rule over your people with kindness and stuff."
 				""
-				"This questline will walk you through the rest of getting your colony established. "
+				"This questline will walk you through the rest of getting your colony established."
 				""
-				"Lets start with getting your citizens some food. "
+				"Let's start with getting your citizens some food."
 				""
-				"You wouldn't want them to starve... would you? "
+				"You wouldn't want them to starve... would you?"
 			]
 			icon: "kubejs:p3_chat"
 			id: "009BB242F0FB6D2D"
@@ -103,11 +103,11 @@
 				"26BC57AC40A8FFBB"
 			]
 			description: [
-				"Great, you've established at least 1 type of food source. "
+				"Great, you've established at least 1 type of food source."
 				""
-				"Just make sure to keep it stocked with whatever it needs to the goods keep on comin. "
+				"Just make sure to keep it stocked with whatever it needs so the goods keep on comin’."
 				""
-				"For now, you'll have to manually give the citizens food, so don't neglect them. "
+				"For now, you'll have to manually give the citizens food, so don't neglect them."
 			]
 			icon: "kubejs:p3_chat"
 			id: "1503F590D0814D73"
@@ -131,11 +131,11 @@
 		{
 			dependencies: ["1503F590D0814D73"]
 			description: [
-				"You opened up your first restaurant and things aren't going so well. It's kind of a hole in the wall, and even though those are supposed to be the best places, yours just isn't. "
+				"You opened up your first restaurant, and things aren't going so well. It's kind of a hole in the wall, and even though those are supposed to be the best places, yours just isn't."
 				""
-				"You can upgrade your restaurant whenever you're ready by assigning the &eBuilder&r to upgrade. "
+				"You can upgrade your restaurant whenever you're ready by assigning the &eBuilder&r to upgrade."
 				""
-				"Once your establishment looks nicer, &dShaun&r said that he would help out around the kitchen and teach people how to cook some good meals. "
+				"Once your establishment looks nicer, &dShaun&r said that he would help out around the kitchen and teach people how to cook some good meals."
 			]
 			id: "7A07D22D4EA3623C"
 			rewards: [
@@ -307,7 +307,7 @@
 		{
 			dependencies: ["6784A5082FC79CF0"]
 			description: [
-				"Once you get your &9arehouse&r situated, you can place the &eCourier&r, and then assign the &eCourier&r to work the &9Warehouse&r."
+				"Once you get your &9Warehouse&r situated, you can place the &eCourier&r, and then assign the &eCourier&r to work the &9Warehouse&r."
 				""
 				"&oAssigning the work should happen automatically unless you made specific changes in your Town Hall&r."
 			]
@@ -1128,9 +1128,9 @@
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			description: [
-				"You'll need 1 of each &9Herding Hut&r for this. "
+				"You'll need 1 of each &9Herding Hut&r for this:"
 				""
-				"&9Chicken Herder&r, &9Cow Herder&r, &9Swine Herder&r, &9Rabbit Hutch&r, and a &9Shepherd Hut&r. "
+				"&9Chicken Herder&r, &9Cow Herder&r, &9Swine Herder&r, &9Rabbit Hutch&r, and a &9Shepherd Hut&r."
 			]
 			id: "26BC57AC40A8FFBB"
 			rewards: [{

@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-				"&eAuras&r can be equipped through the &6Mine and Slash&r Hub &e'H'&r by default, and navigating to your &eSpell Hotbar&r."
+				"&eAuras&r can be equipped through the &6Mine and Slash&r Hub &e'H'&r by default, and by navigating to your &eSpell Hotbar&r."
 				""
-				"In the middle you should see a row of slots with a number to the right. "
+				"In the middle, you should see a row of slots with a number to the right."
 				""
-				"The number is your current available &eAura Reserve&r.  Each &eAura&r you equip will take up a portion of your total poor, limiting the amount of &eAuras&r you can have on you at one time. "
+				"The number is your current available &eAura Reserve&r. Each &eAura&r you equip will take up a portion of your total pool, limiting the amount of &eAuras&r you can have on you at one time."
 				""
-				"You should find these as you fight monsters, or loot chests."
+				"You should find these as you fight monsters or loot chests."
 			]
 			icon: "kubejs:p3_chat"
 			id: "6964FE997F4C39E7"
@@ -40,9 +40,9 @@
 		{
 			dependencies: ["33CA3CE459F326BD"]
 			description: [
-				"There are two ways to salvage your &6Mine and Slash&r items into stones you need for crafting. "
+				"There are two ways to salvage your &6Mine and Slash&r items into stones you need for crafting."
 				""
-				"You can use the &9Salvage Station&r to salvage items manuallr, or you can use the '&eSalvaging&r' menu from your &6Mine and Slash&r &eHub&r as you pick up certain items. "
+				"You can use the &9Salvage Station&r to salvage items manually, or you can use the '&eSalvaging&r' menu from your &6Mine and Slash&r &eHub&r as you pick up certain items."
 				""
 				"You can toggle to salvage individual item types of &3Skill Gems&r, &3Gear&r, and &3Jewels&r, and will automatically receive the appropriate stone instead of the specified rarity of item."
 			]
@@ -65,7 +65,7 @@
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
-			description: ["There are many different level ranges of every &6Mine and Slash&r food."]
+			description: ["There are many different level ranges for every &6Mine and Slash&r food."]
 			id: "46AE04B160AC037A"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
@@ -85,7 +85,7 @@
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
-			description: ["There are many different level ranges of every &6Mine and Slash&r potion."]
+			description: ["There are many different level ranges for every &6Mine and Slash&r potion."]
 			id: "74582CCB20372137"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
@@ -106,9 +106,9 @@
 		{
 			dependencies: ["33CA3CE459F326BD"]
 			description: [
-				"If you aren't having luck with drops, there is always crafting!, or converting."
+				"If you aren't having luck with drops, there is always crafting or converting."
 				""
-				"Most gear can be converted into a &6Mine and Slash&r piece using a &3Gear Soul&r of it's appropriate type."
+				"Most gear can be converted into a &6Mine and Slash&r piece using a &3Gear Soul&r of its appropriate type."
 			]
 			id: "3E1A4B71A4F4B629"
 			rewards: [{
@@ -148,7 +148,7 @@
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
-			description: ["As you harvest various crops; you will randomly be rewarded with a produce type item within your profession level range."]
+			description: ["As you harvest various crops, you will randomly be rewarded with a produce-type item within your profession level range."]
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_hoe"
@@ -175,7 +175,7 @@
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
-			description: ["Breeding various animals will reward you with &eAnimal Breeding XP&r. "]
+			description: ["Breeding various animals will reward you with &eAnimal Breeding XP&r."]
 			icon: "artifacts:crystal_heart"
 			id: "583EDF1348567060"
 			rewards: [{
@@ -196,7 +196,7 @@
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
-			description: ["Breaking various ores, and some stone blocks with your pickaxe should reward &eMining XP&r, as well as randomly giving you &6Mine and Slash&r &3ore&r."]
+			description: ["Breaking various ores and some stone blocks with your pickaxe should reward &eMining XP&r, as well as randomly giving you &6Mine and Slash&r &3ore&r."]
 			icon: {
 				Count: 1
 				id: "ae2:nether_quartz_pickaxe"
@@ -223,15 +223,15 @@
 		}
 		{
 			description: [
-				"Professions in &6Mine and Slash&r are extremely important as they will grant your character \"&eRested Combat Experience&r\". "
+				"Professions in &6Mine and Slash&r are extremely important, as they will grant your character \"&eRested Combat Experience&r\"."
 				""
-				"The more you work on your professions, the more bonus xp you will earn, which will make your leveling journey much more comfortable. "
+				"The more you work on your professions, the more &ebonus XP&r you will earn, which will make your leveling journey much more comfortable."
 				""
-				"Likewise, during combat; you will gain a \"&eRested Profession Experience&r\" which will give you bonus to your professions. "
+				"Likewise, during combat, you will gain \"&eRested Profession Experience&r\", which will give you bonuses to your professions."
 				""
-				"For professions that require a station; you must craft the items through that station to get experience. "
+				"For professions that require a station, you must craft the items through that station to get experience."
 				""
-				"Example: using the &6Cooking For Blockheads&r kitchen will not get you &6Mine and Slash&r experience for cooking various recipes."
+				"Example: Using the &6Cooking For Blockheads&r kitchen will not get you &6Mine and Slash&r experience for cooking various recipes."
 			]
 			icon: "kubejs:p3_chat"
 			id: "33CA3CE459F326BD"
@@ -503,7 +503,7 @@
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
-			description: ["As you fish; you will randomly be rewarded with a raw fish type item within your profession level range."]
+			description: ["As you fish, you will randomly be rewarded with a raw fish-type item within your profession level range."]
 			icon: {
 				Count: 1
 				id: "aquaculture:neptunium_fishing_rod"
@@ -628,9 +628,9 @@
 		{
 			dependencies: ["09EFFD4A4D7C74D3"]
 			description: [
-				"Starting at level 50 you will find various &3Adventurer Map's&r. "
+				"Starting at level 50, you will find various &3Adventurer Maps&r."
 				""
-				"If you put your &3Adventurer Map&r map inside a &9Map Device&r, you will be able to challenge the dungeon."
+				"If you put your &3Adventurer Map&r inside a &9Map Device&r, you will be able to challenge the dungeon."
 			]
 			icon: "kubejs:p3_chat"
 			id: "0996B597E654479B"
@@ -654,7 +654,7 @@
 		{
 			dependencies: ["09EFFD4A4D7C74D3"]
 			description: [
-				"Throughout your adventure you will find various &6Harvest&r items. "
+				"Throughout your adventure, you will find various &6Harvest&r items."
 				""
 				"If you put your &3Harvest Map&r inside a &9Harvest Altar&r, you will be able to challenge the arena."
 			]
@@ -682,11 +682,11 @@
 			description: [
 				"&6Dimensional Dungeons&r is not part of &6Mine and Slash&r."
 				""
-				"It did however fit into this particular category pretty well, so here it is. "
+				"It did, however, fit into this particular category pretty well, so here it is."
 				""
-				"The dungeons created by this mod are various puzzles, and traps. "
+				"The dungeons created by this mod are various puzzles and traps."
 				""
-				"In order to get to &6The End&r you'll need to find a &3Dimensional Eye&r in a random chest inside the &6Dimensional Dungeons&r."
+				"In order to get to &6The End&r, you'll need to find a &3Dimensional Eye&r in a random chest inside the &6Dimensional Dungeons&r."
 			]
 			icon: "kubejs:p3_chat"
 			id: "76171D4EB0C9B147"
@@ -717,7 +717,7 @@
 		{
 			dependencies: ["09EFFD4A4D7C74D3"]
 			description: [
-				"Throughout your adventure you will find various &6Ancient Obelisk&r items. "
+				"Throughout your adventure, you will find various &6Ancient Obelisk&r items."
 				""
 				"If you put your &3Obelisk Map&r inside a &9Obelisk Altar&r, you will be able to challenge the arena."
 			]
@@ -743,7 +743,7 @@
 		{
 			dependencies: ["09EFFD4A4D7C74D3"]
 			description: [
-				"Throughout your adventure you will find various &6Dungeon Realm&r items. "
+				"Throughout your adventure, you will find various &6Dungeon Realm&r items."
 				""
 				"If you put your &3Dungeon Map&r inside a &9Map Device&r, you will be able to challenge the dungeon."
 			]
@@ -802,7 +802,7 @@
 		}
 		{
 			dependencies: ["27DC0C3CC30F4B14"]
-			description: ["Using the &3Portal Crown&r and some &3Banners&r you can upgrade your &9Portal Frame&r to allow you to use &3Advanced Portal Keys&r."]
+			description: ["Using the &3Portal Crown&r and some &3Banners&r, you can upgrade your &9Portal Frame&r to allow you to use &3Advanced Portal Keys&r."]
 			id: "352CF64632D7B8C4"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 1000"
@@ -822,7 +822,7 @@
 		}
 		{
 			dependencies: ["352CF64632D7B8C4"]
-			description: ["Place &31 Banner&r over each of the &3Gilded Portal Blocks.&r"]
+			description: ["Place &31 Banner&r over each of the &3Gilded Portal Blocks&r."]
 			id: "60223DCA99A51C8F"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
@@ -861,7 +861,7 @@
 		{
 			dependencies: ["118F616C9D40B661"]
 			description: [
-				"Eventually this will break. It's in your best interest to get an &3End Portal Frame&r which you can use as a &9Key Inscribing Station&r."
+				"Eventually, this will break. It's in your best interest to get an &3End Portal Frame&r, which you can use as a &9Key Inscribing Station&r."
 				""
 				"You will place a &3Portal Key&r inside, and it will turn it into a dungeon key that can be placed inside the frame."
 			]
@@ -903,7 +903,7 @@
 		{
 			dependencies: ["27DC0C3CC30F4B14"]
 			description: [
-				"All keys must be activated by putting them in an &9Inscribing Station&r, or &9End Portal Frame Block&r. "
+				"All keys must be activated by putting them in an &9Inscribing Station&r or &9End Portal Frame Block&r."
 				""
 				"&3Portal Key&r: This is the basic key of this mod. Place it into a &3Portal Keystone&r to visit a dungeon."
 			]
@@ -929,9 +929,9 @@
 			description: [
 				"&3Advanced Blank Portal Key&r: This requires &92 Portal Crowns&r placed next to the &9Portal Keystone&r, and a &3white or purple banner&r draped over the &9Portal Blocks&r, and will allow you to visit &eTier 2 dungeons&r."
 				""
-				"&3Personal Dimension Key&r: Brings you to a very flat, and empty personal dimension where you can build. "
+				"&3Personal Dimension Key&r: Brings you to a very flat and empty personal dimension where you can build."
 				""
-				"&3Teleporter Key&r: Brings you to a &9Teleporter Hub&r with 7 keys. All keys link back to the hub. This could help you setup a fast travel network through various dimensions. "
+				"&3Teleporter Key&r: Brings you to a &9Teleporter Hub&r with 7 keys. All keys link back to the hub. This could help you set up a fast travel network through various dimensions."
 			]
 			id: "59F00D0D0EC19210"
 			rewards: [{
@@ -1120,7 +1120,7 @@
 		}
 		{
 			dependencies: ["4729694FE3DA1015"]
-			description: ["If you earn yourself any &3Prophecy Coins&r, you can use the &eProphecy&r tab in the &6Mine and Slash&r Hub while you are in a map. "]
+			description: ["If you earn yourself any &3Prophecy Coins&r, you can use the &eProphecy&r tab in the &6Mine and Slash&r Hub while you are in a map."]
 			id: "594E8BFBFAE0A844"
 			tasks: [
 				{
@@ -1195,13 +1195,13 @@
 		}
 		{
 			description: [
-				"Once you pick a class or two; you'll likely have a skill or two!"
+				"Once you pick a class or two, you'll likely have a skill or two!"
 				""
-				"You can equip the skills by opening your &6Mine and Slash&r &eHub&r and navigaing to the \"&eSpell Hotbar&r\", then clicking the &e+&r sign above any of the columns."
+				"You can equip the skills by opening your &6Mine and Slash&r &eHub&r and navigating to the \"&eSpell Hotbar&r\", then clicking the &e+&r sign above any of the columns."
 				""
-				"Depending on your level, and the skill level - you can add &3Support Gems&r to it which further enhance your abilities. These can be equipped in the column below the equipped skill. "
+				"Depending on your level and the skill level, you can add &3Support Gems&r to it, which further enhance your abilities. These can be equipped in the column below the equipped skill."
 				""
-				"Your first &eSupport Slot&r will open up when the &2skill is level 4&r. "
+				"Your first &eSupport Slot&r will open up when the skill is level 4."
 			]
 			icon: "kubejs:p3_chat"
 			id: "4E16F320E38FA179"
@@ -1224,11 +1224,11 @@
 		}
 		{
 			description: [
-				"Both of &3Gems&r and &3Runes&r are a way to power your weapons and gear up. "
+				"Both &3Gems&r and &3Runes&r are a way to power your weapons and gear up."
 				""
-				"There are many varieties of &3Gems&r which you can find in JEI by searching @mmorpg, and looking at the gems portion. Slotting these into your gear has different effects depending on whether it's a weapon, gear, or jewelry."
+				"There are many varieties of &3Gems&r, which you can find in JEI by searching @mmorpg and looking at the gems portion. Slotting these into your gear has different effects depending on whether it's a weapon, gear, or jewelry."
 				""
-				"&3Runes&r are special items that that grant various effects, depending on the &3Rune&r. There are many items called '&eRunewords&r' that have a predetermined order of runes, with specific bonuses. If you put a &3Rune&r on your hotbar and right click, it will open the &6Mine and Slash&r library, and show you the available &eRunewords&r that specific &eRune&r can create."
+				"&3Runes&r are special items that grant various effects, depending on the &3Rune&r. There are many items called '&eRunewords&r' that have a predetermined order of runes, with specific bonuses. If you put a &3Rune&r on your hotbar and right-click, it will open the &6Mine and Slash&r library and show you the available &eRunewords&r that specific &eRune&r can create."
 			]
 			icon: "kubejs:p3_chat"
 			id: "2D8EC1DB50B1A94F"
@@ -1251,13 +1251,13 @@
 		}
 		{
 			description: [
-				"&eFavor&r rewards you for staying alive. "
+				"&eFavor&r rewards you for staying alive."
 				""
-				"You generate a little bit of &eFavor&r every minute, up to 1000. This is the soft-cap."
+				"You generate a little bit of &eFavor&r every minute, up to 1000. This is the soft cap."
 				""
-				"If you reach this cap, you may exceed it by exploring and opening various chests and barrels. "
+				"If you reach this cap, you may exceed it by exploring and opening various chests and barrels."
 				""
-				"The more &eFavor&r you have, the higher your &eLoot and Experience&r multiplier will be. "
+				"The more &eFavor&r you have, the higher your &eLoot and Experience&r multiplier will be."
 				""
 				"Your favor can be seen in the &6Mine and Slash&r &eHub&r at the top of the UI."
 			]
