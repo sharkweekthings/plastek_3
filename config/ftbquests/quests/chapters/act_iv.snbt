@@ -15,15 +15,15 @@
 		{
 			dependencies: ["2F33D8BC3ED7FA76"]
 			description: [
-				"It's been a few months, and you've &2learned quite a bit&r about the &dCult of the Void&r."
+				"It's been a few months, and you've learned quite a bit about the &dCult of the Void&r."
 				""
-				"You &2knew&r their objective was to &2merge the soul of the Chaos Dragon with the recently reborn Ender Dragon&r."
+				"You knew&r their objective was to merge the soul of the &cChaos Dragon&r with the recently reborn &cEnder Dragon&r."
 				""
-				"However, due to a &4recent raid on your village&r, you found out that &dBarnaby&r and &dBueford&r were actually &2high-up officials of the cult&r, and when you killed them — you &2dealt the cult a deep blow&r, and the &4other leaders have considered you an enemy&r."
+				"However, due to a recent raid on your village, you found out that &dBarnaby&r and &dBueford&r were actually high-up officials of the cult, and when you killed them — you dealt the cult a deep blow, and the other leaders have considered you an enemy."
 				""
-				"You've &4tried to ask surrounding villages for help&r, but despite the threat being very real to them, they think if they stay out of it, they will be left alone."
+				"You've tried to ask surrounding villages for help, but despite the threat being very real to them, they think if they stay out of it, they will be left alone."
 				""
-				"One thing is for sure, &2you're going to need some help&r if you wish to go forward."
+				"One thing is for sure, you're going to need some help if you wish to go forward."
 			]
 			icon: {
 				Count: 1
@@ -51,11 +51,11 @@
 		{
 			dependencies: ["7C59D5DBE8687558"]
 			description: [
-				"&dShaun&r tells you a &2story about the reason he became a chef&r. Initially, he wanted to be a baker. As a child, he would give the &ePixies&r &3Cookies&r. He became quite &2good friends with the Pixies&r, as they bonded over a variety of &3Cookies&r. As he grew older, he eventually became a chef, but still loves to bake &3Cookies&r."
+				"&dShaun&r tells you a story about the reason he became a chef. Initially, he wanted to be a baker. As a child, he would give the &aPixies&r &3cookies&r. He became quite good friends with a few of them; they bonded over a variety of &3cookies&r. As the war in the Feywilds became more intense, the Pixies he was friends with either died or weren't allowed into the &6Overworld&r. As he grew older, he eventually became a chef, but still loves to bake &3Cookies&r and leave them out for his fallen &aPixie&r friends."
 				""
-				"&dShaun&r &4hasn't been in contact&r with his &ePixie&r friends &4over the years&r and &4isn't sure if the ones he knew still live&r. He does &2know that most Fey like cookies, though&r, and it's a good place to start."
+				"&dShaun&r hasn't been in contact with his &aPixie&r friends over the years and isn't sure if the ones he knew still live. He does know that most &eFey&r like &3cookies&r, though, so trying to give them some is a good place to start!"
 				""
-				"&dShaun&r prepared a batch of &3Cookies&r for you in case you run into a &ePixie&r in the wild."
+				"&dShaun&r prepared a batch of &3cookies&r for you in case you run into a &aPixie&r in the wild."
 			]
 			icon: {
 				Count: 1
@@ -86,19 +86,19 @@
 		{
 			dependencies: ["624D30C106066ECE"]
 			description: [
-				"You shared the &3Cookies&r with a &aPixie&r."
+				"You shared the &3cookies&r with a &aPixie&r."
 				""
-				"The &aPixie&r tells you that the &aPixie&r community in the &6Overworld&r is pretty scarce. Many of them &2escaped here to avoid war&r; &4others arrived here to cause mischief&r. &2Some still have a connection to Feywild&r, while &4others do not&r."
+				"The &aPixie&r tells you that the &aPixie&r community in the &6Overworld&r is pretty scarce. Many of them escaped here to avoid war; others arrived here to cause mischief. Some still have a connection to &6Feywild&r, while others do not."
 				""
 				"You tell the &aPixie&r your reasons for sharing such exquisite delicacies."
 				""
-				"The Pixie proceeds to tell you that while she herself cannot help directly, she can tell you &2how to summon a &aPixie&r from &6Feywild&r. It's a &4very disruptive process&r, and while some &aPixies&r are &2okay with it&r, &4others may be quite irritated&r."
+				"The &aPixie&r proceeds to tell you that while she herself cannot help directly, she can tell you how to summon a &aPixie&r from &6Feywild&r. It's a very disruptive process, and while some &aPixies&r are okay with it, others may be quite irritated."
 				""
-				"You will likely need to &2earn the trust of the summoned&r &aPixie&r before they will help or listen to you."
+				"You will likely need to earn the trust of the summoned &aPixie&r before they will help or listen to you."
 				""
 				"In order to summon a &aPixie&r, you will need to craft a &9Fey Altar&r, then create a &3Summoning Scroll&r using the altar."
 				""
-				"Before creating the scroll, though, she says that you will need to decide on &2which faction&r of &aPixies&r you will &2align yourself with&r."
+				"Before creating the scroll, though, she says that you will need to decide on which faction of &aPixies&r you will align yourself with."
 			]
 			id: "35C71A8666770D89"
 			rewards: [{
@@ -122,9 +122,9 @@
 		{
 			dependencies: ["177E8457E2BB0F76"]
 			description: [
-				"Each &aPixie&r will have a &2series of 6 quests&r to complete, and &2ultimately&r get you the &2same rewards&r."
+				"Each &aPixie&r will have a series of &e6 quests&r to complete, and ultimately get you the same rewards."
 				""
-				"If you wish to &2complete all of the Pixie quests in a single playthrough&r, you can use a &3Potion of Mandrake&r to &2unbind from the court&r."
+				"If you wish to complete all of the &aPixie&r quests in a single playthrough, you can use a &3Potion of Mandrake&r to unbind from the court."
 			]
 			id: "0ECE30D152BB18D8"
 			rewards: [{
@@ -151,9 +151,9 @@
 		{
 			dependencies: ["177E8457E2BB0F76"]
 			description: [
-				"Each &aPixie&r will have a &2series of 6 quests&r to complete, and &2ultimately&r get you the &2same rewards&r."
+				"Each &aPixie&r will have a series of &e6 quests&r to complete, and ultimately get you the same rewards."
 				""
-				"If you wish to &2complete all of the Pixie quests in a single playthrough&r, you can use a &3Potion of Mandrake&r to &2unbind from the court&r."
+				"If you wish to complete all of the &aPixie&r quests in a single playthrough, you can use a &3Potion of Mandrake&r to unbind from the court."
 			]
 			id: "626847570214D4E9"
 			rewards: [{
@@ -180,9 +180,9 @@
 		{
 			dependencies: ["177E8457E2BB0F76"]
 			description: [
-				"Each &aPixie&r will have a &2series of 6 quests&r to complete, and &2ultimately&r get you the &2same rewards&r."
+				"Each &aPixie&r will have a series of &e6 quests&r to complete, and ultimately get you the same rewards."
 				""
-				"If you wish to &2complete all of the Pixie quests in a single playthrough&r, you can use a &3Potion of Mandrake&r to &2unbind from the court&r."
+				"If you wish to complete all of the &aPixie&r quests in a single playthrough, you can use a &3Potion of Mandrake&r to unbind from the court."
 			]
 			id: "4FD35B9E85573466"
 			rewards: [{
@@ -209,9 +209,9 @@
 		{
 			dependencies: ["177E8457E2BB0F76"]
 			description: [
-				"Each &aPixie&r will have a &2series of 6 quests&r to complete, and &2ultimately&r get you the &2same rewards&r."
+				"Each &aPixie&r will have a series of &e6 quests&r to complete, and ultimately get you the same rewards."
 				""
-				"If you wish to &2complete all of the Pixie quests in a single playthrough&r, you can use a &3Potion of Mandrake&r to &2unbind from the court&r."
+				"If you wish to complete all of the &aPixie&r quests in a single playthrough, you can use a &3Potion of Mandrake&r to unbind from the court."
 			]
 			id: "53BC8C07E88CECDD"
 			rewards: [{
@@ -274,9 +274,9 @@
 				"53BC8C07E88CECDD"
 			]
 			description: [
-				"Now that you've &2formed a pact&r with a &aPixie&r and &2aligned yourself to one of their factions&r, you will need to &2work on their individual quests&r by speaking with them."
+				"Now that you've formed a pact with a &aPixie&r and aligned yourself to one of their factions, you will need to work on their individual quests by speaking with them."
 				""
-				"Complete their tasks, &2earn their trust&r, and hopefully they will grant you an &2audience with their&r &eQueen&r."
+				"Complete their tasks, earn their trust, and hopefully they will grant you an audience with their &eQueen&r."
 			]
 			icon: {
 				Count: 1
@@ -305,11 +305,11 @@
 		{
 			dependencies: ["54FA108603E8DBE3"]
 			description: [
-				"Leftover from an ancient civilization is the &dHarbinger&r."
+				"Leftover from an ancient civilization is the &cHarbinger&r."
 				""
-				"A &4mechanical construct&r of gears, chips, and components."
+				"A mechanical construct of gears, chips, and components."
 				""
-				"&dThe Harbinger&r has &835 flat Physical Damage&r converted to &eLightning Damage&r and &825 Physical Damage&r converted to &dChaos Damage&r."
+				"&cThe Harbinger&r has &835 flat Physical Damage&r converted to &eLightning Damage&r and &825 Physical Damage&r converted to &dChaos Damage&r."
 				""
 				"&5&oThe Harbinger will start at level 40&r&r."
 			]
@@ -355,9 +355,7 @@
 		{
 			dependencies: ["5C725AFB88690002"]
 			description: [
-				"It's like Pet Sematary and Jurassic Park had a baby, and now &4your head is about to get chomped off&r."
-				""
-				"&dAncient Remnant&r has &835 flat Physical Damage&r converted to &cFire Damage&r and &825 Physical Damage&r converted to &dChaos Damage&r. It is also &4immune&r to &3Bow and Arrow&r attacks."
+				"&cAncient Remnant&r has &835 flat Physical Damage&r converted to &cFire Damage&r and &825 Physical Damage&r converted to &dChaos Damage&r. It is also &4immune&r to &3Bow and Arrow&r attacks."
 				""
 				"&5&oThe Harbinger will start at level 40&r&r."
 			]
@@ -418,11 +416,11 @@
 		{
 			dependencies: ["38496C1692F8B3F2"]
 			description: [
-				"During your time with the &aPixie&r, you learn more about the cause of the war. You learn that one of the &cPixies&r from the &dWinter Court&r &4betrayed the realm&r and let the &dCult of the Void&r into &6Feywild&r."
+				"During your time with the &aPixie&r, you learn more about the cause of the war. You learn that one of the &cPixies&r from the &eWinter Court&r betrayed the realm and let the &cCult of the Void&r into &6Feywild&r."
 				""
-				"Dozens of &4villages have been corrupted&r, and many &4loved ones have been lost&r."
+				"Dozens of villages have been corrupted, and many loved ones have been lost."
 				""
-				"Despite the war, both &eQueens&r have been &2exhausting themselves by clearing out the undead as villages&r get corrupted."
+				"Despite the war, both &eQueens&r have been exhausting themselves by clearing out the undead as villages get corrupted, to ensure that no outbreak of &cPixie Zombies&r happen."
 			]
 			icon: {
 				Count: 1
@@ -450,9 +448,9 @@
 		{
 			dependencies: ["3469ED62942E1428"]
 			description: [
-				"The &aPixie&r has spoken with their &eQueen&r, and she's &2agreed to give you an audience&r."
+				"The &aPixie&r has spoken with the &dQueen&r, and she's agreed to give you an audience."
 				""
-				"Unfortunately, what you &4need to get there won't be so easy to get&r."
+				"Unfortunately, what you need to get there won't be so easy to get..."
 			]
 			id: "1076EAAF2F4486EA"
 			rewards: [{
@@ -515,11 +513,11 @@
 			description: [
 				"You've arrived in &6Feywild&r."
 				""
-				"The &2lands are lush and beautiful&r. You feel honored to even be stepping foot on the beautiful green &3Grass Blocks&r."
+				"The lands are lush and beautiful. You feel honored to even be stepping foot on the beautiful green &3Grass Blocks&r."
 				""
-				"You &2breathe in the unpolluted air&r; it tingles your nostril hairs. It's almost like a &2party in your nostrils&r, and all the &2little hairs are dancing&r."
+				"You breathe in the unpolluted air; it tingles your nostril hairs. It's almost like a party in your nostrils, and all the little hairs are dancing."
 				""
-				"You must now make your way to the &dQueen&r and &2plead your case&r."
+				"Get yourself together...! You must make your way to the &dQueen&r and plead your case."
 			]
 			icon: {
 				Count: 1
@@ -547,17 +545,17 @@
 		{
 			dependencies: ["6161525041DA06DE"]
 			description: [
-				"You meet with the &dQueen&r and &2explain your situation&r, from the beginning."
+				"You meet with the &dQueen&r and explain your situation, from the beginning."
 				""
-				"You talk about &eYowling Llama Village&r, and the &4ones you've lost&r, but you &2also talk about the new friends you've made&r along the way, the new village you've started; and of course, there is much discussion about the &dCult of the Void&r."
+				"You talk about &eYowling Llama Village&r, and the ones you've lost, but you also talk about the new friends you've made along the way, the new village you've started; and of course, there is much discussion about the &cCult of the Void&r."
 				""
-				"The &dQueen&r has made the decision to &2form an alliance with you&r."
+				"The &dQueen&r has made the decision to form an alliance with you."
 				""
 				"She tells you that the &aPixies&r gain their power from the &6Astral Dimension&r, and when &6Feywild&r was infiltrated, the &6Astral Dimension&r was as well."
 				""
-				"She's &2asking for your help&r to go into the &6Astral Dimension&r and find out what happened to the &dAstral Guardian&r."
+				"She's asking for your help to go into the &6Astral Dimension&r and find out what happened to the &aAstral Guardian&r."
 				""
-				"She &2gives you instruction&r about how to &2navigate the dimension&r and how to summon the &dAstral Guardian&r."
+				"She gives you instructions about how to navigate the dimension and how to summon the &aAstral Guardian&r."
 			]
 			icon: {
 				Count: 1
@@ -585,11 +583,11 @@
 		{
 			dependencies: ["30FCD781F2AF82FE"]
 			description: [
-				"Your mission inside is simple: find out what happened to the &dAstral Guardian&r — a being of &2great power that protects this realm&r."
+				"Your mission inside is simple: find out what happened to the &aAstral Guardian&r — a being of great power that protects this realm."
 				""
-				"&4Getting to the guardian, though, will be no easy feat&r."
+				"Getting to the guardian, though, will be no easy feat."
 				""
-				"This whole dimension was created by the &aPixies&r as a way to &2harness their immense magical powers&r, and the &4creatures here can be pretty powerful&r because of it. The land here is supposed to look serene and beautiful; however, due to the actions of the &dCult of the Void&r, the &4land and creatures are starting to become warped with void energy, and hostile&r."
+				"This whole dimension was created by the &aPixies&r as a way to harness their immense magical powers, and the creatures here can be pretty powerful because of it. The land here is supposed to look serene and beautiful; however, due to the actions of the &cCult of the Void&r, the land and creatures are starting to become warped with void energy, and hostile."
 				""
 				"&5&oThe monsters inside the Astral Dimension will start at level 40&r&r."
 			]
@@ -678,9 +676,9 @@
 		{
 			dependencies: ["7CC75BAF82133DE7"]
 			description: [
-				"Once inside, we're supposed to speak with the &dAmethyst Knights&r."
+				"Once inside, we're supposed to speak with the &aAmethyst Knights&r."
 				""
-				"However, in order to approach, we'll need to create &34 Astral Eyes&r to use inside the &94 Postrum Eyes&r. If we don't deactivate the &9Postrum Eyes&r, we'll be &4detected as intruders and surely killed on sight&r."
+				"However, in order to approach, we'll need to create &34 Astral Eyes&r to use inside the &94 Postrum Eyes&r. If we don't deactivate the &9Postrum Eyes&r, we'll be detected as intruders and surely killed on sight."
 				""
 				"The &dQueen&r told me that the &3Burning Shards&r needed to create &3Astral Eyes&r can be found in &eFiery Forest&r biomes."
 			]
@@ -710,10 +708,10 @@
 		{
 			dependencies: ["73B89A457AB9E16B"]
 			description: [
-				"Despite doing exactly as the &dQueen&r stated, unfortunately, the &dAmethyst Knights&r still &4registered you as an intruder&r and attacked you."
-				"Judging by their appearance, they were surely &4corrupted by Void Energy&r."
+				"Despite doing exactly as the &dQueen&r stated, unfortunately, the &cAmethyst Knights&r still registered you as an intruder and attacked you."
+				"Judging by their appearance, they were surely corrupted by &eVoid Energy&r."
 				""
-				"&oYou begin to wonder if the &2keys that they dropped might go to any chests around here&r.&r"
+				"You begin to wonder if the keys that they dropped might go to any chests around here."
 			]
 			id: "15BAD58ECC06D101"
 			rewards: [{
@@ -737,9 +735,9 @@
 		{
 			dependencies: ["15BAD58ECC06D101"]
 			description: [
-				"You found some &3Broken Amethyst Shards&r inside the chests that the &dAmethyst Knights&r were guarding."
+				"You found some &3Broken Amethyst Shards&r inside the chests that the &cAmethyst Knights&r were guarding."
 				""
-				"Something tells you that &2nobody will notice if you take them&r, so you &4pocket a few just in case&r."
+				"Something tells you that nobody will notice if you take them, so you pocket a few just in case."
 			]
 			id: "4B0144F9B711B7DE"
 			rewards: [{
@@ -797,9 +795,9 @@
 		{
 			dependencies: ["4B0144F9B711B7DE"]
 			description: [
-				"You &2almost have everything you need&r. There are &2just a few more components&r, and they are &2all underground&r."
+				"You almost have everything you need. There are just a few more components, and they are all underground."
 				""
-				"You'll need to find &3Void Ore&r to get &3Void Gems&r, which will make &33 Blocks of Void&r; &34 Void Fangs&r by killing a few &cVoid Menaces&r, which spawn on &3Void Mycelium&r &2deep underground&r; and lastly, at least &31 Void Mycelium&r."
+				"You'll need to find &3Void Ore&r to get &3Void Gems&r, which will make &33 Blocks of Void&r; &34 Void Fangs&r by killing a few &cVoid Menaces&r, which spawn on &3Void Mycelium&r deep underground; and lastly, at least &31 Void Mycelium&r."
 			]
 			id: "27471FA5DFBB4DBF"
 			rewards: [{
@@ -851,17 +849,17 @@
 				"238A1EBEE2D4BE14"
 			]
 			description: [
-				"It would seem that the &dAstral Guardian&r itself has become corrupted by &eVoid Energy&r."
+				"It would seem that the &cAstral Guardian&r itself has become corrupted by &eVoid Energy&r."
 				""
-				"You had no other choice but to &4engage in battle with it&r."
+				"You had no other choice but to engage in battle with it."
 				""
-				"Somehow, &2you won&r..."
+				"Somehow, you wor..."
 				""
-				"As the &dAstral Guardian&r fell, an &4eruption occurred that shook the very essence of reality&r. This &2didn't come from the guardian itself&r; it was just purely coincidence that it happened at the same time. But what could it be? What could have happened?"
+				"As the &cAstral Guardian&r fell, an eruption occurred that shook the very essence of reality. This didn't come from the guardian itself; it was just purely coincidence that it happened at the same time. But what could it be? What could have happened?"
 				""
-				"You better &2make your way&r to the &dQueen&r and &2report what's happened&r; hopefully, she will be okay with what you had to do..."
+				"You better make your way to the &dQueen&r and report what's happened; hopefully, she will be okay with what you had to do..."
 				""
-				"&dAstral Guardian&r has &875 flat Physical Damage&r converted to &cChaos Damage&r and &e35% Elemental Resist&r."
+				"&cAstral Guardian&r has &875 flat Physical Damage&r converted to &cChaos Damage&r and &e35% Elemental Resist&r."
 				""
 				"&5&oAstral Guardian will start at level 45&r&r."
 			]
@@ -908,17 +906,17 @@
 			description: [
 				"The &dQueen&r lets you know that she understands what you had to do."
 				""
-				"She tells you that the &dAstral Guardian&r was created to protect the dimension, but the &dCult of the Void&r corrupted it. Once the &aPixies&r recover, they can &2create a new guardian&r."
+				"She tells you that the &cAstral Guardian&r was created to protect the dimension, but the &cCult of the Void&r corrupted it. Once the &aPixies&r recover, they can create a new guardian."
 				""
-				"From the damage done to the dimension itself, it's likely that it will take &4many years to recover&r. It's also &4concerning how much magical energy&r was actually &4sapped out of the dimension&r."
+				"From the damage done to the dimension itself, it's likely that it will take many years to recover. It's also concerning how much magical energy was actually sapped out of the dimension."
 				""
-				"As for the &4fabric of reality shaking&r, the &4Pixies felt it as well&r. It sent ripples into &4every known dimension&r."
+				"As for the fabric of reality shaking, the &aPixies&r felt it as well. It sent ripples into every known dimension."
 				""
-				"The &dQueen&r tells you &4more than 75%&r of the &6Astral Dimension's&r magical reservoir &4was taken&r; it's the equivalent of about 285,000 years' worth of energy being stored."
+				"The &dQueen&r tells you more than 75% of the &6Astral Dimension's&r magical reservoir was taken; it's the equivalent of about 285,000 years worth of energy being stored."
 				""
 				"She says that the &dCult of the Void&r must be stopped—it's time to enact a plan as a collective."
 				""
-				"It's time to &2reconvene back in your village&r."
+				"It's time to reconvene back in your village."
 				""
 				"&5&oFrom here you can continue with Act V!&r&r"
 			]
@@ -981,9 +979,9 @@
 			description: [
 				"The &aPixie&r tells you that one of your stops will be finding an &eAncient Factory&r."
 				""
-				"She said that these factories were &2constructed many thousands of years ago&r. Whoever built them put up some &4serious safeguards&r."
+				"She said that these factories were constructed many thousands of years ago. Whoever built them put up some serious safeguards."
 				""
-				"It's &4one of those safeguards&r you need to &2retrieve some parts&r from."
+				"It's one of those safeguards you need to retrieve some parts from."
 			]
 			id: "4B13BACB32631E4E"
 			rewards: [{
@@ -1007,9 +1005,9 @@
 		{
 			dependencies: ["1076EAAF2F4486EA"]
 			description: [
-				"The &aPixie&r told you that &eCursed Pyramids&r have been &2part of the land for billions of years&r, even before the &ePlastimpocalypse&r — from a time when a &4different type of beast roamed the land&r."
+				"The &aPixie&r told you that &eCursed Pyramids&r have been part of the land for billions of years, even before the &ePlastimpocalypse&r — from a time when a different type of beast roamed the land."
 				""
-				"You'll need to find one, activate the &dAncient Remnant&r inside (which should &2look like a large dinosaur&r), then take the &2Sandstorm in a Bottle&r that it guards."
+				"You'll need to find one, activate the &cAncient Remnant&r inside (&owhich should look like a large dinosaur&r), then take the &3Sandstorm in a Bottle&r that it guards."
 			]
 			id: "3C78258E5FA55DE7"
 			rewards: [{
@@ -1032,7 +1030,7 @@
 		}
 		{
 			dependencies: ["4B13BACB32631E4E"]
-			description: ["In order to &2activate&r the &dHarbinger&r, you're going to need to &2click&r on it with a &3Nether Star&r."]
+			description: ["In order to activate the &cHarbinger&r, you're going to need to click on it with a &3Nether Star&r."]
 			id: "54FA108603E8DBE3"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 3500"
@@ -1058,9 +1056,9 @@
 				""
 				"With your &3Brush&r, head into the &eCurse Pyramid&r and look for any &3Suspicious Sand&r."
 				""
-				"Brush away the &3Suspicious Sand&r until you find a &3Necklace of the Desert&r. You'll &2need this item to activate the next boss&r."
+				"Brush away the &3Suspicious Sand&r until you find a &3Necklace of the Desert&r. You'll need this item to activate the next boss."
 				""
-				"The &dAncient Remnant&r has &4two guards&r with it: &dWadjet&r and the &dKoboldiator&r."
+				"The &cAncient Remnant&r has two guards with it: &cWadjet&r and the &cKoboldiator&r."
 			]
 			id: "5C725AFB88690002"
 			rewards: [{
@@ -1096,15 +1094,15 @@
 		{
 			dependencies: ["4B13BACB32631E4E"]
 			description: [
-				"&dThe Harbinger&r has two phases."
+				"&cThe Harbinger&r has two phases."
 				""
-				"This boss will &2switch between&r Missile, Rocket, and Laser mode."
+				"This boss will switch between Missile, Rocket, and Laser mode."
 				""
-				"It will periodically &4power up and release a laser onto enemies&r; this is a good time to &2run and heal&r. The boss will also do a &4charge attack that will destroy blocks in its path&r."
+				"It will periodically power up and release a laser onto enemies; this is a good time to run and heal. The boss will also do a charge attack that will destroy blocks in its path."
 				""
-				"You can disable the &dHarbinger&r by getting it to hit one of the &3EMP blocks&r in the room with its &eDeath Laser&r ability."
+				"You can disable the &cHarbinger&r by getting it to hit one of the &eEMP Blocks&r in the room with its &eDeath Laser&r ability."
 				""
-				"&2At 50%&r, the &dHarbinger&r will enter the &4second phase&r and become &4shielded&r. This will cause it to be &4immune to Bow and Arrow, and give it additional Health Regeneration&r."
+				"At 50%, the &cHarbinger&r will enter the second phase and become shielded. This will cause it to be &eimmune&r to &3Bow and Arrow&r, and give it additional &eHealth Regeneration&r."
 			]
 			icon: "kubejs:p3_chat"
 			id: "3E1CF8EB3DA3A779"
@@ -1128,19 +1126,19 @@
 		{
 			dependencies: ["3C78258E5FA55DE7"]
 			description: [
-				"After you activate the boss, it will have &4several abilities&r to keep an eye on:"
+				"After you activate the boss, it will have several abilities to keep an eye on:"
 				""
-				"&eCharge&r: You'll know this is coming if you &4hear two slow stomps&r, often caused by &4getting too far away from the boss&r. &2Run sideways&r from the boss to avoid him."
+				"&eCharge&r: You'll know this is coming if you hear two slow stomps, often caused by getting too far away from the boss. Run sideways from the boss to avoid him."
 				""
-				"&eTornados&r: Listen for a &4very large roar&r, and &2keep your distance from the boss&r until the tornados pass."
+				"&eTornados&r: Listen for a very large roar, and keep your distance from the boss until the tornados pass."
 				""
-				"&eBite&r: You &4will be stunned&r for a period of time &4if this lands on you&r. You can &2use a shield to block this&r."
+				"&eBite&r: You will be stunned for a period of time if this lands on you. You can use a shield to block this."
 				""
-				"&eTail Whip&r: The boss will look like it's &4about to pounce&r. When it appears this way, the &eTail Whip&r is coming. You can &2throw some&r &3Ender Pearls&r &2if the ability lands on you&r, in an effort to get out of it without being stunned too long."
+				"&eTail Whip&r: The boss will look like it's about to pounce. When it appears this way, the &eTail Whip&r is coming. You can throw some &3Ender Pearls&r if the ability lands on you, in an effort to get out of it without being stunned too long."
 				""
-				"&eShockwave&r: The &4boss will stamp his foot&r on the ground. The &2shockwave can be jumped over with precision timing&r. If you don't make the jump, you will be &4pulled toward the boss&r."
+				"&eShockwave&r: The boss will stamp his foot on the ground. The shockwave can be jumped over with precision timing. If you don't make the jump, you will be pulled toward the boss."
 				""
-				"&eFalling Sand&r: If you &4see blocks in the air&r, &2dodge out of them&r."
+				"&eFalling Sand&r: If you see blocks in the air, dodge out of them."
 			]
 			icon: "kubejs:p3_chat"
 			id: "79AEA6F77E00CEF4"
