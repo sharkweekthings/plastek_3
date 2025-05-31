@@ -14,16 +14,16 @@
 	quests: [
 		{
 			description: [
-				"For this section we're only going to some storage basics of AE2."
+				"For this section we're only going to some storage basics of &6AE2&r."
 				""
-				"If you want to learn more advanced AE2 you can read their &bofficial source&r at &ahttps://appliedenergistics.org&r, "
+				"If you want to learn more advanced &6AE2&r you can read their &bofficial source&r at &ahttps://appliedenergistics.org&r, "
 				""
 				"or "
 				""
 				"Check out &bChosen Architect's Guide to Applied Energistics 2&r: &ahttps://www.youtube.com/watch?v=ay0Js2TkI1E&r"
 			]
 			id: "2C8346B524BDED63"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "1574C70AE2E3DE80"
 				title: "Ok"
@@ -71,7 +71,7 @@
 				"These will be put inside your &9Inscribers&r to allow you to create &3Printed Silicon&r and various circuits."
 			]
 			id: "101BF6AB164779BA"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "2A829A5FE889BC5E"
 				title: "Ok"
@@ -151,7 +151,7 @@
 				"If you're not progressed enough for &6The End&r, you can always buy some &3Azure Silver Dust&r from the &9Market&r!"
 			]
 			id: "548134C655C0099F"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "659CA97B2E35D306"
 				title: "Ok"
@@ -261,7 +261,7 @@
 			dependencies: ["2C8346B524BDED63"]
 			description: ["Your main hub will consist of the &9Controller&r, and at least a basic &3ME Terminal&r. "]
 			id: "2B2F8641381D7441"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "7339880B784E914E"
 				title: "Ok"
@@ -558,12 +558,12 @@
 		{
 			dependencies: ["2C8346B524BDED63"]
 			description: [
-				"A basic Auto Crafting setup would involve a few &3Crafting Storage&r, a &3Co-Processing Unit&r, &3Molecular Assemblers&r, and some &3ME Pattern Providers&r."
+				"A basic &eAuto Crafting&r setup would involve a few &3Crafting Storage&r, a &3Co-Processing Unit&r, &3Molecular Assemblers&r, and some &3ME Pattern Providers&r."
 				""
 				"The video in the previous quest is a great guide on helping you build one if you aren't sure how."
 			]
 			id: "7587FF4328E1616E"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "0C4B4AD202FC3F76"
 				title: "Ok"
@@ -1021,12 +1021,12 @@
 		}
 		{
 			description: [
-				"Lets you access your Network from far away, and eventually across dimensions! "
+				"Lets you access your network from far away, and eventually across dimensions! "
 				""
 				"Each &3Wireless Card&r added increses the power usage. "
 			]
 			id: "3DF7FB9B6773720E"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "678AC5E272AB5778"
 				title: "Ok"
@@ -1037,9 +1037,9 @@
 			y: -9.5d
 		}
 		{
-			description: ["Basic Upgrade Cards for the Applied Energistics 2 network."]
+			description: ["&3Basic Upgrade Cards&r for the &6AE2&r network."]
 			id: "5C348A69A6BA0B77"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "397ACCA2B48AB0D6"
 				title: "Ok"
@@ -1050,9 +1050,9 @@
 			y: -6.5d
 		}
 		{
-			description: ["Advanced Upgrade Cards for the Applied Energistics 2 network."]
+			description: ["&3Advanced Upgrade Cards&r for the &6AE2&r network."]
 			id: "7959860BAD4D97CE"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "6A9E5709EFCBDE00"
 				title: "Ok"
@@ -1238,9 +1238,9 @@
 			y: 5.5d
 		}
 		{
-			description: ["The ME Requester lets you keep specific items in stock from your network."]
+			description: ["The &9ME Requester&r lets you keep specific items in stock from your network."]
 			id: "66D1BD51D69AC9DD"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "5E8492A4844D430D"
 				title: "Ok"
@@ -1278,7 +1278,7 @@
 		}
 		{
 			dependencies: ["548134C655C0099F"]
-			description: ["Need to power up your system, but you're too early in the game for that and &chave no power&r? No worries. With the &9Crystal Resonance Generator&r, you can &agenerate up to 20AE/t.&r"]
+			description: ["Need to power up your system, but you're too early in the game for that and have no power? No worries. With the &9Crystal Resonance Generator&r, you can generate up to &e20AE/t&r."]
 			id: "6DA2FFE437DF7C73"
 			tasks: [{
 				id: "34FE8635082CF146"

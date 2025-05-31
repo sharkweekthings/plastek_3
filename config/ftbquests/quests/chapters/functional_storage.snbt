@@ -267,7 +267,7 @@
 				"The &3Configuration Tool&r has a few functions, but you'll mostly use it for locking your drawers. "
 			]
 			id: "39BDF3F01D4BA50B"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "20C35B3B57ADF9CE"
 				title: "Ok"

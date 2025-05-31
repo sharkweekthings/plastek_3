@@ -15,11 +15,11 @@
 		{
 			dependencies: ["336A24BEB4CBD5EB"]
 			description: [
-				"When you arrived &2back at your village&r, you were surprised to see &dRyan&r there."
+				"When you arrived back at your village, you were surprised to see &dRyan&r there."
 				""
-				"&dRyan&r, &dShaun&r, &dEmily&r, and &dTim&r were all together, &4discussing the massive quake&r that rippled through all realms."
+				"&dRyan&r, &dShaun&r, &dEmily&r, and &dTim&r were all together discussing the massive quake that rippled through all realms."
 				""
-				"You let everyone know &2what happened after you fought&r the &dAstral Guardian&r and how the &2events are likely connected&r through the &dCult of the Void&r, then you introduced your new allies to the town."
+				"You let everyone know what happened after you fought the &cAstral Guardian&r and how the events are likely connected through the &cCult of the Void&r, then you introduced your new &aPixie&r allies to the town."
 			]
 			icon: {
 				Count: 1
@@ -47,19 +47,19 @@
 		{
 			dependencies: ["7EA63909997D6C3D"]
 			description: [
-				"In the morning, &2everyone convened&r for breakfast and started to &2discuss options for a plan of attack&r."
+				"In the morning, everyone convened for breakfast and started to discuss options for a plan of attack."
 				""
-				"Unfortunately, things were &4interrupted&r as once more the &4fabric of reality started shaking&r."
+				"Unfortunately, things were interrupted as once more the fabric of reality started shaking."
 				""
-				"This time, it &4brought all of the Pixies to their knees&r."
+				"This time, it brought all of the &aPixies&r to their knees."
 				""
-				"You look over and &2assist the ones you can back to their feet&r."
+				"You look over and assist the ones you can back to their feet."
 				""
-				"&dThe Queen&r says she &2knows exactly what's happening&r."
+				"&dThe Queen&r says she knows exactly what's happening."
 				""
-				"She says that the &2last time she felt this&r specific magical energy was when the &2Astral Dimension was created&r. However, &4this feels wrong&r. Warped... &eVoid Energy&r must be involved."
+				"She says that the last time she felt this&r specific magical energy was when the &6Astral Dimension&r was created. However, this feels wrong... Warped... &eVoid Energy&r must be involved."
 				""
-				"&dThe Queen&r &4seems weaker&r as she tells you that &4she can feel her magic starting to drain&r, this time at a more &4rapid pace&r."
+				"&dThe Queen&r seems weaker as she tells you that she can feel her magic starting to drain, this time at a more rapid pace."
 			]
 			icon: {
 				Count: 1
@@ -108,7 +108,7 @@
 		{
 			dependencies: ["20A30498BD2020C5"]
 			description: [
-				"&dNetherite Monstrosity&r has &850 flat Physical Damage&r converted to &cFire Damage&r and &c75% Fire Resistance&r."
+				"&cNetherite Monstrosity&r has &850 flat Physical Damage&r converted to &4Fire Damage&r and &475% Fire Resistance&r."
 				""
 				"&5&oThe Netherite Monstrosity will start at level 50&r&r."
 			]
@@ -174,7 +174,7 @@
 		{
 			dependencies: ["7949FA7849F2A6D9"]
 			description: [
-				"&dMaledictus&r has &825 flat Physical Damage&r converted to &9Water Damage&r and &850 flat Physical Damage&r converted to &dChaos Damage&r, and &950% Water Resistance&r."
+				"&cMaledictus&r has &825 flat Physical Damage&r converted to &9Water Damage&r and &850 flat Physical Damage&r converted to &dChaos Damage&r, and &950% Water Resistance&r."
 				""
 				"&5&oMaledictus will start at level 50&r&r."
 			]
@@ -271,11 +271,11 @@
 			description: [
 				"Take the &3Ice Crystal&r, &34 Insanium Essence&r, &32 Royal Pixie Dust&r, and &31 Cursium&r to the &6Mystical Agriculture&r &9Infusion Altar&r."
 				""
-				"You should be able to infuse the &dQueen's&r magic into the &3Ice Crystal&r, which &2should hopefully act as a key to get into this new dimension&r."
+				"You should be able to infuse the &dQueen's&r magic into the &3Ice Crystal&r, which should hopefully act as a key to get into this new dimension."
 				""
 				"For the &ePortal Frame&r, just construct it in the same basic shape as a &eNether Portal&r."
 				""
-				"&dThe Queen&r is requesting that you &2enter the dimension&r and take some &2samples of the wildlife and terrain&r—if there is any."
+				"&dThe Queen&r is requesting that you enter the dimension and take some samples of the wildlife and terrain—if there is any."
 				""
 				"&5&oThe monsters inside Setback will start at level 55&r&r."
 			]
@@ -318,21 +318,19 @@
 		{
 			dependencies: ["60B581E389E8085A"]
 			description: [
-				"&dThe Queen&r tells you that she &2can create a key&r that will &2open a portal to the dimension&r using her connection to the dimension."
+				"&dThe Queen&r tells you that she can create a key that will open a portal to the dimension using her connection to the dimension through the stored magical energy."
 				""
-				"Unfortunately, once you go beyond the portal, &4anything could happen&r. You could be stepping into an endless void or directly into a monster's belly. It &4could be anything or anywhere&r."
+				"Unfortunately, once you go beyond the portal, anything could happen. You could be stepping into an endless void or directly into a monster's belly. It could be anything or anywhere."
 				""
-				"She says the last time &2any new dimensions were created, discovered, or opened&r was when the &2Chaos Dragon was defeated&r, which ultimately opened up access to many new dimensions."
+				"She says the last time any new dimensions were created, discovered, or opened was when the &cChaos Dragon&r was defeated, which ultimately opened up access to many new dimensions."
 				""
-				"&4Unfortunately&r, you don't think &4anything good is going to come of this one&r."
+				"Unfortunately, you don't think anything good is going to come of this one."
 				""
-				"Despite all this, you &2agree to take up the mission&r."
+				"Despite all the dangers, you agree to take up the mission."
 				""
-				"&dThe Queen&r tells you the only way to &2create a key and portal&r is to obtain some incredibly hard-to-get &2materials that must be infused with Insanium, then blessed by Pixie magic&r."
+				"&dThe Queen&r tells you the only way to create a key and portal is to obtain some incredibly hard-to-get materials that must be infused with &3Insanium&r, then blessed by &ePixie Magic&r."
 				""
-				"To create a &ePortal Frame&r and &3Nanta Star&r, you're going to &2need a few things from 3 separate monsters&r. You should be able to &2locate the structures or spawns&r on your &3Explorer's Compass&r."
-				""
-				"She is requesting that you enter the dimension and take some samples of the wildlife and terrain—if there is any."
+				"To create a &9Portal Frame&r and &3Nanta Star&r, you're going to need a few things from 3 separate monsters. You should be able to locate the structures or spawns on your &3Explorer's Compass&r. "
 			]
 			icon: {
 				Count: 1
@@ -360,7 +358,7 @@
 		{
 			dependencies: ["14527A39D456F6C1"]
 			description: [
-				"&dFrostmaw&r has &850 flat Physical Damage&r converted to &9Water Damage&r and &935% Water Resistance&r."
+				"&cFrostmaw&r has &850 flat Physical Damage&r converted to &9Water Damage&r and &935% Water Resistance&r."
 				""
 				"&5&oFrostmaw will start at level 50&r&r."
 			]
@@ -405,9 +403,9 @@
 		{
 			dependencies: ["14527A39D456F6C1"]
 			description: [
-				"Your main objective is the &3Ice Crystal&r, which usually rests in a &dFrostmaw&r's hand."
+				"Your main objective is the &3Ice Crystal&r, which usually rests in a &cFrostmaw's&r hand."
 				""
-				"If you take the &4stones off your feet&r and try to &2be sneaky enough&r, you might be able to &4avoid a fight with the beast&r."
+				"If you take the stones off your feet and try to be sneaky enough, you might be able to avoid a fight with the beast."
 			]
 			icon: {
 				Count: 1
@@ -467,11 +465,11 @@
 		{
 			dependencies: ["4A15E187C9741B83"]
 			description: [
-				"&dThe Queen&r handed me some of her &3Royal Pixie Dust&r. It &2smells magical&r — almost like what one &2would imagine unicorn poop to smell like&r."
+				"&dThe Queen&r handed me some of her &3Royal Pixie Dust&r. It smells magical — almost like what one would imagine unicorn poop to smell like."
 				""
-				"You &2take a deep breath&r and get a &4little lightheaded&r."
+				"You take a deep breath and get a little lightheaded."
 				""
-				"You should &4probably stop sniffing&r &2Pixie Dust&r, man."
+				"You should probably stop sniffing &3Pixie Dust&r, man."
 			]
 			icon: {
 				Count: 1
@@ -723,15 +721,15 @@
 		{
 			dependencies: ["03D3EED70D7C3A8C"]
 			description: [
-				"You tell the &dQueen&r about the landscape, the monsters you killed, about a few items you gathered, and the &2strange orb&r you found."
+				"You tell the &dQueen&r about the landscape, the monsters you killed, about a few items you gathered, and the strange orb you found."
 				""
-				"She &2focuses on the orb&r and tells you that it's an &eEye to The End&r. She says if only you &2had another 11 eyes, you could get to&r &6The End&r before the &dCult of the Void&r and kill the &cEnder Dragon&r before they can &4infuse the Chaos Dragon's soul into it&r."
+				"She focuses on the orb and tells you that it's an &3Eye&r to &6The End&r. She says if only you had another &311 Eyes&r, you could get to &6The End&r before the &cCult of the Void&r and kill the &cEnder Dragon&r before they can infuse the &cChaos Dragon's&r soul into it."
 				""
-				"You tell her that throughout your adventure, &2you've been finding orbs in various dimensions&r, and even took one from one of your villa... a skeleton that had a glowing green eye."
+				"You tell her that throughout your adventure, you've been finding orbs in various dimensions, and even took one from one of your villa... a skeleton that had a glowing green eye, deep inside a cave, in another dimension."
 				""
-				"&oYou could see in the distant background near the Tavern, a man with an eyepatch entering the building. You tell yourself you saw nothing.&r"
+				"&oYou could see in the distant background near the &eTavern&r, a man with an eyepatch entering the building. You tell yourself you saw nothing, and move on.&r"
 				""
-				"As you refocus on the conversation, the &dQueen&r was just about to &2tell you that all you need is to either find an&r &eEnd Portal Frame&r or attain the frame pieces some other way, and build your own."
+				"As you refocus on the conversation, the &dQueen&r was just about to tell you that all you need is to either find an &eEnd Portal Frame&r or attain the frame pieces some other way, and build your own."
 			]
 			id: "699199EA3FA6DE99"
 			rewards: [{
@@ -784,21 +782,21 @@
 		{
 			dependencies: ["19234246C5D4818A"]
 			description: [
-				"As you arrived at the surface, you come &4face to face with a massive flying dragon&r."
+				"As you arrived at the surface, you come face to face with a massive flying dragon."
 				""
-				"A bright purple aura fades from it as it &4begins to roar in what appears to be agony&r. The roar was &4so powerful that it knocked you back 3 blocks&r."
+				"A bright purple aura fades from it as it begins to roar in what appears to be agony. The roar was so powerful that it knocked you back 3 blocks."
 				""
-				"As you regain your footing, you &2see 3 figures in purple cloaks about 30 blocks in front of you&r. As you start to run toward them, the &dEnder Dragon&r roars again, &4pushing you back once more&r."
+				"As you regain your footing, you see 3 figures in purple cloaks about 30 blocks in front of you. As you start to run toward them, the &cEnder Dragon&r roars again, pushing you back once more."
 				""
-				"&oThe 3 figures seem to enter through some type of portable teleportation device.&r"
+				"The 3 figures seem to enter through some type of portable teleportation device."
 				""
-				"You look up as an &4enormous explosion of purple energy&r takes place high above in the air, causing the &4entire dimension to light up with void energy&r, which caused &2everything to appear and taste like purple&r."
+				"You look up as an enormous explosion of purple energy takes place high above in the air, causing the entire dimension to light up with void energy, which caused everything to appear and taste like purple."
 				""
-				"As the energy clears, the &2dragon emerges from the cloud&r of smoke in the sky."
+				"As the energy clears, the dragon emerges from the cloud of smoke in the sky."
 				""
-				"You see the &4dragon's appearance has changed&r. When you saw it moments ago, it &4had 1 head—now it has 3&r. Clearly, the cult was successful in merging the &dChaos Dragon's&r soul to the &dEnder Dragon&r."
+				"You see the dragon's appearance has changed. When you saw it moments ago, it had 1 head—now it has 3. Clearly, the cult was successful in merging the &cChaos Dragon's&r soul to the &cEnder Dragon&r."
 				""
-				"You &2take a deep breath&r, try to swallow, but your &4mouth is dry&r. Then, you &4draw your weapon and prepare yourself for the battle&r."
+				"You take another deep breath, and try to swallow, but your mouth is dry. Then, you draw your weapon and prepare yourself for the battle."
 				""
 				"&5&oThe Ender Dragon will start at level 60&r&r."
 			]
@@ -843,13 +841,13 @@
 		{
 			dependencies: ["025597A8B0943247"]
 			description: [
-				"As you were traveling through the portal, &4you felt a painful vibration coursing through your body&r."
+				"As you were traveling through the portal, you felt a painful vibration coursing through your body."
 				""
-				"You have &4no idea what happened&r; you just know that &4every nerve in your body feels like it's on fire&r."
+				"You have no idea what happened; you just know that every nerve in your body feels like it's on fire."
 				""
-				"As &2you emerge on the other side&r, your feet firmly on the &3End Stone&r, you &4hear a roaring&r of a beast you never imagined yourself seeing face to face."
+				"As you emerge on the other side&r, your feet firmly on the &3End Stone&r, you hear a roaring of a beast you never imagined yourself seeing face to face."
 				""
-				"You &2take a deep breath&r, your weapon at your side—ready to do battle with the &dEnder Dragon&r."
+				"You take a deep breath, your weapon at your side—ready to do battle with the &cEnder Dragon&r."
 			]
 			icon: {
 				Count: 1
@@ -879,7 +877,7 @@
 			description: [
 				"This pack uses the mod &6Ender Trigon&r, which changes the &dEnder Dragon&r significantly."
 				""
-				"The &2dragon should strafe the player more often&r and follow up with &21 of 4 different attacks&r:"
+				"The dragon should strafe the player more often and follow up with 1 of 4 different attacks:"
 				""
 				"&eCharge&r – Includes a flaming breath, shooting balls of fire at the player during a charge attack."
 				""
@@ -887,7 +885,7 @@
 				""
 				"&eCrash&r – Will dive at the player and drill down into the blocks below, which will cause explosions and fling the blocks into the air."
 				""
-				"&eDive Bomb&r – Drops eggs near the player, which will spawn baby Ender Dragons."
+				"&eDive Bomb&r – Drops eggs near the player, which will spawn baby &cEnder Dragons&r."
 			]
 			icon: {
 				Count: 1
@@ -914,15 +912,15 @@
 		{
 			dependencies: ["7E76D8E2927D53D7"]
 			description: [
-				"After the battle, you &2see something sparkling in the distance&r near where the cult members vanished."
+				"After the battle, you see something sparkling in the distance near where the cult members vanished."
 				""
-				"You walk over to it and &2pick up the item on the ground&r."
+				"You walk over to it and pick up the item on the ground."
 				""
-				"As you're handling it, you &4accidentally press a button&r, and a &2portal emerges&r."
+				"As you're handling it, you accidentally press a button, and a portal emerges."
 				""
-				"You &4aren't sure where it leads&r, but you &2know that it doesn't lead back to your village&r."
+				"You aren't sure where it leads, but you know that it doesn't lead back to your village."
 				""
-				"You put the &2device in your backpack&r and make your way back home."
+				"You put the device in your backpack and make your way back home, for now."
 			]
 			icon: {
 				Count: 1
@@ -952,15 +950,15 @@
 		{
 			dependencies: ["27B2A3A08EC5EF8A"]
 			description: [
-				"You call a &2meeting with the town&r and &2tell them what happened&r with the cult, the dragon, and the device you found."
+				"You call a meeting with the town and tell them what happened with the cult, the dragon, and the device you found."
 				""
-				"&dThe Queen&r asks you to &2hand her the item&r, and she inspects it."
+				"&dThe Queen&r asks you to hand her the item, and she inspects it."
 				""
-				"She says that the device is called a &3Tempad&r, and it has &2several locations programmed into it&r."
+				"She says that the device is called a &3Tempad&r, and it has several locations programmed into it."
 				""
-				"She tells you that it's &2time for you to rest&r and let the &aPixies&r take care of things from here."
+				"She tells you that it's time for you to rest and let the &aPixies&r take care of things from here."
 				""
-				"She &4erases the locations&r and explains that you &2can use this device to travel between saved locations&r, and it &2should work interdimensionally&r as well."
+				"She erases the locations and explains that you can use this device to travel between saved locations, and it should work interdimensionally as well."
 			]
 			icon: {
 				Count: 1
@@ -988,17 +986,17 @@
 		{
 			dependencies: ["3907CC2E404A2C31"]
 			description: [
-				"The next morning, &dThe Queen&r tells you that because of the &3Tempad&r, she was able to make a truce with the other &dQueen&r, and both &dTitania&r and &dMab&r worked together to &2raise multiple armies&r of &aPixies&r and &aDwarves&r; then &2sent them to each of the locations&r and was able to &2successfully sever the head of every&r &dCult of the Void&r member and leader."
+				"The next morning, &dThe Queen&r tells you that because of the &3Tempad&r you found, she was able to make a truce with the other &dQueen&r, and both &dTitania&r and &dMab&r worked together to raise multiple armies of &aPixies&r and &aDwarves&r; then sent them to each of the locations and was able to successfully sever the head of every &cCult of the Void&r member and leader."
 				""
-				"The &2world was once again safe&r, and this time &2you were the hero&r. &2Your name ever etched into history&r."
+				"The world was once again safe, and this time you were the hero. Your name ever etched into history."
 				""
-				"That night, &2friends from all over the realms showed up&r. &dLolli&r and her people &2showed up with delicious treats&r and &4worked tirelessly for hours&r with &dShaun&r to &2prepare a feast fit for royalty&r."
+				"That night, friends from all over the realms showed up. &dLolli&r and her people showed up with delicious treats and worked tirelessly for hours with &dShaun&r to prepare a feast fit for royalty."
 				""
 				"Even the folks from the &eCalming Skies&r village showed up for the festivities."
 				""
-				"The last to show up to the party was the &dYorkingtons&r. &2Almost every letter showed up&r, which caused a whole lot of confusion during the evening. Letter &dV&r was &4not able to make the festivities&r. &dCoxworth&r said that &dCoxworth V. Yorkington&r was &2off on an adventure trying to uncover&r another &6Everdawn&r portal that was &2rumored to exist&r."
+				"The last to show up to the party was the &dYorkingtons&r. Almost every letter showed up, which caused a whole lot of confusion during the evening. Letter &dV&r was not able to make the festivities. &dCoxworth&r said that &dCoxworth V. Yorkington&r was off on an adventure trying to uncover another &6Everdawn&r portal that was rumored to exist."
 				""
-				"Everyone throughout the night &2danced, drank, and enjoyed the party into the early hours of the morning&r."
+				"Everyone throughout the night danced, drank, and enjoyed the party into the early hours of the morning."
 			]
 			icon: {
 				Count: 1
@@ -1026,13 +1024,13 @@
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
 			description: [
-				"&dDr. Emily&r &2eventually mastered the mystical arts of agriculture and medicine&r. She graduated &2top of her class&r, with &41 villager closely behind&r her scores."
+				"&dDr. Emily&r eventually mastered the mystical arts of agriculture and medicine. She graduated top of her class, with only 1 other villager closely behind her scores."
 				""
-				"She went on an &2away mission&r to what is supposedly the &6Twilight Forest&r, even though that &2dimension was supposed to be lost during&r the &ePlastimpocalypse&r."
+				"She went on an away mission to what is supposedly the &6Twilight Forest&r, even though that dimension was supposed to be lost during the &ePlastimpocalypse&r."
 				""
-				"Whether it's actually the &6Twilight Forest&r &2or another dimension&r remains to be seen, but &2she wanted to be there in case anyone got hurt&r."
+				"Whether it's actually the &6Twilight Forest&r or another dimension remains to be seen, but she wanted to be there in case anyone got hurt."
 				""
-				"She left the town in the &2capable hands of her mentor&r, &dDr. Mandi Mandibles&r, who went on to be the &2first doctor in the 88 currently known dimensions&r to successfully transplant an &3Alpaca's Head&r onto the &dWandering Merchant&r, which &2saved the life&r of the merchant and allowed him to become the &2first&r &3Wandering Merchant&r to achieve the &2goal of 100 billion currencies&r."
+				"She left the town in the capable hands of her mentor &dDr. Mandi Mandibles&r, who went on to be the first doctor in the 88 currently known dimensions to successfully transplant an &3Alpaca's Head&r onto the &dWandering Merchant&r, which saved the life of the merchant and allowed him to become the first &3Wandering Merchant&r to achieve the goal of 100 billion currencies."
 			]
 			icon: {
 				Count: 1
@@ -1060,11 +1058,11 @@
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
 			description: [
-				"&dTim&r &2stayed in the village&r and opened &dThe Arcane School For People That Have Money&r."
+				"&dTim&r stayed in the village and opened &eThe Arcane School For People That Have Money&r."
 				""
-				"It was a &2place for the magically inclined to learn magic&r — &4for a pretty penny, of course&r."
+				"It was a place for the magically inclined to learn magic — for a pretty penny, of course."
 				""
-				"People from &2all over the land came to train&r under &dTim&r, and he was &2happy to take their coin&r."
+				"People from all over the land came to train under &dTim&r, and he was happy to take their coin."
 			]
 			icon: {
 				Count: 1
@@ -1092,13 +1090,13 @@
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
 			description: [
-				"&dShaun&r became the top &eDiamond Chef&r in over &237 different dimensions&r."
+				"&dShaun&r became the top &eDiamond Chef&r in over 48 different dimensions."
 				""
-				"His culinary expertise was impeccable; he &2had a dish for every occasion&r."
+				"His culinary expertise was impeccable; he had a dish for every occasion."
 				""
-				"Someone in the family passed away? He had a dish that would literally make you smile and feel happy. Feeling too happy? He had a dish that would bring you so far down it felt like you were walking on Bedrock."
+				"Someone in the family passed away? He had a dish that would literally make you smile and feel happy. Feeling too happy? He had a dish that would bring you so far down it felt like you were walking on &3Bedrock&r. You think of it, he can do it."
 				""
-				"Now that you think about it, &dShaun&r &4might be using his delicious food to poison or drug people&r..."
+				"Now that you think about it, &dShaun&r might be using his delicious food to poison or drug people..."
 				""
 				"&oShould you say something...?&r"
 			]
@@ -1128,17 +1126,17 @@
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
 			description: [
-				"&dRyan&r and &dGertrude&r &2lived fairly happily&r as their &2village continued to thrive&r, create new technologies, and bring existing technologies back."
+				"&dRyan&r and &dGertrude&r lived fairly happily as their village continued to thrive, create new technologies, and bring existing technologies back."
 				""
-				"Unfortunately, one night, little &dHumphrey&r got his &4leg stuck in some crushing wheels&r, but &dRyan&r was able to &2create a cybernetic leg replacement&r. Then &dHumphrey&r got his &4hand jammed in the gears of the leg&r and &4lost his hand&r."
+				"Unfortunately, one night, little &dHumphrey&r got his leg stuck in some crushing wheels, but &dRyan&r was able to create a cybernetic leg replacement. Then &dHumphrey&r got his hand jammed in the gears of the leg and lost his hand."
 				""
-				"&dRyan&r started to &4work tirelessly each night&r trying to create a hand replacement."
+				"&dRyan&r started to work tirelessly each night trying to create a hand replacement."
 				""
-				"One time, you went to visit &dRyan's&r village, and as you approached his door, &4you heard it&r..."
+				"One time, you went to visit &dRyan's&r village, and as you approached his door, you heard it..."
 				""
 				"BEEP.. CLANK. BLIPBLEEEP... inaudible crushing noises... BBZZZZZZTTT... the sound of failing, followed by a loud forced chiming sound. "
 				""
-				"You &2opted to put your cloak on your head and continue walking&r. You knew there was a reason you &4didn't want to come back&r."
+				"You opted to put your cloak on your head and continue walking. You knew there was a reason you didn't want to come back."
 			]
 			icon: {
 				Count: 1
@@ -1168,9 +1166,9 @@
 			description: [
 				"&dCoxworth V. Yorkington&r eventually found the &6Everdawn&r portal they were seeking."
 				""
-				"They &2set up their house deep in a snowy biome&r to &2forever be a hermit&r."
+				"They set up their house deep in a snowy biome to forever be a hermit."
 				""
-				"The &2town would deliver produce and baked goods&r to all of the &dYorkingtons&r every harvest. However, most of the &dYorkingtons&r didn't like the crops or baked goods, so they would &2feed the food to their pet&r &agrizzly bear&r named &dFoe&r."
+				"The town would deliver produce and baked goods to all of the &dYorkingtons&r every harvest. However, most of the &dYorkingtons&r didn't like the crops or baked goods, so they would feed the food to their pet &aGrizzly Bear&r named &dFoe&r."
 			]
 			icon: {
 				Count: 1
@@ -1207,11 +1205,11 @@
 				"464B7D793B1D05A4"
 			]
 			description: [
-				"All I have to say from here is &2thank you&r!"
+				"All I have to say from here is thank you!"
 				""
-				"Thank you for taking the time to play this modpack, and an &2extra thank you if you took the time to read through my nonsense&r."
+				"Thank you for taking the time to play this modpack, and an extra thank you if you took the time to read through my nonsense of a story."
 				""
-				"From here, the activities you have are any &eAscendancy&r quests you may not have finished, &6Mine and Slash&r &eMaps&r as the &2main content for Endgame&r. &6Ancient Obelisk&r, &6The Harvest&r, and &6Dungeon Realms&r are &2other alternatives to keep on leveling&r while you &2build your&r &6Minecolonies&r (&oif you chose to make one&r)."
+				"From here, the activities you have are any &eAscendancy&r quests you may not have finished, &6Mine and Slash&r &eMaps&r as the main content for &eEndgame&r. &6Ancient Obelisk&r, &6The Harvest&r, and &6Dungeon Realms&r are other alternatives to keep on leveling while you build your &6Minecolonies&r (&oif you chose to make one&r)."
 			]
 			icon: {
 				Count: 1
@@ -1240,11 +1238,13 @@
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
 			description: [
-				"&dLolli&r and her people eventually &4got into another dispute&r with the penguin clan, all under &4one united banner&r, renamed the &dPopsicle Clan&r."
+				"&dLolli&r and her people eventually got into another dispute with the penguin clan. This time, all under &4one united banner&r, renamed the &dIce Cream Cake Clan&r."
 				""
-				"This &4led to an all-out war&r. &dLolli&r eventually &2requested help&r; they were &2trained to fight and pushed back the penguin army&r."
+				"This led to an all-out war. &dLolli&r eventually requested help; they were trained to fight and pushed back the penguin army."
 				""
-				"The &2penguins eventually surrendered&r after &4many penguin lives were lost&r. Peace negotiations took many months, but now &dLolli&r is &2proud to call the remaining penguins her people as well&r."
+				"The penguins eventually surrendered after many penguin lives were lost. Peace negotiations took many months, but now &dLolli&r is proud to call the remaining penguins her people as well."
+				""
+				"You also learn that \"&dPoppins&r\" is what her people are, not her last name. This whole time, you assumed her name was &dLolli Poppins&r, but her name is actually &dLolli Transkatibooga, of the Poppins Clan&r. You are a little shocked and feel a tinge of embarrassment for making such assumptions."
 			]
 			icon: {
 				Count: 1
@@ -1272,17 +1272,17 @@
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
 			description: [
-				"&dProfessor Trev&r heroically &4sacrificed himself&r to save a group of &4students who had fallen into a hole&r."
+				"&dProfessor Trevor&r heroically sacrificed himself to save a group of students who had fallen into a hole."
 				""
-				"The moment that he heard they were trapped, he packed his bags and &2headed out to save them&r. He was &2an expert at holes&r, after all. With his trusty &3Netherite Shovel&r named &dMittens&r, he &2headed out on his own adventure&r. Little did he know, it &4would be his last&r."
+				"The moment that he heard they were trapped, he packed his bags and headed out to save them. He was an expert at holes, after all. With his trusty &3Netherite Shovel&r named &dMittens&r, he headed out on his own adventure. Little did he know, it would be his last."
 				""
-				"As &dProfessor Trev&r helped each individual student out from the hole, there was one student by the name of &dFred&r, who was &4unfortunately not the brightest&r. &dTrev&r asked &dFred&r to place &31 Dirt Block&r to lift himself up, but the kid ended up placing a &3Gravel Block&r, which &4immediately dropped down just as the child took his step&r."
+				"As &dProfessor Trevor&r helped each individual student out from the hole, there was one student by the name of &dFred&r, who was unfortunately not the brightest. &dTrevor&r asked &dFred&r to place &31 Dirt Block&r to lift himself up, but the kid ended up placing a &3Gravel Block&r, which immediately dropped down just as the child took his step."
 				""
-				"As the heroic professor &2reached his hand down to save the student&r, &dFred&r quickly &2latched on to his hand&r, &4panicked, and ran up Trev's arm like a demonic little gremlin&r. It was the final step that &dFred&r took that caused &dTrev&r to lose his footing and &4fall roughly 78 blocks down&r, straight into a &4pit of lava&r."
+				"As the heroic professor reached his hand down to save the student, &dFred&r quickly latched on to his hand, panicked, and ran up &dTrevor's&r arm like a demonic little gremlin. It was the final step that &dFred&r took that caused &dTrevor&r to lose his footing and fall roughly 78 blocks down, straight into a pit of lava."
 				""
-				"&eAugust 38th, Year 10002 is forever known as Trev's Hole Day&r, where the &2town goes out for the whole day&r and &2buries any holes that they can find&r to &2prevent such a tragedy&r from happening again."
+				"&eAugust 38th, Year 10002&r is forever known as &eTrev's Hole Day&r, where the town goes out for the whole day and buries any holes that they can find&r to prevent such a tragedy from happening again."
 				""
-				"Nowadays, the &2hole digging class is taught&r by &dProfessor Eric Blockhater&r. He graduated top of &dProfessor Trev's&r last known class and went on to &2teach the children how to dig safe and managed holes&r."
+				"Nowadays, the hole digging class is taught by &dProfessor Eric Blockhater&r. He graduated top of &dProfessor Trevor's&r last known class and went on to teach the children how to dig safe and managed holes."
 			]
 			icon: {
 				Count: 1
@@ -1352,9 +1352,9 @@
 		{
 			dependencies: ["20A30498BD2020C5"]
 			description: [
-				"If you &4aren't within melee range, the boss may launch a projectile&r at you. Once the projectile &4lands, it will summon a pool of lava&r. You can &2place some Netherrack down to stop the spread of lava&r."
+				"If you aren't within melee range, the boss may launch a projectile at you. Once the projectile lands, it will summon a pool of lava. You can place some &3Netherrack&r down to stop the spread of lava."
 				""
-				"If you're in &4melee range, the boss will use a melee attack&r and &4slam the ground&r, dealing damage and &4knocking you up; then you'll take additional fall damage&r."
+				"If you're in melee range, the boss will use a melee attack and slam the ground, dealing damage and knocking you up; then you'll take additional fall damage."
 			]
 			icon: "kubejs:p3_chat"
 			id: "6DFE4C83E03A804C"

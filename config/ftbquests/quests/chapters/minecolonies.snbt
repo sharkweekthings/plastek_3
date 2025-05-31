@@ -10,15 +10,15 @@
 	quests: [
 		{
 			description: [
-				"Your &2new life&r as a &4ruthless overlord&r, hellbent on taking out huma... I mean, your &2new life as a gentle and kind leader begins today&r."
+				"Your new life as a ruthless overlord, hellbent on taking out huma... I mean, your new life as a gentle and kind leader begins today."
 				""
-				"You will &2rule over your people with kindness&r, and &4stuff&r. "
+				"You will rule over your people with kindness, and stuff. "
 				""
-				"This &2questline&r will walk you through the rest of &2getting your colony established&r. "
+				"This questline will walk you through the rest of getting your colony established. "
 				""
-				"Lets start with getting your &2citizens some food&r. "
+				"Lets start with getting your citizens some food. "
 				""
-				"You &4wouldn't want them to starve&r... would you? "
+				"You wouldn't want them to starve... would you? "
 			]
 			icon: "kubejs:p3_chat"
 			id: "009BB242F0FB6D2D"
@@ -103,11 +103,11 @@
 				"26BC57AC40A8FFBB"
 			]
 			description: [
-				"Great, you've &2established at least 1 type of food source&r. "
+				"Great, you've established at least 1 type of food source. "
 				""
-				"Just make sure to&2 keep it stocked with whatever it needs&r to the goods keep on comin. "
+				"Just make sure to keep it stocked with whatever it needs to the goods keep on comin. "
 				""
-				"For now, you'll have to &4manually give the citizens food&r, so don't neglect them. "
+				"For now, you'll have to manually give the citizens food, so don't neglect them. "
 			]
 			icon: "kubejs:p3_chat"
 			id: "1503F590D0814D73"
@@ -131,11 +131,11 @@
 		{
 			dependencies: ["1503F590D0814D73"]
 			description: [
-				"You opened up your &2first restaurant&r and things &4aren't going so well&r. It's &4kind of a hole in the wall&r, and even though those are &2supposed to be the best places&r, &4yours just isn't&r. "
+				"You opened up your first restaurant and things aren't going so well. It's kind of a hole in the wall, and even though those are supposed to be the best places, yours just isn't. "
 				""
-				"You can &2upgrade your restaurant whenever&r you're ready by assigning the &2builder to upgrade&r. "
+				"You can upgrade your restaurant whenever you're ready by assigning the &eBuilder&r to upgrade. "
 				""
-				"Once your &2establishment looks nicer&r, &dShaun&r said that he would &2help out around the kitchen&r and &2teach people how to cook&r some good meals. "
+				"Once your establishment looks nicer, &dShaun&r said that he would help out around the kitchen and teach people how to cook some good meals. "
 			]
 			id: "7A07D22D4EA3623C"
 			rewards: [
@@ -227,11 +227,11 @@
 			description: [
 				"Your colony is coming along pretty okay."
 				""
-				"So far, none of your buildings have collapsed, so at least the Builders are being trained well. "
+				"So far, none of your buildings have collapsed, so at least the &eBuilders&r are being trained well. "
 				""
 				"The jobless population is unfortunately on the rise, so you're going to need to create some jobs. "
 				""
-				"Right now you should focus on getting some basic resources incoming. Setting up a Forester and Miner will help get you some Wood, Stone, and Ore. "
+				"Right now you should focus on getting some basic resources incoming. Setting up a &eForester&r and &eMiner&r will help get you some &3Wood&r, &3Stone&r, and &3Ore&r. "
 				""
 				"You're probably already using &6Project E&r to replicate most of these resources, but these are just part of the process, and gives your citizens tasks to do."
 			]
@@ -255,7 +255,7 @@
 		}
 		{
 			dependencies: ["32999855766E0F67"]
-			description: ["If you notice your &4homeless population on the rise&r, you'll need to &2build adequate housing.&r "]
+			description: ["If you notice your homeless population on the rise, you'll need to build adequate housing."]
 			icon: "minecolonies:blockhutcitizen"
 			id: "0DD56943FEACEC41"
 			rewards: [{
@@ -280,11 +280,11 @@
 				"657167DB8A2A44A4"
 			]
 			description: [
-				"Lets be real. You &4don't want to sit there and hand deliver items to everybody&r. That's getting old, and you're a &2strong leader&r who &2don't have time&r for that. "
+				"Lets be real. You don't want to sit there and hand deliver items to everybody. That's getting old, and you're a strong leader who don't have time for that."
 				""
-				"It's time to deploy your greatest buildings, yet! &eThe Courier&r, and &eWarehouse&r."
+				"It's time to deploy your greatest buildings, yet! &9The Courier&r, and &9Warehouse&r."
 				""
-				"This &2little guy will work tirelessly&r hand &2delivering items&r from the &eWarehouse&r to various&2 workers in the town&r, and your back will thank you for it. "
+				"This little guy will work tirelessly hand delivering items from the &9Warehouse&r to various workers in the town, and your back will thank you for it. "
 			]
 			icon: "kubejs:p3_chat"
 			id: "6784A5082FC79CF0"
@@ -307,7 +307,7 @@
 		{
 			dependencies: ["6784A5082FC79CF0"]
 			description: [
-				"Once you get your &eWarehouse&r situated, you can place the &eCourier&r, and then assign the &eCourier&r to work the &eWarehouse&r."
+				"Once you get your &9arehouse&r situated, you can place the &eCourier&r, and then assign the &eCourier&r to work the &9Warehouse&r."
 				""
 				"&oAssigning the work should happen automatically unless you made specific changes in your Town Hall&r."
 			]
@@ -433,9 +433,9 @@
 				"26059FEE6EFD1E99"
 			]
 			description: [
-				"Great, now you have a good &2solid foundation&r for the core of your town. "
+				"Great, now you have a good solid foundation for the core of your town. "
 				""
-				"There are &2many other buildings&r and &2structures&r you can build from here, each with their &2own upgrades, jobs, and benefits&r to the town. "
+				"There are many other buildings and structures you can build from here, each with their own upgrades, jobs, and benefits to the town. "
 				""
 				"Look below for a list so you can make a full town!"
 			]
@@ -1128,9 +1128,9 @@
 		{
 			dependencies: ["009BB242F0FB6D2D"]
 			description: [
-				"You'll need 1 of each Herding Hut for this. "
+				"You'll need 1 of each &9Herding Hut&r for this. "
 				""
-				"Chicken Herder, Cow Herder, Swine Herder, Rabbit Hutch, and a Shepherd Hut."
+				"&9Chicken Herder&r, &9Cow Herder&r, &9Swine Herder&r, &9Rabbit Hutch&r, and a &9Shepherd Hut&r. "
 			]
 			id: "26BC57AC40A8FFBB"
 			rewards: [{

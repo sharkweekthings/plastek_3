@@ -572,135 +572,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["5A5896C947DA8A15"]
-			id: "461AEA9EDC2D6571"
-			tasks: [{
-				id: "4DCECCD0BC87E14F"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "p2:wine_racks"
-					}
-				}
-				title: "Wine Rack"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5A5896C947DA8A15"]
-			id: "2BDB9D73D4AE56F3"
-			tasks: [{
-				id: "29DEAE208B534848"
-				item: {
-					Count: 1
-					id: "vinery:fermentation_barrel"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5A5896C947DA8A15"]
-			id: "48C406CA28322B65"
-			tasks: [{
-				id: "368172F03DBC4084"
-				item: {
-					Count: 1
-					id: "vinery:apple_press"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -8.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5A5896C947DA8A15"]
-			id: "137199BC8533B5EF"
-			tasks: [{
-				id: "4ADF35197312FE4E"
-				item: {
-					Count: 1
-					id: "vinery:grapevine_pot"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -7.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5A5896C947DA8A15"]
-			id: "2A2486A2A7804F3D"
-			tasks: [{
-				id: "7F4FFEBEE77FA3C8"
-				item: {
-					Count: 1
-					id: "vinery:wine_box"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5A5896C947DA8A15"]
-			id: "0653A6567DC6A131"
-			tasks: [{
-				id: "7B4A0544D8A613EE"
-				item: {
-					Count: 1
-					id: "vinery:winemaker_apron"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -10.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["5A5896C947DA8A15"]
-			id: "2E57E660DEE21612"
-			tasks: [{
-				id: "1637E9EE2942EB3D"
-				item: {
-					Count: 1
-					id: "vinery:winemaker_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -9.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["5A5896C947DA8A15"]
-			id: "0AEAB74A699CAA47"
-			tasks: [{
-				id: "284D9A873AFDF9B4"
-				item: {
-					Count: 1
-					id: "vinery:winemaker_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "785F282A8EEC5896"
 			tasks: [{
@@ -803,22 +674,9 @@
 			y: -2.5d
 		}
 		{
-			description: ["With &6Vinery&r you can make your very own wine that will produce useful potion effects. "]
-			id: "5A5896C947DA8A15"
-			shape: "diamond"
-			tasks: [{
-				id: "21285815E92A0EBB"
-				title: "Ok"
-				type: "checkmark"
-			}]
-			title: "Become a Wine Maker"
-			x: -9.0d
-			y: 1.5d
-		}
-		{
 			description: ["&6Cooking For Blockheads&r offers a wide range of utility for all of your cooking needs."]
 			id: "58C012AD3D76A5CF"
-			shape: "diamond"
+			shape: "circle"
 			subtitle: "Make me a sandwich!"
 			tasks: [{
 				id: "0D1D554F6991659E"
@@ -830,13 +688,9 @@
 			y: -1.0d
 		}
 		{
-			description: [
-				"Auto Harvest and Ranch with&6 Industrial Foregoing&r. "
-				""
-				"Upgrades for this mod will unlock in &dAge 2&r."
-			]
+			description: ["Auto Harvest and Ranch with&6 Industrial Foregoing&r. "]
 			id: "6BB3BEBFE518D0F2"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "5721E1DF3FCDC9CA"
 				title: "Ok"
@@ -849,7 +703,7 @@
 		{
 			description: ["Various ways to capture mobs"]
 			id: "17B3B5D1CD42BA6C"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "6223501674125146"
 				title: "Ok"
@@ -862,7 +716,6 @@
 		{
 			description: ["Tier up your &3Botany Pots&r to blazing fast speeds. "]
 			id: "006EC724C42A91BF"
-			shape: "diamond"
 			tasks: [{
 				id: "4E65DEE120F0E76F"
 				title: "Ok"
@@ -875,7 +728,7 @@
 		{
 			description: ["&6Slice and Dice&r will allow you to automate various cutting recipes. It also has a &3Sprinkler&r that will let you rain down some &3Water&r, &3Lava&r or &3Fluid XP&r."]
 			id: "598EFD7817B6EBD9"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "12F0AFE6B28F4507"
 				title: "Ok"
@@ -886,9 +739,9 @@
 			y: -1.0d
 		}
 		{
-			description: ["&9The Market&r people deal primarily in &bPlastim Scrap&r as their preferred currency. They sell a range of useful items."]
+			description: ["&9The Market&r people deal primarily in &3Plastim Scrap&r as their preferred currency. They sell a range of useful items."]
 			id: "1CF13509DFB91E2B"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "09E668CA5F88A89C"
 				title: "Ok"
@@ -901,7 +754,7 @@
 		{
 			description: ["This device will let you connect your &6AE2&r and &6Cooking For Blockheads&r together."]
 			id: "34DA5277D437B0E4"
-			shape: "diamond"
+			shape: "circle"
 			tasks: [{
 				id: "284CF3ECE86E53F1"
 				title: "Cooking With AE2"
@@ -917,7 +770,6 @@
 				"&3Cow in a Jar&r still needs to be crafted by dropping an &3Anvil&r on a Cow to squish it into a &3Bottle.&r "
 			]
 			id: "6F51530CCB2F4539"
-			shape: "diamond"
 			tasks: [{
 				id: "2B42EB3D6B70D7A2"
 				title: "Ok"
@@ -964,8 +816,8 @@
 				item: "rangedpumps:pump"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: -9.0d
+			y: 3.0d
 		}
 	]
 	title: "Moo"
