@@ -349,106 +349,6 @@
 			y: 2.0d
 		}
 		{
-			id: "114C3CABF4694D65"
-			tasks: [{
-				id: "4A10A548D81E007C"
-				item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.0d
-		}
-		{
-			id: "11F3B311C3CD4CAB"
-			tasks: [{
-				id: "25480FEB186E76AC"
-				item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
-			id: "593CC02973FBE990"
-			tasks: [{
-				id: "62FCFE256FA9A79E"
-				item: "the_bumblezone:music_disc_la_bee_da_loca"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.0d
-		}
-		{
-			id: "5293EC41B54B7985"
-			tasks: [{
-				id: "5BF5794B0CE8FADA"
-				item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 3.0d
-		}
-		{
-			id: "65D2BC122354E1C9"
-			tasks: [{
-				id: "033DFAB4092C2811"
-				item: "the_bumblezone:music_disc_bee_ware_of_the_temple"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			id: "7E77F732386BEAC4"
-			tasks: [{
-				id: "690A421ACEAB778F"
-				item: "the_bumblezone:music_disc_knowing_renren"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 3.0d
-		}
-		{
-			id: "4F0432B01BAD7B4B"
-			tasks: [{
-				id: "0A8B90EEB973A93B"
-				item: "the_bumblezone:music_disc_radiance_renren"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 3.0d
-		}
-		{
-			id: "2AB2F1755DA79A76"
-			tasks: [{
-				id: "0CB338EAB5280C6F"
-				item: "the_bumblezone:music_disc_life_renren"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			id: "7642AEC6F88F3C6B"
-			tasks: [{
-				id: "3A1E31B1099B7D94"
-				item: "the_bumblezone:music_disc_drowning_in_despair"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 4.0d
-		}
-		{
-			id: "3FB7E60E79F129B1"
-			tasks: [{
-				id: "505143572E2658AE"
-				item: "the_bumblezone:music_disc_a_last_first_last"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
 			id: "2F2E208C6B85C768"
 			tasks: [{
 				id: "6FFA3EC5EBA90ED5"
@@ -460,7 +360,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "3F81F48B9B67524F"
@@ -474,7 +374,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "06D2A96B5BA80A23"
@@ -488,7 +388,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "1A4E74FDD2D17658"
@@ -502,7 +402,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "1FE7C82CECFB6850"
@@ -516,7 +416,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			id: "3F12047AE4B0F28B"
@@ -530,7 +430,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			id: "64F4067D16760A09"
@@ -543,8 +443,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			id: "442D5E63B4C5BF24"
@@ -557,8 +457,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			id: "1D53DA5D312BBEB0"
@@ -571,8 +471,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			id: "354971DAE40DC3CC"
@@ -585,8 +485,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			id: "5115FE3FFDA6B35D"
@@ -599,8 +499,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			id: "6105723ECFED384F"
@@ -613,8 +513,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "588275F697B0D97E"
@@ -627,8 +527,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			id: "1ACFBE26907FD5B2"
@@ -641,8 +541,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.0d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			id: "46E0AC7D57E7FFAF"
@@ -655,8 +555,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			id: "7EFE6B546CC6A6BF"
@@ -669,8 +569,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			id: "254EE026FED1A479"
@@ -683,8 +583,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			id: "1CE66ED235F51EC2"
@@ -697,32 +597,28 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 6.0d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
-			id: "4E09D749DE59EC3B"
-			invisible: true
-			subtitle: "MOD IS CURRENTLY DISABLED QUESTS ARE NOT READY"
+			id: "1FDB585E35AE3F35"
 			tasks: [{
-				id: "0C6AD7F9497BE4CE"
-				item: "create_connected:music_disc_elevator"
+				id: "6524469C60FF1FE4"
+				item: "kobolds:music_disc_kobblestone"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
-			id: "67163847F34EF933"
-			invisible: true
-			subtitle: "MOD IS CURRENTLY DISABLED QUESTS ARE NOT READY"
+			id: "74DB4F080CC13266"
 			tasks: [{
-				id: "7CA2E0F9BF142A18"
-				item: "create_connected:music_disc_interlude"
+				id: "1FD8DD84EEC5386C"
+				item: "sweet_calamity:music_disc_popsicle"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.0d
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 	title: "Music Discs"

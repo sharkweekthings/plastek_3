@@ -2291,7 +2291,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -2305,7 +2305,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
@@ -2319,7 +2319,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.0d
 			y: 9.0d
 		}
 		{
@@ -2333,7 +2333,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -2347,8 +2347,488 @@
 				}
 				type: "item"
 			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "34CD67DBF22AAF29"
+			tasks: [{
+				id: "3F52BD4B56F12C63"
+				item: "perfectplushies:red_fox_plushie"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "4ECAA461FD3C1EAC"
+			tasks: [{
+				id: "29095E1B239D7AD6"
+				item: "perfectplushies:snow_fox_plushie"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "7922F5B1EE236562"
+			tasks: [{
+				id: "588AEB9F22D76E6F"
+				item: "perfectplushies:fennec_fox_plushie"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			id: "4B7029DC79242DB3"
+			tasks: [{
+				id: "4B310E1C2979768A"
+				item: "perfectplushies:red_panda_plushie"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			id: "33EB7CD3356BC135"
+			tasks: [{
+				id: "481D6B26EBED1270"
+				item: "perfectplushies:raccoon_plushie"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			id: "09157AF82F2D1102"
+			tasks: [{
+				id: "5147AB2E8B754FE0"
+				item: "perfectplushies:red_ruffed_lemur_plushie"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 9.0d
+		}
+		{
+			id: "2D953B500012CC6B"
+			tasks: [{
+				id: "2245262F68F8230B"
+				item: "perfectplushies:capybara_plushie"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			id: "069816B6A2A09A3F"
+			tasks: [{
+				id: "1A7C81C23A559D00"
+				item: "perfectplushies:dog_plushie"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			id: "54F98B8AB5840A8A"
+			tasks: [{
+				id: "135CC7F4D7B7A0D9"
+				item: "perfectplushies:cat_plushie"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			id: "3883023EBB353BC5"
+			tasks: [{
+				id: "71385C83E1D0C5A7"
+				item: "perfectplushies:dolphin_plushie"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			id: "3413BFD5E4D9AC04"
+			tasks: [{
+				id: "5181319288CF231E"
+				item: "perfectplushies:brown_rabbit_plushie"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			id: "4F0118CDCB3AC137"
+			tasks: [{
+				id: "6493AD2627B79CFF"
+				item: "perfectplushies:white_rabbit_plushie"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			id: "1522F385351B3B1E"
+			tasks: [{
+				id: "6117D97ED0CA814B"
+				item: "perfectplushies:frog_plushie"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.0d
+		}
+		{
+			id: "21E66B85E2191D8D"
+			tasks: [{
+				id: "62CB82CE70C242DE"
+				item: "perfectplushies:goose_plushie"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "1C8011BC920667D6"
+			tasks: [{
+				id: "530E64F5A0A2D383"
+				item: "perfectplushies:duck_plushie"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			id: "089C1D40FA8E59A0"
+			tasks: [{
+				id: "71054E1E0A155E8F"
+				item: "perfectplushies:rubber_duck_plushie"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			id: "1B858145F26EB50E"
+			tasks: [{
+				id: "3F27F5E346A338FA"
+				item: "perfectplushies:robin_plushie"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			id: "4948570D198D9ADF"
+			tasks: [{
+				id: "620BB9B6D6BC044B"
+				item: "perfectplushies:hummingbird_plushie"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "1445BD3DC3ED936E"
+			tasks: [{
+				id: "526D426BD115E847"
+				item: "perfectplushies:hippo_plushie"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			id: "0CE83F397C67C146"
+			tasks: [{
+				id: "41A91BF9F979446E"
+				item: "perfectplushies:mouse_plushie"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			id: "10853B0E26C998F8"
+			tasks: [{
+				id: "758BC6FF01B90028"
+				item: "perfectplushies:turtle_plushie"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			id: "1F23E4CCC59BACDC"
+			tasks: [{
+				id: "557C529647C36581"
+				item: "perfectplushies:doe_plushie"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			id: "602AD28CB84EC18D"
+			tasks: [{
+				id: "20464E1261FEF7DA"
+				item: "perfectplushies:reindeer_plushie"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			id: "2E9BE4F255A64CCB"
+			tasks: [{
+				id: "02FEBDE300EEC5DF"
+				item: "perfectplushies:bear_plushie"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			id: "7FE27DB9D7B8A474"
+			tasks: [{
+				id: "68EE74778294F099"
+				item: "perfectplushies:koala_plushie"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			id: "0D7844FD71F044F0"
+			tasks: [{
+				id: "0A06715545C6D295"
+				item: "perfectplushies:panda_plushie"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			id: "27E3C5B46DDAABC8"
+			tasks: [{
+				id: "65BF3E992DD89BD7"
+				item: "perfectplushies:lion_cub_plushie"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			id: "6025EF28B6E83CC8"
+			tasks: [{
+				id: "03700FF5F46ACBEB"
+				item: "perfectplushies:elephant_plushie"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			id: "027AA3C9574AB814"
+			tasks: [{
+				id: "0353E059F27BC751"
+				item: "perfectplushies:monkey_plushie"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			id: "755D239473D38545"
+			tasks: [{
+				id: "677928D458B10515"
+				item: "perfectplushies:seal_plushie"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			id: "119A719AEB8DA193"
+			tasks: [{
+				id: "3B46C7D1DB271B9F"
+				item: "perfectplushies:hedgehog_plushie"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.0d
+		}
+		{
+			id: "0C274B9736A1F226"
+			tasks: [{
+				id: "30D68EB3DFEB1CCE"
+				item: "perfectplushies:hedgehog_plushie"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			id: "12253C3CC9C60924"
+			tasks: [{
+				id: "30E4B85502B1B7B2"
+				item: "perfectplushies:aye_aye_plushie"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			id: "46E6E7B761A98F39"
+			tasks: [{
+				id: "4B7C8121B3624CE2"
+				item: "perfectplushies:quokka_plushie"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			id: "7F8834FEAF2FB93A"
+			tasks: [{
+				id: "67DEC065A39D54EF"
+				item: "perfectplushies:nyf_plushie"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			id: "18D8C2A1ADDB179A"
+			tasks: [{
+				id: "1B498EB9D71DE972"
+				item: "perfectplushies:sirjain_plushie"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			id: "5AF263C5F6E26922"
+			tasks: [{
+				id: "33537F64A8850268"
+				item: "perfectplushies:sizableshrimp_plushie"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			id: "474BE96DE2B364E1"
+			tasks: [{
+				id: "3296E69D5C06BC0A"
+				item: "perfectplushies:tslat_plushie"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			id: "7458BBFB6D83AF60"
+			tasks: [{
+				id: "6E33EA50CF928780"
+				item: "perfectplushies:silk_plushie"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			id: "6435F70B7F2090E6"
+			tasks: [{
+				id: "16B00459B6C999AD"
+				item: "perfectplushies:june_plushie"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			id: "368E890B2F28342A"
+			tasks: [{
+				id: "617D308ADBEB1350"
+				item: "perfectplushies:daniel_plushie"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			id: "5805DDA7C211D8BA"
+			tasks: [{
+				id: "2ED48526838C3832"
+				item: "perfectplushies:gamerpotion_plushie"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			id: "504EEAE6EC38B3EB"
+			tasks: [{
+				id: "2573D86F8F521302"
+				item: "perfectplushies:joosh_plushie"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			id: "6A754F78817321D9"
+			tasks: [{
+				id: "465C1E611EB0AD6F"
+				item: "perfectplushies:rocris_plushie"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			id: "1EB69D7B1BFB2E3E"
+			tasks: [{
+				id: "4A8959C8B1CCA066"
+				item: "perfectplushies:geode_plushie"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 11.0d
+		}
+		{
+			id: "65406880CD1BEEC2"
+			tasks: [{
+				id: "4153A64477C349C5"
+				item: "perfectplushies:gamerpotion_plushie_rare"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 11.0d
+		}
+		{
+			id: "1D7C91A2B11245FF"
+			tasks: [{
+				id: "3D24B07C1992DC60"
+				item: "perfectplushies:sirjain_plushie_rare"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 11.0d
+		}
+		{
+			id: "36D6D35606BB104E"
+			tasks: [{
+				id: "2A7DF0783E2D5029"
+				item: "perfectplushies:dumbo_blob_plushie"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 11.0d
 		}
 	]
 	title: "Plushies"

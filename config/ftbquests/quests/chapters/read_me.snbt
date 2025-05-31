@@ -48,9 +48,9 @@
 			description: [
 				"You can open your &6Mine and Slash&r Main Hub by &epressing 'H'&r by default."
 				""
-				"From here, you can &enavigate to \"Classes\"&r and distribute your &estarting Spell and Talent point&r after deciding on which tree you want to start with."
+				"From here, you can navigate to \"&eClasses&r\" and distribute your starting &eSpell&r and &eTalent&r point after deciding on which tree you want to start with."
 				""
-				"There are currently &e6 different paths&r that you can invest points into:"
+				"There are currently 6 different paths that you can invest points into:"
 				""
 				"&9Sorcerer&r – For those wanting to cast various spells consisting primarily of Ice and Fire."
 				""
@@ -64,9 +64,9 @@
 				""
 				"&aHunter&r – For those wanting to play a ranged-type class, which is NOT limited to bows and crossbows."
 				""
-				"Each class comes with it's own &2unique abilities, and passive abilities&r."
+				"Each class comes with it's own unique abilities, and passive abilities."
 				""
-				"You are able to &2put points&r into &2two separate trees&r if you wish to &2cross your class&r."
+				"You are able to put points into two separate trees if you wish to cross your class."
 			]
 			icon: {
 				Count: 1
@@ -91,17 +91,17 @@
 				""
 				"&eLeveling&r – You get 6 base HP per level."
 				""
-				"&2Stat Distribution&r – 1 point of Strength will give you 1.5 HP. &a&oSee the Hub to view what each stat gives you&r&r."
+				"&2Stat Distribution&r – 1 point of Strength will give you 1.5 HP. &oSee the Hub to view what each stat gives you&r."
 				""
 				"&3Talent Point&r – Talent points can be accessed in the Hub."
 				""
 				"&dEnchantments&r – Some Enchantments give Mine and Slash stats and may add HP."
 				""
-				"&6Spice of Life Carrot and Onion&r – Using both &6Spice of Life Carrot&r and &6Onion&r will &2offer various effects&r. While &6Spice of Life Carrot&r focuses more on &2HP only&r, &6Onion&r will give you &2HP, Elemental Resistance, Combat Roll Distance, and Count&r!"
+				"&6Spice of Life Carrot and Onion&r – Using both &6Spice of Life Carrot&r and &6Onion&r will offer various effects. While &6Spice of Life Carrot&r focuses more on HP only, &6Onion&r will give you &eHP&r, &eElemental Resistance&r, &eCombat Roll Distance&r, and &eCombat Roll Count&r!"
 				""
-				"&cDIET&r – Using the various foods in the pack, you must keep your &eFruits, Grains, Proteins, and Vegetables&r all &2above 10%&r. If &4any one of them drops below&r, you will begin to suffer &4negative penalties&r. For &eSugar&r, you want to &2stay between 20% and 30%&r to gain additional bonuses."
+				"&cDIET&r – Using the various foods in the pack, you must keep your &eFruits&r, &eGrains&r, &eProteins&r, and &eVegetables&r all above &210%&r. If any one of them drops below, you will begin to suffer negative penalties. For &eSugar&r, you want to stay between &220%&r and &230%&r to gain additional bonuses."
 				""
-				"See the &2next quest up&r for more specific details on the &6DIET&r mod."
+				"See the next quest up for more specific details on the &6DIET&r mod."
 			]
 			icon: {
 				Count: 1
@@ -124,7 +124,7 @@
 		{
 			dependencies: ["59518B193D9F7836"]
 			description: [
-				"At &cLevels 25, 50, and 75 you will receive a -25% Resist Penalty&r, which means that you will &2need to find better Resist gear&r. All &dResists will cap at 75%&r, and it's &2highly encouraged to get as close to the cap as possible&r; otherwise, mobs &cmay one-shot, or deal significant damage to you&r."
+				"At Levels &225&r, &250&r, and &275&r you will receive a &4-25%&r &4Resist Penalty&r on all elements. This means that you will need to find better resist gear. All Resists will cap at &275%&r, and it's highly encouraged to get as close to the cap as possible; otherwise, mobs may one-shot, or deal significant damage to you. You can get over the cap if you find items w/ &eMaximum Cap Increase&r on them."
 				""
 				"To assist in planning your build, here are the point caps for the pack:"
 				""
@@ -156,13 +156,13 @@
 		{
 			dependencies: ["2953D10883305166"]
 			description: [
-				"Progression in this pack is largely focused on following the story, &2navigating through the various dimensions, and defeating bosses&r. The quests will take you up through \"The End\" in Act V."
+				"Progression in this pack is largely focused on following the story, navigating through the various quests which will take you through all of the dimensions, to challenge the various bosses. The quests will take you up through \"&6The End&r\" in &eAct V&r."
 				""
-				"The '&eendgame&r' is the &6Mine and Slash&r Map system, which will first become &2accessible at level 50&r."
+				"The '&eEndgame&r' is the &6Mine and Slash&r Map system, which will first become accessible at &2level 50&r."
 				""
-				"&6MineColonies&r is highly encouraged for something to do between adventuring, and &2will be partially required&r."
+				"&6MineColonies&r is highly encouraged through your whole playthrough for something to do between adventuring, and will be partially required."
 				""
-				"&2I do know this mod isn't for everybody though&r, so if this one isn't for you, don't worry. &2The forced interaction will be very limited&r; then you can pretty much do whatever."
+				"I do know this mod isn't for everybody though, so if this one isn't for you, don't worry. The forced interaction will be very limited; then you can pretty much do whatever."
 			]
 			icon: {
 				Count: 1
@@ -176,7 +176,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Progression and End Game"
+			title: "Progression and Endgame"
 			x: 1.0d
 			y: -1.0d
 		}
@@ -218,7 +218,7 @@
 				"&dSetback&r - 50 to 65"
 				"&0The End&r - 60 to 65"
 				""
-				"&6Dimensional Dungeons&r, &6Ancient Obelisk&r, &6The Harvest&r, and &6Dungeon Realm&r should be &2available as early as level 1&r, but you may &4need to make the respective Portal, Obelisk, or Map Device&r to use anything you find. "
+				"&6Dimensional Dungeons&r, &6Ancient Obelisk&r, &6The Harvest&r, and &6Dungeon Realm&r should be available as early as level 1, but you may need to make the respective &9Portal&r, &9Obelisk&r, or &9Map Device&r to use anything you find. "
 				""
 				"You can start running &6Mine and Slash&r &2maps at level 50&r. "
 			]
@@ -242,7 +242,7 @@
 		{
 			dependencies: ["3F93CF6B70529166"]
 			description: [
-				"&eSupport Quests&r offer a few different &omostly&r optional (&o&aand sometimes useful&r&r) questlines for you to enjoy and complete."
+				"&eSupport Quests&r offer a few different mostly optional (&oand sometimes useful&r) questlines for you to enjoy and complete."
 				""
 				"These will include quests various &6Mine and Slash&r, &6Minecolonies&r quests to help you through the mods, &2Cooking and Farming Quests&r, and more."
 			]
@@ -389,15 +389,15 @@
 		{
 			dependencies: ["092D2D9BBD18EB72"]
 			description: [
-				"Whoops. Did you &4just die&r?"
+				"Whoops. Did you just die?"
 				""
-				"That &4might happen a lot&r, especially early on. The &4mobs can be pretty vicious.&r"
+				"That might happen a lot, especially early on. The mobs can be pretty vicious."
 				""
-				"In this pack, if you die, you will &2retain all of your items&r, including your &6Curios&r slots."
+				"In this pack, if you die, you will retain all of your items, including your &6Curios&r slots."
 				""
 				"Starting at &eLevel 30&r, you will incur &410% XP loss per death&r, as well as a significant portion of &eFavor&r."
 				""
-				"Furthermore, if you attempt to &4challenge powerful monsters that are higher level&r than you can handle, this &4penalty is multiplied,&r so be careful &4not to fight mobs that show a \"Skull\"&r for their level."
+				"Furthermore, if you attempt to challenge powerful monsters that are higher level than you can handle, this penalty is multiplied, so be careful not to fight mobs that show a \"&4Skull&r\" for their level, if you don't think you can beat them."
 			]
 			hide_dependency_lines: true
 			icon: "minecolonies:blockminecoloniesgrave"
@@ -415,15 +415,15 @@
 		{
 			dependencies: ["092D2D9BBD18EB72"]
 			description: [
-				"By default, your &6Mine and Slash&r &eHub is 'H'&r. You can see pretty much &2all information pertaining to your character here&r: talents, spells, etc. "
+				"By default, your &6Mine and Slash&r &eHub&r is &e'H'&r. You can see pretty much all information pertaining to your character here: talents, spells, etc. "
 				""
-				"Within this hub is a &eLibrary, Features, and Salvaging&r. The &eLibrary&r will overview &evarious affixes, runes, etc&r. With the &eSalvaging&r section, you can choose to &2auto salvage specific rarities of drops&r, and &eFeatures&r will let you &2enable/disable&r specific &6Mine and Slash&r features that let you see things like &2Exp, Combat Damage, Loot information&r, and more."
+				"Within this hub is a &eLibrary, Features, and Salvaging&r. The &eLibrary&r will overview &evarious affixes, runes, etc&r. With the &eSalvaging&r section, you can choose to auto salvage specific rarities of drops, and &eFeatures&r will let you enable/disable specific &6Mine and Slash&r features that let you see things like &eExp, Combat Damage, Loot information&r, and more."
 				""
-				"Typing &e/sethome <name>&r will let you set a &2teleport&r point to the &2specified location.&r If you &2don't specify a name&r, you can &2use /home to return&r; otherwise, you will need to type &2/home <name>&r."
+				"Typing &e/sethome <name>&r will let you set a teleport point to the specified location. If you don't specify a name, you can use &e/home&r to return; otherwise, you will need to type &e/home <name>&r."
 				""
-				"If you're playing on a server, you can use the &2/tpa <name>&r command to &2teleport to a friend&r. This TP must be &2approved by the person&r you are trying to TP to."
+				"If you're playing on a server, you can use the &e/tpa <name>&r command to teleport to a friend. This TP must be approved by the person you are trying to TP to."
 				""
-				"You can also see &2various leaderboard stats&r by typing &e/leaderboards&r and tabbing through the various statistics."
+				"You can also see various leaderboard stats by typing &e/leaderboards&r and tabbing through the various statistics."
 				""
 				"&eF7&r will enable Light Overlays, which will show potential for monster spawns."
 				""
@@ -445,11 +445,11 @@
 		{
 			dependencies: ["092D2D9BBD18EB72"]
 			description: [
-				"There is the &6FTB&r &2Party system&r, and &6Mine and Slash&r &2Teams system&r. If you're playing with friends, you should do both."
+				"There is the &6FTB&r &eParty System&r, and &6Mine and Slash&r &eTeams System&r. If you're playing with friends, you should do both."
 				""
-				"For &6FTB Teams&r, you can do this by using the command: &e/ftbteams party create, invite&r or &e/ftbteams party join&r. This will allow you to &2share your quest progress with your friends&r and allow you to start &2claiming land&r, which will setup some &2building protection&r and let you &2force load chunks&r if you wish."
+				"For &6FTB Teams&r, you can do this by using the command: &e/ftbteams party create, invite&r or &e/ftbteams party join&r. This will allow you to share your quest progress with your friends and allow you to start claiming land, which will setup some building protection and let you force load chunks if you wish."
 				""
-				"For &6Mine and Slash&r, you can use the command &e/mine_and_slash teams create, invite or join&r. This will allow you to &2heal and buff each other&r and &2prevent PvP&r within the team."
+				"For &6Mine and Slash&r, you can use the command &e/mine_and_slash teams create, invite or join&r. This will allow you to heal and buff each other and prevent PvP within the team."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -476,29 +476,29 @@
 				"7C437754A4ECF3C2"
 			]
 			description: [
-				"You will need to complete &2various tasks in each dimension&r to unlock a few of the &6End Remastered&r &3Eyes&r, which will be used on the &9End Portal Frame&r to get to &6The End&r."
+				"You will need to complete various tasks in each dimension to unlock a few of the &6End Remastered&r &3Eyes&r, which will be used on the &9End Portal Frame&r to get to &6The End&r."
 				""
 				"&3Broken Compass Eye&r – Can be found inside the chests of &6Dungeon Realm&r."
 				""
 				"&3Dimensional Eye&r – Can be found inside the chests of &6Dimensional Dungeons&r."
 				""
-				"&3Possessed Action Figure Eye&r – Received after defeating &dBonk the Clown&r in &6Toybox&r."
+				"&3Possessed Action Figure Eye&r – Received after defeating &cBonk the Clown&r in &6Toybox&r."
 				""
 				"&3Colonist Eye&r – Received after you complete your &eTavern&r."
 				""
-				"&3Nether Eye&r – Received after defeating the &dWither&r."
+				"&3Nether Eye&r – Received after defeating the &cWither&r."
 				""
-				"&3Aether Eye&r – Received after defeating the &dSun Spirit&r."
+				"&3Aether Eye&r – Received after defeating the &cSun Spirit&r."
 				""
-				"&3Gumball Eye&r – Received after defeating the &dSweet Witch&r."
+				"&3Gumball Eye&r – Received after defeating the &cSweet Witch&r."
 				""
-				"&3Summoner's Eye&r – Received after defeating &dBueford, the Summoner&r."
+				"&3Summoner's Eye&r – Received after defeating &cBueford, the Summoner&r."
 				""
-				"&3Alchemist's Eye&r – Received after defeating &dBarnaby, the Alchemist&r."
+				"&3Alchemist's Eye&r – Received after defeating &cBarnaby, the Alchemist&r."
 				""
-				"&3Fey King Eye&r – Can be found by digging in &6Feywild&r (stone or dirt)."
+				"&3Fey King Eye&r – Can be found by digging in &6Feywild&r (&ostone or dirt&r)."
 				""
-				"&3Astral Guardian Eye&r – Received after defeating the &dAstral Guardian&r."
+				"&3Astral Guardian Eye&r – Received after defeating the &aAstral Guardian&r."
 				""
 				"&3Cursed Eye&r – Can be found in the &6Setback&r dimension by ??????????"
 			]
@@ -527,9 +527,9 @@
 				""
 				"&6Combat Roll&r – You can press 'R', which will let you dodge roll forward."
 				""
-				"&6Level Cap&r – Most dimensions are 65. However, you will have access to &6Dimensional Dungeons&r, &6Ancient Obelisks&r, &6The Harvest&r, and &6Dungeon Realm&r starting as early as level 1 (&2if you get extremely lucky&r), and &2Maps starting at level 50&r – all of which will &2take you to level 100&r."
+				"&6Level Cap&r – Most dimensions are 65. However, you will have access to &6Dimensional Dungeons&r, &6Ancient Obelisks&r, &6The Harvest&r, and &6Dungeon Realm&r starting as early as &2level 1&r (&oif you get extremely lucky&r), and &eMaps&r starting at &2level 50&r – all of which will take you to &2level 100&r."
 				""
-				"This pack uses &6Anti Mob Farm&r, which &4restricts loot and experience&r after &2killing mobs in the same chunk for too long&r. It's strongly &2advised and encouraged&r to &2travel about and kill monsters&r – &4do not sit in one spot&r for very long."
+				"This pack uses &6Anti Mob Farm&r, which restricts loot and experience after killing mobs in the same chunk for too long. It's strongly advised and encouraged to travel about and slay monsters – do not sit in one spot for very long."
 			]
 			icon: {
 				Count: 1
@@ -602,15 +602,15 @@
 		{
 			dependencies: ["59518B193D9F7836"]
 			description: [
-				"You must &4maintain at least above 10%&r for &2each&r &eProteins, Fruits, Vegetables, and Grains&r. If &2any one&r of them&4 falls under 10%&r, you will begin to &4suffer negative penalties&r, such as &eHunger, Slowness, and Mining Fatigue&r."
+				"You must maintain at least above &210%&r for each&r &eProteins&r, &eFruits&r, &eVegetables&r, and &eGrains&r. If any one of them falls under &410%&r, you will begin to suffer negative penalties, such as &4Hunger&r, &4Slowness&r, and &4Mining Fatigue&r."
 				""
-				"For &2each category&r that you get &2above 60%&r, you will &dgain 25 HP, 5 to Str/Dex/Int, 1.25% flat Elemental Resist, and 5% Bonus Experience&r, which do &2stack together&r. i.e., if you have &eProteins&r and &eFruits&r at &260%&r, you should have &d50 HP, 10 to Str/Dex/Int, 2% flat Elemental Resist, and 10% Bonus Experience&r."
+				"For each category that you get above 60%, you will gain &225&r &eHP&r, &25&r to &eStr/Dex/Int&r, &21.25%&r &eflat Elemental Resist&r, and &25%&r &eBonus Experience&r, which do stack together. i.e., if you have &eProteins&r and &eFruits&r at &260%&r, you should have &250&r &eHP&r, &210&r to &eStr/Dex/Int&r, &22%&r &eflat Elemental Resist&r, and &210%&r &eBonus Experience&r."
 				""
-				"If you manage to get up to &280%&r in &eProteins, Fruits, Vegetables, or Grains&r, you will gain a &2bonus&r to &dTotal Damage, an additional 5 to Str/Dex/Int, and another 2.25% flat Elemental Resist&r for each category."
+				"If you manage to get up to &280%&r in &eProteins&r, &eFruits&r, &eVegetables&r, or &eGrains&r, you will gain a bonus to &eTotal Damage&r, an additional &25&r to &eStr/Dex/Int&r, and another &22.25%&r &eflat Elemental Resist&r for each category."
 				""
-				"By maintaining between &220% and 30%&r &eSugar&r levels, you will gain a &dbonus to Movement Speed, and 15% flat Chaos Resist&r."
+				"By maintaining between &220%&r and &230%&r &eSugar&r levels, you will gain a bonus to &eMovement Speed&r, and &225%&r &eflat Chaos Resist&r."
 				""
-				"If you &4find yourself stuck&r in a &eSugar Crash&r, or you &4didn't eat anything&r, you can &2do the repeatable quest&r \"&eGotta Go Poop&r.\""
+				"If you find yourself stuck in a &eSugar Crash&r, or you didn't eat anything, you can do the repeatable quest \"&eGotta Go Poop&r\", which will reset your &6DIET&r to the default &225/25/25/0&r. "
 			]
 			icon: "minecolonies:clipboard"
 			id: "3F2F44D7BC690425"
@@ -628,13 +628,13 @@
 			can_repeat: true
 			dependencies: ["3F2F44D7BC690425"]
 			description: [
-				"Did you do a naughty thing and &4eat something you shouldn't have&r?"
+				"Did you do a naughty thing and eat something you shouldn't have?"
 				""
-				"Don't worry! Just take this pill &4crams it down your throat&r, and you'll be &2pooping in no time&r."
+				"Don't worry! Just take this pill &4&ocrams it down your throat&r&r, and you'll be pooping in no time."
 				""
-				"Whether you &2poop out the food you ate&r, or &4poop out your organs&r because you &4haven't eaten anything&r – this product is &eguaranteed to reset your DIET stats to default&r, or your money back!"
+				"Whether you poop out the food you ate, or poop out your organs because you haven't eaten anything – this product is guaranteed to reset your &6DIET&r stats to default, or your money back!"
 				""
-				"Now go on, &4get to poopin&r."
+				"Now go on, friend... Get to poopin :)"
 				""
 				"&oDon't forget to wipe!&r"
 			]
