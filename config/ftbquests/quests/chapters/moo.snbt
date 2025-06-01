@@ -15,15 +15,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1CF13509DFB91E2B"]
+			description: ["&9The Market&r people deal primarily in &3Plastim Scrap&r as their preferred currency. They sell a range of useful items."]
 			id: "6EEBED8A78540A3B"
 			tasks: [{
 				id: "2A718D858D523ACA"
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -0.5d
+			x: -11.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -37,8 +37,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: -9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["58C012AD3D76A5CF"]
@@ -52,8 +52,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 1.5d
+			x: -8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["58C012AD3D76A5CF"]
@@ -67,8 +67,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 1.5d
+			x: -9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["58C012AD3D76A5CF"]
@@ -82,8 +82,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 1.5d
+			x: -7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["58C012AD3D76A5CF"]
@@ -97,8 +97,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 2.5d
+			x: -8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["58C012AD3D76A5CF"]
@@ -112,8 +112,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 2.5d
+			x: -9.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["58C012AD3D76A5CF"]
@@ -127,8 +127,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 2.5d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -153,8 +153,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 2.5d
+			x: -9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -168,8 +168,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: -8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -183,8 +183,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["58C012AD3D76A5CF"]
@@ -199,8 +199,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 0.5d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4C310CF30DD887FD"]
@@ -217,8 +217,8 @@
 				title: "Elite Botany Pot"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -4.5d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["21B8B2D077BF1740"]
@@ -235,8 +235,8 @@
 				title: "Botany Pot"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -4.5d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -257,8 +257,8 @@
 				type: "item"
 			}]
 			title: "Hopper Botany Pot"
-			x: -14.5d
-			y: -3.5d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2E12D425C205CDBC"]
@@ -275,8 +275,8 @@
 				title: "Elite Hopper Botany Pot"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -3.5d
+			x: -4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2E12D425C205CDBC"]
@@ -293,8 +293,8 @@
 				title: "Ultra Botany Pot"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -4.5d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2288864C907E2F6A"]
@@ -311,8 +311,8 @@
 				title: "Ultra Hopper Botany Pot"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -3.5d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2288864C907E2F6A"]
@@ -330,8 +330,8 @@
 				type: "item"
 			}]
 			title: "Creative Botany Pot"
-			x: -11.5d
-			y: -4.5d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3FCB085E15333155"]
@@ -348,8 +348,8 @@
 				title: "Creative Hopper Botany Pot"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -3.5d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -363,8 +363,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -378,8 +378,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -393,8 +393,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -408,8 +408,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -423,8 +423,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: -8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -438,8 +438,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -453,8 +453,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -9.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -468,8 +468,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -483,8 +483,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: -7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1B6C1C76041C5730"]
@@ -498,8 +498,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -12.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6BB3BEBFE518D0F2"]
@@ -572,79 +572,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6F51530CCB2F4539"]
-			id: "785F282A8EEC5896"
-			tasks: [{
-				id: "5E06141D1E205F40"
-				item: {
-					Count: 1
-					id: "farmersdelight:skillet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6F51530CCB2F4539"]
-			id: "457E7092CC8E7D98"
-			tasks: [{
-				id: "47231C0665AF5F65"
-				item: "farmersdelight:cooking_pot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["58C012AD3D76A5CF"]
-			id: "024D4778D762F8C8"
-			tasks: [{
-				id: "12462289AB604EE2"
-				item: "farmersdelight:stove"
-				type: "item"
-			}]
-			x: -14.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["6F51530CCB2F4539"]
-			id: "3D151424DB84BC31"
-			tasks: [{
-				id: "067955D18FC244B2"
-				item: "farmersdelight:cutting_board"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["598EFD7817B6EBD9"]
-			id: "65EDCA06F77476F2"
-			tasks: [{
-				id: "32B1771B29C81EEE"
-				item: "sliceanddice:slicer"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["598EFD7817B6EBD9"]
-			id: "6A7F05F10FD79204"
-			tasks: [{
-				id: "189435A767D34D6E"
-				item: "sliceanddice:sprinkler"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["34DA5277D437B0E4"]
+			description: ["This device will let you connect your &6AE2&r and &6Cooking For Blockheads&r together."]
 			id: "4110425AB97554F6"
 			tasks: [{
 				id: "12EBC808D8921E7A"
@@ -655,8 +583,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 1.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6F51530CCB2F4539"]
@@ -670,11 +598,11 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
-			description: ["&6Cooking For Blockheads&r offers a wide range of utility for all of your cooking needs."]
+			description: ["&6Cooking For Blockheads&r offers a wide range of utility for all of your cooking needs. "]
 			id: "58C012AD3D76A5CF"
 			shape: "circle"
 			subtitle: "Make me a sandwich!"
@@ -684,8 +612,8 @@
 				type: "checkmark"
 			}]
 			title: "Keep Your Kitchen Clean"
-			x: -14.5d
-			y: -1.0d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			description: ["Auto Harvest and Ranch with&6 Industrial Foregoing&r. "]
@@ -710,8 +638,8 @@
 				type: "checkmark"
 			}]
 			title: "Gotta Catch Em All"
-			x: -7.5d
-			y: 1.0d
+			x: -9.5d
+			y: -0.5d
 		}
 		{
 			description: ["Tier up your &3Botany Pots&r to blazing fast speeds. "]
@@ -722,45 +650,7 @@
 				type: "checkmark"
 			}]
 			title: "Better Botany Potting"
-			x: -14.5d
-			y: -7.0d
-		}
-		{
-			description: ["&6Slice and Dice&r will allow you to automate various cutting recipes. It also has a &3Sprinkler&r that will let you rain down some &3Water&r, &3Lava&r or &3Fluid XP&r."]
-			id: "598EFD7817B6EBD9"
-			shape: "circle"
-			tasks: [{
-				id: "12F0AFE6B28F4507"
-				title: "Ok"
-				type: "checkmark"
-			}]
-			title: "Slice and Dice"
-			x: -9.0d
-			y: -1.0d
-		}
-		{
-			description: ["&9The Market&r people deal primarily in &3Plastim Scrap&r as their preferred currency. They sell a range of useful items."]
-			id: "1CF13509DFB91E2B"
-			shape: "circle"
-			tasks: [{
-				id: "09E668CA5F88A89C"
-				title: "Ok"
-				type: "checkmark"
-			}]
-			title: "The Market"
-			x: -10.5d
-			y: -0.5d
-		}
-		{
-			description: ["This device will let you connect your &6AE2&r and &6Cooking For Blockheads&r together."]
-			id: "34DA5277D437B0E4"
-			shape: "circle"
-			tasks: [{
-				id: "284CF3ECE86E53F1"
-				title: "Cooking With AE2"
-				type: "checkmark"
-			}]
-			x: -10.5d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -776,8 +666,8 @@
 				type: "checkmark"
 			}]
 			title: "Kitchen Necessities"
-			x: -1.5d
-			y: -4.0d
+			x: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["006EC724C42A91BF"]
@@ -791,8 +681,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -5.5d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["17B3B5D1CD42BA6C"]
@@ -806,18 +696,19 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.0d
+			x: -11.0d
+			y: -0.5d
 		}
 		{
+			description: ["Pump your fluids, even across dimensions!"]
 			id: "397D9F7ABC967F71"
 			tasks: [{
 				id: "7EC7EFA9ADE31AA0"
 				item: "rangedpumps:pump"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 3.0d
+			x: -11.5d
+			y: 1.0d
 		}
 	]
 	title: "Moo"

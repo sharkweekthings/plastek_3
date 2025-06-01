@@ -1,7 +1,7 @@
 {
   "type": "suffix",
   "eye_aura_req": "",
-  "guid": "elemental_resist_suffix",
+  "guid": "magic_find_suffix",
   "one_of_a_kind": "",
   "only_one_per_item": true,
   "requirements": {
@@ -21,9 +21,9 @@
   "stats": [
     {
       "type": "FLAT",
-      "max": 35.0,
-      "min": 5.0,
-      "stat": "elemental_resist"
+      "max": 25.0,
+      "min": 1.0,
+      "stat": "magic_find"
     }
   ],
   "weight": 1000

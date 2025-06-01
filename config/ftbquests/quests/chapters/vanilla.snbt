@@ -23,7 +23,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -37,8 +37,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -55,11 +55,12 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			id: "638EB4E35F41405B"
+			subtitle: "For Backpacks"
 			tasks: [{
 				id: "2358AE9BED1CF201"
 				item: {
@@ -69,6 +70,7 @@
 				}
 				type: "item"
 			}]
+			title: "Sophisticated Backpacks Upgrade Base"
 			x: 0.5d
 			y: 2.5d
 		}
@@ -672,6 +674,7 @@
 					type: "item"
 				}
 			]
+			title: "Chipped Workench"
 			x: 2.5d
 			y: 6.5d
 		}
@@ -687,8 +690,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["52FFA3E691992828"]
@@ -702,8 +705,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["03F9939977753992"]
@@ -717,8 +720,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2694808D51042470"]
@@ -732,8 +735,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["54A7C357AE0ADF65"]
@@ -747,8 +750,367 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "28EE13DE7CBE9518"
+			subtitle: "For Barrels"
+			tasks: [{
+				id: "16C431CFABD45441"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			title: "Sophisticated Storage Upgrade Base"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "1762E8D84A5D523D"
+			tasks: [
+				{
+					id: "70901E3D25335239"
+					item: "sophisticatedstorage:pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "023EE4A74285BF74"
+					item: "sophisticatedstorage:advanced_pickup_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "1F879560512B92E5"
+			tasks: [
+				{
+					id: "024B906E0C29037C"
+					item: "sophisticatedstorage:filter_upgrade"
+					type: "item"
+				}
+				{
+					id: "11B0814F656CF239"
+					item: "sophisticatedstorage:advanced_filter_upgrade"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "203A0C651EA25098"
+			tasks: [
+				{
+					id: "75DEE461AB335691"
+					item: "sophisticatedstorage:magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "5FB5EB43DFE426DD"
+					item: "sophisticatedstorage:advanced_magnet_upgrade"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "593FC0DC7C3B85CC"
+			tasks: [
+				{
+					id: "1938B7361717C2FB"
+					item: "sophisticatedstorage:feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "65BC37CA55CAC9BA"
+					item: "sophisticatedstorage:advanced_feeding_upgrade"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "1E3B2C2A5B3F8891"
+			tasks: [
+				{
+					id: "2AC3A0D54DFA01AE"
+					item: "sophisticatedstorage:compacting_upgrade"
+					type: "item"
+				}
+				{
+					id: "77773386E693A999"
+					item: "sophisticatedstorage:advanced_compacting_upgrade"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "6E47004B5BA60AAC"
+			tasks: [
+				{
+					id: "397AFB2C884FC753"
+					item: "sophisticatedstorage:void_upgrade"
+					type: "item"
+				}
+				{
+					id: "099C8F441114D279"
+					item: "sophisticatedstorage:advanced_void_upgrade"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "6B2D00B54B16464B"
+			tasks: [
+				{
+					id: "4712046CDD525C46"
+					item: "sophisticatedstorage:smoking_upgrade"
+					type: "item"
+				}
+				{
+					id: "1E53B4D544964142"
+					item: "sophisticatedstorage:auto_smoking_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "08ACA2EAE7CB44AA"
+			tasks: [
+				{
+					id: "785070AABDCCFF53"
+					item: "sophisticatedstorage:blasting_upgrade"
+					type: "item"
+				}
+				{
+					id: "10E190804CEDC39A"
+					item: "sophisticatedstorage:auto_blasting_upgrade"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "5411D7D6AD053E66"
+			tasks: [{
+				id: "1767F29454C1C10F"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "799E18C17D0CACCF"
+			tasks: [{
+				id: "7292564270A26446"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "2F17C0820C336EB5"
+			tasks: [
+				{
+					id: "7468B094DC6408AC"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "30BE2D817BD9A166"
+					item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+					type: "item"
+				}
+				{
+					id: "28C61A1183EBD183"
+					item: "sophisticatedstorage:stack_upgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "262FB120C9746E7F"
+					item: "sophisticatedstorage:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "3DFB0B1F34A72FD2"
+					item: "sophisticatedstorage:stack_upgrade_tier_4"
+					type: "item"
+				}
+				{
+					id: "4627650023EA05C5"
+					item: "sophisticatedstorage:stack_upgrade_tier_5"
+					type: "item"
+				}
+				{
+					id: "6446BA1D105C6830"
+					item: "sophisticatedstorage:stack_upgrade_omega_tier"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "1FC3C1EC91AD1443"
+			tasks: [
+				{
+					id: "2948A600F25185E5"
+					item: "sophisticatedstorage:jukebox_upgrade"
+					type: "item"
+				}
+				{
+					id: "4AE6A40F3E87A6AC"
+					item: "sophisticatedstorage:advanced_jukebox_upgrade"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "5E1D5B6D719FE708"
+			tasks: [
+				{
+					id: "0D3B9309A53F0A04"
+					item: "sophisticatedstorage:pump_upgrade"
+					type: "item"
+				}
+				{
+					id: "78109FE8D6A48576"
+					item: "sophisticatedstorage:advanced_pump_upgrade"
+					type: "item"
+				}
+				{
+					id: "6A82369DF4BA37D5"
+					item: "sophisticatedstorage:xp_pump_upgrade"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "5C229CFEA7C5D2DD"
+			tasks: [
+				{
+					id: "2CB393DD5E12AC42"
+					item: "sophisticatedstorage:alchemy_upgrade"
+					type: "item"
+				}
+				{
+					id: "5D49D739C6771860"
+					item: "sophisticatedstorage:advanced_alchemy_upgrade"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "2D43DDEE8D229F42"
+			tasks: [
+				{
+					id: "67DF17092AABC7C0"
+					item: "sophisticatedstorage:chipped/botanist_workbench_upgrade"
+					type: "item"
+				}
+				{
+					id: "3CC4C2FA03BD74CA"
+					item: "sophisticatedstorage:chipped/glassblower_upgrade"
+					type: "item"
+				}
+				{
+					id: "6237441914ED517E"
+					item: "sophisticatedstorage:chipped/carpenters_table_upgrade"
+					type: "item"
+				}
+				{
+					id: "5CA562FFEAA3950E"
+					item: "sophisticatedstorage:chipped/loom_table_upgrade"
+					type: "item"
+				}
+				{
+					id: "069F942188AB9BF3"
+					item: "sophisticatedstorage:chipped/mason_table_upgrade"
+					type: "item"
+				}
+				{
+					id: "4DC48DC398633E18"
+					item: "sophisticatedstorage:chipped/alchemy_bench_upgrade"
+					type: "item"
+				}
+				{
+					id: "3C5043275A2C56E8"
+					item: "sophisticatedstorage:chipped/tinkering_table_upgrade"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "03DB76C4A4A1386B"
+			tasks: [
+				{
+					id: "428628750036C661"
+					item: "sophisticatedstorage:hopper_upgrade"
+					type: "item"
+				}
+				{
+					id: "7BCC9FA66D353987"
+					item: "sophisticatedstorage:advanced_hopper_upgrade"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28EE13DE7CBE9518"]
+			id: "298B1994C646424F"
+			tasks: [
+				{
+					id: "3CDB1078B560EA54"
+					item: "sophisticatedstorage:jukebox_upgrade"
+					type: "item"
+				}
+				{
+					id: "2E50DC9BFA331444"
+					item: "sophisticatedstorage:advanced_jukebox_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 5.5d
 		}
 	]
 	title: "Basic"

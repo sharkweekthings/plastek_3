@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "avt_v"
+	filename: "act_v"
 	group: "1F979D7131BCCB17"
 	icon: {
 		Count: 1
@@ -1330,6 +1330,17 @@
 		}
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
+			description: [
+				""
+				""
+				"Thanks to you and your Pixie friend, all &aPixie's&r were able to return to &6Feywild&r if they wanted; united under a '&eTwo Queen&r' system, each with a 50 percent balance of power for their Fey houses, this was called the &dUnited Fey Alliance&r and all denizens of &6Feywild&r were united, including the &aDwarves&r."
+				""
+				"Every year on the anniversary of the &dUnited Fey Alliance&r, the &aPixie's&r will sprinkle &3Pixie Dust&r over your village; making it a magical night for anyone in attendance. Villagers from all of the world, and even across dimensions come to stay at your village for this one magical night of festivities and dancing. "
+				""
+				"This is also how you found out that not everybody has the same tolerance to &3Pixie Dust&r as you do, which likely came from you inhaling the &3Royal Pixie Dust&r many years ago, as the normal stuff just doesn't have any effect on you."
+				""
+				"While most people dance, and act silly; some people are a little too over the top and have to be asked to leave the festival. There was even one time a festival goer stripped down in front of the monument to &dProfessor Trevor&r, and announced his love to the fallen &dProfessor&r. "
+			]
 			icon: "kubejs:p3_chat"
 			id: "464B7D793B1D05A4"
 			rewards: [{
@@ -1377,6 +1388,11 @@
 		}
 		{
 			dependencies: ["7949FA7849F2A6D9"]
+			description: [
+				"During the fight &cMaledictus&r will switch between &eRanged&r and &eMelee&r attacks.  He can also pick you up, and slam you into the ground. "
+				""
+				"Bring any healing items you might want, and anything to help you escape when your &eDodge Roll&r is on cooldown. "
+			]
 			icon: "kubejs:p3_chat"
 			id: "60248D80D0C868B2"
 			rewards: [{

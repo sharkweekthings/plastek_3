@@ -28,7 +28,7 @@
 	#When OFF: 8 bars, 8 keybinds. When ON: 4 bars, 5 keybinds(4 for each bar, 1 for hotbar swap button)
 	HOTBAR_SWAPPING = false
 	#Allowed Values: NONE, BOTTOM_CENTER, OVER_VANILLA, TOP_LEFT
-	GUI_POSITION = "TOP_LEFT"
+	GUI_POSITION = "BOTTOM_CENTER"
 	#Allowed Values: BORDER, FULL
 	ITEM_RARITY_BACKGROUND_TYPE = "FULL"
 	#Allowed Values: RPG, NONE

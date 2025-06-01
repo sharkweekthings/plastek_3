@@ -14,7 +14,7 @@
 	quests: [
 		{
 			description: [
-				"For this section we're only going to some storage basics of &6AE2&r."
+				"For this section we're only going to some storage and automation basics of &6AE2&r."
 				""
 				"If you want to learn more advanced &6AE2&r you can read their &bofficial source&r at &ahttps://appliedenergistics.org&r, "
 				""
@@ -45,7 +45,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: 0.5d
 		}
 		{
@@ -60,7 +60,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 0.5d
 		}
 		{
@@ -144,11 +144,9 @@
 		{
 			dependencies: ["2C8346B524BDED63"]
 			description: [
-				"The first machines you will build for Applied Energistics 2 begins here. "
+				"The first machines you will build for &6Applied Energistics 2&r begins here. "
 				""
-				"To get some &3Fluix&r you'll need to throw &3Redstone&r, &3Nether Quartz&r, &3Charged Certus Quartz&r, and &3Fresh Water&r into the &9Recrystallizer&r. "
-				""
-				"If you're not progressed enough for &6The End&r, you can always buy some &3Azure Silver Dust&r from the &9Market&r!"
+				"To get some &3Fluix&r you'll need to throw &3Redstone&r, &3Nether Quartz&r, &3Charged Certus Quartz&r, and &3Fresh Water&r into a &9Mixer&r, or pool of water. "
 			]
 			id: "548134C655C0099F"
 			shape: "circle"
@@ -157,12 +155,12 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Starter Machines"
+			title: "Starting Out"
 			x: 2.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["7377F63BFCC4212E"]
+			dependencies: ["548134C655C0099F"]
 			id: "66C01F1D69682A72"
 			shape: "circle"
 			tasks: [{
@@ -174,8 +172,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2AFF651107625D6F"]
@@ -190,7 +188,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -254,7 +252,7 @@
 				}
 			]
 			title: "Cables"
-			x: 4.0d
+			x: 4.5d
 			y: 3.5d
 		}
 		{
@@ -486,19 +484,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["6DE3B1252E5267DB"]
-			hide_dependency_lines: true
-			id: "4E81AB960B47437A"
-			tasks: [{
-				id: "59F9057EEBC4D9C4"
-				item: "megacells:radioactive_cell_component"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			description: [""]
@@ -522,38 +508,10 @@
 					}
 					type: "item"
 				}
-				{
-					id: "27AABA5EE0FD7A10"
-					item: "appmek:chemical_cell_housing"
-					type: "item"
-				}
 			]
 			title: "AE2 Cell Housings"
 			x: 1.5d
 			y: 5.0d
-		}
-		{
-			id: "64161C5ADF596884"
-			tasks: [
-				{
-					id: "511D9F6C1F8B7C1E"
-					item: "megacells:mega_item_cell_housing"
-					type: "item"
-				}
-				{
-					id: "36CD459D643A56BA"
-					item: "megacells:mega_fluid_cell_housing"
-					type: "item"
-				}
-				{
-					id: "504ACB82B0E53DF8"
-					item: "megacells:mega_chemical_cell_housing"
-					type: "item"
-				}
-			]
-			title: "MEGA Cell Housings"
-			x: 1.5d
-			y: 7.0d
 		}
 		{
 			dependencies: ["2C8346B524BDED63"]
@@ -1219,7 +1177,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 6.5d
 			y: 3.5d
 		}
 		{
@@ -1267,17 +1225,6 @@
 		}
 		{
 			dependencies: ["548134C655C0099F"]
-			id: "7377F63BFCC4212E"
-			tasks: [{
-				id: "54343568DE6FB61A"
-				item: "silentgear:recrystallizer"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["548134C655C0099F"]
 			description: ["Need to power up your system, but you're too early in the game for that and have no power? No worries. With the &9Crystal Resonance Generator&r, you can generate up to &e20AE/t&r."]
 			id: "6DA2FFE437DF7C73"
 			tasks: [{
@@ -1289,8 +1236,25 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 0.5d
+		}
+		{
+			id: "52FB9970F595196D"
+			tasks: [
+				{
+					id: "1292A4CB5083BDED"
+					item: "megacells:mega_item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "40875FBAB8F26915"
+					item: "megacells:mega_fluid_cell_housing"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.0d
 		}
 	]
 	title: "Applied Energistics 2"
