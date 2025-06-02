@@ -1,0 +1,8 @@
+{
+  "replace":false,
+  "values": [
+    {"id":"farmersdelight:apple_cider","required":false},    
+    {"id":"vinery:creepers_crush","required":false},
+    {"id":"brewery:fried_chicken","required":false}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace":false,
+  "values": [
+    {"id":"farmersdelight:hot_cocoa","required":false},
+    {"id":"pamhc2foodextended:maplesyrupwafflesitem","required":false},
+    {"id":"pamhc2foodextended:cinnamonsugardonutitem","required":false}
+  ]
+}

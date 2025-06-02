@@ -86,6 +86,11 @@
 		}
 		{
 			dependencies: ["14527A39D456F6C1"]
+			description: [
+				"The &eSoulforge&r can be found in &6The Nether&r. "
+				""
+				"The &cNetherite Monstrosity&r is one of the sacred guardians of &6The Nether&r. Completely resilent to &eVoid Energy&r, it was never warped and twisted, but it still doesn't like intruders, especially if you aren't a &cPiglin&r."
+			]
 			id: "20A30498BD2020C5"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"
@@ -152,6 +157,15 @@
 		}
 		{
 			dependencies: ["14527A39D456F6C1"]
+			description: [
+				"&cMaledictus&r was once an adventurer, just like you. Then he took an arrow to the... face."
+				""
+				"That arrow struck him right at the same time all of the &3Plastim&r in the world went nuclear; which for some reason caused him to gain semi immortality."
+				""
+				"He awaits any adventurers brave enough to challenge him, hopefully with the power to put him to sleep forever. "
+				""
+				"You can find the &eFrosted Prison&r in cold areas of the &6Overworld&r. "
+			]
 			id: "7949FA7849F2A6D9"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"

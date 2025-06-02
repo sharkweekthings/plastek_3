@@ -1,0 +1,27 @@
+{
+  "replace":false,
+  "values": [
+    {"id":"pamhc2foodcore:carrotsoupitem","required":false},
+    {"id":"pamhc2foodcore:pumpkinsoupitem","required":false},
+    {"id":"pamhc2foodcore:noodlesoupitem","required":false},
+    {"id":"pamhc2foodcore:potatosoupitem","required":false},
+    {"id":"pamhc2foodextended:hotandsoursoupitem","required":false},
+    {"id":"pamhc2foodextended:wontonsoupitem","required":false},
+    {"id":"pamhc2foodextended:peaandhamsoupitem","required":false},
+    {"id":"pamhc2foodextended:lambbarleysoupitem","required":false},
+    {"id":"pamhc2foodextended:tomatosoupitem","required":false},
+    {"id":"pamhc2foodextended:chickennoodlesoupitem","required":false},
+    {"id":"pamhc2foodextended:oldworldveggiesoupitem","required":false},
+    {"id":"pamhc2foodextended:leekbaconsoupitem","required":false},
+    {"id":"pamhc2foodextended:misosoupitem","required":false},
+    {"id":"pamhc2foodextended:potatoandleeksoupitem","required":false},
+    {"id":"pamhc2foodextended:pizzasoupitem","required":false},
+    {"id":"pamhc2foodextended:vegetablesoupitem","required":false},
+    {"id":"pamhc2foodextended:cactussoupitem","required":false},
+    {"id":"pamhc2foodextended:splitpeasoupitem","required":false},
+    {"id":"pamhc2foodextended:creamedbroccolisoupitem","required":false},
+    {"id":"pamhc2foodextended:creamofavocadosoupitem","required":false},
+    {"id":"pamhc2foodextended:gardensoupitem","required":false},
+    {"id":"pamhc2foodextended:seedsoupitem","required":false}
+  ]
+}

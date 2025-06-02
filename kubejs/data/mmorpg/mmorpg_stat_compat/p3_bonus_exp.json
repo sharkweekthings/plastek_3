@@ -1,6 +1,6 @@
 {
   "attribute_id": "kubejs:bonus_exp",
-  "conversion": 5.0,
+  "conversion": 1.0,
   "enchant_id": "",
   "id": "p3_bonus_exp_compat",
   "maximum_cap": 100,

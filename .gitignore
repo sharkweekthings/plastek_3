@@ -16,6 +16,9 @@ screenshots/
 usercache.json
 usernamecache.json
 
+
+config/farmersdelight-client.toml
+config/farmersdelight-common.toml
 defaultconfigs/ftbchunks
 defaultconfigs/ftblibrary
 defaultconfigs/ftbquests
@@ -23,7 +26,7 @@ defaultconfigs/ftbxmodcompat
 defaultconfigs/ftbessentials-server.snbt
 defaultconfigs/
 config/solonion-client.json
-config/ae2
+config/ae2/common.json
 config/aether
 config/aether-client.toml
 config/aether-common.toml
@@ -79,6 +82,7 @@ config/curios-common.toml
 config/cosmeticarmorreworked-client.toml
 config/cosmeticarmorreworked-common.toml
 config/hardcorerevival-common.toml
+config/megacells.json
 config/dimdungeons-client.toml
 config/dimdungeons-common-r190.toml
 config/embeddium-fingerprint.json

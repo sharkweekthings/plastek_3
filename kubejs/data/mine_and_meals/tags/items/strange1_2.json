@@ -1,0 +1,9 @@
+{
+  "replace":false,
+  "values": [
+    {"id":"aquaculturedelight:poor_fisher_chowder","required":false},
+    {"id":"farmersdelight:nether_salad","required":false},
+    {"id":"farmersdelight:gone_broth","required":false},
+    {"id":"farmersdelight:dog_food","required":false}
+  ]
+}

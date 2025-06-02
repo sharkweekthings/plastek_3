@@ -1,0 +1,11 @@
+{
+  "replace":false,
+  "values": [
+    {"id":"pamhc2foodextended:cheddarandsourcreampotatochipsitem","required":false},
+    {"id":"pamhc2foodextended:sourcreamandonionpotatochipsitem","required":false},
+    {"id":"pamhc2foodextended:grilledcheesevegemitetoastitem","required":false},
+    {"id":"pamhc2foodextended:cheeseontoastitem","required":false},
+    {"id":"pamhc2foodextended:groiledcheesesandwichitem","required":false}
+
+  ]
+}

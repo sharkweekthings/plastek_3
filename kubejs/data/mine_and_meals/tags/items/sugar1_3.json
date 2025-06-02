@@ -1,0 +1,25 @@
+{
+  "replace":false,
+  "values": [
+    {"id":"farmersdelight:apple_pie","required":false},
+    {"id":"farmersdelight:sweet_berry_cheesecake","required":false},
+    {"id":"farmersdelight:chocolate_pie","required":false },
+    {"id":"pamhc2foodcore:icecreamitem","required":false},
+    {"id":"pamhc2foodextended:cherryicecreamitem","required":false},
+    {"id":"pamhc2foodextended:neapolitanicecreamitem","required":false},
+    {"id":"pamhc2foodextended:mochaicecreamitem","required":false},
+    {"id":"pamhc2foodextended:vanillaicecreamitem","required":false},
+    {"id":"pamhc2foodextended:mintchocolatechipicecreamitem","required":false},
+    {"id":"pamhc2foodextended:nuttoppedicecreamitem","required":false},
+    {"id":"pamhc2foodextended:wafflesitem","required":false},
+    {"id":"pamhc2foodextended:maplesyrupwafflesitem","required":false},
+    {"id":"pamhc2foodextended:cinnamonsugardonutitem","required":false},
+    {"id":"pamhc2foodextended:frosteddonutitem","required":false},
+    {"id":"pamhc2foodextended:brownieitem","required":false},
+    {"id":"pamhc2foodextended:maplesyruppancakesitem","required":false},
+    {"id":"pamhc2foodcore:chocolateyogurtitem","required":false},
+    {"id":"pamhc2foodcore:caramelyogurtitem","required":false},
+    {"id":"pamhc2foodextended:chocolatesprinklecakeitem","required":false}
+
+  ]
+}

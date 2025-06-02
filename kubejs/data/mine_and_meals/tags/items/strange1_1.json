@@ -1,0 +1,11 @@
+{
+  "replace":false,
+  "values": [
+    {"id":"minecraft:poisonous_potato","required":false},
+    {"id":"minecraft:rotten_flesh","required":false},
+    {"id":"minecraft:spider_eye","required":false},
+    {"id":"minecraft:bone","required":false},
+    {"id":"supplementariesdelight:soap_dust","required":false}
+
+  ]
+}

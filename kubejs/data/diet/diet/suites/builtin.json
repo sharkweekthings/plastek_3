@@ -23,10 +23,10 @@
         {
           "name": "kubejs:elemental_resist",
           "operation": "add",
-          "amount": 1.25
+          "amount": 2.00
         },
         {
-          "name": "kubejs:bonus_exp",
+          "name": "mine_and_meals:alcohol2_exp_bonus",
           "operation": "add",
           "amount": 5.0
         }

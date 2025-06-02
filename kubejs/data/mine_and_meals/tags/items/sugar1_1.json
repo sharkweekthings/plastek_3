@@ -1,0 +1,12 @@
+{
+  "replace":false,
+  "values": [
+    {"id":"minecraft:sugar","required":false},
+    {"id":"minecraft:honey_bottle","required":false},
+    {"id":"minecraft:cocoa_beans","required":false},
+    {"id":"farmersdelight:honey_glazed_ham","required":false},
+    {"id":"supplementaries:pancake","required":false},
+    {"id":"pamhc2trees:maplesyrupitem","required":false},
+    {"id":"pamhc2trees:vanillabeanitem","required":false }
+  ]
+}
