@@ -1,10 +1,4 @@
 {
   "replace":false,
-  "values": [
-    {"id":"pamhc2foodextended:gourmetbeefburgeritem","required":false},
-    {"id":"pamhc2foodextended:gourmetmuttonburgeritem","required":false},
-    {"id":"pamhc2foodextended:gourmetporkburgeritem","required":false},
-    {"id":"pamhc2foodextended:cornedbeefbreakfastitem","required":false}
-
-  ]
+  "values": []
 }

@@ -1,4 +1,20 @@
 {
   "replace":false,
-  "values": []
+  "values": [
+    {"id":"pamhc2foodcore:fishandchipsitem","required":false},
+    {"id":"pamhc2foodextended:bibimbapitem","required":false},
+    {"id":"pamhc2foodextended:chickencurryitem","required":false},
+    {"id":"pamhc2foodextended:chiliitem","required":false},
+    {"id":"pamhc2foodextended:deluxecheeseburgeritem","required":false},
+    {"id":"pamhc2foodextended:deluxenachoesitem","required":false},
+    {"id":"pamhc2foodextended:holidaycakeitem","required":false},
+    {"id":"pamhc2foodextended:kungpaochickenitem","required":false},
+    {"id":"pamhc2foodextended:meatfeastpizzaitem","required":false},
+    {"id":"pamhc2foodextended:porklomeinitem","required":false},
+    {"id":"pamhc2foodextended:redvelvetcupcakeitem","required":false},
+    {"id":"pamhc2foodextended:ricecakeitem","required":false},
+    {"id":"pamhc2foodextended:sausageinbreaditem","required":false},
+    {"id":"pamhc2foodextended:southernstylebreakfastitem","required":false},
+    {"id":"pamhc2foodextended:sweetandsourmeatballsitem","required":false}
+  ]
 }

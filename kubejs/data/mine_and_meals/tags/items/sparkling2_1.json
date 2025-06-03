@@ -1,4 +1,20 @@
 {
   "replace":false,
-  "values": []
+  "values": [
+    {"id":"pamhc2foodcore:cheesecakeitem","required":false},
+    {"id":"pamhc2foodcore:chocolatecakeitem","required":false},
+    {"id":"pamhc2foodextended:applesnowitem","required":false},
+    {"id":"pamhc2foodextended:berrymeringuenestitem","required":false},
+    {"id":"pamhc2foodextended:bltitem","required":false},
+    {"id":"pamhc2foodextended:cornedbeefandcabbageitem","required":false},
+    {"id":"pamhc2foodextended:dangoitem","required":false},
+    {"id":"pamhc2foodextended:eggplantparmitem","required":false},
+    {"id":"pamhc2foodextended:garammasalaitem","required":false},
+    {"id":"pamhc2foodextended:lambkebabitem","required":false},
+    {"id":"pamhc2foodextended:lasagnaitem","required":false},
+    {"id":"pamhc2foodextended:rivermudcakeitem","required":false},
+    {"id":"pamhc2foodextended:supremepizzaitem","required":false},
+    {"id":"pamhc2foodextended:sweetandsourchickenitem","required":false},
+    {"id":"pamhc2foodextended:threebeansaladitem","required":false}
+  ]
 }

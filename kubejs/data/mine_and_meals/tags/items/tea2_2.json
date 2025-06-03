@@ -1,4 +1,12 @@
 {
   "replace":false,
-  "values": []
+  "values": [
+    {"id":"pamhc2foodcore:epicbaconitem","required":false},
+    {"id":"pamhc2foodextended:beetburgeritem","required":false},
+    {"id":"pamhc2foodextended:cantonesenoodlesitem","required":false},
+    {"id":"pamhc2foodextended:delightedmealitem","required":false},
+    {"id":"pamhc2foodextended:gourmetbeefburgeritem","required":false},
+    {"id":"pamhc2foodextended:hotdishcasseroleitem","required":false},
+    {"id":"pamhc2foodextended:meringuerouladeitem","required":false}
+  ]
 }

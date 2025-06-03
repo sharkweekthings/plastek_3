@@ -1,4 +1,12 @@
 {
   "replace":false,
-  "values": []
+  "values": [
+    {"id":"pamhc2foodcore:hotdogitem","required":false},
+    {"id":"pamhc2foodextended:bentoboxitem","required":false},
+    {"id":"pamhc2foodextended:charsiuitem","required":false},
+    {"id":"pamhc2foodextended:chilidogitem","required":false},
+    {"id":"pamhc2foodextended:cornedbeefbreakfastitem","required":false},
+    {"id":"pamhc2foodextended:friedfeastitem","required":false},
+    {"id":"pamhc2foodextended:ploughmanslunchitem","required":false}
+  ]
 }

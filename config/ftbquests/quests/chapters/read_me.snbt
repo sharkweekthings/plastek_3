@@ -97,7 +97,7 @@
 				""
 				"&dEnchantments&r – Some Enchantments give Mine and Slash stats and may add HP."
 				""
-				"&6Mine and Meals&r - Eating most foods will grant various Mine and Slash buffs. You can hover over the food item in JEI to see what type of buffs you will get from eating."
+				"&6Mine and Meals&r - Eating most foods will grant various &6Mine and Slash&r buffs. You can hover over the food item in &6JEI&r to see what type of buffs you will get from eating. &2The way food is grouped for this mod is completely re-worked to still encourage using Mine and Slash specific food, as the effects will stack together.&r "
 				""
 				"&6Spice of Life Carrot and Onion&r – Using both &6Spice of Life Carrot&r and &6Onion&r will offer various effects. While &6Spice of Life Carrot&r focuses more on HP only, &6Onion&r will give you &eHP&r, &eElemental Resistance&r, &eCombat Roll Distance&r, and &eCombat Roll Count&r!"
 				""
@@ -558,7 +558,7 @@
 			description: [
 				"Grants &e1 Ascendancy Point&r."
 				""
-				"This is an &2extra Talent tree&r with extremely powerful &2changes that will alter your character&r."
+				"This is an extra Talent tree with extremely powerful changes that will alter your character."
 				""
 				"You will be able to access the &eAscendancy tree&r from the &eHub&r when you reach a higher level and have at least &e1 Ascendancy Point&r."
 			]

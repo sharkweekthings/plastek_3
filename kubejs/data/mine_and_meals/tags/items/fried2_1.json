@@ -1,4 +1,20 @@
 {
   "replace":false,
-  "values": []
+  "values": [
+    {"id":"aether:blue_gummy_swet","required":false},
+    {"id":"pamhc2foodcore:fruitsaladitem","required":false},
+    {"id":"pamhc2foodextended:chickenchowmeinitem","required":false},
+    {"id":"pamhc2foodextended:chocolatesprinklecakeitem","required":false},
+    {"id":"pamhc2foodextended:cornedbeefhashitem","required":false},
+    {"id":"pamhc2foodextended:deviledeggitem","required":false},
+    {"id":"pamhc2foodextended:heartybreakfastitem","required":false},
+    {"id":"pamhc2foodextended:mcpamitem","required":false},
+    {"id":"pamhc2foodextended:peaandhamsoupitem","required":false},
+    {"id":"pamhc2foodextended:potatocakesitem","required":false},
+    {"id":"pamhc2foodextended:potatosaladitem","required":false},
+    {"id":"pamhc2foodextended:poutineitem","required":false},
+    {"id":"pamhc2foodextended:steakfajitaitem","required":false},
+    {"id":"pamhc2foodextended:stuffingitem","required":false},
+    {"id":"pamhc2foodextended:teriyakichickenitem","required":false}
+  ]
 }

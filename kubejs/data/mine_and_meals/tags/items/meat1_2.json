@@ -1,28 +1,4 @@
 {
   "replace":false,
-  "values": [
-    {"id":"minecraft:cooked_beef","required":false},
-    {"id":"minecraft:cooked_porkchop","required":false},
-    {"id":"minecraft:cooked_mutton","required":false},
-    {"id":"minecraft:cooked_chicken","required":false},
-    {"id":"minecraft:cooked_rabbit","required":false},
-    {"id":"minecraft:mushroom_stew","required":false},
-    {"id":"farmersdelight:beef_patty","required":false},
-    {"id":"farmersdelight:cooked_chicken_cuts","required":false},
-    {"id":"farmersdelight:cooked_bacon","required":false},
-    {"id":"farmersdelight:cooked_mutton_chops","required":false},
-    {"id":"farmersdelight:nether_salad","required":false},
-    {"id":"farmersdelight:barbecue_stick","required":false},
-    {"id":"farmersdelight:cabbage_rolls","required":false},
-    {"id":"farmersdelight:mushroom_rice","required":false},
-    {"id":"farmersdelight:vegetable_noodles","required":false},
-    {"id":"farmersdelight:stuffed_pumpkin","required":false},
-    {"id":"farmersdelight:dog_food","required":false},
-    {"id":"aquaculture:turtle_soup","required":false},
-    {"id":"farmersdelight:roast_mutton_chops","required":false},
-    {"id":"farmersdelight:stake_and_potatoes","required":false},
-    {"id":"aquaculturedelight:turtle_meat_dish","required":false}
-
-
-  ]
+  "values": []
 }

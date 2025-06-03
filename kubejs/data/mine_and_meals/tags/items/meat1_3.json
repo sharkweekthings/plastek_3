@@ -1,24 +1,4 @@
 {
   "replace":false,
-  "values": [
-    {"id":"minecraft:rabbit_stew","required":false},
-    {"id":"farmersdelight:smoked_ham","required":false},
-    {"id":"farmersdelight:chicken_sandwich","required":false},
-    {"id":"farmersdelight:hamburger","required":false},
-    {"id":"farmersdelight:bacon_sandwich","required":false},
-    {"id":"farmersdelight:mutton_wrap","required":false},
-    {"id":"farmersdelight:dumplings","required":false},
-    {"id":"farmersdelight:stuffed_potato","required":false},
-    {"id":"farmersdelight:beef_stew","required":false},
-    {"id":"farmersdelight:chicken_soup","required":false},
-    {"id":"farmersdelight:pumpkin_soup","required":false},
-    {"id":"farmersdelight:noodle_soup","required":false},
-    {"id":"farmersdelight:bacon_eggs","required":false},
-    {"id":"farmersdelight:pasta_with_meatballs","required":false},
-    {"id":"farmersdelight:mutton_pasta","required":false},
-    {"id":"farmersdelight:roast_chicken","required":false},
-    {"id":"farmersdelight:honey_glazed","required":false},
-    {"id":"farmersdelight:shepherds_pie","required":false}
-
-  ]
+  "values": []
 }

@@ -1,4 +1,12 @@
 {
   "replace":false,
-  "values": []
+  "values": [
+    {"id":"pamhc2foodextended:bangersandmashitem","required":false},
+    {"id":"pamhc2foodextended:homestylelunchitem","required":false},
+    {"id":"pamhc2foodextended:koreandinneritem","required":false},
+    {"id":"pamhc2foodextended:mashedpotatoeschickenbiscuititem","required":false},
+    {"id":"pamhc2foodextended:paradiseburgeritem","required":false},
+    {"id":"pamhc2foodextended:pizzasoupitem","required":false},
+    {"id":"pamhc2foodextended:timpanoitem","required":false}
+  ]
 }

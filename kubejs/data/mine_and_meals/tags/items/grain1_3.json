@@ -1,45 +1,4 @@
 {
   "replace":false,
-  "values": [
-    {"id":"supplementaries:pancake","required":false},
-    {"id":"farmersdelight:apple_pie","required":false},
-    {"id":"farmersdelight:sweet_berry_cheesecake","required":false},
-    {"id":"farmersdelight:chocolate_pie","required":false},
-    {"id":"farmersdelight:chicken_sandwich","required":false},
-    {"id":"farmersdelight:hamburger","required":false},
-    {"id":"farmersdelight:bacon_sandwich","required":false},
-    {"id":"farmersdelight:mutton_wrap","required":false},
-    {"id":"farmersdelight:dumplings","required":false},
-    {"id":"farmersdelight:stuffed_potato","required":false},
-    {"id":"farmersdelight:beef_stew","required":false},
-    {"id":"farmersdelight:vegetable_soup","required":false},
-    {"id":"farmersdelight:roast_mutton_chops","required":false},
-    {"id":"farmersdelight:roast_chicken","required":false},
-    {"id":"farmersdelight:stuffed_pumpkin","required":false},
-    {"id":"farmersdelight:honey_glazed","required":false},
-    {"id":"farmersdelight:shepherds_pie","required":false},
-    {"id":"aquaculturedelight:large_fish_with_vegetables","required":false},
-    {"id":"pamhc2foodcore:toastitem","required":false},
-    {"id":"pamhc2foodcore:chickenpotpieitem","required":false}
-    {"id":"pamhc2foodextended:toastsandwichitem","required":false},
-    {"id":"pamhc2foodextended:honeysandwichitem","required":false},
-    {"id":"pamhc2foodextended:fiestacornsaladitem","required":false},
-    {"id":"pamhc2foodextended:enchiladaitem","required":false},
-    {"id":"pamhc2foodextended:mcpamitem","required":false},
-    {"id":"pamhc2foodextended:chiliitem","required":false},
-    {"id":"pamhc2foodextended:chimichangaitem","required":false},
-    {"id":"pamhc2foodextended:deluxenachoesitem","required":false},
-    {"id":"pamhc2foodextended:deluxechickencurryitem","required":false},
-    {"id":"pamhc2foodextended:chocolateorangebiscuititem","required":false},
-    {"id":"pamhc2foodextended:bbqchickenbiscuititem","required":false},
-    {"id":"pamhc2foodextended:battenbergitem","required":false},
-    {"id":"pamhc2foodextended:sweetandsourchickenitem","required":false},
-    {"id":"pamhc2foodextended:cornedbeefhashitem","required":false},
-    {"id":"pamhc2foodextended:breakfastburritoitem","required":false},
-    {"id":"pamhc2foodextended:heartybreakfastitem","required":false},
-    {"id":"pamhc2foodextended:southernstylebreakfastitem","required":false}
-
-
-
-  ]
+  "values": []
 }

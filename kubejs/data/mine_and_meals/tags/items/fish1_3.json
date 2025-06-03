@@ -1,16 +1,4 @@
 {
   "replace":false,
-  "values": [
-    {"id":"farmersdelight:salmon_roll","required":false},
-    {"id":"farmersdelight:cod_roll","required":false},
-    {"id":"farmersdelight:kelp_roll","required":false},
-    {"id":"aquaculturedelight:raw_fish_fillet_roll","required":false},
-    {"id":"aquaculturedelight:catfish_barbecue","required":false},
-    {"id":"aquaculturedelight:large_fish_with_vegetables","required":false},
-    {"id":"aquaculturedelight:tuna_spaghetti","required":false},
-    {"id":"aquaculturedelight:rollmops","required":false},
-    {"id":"aquaculturedelight:halibut_with_tartar_sauce","required":false},
-    {"id":"aquaculturedelight:baked_pollock_with_carrots","required":false}
-
-  ]
+  "values": []
 }

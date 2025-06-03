@@ -1,29 +1,4 @@
 {
   "replace":false,
-  "values": [
-    {"id":"farmersdelight:fried_egg","required":false},
-    {"id":"farmersdelight:milk_bottle","required":false},
-    {"id":"farmersdelight:hot_cocoa","required":false},
-    {"id":"farmersdelight:glow_berry_custard","required":false},
-    {"id":"farmersdelight:egg_sandwich","required":false},
-    {"id":"farmersdelight:stuffed_potato","required":false},
-    {"id":"farmersdelight:fried_rice","required":false},
-    {"id":"farmersdelight:noodle_soup","required":false},
-    {"id":"farmersdelight:roast_chicken","required":false},
-    {"id":"farmersdelight:shepherds_pie","required":false},
-    {"id":"supplementaries:pancake","required":false},
-    {"id":"supplementariesdelight:lumisene_shake","required":false},
-    {"id":"minecraft:cake","required":false},
-    {"id":"pamhc2foodcore:carrotcakeitem","required":false},
-    {"id":"pamhc2foodcore:cheesecakeitem","required":false},
-    {"id":"pamhc2foodcore:chocolatecakeitem","required":false},
-    {"id":"pamhc2foodcore:pumpkincheesecakeitem","required":false},
-    {"id":"pamhc2foodextended:pineappleupsidedowncakeitem","required":false},
-    {"id":"pamhc2foodextended:holidaycakeitem","required":false},
-    {"id":"pamhc2foodextended:chocolatesprinklecakeitem","required":false},
-    {"id":"pamhc2foodextended:rivermudcakeitem","required":false},
-    {"id":"pamhc2foodextended:fruitcakeitem","required":false},
-    {"id":"pamhc2foodextended:mochicakeitem","required":false},
-    {"id":"pamhc2foodextended:lemondrizzlecakeitem","required":false}    
-  ]
+  "values": []
 }

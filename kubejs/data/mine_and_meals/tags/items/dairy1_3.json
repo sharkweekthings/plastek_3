@@ -1,23 +1,4 @@
-
 {
   "replace":false,
-  "values": [
-    {"id":"minecraft:cake","required":false},
-    {"id":"aquaculturedelight:cokking/rollmops","required":false},
-    {"id":"farmersdelight:pumpkin_soup","required":false},
-    {"id":"farmersdelight:bacon_eggs","required":false},
-    {"id":"farmersdelight:apple_pie","required":false},
-    {"id":"farmersdelight:sweet_berry_cheesecake","required":false},
-    {"id":"farmersdelight:chocolate_pie","required":false},
-    {"id":"farmersdelight:cake_slice","required":false},
-    {"id":"farmersdelight:apple_pie_slice","required":false},
-    {"id":"farmersdelight:sweet_berry_cheesecake_slice","required":false},
-    {"id":"farmersdelight:chocolate_pie_slice","required":false},
-    {"id":"farmersdelight:cake_slice","required":false},
-    {"id":"farmersdelight:apple_pie_slice","required":false},
-    {"id":"farmersdelight:sweet_berry_cheesecake_slice","required":false},
-    {"id":"farmersdelight:chocolate_pie_slice","required":false},
-    {"id":"farmersdelight:honey_glazed","required":false}
-
-  ]
+  "values": []
 }

@@ -1,4 +1,12 @@
 {
   "replace":false,
-  "values": []
+  "values": [
+    {"id":"pamhc2foodextended:berryvinaigrettesaladitem","required":false},
+    {"id":"pamhc2foodextended:gourmetporkburgeritem","required":false},
+    {"id":"pamhc2foodextended:guisoitem","required":false},
+    {"id":"pamhc2foodextended:meesuaitem","required":false},
+    {"id":"pamhc2foodextended:onionhamburgeritem","required":false},
+    {"id":"pamhc2foodextended:paneertikkamasalaitem","required":false},
+    {"id":"pamhc2foodextended:weekendpicnicitem","required":false}
+  ]
 }

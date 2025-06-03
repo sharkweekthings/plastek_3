@@ -1,4 +1,12 @@
 {
   "replace":false,
-  "values": []
+  "values": [
+    {"id":"pamhc2foodcore:chickendinneritem","required":false},
+    {"id":"pamhc2foodcore:potroastitem","required":false},
+    {"id":"pamhc2foodextended:chickenandwafflesitem","required":false},
+    {"id":"pamhc2foodextended:chickengumboitem","required":false},
+    {"id":"pamhc2foodextended:coleslawburgeritem","required":false},
+    {"id":"pamhc2foodextended:footlongitem","required":false},
+    {"id":"pamhc2foodextended:kohlundpinkelitem","required":false}
+  ]
 }

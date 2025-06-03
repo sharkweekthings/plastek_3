@@ -1,9 +1,4 @@
 {
   "replace":false,
-  "values": [
-    {"id":"pamhc2foodextended:fishtacoitem","required":false},
-    {"id":"pamhc2foodcore:basicfishsandwichitem","required":false},
-    {"id":"pamhc2foodextended:dragonfruitjellysandwichitem","required":false}
-
-  ]
+  "values": []
 }

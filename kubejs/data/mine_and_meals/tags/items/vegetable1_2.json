@@ -14,22 +14,10 @@
     {"id":"farmersdelight:cabbage_rolls","required":false},
     {"id":"farmersdelight:mushroom_rice","required":false},
     {"id":"farmersdelight:stake_and_potatoes","required":false},
-    {"id":"farmersdelight:squid_ink_pasta","required":false},
     {"id":"farmersdelight:shepherds_pie","required":false},
-    {"id":"aquaculturedelight:bass_stew","required":false},
-    {"id":"aquaculturedelight:cokking/unusual_fish_soup","required":false},
-    {"id":"aquaculturedelight:cokking/halazle","required":false},
     {"id":"minecraft:golden_carrot","required":false},
     {"id":"farmersdelight:vegetable_soup","required":false},
     {"id":"farmersdelight:pumpkin_soup","required":false},
-    {"id":"farmersdelight:vegetable_noodles","required":false},
-    {"id":"farmersdelight:ratatouille","required":false},
-    {"id":"aquaculturedelight:large_fish_with_vegetables","required":false},
-    {"id":"aquaculturedelight:cokking/baked_pollock_with_carrots","required":false},
-    {"id":"aquaculturedelight:cokking/buckling","required":false},
-    {"id":"aquaculturedelight:cokking/tuna_spaghetti","required":false},
-    {"id":"aquaculturedelight:cokking/rollmops","required":false},
-    {"id":"aquaculturedelight:turtle_meat_dish","required":false},
-    {"id":"aquaculturedelight:cokking/halibut_with_tartar_sauce","required":false}
+    {"id":"farmersdelight:ratatouille","required":false}
   ]
 }
