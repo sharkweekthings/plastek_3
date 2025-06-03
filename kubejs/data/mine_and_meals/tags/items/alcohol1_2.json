@@ -1,6 +1,4 @@
 {
   "replace":false,
-  "values": [
-    {"id":"vinery:jo_special_mixture","required":false}
-  ]
+  "values": []
 }
