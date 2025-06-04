@@ -1,0 +1,1263 @@
+{
+  "chance_drops": [],
+  "exp_sources": {
+    "default_xp": {
+      "exp": 50,
+      "req": [],
+      "tier": 0
+    },
+    "map": {
+      "0": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:wheat",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:potato",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ],
+      "1": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 30,
+          "id": "minecraft:melon_slice",
+          "req": []
+        }
+      ],
+      "2": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 50,
+          "id": "minecraft:beetroot",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ],
+      "3": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 60,
+          "id": "minecraft:carrot",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:radishitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:oatsitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:mulberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:blueberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:roastedleekitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:agaveitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:lettuceitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:juniperberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedsweetpotatoitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cloudberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:wintersquashitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:taroitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:nopalesitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:frostgarden",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:coffeebeanitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedrutabagaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:wolfberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:alfalfaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:milletitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:chilipepperitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:asparagusitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:nettlesitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:jicamaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:tomatilloitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:chiaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:papyrusitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:spiceleafitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:celeryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bokchoyitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:arrowrootitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:hotnettleteaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:sisalitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cornitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:caulifloweritem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:roastedmushroomitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bellpepperitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:roastedonionitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedcassavaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:roastedrhubarbitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:waterchestnutitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:spinachitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedwaterchestnutitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cottonitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:chickpeaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:ryeitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:canolaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:lentilitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:aridgarden",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedarrowrootitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:sweetpotatoitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:leekitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:gingeritem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:candleberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:blackberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:windygarden",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cactusfruititem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:flaxitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:okraitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:kenafitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:tropicalgarden",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:raspberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:tomatoitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:roastedkohlrabiitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:pineappleitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:yuccaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:peasitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:eggplantitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cabbageitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:riceitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:aloeitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:guaranaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:strawberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:shadedgarden",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:roastedgarlicitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:juteitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:hotteaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:greengrapeitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:artichokeitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:truffleitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedparsnipitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:roastedscallionitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:sunchokeitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:garlicitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:rhubarbitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:tealeafitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedturnipitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:soggygarden",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:hotcoffeeitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:huckleberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:zucchiniitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:roastedpeanutitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:amaranthitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:turnipitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:soybeanitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedjicamaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:grapeitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:brusselsproutitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cranberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cantaloupeitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:kohlrabiitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:rutabagaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:beanitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:barleyitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:kaleitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:whitemushroomitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:barrelcactusitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedsunchokeitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:peanutitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:sorghumitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:bakedtaroitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:broccoliitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:lotusitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:calabashitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cattailitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:onionitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:kiwiitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:quinoaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:elderberryitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:parsnipitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:scallionitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cucumberitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:cassavaitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "pamhc2crops:roastedradishitem",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "supplementaries:flax",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "vinery:white_grape",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 90,
+          "id": "vinery:red_grape",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ],
+      "4": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 75,
+          "id": "minecraft:nether_wart",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 100,
+          "id": "blue_skies:winter_leaves",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 100,
+          "id": "blue_skies:pine_fruit",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 100,
+          "id": "vinery:taiga_grape_white",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 100,
+          "id": "vinery:taiga_grape_red",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 100,
+          "id": "vinery:jungle_grape_red",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 100,
+          "id": "vinery:jungle_grape_white",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 100,
+          "id": "vinery:savanna_grape_red",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 100,
+          "id": "vinery:savanna_grape_white",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ],
+      "5": [
+        {
+          "type": "FARM_ITEM",
+          "exp": 100,
+          "id": "minecraft:cocoa_beans",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 110,
+          "id": "blue_skies:fiery_beans",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 110,
+          "id": "blue_skies:scalefruit",
+          "req": [
+            "req_growth_stage"
+          ]
+        },
+        {
+          "type": "FARM_ITEM",
+          "exp": 110,
+          "id": "feywild:mandrake",
+          "req": [
+            "req_growth_stage"
+          ]
+        }
+      ]
+    }
+  },
+  "id": "farming",
+  "misc_chance": 5.0,
+  "tiered_drops": {
+    "TIER0": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/0",
+            "min_lvl": 0.0,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER1": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/1",
+            "min_lvl": 0.2,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER2": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/2",
+            "min_lvl": 0.4,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER3": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/3",
+            "min_lvl": 0.6,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER4": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/4",
+            "min_lvl": 0.8,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ],
+    "TIER5": [
+      {
+        "type": "MAIN",
+        "chance": 10.0,
+        "drops": [
+          {
+            "item_id": "mmorpg:material/farming/5",
+            "min_lvl": 1.0,
+            "num": 1,
+            "weight": 1000
+          }
+        ]
+      }
+    ]
+  },
+  "tool_tag": "farming_tool"
+}

@@ -1483,12 +1483,6 @@ event.add('p2:pancake',
   'pamhc2foodextended:peanutbutterbananapancakesitem'
   ])
 
-
-
-
-
-
-
 event.add('p2:wine_racks', 
 [
   'vinery:oak_wine_rack_small',
@@ -1540,5 +1534,117 @@ event.add('biomancy:acid',
   'biomancy:acid',
   'biomancy:flowing_acid'
   ])
+
+})
+
+
+
+
+
+ServerEvents.tags('block', event => {
+event.add('p3:ore_t0', 
+[
+  'minecraft:coal_ore',
+  'powah:uraninite_ore_poor'
+])
+
+event.add('p3:ore_t1', 
+[
+  'aether:ambrosium_ore',
+  'blue_skies:horizonite_ore',
+  'blue_skies:ventium_ore',
+  'blue_skies:falsite_ore',
+  'minecraft:lapis_ore',
+  'minecraft:redstone_ore',
+  'minecraft:copper_ore',
+  'mysticalagriculture:inferium_ore',
+  'powah:deepslate_uraninite_ore_poor'
+])
+
+event.add('p3:ore_t2', 
+[
+  'aether:zanite_ore',
+  'astral_dimension:astral_coal_ore',
+  'blue_skies:everdawn_pyrope_ore',
+  'blue_skies:everbright_pyrope_ore',
+  'blue_skies:everdawn_moonstone_ore',
+  'blue_skies:everbright_moonstone_ore',
+  'blue_skies:everbright_aquite_ore',
+  'blue_skies:everdawn_aquite_ore',
+  'create:zinc_ore',
+  'minecraft:iron_ore',
+  'mysticalagriculture:prosperity_ore',
+  'mysticalagriculture:soulium_ore',
+  'powah:uraninite_ore',
+  'samurai_dynasty:silver_ore'
+])
+
+event.add('p3:ore_t3', 
+[
+  'aether:gravitite_ore',
+  'blue_skies:everdawn_diopside_ore',
+  'blue_skies:everdawn_charoite_ore',
+  'blue_skies:everbright_charoite_ore',
+  'blue_skies:everbright_diopside_ore',
+  'born_in_chaos_v1:infected_diamond_ore',
+  'create:deepslate_zinc_ore',
+  'epicpaladins:cryorium_ore',
+  'epicpaladins:jade_ore',
+  'epicpaladins:arclight_ore',
+  'epicpaladins:moonlight_ore',
+  'epicpaladins:bloodstone_ore',
+  'feywild:fey_gem_ore',
+  'feywild:fey_gem_ore_livingrock',
+  'minecraft:deepslate_copper_ore',
+  'minecraft:nether_quartz_ore',
+  'minecraft:gold_ore',
+  'minecraft:nether_gold_ore',
+  'minecraft:deepslate_coal_ore',
+  'mysticalagradditions:nether_prosperity_ore',
+  'mysticalagradditions:nether_inferium_ore',
+  'powah:uraninite_ore_dense',
+  'samurai_dynasty:aquamarine_ore',
+  'samurai_dynasty:deepslate_silver_ore',
+  'tconstruct:cobalt_ore'
+])
+
+event.add('p3:ore_t4', 
+[
+  'astral_dimension:astral_gold_ore',
+  'astral_dimension:astranite_ore',
+  'born_in_chaos_v1:infected_deepslate_diamond_ore',
+  'epicpaladins:deepslate_cryorium_ore',
+  'epicpaladins:deepslate_arclight_ore',
+  'epicpaladins:deepslate_bloodstone_ore',
+  'minecraft:emerald_ore',
+  'minecraft:deepslate_redstone_ore',
+  'minecraft:deepslate_gold_ore',
+  'minecraft:deepslate_lapis_ore',
+  'minecraft:deepslate_iron_ore',
+  'minecraft:diamond_ore',
+  'mysticalagradditions:end_inferium_ore',
+  'mysticalagradditions:end_prosperity_ore',
+  'mysticalagriculture:deepslate_inferium_ore',
+  'mysticalagriculture:deepslate_prosperity_ore',
+  'powah:deepslate_uraninite_ore_dense',
+  'powah:deepslate_uraninite_ore',
+  'samurai_dynasty:ruby_ore',
+  'samurai_dynasty:jade_ore',
+  'samurai_dynasty:onyx_ore'
+])
+
+event.add('p3:ore_t5', 
+[
+  'astral_dimension:void_ore',
+  'blue_skies:everdawn_emerald_ore',
+  'blue_skies:everbright_emerald_ore',
+  'feywild:fey_gem_ore_deep_slate',
+  'minecraft:deepslate_emerald_ore',
+  'minecraft:deepslate_diamond_ore',
+  'samurai_dynasty:deepslate_ruby_ore',
+  'samurai_dynasty:deepslate_aquamarine_ore',
+  'samurai_dynasty:deepslate_jade_ore',
+  'samurai_dynasty:deepslate_onyx_ore'
+])
 
 })

@@ -55,7 +55,7 @@
         {
           "name": "kubejs:elemental_resist",
           "operation": "add",
-          "amount": 2.25
+          "amount": 2.00
         }
       ],
       "conditions": [
@@ -92,12 +92,12 @@
         {
           "name": "minecraft:generic.movement_speed",
           "operation": "multiply_base",
-          "amount": 0.25
+          "amount": 0.15
         },
         {
           "name": "kubejs:chaos_resist",
           "operation": "add",
-          "amount": 15.0
+          "amount": 25.0
         }
       ],
       "conditions": [

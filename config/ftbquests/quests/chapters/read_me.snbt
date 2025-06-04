@@ -97,7 +97,7 @@
 				""
 				"&dEnchantments&r – Some Enchantments give Mine and Slash stats and may add HP."
 				""
-				"&6Mine and Meals&r - Eating most foods will grant various &6Mine and Slash&r buffs. You can hover over the food item in &6JEI&r to see what type of buffs you will get from eating. &2The way food is grouped for this mod is completely re-worked to still encourage using Mine and Slash specific food, as the effects will stack together.&r "
+				"&6Mine and Meals&r - Eating most foods will grant various &6Mine and Slash&r buffs. You can hover over the food item in &6JEI&r to see what type of buffs you will get from eating. &2The way food is grouped for this mod is completely re-worked to still encourage using Mine and Slash specific food, as the effects WILL stack together.&r "
 				""
 				"&6Spice of Life Carrot and Onion&r – Using both &6Spice of Life Carrot&r and &6Onion&r will offer various effects. While &6Spice of Life Carrot&r focuses more on HP only, &6Onion&r will give you &eHP&r, &eElemental Resistance&r, &eCombat Roll Distance&r, and &eCombat Roll Count&r!"
 				""
@@ -131,10 +131,10 @@
 				"To assist in planning your build, here are the point caps for the pack:"
 				""
 				"&eLevel&r: 100"
-				"&2Stat&r: 160 (60 come from quests)"
+				"&2Stat&r: 160 (&o60 come from quests&r)"
 				"&9Spell&r: 100"
 				"&3Passive&r: 50"
-				"&6Talent&r: 130 (29 come from quests)"
+				"&6Talent&r: 130 (&o29 come from quests&r)"
 				"&dAscendancy&r: 10"
 			]
 			icon: {
@@ -370,7 +370,11 @@
 		}
 		{
 			dependencies: ["092D2D9BBD18EB72"]
-			description: ["Most crops and trees have a season associated with them. &cIf the crop is not in season&r, it will &l&cnot&r&r grow. You can counter this by using &3Greenhouse Glass&r (&oany &aGreen Stained Glass&r&r)."]
+			description: [
+				"Most crops and trees have a season associated with them. &cIf the crop is not in season&r, it will &l&cnot&r&r grow. You can counter this by using &3Greenhouse Glass&r (&oany &aGreen Stained Glass&r&r)."
+				""
+				"For the &eFarming&r profession in &6Mine and Slash&r, most crops should yield some &eExperience Points&r. However, fruit trees will not. "
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -608,13 +612,13 @@
 			description: [
 				"You must maintain at least above &210%&r for each&r &eProteins&r, &eFruits&r, &eVegetables&r, and &eGrains&r. If any one of them falls under &410%&r, you will begin to suffer negative penalties, such as &4Hunger&r, &4Slowness&r, and &4Mining Fatigue&r."
 				""
-				"For each category that you get above 60%, you will gain &225&r &eHP&r, &25&r to &eStr/Dex/Int&r, &21.25%&r &eflat Elemental Resist&r, and &25%&r &eBonus Experience&r, which do stack together. i.e., if you have &eProteins&r and &eFruits&r at &260%&r, you should have &250&r &eHP&r, &210&r to &eStr/Dex/Int&r, &22%&r &eflat Elemental Resist&r, and &210%&r &eBonus Experience&r."
+				"For each category that you get above 60%, you will gain &225&r &eHP&r, &25&r to &eStr/Dex/Int&r, &22%&r &eflat Elemental Resist&r, and &25%&r &eBonus Experience&r, which do stack together. i.e., if you have &eProteins&r and &eFruits&r at &260%&r, you should have &250&r &eHP&r, &210&r to &eStr/Dex/Int&r, &22%&r &eflat Elemental Resist&r, and &25%&r &eBonus Experience&r."
 				""
-				"If you manage to get up to &280%&r in &eProteins&r, &eFruits&r, &eVegetables&r, or &eGrains&r, you will gain a bonus to &eTotal Damage&r, an additional &25&r to &eStr/Dex/Int&r, and another &22.25%&r &eflat Elemental Resist&r for each category."
+				"If you manage to get up to &280%&r in &eProteins&r, &eFruits&r, &eVegetables&r, or &eGrains&r, you will gain a bonus to &eTotal Damage&r, an additional &25&r to &eStr/Dex/Int&r, and another &2%&r &eflat Elemental Resist&r for each category."
 				""
 				"By maintaining between &220%&r and &230%&r &eSugar&r levels, you will gain a bonus to &eMovement Speed&r, and &225%&r &eflat Chaos Resist&r."
 				""
-				"If you find yourself stuck in a &eSugar Crash&r, or you didn't eat anything, you can do the repeatable quest \"&eGotta Go Poop&r\", which will reset your &6DIET&r to the default &225/25/25/0&r. "
+				"If you find yourself stuck in a &4Sugar Crash&r, or you didn't eat anything, you can do the repeatable quest \"&eGotta Go Poop&r\", which will reset your &6DIET&r to the default &225/25/25/0&r. "
 			]
 			icon: "minecolonies:clipboard"
 			id: "3F2F44D7BC690425"
