@@ -1,7 +1,7 @@
 
 #General Configs
 [general]
-	GET_STARTER_ITEMS = true
+	GET_STARTER_ITEMS = false
 	loot_announcements = true
 	require_team_for_dungeons = true
 	dont_sync_ambient_mob_data = true
