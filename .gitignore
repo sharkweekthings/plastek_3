@@ -15,7 +15,8 @@ saves/
 screenshots/
 usercache.json
 usernamecache.json
-
+season_assignments.ods
+season_assignment.ods
 
 config/farmersdelight-client.toml
 config/farmersdelight-common.toml

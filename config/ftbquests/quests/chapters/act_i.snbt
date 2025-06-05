@@ -610,7 +610,7 @@
 				""
 				"We're needing to craft a &3Vortex of Fun&r, which should, in theory, be the final piece to &dRyan's&r latest invention."
 				""
-				"If you don't have all of the items you need, you'll need to head back to the &6Toybox&r and get what you need."
+				"If you don't have all of the items you need, you'll need to head back to the &6Toybox&r and get what you need. If you aren't sure what you need, double check the &3Vortex of Fun&r item in &6JEI&r."
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -1296,7 +1296,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4915AF0A4FCA28C4"]
+			dependencies: ["7D14DC69052ECEAA"]
 			description: ["If you take a &3brush&r to &3suspicious blocks&r, you might uncover something cool!"]
 			id: "416DDBECE6C483A3"
 			tasks: [{
@@ -1310,13 +1310,13 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 11.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["22C75020F2564783"]
 			description: [
-				"Working through &6Create&r a little bit could prove to be useful. For now, you would just need a little &eRotational Power&r and an &3Encased Fan&r."
+				"Working through &6Create&r a little bit could prove to be useful. For now, you would just need a little &eRotational Power&r and an &3Encased Fan&r, and you can make some &3Concrete&r."
 				""
 				"While &6Create&r is not a requirement for this pack, it will have recipes that can make things easier."
 			]

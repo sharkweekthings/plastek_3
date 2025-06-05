@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "fdf",
+    "cec"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blue_dye"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    },
+    "d": {
+      "tag": "p3:pop"
+    },
+    "e": {
+      "tag": "forge:chests"
+    },
+    "f": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "toybox:toybox",
+    "count": 1
+  }
+}
