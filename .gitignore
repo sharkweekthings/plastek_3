@@ -174,7 +174,11 @@ config/Plushie_Buddies-Common.toml
 config/polymorph-integrations.toml
 config/ponder-client.toml
 config/print.txt
-config/ProjectE
+config/ProjectE/client.toml
+config/ProjectE/common.toml
+config/ProjectE/processing.toml
+config/ProjectE/server.toml
+config/ProjectE/mapping.toml
 config/quark-common.toml
 config/quark_emotes
 config/quickstack-client.toml

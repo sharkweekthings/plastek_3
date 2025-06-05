@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "item": "kubejs:infused_nether_stone",
+      "emc": 10000
+    },
+    {
+      "item": "#forge:seeds",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:saplings",
+      "emc": 0
+    }
+  ]
+}
