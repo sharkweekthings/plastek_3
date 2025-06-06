@@ -1195,6 +1195,10 @@
     {
       "ingredient": "{id:\"item\",item:\"minecraft:enchanted_golden_apple\"}",
       "diversity": 300
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"born_in_chaos_v1:eternal_candy\"}",
+      "diversity": -5
     }
   ]
 }

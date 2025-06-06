@@ -11,6 +11,14 @@
     {
       "item": "#minecraft:saplings",
       "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:infusion_altar",
+      "emc": 0
+    },
+    {
+      "item": "waystones:warp_stone",
+      "emc": 0
     }
   ]
 }

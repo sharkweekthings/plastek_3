@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "cataclysm:sandstorm_in_a_bottle"
+    },
+    "f": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "g": {
+      "tag": "forge:ingots/manyullyn"
+    },
+    "h": {
+      "item": "kubejs:concentrated_pixie_essence"
+    }
+  },
+  "pattern": [
+    "hfh",
+    "gdg",
+    "hgh"
+  ],
+  "result": {
+    "item": "feywild:teleportation_orb"
+  },
+  "show_notification": true
+}

@@ -554,6 +554,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: [
 				"&6Powah&r will be the main power generation for the pack. "
 				""
@@ -571,6 +572,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: ["While &6Powah&r offers &3Ender Gates&r, you can also use &6Flux Networks&r to move around your power wirelessly. "]
 			id: "18A1F20621DFDCBE"
 			shape: "circle"

@@ -1643,12 +1643,13 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Possessed Action Figure Eye Recovery"
-			x: 7.0d
+			title: "Doll Eye"
+			x: 5.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["6D0A6B342D53A353"]
+			dependencies: ["531D0D2C3FB0F966"]
+			description: ["To attain a &3Doll Eye&r you will need to kill &cDolls&r in the &6Toybox&r. "]
 			hide_text_until_complete: false
 			icon: {
 				Count: 1
@@ -1676,8 +1677,8 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Evil"
-			x: 7.0d
+			title: "Doll Eye"
+			x: 5.5d
 			y: 4.5d
 		}
 		{
@@ -1743,6 +1744,40 @@
 			title: "Nether Eye"
 			x: 11.5d
 			y: 7.0d
+		}
+		{
+			dependencies: ["3F18B971B4E3F6AD"]
+			description: [
+				"If you ever get lost along your way; you can craft:"
+				""
+				"&3Explorer's Compass&r: Will help you find most structures."
+				""
+				"&3Nature's Compass&r: Will help you find various biomes."
+			]
+			id: "427C0132FD685EC6"
+			tasks: [
+				{
+					id: "0373D1A4FD53E33A"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2ABB4654613CADD6"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Lost and Found"
+			x: -0.5d
+			y: 1.5d
 		}
 	]
 	title: "Act I"

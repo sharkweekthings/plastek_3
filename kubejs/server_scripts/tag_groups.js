@@ -146,6 +146,14 @@ event.remove('mmorpg:javelin',
   'spartanweaponry:netherite_javelin'
 ])
 
+event.remove('mmorpg:axe', 
+[
+  'minecraft:iron_axe',
+  'minecraft:stone_axe',
+  'minecraft:netherite_axe',
+  'minecraft:diamond_axe'
+])
+
 event.remove('tombstone:seeds', 
 [
   'mysticalagriculture:copper_alloy_seeds',

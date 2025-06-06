@@ -58,6 +58,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: [
 				"&6Ender Storage&r allows you to share a storage between dimensions."
 				""

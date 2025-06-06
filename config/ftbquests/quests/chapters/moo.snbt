@@ -15,6 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: ["&9The Market&r people deal primarily in &3Plastim Scrap&r as their preferred currency. They sell a range of useful items."]
 			id: "6EEBED8A78540A3B"
 			tasks: [{
@@ -572,6 +573,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: ["This device will let you connect your &6AE2&r and &6Cooking For Blockheads&r together."]
 			id: "4110425AB97554F6"
 			tasks: [{
@@ -602,6 +604,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: ["&6Cooking For Blockheads&r offers a wide range of utility for all of your cooking needs. "]
 			id: "58C012AD3D76A5CF"
 			shape: "circle"
@@ -616,6 +619,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: ["Auto Harvest and Ranch with&6 Industrial Foregoing&r. "]
 			id: "6BB3BEBFE518D0F2"
 			shape: "circle"
@@ -629,6 +633,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: ["Various ways to capture mobs"]
 			id: "17B3B5D1CD42BA6C"
 			shape: "circle"
@@ -642,6 +647,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: ["Tier up your &3Botany Pots&r to blazing fast speeds. "]
 			id: "006EC724C42A91BF"
 			tasks: [{
@@ -654,6 +660,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: [
 				"Most of the kitchen necessities will need to be purchased through &9the Market&r people. "
 				""
@@ -700,6 +707,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: ["Pump your fluids, even across dimensions!"]
 			id: "397D9F7ABC967F71"
 			tasks: [{

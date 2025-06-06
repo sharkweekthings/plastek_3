@@ -17,7 +17,7 @@
 			description: [
 				"It's not always so peaceful."
 				""
-				"After a few weeks of quiet, you are suddenly bombarded with multiple requests and good information."
+				"After a few weeks of quiet, you are suddenly bombarded with multiple requests and some good information."
 				""
 				"You take the time to sift through the town's messages, and you'll address what you can."
 			]
@@ -40,7 +40,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Ahh, Peace"
+			title: "Welp, There Goes The Peace"
 			x: -4.5d
 			y: -0.5d
 		}
@@ -942,9 +942,9 @@
 			description: [
 				"&dTim's&r research discovered – if you craft an &3Abyssal Sacrifice&r and use it on an &9Altar of Abyss&r, you will be bestowed great treasure."
 				""
-				"Surely, this &cBob the Bandit&r was going to sacrifice our beloved &dProfessor&r and try to &claim the treasure himself."
+				"Surely, this &cBob the Bandit&r was going to sacrifice our beloved &dProfessor&r and try to claim the treasure himself."
 				""
-				"With the &dProfessor&r saved, we will have to use &cBob&r as the sacrifice and claim the treasure... Not that you ever had any thoughts to sacrifice the &dProfessor&r, but if he was already gone, well... y'know?"
+				"With the &dProfessor&r saved, we will have to use &3Bob's Void Touched Heart&r as the sacrifice and claim the treasure... Not that you ever had any thoughts to sacrifice the &dProfessor&r, but if he was already gone, well... y'know?"
 				""
 				"First, we're going to need a couple of items to make the &3Abyssal Sacrifice&r, though. We'll need a few material blocks, which shouldn't be a problem. We're also going to need the &3Sacrificed Heart of Bob&r, as well as some items which come from monsters local to the altar."
 				""
@@ -982,9 +982,9 @@
 				""
 				"As you get closer, you start to make out two figures. One appears to be the &dProfessor&r; the other must be &cBob&r. Swimming is a little difficult, but you make your way over to them."
 				""
-				"You're able to sneak up on &cBob&r, notice his eerie purple cloak, and wonder why he didn't take it off before going under the ocean. You quickly take &cBob&r out by wrapping the cloak around his head."
+				"You're able to sneak up on &cBob&r, notice his eerie purple cloak, and wonder why he didn't take it off before going under the ocean. You quickly take &cBob&r out by wrapping the cloak around his head, the moment you verify he has passed, he explodes into purple energy; a glowing purple object is all that remains in his place. Despite it being a little soft and gooey, you just cram it into your pocket."
 				""
-				"You swim over to the &9altar&r and proceed to unbind the &dProfessor&r..."
+				"Next, you swim over to the &9altar&r and proceed to unbind the &dProfessor&r..."
 				""
 				"You both swim back to the surface and return to town."
 			]
@@ -994,13 +994,20 @@
 				tag: { }
 			}
 			id: "2F0F2C0E693DD0A0"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1200"
-				icon: "kubejs:p3_xp"
-				id: "52FDB6F4F9F43953"
-				title: "1200 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1200"
+					icon: "kubejs:p3_xp"
+					id: "52FDB6F4F9F43953"
+					title: "1200 Experience Points"
+					type: "command"
+				}
+				{
+					id: "3800074949A0D73F"
+					item: "kubejs:bobs_void_touched_heart"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "35C48D6588B62212"
@@ -1039,7 +1046,11 @@
 		}
 		{
 			dependencies: ["3193DF1F9D9C4CF7"]
-			description: ["&cDeepling Priests&r and &cDeepling Warlocks&r have a low chance to drop &3Athame&r. "]
+			description: [
+				"&cDeepling Priests&r and &cDeepling Warlocks&r have a low chance to drop &3Athame&r."
+				""
+				"If you don't get lucky, just kill 5 of each for the shell. "
+			]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -1072,13 +1083,13 @@
 					entity: "cataclysm:deepling_warlock"
 					id: "101013EB651BBA58"
 					type: "kill"
-					value: 3L
+					value: 5L
 				}
 				{
 					entity: "cataclysm:deepling_priest"
 					id: "59163AC285626A8F"
 					type: "kill"
-					value: 3L
+					value: 5L
 				}
 			]
 			title: "Retrieving Athame"
@@ -1087,7 +1098,11 @@
 		}
 		{
 			dependencies: ["3193DF1F9D9C4CF7"]
-			description: ["Regular &cDeeplings&r and &cDeepling Brutes&r have a low chance to drop the &3Nautilus Shell&r."]
+			description: [
+				"Regular &cDeeplings&r and &cDeepling Brutes&r have a low chance to drop the &3Nautilus Shell&r."
+				""
+				"If you don't get lucky, just kill 5 of each for the shell. "
+			]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -1266,7 +1281,11 @@
 		}
 		{
 			dependencies: ["3193DF1F9D9C4CF7"]
-			description: ["Killing this mob should yield &31 Coral Chunk&r."]
+			description: [
+				"Killing this mob should yield &31 Coral Chunk&r."
+				""
+				"You will need this, or &34 Crystallized Coral Fragments&r."
+			]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -1280,6 +1299,7 @@
 				title: "5000 Experience Points"
 				type: "command"
 			}]
+			shape: "square"
 			subtitle: "This one"
 			tasks: [{
 				entity: "cataclysm:coralssus"
@@ -1298,7 +1318,11 @@
 		}
 		{
 			dependencies: ["3193DF1F9D9C4CF7"]
-			description: ["Killing &c4 Coral Golems&r should yield &34 Crystallized Coral Fragments&r, which should craft into a &3Crystallized Coral&r."]
+			description: [
+				"Killing &c4 Coral Golems&r should yield &34 Crystallized Coral Fragments&r, which should craft into a &3Crystallized Coral&r."
+				""
+				"You will need this, or &31 Coral Chunk&r."
+			]
 			icon: {
 				Count: 1
 				id: "kubejs:p3_mob"
@@ -1312,6 +1336,7 @@
 				title: "3500 Experience Points"
 				type: "command"
 			}]
+			shape: "square"
 			subtitle: "Or that one"
 			tasks: [{
 				entity: "cataclysm:coral_golem"
@@ -1412,6 +1437,8 @@
 				"Later that evening, &dShaun&r came over with a few goodies. He was helping you out with some ingredients for the &3Echo Lollipop&r, &3Totem Cake&r, and &3Honeyed Brick&r, but the rest is up to you&r."
 				""
 				"&oOnce you complete all of the recipes, make sure to claim the Melted Caramel item from the Recipe Book.&r"
+				""
+				"&oIn the event you lose the 3 reward items, you can buy them from the&r &e&oMarketplace&r&r."
 			]
 			id: "683CB909FE694A79"
 			rewards: [
@@ -1602,9 +1629,11 @@
 				""
 				"The envoy explains that they sent out a request with a really sweet reward weeks ago, and she's been waiting for the arrival of a hero."
 				""
-				"For a moment, you think to flex your muscles, stand tall, and say that you are the hero. Instead, you try to stand up and trip over a &3candy vine&r as you try to state that you are the hero."
+				"For a moment, you think to flex your muscles, stand tall, and say that you are the hero. "
 				""
-				"&dLolli&r chuckles at you and asks that you follow her."
+				"Instead, you try to stand up and trip over a &3candy vine&r as you try to state that you are the hero, then fall flat on your face."
+				""
+				"&dLolli&r chuckles at you, then sighs, and asks that you follow her."
 			]
 			id: "32AB67CEEF056996"
 			rewards: [{
@@ -1630,9 +1659,9 @@
 			description: [
 				"&dLolli&r led you to the outskirts of her village."
 				""
-				"Along the way, she explained that ultra-violent &4Penguins&r from the &cCake and Ice Cream Clans&r have invaded her town and declared it theirs."
+				"Along the way, she explained that ultra-violent penguins from the &cCake and Ice Cream Clans&r have invaded her town and declared it theirs."
 				""
-				"Due to the peaceful nature of &dLolli's&r people, they had no warriors to defend and not enough &3fish&r to subdue the massive penguin army..."
+				"She lets you know that, due to the peaceful nature of her people, their only defense was &3Raw Fish&r—but a maniac in purple robes destroyed their supply."
 				""
 				"Thinking about the reward that she mentioned, you officially agree to help out the &eIce Cream Village&r."
 			]
@@ -1742,6 +1771,8 @@
 				"She lets you know that it started with the town's golem getting aggressive. They were able to lock it up under the city before the penguin invasion."
 				""
 				"She asks if you can destroy it so they can rebuild a new one."
+				""
+				"Just find the trap door, go down the path, use the Lever and you should find &cCreamy the Ice Cream Golem&r. "
 			]
 			icon: {
 				Count: 1
@@ -2074,7 +2105,9 @@
 		{
 			dependencies: ["0435DFB13F76DF19"]
 			description: [
-				"Days go by—no new occurrences pop up."
+				"Days go by—no new occurrences pop up. &dShaun&r stops by though and gives you what he made. "
+				""
+				"He says it's an &3Eternal Candy&r. Every time you eat it, it gives you a burst of intense flavor!  He says not to mind the taste; which apparently taste like a sweet horseradish. "
 				""
 				"You start taking this moment of peace to prepare the city for any possible invasions."
 				""
@@ -2086,13 +2119,20 @@
 				tag: { }
 			}
 			id: "7BBDACD0CDD6AB37"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				icon: "kubejs:p3_xp"
-				id: "16F55FD56FEBC4B8"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "16F55FD56FEBC4B8"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					id: "58E9EC20D990DF48"
+					item: "born_in_chaos_v1:eternal_candy"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "725F840E1D076E63"
@@ -2189,8 +2229,8 @@
 				type: "checkmark"
 			}]
 			title: "Infusion Altar Recovery"
-			x: 11.0d
-			y: -3.5d
+			x: 9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5D73505C3C4B00D7"]
@@ -2255,6 +2295,25 @@
 			title: "Gumball Eye"
 			x: 14.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["0383770870A3ECE2"]
+			icon: "kubejs:bobs_void_touched_heart"
+			id: "5E5D9CB385C4BB91"
+			rewards: [{
+				id: "7DC14162A9F8663D"
+				item: "kubejs:bobs_void_touched_heart"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "485BAC3FC7C90C02"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Bob's Void Touched Heart Recovery"
+			x: 7.5d
+			y: -2.0d
 		}
 	]
 	title: "Act II"

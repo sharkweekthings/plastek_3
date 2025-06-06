@@ -259,6 +259,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["30F9D708441CB9FC"]
 			description: [
 				"&6Functional Storage&r allows you to create &3Storage Drawers&r that contain one, or a few (depending on the drawer) items. With upgrades these drawers can hold a massive quantity of items. "
 				""

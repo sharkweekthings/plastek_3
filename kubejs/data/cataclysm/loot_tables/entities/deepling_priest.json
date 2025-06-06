@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "name": "deepling_priest",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:athame"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.20
+        }
+      ]
+    }
+  ]
+}

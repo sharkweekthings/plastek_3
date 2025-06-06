@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3BF749C81871D375"]
 			description: [
 				"Your new life as a ruthless overlord, hellbent on taking out huma... I mean, your new life as a gentle and kind leader begins today."
 				""
@@ -459,12 +460,14 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "00F81073D4657BBC"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "2944B1302E38F55D"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -476,12 +479,14 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "074486D9C594B411"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "3AD0AF6B8C7E2E72"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -493,6 +498,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "72B6978D94282E5F"
 			rewards: [
 				{
@@ -521,6 +528,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "06C5F3A55B8A476B"
 			rewards: [
 				{
@@ -578,12 +587,14 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "07F504A66E2E9B82"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "6B4AFCB75EB78F31"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -595,6 +606,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "298600CCD0BDFD87"
 			rewards: [
 				{
@@ -623,6 +636,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "0EED82024D483F3E"
 			rewards: [
 				{
@@ -651,12 +666,14 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "0D734D846878A212"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "085FD4378343813A"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -668,6 +685,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "467F4EB7247ABF0D"
 			rewards: [
 				{
@@ -696,6 +715,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "474BEFCD11978582"
 			rewards: [
 				{
@@ -724,12 +745,14 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "3B247D80BE44595A"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "3FC7ACE55003AB77"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -741,6 +764,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "3C80E478C516611C"
 			rewards: [
 				{
@@ -769,12 +794,14 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "4A0F31A129F2540D"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "3AD905AD651BEC8B"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -786,12 +813,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "3DA2D29AE585FB7D"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "64752CC95829262C"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -803,12 +832,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "5D200316D87C080E"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "7B315306DBB0C188"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -820,6 +851,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "04005E9ED37D81C4"
 			rewards: [
 				{
@@ -848,6 +881,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "7F4AF348050F4D17"
 			rewards: [
 				{
@@ -876,6 +911,8 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "1D1A56FA6CE1F3ED"
 			rewards: [
 				{
@@ -904,6 +941,8 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "21C0EE697625BF42"
 			rewards: [
 				{
@@ -932,12 +971,14 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "4DF717037521AF3F"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "374FBF2E1279C63D"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -949,12 +990,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "02587FFE92B79803"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "2AEA41B218CB0BC3"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -966,6 +1009,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "6E6B349D30180BC6"
 			rewards: [
 				{
@@ -994,12 +1039,14 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "4342B61463C2AEB8"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "0C06EEDB82355364"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [
@@ -1018,12 +1065,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "4CDB3B0B921A24CB"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "3D3342D0D490B445"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -1035,12 +1084,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "652BE14926326B54"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "19089201E6E6548C"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -1052,6 +1103,8 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "190EDC9899236B03"
 			rewards: [
 				{
@@ -1080,12 +1133,14 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "3BC07F8C2FE9AC62"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
+				command: "/mine_and_slash give exp @p 1000"
 				icon: "kubejs:p3_xp"
 				id: "5195B578F39FCAB2"
-				title: "2500 Experience Points"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -1152,14 +1207,25 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["035B5BF00E0C9501"]
+			hide_dependency_lines: true
 			id: "51D76856A39BD0E1"
-			rewards: [{
-				command: "/mine_and_slash points give @p STATS 2"
-				icon: "kubejs:p3_stat"
-				id: "0D84CA4FC94AFAE0"
-				title: "2 Attribute Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					icon: "kubejs:p3_xp"
+					id: "43F6707BA620FEAE"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 2"
+					icon: "kubejs:p3_stat"
+					id: "35CAA10F1B11ABEE"
+					title: "2 Attribute Points"
+					type: "command"
+				}
+			]
 			tasks: [{
 				advancement: "minecolonies:military/build_archery"
 				criterion: ""

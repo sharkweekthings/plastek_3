@@ -1047,6 +1047,37 @@
 			x: 3.5d
 			y: 9.5d
 		}
+		{
+			dependencies: ["2F33D8BC3ED7FA76"]
+			icon: {
+				Count: 1
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "052DAA25DDB24DBF"
+			rewards: [{
+				id: "274376E075DA1FA0"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "4525237B8193F8DD"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Warp Stone Recovery"
+			x: 0.5d
+			y: 11.5d
+		}
 	]
 	title: "Act III"
 }
