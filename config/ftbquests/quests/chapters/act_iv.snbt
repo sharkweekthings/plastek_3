@@ -543,7 +543,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["6161525041DA06DE"]
+			dependencies: ["322EA65C491FF167"]
 			description: [
 				"You meet with the &dQueen&r and explain your situation, from the beginning."
 				""
@@ -1161,6 +1161,7 @@
 		}
 		{
 			dependencies: ["1E39835799877646"]
+			description: ["To acquire this &3Eye&r, defeat the &cAstral Guardian&r, then accept the reward from this quest."]
 			icon: {
 				Count: 1
 				id: "endrem:black_eye"
@@ -1193,6 +1194,19 @@
 		}
 		{
 			dependencies: ["322EA65C491FF167"]
+			description: [
+				"To attain this &3Eye&r, we can start with a few different options:"
+				""
+				"1) Befriend a &aDwarf&r by crafting a &3Summoning Contract: Dwarf Blacksmith&r, then trade with them until they offer a &3Traveling Stone: Dwarven Market&r."
+				""
+				"2) Find a &eDwarven Forge&r underground in &6Feywild&r, trade the &aDwarf Blacksmith's&r until they offer a &3Traveling Stone: Dwarven Market&r."
+				""
+				"3) Find a &3Traveling Stone: Dwarven Market&r from a chest inside a mineshaft in &6Feywild&r."
+				""
+				"Once you have the &3Traveling Stone&r, go to the &6Overworld&r, use the stone to travel to the &eDwarven Market&r during the day time.  Once there, meet up with the &aDwarven Miner&r. "
+				""
+				"Trade with them until they offer to sell you a &3Fey Queen's Eye&r. It's a treasure that they found on a recent dig. "
+			]
 			id: "6161525041DA06DE"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"

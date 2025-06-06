@@ -1649,7 +1649,7 @@
 		}
 		{
 			dependencies: ["531D0D2C3FB0F966"]
-			description: ["To attain a &3Doll Eye&r you will need to kill &cDolls&r in the &6Toybox&r. "]
+			description: ["To acquire a &3Doll Eye&r you will need to kill &cDolls&r in the &6Toybox&r. "]
 			hide_text_until_complete: false
 			icon: {
 				Count: 1
@@ -1659,8 +1659,10 @@
 				}
 			}
 			id: "0AD5B46FFFCE7266"
-			rewards: [{
-				id: "5277608A774CE361"
+			shape: "square"
+			subtitle: "Eye 3 of 12"
+			tasks: [{
+				id: "71DBF5790DFC2909"
 				item: {
 					Count: 1
 					id: "endrem:evil_eye"
@@ -1670,19 +1672,13 @@
 				}
 				type: "item"
 			}]
-			shape: "square"
-			subtitle: "Eye 3 of 12"
-			tasks: [{
-				id: "76E225B7822514A2"
-				title: "Ok"
-				type: "checkmark"
-			}]
 			title: "Doll Eye"
 			x: 5.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3BF749C81871D375"]
+			description: ["To acquire this &3Eye&r, build your &6MineColonies&r &eTavern&r, then accept the reward from this quest. "]
 			icon: {
 				Count: 1
 				id: "endrem:rogue_eye"
@@ -1715,6 +1711,7 @@
 		}
 		{
 			dependencies: ["09C89272A29EFB01"]
+			description: ["To acquire this &3Eye&r, you can collect the reward from this quest after defeating a &cWither&r. "]
 			icon: {
 				Count: 1
 				id: "endrem:nether_eye"

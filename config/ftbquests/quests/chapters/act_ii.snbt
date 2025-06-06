@@ -2234,6 +2234,7 @@
 		}
 		{
 			dependencies: ["5D73505C3C4B00D7"]
+			description: ["To attain this &3Eye&r kill the &cSun Spirit&r and collect the reward from this quest."]
 			icon: {
 				Count: 1
 				id: "endrem:magical_eye"
@@ -2266,6 +2267,7 @@
 		}
 		{
 			dependencies: ["4E44995904180ECE"]
+			description: ["To attain this &3Eye&r, defeat the &cSweet Witch&r, then collect the reward from this quest."]
 			icon: {
 				Count: 1
 				id: "endrem:guardian_eye"

@@ -965,6 +965,7 @@
 		}
 		{
 			dependencies: ["4EE1ADF352D1FA90"]
+			description: ["To acquire this &3Eye&r by searching chests in the &6Dimensional Dungeons&r."]
 			id: "12579E6833952F07"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
@@ -1287,6 +1288,7 @@
 		}
 		{
 			dependencies: ["5B2B4D277DEC25C2"]
+			description: ["To acquire this &3Eye&r by searching in chests inside the &6Dungeon Realm&r."]
 			icon: {
 				Count: 1
 				id: "endrem:wither_eye"

@@ -926,6 +926,30 @@ event.add('mmorpg:quarterstaff',
   'spartanweaponry:aluminum_quarterstaff'
 ])
 
+event.add('mmorpg:earring', 
+[
+  'roe_essentials:earring_0',
+  'roe_essentials:earring_1',
+  'roe_essentials:earring_2',
+  'roe_essentials:earring_3',
+  'roe_essentials:earring_4',
+  'roe_essentials:earring_5',
+  'roe_essentials:earring_6',
+  'roe_essentials:earring_7g',
+])
+
+event.add('curios:earring', 
+[
+  'roe_essentials:earring_0',
+  'roe_essentials:earring_1',
+  'roe_essentials:earring_2',
+  'roe_essentials:earring_3',
+  'roe_essentials:earring_4',
+  'roe_essentials:earring_5',
+  'roe_essentials:earring_6',
+  'roe_essentials:earring_7',
+])
+
 event.add('curios:ring', 
 [
   'deep_aether:skyjade_ring',

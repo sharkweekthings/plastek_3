@@ -985,6 +985,7 @@
 		}
 		{
 			dependencies: ["1C8E8DA779B10929"]
+			description: ["To attain this &3Eye&r, defeat &cBueford, the Summoner&r, then accept the reward from this quest. "]
 			icon: {
 				Count: 1
 				id: "endrem:cold_eye"
@@ -1017,6 +1018,7 @@
 		}
 		{
 			dependencies: ["6010F7590E6F7082"]
+			description: ["To attain this &3Eye&r, defeat &cBarnaby, the Alchemist&r, then accept the reward from this quest. "]
 			icon: {
 				Count: 1
 				id: "endrem:witch_eye"

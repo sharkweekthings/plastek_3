@@ -18,6 +18,9 @@ usernamecache.json
 season_assignments.ods
 season_assignment.ods
 
+
+kubejs/data/mmorpg/mmorpg_base_gear_types/earring.json
+
 config/farmersdelight-client.toml
 config/farmersdelight-common.toml
 defaultconfigs/ftbchunks
@@ -174,6 +177,7 @@ config/Plushie_Buddies-Common.toml
 config/polymorph-integrations.toml
 config/ponder-client.toml
 config/print.txt
+config/armorsets/
 config/ProjectE/client.toml
 config/ProjectE/common.toml
 config/ProjectE/processing.toml

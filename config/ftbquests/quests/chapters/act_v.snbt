@@ -650,6 +650,7 @@
 				"680E0CE425EB05A3"
 				"5A3B99BC18DF73ED"
 			]
+			description: ["To acquire this &3Eye&r, you will need to take your trusty pickaxe, and mine the &3Harsh Stone&r in the &6Setback&r dimension. "]
 			id: "03D3EED70D7C3A8C"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
