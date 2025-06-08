@@ -1,0 +1,117 @@
+{
+  "item.endrem.old_eye": "Old Eye",
+  "item.endrem.old_eye.description": "§7§oLegends say this eye once belonged to one of the great Sandworms",
+
+  "item.endrem.rogue_eye": "Colonist's Eye",
+  "item.endrem.rogue_eye.description": "§7§oYou found this on the floor of your tavern, it likely belongs to a villager.",
+
+  "item.endrem.nether_eye": "Concentrated Void Energy Eye",
+  "item.endrem.nether_eye.description": "§7§oThe Wither was corrupted by Void Energy, you picked up the remains.",
+
+  "item.endrem.cold_eye": "Bueford's Eye",
+  "item.endrem.cold_eye.description": "§7§oYou collected this from Bueford, it kind of smells like... popcorn butter?",
+
+  "item.endrem.magical_eye": "Aether Eye",
+  "item.endrem.magical_eye.description": "§7§oThis eye glows bright blue, you feel at peace when you touch it.",
+
+  "item.endrem.black_eye": "Astral Guardian Eye",
+  "item.endrem.black_eye.description": "§7§oYou can feel the magical energy of the Pixie's surging out of this.",
+
+  "item.endrem.lost_eye": "Lost Eye",
+  "item.endrem.lost_eye.description": "§7§oIt is told that it was forged by the first blacksmiths of time",
+
+  "item.endrem.wither_eye": "Broken Compass Eye",
+  "item.endrem.wither_eye.description": "§7§oAn adventurer must have thrown this useless piece of junk on the ground. Unlucky for them, you love junk!",
+
+  "item.endrem.guardian_eye": "Gumball Eye",
+  "item.endrem.guardian_eye.description": "§7§oShould have guessed that a land made of sweets and candies would produce a mystical artifact made of chewing gum....",
+
+  "item.endrem.cursed_eye": "Dimensional Catastrophe Eye",
+  "item.endrem.cursed_eye.description": "§7§oCreated when the Cult of the Void used Pixie Magic to create a new dimension.",
+
+  "item.endrem.exotic_eye": "Ancient Fey Queen's Eye",
+  "item.endrem.exotic_eye.description": "§7§oThe eye of the first Fey Queen",
+
+  "item.endrem.evil_eye": "Doll Eye",
+  "item.endrem.evil_eye.description": "§7§oThis eye popped out of one of those creepy dolls you were fighting.",
+
+  "item.endrem.undead_eye": "Undead Eye",
+  "item.endrem.undead_eye.description": "§7§oRemembrance of the past lives of those who live in death",
+
+  "item.endrem.cryptic_eye": "Dimensional Eye",
+  "item.endrem.cryptic_eye.description": "§7§oCreated when a Dimension separated into many other separate dimensions during the Plastimpocalypse.",
+
+  "item.endrem.corrupted_eye": "Corrupted Eye",
+  "item.endrem.corrupted_eye.description": "§7§oThe eye of a greedy king that faded in solitude; legend says it will bring infinite fortune to its owner",
+
+  "item.endrem.witch_eye": "Barnaby's Eye",
+  "item.endrem.witch_eye.description": "§7§oBarnaby was protecting this object, so naturally you decide to take it from him.",
+  "item.endrem.witch_pupil": "Witch Pupil",
+
+  "item.endrem.undead_soul": "Undead Soul",
+
+  "block.endrem.ancient_portal_frame": "Ancient Portal Frame",
+
+  "block.endrem.ender_eye.throw_warning": "This eye doesn't know where to go",
+  "block.endrem.ender_eye.use_warning": "This eye doesn't want to be used",
+  "block.endrem.custom_eye.place": "This eye can't be placed",
+  "block.endrem.custom_eye.frame_has_eye": "This frame already has an eye",
+  "block.endrem.custom_eye.broken": "This portal is not built properly",
+
+
+  "itemGroup.endrem.endrem_tab": "End Remastered",
+
+  "block.portal_open_sound": "Portal Opening",
+  "block.portal_open_sound.sub": "Portal Opening",
+
+  "advancements.main.root.title": "The Beginning of An Adventure",
+  "advancements.main.root.description": "Acquire the Eye",
+
+  "advancements.main.old_eye.title": "Fortune Seeker",
+  "advancements.main.old_eye.description": "Acquire the Old Eye",
+
+  "advancements.main.rogue_eye.title": "Maybe You Should Return This",
+  "advancements.main.rogue_eye.description": "Acquire the Colonist's Eye",
+
+  "advancements.main.nether_eye.title": "That Doesnt Belong There",
+  "advancements.main.nether_eye.description": "Acquire the Concentrated Void Energy Eye",
+
+  "advancements.main.cold_eye.title": "From the Realm of Everbright",
+  "advancements.main.cold_eye.description": "Acquire Bueford's Eye",
+
+  "advancements.main.corrupted_eye.title": "Cover Me In Emeralds", "%%%%%%Comment%%%%%%": "Golden Shower fits better but whatever...",
+  "advancements.main.corrupted_eye.description": "Acquire the Corrupted Eye",
+
+  "advancements.main.magical_eye.title": "Energy So Pure It's Addictive",
+  "advancements.main.magical_eye.description": "Acquire the Aether Eye",
+
+  "advancements.main.black_eye.title": "So Much Power",
+  "advancements.main.black_eye.description": "Acquire the Astral Guardian Eye",
+
+  "advancements.main.lost_eye.title": "Need A Map?",
+  "advancements.main.lost_eye.description": "Acquire the Lost Eye",
+
+  "advancements.main.wither_eye.title": "Another Persons Trash",
+  "advancements.main.wither_eye.description": "Acquire the Wither Eye",
+
+  "advancements.main.guardian_eye.title": "Time To Kick Ass but Not Chew the Bubblegum",
+  "advancements.main.guardian_eye.description": "Acquire the Gumball Eye",
+
+  "advancements.main.cursed_eye.title": "It's Looking At Me!",
+  "advancements.main.cursed_eye.description": "Acquire the Dimensional Catastrophe Eye",
+
+  "advancements.main.witch_eye.title": "From the Realm of Everdawn",
+  "advancements.main.witch_eye.description": "Acquire Barnaby's Eye",
+
+  "advancements.main.evil_eye.title": "Annabelle",
+  "advancements.main.evil_eye.description": "Acquire the Evil Eye",
+
+  "advancements.main.exotic_eye.title": "From An Ancient Fey Queen",
+  "advancements.main.exotic_eye.description": "Acquire the Ancient Fey Queen's Eye",
+
+  "advancements.main.undead_eye.title": "The Mirror Of The Soul",
+  "advancements.main.undead_eye.description": "Acquire the Undead Eye",
+
+  "advancements.main.cryptic_eye.title": "Discover the Dungeons, Clear the Traps",
+  "advancements.main.cryptic_eye.description": "Acquire the Dimensional Eye"
+}

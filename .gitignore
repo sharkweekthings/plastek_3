@@ -35,7 +35,6 @@ config/aether-client.toml
 config/aether-common.toml
 config/animation_overhaul
 config/anti_mob_farm-common.toml
-config/droppedbuffs-common.toml
 config/aquaculture-common.toml
 config/artifacts
 config/attributeslib.cfg

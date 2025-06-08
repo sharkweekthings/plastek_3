@@ -1661,7 +1661,7 @@
 				""
 				"Along the way, she explained that ultra-violent penguins from the &cCake and Ice Cream Clans&r have invaded her town and declared it theirs."
 				""
-				"She lets you know that, due to the peaceful nature of her people, their only defense was &3Raw Fish&r—but a maniac in purple robes destroyed their supply."
+				"She lets you know that, due to the peaceful nature of her people, their only defense was &3Raw Fish&r—but a maniac in purple robes destroyed their supply, which left them defenseless."
 				""
 				"Thinking about the reward that she mentioned, you officially agree to help out the &eIce Cream Village&r."
 			]
@@ -1766,13 +1766,11 @@
 			description: [
 				"You've helped clear out the bulk of the penguins. Some still remain, but they can be subdued with some fish by &dLolli's&r people."
 				""
-				"&dLolli&r lets you know that the &cSweet Witch&r is responsible for what's happening here."
+				"&dLolli&r lets you know that &cCaramela, the Sweet Witch,&r is responsible for what's happening here."
 				""
-				"She lets you know that it started with the town's golem getting aggressive. They were able to lock it up under the city before the penguin invasion."
+				"When she destroyed the town's fish supply, she also did something to the town golem and made it aggressive. They were luckily able to get it under control before the penguin invasion. She says it's locked up under the city and asks if you can destroy it."
 				""
-				"She asks if you can destroy it so they can rebuild a new one."
-				""
-				"Just find the trap door, go down the path, use the Lever and you should find &cCreamy the Ice Cream Golem&r. "
+				"She says to find the trapdoor in the village, go down the path, use the lever, and you should find &cCreamy, the Ice Cream Golem.&r"
 			]
 			icon: {
 				Count: 1
@@ -1848,13 +1846,13 @@
 			description: [
 				"Once again, &dLolli&r and the &eIce Cream Village&r thank you. They are beyond grateful for your help."
 				""
-				"&dLolli&r has one more request, and that's to help with the &cSweet Witch&r."
+				"&dLolli&r has one more request, and that's to help with the &cCaramela, the Sweet Witch&r."
 				""
-				"She says that there are &35 Magic Plates&r scattered in chests throughout the &6Sweet Lands&r, and if those tablets are put into the &9Witches Cauldron&r in the &eChocolate Witch House&r, the &cSweet Witch&r will be summoned."
+				"She says that there are &35 Magic Plates&r scattered in chests throughout the &6Sweet Lands&r, and if those tablets are put into the &9Witches Cauldron&r in the &eChocolate Witch House&r, the &cCaramela&r will come running."
 				""
 				"You take a hard, long breath, and before you let her down easily, as you have other business to attend, &dLolli&r lets you know that there will be a nice bonus reward in it for you."
 				""
-				"Your ears perk up, and you respond with a resounding yes, as if you were already out the door on the way to look for the &3plates&r."
+				"Your ears perk up, and you respond with a resounding yes, as if you were already out the door on the way to look for the &3Magic Plates&r."
 			]
 			icon: {
 				Count: 1
@@ -1882,11 +1880,11 @@
 		{
 			dependencies: ["273DA5D2530F89D9"]
 			description: [
-				"With all &35 Magic Plates&r found, you can now summon the &cSweet Witch&r."
+				"With all &35 Magic Plates&r found, you can now challenge the &cCaramela, the Sweet Witch&r."
 				""
 				"You'll need to find a &eChocolate Witch House&r structure and use the plates on the &9cauldron&r inside."
 				""
-				"Once the 5th plate has been placed in, the witch will be summoned!"
+				"Once the 5th plate has been placed in, the she will appear."
 			]
 			id: "6E572801B0EA6E34"
 			rewards: [{
@@ -1976,7 +1974,7 @@
 						Count: 1
 						id: "minecraft:written_book"
 						tag: {
-							author: "Glendale, the Sweet Witch"
+							author: "Caramela, the Sweet Witch"
 							pages: ["{\"text\":\"Town of Sprybrooke\\nSan Creeper City\\nYowling Llama Village\\nHoneybeak Farms\\nLos Dragon City\\nTown of Hammerhorn\\n\\n\"}"]
 							title: "List of Towns"
 						}
@@ -2040,7 +2038,7 @@
 				""
 				"&dShaun&r is looking to make a \"&3Magic Charge&r,\" which will require &33 Magic Powder&r — something about a new, interactive recipe that literally explodes with flavor in your mouth."
 				""
-				"You check your pockets and pull out several pieces of &3lint&r, a &3bottle cap&r, a &3worn tennis ball&r, and... oh, here we go — &33 Magic Powder&r! It seems like the &dSweet Witch&r had them on her when you looted her body."
+				"You check your pockets and pull out several pieces of &3lint&r, a &3bottle cap&r, a &3worn tennis ball&r, and... oh, here we go — &33 Magic Powder&r! It seems like the &cCaramela&r had them on her when you looted her body."
 			]
 			id: "0B332A8866319A7F"
 			rewards: [{
@@ -2105,13 +2103,15 @@
 		{
 			dependencies: ["0435DFB13F76DF19"]
 			description: [
-				"Days go by—no new occurrences pop up. &dShaun&r stops by though and gives you what he made. "
+				"A few weeks pass with no new occurrences popping up."
 				""
-				"He says it's an &3Eternal Candy&r. Every time you eat it, it gives you a burst of intense flavor!  He says not to mind the taste; which apparently taste like a sweet horseradish. "
+				"One day, &dShaun&r comes by ready with his creation. "
+				""
+				"He says it's an &3Eternal Candy&r. Every time you eat it, it gives you a burst of intense flavor! He says not to mind the taste, which apparently tastes like a sweet horseradish."
 				""
 				"You start taking this moment of peace to prepare the city for any possible invasions."
 				""
-				"&5&oFrom here you can continue with Act III!&r&r"
+				"&5&oFrom here, you can continue with Act III!&r&r"
 			]
 			icon: {
 				Count: 1

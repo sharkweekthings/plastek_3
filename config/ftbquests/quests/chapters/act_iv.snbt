@@ -448,9 +448,9 @@
 		{
 			dependencies: ["3469ED62942E1428"]
 			description: [
-				"The &aPixie&r has spoken with the &dQueen&r, and she's agreed to give you an audience."
+				"The &aPixie&r has spoken with the &dQueen&r, and she's agreed to give you an audience.r"
 				""
-				"Unfortunately, what you need to get there won't be so easy to get..."
+				"Unfortunately, what you need to get there won't be so easy to get... "
 			]
 			id: "1076EAAF2F4486EA"
 			rewards: [{
@@ -1195,17 +1195,11 @@
 		{
 			dependencies: ["322EA65C491FF167"]
 			description: [
-				"To attain this &3Eye&r, we can start with a few different options:"
+				"To acquire this &3Eye&r, find a &3Traveling Stone: Dwarven Market&r from a chest inside a mineshaft in &6Feywild&r."
 				""
-				"1) Befriend a &aDwarf&r by crafting a &3Summoning Contract: Dwarf Blacksmith&r, then trade with them until they offer a &3Traveling Stone: Dwarven Market&r."
+				"When you have the &3Traveling Stone&r, go to the &6Overworld&r, and use the stone to travel to the &eDwarven Market&r during the day time. "
 				""
-				"2) Find a &eDwarven Forge&r underground in &6Feywild&r, trade the &aDwarf Blacksmith's&r until they offer a &3Traveling Stone: Dwarven Market&r."
-				""
-				"3) Find a &3Traveling Stone: Dwarven Market&r from a chest inside a mineshaft in &6Feywild&r."
-				""
-				"Once you have the &3Traveling Stone&r, go to the &6Overworld&r, use the stone to travel to the &eDwarven Market&r during the day time.  Once there, meet up with the &aDwarven Miner&r. "
-				""
-				"Trade with them until they offer to sell you a &3Fey Queen's Eye&r. It's a treasure that they found on a recent dig. "
+				"If you get lucky and catch the &aDwarven Miner&r on the day of their big dig, they will sell you an &3Ancient Fey Queen's Eye&r for &325 Brilliant Fey Gems&r."
 			]
 			id: "6161525041DA06DE"
 			rewards: [{
@@ -1261,6 +1255,19 @@
 			title: "Exotic Eye Recovery"
 			x: 6.0d
 			y: 5.0d
+		}
+		{
+			description: ["The first item you need is easy, your Pixie friend has been authorized to give you some &3Concentrated Pixie Essence&r, but you're only allowed to use it to craft the &3Teleportation Orb: Feywild&r. Any unauthorized use could lead to consequences."]
+			id: "1BBD2B67D1CCF4A5"
+			shape: "heart"
+			tasks: [{
+				id: "5E4CEE165BCF17BB"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Concentrated Pixie Essence"
+			x: 3.0d
+			y: 0.5d
 		}
 	]
 	title: "Act IV"

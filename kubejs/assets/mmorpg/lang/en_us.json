@@ -40,9 +40,9 @@
 	"mmorpg.tag.gear_slot.spear": "Spear",
 	"mmorpg.gear_type.spear": "Spear",
 
-	"mmorpg.gearslot.sword": "Longsword",
-	"mmorpg.tag.gear_slot.sword": "Longsword",
-	"mmorpg.gear_type.sword": "Longsword",
+	"mmorpg.gearslot.sword": "Sword",
+	"mmorpg.tag.gear_slot.sword": "Sword",
+	"mmorpg.gear_type.sword": "Sword",
 
 	"mmorpg.gearslot.rapier": "Rapier",
 	"mmorpg.tag.gear_slot.rapier": "Rapier",
@@ -87,6 +87,10 @@
 	"mmorpg.gearslot.scythe": "Scythe",
 	"mmorpg.tag.gear_slot.scythe": "Scythe",
 	"mmorpg.gear_type.scythe": "Scythe",
+
+	"mmorpg.gearslot.sickle": "Sickle",
+	"mmorpg.tag.gear_slot.sickle": "Sickle",
+	"mmorpg.gear_type.sickle": "Sickle",
 
 	"mmorpg.gearslot.longbow": "Longbow",
 	"mmorpg.tag.gear_slot.longbow": "Longbow",

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "blue_skies:turquoise_stonebrick"
+    },
+    "B": {
+      "item": "blue_skies:moonstone_shard"
+    }
+  },
+  "pattern": [
+    " B ",
+    "B#B",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "item": "blue_skies:lunar_stonebrick"
+  },
+  "show_notification": true
+}

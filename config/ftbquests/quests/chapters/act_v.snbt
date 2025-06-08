@@ -49,7 +49,7 @@
 			description: [
 				"In the morning, everyone convened for breakfast and started to discuss options for a plan of attack."
 				""
-				"Unfortunately, things were interrupted as once more the fabric of reality started shaking."
+				"Unfortunately, things were interrupted, as once more the fabric of reality started shaking."
 				""
 				"This time, it brought all of the &aPixies&r to their knees."
 				""
@@ -57,9 +57,11 @@
 				""
 				"&dThe Queen&r says she knows exactly what's happening."
 				""
-				"She says that the last time she felt this&r specific magical energy was when the &6Astral Dimension&r was created. However, this feels wrong... Warped... &eVoid Energy&r must be involved."
+				"She says that the last time she felt this&r specific magical energy was when the &6Astral Dimension&r was created. However, this feels wrong... warped... &eVoid Energy&r must be involved."
 				""
-				"&dThe Queen&r seems weaker as she tells you that she can feel her magic starting to drain, this time at a more rapid pace."
+				"&dThe Queen&r seems weaker as she tells you that she can feel her magic starting to drain—this time at a more rapid pace."
+				""
+				"She suspects that the &cCult of the Void&r must have used some of the magic they collected to create another dimension in order to keep harnessing the &ePixie Magic&r."
 			]
 			icon: {
 				Count: 1
@@ -650,7 +652,11 @@
 				"680E0CE425EB05A3"
 				"5A3B99BC18DF73ED"
 			]
-			description: ["To acquire this &3Eye&r, you will need to take your trusty pickaxe, and mine the &3Harsh Stone&r in the &6Setback&r dimension. "]
+			description: [
+				"To acquire this &3Eye&r, you will need to take your trusty pickaxe, and mine the &3Harsh Stone&r in the &6Setback&r dimension. "
+				""
+				"&oThere is a 5% chance that it will drop.&r"
+			]
 			id: "03D3EED70D7C3A8C"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"

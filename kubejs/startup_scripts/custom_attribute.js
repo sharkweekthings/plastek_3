@@ -6,7 +6,8 @@
 const $RangedAttribute = Java.loadClass("net.minecraft.world.entity.ai.attributes.RangedAttribute")
 
 StartupEvents.registry("attribute", e => {
-    e.createCustom("kubejs:elemental_resist", () => new $RangedAttribute("Elemental Resistance", 1, 0, 10).setSyncable(true));
+    e.createCustom("kubejs:ele_resist", () => new $RangedAttribute("Elemental Resistance", 1, 0, 10).setSyncable(true));
+    // e.createCustom("kubejs:all_resist", () => new $RangedAttribute("Elemental Resistance", 1, 0, 10).setSyncable(true));
     e.createCustom("kubejs:chaos_resist", () => new $RangedAttribute("Chaos Resistance", 1, 0, 10).setSyncable(true));
     e.createCustom("kubejs:gear_defense", () => new $RangedAttribute("Gear Defense", 1, 0, 10).setSyncable(true));
     e.createCustom("kubejs:all_stats", () => new $RangedAttribute("All Stats", 1, 0, 10).setSyncable(true));
@@ -20,7 +21,7 @@ StartupEvents.registry("attribute", e => {
 
 EntityJSEvents.attributes(event => {
     event.modify('minecraft:player', attribute => {
-        attribute.add("kubejs:elemental_resist", 0.0);
+        attribute.add("kubejs:ele_resist", 0.0);
         attribute.add("kubejs:chaos_resist", 0.0);
         attribute.add("kubejs:gear_defense", 0.0);
         attribute.add("kubejs:all_stats", 0.0);
@@ -30,6 +31,5 @@ EntityJSEvents.attributes(event => {
         attribute.add("kubejs:critical_hit", 0.0);
         attribute.add("kubejs:magic_find", 0.0);
         attribute.add("kubejs:plus_lvl_all_spells", 0.0);
-        attribute.add("kubejs:elemental_resist", 0.0);
     })
 }) 

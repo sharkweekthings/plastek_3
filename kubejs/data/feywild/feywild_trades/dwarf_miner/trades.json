@@ -121,14 +121,13 @@
       },
       {
         "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 3
+          "item": "feywild:brilliant_fey_gem",
+          "count": 25
         },
         "output": {
-          "item": "minecraft:emerald",
-          "count": 3
+          "item": "endrem:exotic_eye"
         },
-        "uses": 2,
+        "uses": 1,
         "exp": 0,
         "mul": 0.05
       },

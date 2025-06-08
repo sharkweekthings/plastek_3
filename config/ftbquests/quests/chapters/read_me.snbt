@@ -533,7 +533,7 @@
 				""
 				"&6Combat Roll&r – You can press 'R', which will let you dodge roll forward."
 				""
-				"&6Dropped Buffs&r - While you kill monsters they might drop a temporary buff that will auto apply. These buffs are: "
+				"&6Dropped Buffs&r - While you kill monsters there is a 10% chance that they will drop a temporary buff that will automatically apply for 60 seconds.. These buffs can be picked up by anyone, but will only last for 20 seconds on the ground."
 				""
 				"&6Level Cap&r – Most dimensions are 65. However, you will have access to &6Dimensional Dungeons&r, &6Ancient Obelisks&r, &6The Harvest&r, and &6Dungeon Realm&r starting as early as &2level 1&r (&oif you get extremely lucky&r), and &eMaps&r starting at &2level 50&r – all of which will take you to &2level 100&r."
 				""

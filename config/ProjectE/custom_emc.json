@@ -5,6 +5,10 @@
       "emc": 10000
     },
     {
+      "item": "astral_dimension:harsh_stone",
+      "emc": 100
+    },
+    {
       "item": "#forge:seeds",
       "emc": 0
     },

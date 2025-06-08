@@ -16,7 +16,7 @@
         "scale_to_lvl": false,
         "v1": 50.0,
         "stat": "phys_to_chaos"
-      }
+      },
       {
         "type": "percent",
         "scale_to_lvl": false,
@@ -26,3 +26,5 @@
 	]
   }
 }
+
+

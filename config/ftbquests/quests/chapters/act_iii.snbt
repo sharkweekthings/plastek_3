@@ -283,7 +283,7 @@
 					id: "minecraft:written_book"
 					tag: {
 						author: "Barnaby the 72nd Alchemist"
-						pages: ["{\"text\":\"Deliver souls from the recently corrupted villages to me.\"}"]
+						pages: ["{\"text\":\"Deliver the souls from the recently corrupted villages to me. It’s time to empower our Void Brothers!\"}"]
 						title: "Soul Delivery"
 					}
 				}
@@ -948,7 +948,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Summoner's Eye Recovery"
+			title: "Bueford's Eye Recovery"
 			x: -2.5d
 			y: 11.0d
 		}
