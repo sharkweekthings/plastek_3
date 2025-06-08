@@ -1185,18 +1185,6 @@
   "complexityHarmEffectModifier": -0.2,
   "foodDiversity": [
     {
-      "ingredient": "{id:\"item\",item:\"minecraft:golden_carrot\"}",
-      "diversity": 100
-    },
-    {
-      "ingredient": "{id:\"item\",item:\"minecraft:golden_apple\"}",
-      "diversity": 200
-    },
-    {
-      "ingredient": "{id:\"item\",item:\"minecraft:enchanted_golden_apple\"}",
-      "diversity": 300
-    },
-    {
       "ingredient": "{id:\"item\",item:\"born_in_chaos_v1:eternal_candy\"}",
       "diversity": -5
     },
