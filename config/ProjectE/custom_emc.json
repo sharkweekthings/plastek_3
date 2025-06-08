@@ -23,6 +23,10 @@
     {
       "item": "waystones:warp_stone",
       "emc": 0
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 0
     }
   ]
 }

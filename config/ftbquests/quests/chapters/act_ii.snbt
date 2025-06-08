@@ -606,7 +606,7 @@
 				""
 				"Curious, you ask her what exactly she made."
 				""
-				"She lets you know that while she's just a simple doctor, she comes from a family of Mages. Her family is a master of the &6Mystical Agriculture&r."
+				"She lets you know that while she's just a simple doctor, she comes from a family of mages. Her family is a master of the &6Mystical Agriculturian&r arts."
 				""
 				"While she herself is not a master agriculturalist, she is still willing to teach you what she knows, in hope that you will use it for the betterment of the town."
 			]
@@ -1358,9 +1358,9 @@
 			description: [
 				"&dChef Shaun's&r quest states that he's never actually BEEN to the &6Sweet Lands&r, and he doesn't actually know how to get there."
 				""
-				"Entry is only taught to Diamond Chefs. However, any chef that has knowledge of entry can teach you if they want."
+				"Entry is only taught to &eDiamond Chefs&r. However, any chef that has knowledge of entry can teach you if they want."
 				""
-				"&dShaun&r mentioned he trained under &dChef Ramsickle&r, a somewhat violent chef who lives in the &eCherry Groves&r."
+				"&dShaun&r mentioned he trained under &dChef Rumzy&r, a somewhat violent chef who lives in the &eCherry Groves&r."
 				""
 				"If you're looking at the &3Explorer's Compass&r, you can search for the \"&eVillage Bakery&r.\""
 			]
@@ -1390,7 +1390,7 @@
 		{
 			dependencies: ["3AB38812065A1C84"]
 			description: [
-				"After pleading with &dChef Ramsickle&r for hours, he put you to the test."
+				"After pleading with &dChef Rumzy&r for hours, he put you to the test."
 				""
 				"He asked you to make a &3Bread&r. What you returned to him was harder than most metals."
 				""
@@ -2299,7 +2299,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["0383770870A3ECE2"]
+			dependencies: ["2F0F2C0E693DD0A0"]
 			icon: "kubejs:bobs_void_touched_heart"
 			id: "5E5D9CB385C4BB91"
 			rewards: [{
@@ -2314,7 +2314,7 @@
 				type: "checkmark"
 			}]
 			title: "Bob's Void Touched Heart Recovery"
-			x: 7.5d
+			x: 3.0d
 			y: -2.0d
 		}
 	]

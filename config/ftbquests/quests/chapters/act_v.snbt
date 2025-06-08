@@ -1015,7 +1015,7 @@
 				""
 				"Even the folks from the &eCalming Skies&r village showed up for the festivities."
 				""
-				"The last to show up to the party was the &dYorkingtons&r. Almost every letter showed up, which caused a whole lot of confusion during the evening. Letter &dV&r was not able to make the festivities. &dCoxworth&r said that &dCoxworth V. Yorkington&r was off on an adventure trying to uncover another &6Everdawn&r portal that was rumored to exist."
+				"The last to show up to the party was the &dYorkingtons&r. Almost every letter showed up, which caused a whole lot of confusion during the evening. Letters &dF&r, &dO&r, and &dE&r,  were not able to make the festivities. &dCoxworth V. Yorkington&r said that they were off on an adventure trying to uncover the &6Everdawn&r and &6Everbright&r portals that were used by the &cCult of the Void&r."
 				""
 				"Everyone throughout the night danced, drank, and enjoyed the party into the early hours of the morning."
 			]
@@ -1185,11 +1185,17 @@
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
 			description: [
-				"&dCoxworth V. Yorkington&r eventually found the &6Everdawn&r portal they were seeking."
+				"&dCoxworth F.&r, &dO&r, and &dE&r eventually found the &6Everdawn&r portal they were seeking."
 				""
-				"They set up their house deep in a snowy biome to forever be a hermit."
+				"They set up their house deep in a snowy biome, choosing to live forever as hermits."
 				""
-				"The town would deliver produce and baked goods to all of the &dYorkingtons&r every harvest. However, most of the &dYorkingtons&r didn't like the crops or baked goods, so they would feed the food to their pet &aGrizzly Bear&r named &dFoe&r."
+				"The town would deliver produce and baked goods to all of the &dYorkingtons&r every harvest. However, most of the &dYorkingtons&r didn't like the crops or baked goods, so they would get disposed of and go to waste."
+				""
+				"&dCoxworth R. Yorkington&r would feed the food to their pet &aGrizzly Bear&r named &dSherlock&r, who ate extremely well."
+				""
+				"One cloudy afternoon on a Thursday evening, denizens of both &6Everbright&r and &6Everdawn&r came to visit and thanked the &dYorkingtons&r for protecting them as best they could over the years. They inquired if any of the &dYorkingtons&r would like to lead both dimensions to further protect the lands."
+				""
+				"This sparked much discussion among the &dYorkingtons&r. Ultimately, everyone agreed that &dCoxworth U. Yorkington&r and &dCoxworth W. Yorkington&r would be best suited for the positions. &dCoxworth U. Yorkington&r would take Everbright, and &dCoxworth W. Yorkington&r would take Everdawn, with &dCoxworth X. Yorkington&r serving as a liaison between the two realms."
 			]
 			icon: {
 				Count: 1

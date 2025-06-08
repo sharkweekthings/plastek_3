@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'tempad:tempad'})
   event.remove({id: 'mysticalagriculture:infusion_altar'})
   event.remove({id: 'waystones:warp_stone'})
+  event.remove({id: 'projecte:transmutation_table'})
 
 //
 })

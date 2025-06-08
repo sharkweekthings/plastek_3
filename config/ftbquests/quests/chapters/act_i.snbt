@@ -564,7 +564,9 @@
 				""
 				"This device is a &9Transmutation Table&r. Any item that has \"&eEMC&r\" on the Tooltip can be placed inside of the device. Valid items are assigned &eEMC&r based on their difficulty. As long as you have items in your &9Transmutation Table&r, you should have &eEMC&r. The more items you put in, the more &eEMC&r you will have."
 				""
-				"Let's say you have &31 Iron Ingot&r worth &e256 EMC&r. You put that into your &9Transmutation Table&r, and with the other items you have in there, you have an accumulative total of &e45,646 EMC&r. Using that EMC as '&ecurrency&r,' you can actually withdraw around &3178 Iron Ingots&r."
+				"Let's say you have &31 Iron Ingot&r worth &e256 EMC&r. You put that into your &9Transmutation Table&r, and with the other items you have in there, you have an accumulative total of &e45,646 EMC&r. Using that EMC as '&ecurrency&r,' you can actually withdraw around &3178 Iron Ingots&r. "
+				""
+				"To operate the &9Transmutation Table&r, just place it down on the ground and click into it. Even with stuff inside, you can use your &3Pickaxe&r to break it and carry it around with you. "
 			]
 			id: "4915AF0A4FCA28C4"
 			rewards: [
@@ -985,21 +987,23 @@
 				"09C89272A29EFB01"
 			]
 			description: [
-				"You hand &dRyan&r the &3Nether Star&r. "
+				"You hand &dRyan&r the &3Nether Star&r."
 				""
-				"He takes the &3Nether Star&r over to his machine where you can hear him vocally letting out a grinding noise, then you see him make a crushing noise, followed by a beep blip beep sound. "
+				"He takes the &3Nether Star&r over to his machine, where you can hear him vocally letting out a grinding noise. Then you see him make a crushing noise, followed by a beep-blip-beep sound."
 				""
-				"You look dumbfounded as you watch him do this. "
+				"You look dumbfounded as you watch him do this."
 				""
-				"He walks back over to you and hands you &32 Nether Star Shards&r, and an item called a &9Waystone&r. "
+				"He walks back over to you and hands you &32 Nether Star Shards&r and an item called a &9Waystone&r."
 				""
-				"He lets you know that he had to crush up the &3Nether Star&r in his machine, which only returned &33 shards&r. Though, the device he was wanting to make was a the &9Waystone&r, which will let you travel to other Waystones you might have located in the world. "
+				"He lets you know that he had to crush up the &3Nether Star&r in his machine, which only returned &33 shards&r. Though, the device he was wanting to make was the &9Waystone&r, which will let you travel to other &9Waystones&r you might have located in the world."
 				""
-				"This time, you let him know that you saw him making the noises with his mouth, and you were curious what he was doing. "
+				"This time, you let him know that you saw him making the noises with his mouth, and you were curious what he was doing."
 				""
-				"He looks you dead in the eye, and with a straight face says \"No, that was my machine. See, here?\" as he places a piece of &3Stone&r in the machine, and proceeds to make the same crushing, grinding, and beeping sequence as before. "
+				"He looks you dead in the eye and, with a straight face, says, \"No, that was my machine. See, here?\" as he places a piece of &3Stone&r in some sort of grinding machine and proceeds to make the same crushing, grinding, and beeping sequence as before."
 				""
-				"He asks if you were interested in any &3Gravel&r, and for some reason, you accept..."
+				"He asks 'Interested in any &3Gravel&r?'"
+				""
+				"With every fiber of your being, you want to decline, but for some reason you decide to accept..."
 			]
 			id: "7D14DC69052ECEAA"
 			rewards: [
@@ -1318,7 +1322,7 @@
 			description: [
 				"Working through &6Create&r a little bit could prove to be useful. For now, you would just need a little &eRotational Power&r and an &3Encased Fan&r, and you can make some &3Concrete&r."
 				""
-				"While &6Create&r is not a requirement for this pack, it will have recipes that can make things easier."
+				"While &6Create&r is not a requirement for this pack, it will have recipes that can make things easier. You will also miss out on &e1 Ascendancy Point&r."
 			]
 			id: "02FE81FBE0B4EEBD"
 			rewards: [{
@@ -1775,6 +1779,25 @@
 			title: "Lost and Found"
 			x: -0.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["4915AF0A4FCA28C4"]
+			icon: "projecte:transmutation_table"
+			id: "56C846FC0E6A7061"
+			rewards: [{
+				id: "4653A0367937AC01"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "670D431B302507DC"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Transmutation Table Recovery"
+			x: 8.5d
+			y: -1.5d
 		}
 	]
 	title: "Act I"

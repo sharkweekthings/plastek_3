@@ -57,15 +57,17 @@
 			description: [
 				"You feel the ground begin to tremble."
 				""
-				"You begin to prepare your ear drums for what's about to come."
+				"You begin to prepare your eardrums for what's about to come."
 				""
 				"\"I can get you in the right direction,\" &dTim&r said. His high-pitched voice was... gone? Instead, his voice trembled and shook the tavern, matching his fit and lean physique."
 				""
-				"Absolutely dumbfounded, you stare at &dTim&r for a few moments. Knowing better, you decide not to question this for now, and due to the urgency of the situation, ask him to explain what he means."
+				"Absolutely dumbfounded, you stare at &dTim&r for a few moments. Knowing better, you decide not to question this for now and, due to the urgency of the situation, ask him to explain what he means."
 				""
-				"&dTim&r lets you know that you must seek out a Keeper of the Skies — their names are &dCoxworth Yorkington&r."
+				"&dTim&r lets you know that even though making the &3Turquoise Stone Brick&r to get into &6Everbright&r is relatively easy, you must still seek out a Keeper of the Skies to acquire a &3Zeal Lighter&r."
 				""
-				"&dCoxworth&r and his family guard the known portals to both &6Everbright&r and &6Everdawn&r. Their family separates them by middle initial."
+				"He says their name is &dCoxworth Yorkington&r, and that the &dYorkington&r family guards the known active portals to both &6Everbright&r and &6Everdawn&r. If you're lucky, they will sell you what you need to get there."
+				""
+				"You come to learn that the &dYorkington&r family all share the same name, but are separated by middle initial."
 				""
 				"&oIt is more common to find an Everbright portal than it is to find an Everdawn.&r"
 			]
@@ -1079,6 +1081,34 @@
 			title: "Warp Stone Recovery"
 			x: 0.5d
 			y: 11.5d
+		}
+		{
+			dependencies: ["148A671947C8AF0A"]
+			description: [
+				"&310 Turquoise Stone Bricks&r in the shape of a basic &9Nether Portal&r will get you into &6Everbright&r."
+				""
+				"Light the portal frame with a &3Zeal Lighter&r purchased from any of the &dCoxworth Yorkington's&r."
+			]
+			id: "0565A74E37CECE2A"
+			tasks: [{
+				id: "6CDB29F7AD18BC42"
+				item: "blue_skies:turquoise_stonebrick"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["148A671947C8AF0A"]
+			description: ["&310 Lunar Stone Bricks&r in the shape of a basic &9Nether Portal&r will get you into &6Everdawn&r."]
+			id: "230A885C905E3BBB"
+			tasks: [{
+				id: "5E862A264513A0E7"
+				item: "blue_skies:lunar_stonebrick"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
 		}
 	]
 	title: "Act III"
