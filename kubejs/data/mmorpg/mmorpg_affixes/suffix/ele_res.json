@@ -21,8 +21,8 @@
   "stats": [
     {
       "type": "FLAT",
-      "max": 35.0,
-      "min": 5.0,
+      "max": 30.0,
+      "min": 2.0,
       "stat": "elemental_resist"
     }
   ],

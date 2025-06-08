@@ -3,11 +3,11 @@
   "conversion": 1.0,
   "enchant_id": "",
   "id": "p3_elemental_resist_compat",
-  "maximum_cap": 75,
+  "maximum_cap": 1000,
   "minimum_cap": 0,
   "mns_stat_id": "elemental_resist",
   "mod_type": "FLAT",
-  "per_item_max": 75,
+  "per_item_max": 1000,
   "per_item_min": 0,
   "scaling": "NONE"
 }

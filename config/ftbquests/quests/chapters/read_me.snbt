@@ -87,7 +87,7 @@
 		{
 			dependencies: ["0174B8D037486CC7"]
 			description: [
-				"There are a few ways to attain more HP."
+				"There are a few ways to attain more HP, and various stat bonuses:"
 				""
 				"&eLeveling&r – You get 6 base HP per level."
 				""
@@ -99,7 +99,7 @@
 				""
 				"&6Mine and Meals&r - Eating most foods will grant various &6Mine and Slash&r buffs. You can hover over the food item in &6JEI&r to see what type of buffs you will get from eating. &2The way food is grouped for this mod is completely re-worked to still encourage using Mine and Slash specific food, as the effects WILL stack together.&r "
 				""
-				"&6Spice of Life Carrot and Onion&r – Using both &6Spice of Life Carrot&r and &6Onion&r will offer various effects. While &6Spice of Life Carrot&r focuses more on HP only, &6Onion&r will give you &eHP&r, &eElemental Resistance&r, &eCombat Roll Distance&r, and &eCombat Roll Count&r!"
+				"&6Spice of Life Carrot and Onion&r – Using both &6Spice of Life Carrot&r and &6Onion&r will offer various effects. While &6Spice of Life Carrot&r focuses more on HP only. &6Onion&r focuses on &eDiversity&r, and will give you &eHP&r, &eElemental Resistance&r, &eCombat Roll Distance&r, and &eCombat Roll Count&r! Eating the same food may reduce your &eDiversity&r, and there will be an &4overall decay&r the higher &eDiversity&r you are. Be sure to look at the &eDiversity&r value in parenthesis in &6JEI&r."
 				""
 				"&cDIET&r – Using the various foods in the pack, you must keep your &eFruits&r, &eGrains&r, &eProteins&r, and &eVegetables&r all above &210%&r. If any one of them drops below, you will begin to suffer negative penalties. For &eSugar&r, you want to stay between &220%&r and &230%&r to gain additional bonuses."
 				""

@@ -6,7 +6,7 @@
 const $RangedAttribute = Java.loadClass("net.minecraft.world.entity.ai.attributes.RangedAttribute")
 
 StartupEvents.registry("attribute", e => {
-    e.createCustom("kubejs:ele_resist", () => new $RangedAttribute("Elemental Resistance", 1, 0, 10).setSyncable(true));
+    e.createCustom("kubejs:ele_resist", () => new $RangedAttribute("Elemental Resistance", 1, 0, 100).setSyncable(true));
     // e.createCustom("kubejs:all_resist", () => new $RangedAttribute("Elemental Resistance", 1, 0, 10).setSyncable(true));
     e.createCustom("kubejs:chaos_resist", () => new $RangedAttribute("Chaos Resistance", 1, 0, 10).setSyncable(true));
     e.createCustom("kubejs:gear_defense", () => new $RangedAttribute("Gear Defense", 1, 0, 10).setSyncable(true));

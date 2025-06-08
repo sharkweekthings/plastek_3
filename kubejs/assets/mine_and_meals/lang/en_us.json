@@ -130,6 +130,9 @@
 
   "attribute.name.mine_and_meals.grain1_max_health": "Grain Max Health Boost",
   "attribute.name.mine_and_meals.alcohol2_exp_bonus": "Experience Bonus",
-  "attribute.name.mine_and_meals.alcohol1_exp_bonus": "Experience Bonus"
+  "attribute.name.mine_and_meals.alcohol1_exp_bonus": "Experience Bonus",
+  "attribute.mine_and_meals.grain1_max_health": "Grain Max Health Boost",
+  "attribute.mine_and_meals.alcohol2_exp_bonus": "Experience Bonus",
+  "attribute.mine_and_meals.alcohol1_exp_bonus": "Experience Bonus",
 }
 

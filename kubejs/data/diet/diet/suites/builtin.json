@@ -21,7 +21,7 @@
           "amount": 5.0
         },
         {
-          "name": "kubejs:elemental_resist",
+          "name": "kubejs:ele_resist",
           "operation": "add",
           "amount": 2.00
         },
@@ -53,7 +53,7 @@
           "amount": 5.0
         },
         {
-          "name": "kubejs:elemental_resist",
+          "name": "kubejs:ele_resist",
           "operation": "add",
           "amount": 2.00
         }

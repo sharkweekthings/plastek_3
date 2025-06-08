@@ -3,7 +3,7 @@
     "entries": [],
     "isWhitelist": false
   },
-  "trackCount": 32,
+  "trackCount": 150,
   "resetOnDeath": false,
   "limitProgressionToSurvival": false,
   "minFoodsToActivate": 0,
@@ -1199,6 +1199,10 @@
     {
       "ingredient": "{id:\"item\",item:\"born_in_chaos_v1:eternal_candy\"}",
       "diversity": -5
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"blue_skies:pink_brewberry\"}",
+      "diversity": 0.05
     }
   ]
 }
