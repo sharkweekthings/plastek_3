@@ -16,6 +16,7 @@ StartupEvents.registry('item', e => {
   e.create('royal_pixie_dust')
   e.create('bobs_void_touched_heart')
   e.create('concentrated_pixie_essence')
+  e.create('pixie_friends_dust')
 
 
 })

@@ -1,0 +1,36 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "conditions": [],
+  "ingredients": [
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    },
+    {
+      "item": "kubejs:royal_pixie_dust"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    },
+    {
+      "item": "cataclysm:cursium_ingot"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    },
+    {
+      "item": "kubejs:royal_pixie_dust"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    },
+    {
+      "item": "cataclysm:lava_power_cell"
+    }
+  ],
+  "input": {
+      "item": "mowziesmobs:ice_crystal"
+  },
+  "result": {
+    "item": "astral_dimension:setback"
+  }
+}

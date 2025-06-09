@@ -285,7 +285,7 @@
 				"157B7989DC9152D0"
 			]
 			description: [
-				"Take the &3Ice Crystal&r, &34 Insanium Essence&r, &32 Royal Pixie Dust&r, and &31 Cursium&r to the &6Mystical Agriculture&r &9Infusion Altar&r."
+				"Take the &3Ice Crystal&r, &34 Insanium Gemstones&r, &32 Royal Pixie Dust&r, and &31 Cursium&r to the &6Mystical Agriculture&r &9Infusion Altar&r."
 				""
 				"You should be able to infuse the &dQueen's&r magic into the &3Ice Crystal&r, which should hopefully act as a key to get into this new dimension."
 				""
@@ -304,6 +304,7 @@
 				type: "command"
 			}]
 			shape: "square"
+			subtitle: "<-- READ THE WARNING BEFORE CREATING THE PORTAL"
 			tasks: [
 				{
 					count: 10L
@@ -1440,6 +1441,35 @@
 			title: "Maledictus Strategy"
 			x: 0.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["752D1CA4C2899415"]
+			description: [
+				"There is currently a bug with Astral Dimension that is causing terrain to generate as all Astral Stone or all Desert, or other oddities."
+				""
+				"To best avoid this, do not enter this dimension from Plains, Forests, or Savanna biomes. "
+				""
+				"If you do experience an issue with terrain generation in this dimension, you can delete the dimension directory for Astral Dimension, or Astral Dimension / the specific dimension. "
+				""
+				"Here is the main directory: "
+				""
+				"saves\\New World\\dimensions\\astral_dimension"
+				""
+				"If you have a problem with Astral Dimension, just delete that folder; Setback is the other dimension that may cause issues, which you can delete and refresh. "
+				""
+				"The problem has been reported to the dev, and will hopefully be fixed in a future update."
+			]
+			icon: "kubejs:p3_chat"
+			id: "341D8483CC5061D3"
+			subtitle: "DO NOT ENTER FROM: PLAINS, FORESTS, OR SAVANNA'S"
+			tasks: [{
+				id: "0506982CDAA22B5D"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "WARNING"
+			x: 1.5d
+			y: 6.5d
 		}
 	]
 	title: "Avt V"
