@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scannable"
+	group: "2FC07CCE1ABE9089"
+	id: "7AFFDBB4B115EB5E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "109E879D7E6517E9"
+			tasks: [{
+				id: "01EFBDB17B084C55"
+				item: "scannable:blank_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "4D10100EE5CD8C56"
+			tasks: [{
+				id: "4CF8B7140AF0352A"
+				item: "scannable:range_module"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "3944592353BFDBB7"
+			tasks: [{
+				id: "5F50A8D9BA9071A6"
+				item: "scannable:entity_module"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "19A3D462616FD686"
+			tasks: [{
+				id: "586B761F4AF75B50"
+				item: "scannable:friendly_entity_module"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "3F6245B22F196C30"
+			tasks: [{
+				id: "2CBFD2376A100FBE"
+				item: "scannable:hostile_entity_module"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "210900FC45A7E74B"
+			tasks: [{
+				id: "2DE83862B3CE313A"
+				item: "scannable:block_module"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "332DFA61C9CA190E"
+			tasks: [{
+				id: "622126376AAAD18E"
+				item: "scannable:common_ores_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "627E5801784C9CAE"
+			tasks: [{
+				id: "7544492ED99B4E1B"
+				item: "scannable:rare_ores_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "321E76CE9985AF65"
+			tasks: [{
+				id: "2C95C109D5556DDE"
+				item: "scannable:fluid_module"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "4B1E8A3C70A51591"
+			tasks: [{
+				id: "5B3B8C3B7B95DE62"
+				item: "scannable:chest_module"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: "Scannable"
+}

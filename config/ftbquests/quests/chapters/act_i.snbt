@@ -1590,6 +1590,7 @@
 			y: -3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["7766A356952F2BF4"]
 			icon: {
 				Count: 1
@@ -1621,6 +1622,7 @@
 			y: 8.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0AD5B46FFFCE7266"]
 			icon: {
 				Count: 1
@@ -1781,6 +1783,7 @@
 			y: 1.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["4915AF0A4FCA28C4"]
 			icon: "projecte:transmutation_table"
 			id: "56C846FC0E6A7061"

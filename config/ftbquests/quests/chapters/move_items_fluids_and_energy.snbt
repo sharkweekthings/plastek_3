@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "move_items_fluids_and_energy"
+	group: "2FC07CCE1ABE9089"
+	icon: "pipez:item_pipe"
+	id: "7F71B3D5B28CE35B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C2FA55ACFC84397"]
+			id: "0361439F91128D7C"
+			tasks: [{
+				id: "5C0E3ACD9DDA9BEB"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C2FA55ACFC84397"]
+			id: "5D5BFC28F3FD6BAF"
+			tasks: [{
+				id: "0531ECB66D163B20"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C2FA55ACFC84397"]
+			id: "58E74A5853447205"
+			tasks: [{
+				id: "1EE707CEAE96D003"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C2FA55ACFC84397"]
+			id: "088AC74E07592753"
+			tasks: [{
+				id: "677B71AA0AB53867"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C2FA55ACFC84397"]
+			id: "02B3D37CDAD6E064"
+			tasks: [{
+				id: "5E670FF094F3DE8F"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C2FA55ACFC84397"]
+			id: "401DD17921A938DE"
+			tasks: [{
+				id: "22304F283B01C954"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C2FA55ACFC84397"]
+			id: "081DFD490E50DE55"
+			tasks: [{
+				id: "44A28D8514A313B1"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C2FA55ACFC84397"]
+			id: "0AC48DC09D985E12"
+			tasks: [{
+				id: "078EB054F5312776"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C2FA55ACFC84397"]
+			id: "783E68CE48547F90"
+			tasks: [{
+				id: "57CF6ABCF3C0F0C6"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30F9D708441CB9FC"]
+			description: [
+				"&6Pipez&r will be the best way to move most of your items, fluid, and energy. "
+				""
+				"When working in &6Powah&r, you may opt to use their &3Energy Cables&r."
+			]
+			id: "0C2FA55ACFC84397"
+			tasks: [{
+				id: "19A3D3D90CDC738F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Pipez"
+			x: 2.5d
+			y: -4.5d
+		}
+	]
+	title: "Pipez"
+}

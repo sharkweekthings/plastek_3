@@ -519,6 +519,7 @@
 			y: 5.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1366ED1233E603A7"]
 			icon: {
 				Count: 1
@@ -683,6 +684,7 @@
 			y: 9.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["03D3EED70D7C3A8C"]
 			icon: {
 				Count: 1

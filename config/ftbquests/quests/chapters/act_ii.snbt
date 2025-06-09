@@ -2144,6 +2144,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0CF343CBA71513AB"]
 			icon: {
 				Count: 1
@@ -2175,6 +2176,7 @@
 			y: -6.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["7906E45DB7964AA5"]
 			icon: {
 				Count: 1
@@ -2206,6 +2208,7 @@
 			y: 5.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["277B7ECC076EB804"]
 			icon: {
 				Count: 1
@@ -2299,6 +2302,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2F0F2C0E693DD0A0"]
 			icon: "kubejs:bobs_void_touched_heart"
 			id: "5E5D9CB385C4BB91"
@@ -2316,6 +2320,126 @@
 			title: "Bob's Void Touched Heart Recovery"
 			x: 3.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["5D425E8E1FA0219F"]
+			description: [
+				"Despite &dRyan's&r advancements in technology, he likes to send things via &eCarrier Pigeon&r."
+				""
+				"He has a request for you and asks for you to read his letter."
+			]
+			icon: "kubejs:p3_chat"
+			id: "6DB7D82345D00DA3"
+			rewards: [{
+				id: "75B78186136BD790"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Ryan Vermillionson"
+						filtered_title: "To My Friend"
+						pages: ["{\"text\":\"Hey You!\\n\\nOur miners are having some bad luck finding diamond right now. \\n\\nThink you could send me about 8, and 1 Precision Mechanism? I'll send you something back in return! \\n \\nJust attach it all to my pigeons leg. \\n\"}"]
+						title: "To My Friend"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EA422B6BDB7C823"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Via Carrier Pigeon"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DB7D82345D00DA3"]
+			description: ["Just place the &38 Diamonds&r, and &31 Precision Mechanism&r in the &3Sack&r. Gently tie the sack off with the string, then hook the &3Steel Chain&r up to the pigeons leg, and tie it to the &3String&r!"]
+			id: "62230DD9C732EC58"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "1B544EDF1A987ADB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "474D9443EA02FBD2"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4082B3CB26D5C480"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+				{
+					id: "7F75ECB3C2420087"
+					item: "magistuarmory:steel_chain"
+					type: "item"
+				}
+			]
+			title: "Have a Safe Flight"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62230DD9C732EC58"]
+			description: [
+				"&dRyan&r says that we put about 62 lbs too much on the pigeon. Unfortunately, the pigeon was attacked by a &cPhantom&r because it hadn't slept in days while you gathered materials. He only knows this because he used his nano camera device, which relays the pigeon's every movement and uses a GPS system to track its location."
+				""
+				"He says not to worry—the pigeon was about 8 miles out from home, and he was able to recover most of the materials. The &3Precision Mechanism&r was lost, but &dRyan&r can replace it no problem. He just says you'll owe him one."
+				""
+				"Suddenly, there it was—written clear as day on the piece of paper:"
+				"\"Bzzztttttttt SLLLLLAMMMMSLAMMMMMM &orandom hydraulic noises&r\"."
+				"&dRyan&r says he just &9Pressed&r the &3Gold Ingot&r for your new &3Precision Mechanism&r."
+				""
+				"The new pigeon, a fledgling just barely able to fly, looks at you with dismay. It likely knows you're responsible for what happened to its mama—it can sense it on you."
+				""
+				"Nevertheless, it does its job and gives you an item called a \"&3Scanner&r\". &dRyan&r says he can't charge it for you, so you'll need to charge the device yourself. He also says you'll need to create the modules that go inside, which can help you locate various blocks, mobs, or fluids."
+				""
+				"As the little pigeon flies off, you look up to wave farewell. It, however, had other plans—and plopped a poop right in your eye."
+				""
+				"&oYou now probably have conjunctivitis...&r"
+			]
+			icon: "kubejs:p3_chat"
+			id: "3F8DC833F6CD5490"
+			rewards: [{
+				id: "101680A166E18436"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			tasks: [{
+				id: "246C5B17ACD94CBA"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "It's... Broken?"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F8DC833F6CD5490"]
+			icon: "scannable:scanner"
+			id: "37FBEE730FEB2ED8"
+			rewards: [{
+				id: "6EE170AABA9442D0"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "61EE13B77E134178"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Scanner Recovery"
+			x: -4.5d
+			y: 2.5d
 		}
 	]
 	title: "Act II"

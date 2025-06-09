@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "5CC904674693FCF5"
-	order_index: 5
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -23,7 +23,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:smoothie"
+						value: "p3:smoothie"
 					}
 				}
 				title: "Smoothie"
@@ -44,7 +44,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:jelly"
+						value: "p3:jelly"
 					}
 				}
 				title: "Jelly"
@@ -65,7 +65,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:juice"
+						value: "p3:juice"
 					}
 				}
 				title: "Juice"
@@ -86,7 +86,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:pie"
+						value: "p3:pie"
 					}
 				}
 				title: "Pie"
@@ -107,7 +107,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:sandwich"
+						value: "p3:sandwich"
 					}
 				}
 				title: "Sandwich"
@@ -128,7 +128,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:toast"
+						value: "p3:toast"
 					}
 				}
 				title: "Toast"
@@ -149,7 +149,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:yogurt"
+						value: "p3:yogurt"
 					}
 				}
 				title: "Yogurt"
@@ -170,7 +170,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:soup"
+						value: "p3:soup"
 					}
 				}
 				title: "Soup"
@@ -191,7 +191,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:soda"
+						value: "p3:soda"
 					}
 				}
 				title: "Soda"
@@ -212,7 +212,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:ice_cream"
+						value: "p3:ice_cream"
 					}
 				}
 				title: "Ice Cream"
@@ -233,7 +233,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:cake"
+						value: "p3:cake"
 					}
 				}
 				title: "Cake"
@@ -254,7 +254,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:pancake"
+						value: "p3:pancake"
 					}
 				}
 				title: "Pancake"
@@ -275,7 +275,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:iron_chef"
+						value: "p3:iron_chef"
 					}
 				}
 				type: "item"
@@ -295,7 +295,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:diamond_chef"
+						value: "p3:diamond_chef"
 					}
 				}
 				type: "item"
@@ -315,7 +315,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "p2:netherite_chef"
+						value: "p3:netherite_chef"
 					}
 				}
 				type: "item"

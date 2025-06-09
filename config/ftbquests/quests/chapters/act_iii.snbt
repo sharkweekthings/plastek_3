@@ -924,6 +924,7 @@
 			y: 10.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6D4DADC126BBBFCC"]
 			icon: {
 				Count: 1
@@ -955,6 +956,7 @@
 			y: 11.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5495EE438B5D31B8"]
 			icon: {
 				Count: 1
@@ -1052,6 +1054,7 @@
 			y: 9.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2F33D8BC3ED7FA76"]
 			icon: {
 				Count: 1
@@ -1090,11 +1093,20 @@
 				"Light the portal frame with a &3Zeal Lighter&r purchased from any of the &dCoxworth Yorkington's&r."
 			]
 			id: "0565A74E37CECE2A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2000"
+				icon: "kubejs:p3_xp"
+				id: "6B78843C56E44718"
+				title: "2000 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
+				count: 10L
 				id: "6CDB29F7AD18BC42"
 				item: "blue_skies:turquoise_stonebrick"
 				type: "item"
 			}]
+			title: "DIY: Everbright"
 			x: -1.0d
 			y: -4.5d
 		}
@@ -1102,11 +1114,20 @@
 			dependencies: ["148A671947C8AF0A"]
 			description: ["&310 Lunar Stone Bricks&r in the shape of a basic &9Nether Portal&r will get you into &6Everdawn&r."]
 			id: "230A885C905E3BBB"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2000"
+				icon: "kubejs:p3_xp"
+				id: "600B22300D8E822E"
+				title: "2000 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
+				count: 10L
 				id: "5E862A264513A0E7"
 				item: "blue_skies:lunar_stonebrick"
 				type: "item"
 			}]
+			title: "DIY: Everdawn"
 			x: 2.0d
 			y: -4.5d
 		}

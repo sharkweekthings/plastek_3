@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'mysticalagriculture:infusion_altar'})
   event.remove({id: 'waystones:warp_stone'})
   event.remove({id: 'projecte:transmutation_table'})
+  event.remove({id: 'scannable:scanner'})
 
 //
 })

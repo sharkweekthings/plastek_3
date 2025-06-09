@@ -991,6 +991,7 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["12579E6833952F07"]
 			icon: {
 				Count: 1
@@ -1320,6 +1321,7 @@
 			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["46EA0C38329726E4"]
 			icon: {
 				Count: 1

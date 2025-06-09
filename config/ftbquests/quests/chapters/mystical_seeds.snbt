@@ -1269,21 +1269,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.5d
-		}
-		{
-			id: "41AB5C1B1D732460"
-			tasks: [{
-				id: "13A6BCED58A1A475"
-				item: {
-					Count: 1
-					id: "mysticalagriculture:draconium_seeds"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 0.5d
+			x: 0.0d
 			y: 7.5d
 		}
 		{
@@ -1297,7 +1283,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 7.5d
 		}
 		{
@@ -1311,7 +1297,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 7.5d
 		}
 		{
@@ -1325,7 +1311,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 7.5d
 		}
 		{
@@ -1339,7 +1325,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -1353,7 +1339,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
@@ -1367,21 +1353,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.0d
-		}
-		{
-			id: "09A0913D963F1A0A"
-			tasks: [{
-				id: "4B301662E1865518"
-				item: {
-					Count: 1
-					id: "mysticalagriculture:awakened_draconium_seeds"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.5d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -1395,7 +1367,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 9.0d
 		}
 		{

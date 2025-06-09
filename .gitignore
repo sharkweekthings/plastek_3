@@ -21,6 +21,14 @@ season_assignment.ods
 
 kubejs/data/mmorpg/mmorpg_base_gear_types/earring.json
 
+
+config/betterarcheology-common.toml
+config/defaultoptions-common.toml
+config/scannable-client.toml
+config/scannable-common.toml
+config/spark/
+knownkeys.txt
+
 config/farmersdelight-client.toml
 config/farmersdelight-common.toml
 defaultconfigs/ftbchunks
