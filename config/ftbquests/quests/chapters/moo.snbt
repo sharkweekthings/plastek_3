@@ -16,7 +16,13 @@
 	quests: [
 		{
 			dependencies: ["30F9D708441CB9FC"]
-			description: ["&9The Market&r people deal primarily in &3Plastim Scrap&r as their preferred currency. They sell a range of useful items."]
+			description: [
+				"&9The Market&r people used to deal in &3Plastim Scrap&r; however, over time, their inventory has become full of rare items, and they have become a little greedy..."
+				""
+				"Nowadays, they settle for nothing less than &3Plastim Bags&r or &3Plastim Bottles&r. Luckily, the &3Plastim&r is inert and won't harm you, so it's safe to handle. However, standing on top of unmined &3Plastim&r can make you a little sick—it's never a good idea to touch it in the ground without the proper tools!"
+				""
+				"&9The Market&r folk sell various goods that will help you on your adventure."
+			]
 			id: "6EEBED8A78540A3B"
 			tasks: [{
 				id: "2A718D858D523ACA"

@@ -29,6 +29,7 @@ config/scannable-common.toml
 config/spark/
 knownkeys.txt
 
+config/icarus.jsonc
 config/farmersdelight-client.toml
 config/farmersdelight-common.toml
 defaultconfigs/ftbchunks
