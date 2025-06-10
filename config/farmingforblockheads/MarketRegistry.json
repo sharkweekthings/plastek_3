@@ -59,10 +59,16 @@
         "item": "minecraft:oak_sign"
       }
     },
-    "quests": {
-      "name": "Quests",
+    "support": {
+      "name": "Support Gems",
       "icon": {
-        "item": "minecraft:egg"
+        "item": "kubejs:shop_support_str"
+      }
+    },
+    "augments": {
+      "name": "Augments",
+      "icon": {
+        "item": "kubejs:shop_aura_int"
       }
     }
   },
@@ -135,7 +141,6 @@
     {"output": {"item": "botania:green_mystical_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "botania:brown_mystical_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "botania:white_shiny_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
-    {"output": {"item": "botania:cosmetic_pink_flower_bud","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "botania:blue_floating_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "botania:black_mushroom","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "botania:cyan_double_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 35},"category": "flowers"},
@@ -156,7 +161,6 @@
     {"output": {"item": "botania:cyan_mushroom","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "botania:brown_shiny_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "botania:lime_double_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 35},"category": "flowers"},
-    {"output": {"item": "botania:flower_bag","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "botania:gray_shiny_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "botania:brown_double_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 35},"category": "flowers"},
     {"output": {"item": "botania:light_gray_mystical_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
@@ -459,6 +463,318 @@
     {"output": {"item": "minecraft:chicken_spawn_egg","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 35},"category": "eggs"},
     {"output": {"item": "statues:statue_bat_spawn_egg","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 35},"category": "eggs"},
 	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"mana_reg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 20
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/dex",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"quickstrikes\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 20
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/str",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"health_reg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 20
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"magic_shield_reg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 20
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/dex",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"energy_reg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 20
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/dex",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"chaos_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 30
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/str",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"armor\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 30
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"lightning_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 30
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/str",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fire_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 30
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"magic_shield\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 30
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/str",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"physical_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 30
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/dex",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"dodge\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 30
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/dex",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"cold_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 30
+		},
+		"category": "augments"
+	},	
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"ele_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 40
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/dex",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"cold_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":11,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 40
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"block\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 40
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"chaos_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 40
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"summon_dmg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 40
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"light_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 40
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"guardian\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 40
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/str",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fire_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 40
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/dex",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"cold_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 50
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/int",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"lightning_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 50
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/dex",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"chaos_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 50
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/str",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"physical_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 50
+		},
+		"category": "augments"
+	},
+	{
+		"output": {
+			"item": "mmorpg:skill_gems/aura/str",
+			"count": 1,
+			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fire_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
+		},
+		"payment": {
+			"item": "ocean_recovery:plastic_bottle",
+			"count": 50
+		},
+		"category": "augments"
+	},
+	{
 	  "output": {
 	    "item": "mmorpg:skill_gems/support/str",
 	    "count": 1,
@@ -468,7 +784,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -480,7 +796,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -492,7 +808,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -504,7 +820,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -516,7 +832,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -528,7 +844,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -540,7 +856,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -552,7 +868,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -564,7 +880,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -576,7 +892,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -588,7 +904,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -600,7 +916,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -612,7 +928,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -624,7 +940,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -636,7 +952,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 25
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -648,7 +964,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 30
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -660,7 +976,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 30
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -672,7 +988,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 30
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -684,7 +1000,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -696,7 +1012,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -708,7 +1024,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -720,7 +1036,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -732,7 +1048,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -744,7 +1060,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -756,7 +1072,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -768,7 +1084,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -780,7 +1096,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -792,7 +1108,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -804,7 +1120,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -816,7 +1132,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -828,7 +1144,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -840,7 +1156,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -852,7 +1168,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -864,7 +1180,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -876,7 +1192,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -888,7 +1204,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -900,7 +1216,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 35
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -912,7 +1228,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -924,7 +1240,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -936,7 +1252,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -948,7 +1264,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -960,7 +1276,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -972,7 +1288,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -984,7 +1300,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -996,7 +1312,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1008,7 +1324,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1020,7 +1336,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1032,7 +1348,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1044,7 +1360,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1056,7 +1372,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1068,7 +1384,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1080,7 +1396,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1092,7 +1408,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1104,7 +1420,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1116,7 +1432,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1128,7 +1444,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1140,7 +1456,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1152,7 +1468,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1164,7 +1480,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1176,7 +1492,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1188,7 +1504,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1200,7 +1516,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1212,7 +1528,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 40
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1224,7 +1540,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1236,7 +1552,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1248,7 +1564,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1260,7 +1576,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1272,7 +1588,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1284,7 +1600,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1296,7 +1612,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1308,7 +1624,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1320,7 +1636,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1332,7 +1648,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1344,7 +1660,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 45
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1356,7 +1672,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 50
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1368,7 +1684,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 50
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1380,7 +1696,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 50
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	},
 	{
 	  "output": {
@@ -1392,7 +1708,7 @@
 	    "item": "ocean_recovery:plastic_bottle",
 	    "count": 50
 	  },
-	  "category": "shopping"
+	  "category": "support"
 	}
   ]
 }

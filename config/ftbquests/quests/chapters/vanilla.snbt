@@ -1139,6 +1139,7 @@
 				"There should even be a button on the top right of a looted &3Chest&r or &3Barrel&r that will let you automatically deposit all eligible items to the &3Master Backpack&r."
 			]
 			id: "4CAD24921F310EB8"
+			subtitle: "Don't use YOUR Backpack for the craft!"
 			tasks: [{
 				id: "0995A51D7FE69C11"
 				item: "mmorpg:master_bag"

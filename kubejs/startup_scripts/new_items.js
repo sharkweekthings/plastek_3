@@ -12,7 +12,9 @@ StartupEvents.registry('item', e => {
   e.create('p3_find')
   e.create('p3_stat')
   e.create('p3_passive')
-  
+  e.create('shop_aura_int')
+  e.create('shop_support_str')
+
   e.create('royal_pixie_dust')
   e.create('bobs_void_touched_heart')
   e.create('concentrated_pixie_essence')

@@ -671,22 +671,6 @@
 			x: -4.5d
 			y: -3.0d
 		}
-		{
-			id: "08A2BF03AA4FBF22"
-			tasks: [{
-				id: "7DEFFC4E3F426153"
-				item: {
-					Count: 1
-					id: "mmorpg:skill_gems/aura/int"
-					tag: {
-						mmorpg_skill_gem: "{\"id\":\"block\",\"type\":\"AURA\",\"perc\":14,\"rar\":\"uncommon\",\"links\":1}"
-					}
-				}
-				type: "item"
-			}]
-			x: 8.5d
-			y: 7.0d
-		}
 	]
 	title: "Read Me!"
 }
