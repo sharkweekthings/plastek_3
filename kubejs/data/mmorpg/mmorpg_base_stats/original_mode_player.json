@@ -34,7 +34,7 @@
       "type": "FLAT",
       "scale_to_lvl": true,
       "stat": "health_regen",
-      "v1": 1.0
+      "v1": 0.9
     },
     {
       "type": "FLAT",
@@ -46,13 +46,13 @@
       "type": "FLAT",
       "scale_to_lvl": true,
       "stat": "mana_regen",
-      "v1": 2.0
+      "v1": 1.3
     },
     {
       "type": "FLAT",
       "scale_to_lvl": true,
       "stat": "energy_regen",
-      "v1": 2.0
+      "v1": 1.3
     },
     {
       "type": "FLAT",
