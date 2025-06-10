@@ -186,9 +186,9 @@ LootJS.modifiers((e) => {
 
 // STATUE / PLUSHIE LOOT
   e.addLootTypeModifier(LootType.CHEST)
-    .randomChance(0.85)
+    .randomChance(0.75)
     .addWeightedLoot(
-      [0, 2], //0-3 rolls
+      [1, 2], //0-3 rolls
       [
   LootEntry.of("a_man_with_plushies:abbie_plush_standing").withWeight(15).limitCount([0, 1]),
   LootEntry.of("a_man_with_plushies:aggressive_eye_of_cthulhu_plush").withWeight(15).limitCount([0, 1]),

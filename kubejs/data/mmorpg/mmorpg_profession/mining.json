@@ -2,7 +2,7 @@
   "chance_drops": [],
   "exp_sources": {
     "default_xp": {
-      "exp": 75,
+      "exp": 100,
       "req": [],
       "tier": 0
     },

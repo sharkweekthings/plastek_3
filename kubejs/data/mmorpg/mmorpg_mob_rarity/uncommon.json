@@ -1,6 +1,6 @@
 {
   "affixes": 1,
-  "dmg_multi": 0.8,
+  "dmg_multi": 0.9,
   "exp_multi": 1.25,
   "extra_hp_multi": 2.2,
   "force_custom_hp": -1,
@@ -14,5 +14,5 @@
   "spells": [],
   "stat_multi": 1.1,
   "text_format": "GREEN",
-  "weight": 256
+  "weight": 500
 }
