@@ -1,5 +1,5 @@
 {
-  "id": "back_to_basics",
+  "id": "quickstrikes",
   "min_lvl": 1,
   "reservation": 0.4,
   "stats": [
@@ -7,7 +7,7 @@
       "type": "FLAT",
       "max": 50.0,
       "min": 10.0,
-      "stat": "basic_attack_dmg"
+      "stat": "attack_damage"
     },
     {
       "type": "FLAT",

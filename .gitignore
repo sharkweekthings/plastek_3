@@ -112,8 +112,6 @@ config/explorerscompass-client.toml
 config/explorerscompass-common.toml
 config/extremereactors
 config/extremesoundmuffler-client.toml
-config/farmingforblockheads
-config/farmingforblockheads-common.toml
 config/fastbench.cfg
 config/fastsuite.cfg
 config/ferritecore-mixin.toml

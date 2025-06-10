@@ -303,5 +303,7 @@
 	"mmorpg.support_gem.swift_affliction": "Swift Affliction Support Gem",
 	"mmorpg.support_gem.trap_damage": "Trap Damage Support Gem",
 	"mmorpg.support_gem.void_manipulation": "Void Manipulation Support Gem",
-	"mmorpg.support_gem.water_flat_dmg": "Flat Cold Damage Support Gem"
+	"mmorpg.support_gem.water_flat_dmg": "Flat Cold Damage Support Gem",
+	"mmorpg.aura.quickstrikes": "Quickstreikes Augment",
+	"mmorpg.aura.guardian": "Guardian Augment"
 }

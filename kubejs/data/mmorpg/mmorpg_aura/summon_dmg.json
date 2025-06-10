@@ -8,6 +8,12 @@
       "max": 40.0,
       "min": 8.0,
       "stat": "summon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 25.0,
+      "min": 5.0,
+      "stat": "attack_speed"
     }
   ],
   "style": "INT"
