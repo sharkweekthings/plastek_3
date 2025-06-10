@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "WWW",
+    "NEN",
+    "F G"
+  ],
+  "key":
+  {
+    "E":
+    {
+      "item": "icarus:purple_feathered_wings"
+    },
+    "F":
+    {
+      "item": "minecraft:diamond"
+    },
+    "G":
+    {
+      "item": "minecraft:emerald"
+    },
+    "N":
+    {
+      "item": "minecraft:nether_star"
+    },
+    "W":
+    {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result":
+  {
+    "item": "icarus:flandres_wings"
+  }
+}
+

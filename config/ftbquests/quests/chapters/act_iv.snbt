@@ -1213,41 +1213,8 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["322EA65C491FF167"]
-			description: [
-				"To acquire this &3Eye&r, find a &3Traveling Stone: Dwarven Market&r from a chest inside a mineshaft in &6Feywild&r."
-				""
-				"When you have the &3Traveling Stone&r, go to the &6Overworld&r, and use the stone to travel to the &eDwarven Market&r during the day time. "
-				""
-				"If you get lucky and catch the &aDwarven Miner&r on the day of their big dig, they will sell you an &3Ancient Fey Queen's Eye&r for &325 Brilliant Fey Gems&r."
-			]
-			id: "6161525041DA06DE"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
-				icon: "kubejs:p3_xp"
-				id: "6EDA493E9B4CC5FD"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
-			shape: "square"
-			subtitle: "Eye 10 of 12"
-			tasks: [{
-				id: "252C7B4D6E72D43C"
-				item: {
-					Count: 1
-					id: "endrem:exotic_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.5d
-		}
-		{
 			can_repeat: true
-			dependencies: ["6161525041DA06DE"]
+			dependencies: ["73A58B2DC55D1A72"]
 			icon: {
 				Count: 1
 				id: "endrem:exotic_eye"
@@ -1336,6 +1303,7 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "4DF78A81A2061C99"
+			shape: "octagon"
 			subtitle: "DO NOT ENTER FROM: PLAINS, FORESTS, OR SAVANNA'S"
 			tasks: [{
 				id: "0A72FEA3CA75779F"
@@ -1344,6 +1312,65 @@
 			}]
 			title: "WARNING"
 			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1076EAAF2F4486EA"]
+			description: [
+				"As a bonus to officially becoming friends with a &aPixie&r, she taught you how to make some &3Pixie Wings&r using your &9Fey Altar&r."
+				""
+				"These wings will let you fly in the air for a short period of time without a &eMana&r cost. Once you land, you wil be able to take flight again."
+				""
+				"&oIf you lose your wings, you'll likely have to repeat the whole Pixie quest, by resetting it with a&r &o&3Mandrake Potion&r&r"
+			]
+			id: "651FAE853A9AB0A1"
+			tasks: [{
+				id: "16F412B0FC97055B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "feywild:pixie_wing_components"
+					}
+				}
+				title: "Any Pixie Wings"
+				type: "item"
+			}]
+			title: "Pixie Wings"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["322EA65C491FF167"]
+			description: [
+				"To acquire this &3Eye&r, find a &3Traveling Stone: Dwarven Market&r from a chest inside a mineshaft in &6Feywild&r."
+				""
+				"When you have the &3Traveling Stone&r, go to the &6Overworld&r, and use the stone to travel to the &eDwarven Market&r during the day time. "
+				""
+				"If you get lucky and catch the &aDwarven Miner&r on the day of their big dig, they will sell you an &3Ancient Fey Queen's Eye&r for &325 Brilliant Fey Gems&r."
+			]
+			id: "73A58B2DC55D1A72"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "373733561BEA14BC"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			shape: "square"
+			subtitle: "Eye 10 of 12"
+			tasks: [{
+				id: "5C51DC28FD422E35"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
 			y: 3.5d
 		}
 	]

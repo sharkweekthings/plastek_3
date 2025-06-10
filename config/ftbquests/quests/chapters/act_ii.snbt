@@ -655,7 +655,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -6.5d
 		}
 		{
@@ -689,86 +689,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["34C6E99130CC78B0"]
-			id: "062CF3A747BD99D3"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 10000"
-				icon: "kubejs:p3_xp"
-				id: "16A7F0F0C8B4678C"
-				title: "10000 Experience Points"
-				type: "command"
-			}]
-			tasks: [
-				{
-					id: "466EAA88FAC5EF89"
-					item: {
-						Count: 1
-						id: "matc:inferium_crystal"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3131FA1C70751E59"
-					item: {
-						Count: 1
-						id: "matc:prudentium_crystal"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "765E4FB9307F2EE1"
-					item: {
-						Count: 1
-						id: "matc:tertium_crystal"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1006F8293BF2D819"
-					item: {
-						Count: 1
-						id: "matc:imperium_crystal"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "227BC2073F860B9A"
-					item: {
-						Count: 1
-						id: "matc:supremium_crystal"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6850D855306FA6CE"
-					item: {
-						Count: 1
-						id: "mysticalagriculture:master_infusion_crystal"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			x: 10.5d
+			x: 9.0d
 			y: -6.5d
 		}
 		{
@@ -779,6 +700,8 @@
 				"With the setup built, you can start making seeds by using your &3Prosperity&r or &3Soulium Seed Base&r on the altar, adding &34 of the material&r you're looking to make a seed of, and &34 essences&r of the appropriate tier."
 				""
 				"She advised that you check JEI to learn the exact recipes."
+				""
+				"Check the &eMagic&r quest series for a few more &6Mystical Agriculture&r quests."
 			]
 			icon: {
 				Count: 1
@@ -2413,6 +2336,7 @@
 				item: "scannable:scanner"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "246C5B17ACD94CBA"
 				title: "Ok"
@@ -2440,6 +2364,53 @@
 			title: "Scanner Recovery"
 			x: -4.5d
 			y: 2.5d
+		}
+		{
+			dependencies: [
+				"66D697E25F8FEEB5"
+				"683CB909FE694A79"
+			]
+			description: [
+				"&dTim&r said he has been on the road for quite some time and was really hungry."
+				""
+				"You overheard him talking about how his favorite food is beans."
+				""
+				"Maybe you can try making him a warm meal, with plenty of leftovers."
+			]
+			id: "5E5000CF5C3E58FF"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 10000"
+				icon: "kubejs:p3_xp"
+				id: "368B7C61F044615B"
+				title: "10000 Experience Points"
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 15L
+					id: "078E97C2932745F7"
+					item: "pamhc2foodextended:beansontoastitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 15L
+					id: "1F7FFC628071CCCE"
+					item: "pamhc2foodextended:refriedbeansitem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 15L
+					id: "51415B51E416C57E"
+					item: "pamhc2foodextended:beansandriceitem"
+					type: "item"
+				}
+			]
+			title: "Tim Needs Some Beans"
+			x: 1.5d
+			y: 3.5d
 		}
 	]
 	title: "Act II"

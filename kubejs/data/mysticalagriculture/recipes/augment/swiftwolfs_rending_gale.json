@@ -1,0 +1,36 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "conditions": [],
+  "input": {
+    "item": "projecte:iron_band"
+  },
+  "ingredients": [
+    {
+      "item": "projecte:dark_matter"
+    },
+    {
+      "item": "minecraft:elytra"
+    },
+    {
+      "item": "projecte:dark_matter"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    },
+    {
+      "item": "projecte:dark_matter"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    },
+    {
+      "item": "projecte:dark_matter"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    }
+  ],
+  "result": {
+    "item": "projecte:swiftwolf_rending_gale"
+  }
+}

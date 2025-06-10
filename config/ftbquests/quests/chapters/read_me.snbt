@@ -356,6 +356,7 @@
 		}
 		{
 			dependencies: ["47BD1CC1D06A34DF"]
+			description: ["It's also used at the very end of the Act V quest as a 'thank you'."]
 			id: "57981D417D475021"
 			shape: "heart"
 			subtitle: "This shape represents a quest to recover certain special items if lost."
@@ -488,25 +489,25 @@
 				""
 				"&3Dimensional Eye&r – Can be found inside the chests of &6Dimensional Dungeons&r."
 				""
-				"&3Possessed Action Figure Eye&r – Received after defeating &cBonk the Clown&r in &6Toybox&r."
+				"&3Doll Eye&r – Received after killing Cursed Dolls in the &6Toybox&r."
 				""
 				"&3Colonist Eye&r – Received after you complete your &eTavern&r."
 				""
-				"&3Nether Eye&r – Received after defeating the &cWither&r."
+				"&3Concentrated Void Energy Eye&r – Received after defeating the &cWither&r."
 				""
 				"&3Aether Eye&r – Received after defeating the &cSun Spirit&r."
 				""
 				"&3Gumball Eye&r – Received after defeating the &cSweet Witch&r."
 				""
-				"&3Summoner's Eye&r – Received after defeating &cBueford, the Summoner&r."
+				"&3Bueford's Eye&r – Received after defeating &cBueford, the Summoner&r."
 				""
-				"&3Alchemist's Eye&r – Received after defeating &cBarnaby, the Alchemist&r."
+				"&3Barnaby's Eye&r – Received after defeating &cBarnaby, the Alchemist&r."
 				""
-				"&3Fey King Eye&r – Can be found by digging in &6Feywild&r (&ostone or dirt&r)."
+				"&3Ancient Fey Queen's Eye&r – Purchased from a &aDwarf Miner&r in the &eFeywild Marketplace&r."
 				""
 				"&3Astral Guardian Eye&r – Received after defeating the &aAstral Guardian&r."
 				""
-				"&3Cursed Eye&r – Can be found in the &6Setback&r dimension by ??????????"
+				"&3Dimensional Catastrophe Eye&r – Can be found in the &6Setback&r dimension by mining the &3Harsh Stone&r."
 			]
 			icon: {
 				Count: 1

@@ -560,8 +560,9 @@
 				""
 				"You'll mostly just be powering &6AE2&r, and maybe some &6Industrial Foregoing&r machines. "
 			]
+			icon: "kubejs:p3_chat"
 			id: "4EEEC35DEE6FA211"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "3A213F6834C7898A"
 				title: "Ok"
@@ -574,8 +575,9 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["While &6Powah&r offers &3Ender Gates&r, you can also use &6Flux Networks&r to move around your power wirelessly. "]
+			icon: "kubejs:p3_chat"
 			id: "18A1F20621DFDCBE"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "6C5D0FB491028F93"
 				title: "Ok"
@@ -660,8 +662,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.0d
+			x: 3.5d
+			y: 7.5d
 		}
 	]
 	title: "Power"

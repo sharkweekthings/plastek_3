@@ -17,6 +17,7 @@ JEIEvents.hideItems(event => {
 
 // PAMS
 	event.hide('tempad:tempad')
+	event.hide('bosses_of_mass_destruction:levitation_block')
 
 
 

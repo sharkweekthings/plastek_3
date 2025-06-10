@@ -22,18 +22,23 @@ ServerEvents.recipes(event => {
   event.remove({id: 'cookingforblockheads:tool_rack'})
   event.remove({id: 'cookingforblockheads:fridge'})
   event.remove({id: 'cookingforblockheads:tool_rack'})
-  event.remove({id: 'pamhc2foodcore:rolleritem'})
-  event.remove({id: 'pamhc2foodcore:skilletitem'})
-  event.remove({id: 'pamhc2foodcore:grinderitem'})
-  event.remove({id: 'pamhc2foodcore:mixingbowlitem'})
-  event.remove({id: 'pamhc2foodcore:bakewareitem'})
-  event.remove({id: 'pamhc2foodcore:potitem'})
-  event.remove({id: 'pamhc2foodcore:cuttingboarditem'})
-  event.remove({id: 'pamhc2foodcore:saucepanitem'})
-  event.remove({id: 'pamhc2foodcore:juiceritem'}) 
+  event.remove({id: 'pamhc2foodcore:tool_roller'})
+  event.remove({id: 'pamhc2foodcore:tool_skillet'})
+
+  event.remove({id: 'pamhc2foodcore:tool_grinder'})
+  event.remove({id: 'pamhc2foodcore:tool_mixingbowl'})
+  event.remove({id: 'pamhc2foodcore:tool_bakeware'})
+  event.remove({id: 'pamhc2foodcore:tool_pot'})
+  event.remove({id: 'pamhc2foodcore:tool_cuttingboard'})
+  event.remove({id: 'pamhc2foodcore:tool_saucepan'})
+  event.remove({id: 'pamhc2foodcore:tool_juicer'}) 
+
   event.remove({id: 'cookingforblockheads:crafting_book'})
   event.remove({id: 'astral_dimension:nanta_star_recipe'})
-
+  event.remove({id: 'icarus:feathered_wings'})
+  event.remove({id: 'botania:flighttiara_0'})
+  event.remove({id: 'bosses_of_mass_destruction:levitation_block'})
+  event.remove({id: 'projecte:swiftwolf_rending_gale'})
 //
 })
 //

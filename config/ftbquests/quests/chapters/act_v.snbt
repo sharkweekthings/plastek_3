@@ -590,7 +590,14 @@
 					}
 					type: "item"
 				}
+				{
+					count: 15L
+					id: "52D8097935446F1D"
+					item: "astral_dimension:harsh_stone"
+					type: "item"
+				}
 			]
+			title: "Collecting Samples"
 			x: 2.5d
 			y: 8.0d
 		}
@@ -610,6 +617,7 @@
 				type: "command"
 			}]
 			shape: "square"
+			subtitle: "Just a few more samples"
 			tasks: [
 				{
 					entity: "astral_dimension:void_menace"
@@ -680,7 +688,7 @@
 				}
 				type: "item"
 			}]
-			title: "THE LAST EYE"
+			title: "Dimensional Catastrophe Eye"
 			x: 3.0d
 			y: 9.5d
 		}
@@ -712,7 +720,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Cursed Eye Recovery"
+			title: "Dimensional Catastrophe Eye Recovery"
 			x: 1.5d
 			y: 9.5d
 		}
@@ -796,6 +804,13 @@
 						id: "astral_dimension:sick_log"
 						tag: { }
 					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 15L
+					id: "122B338874D54FED"
+					item: "astral_dimension:harsh_stone"
 					type: "item"
 				}
 			]
@@ -1004,8 +1019,8 @@
 				type: "checkmark"
 			}]
 			title: "One Last Meeting"
-			x: 6.0d
-			y: 2.0d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3907CC2E404A2C31"]
@@ -1042,8 +1057,8 @@
 				type: "checkmark"
 			}]
 			title: "At Least We Didn't Blow Up This Time"
-			x: 7.5d
-			y: 2.0d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
@@ -1076,8 +1091,8 @@
 				type: "checkmark"
 			}]
 			title: "Emily"
-			x: 9.0d
-			y: -0.5d
+			x: 10.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
@@ -1108,8 +1123,8 @@
 				type: "checkmark"
 			}]
 			title: "Timilimit Popsi Archibald the III"
-			x: 9.0d
-			y: 0.5d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
@@ -1144,8 +1159,8 @@
 				type: "checkmark"
 			}]
 			title: "Shaun"
-			x: 9.0d
-			y: 1.5d
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
@@ -1182,8 +1197,8 @@
 				type: "checkmark"
 			}]
 			title: "Ryan Vermillionson"
-			x: 9.0d
-			y: 2.5d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
@@ -1220,8 +1235,8 @@
 				type: "checkmark"
 			}]
 			title: "Coxworth Yorkington"
-			x: 9.0d
-			y: 3.5d
+			x: 10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1262,8 +1277,8 @@
 				type: "checkmark"
 			}]
 			title: "Thank You"
-			x: 10.5d
-			y: 2.0d
+			x: 12.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
@@ -1296,8 +1311,8 @@
 				type: "checkmark"
 			}]
 			title: "Lolli Poppins"
-			x: 9.0d
-			y: 4.5d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
@@ -1334,8 +1349,8 @@
 				type: "checkmark"
 			}]
 			title: "Professor Trev"
-			x: 9.0d
-			y: 5.5d
+			x: 10.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7949FA7849F2A6D9"]
@@ -1387,8 +1402,8 @@
 				type: "checkmark"
 			}]
 			title: "Pixie Friend"
-			x: 9.0d
-			y: -1.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["20A30498BD2020C5"]
@@ -1461,6 +1476,7 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "341D8483CC5061D3"
+			shape: "octagon"
 			subtitle: "DO NOT ENTER FROM: PLAINS, FORESTS, OR SAVANNA'S"
 			tasks: [{
 				id: "0506982CDAA22B5D"
@@ -1470,6 +1486,58 @@
 			title: "WARNING"
 			x: 1.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["7E76D8E2927D53D7"]
+			description: [
+				"If you found an &3Elytra&r, you can upgrade your flight capabilities! "
+				""
+				"By crafting the &3Creative Flight Augment&r, you will need to use a &9Tinkering Station&r from &6Mystical Agriculture&r in order to fuse it to a &6Mystical Agriculture&r chestplate. "
+				""
+				"By crafting a &3Swiftwolf's Rending Gale&r, you will have &eCreative Flight&r in your &eRing Slot&r, at the cost of &eEMC&r."
+			]
+			id: "138D3E784E507E27"
+			tasks: [{
+				id: "053F620F47A402BA"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["138D3E784E507E27"]
+			id: "1F2E5566B7FA2B26"
+			tasks: [{
+				id: "15EA3FA16E25E4E8"
+				item: "mysticalagriculture:flight_augment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["138D3E784E507E27"]
+			id: "360641F06A1B19EE"
+			tasks: [{
+				id: "7048DC807AAE59B1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:swiftwolf_rending_gale"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
 		}
 	]
 	title: "Avt V"

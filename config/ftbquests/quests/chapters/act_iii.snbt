@@ -374,6 +374,12 @@
 				"He mentioned his name is &cBueford, the Summoner&r, and he likes to stay atop the tower with no entrance to that floor, but everyone knows he stores the keys in random chests on the lower levels of the tower. Nobody ever messes with him, though, as he is quite powerful."
 				""
 				"The village elder also tells you that they've heard rumor of the &dYorkington&r family selling &3Blinding Dungeon Keys&r, but you have to prove that you found a few before they will start selling them."
+				""
+				"Before you head out, a villager whose home you saved, comes up to you and hands you an item they call a &3Flugel Tiara&r. They say the item by itself has no power, but if you can find a way to harness &eBotanical Mana&r, you might be able to get the item to work. "
+				""
+				"The &3Flugel Tiara&r when combined with a colored quartz will create wings that will supposedly give you better flight controls for a limited period of time, at the cost of &eMana&r."
+				""
+				"If you do create the &3Flugel Tiara&r you can check the &eMagic&r quest series to get going with some &eBotanical Mana&r."
 			]
 			icon: {
 				Count: 1
@@ -381,20 +387,33 @@
 				tag: { }
 			}
 			id: "6FE071B5C8B9423E"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2700"
-				icon: "kubejs:p3_xp"
-				id: "230F92A2C998D112"
-				title: "2700 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2700"
+					icon: "kubejs:p3_xp"
+					id: "230F92A2C998D112"
+					title: "2700 Experience Points"
+					type: "command"
+				}
+				{
+					id: "16C3F83D89E57532"
+					item: {
+						Count: 1
+						id: "botania:flight_tiara"
+						tag: {
+							variant: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "1159FD13FCE1DE97"
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Today I Scale a Tower"
+			title: "Gotta Get Higher"
 			x: -2.5d
 			y: 3.5d
 		}
@@ -1016,7 +1035,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Summoner's Eye"
+			title: "Bueford's Eye"
 			x: -2.5d
 			y: 9.5d
 		}
@@ -1049,7 +1068,7 @@
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Alchemist Eye"
+			title: "Barnaby's Eye"
 			x: 3.5d
 			y: 9.5d
 		}
@@ -1130,6 +1149,37 @@
 			title: "DIY: Everdawn"
 			x: 2.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["6FE071B5C8B9423E"]
+			icon: {
+				Count: 1
+				id: "botania:flight_tiara"
+				tag: {
+					variant: 0
+				}
+			}
+			id: "26E9219A70A219FE"
+			rewards: [{
+				id: "137F5237688D1DE5"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "3C14E60C2B2CF9D3"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Flugel Tiara Recovery"
+			x: -1.0d
+			y: 3.5d
 		}
 	]
 	title: "Act III"

@@ -612,8 +612,9 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["&6Cooking For Blockheads&r offers a wide range of utility for all of your cooking needs. "]
+			icon: "kubejs:p3_chat"
 			id: "58C012AD3D76A5CF"
-			shape: "circle"
+			shape: "octagon"
 			subtitle: "Make me a sandwich!"
 			tasks: [{
 				id: "0D1D554F6991659E"
@@ -627,8 +628,9 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["Auto Harvest and Ranch with&6 Industrial Foregoing&r. "]
+			icon: "kubejs:p3_chat"
 			id: "6BB3BEBFE518D0F2"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "5721E1DF3FCDC9CA"
 				title: "Ok"
@@ -641,8 +643,9 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["Various ways to capture mobs"]
+			icon: "kubejs:p3_chat"
 			id: "17B3B5D1CD42BA6C"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "6223501674125146"
 				title: "Ok"
@@ -655,7 +658,9 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["Tier up your &3Botany Pots&r to blazing fast speeds. "]
+			icon: "kubejs:p3_chat"
 			id: "006EC724C42A91BF"
+			shape: "octagon"
 			tasks: [{
 				id: "4E65DEE120F0E76F"
 				title: "Ok"
@@ -672,7 +677,9 @@
 				""
 				"&3Cow in a Jar&r still needs to be crafted by dropping an &3Anvil&r on a Cow to squish it into a &3Bottle.&r "
 			]
+			icon: "kubejs:p3_chat"
 			id: "6F51530CCB2F4539"
+			shape: "octagon"
 			tasks: [{
 				id: "2B42EB3D6B70D7A2"
 				title: "Ok"

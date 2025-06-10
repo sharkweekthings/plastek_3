@@ -114,7 +114,9 @@
 				""
 				"When working in &6Powah&r, you may opt to use their &3Energy Cables&r."
 			]
+			icon: "kubejs:p3_chat"
 			id: "0C2FA55ACFC84397"
+			shape: "octagon"
 			tasks: [{
 				id: "19A3D3D90CDC738F"
 				title: "Ok"

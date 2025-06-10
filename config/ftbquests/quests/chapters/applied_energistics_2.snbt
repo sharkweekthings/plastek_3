@@ -23,8 +23,9 @@
 				""
 				"Check out &bChosen Architect's Guide to Applied Energistics 2&r: &ahttps://www.youtube.com/watch?v=ay0Js2TkI1E&r"
 			]
+			icon: "kubejs:p3_chat"
 			id: "2C8346B524BDED63"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "1574C70AE2E3DE80"
 				title: "Ok"
@@ -71,8 +72,9 @@
 				""
 				"These will be put inside your &9Inscribers&r to allow you to create &3Printed Silicon&r and various circuits."
 			]
+			icon: "kubejs:p3_chat"
 			id: "101BF6AB164779BA"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "2A829A5FE889BC5E"
 				title: "Ok"
@@ -149,8 +151,9 @@
 				""
 				"To get some &3Fluix&r you'll need to throw &3Redstone&r, &3Nether Quartz&r, &3Charged Certus Quartz&r, and &3Fresh Water&r into a &9Mixer&r, or pool of water. "
 			]
+			icon: "kubejs:p3_chat"
 			id: "548134C655C0099F"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "659CA97B2E35D306"
 				title: "Ok"
@@ -259,8 +262,9 @@
 		{
 			dependencies: ["2C8346B524BDED63"]
 			description: ["Your main hub will consist of the &9Controller&r, and at least a basic &3ME Terminal&r. "]
+			icon: "kubejs:p3_chat"
 			id: "2B2F8641381D7441"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "7339880B784E914E"
 				title: "Ok"
@@ -521,8 +525,9 @@
 				""
 				"The video in the previous quest is a great guide on helping you build one if you aren't sure how."
 			]
+			icon: "kubejs:p3_chat"
 			id: "7587FF4328E1616E"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "0C4B4AD202FC3F76"
 				title: "Ok"
@@ -985,8 +990,9 @@
 				""
 				"Each &3Wireless Card&r added increses the power usage. "
 			]
+			icon: "kubejs:p3_chat"
 			id: "3DF7FB9B6773720E"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "678AC5E272AB5778"
 				title: "Ok"
@@ -999,8 +1005,9 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["&3Basic Upgrade Cards&r for the &6AE2&r network."]
+			icon: "kubejs:p3_chat"
 			id: "5C348A69A6BA0B77"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "397ACCA2B48AB0D6"
 				title: "Ok"
@@ -1013,8 +1020,9 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["&3Advanced Upgrade Cards&r for the &6AE2&r network."]
+			icon: "kubejs:p3_chat"
 			id: "7959860BAD4D97CE"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "6A9E5709EFCBDE00"
 				title: "Ok"
@@ -1203,8 +1211,9 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["The &9ME Requester&r lets you keep specific items in stock from your network."]
+			icon: "kubejs:p3_chat"
 			id: "66D1BD51D69AC9DD"
-			shape: "circle"
+			shape: "octagon"
 			tasks: [{
 				id: "5E8492A4844D430D"
 				title: "Ok"

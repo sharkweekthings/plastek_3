@@ -17,25 +17,8 @@
 				item: "irons_spellbooks:arcane_essence"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			id: "224E0ECE5056827C"
-			subtitle: "Early Game"
-			tasks: [{
-				id: "1162544FE31E7A7D"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:wandering_magician_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0310FC25C05F89A6"]
@@ -68,8 +51,8 @@
 				}
 			]
 			title: "Different Inks"
-			x: 6.5d
-			y: 0.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0CD86725C497F5C1"]
@@ -80,8 +63,8 @@
 				item: "irons_spellbooks:alchemist_cauldron"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0CD86725C497F5C1"]
@@ -92,8 +75,8 @@
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2A56494C61A74D08"]
@@ -104,8 +87,8 @@
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["761C1D27642E0C50"]
@@ -136,8 +119,8 @@
 				type: "item"
 			}]
 			title: "5 Slot Books"
-			x: 3.5d
-			y: -1.5d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5CA88DDF43886F01"]
@@ -159,8 +142,8 @@
 				type: "item"
 			}]
 			title: "6 Slot Books"
-			x: 4.5d
-			y: -1.5d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4A36DEFBC944092D"]
@@ -200,8 +183,8 @@
 				}
 			]
 			title: "8 Slot Books"
-			x: 5.5d
-			y: -1.5d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["36954B8560101DE1"]
@@ -350,8 +333,8 @@
 				}
 			]
 			title: "10 Slot Books"
-			x: 6.5d
-			y: -1.5d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6BDD4BCDDC6F4165"]
@@ -391,8 +374,8 @@
 				}
 			]
 			title: "12 Slot Books"
-			x: 7.5d
-			y: -1.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["30F9D708441CB9FC"]
@@ -405,353 +388,449 @@
 				""
 				"If you're struggling to get some cloth gear, or you want to make gear specific to this mod -- you can craft it as normal, then use a &3Gear Soul&r on the crafted gear to convert it into a &6Mine and Slash&r piece."
 			]
+			icon: "kubejs:p3_chat"
 			id: "761C1D27642E0C50"
+			shape: "octagon"
 			tasks: [{
 				id: "7A030D8810B7B0F2"
 				title: "Ok"
 				type: "checkmark"
 			}]
 			title: "Iron's Spells and Spellbooks"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30F9D708441CB9FC"]
+			description: [
+				"You'll need to make at least &31 Pure Daisy&r to start. You'll need to find &3White Mystical Flowers&r or you can make &3White Shimmering Mushrooms&r with any mushroom and &3White Dye&r. "
+				""
+				"Turn the flowers into petals by crafting the flowers by themself. "
+				""
+				"Place 4 petals, or mushrooms inside a &9Petal Apothecary&r with a &3Water Bucket&r and any seed. "
+				""
+				"This should give you a &3Pure Daisy.&r"
+			]
+			icon: "kubejs:p3_chat"
+			id: "45026D921A799C4D"
+			shape: "octagon"
+			tasks: [{
+				id: "785827EE9C9446AF"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Botania"
 			x: 2.0d
-			y: -0.5d
-		}
-		{
-			id: "43772FE277622510"
-			subtitle: "Mid Game"
-			tasks: [{
-				id: "293C7EAD0E1634EF"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:pumpkin_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: -4.5d
-		}
-		{
-			id: "053DFB61BF3A92C2"
-			subtitle: "Mid Game"
-			tasks: [{
-				id: "34D44925C36E0D3B"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:cultist_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: -5.5d
-		}
-		{
-			id: "36FD5FD152C1DBA3"
-			subtitle: "Late Game"
-			tasks: [{
-				id: "715B0F57856222A8"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:netherite_mage_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.5d
-			y: -4.5d
-		}
-		{
-			id: "3EE7514D4D117C9D"
-			subtitle: "Late Game"
-			tasks: [{
-				id: "7B243F377774B137"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "irons_spellbooks:lategame_helmet"
-					}
-				}
-				title: "Late Game Helmets"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -5.5d
-		}
-		{
-			id: "2E23997BF9DFF7E9"
-			subtitle: "Late Game"
-			tasks: [{
-				id: "4165DD72F1CCC891"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "irons_spellbooks:lategame_chestplate"
-					}
-				}
-				title: "Late Game Chestplates"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -5.5d
-		}
-		{
-			id: "5769F60A7134E295"
-			subtitle: "Late Game"
-			tasks: [{
-				id: "1157F086E09EC77A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "irons_spellbooks:lategame_leggings"
-					}
-				}
-				title: "Late Game Leggings"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -5.5d
-		}
-		{
-			id: "07F3759F9DD5980D"
-			subtitle: "Late Game"
-			tasks: [{
-				id: "3C34779D12746D2D"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "irons_spellbooks:lategame_boots"
-					}
-				}
-				title: "Late Game Boots"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -5.5d
-		}
-		{
-			id: "37312E95C88F77BB"
-			subtitle: "Mid Game"
-			tasks: [{
-				id: "57898DEC5F27B3BD"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:cultist_chestplate"
-					tag: {
-						Damage: 0
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 1
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: -5.5d
-		}
-		{
-			id: "24E76B6DB601A6BE"
-			subtitle: "Mid Game"
-			tasks: [{
-				id: "41F9AD3407D69666"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:cultist_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: -5.5d
-		}
-		{
-			id: "4E538062E73F5B8B"
-			subtitle: "Mid Game"
-			tasks: [{
-				id: "67FB8D79139FA080"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:cultist_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: -5.5d
-		}
-		{
-			id: "0243A8885ABECAA5"
-			subtitle: "Late Game"
-			tasks: [{
-				id: "375B9627BFDC73C4"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:netherite_mage_chestplate"
-					tag: {
-						Damage: 0
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 1
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: -4.5d
-		}
-		{
-			id: "60D0FF564DBB6566"
-			subtitle: "Late Game"
-			tasks: [{
-				id: "67090525532F213F"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:netherite_mage_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.5d
-			y: -4.5d
-		}
-		{
-			id: "6A36DC4935B5368F"
-			subtitle: "Late Game"
-			tasks: [{
-				id: "5E2DE883CB65241C"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:netherite_mage_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: -4.5d
-		}
-		{
-			id: "3B95D7F96B3F6455"
-			subtitle: "Mid Game"
-			tasks: [{
-				id: "0485DAB1148F607F"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:pumpkin_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.5d
-		}
-		{
-			id: "7C70C847DAD8CBB9"
-			subtitle: "Mid Game"
-			tasks: [{
-				id: "34C58110C618DBD1"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:pumpkin_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: -4.5d
-		}
-		{
-			id: "2F869BCADC2BAAF1"
-			subtitle: "Mid Game"
-			tasks: [{
-				id: "5CAAF935C5CAB9A7"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:pumpkin_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: -4.5d
-		}
-		{
-			id: "0680A75587CDD97F"
-			subtitle: "Early Game"
-			tasks: [{
-				id: "72DA9F63F32F4307"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:wandering_magician_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
 			y: -3.0d
 		}
 		{
-			id: "4DAE0B423C566F19"
-			subtitle: "Early Game"
+			dependencies: ["45026D921A799C4D"]
+			id: "35277DF60F15A3EE"
+			shape: "square"
 			tasks: [{
-				id: "71F8FD174127ECE8"
+				id: "4D630786A482B45B"
 				item: {
 					Count: 1
-					id: "irons_spellbooks:wandering_magician_leggings"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "botania:petals/white"
 					}
 				}
+				title: "White Petals"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
-			id: "73C48C408B99642A"
-			subtitle: "Early Game"
+			dependencies: ["1EA09636671ACDE3"]
+			id: "14B1D3C124E08C82"
+			shape: "square"
 			tasks: [{
-				id: "244A578991A4A621"
+				id: "0980F536B42EDA82"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35277DF60F15A3EE"]
+			id: "1EA09636671ACDE3"
+			shape: "square"
+			tasks: [{
+				id: "13C267AE497CEE91"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["14B1D3C124E08C82"]
+			description: [
+				"Place the &3Pure Daisy&r on the ground and surround it with &3logs&r. "
+				""
+				"Eventually they should convert into &3Livingwood Logs&r."
+			]
+			id: "194A4ABD1F30B051"
+			shape: "square"
+			tasks: [{
+				id: "09F89D5EDDC2EF3B"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["14B1D3C124E08C82"]
+			description: [
+				"Place the &3Pure Daisy&r on the ground and surround it with &3Stone&r. "
+				""
+				"Eventually they should convert into &3Livingrock&r."
+			]
+			id: "4DB48DC649082355"
+			shape: "square"
+			tasks: [{
+				id: "10B4BFDF547B80C2"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"194A4ABD1F30B051"
+				"4DB48DC649082355"
+			]
+			description: [
+				"Burning &3Coal&r with an &3Endoflame&r will give you mana. "
+				""
+				"Here is a starter contraption:"
+				""
+				"{image:kubejs:textures/botania/botania_mana_gen.png width:200 height:150 align:center}"
+				""
+				"While this setup definitely works and will get you off the ground. You'll likely want to watch some videos and create a better &6Botania&r &eMana Generation&r contraption."
+			]
+			icon: "kubejs:p3_chat"
+			id: "465DC71E6F8C88E0"
+			shape: "octagon"
+			tasks: [{
+				id: "6998983A7C9C5226"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Starter Mana Generation"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["465DC71E6F8C88E0"]
+			id: "144AC3CE8FEC6661"
+			tasks: [
+				{
+					id: "17E71165BD599373"
+					item: "botania:open_crate"
+					type: "item"
+				}
+				{
+					id: "1C7102CA88F969C5"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "The Hopper Goes on the Crate."
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["465DC71E6F8C88E0"]
+			id: "7B7D97B0C7D2668F"
+			shape: "square"
+			tasks: [{
+				id: "7297696BABCBCE40"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["465DC71E6F8C88E0"]
+			id: "05A7D5C714C12399"
+			tasks: [{
+				id: "5A30FD13B228BED1"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["465DC71E6F8C88E0"]
+			id: "50DB9ABCEA7F0C76"
+			tasks: [
+				{
+					id: "431C142DBE17B8ED"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6B1645F82F6F900D"
+					item: { Count: 2, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "386EB2CA9DEEEC47"
+					item: "minecraft:oak_pressure_plate"
+					type: "item"
+				}
+			]
+			title: "Easy Mats!"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["465DC71E6F8C88E0"]
+			id: "27674FA2A6B14FE0"
+			tasks: [{
+				count: 2L
+				id: "0DE04C8AB7D9C6E9"
+				item: { Count: 2, id: "botania:endoflame" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"17F52407F4FD42F1"
+				"473CFA32B668CCCE"
+			]
+			id: "459F2CEEFE703A76"
+			tasks: [{
+				id: "2D8133EDBC5D3F1B"
 				item: {
 					Count: 1
-					id: "irons_spellbooks:wandering_magician_boots"
+					id: "matc:inferium_crystal"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64557BDC73B5CFB0"]
+			id: "5E49E933AA24D749"
+			tasks: [{
+				id: "37A1D9380392258A"
+				item: {
+					Count: 1
+					id: "matc:prudentium_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0E9DAF200911FD12"]
+			id: "75F1FBBACA1282C2"
+			tasks: [{
+				id: "3439248B35196516"
+				item: {
+					Count: 1
+					id: "matc:tertium_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3970788EC8D4AB55"]
+			id: "11A5C91C31D354AC"
+			tasks: [{
+				id: "7E3AAD6ED5158E72"
+				item: {
+					Count: 1
+					id: "matc:imperium_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4086873F1F9B7E49"]
+			id: "48274B6C55D134A6"
+			tasks: [{
+				id: "423F68EDFF41E914"
+				item: {
+					Count: 1
+					id: "matc:supremium_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15FB00D2E063E9D3"]
+			id: "334948FED6A92E99"
+			tasks: [{
+				id: "76F35EF120294E0F"
+				item: "mysticalagriculture:master_infusion_crystal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["473CFA32B668CCCE"]
+			description: ["Prosperity Ore drops Prosperit Shards. The ore can be found all over the Overworld. "]
+			hide_dependency_lines: true
+			id: "62A79913A48A8255"
+			tasks: [{
+				id: "56D0CC631E490968"
+				item: "mysticalagriculture:prosperity_seed_base"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["473CFA32B668CCCE"]
+			description: ["You'll find Soulium Ore in the Nether."]
+			hide_dependency_lines: true
+			id: "2DDC66BF88815B5E"
+			tasks: [{
+				id: "1F390B448943A61D"
+				item: "mysticalagriculture:soulium_seed_base"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["473CFA32B668CCCE"]
+			id: "17F52407F4FD42F1"
+			tasks: [{
+				id: "2D474A09E9B0F227"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17F52407F4FD42F1"]
+			id: "64557BDC73B5CFB0"
+			tasks: [{
+				id: "7DD295C709C4C8E4"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64557BDC73B5CFB0"]
+			id: "0E9DAF200911FD12"
+			tasks: [{
+				id: "620E8EDB90ABD39A"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0E9DAF200911FD12"]
+			id: "3970788EC8D4AB55"
+			tasks: [{
+				id: "76ADCA7DBBCCACE8"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3970788EC8D4AB55"]
+			id: "4086873F1F9B7E49"
+			tasks: [{
+				id: "21D921FA71795C91"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4086873F1F9B7E49"]
+			id: "15FB00D2E063E9D3"
+			rewards: [{
+				id: "5EC2187DD3A29F97"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B2C25DA945C911C"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B7D97B0C7D2668F"]
+			id: "2909647B220FE694"
+			tasks: [{
+				id: "7BF51C22A3ADFF0B"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34C6E99130CC78B0"]
+			description: ["These &6Mystical Agriculture&r quests outline the tiers in which you need to progress up to &3Insanium&r, which will be a requirement later."]
+			icon: "kubejs:p3_chat"
+			id: "473CFA32B668CCCE"
+			shape: "octagon"
+			tasks: [{
+				id: "0C98ECF65018D174"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Mystical Agriculture"
+			x: 0.0d
 			y: -3.0d
 		}
 	]

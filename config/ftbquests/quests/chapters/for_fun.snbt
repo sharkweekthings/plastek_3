@@ -290,7 +290,7 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "106B7438302B0041"
 					item: {
 						Count: 1
@@ -301,7 +301,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "17B4FB1C72B47AB8"
 					item: {
 						Count: 1
@@ -312,7 +312,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "316ACC6CDD543F79"
 					item: {
 						Count: 1
@@ -323,7 +323,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "7A16E83DB7681A6F"
 					item: {
 						Count: 1
@@ -334,7 +334,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "0A7846966F49AB4B"
 					item: {
 						Count: 1
@@ -345,7 +345,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "7159FBA40CA097AE"
 					item: {
 						Count: 1
@@ -381,7 +381,7 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "4BD0B9413A452C8B"
 					item: {
 						Count: 1
@@ -395,7 +395,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "3D88EC57421B6424"
 					item: {
 						Count: 1
@@ -406,7 +406,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "54F51C3757C2FC83"
 					item: {
 						Count: 1
@@ -417,7 +417,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "27BBD6D224174A9A"
 					item: {
 						Count: 1
@@ -428,7 +428,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "12130D647C27F207"
 					item: {
 						Count: 1
@@ -439,7 +439,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "02457B4858E39367"
 					item: {
 						Count: 1
@@ -475,7 +475,7 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "33894CE82AE3197C"
 					item: {
 						Count: 1
@@ -486,7 +486,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "0FA68258705027D9"
 					item: {
 						Count: 1
@@ -497,7 +497,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "7D69BE27ABA2A245"
 					item: {
 						Count: 1
@@ -508,7 +508,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "61A75E9B7C40B204"
 					item: {
 						Count: 1
@@ -519,7 +519,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "6A2A99E173E815F2"
 					item: {
 						Count: 1
@@ -530,7 +530,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "4AA066D6C61ABFF8"
 					item: {
 						Count: 1
@@ -566,7 +566,7 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "22473AFC6B79624C"
 					item: {
 						Count: 1
@@ -577,7 +577,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "02464F775246AE2F"
 					item: {
 						Count: 1
@@ -588,7 +588,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "786984A5FD895EB2"
 					item: {
 						Count: 1
@@ -599,7 +599,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "5CD0E90A7167E440"
 					item: {
 						Count: 1
@@ -610,7 +610,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "1CB7F96ED20E311B"
 					item: {
 						Count: 1
@@ -621,7 +621,7 @@
 				}
 				{
 					consume_items: true
-					count: 64L
+					count: 25L
 					id: "4A31C20FD724F85E"
 					item: {
 						Count: 1

@@ -31,6 +31,10 @@
     {
       "item": "scannable:scanner",
       "emc": 0
+    },
+    {
+      "item": "botania:flight_tiara",
+      "emc": 0
     }
   ]
 }

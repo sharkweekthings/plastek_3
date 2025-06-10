@@ -1,0 +1,40 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:augment_enabled",
+      "augment": "mysticalagriculture:flight"
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:unattuned_augment"
+  },
+  "ingredients": [
+    {
+      "item": "projecte:dark_matter"
+    },
+    {
+      "item": "minecraft:elytra"
+    },
+    {
+      "item": "projecte:dark_matter"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    },
+    {
+      "item": "projecte:dark_matter"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    },
+    {
+      "item": "projecte:dark_matter"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    }  ],
+  "result": {
+    "item": "mysticalagriculture:flight_augment"
+  }
+}

@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["21A0C3BEC0B60588"]
 			id: "109E879D7E6517E9"
 			tasks: [{
 				id: "01EFBDB17B084C55"
@@ -18,6 +19,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["109E879D7E6517E9"]
 			id: "4D10100EE5CD8C56"
 			tasks: [{
 				id: "4CF8B7140AF0352A"
@@ -28,6 +30,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["109E879D7E6517E9"]
 			id: "3944592353BFDBB7"
 			tasks: [{
 				id: "5F50A8D9BA9071A6"
@@ -38,6 +41,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["109E879D7E6517E9"]
 			id: "19A3D462616FD686"
 			tasks: [{
 				id: "586B761F4AF75B50"
@@ -48,6 +52,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["109E879D7E6517E9"]
 			id: "3F6245B22F196C30"
 			tasks: [{
 				id: "2CBFD2376A100FBE"
@@ -58,6 +63,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["109E879D7E6517E9"]
 			id: "210900FC45A7E74B"
 			tasks: [{
 				id: "2DE83862B3CE313A"
@@ -68,6 +74,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["109E879D7E6517E9"]
 			id: "332DFA61C9CA190E"
 			tasks: [{
 				id: "622126376AAAD18E"
@@ -78,6 +85,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["109E879D7E6517E9"]
 			id: "627E5801784C9CAE"
 			tasks: [{
 				id: "7544492ED99B4E1B"
@@ -88,6 +96,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["109E879D7E6517E9"]
 			id: "321E76CE9985AF65"
 			tasks: [{
 				id: "2C95C109D5556DDE"
@@ -98,6 +107,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["109E879D7E6517E9"]
 			id: "4B1E8A3C70A51591"
 			tasks: [{
 				id: "5B3B8C3B7B95DE62"
@@ -106,6 +116,25 @@
 			}]
 			x: 3.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["3F8DC833F6CD5490"]
+			description: [
+				"You got a &6Scanner&r from &dRyan&r. However, he didnt provide any modules. "
+				""
+				"You can craft various modules to put into your &3Scanner&r which will let you find blocks, mobs, ores, and fluids."
+			]
+			icon: "kubejs:p3_chat"
+			id: "21A0C3BEC0B60588"
+			shape: "octagon"
+			tasks: [{
+				id: "3A69842E5E46716D"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Scannable"
+			x: 2.5d
+			y: -3.0d
 		}
 	]
 	title: "Scannable"
