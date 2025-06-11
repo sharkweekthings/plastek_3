@@ -11,38 +11,8 @@
   "guid": "throwing_dagger",
   "possible_items": [
     {
-      "item_id": "roe_weapons:kunai_0",
-      "min_rar": "common",
-      "weight": 1000
-    },
-    {
-      "item_id": "divine_weaponry:wooden_shuriken",
-      "min_rar": "common",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:wooden_shuriken",
-      "min_rar": "common",
-      "weight": 1000
-    },
-    {
       "item_id": "spartanweaponry:wooden_throwing_knife",
       "min_rar": "common",
-      "weight": 1000
-    },
-    {
-      "item_id": "roe_weapons:kunai_1",
-      "min_rar": "uncommon",
-      "weight": 1000
-    },
-    {
-      "item_id": "divine_weaponry:stone_shuriken",
-      "min_rar": "uncommon",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:stone_shuriken",
-      "min_rar": "uncommon",
       "weight": 1000
     },
     {
@@ -51,38 +21,8 @@
       "weight": 1000
     },
     {
-      "item_id": "roe_weapons:kunai_2",
-      "min_rar": "rare",
-      "weight": 1000
-    },
-    {
-      "item_id": "divine_weaponry:iron_shuriken",
-      "min_rar": "rare",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:iron_shuriken",
-      "min_rar": "rare",
-      "weight": 1000
-    },
-    {
       "item_id": "spartanweaponry:iron_throwing_knife",
       "min_rar": "rare",
-      "weight": 1000
-    },
-    {
-      "item_id": "roe_weapons:kunai_3",
-      "min_rar": "epic",
-      "weight": 1000
-    },
-    {
-      "item_id": "divine_weaponry:golden_shuriken",
-      "min_rar": "epic",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:golden_shuriken",
-      "min_rar": "epic",
       "weight": 1000
     },
     {
@@ -91,38 +31,8 @@
       "weight": 1000
     },
     {
-      "item_id": "roe_weapons:kunai_4",
-      "min_rar": "legendary",
-      "weight": 1000
-    },
-    {
-      "item_id": "divine_weaponry:diamond_shuriken",
-      "min_rar": "legendary",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:diamond_shuriken",
-      "min_rar": "legendary",
-      "weight": 1000
-    },
-    {
       "item_id": "spartanweaponry:diamond_throwing_knife",
       "min_rar": "legendary",
-      "weight": 1000
-    },
-    {
-      "item_id": "roe_weapons:kunai_5",
-      "min_rar": "mythic",
-      "weight": 1000
-    },
-    {
-      "item_id": "divine_weaponry:netherite_shuriken",
-      "min_rar": "mythic",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:netherite_shuriken",
-      "min_rar": "mythic",
       "weight": 1000
     },
     {
@@ -143,7 +53,7 @@
       "dexterity",
       "weapon_family",
       "throwing_dagger",
-      "melee_weapon"
+      "ranged_weapon"
     ]
   },
   "weapon_type": "throwing_dagger",

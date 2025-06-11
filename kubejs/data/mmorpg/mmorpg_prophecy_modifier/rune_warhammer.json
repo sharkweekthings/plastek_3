@@ -1,0 +1,9 @@
+{
+  "cost_multi": 2.0,
+  "data": "rune_warhammer",
+  "id": "rune_warhammer",
+  "lvl_req": 0,
+  "modifier_type": "GEAR_TYPE",
+  "tier_req": 0,
+  "weight": 0
+}

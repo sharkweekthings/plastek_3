@@ -1,0 +1,39 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 4.0,
+      "stat": "spell_damage"
+    }
+  ],
+  "gear_slot": "rune_staff",
+  "guid": "rune_staff",
+  "possible_items": [
+    {
+      "item_id": "roe_weapons:staff_6",
+      "min_rar": "runeword",
+      "weight": 1000
+    }
+
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.15
+    }
+  },
+  "style": "INT",
+  "tags": {
+    "tags": [
+      "intelligence",
+      "mage_weapon",
+      "staff",
+      "rune",
+      "weapon_family",
+      "melee_weapon"
+    ]
+  },
+  "weapon_type": "rune_staff",
+  "weight": 1000
+}

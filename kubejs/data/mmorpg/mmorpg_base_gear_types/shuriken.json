@@ -1,0 +1,91 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 4.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "shuriken",
+  "guid": "shuriken",
+  "possible_items": [
+    {
+      "item_id": "divine_weaponry:wooden_shuriken",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:wooden_shuriken",
+      "min_rar": "common",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:stone_shuriken",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:stone_shuriken",
+      "min_rar": "uncommon",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:iron_shuriken",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:iron_shuriken",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:golden_shuriken",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:golden_shuriken",
+      "min_rar": "epic",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:diamond_shuriken",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:diamond_shuriken",
+      "min_rar": "legendary",
+      "weight": 1000
+    },
+    {
+      "item_id": "divine_weaponry:netherite_shuriken",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
+      "item_id": "better_weaponry:netherite_shuriken",
+      "min_rar": "mythic",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.4
+    }
+  },
+  "style": "DEX",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "weapon_family",
+      "shuriken",
+      "melee_weapon"
+    ]
+  },
+  "weapon_type": "shuriken",
+  "weight": 1000
+}

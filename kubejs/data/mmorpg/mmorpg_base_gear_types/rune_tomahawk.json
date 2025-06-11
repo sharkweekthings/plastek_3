@@ -1,0 +1,38 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 4.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "rune_tomahawk",
+  "guid": "rune_tomahawk",
+  "possible_items": [
+    {
+      "item_id": "spartanweaponry:electrum_tomahawk",
+      "min_rar": "runeword",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.15,
+      "intelligence": 0.15
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "strength",
+      "weapon_family",
+      "tomahawk",
+      "rune",
+      "melee_weapon"
+    ]
+  },
+  "weapon_type": "rune_tomahawk",
+  "weight": 1000
+}

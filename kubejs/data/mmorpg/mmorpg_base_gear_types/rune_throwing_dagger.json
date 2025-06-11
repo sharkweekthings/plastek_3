@@ -11,12 +11,7 @@
   "guid": "rune_throwing_dagger",
   "possible_items": [
     {
-      "item_id": "roe_weapons:kunai_6",
-      "min_rar": "runeword",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:emerald_shuriken",
+      "item_id": "spartanweaponry:electrum_throwing_knife",
       "min_rar": "runeword",
       "weight": 1000
     }
@@ -37,6 +32,6 @@
       "melee_weapon"
     ]
   },
-  "weapon_type": "throwing_dagger",
+  "weapon_type": "rune_throwing_dagger",
   "weight": 1000
 }

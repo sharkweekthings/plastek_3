@@ -1,5 +1,5 @@
 {
-  "can_dual_wield": true,
+  "can_dual_wield": false,
   "damage_validity_check": {
     "contains_in_dmg_id": [
       "arrow",

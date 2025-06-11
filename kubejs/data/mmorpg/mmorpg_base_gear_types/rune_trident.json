@@ -1,0 +1,39 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 2.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "rune_trident",
+  "guid": "rune_trident",
+  "possible_items": [
+    {
+      "item_id": "minecraft:trident",
+      "min_rar": "runeword",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.15,
+      "intelligence": 0.15
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "trident",
+      "strength",
+      "rune",
+      "melee_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "rune_trident",
+  "weight": 1000
+}
