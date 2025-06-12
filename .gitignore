@@ -28,7 +28,7 @@ config/scannable-client.toml
 config/scannable-common.toml
 config/spark/
 knownkeys.txt
-
+config/EntityLootDrops/
 config/cull-less-leaves.json
 config/modernfix-common.toml
 config/modernfix-mixins.properties
