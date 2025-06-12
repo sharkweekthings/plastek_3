@@ -1836,9 +1836,9 @@
 		{
 			dependencies: ["7A5A8F93C0C6DC53"]
 			description: [
-				"This mod lets you fly around similar to an &3Elytra&r. Get a boost off a cliff and glide around, or use a &3Firework Rocket&r."
+				"By equipping the &3Wings&r to your back slot, this mod lets you fly around similar to an &3Elytra&r. "
 				""
-				"Using &3Firework Rockets&r will let you extend your flight. "
+				"Get a boost off a cliff and glide around, or use a &3Firework Rocket&r to extend your flight. "
 				""
 				"While the &3Firework Rocket&r recipe doesn't show up in &6JEI&r, you can craft them by combing &3Paper&r + up to &33 Gunpowder&r."
 				""
@@ -1853,7 +1853,9 @@
 				"- &3Discord's Wings&r"
 				"- &3Zanza's Wings&r"
 				""
-				"You can use the base wings to craft other colors of each variation. While there is no difference in wing speed, some wings are more intricately designed, and have a higher recipe cost."
+				"You can use the base wings to craft other colors of each variation. "
+				""
+				"While there is no difference in wing speed, some wings are more intricately designed, and have a higher recipe cost."
 			]
 			icon: "icarus:purple_feathered_wings"
 			id: "0E7EE57DE4723898"

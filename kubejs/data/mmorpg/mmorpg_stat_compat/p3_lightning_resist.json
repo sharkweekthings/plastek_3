@@ -1,13 +1,14 @@
 {
-  "attribute_id": "kubejs:bonus_exp",
+  "attribute_id": "kubejs:lightning_resist",
   "conversion": 1.0,
   "enchant_id": "",
-  "id": "p3_bonus_exp_compat",
-  "maximum_cap": 10000,
+  "id": "p3_lightning_resist_compat",
+  "maximum_cap": 1000,
   "minimum_cap": 0,
-  "mns_stat_id": "bonus_exp",
+  "mns_stat_id": "lightning_resist",
   "mod_type": "FLAT",
   "per_item_max": 100,
   "per_item_min": 0,
   "scaling": "NONE"
 }
+

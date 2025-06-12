@@ -90,6 +90,24 @@
 			x: 3.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2C7CBC69FB5A35F6"]
+			description: [
+				"While technology exists, due to so many catastrophes over the hundreds of thousands of years, most villages opt to lead a relatively low tech life. So rare infact, that you may not ever encounter a technologicaly advanced town, and if you do -- it may just be a low tech town running on Create's Rotational Power, which is still a rare and fascinating sight to behold. "
+				""
+				"Safe, non explodable technologies like Applied Energistics storage, or Powah reactors are free to use in construction, but due to peoples fears of how scary the machines look, you will likely never come across a village with such technology. "
+			]
+			id: "73AB3804DE28551B"
+			subtitle: "Technology"
+			tasks: [{
+				id: "6D85B7B68622953F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Part 4"
+			x: 4.5d
+			y: -0.5d
+		}
 	]
 	title: "The Story So Far"
 }

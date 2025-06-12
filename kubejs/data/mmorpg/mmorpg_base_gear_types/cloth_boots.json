@@ -61,6 +61,11 @@
       "weight": 1000
     },
     {
+      "item_id": "botania:manaweave_boots",
+      "min_rar": "rare",
+      "weight": 1000
+    },
+    {
       "item_id": "irons_spellbooks:cultist_boots",
       "min_rar": "rare",
       "weight": 1000

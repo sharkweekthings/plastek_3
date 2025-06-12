@@ -1,0 +1,21 @@
+{
+  "item.allthewizardgear.unobtainium_mage_helmet": "Voidborn Mage Hat",
+  "item.allthewizardgear.unobtainium_mage_chestplate": "Voidborn Mage Robes",
+  "item.allthewizardgear.unobtainium_mage_leggings": "Voidborn Mage Leggings",
+  "item.allthewizardgear.unobtainium_mage_boots": "Voidborn Mage Boots",
+  "item.allthewizardgear.unobtainium_spell_book": "Voidborn Spell Book",
+
+  "item.allthewizardgear.vibranium_mage_helmet": "Tideborn Mage Hat",
+  "item.allthewizardgear.vibranium_mage_chestplate": "Tideborn Mage Robes",
+  "item.allthewizardgear.vibranium_mage_leggings": "Tideborn Mage Leggings",
+  "item.allthewizardgear.vibranium_mage_boots": "Tideborn Mage Boots",
+  "item.allthewizardgear.vibranium_spell_book": "Tideborn Spell Book",
+
+  "item.allthewizardgear.allthemodium_mage_helmet": "Sunborn Mage Hat",
+  "item.allthewizardgear.allthemodium_mage_chestplate": "Sunborn Mage Robes",
+  "item.allthewizardgear.allthemodium_mage_leggings": "Sunborn Mage Leggings",
+  "item.allthewizardgear.allthemodium_mage_boots": "Sunborn Mage Boots",
+  "item.allthewizardgear.allthemodium_spell_book": "Sunborn Spell Book",
+
+  "tab.allthewizardarmor.armor": "All The Wizard Gear"
+}

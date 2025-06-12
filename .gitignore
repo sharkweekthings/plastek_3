@@ -29,6 +29,10 @@ config/scannable-common.toml
 config/spark/
 knownkeys.txt
 
+config/cull-less-leaves.json
+config/modernfix-common.toml
+config/modernfix-mixins.properties
+modernfix/
 config/icarus.jsonc
 config/farmersdelight-client.toml
 config/farmersdelight-common.toml
