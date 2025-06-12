@@ -5,7 +5,7 @@
   "on_armor_stats": [
     {
       "type": "FLAT",
-      "max": 0.75,
+      "max": 1.0,
       "min": 0.1,
       "stat": "health_regen"
     }

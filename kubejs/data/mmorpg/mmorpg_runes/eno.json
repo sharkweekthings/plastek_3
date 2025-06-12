@@ -21,9 +21,9 @@
   "on_weapons_stats": [
     {
       "type": "FLAT",
-      "max": -10.0,
-      "min": -4.0,
-      "stat": "mana_cost"
+      "max": 5.0,
+      "min": 0.5,
+      "stat": "mana_on_kill"
     }
   ],
   "tier": 3,

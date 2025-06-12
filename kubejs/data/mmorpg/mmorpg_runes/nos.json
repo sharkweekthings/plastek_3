@@ -1,32 +1,32 @@
 {
   "id": "nos",
   "item_id": "mmorpg:runes/nos",
-  "min_lvl_multi": 0.0,
+  "min_lvl_multi": 0.55,
   "on_armor_stats": [
     {
-      "type": "PERCENT",
-      "max": 5.0,
+      "type": "FLAT",
+      "max": 8.0,
       "min": 1.0,
-      "stat": "health"
+      "stat": "physical_resist"
     }
   ],
   "on_jewelry_stats": [
     {
       "type": "FLAT",
-      "max": 1.0,
-      "min": 0.2,
-      "stat": "health_regen"
+      "max": 8.0,
+      "min": 1.0,
+      "stat": "physical_penetration"
     }
   ],
   "on_weapons_stats": [
     {
       "type": "FLAT",
-      "max": 1.0,
-      "min": 0.2,
-      "stat": "health_on_hit_hit"
+      "max": 6.0,
+      "min": 1.0,
+      "stat": "all_physical_damage"
     }
   ],
-  "tier": 0,
+  "tier": 4,
   "uses_unlucky_ran": true,
-  "weight": 1000
+  "weight": 300
 }

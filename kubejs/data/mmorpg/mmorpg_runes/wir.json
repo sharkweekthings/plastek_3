@@ -1,32 +1,32 @@
 {
   "id": "wir",
   "item_id": "mmorpg:runes/wir",
-  "min_lvl_multi": 0.4,
+  "min_lvl_multi": 0.0,
   "on_armor_stats": [
     {
-      "type": "FLAT",
-      "max": 10.0,
-      "min": 3.0,
-      "stat": "total_damage"
+      "type": "PERCENT",
+      "max": 8.0,
+      "min": 1.0,
+      "stat": "health"
     }
   ],
   "on_jewelry_stats": [
     {
       "type": "FLAT",
-      "max": 10.0,
-      "min": 3.0,
-      "stat": "total_damage"
+      "max": 1.5,
+      "min": 0.2,
+      "stat": "health_regen"
     }
   ],
   "on_weapons_stats": [
     {
       "type": "FLAT",
-      "max": 10.0,
-      "min": 3.0,
-      "stat": "total_damage"
+      "max": 1.3,
+      "min": 0.2,
+      "stat": "health_on_hit_hit"
     }
   ],
-  "tier": 4,
+  "tier": 0,
   "uses_unlucky_ran": true,
-  "weight": 200
+  "weight": 1000
 }

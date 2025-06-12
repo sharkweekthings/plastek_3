@@ -5,7 +5,7 @@
   "on_armor_stats": [
     {
       "type": "FLAT",
-      "max": 6.0,
+      "max": 8.0,
       "min": 3.0,
       "stat": "chaos_resist"
     }
@@ -13,17 +13,17 @@
   "on_jewelry_stats": [
     {
       "type": "FLAT",
-      "max": 6.0,
+      "max": 8.0,
       "min": 3.0,
-      "stat": "chaos_resist"
+      "stat": "chaos_penetration"
     }
   ],
   "on_weapons_stats": [
     {
       "type": "FLAT",
-      "max": 5.0,
+      "max": 6.0,
       "min": 1.0,
-      "stat": "all_fire_damage"
+      "stat": "all_chaos_damage"
     }
   ],
   "tier": 3,

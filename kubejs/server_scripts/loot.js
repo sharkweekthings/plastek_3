@@ -14,6 +14,23 @@ LootJS.modifiers(event => {
   // event.addLootTypeModifier(LootType.CHEST).replaceLoot("botania:manasteel_ingot", "silentgear:diamond_shard");
 });
 
+  // LootJS.modifiers(event => {
+  //   event.addEntityLootModifier
+  //   ( 'minecraft:zombie')
+  //         .randomChance(1.0)
+  //         .addLoot('mmorpg:runes/fey');
+  // });
+
+// LootJS.modifiers((event) => {
+//     event
+//         .addLootTableModifier("minecraft:entities/zombie")
+//         .matchKiller((entity) => {
+//             entity.anyType("minecraft:skeleton");
+//         })
+//         .addLoot(LootEntry.of("minecraft:stone").limitCount([1, 1]));
+// });
+
+
 // RANDOM IRON'S SCROLL
 LootJS.modifiers((e) => {
   e.addLootTypeModifier(LootType.CHEST)

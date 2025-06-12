@@ -7,15 +7,15 @@
       "type": "PERCENT",
       "max": 5.0,
       "min": 1.0,
-      "stat": "magic_shield"
+      "stat": "magic_shield_regen"
     }
   ],
   "on_jewelry_stats": [
     {
-      "type": "PERCENT",
+      "type": "FLAT",
       "max": 5.0,
-      "min": 1.0,
-      "stat": "magic_shield_regen"
+      "min": 0.5,
+      "stat": "inc_effect_of_food_buff_on_you"
     }
   ],
   "on_weapons_stats": [
