@@ -1,0 +1,2 @@
+tellraw @a {"text": "There is 10 seconds until a Plastim Storm sweeps across the lands, which will destroy all items on the ground.", "color": "red", "bold":"true"}
+schedule function darktimer:darktimer 10s

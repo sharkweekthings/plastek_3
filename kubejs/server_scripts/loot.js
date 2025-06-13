@@ -14,22 +14,13 @@ LootJS.modifiers(event => {
   // event.addLootTypeModifier(LootType.CHEST).replaceLoot("botania:manasteel_ingot", "silentgear:diamond_shard");
 });
 
-  // LootJS.modifiers(event => {
-  //   event.addEntityLootModifier
-  //   ( 'minecraft:zombie')
-  //         .randomChance(1.0)
-  //         .addLoot('mmorpg:runes/fey');
-  // });
-
-// LootJS.modifiers((event) => {
-//     event
-//         .addLootTableModifier("minecraft:entities/zombie")
-//         .matchKiller((entity) => {
-//             entity.anyType("minecraft:skeleton");
-//         })
-//         .addLoot(LootEntry.of("minecraft:stone").limitCount([1, 1]));
+// LootJS.modifiers(event => {
+//   event.addLootTableModifier('sweet_calamity:entities/sweet_witch')
+//     .pool(pool => {
+//       pool.rolls(1);
+//       pool.addLoot('mmorpg:runes/cen');
+//     });
 // });
-
 
 // RANDOM IRON'S SCROLL
 LootJS.modifiers((e) => {
@@ -2099,6 +2090,100 @@ LootJS.modifiers((e) => {
   LootEntry.of("mmorpg:currency/unique_reroll").withWeight(15).limitCount([0, 1]),
   LootEntry.of("mmorpg:currency/up_corrupt_affix").withWeight(15).limitCount([0, 1]),
   LootEntry.of("mmorpg:currency/upgrade_common_affix").withWeight(15).limitCount([0, 1])
+      ]);
+
+// MMORPG BONUS RUNE
+  e.addLootTypeModifier(LootType.CHEST)
+    .randomChance(0.35)
+    .addWeightedLoot(
+      [0, 1], //0-1 rolls
+      [
+  LootEntry.of("mmorpg:runes/end").withWeight(35).limitCount([0, 1]),
+  LootEntry.of("mmorpg:runes/fey").withWeight(50).limitCount([0, 1]),
+  LootEntry.of("mmorpg:runes/owd").withWeight(75).limitCount([0, 1]),
+  LootEntry.of("mmorpg:runes/wir").withWeight(50).limitCount([0, 1]),
+  LootEntry.of("mmorpg:runes/ano").withWeight(50).limitCount([0, 1]),
+  LootEntry.of("mmorpg:runes/sid").withWeight(50).limitCount([0, 1])
+      ]);
+
+// MYSTICAL AG ESSENCE
+  e.addLootTypeModifier(LootType.CHEST)
+    .randomChance(0.35)
+    .addWeightedLoot(
+      [0, 1], //0-1 rolls
+      [
+LootEntry.of("mysticalagriculture:air_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:earth_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:fire_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:water_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:deepslate_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:dirt_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:ice_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:inferium_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:stone_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:wood_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:amethyst_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:chicken_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:coal_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:coral_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:cow_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:dye_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:fish_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:honey_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:limestone_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:mystical_flower_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:nature_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:nether_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:pig_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:sheep_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:silicon_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:slime_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:squid_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:turtle_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:amethyst_bronze_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:brass_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:bronze_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:certus_quartz_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:copper_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:creeper_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:glowstone_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:iron_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:manasteel_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:nether_quartz_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:obsidian_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:pig_iron_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:prismarine_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:rabbit_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:redstone_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:silver_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:skeleton_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:sky_stone_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:slimesteel_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:spider_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:zinc_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:zombie_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:blaze_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:blazing_crystal_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:cobalt_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:electrum_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:elementium_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:end_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:enderman_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:energized_steel_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:experience_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:fluix_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:ghast_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:lapis_lazuli_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:rose_gold_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:ruby_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:sapphire_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:soulium_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:steel_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:gold_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:diamond_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:emerald_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:manyullyn_seeds").withWeight(50).limitCount([0, 1]),
+LootEntry.of("mysticalagriculture:netherite_seeds").withWeight(50).limitCount([0, 1])
       ]);
 
 });

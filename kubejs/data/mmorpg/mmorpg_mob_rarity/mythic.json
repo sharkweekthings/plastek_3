@@ -13,6 +13,6 @@
   "name": "Mythic",
   "spells": [],
   "stat_multi": 3.0,
-  "text_format": "DARK_PURPLE",
+  "text_format": "RED",
   "weight": 5
 }

@@ -16,22 +16,12 @@
       "weight": 1000
     },
     {
-      "item_id": "better_weaponry:wooden_sickle",
-      "min_rar": "common",
-      "weight": 1000
-    },
-    {
       "item_id": "minecraft:wooden_sword",
       "min_rar": "common",
       "weight": 1000
     },
     {
       "item_id": "roe_weapons:sword_1",
-      "min_rar": "uncommon",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:stone_sickle",
       "min_rar": "uncommon",
       "weight": 1000
     },
@@ -46,22 +36,12 @@
       "weight": 1000
     },
     {
-      "item_id": "better_weaponry:iron_sickle",
-      "min_rar": "rare",
-      "weight": 1000
-    },
-    {
       "item_id": "minecraft:iron_sword",
       "min_rar": "rare",
       "weight": 1000
     },
     {
       "item_id": "roe_weapons:sword_3",
-      "min_rar": "epic",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:golden_sickle",
       "min_rar": "epic",
       "weight": 1000
     },
@@ -76,22 +56,12 @@
       "weight": 1000
     },
     {
-      "item_id": "better_weaponry:diamond_sickle",
-      "min_rar": "legendary",
-      "weight": 1000
-    },
-    {
       "item_id": "minecraft:diamond_sword",
       "min_rar": "legendary",
       "weight": 1000
     },
     {
       "item_id": "roe_weapons:sword_5",
-      "min_rar": "mythic",
-      "weight": 1000
-    },
-    {
-      "item_id": "better_weaponry:netherite_sickle",
       "min_rar": "mythic",
       "weight": 1000
     },
