@@ -452,28 +452,21 @@
 				""
 				"She hands you some of her &3Concentrated Pixie Essence&r and tells you that the rest of the items won't be so easy to get."
 			]
-			icon: "kubejs:p3_chat"
+			icon: "kubejs:concentrated_pixie_essence"
 			id: "1076EAAF2F4486EA"
-			rewards: [
-				{
-					command: "/mine_and_slash give exp @p 3200"
-					icon: "kubejs:p3_xp"
-					id: "291B3BC57374AD0C"
-					title: "3200 Experience Points"
-					type: "command"
-				}
-				{
-					count: 4
-					id: "0697F2FED1D96AD5"
-					item: "kubejs:concentrated_pixie_essence"
-					type: "item"
-				}
-			]
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3200"
+				icon: "kubejs:p3_xp"
+				id: "291B3BC57374AD0C"
+				title: "3200 Experience Points"
+				type: "command"
+			}]
 			shape: "square"
 			tasks: [{
-				id: "2B81A76FEC4DA925"
-				title: "Ok"
-				type: "checkmark"
+				count: 4L
+				id: "638211203C8F6A9A"
+				item: "kubejs:concentrated_pixie_essence"
+				type: "item"
 			}]
 			title: "Some Big Nasties"
 			x: 3.0d
