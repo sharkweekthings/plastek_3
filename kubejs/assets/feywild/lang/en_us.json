@@ -1,28 +1,32 @@
 {
-  "autumn_quest_pixie.feywild.summon_message": "Darling, what took you so long! I've been waiting for a fine specimen just like you.",
-  "message.feywild.quest_accept": "Accept!",
-  "message.feywild.quest_completion": "The Fey are satisfied.",
-  "message.feywild.quest_decline": "Decline!",
-  "quest.feywild.autumn.quest_01.complete.description": "Thank you, darling! You are so adorable, no need to be nervous.$(n)I think I'll feel right at home with you.$(n)As they say: $(autumn)'Home is where the heart is!'$() - The pixie winks at you. -$(n)$(n)Just relax; let's make this a nice and comfy place to live in!$(n)",
-  "quest.feywild.autumn.quest_01.complete.title": "An Arrow to the Knee",
-  "quest.feywild.autumn.quest_01.start.description": "Oh my- an adventurer?$(n)- The pixie looks you over from top to bottom, as though she is peering into your soul. -$(n)I see...$(n)You won't need that sword while I'm around-- well, except maybe as a cooking knife.$(n)Why don't you let me hold on to that $(autumn)iron sword$() for you?$(n)- The pixie holds out her hands, and somehow you feel tempted to give up your adventuring days and stay in her warm embrace. -$(n)Aww, don't worry; I'll protect you from now on!$(n)$(n)$(autumn)Objective: $()Give your pixie an Iron Sword. [You can submit quest items by interacting with the Pixie while holding the needed items in your hand.]",
-  "quest.feywild.autumn.quest_01.start.title": "Adventuring Days",
-  "quest.feywild.autumn.quest_02.complete.description": "Wonderful-- and you got that so fast! A good cook is defined by their tools, you know!$(n)Goodness- we're all prepared! Maybe I can get you one of those cute aprons! Let me cook our first meal, sweetie. You rest; you've been working so hard!$(n)",
-  "quest.feywild.autumn.quest_02.complete.title": "First Meal",
-  "quest.feywild.autumn.quest_02.start.description": "Every home needs good home-cooked meals!$(n)So- let's make some preparations, shall we?$(n)Can't receive guests if you can't prepare a proper meal, after all!$(n)First, we need to $(spring)craft$() a $(autumn)Smoker$() and a $(autumn)Cauldron$(); don't you agree, darling?$(n)$(n)$(autumn)Objective: $()Obtain a Smoker and a Cauldron.",
-  "quest.feywild.autumn.quest_02.start.title": "Home Sweet Home",
-  "quest.feywild.autumn.quest_03.complete.description": "Aww, it's adorable!$(n)Hey, dog! You'd better keep my darling safe!$(n)Maybe we can make them a small doggie pen? I'll leave the decorations to you!$(n)",
-  "quest.feywild.autumn.quest_03.complete.title": "Adorable!",
-  "quest.feywild.autumn.quest_03.start.description": "Isn't our home coming along nicely!$(n)I wish you wouldn't go on your adventures alone; if you bring me along, I will always protect you.$(n)But our home also needs a cute pet. How about a dog?$(n)They are very loyal creatures, you know!$(n)$(n)$(autumn)Objective: $()Tame a Wolf.",
-  "quest.feywild.autumn.quest_03.start.title": "A Loyal Friend",
-  "quest.feywild.autumn.quest_04.complete.description": "That's a lovely name!$(n)Would you like to know my name too? I can be anything you like, darling.$(n)Where I'm from, knowing someone's name is like having power over that being.$(n)Ah- you gave me your name?$(n)- The pixie gives you a knowing smile. -",
-  "quest.feywild.autumn.quest_04.complete.title": "What's in a Name",
-  "quest.feywild.autumn.quest_04.start.description": "Poor dog; they seem famished!$(n)You should take good care of 'dog' or the $(winter)Winter Court$() will claim them.$(n)Maybe you can $(spring)cook$() them some dog food?\"$(n)I think they like $(spring)cooked beef$().$(n)$(n)Dog! Doggie! Come here!$(n)Darling, made you some food!$(n)Aww look- they like it!$(n)...We can't keep calling them 'dog'-- they need a $(autumn)proper name$()!$(n)Don't worry- you'll never know their real name, so it's fine!$(n)$(n)$(autumn)Objective: $()Obtain a Name Tag and a stack of 2 Steak.",
-  "quest.feywild.autumn.quest_04.start.title": "Name Tags",
-  "quest.feywild.autumn.quest_05.complete.description": "Oh wow... It's almost like my home- the $(autumn)Eternal Falls$().$(n)That is the home of the Autumn Court, yes.$(n)Yes, of course; each season has its own court!$(n)Why do you think the seasons change here? It's because the Fey fight for dominion over the Feywild!",
-  "quest.feywild.autumn.quest_05.complete.title": "The Feywild",
-  "quest.feywild.autumn.quest_05.start.description": "How are you today, darling?$(n)Do you want to do something for me, to help make me feel more at home?$(n)Aren't you the sweetest; let me think...! No, all I need is right here!$(n)But if you would like, you can $(autumn)grow$() some $(autumn)Autumn Tree Saplings$() from my homeland.$(n)$(n)$(autumn)Objective: $()Grow a Autumn Tree Sapling into a tree while the Pixie is nearby.",
-  "quest.feywild.autumn.quest_05.start.title": "Homeland",
+  "autumn_quest_pixie.feywild.summon_message": "Wait, what’s this? You dare summon me while I am eating? How rude! There had better be a good reason for this! If my food is cold when I get back, we’re going to have some choice words!",
+
+  "quest.feywild.autumn.quest_01.complete.description": "Wow, that was delicious! Not even our chefs are that good. You said that last meal was prepared by Chef Shaun? Please, give him my thanks! Listen, I would really like to help you, but we are currently in the middle of a war, and our dimension was recently invaded by the Cult of the Void. Our people arent very trusting at this time.",
+  "quest.feywild.autumn.quest_01.complete.title": "Thanks, Chef!",
+  "quest.feywild.autumn.quest_01.start.description": "Oh, what’s that? You have some fishsticks in your pocket that you’re willing to give me? Well, I guess you seem like a good person. $(n)$(n)$(autumn)Objective: $()Give the Pixie some Fish Sticks.",
+  "quest.feywild.autumn.quest_01.start.title": "Trusty Fishsticks",
+
+
+  "quest.feywild.autumn.quest_02.complete.description": "That was just what I needed, thank you! It feels great to get stronger.",
+  "quest.feywild.autumn.quest_02.complete.title": "Stronger",
+  "quest.feywild.autumn.quest_02.start.description": "You're after the Cult of the Void as well? Why don't we go fight some monsters? I am really close to leveling up. Do you think we could go kill a few zombies? I'll analyze your fighting style so I can report back to Queen Titania. $(n)$(n)$(autumn)Objective: $()Kill 8 Zombies.",
+  "quest.feywild.autumn.quest_02.start.title": "Leveling Up",
+
+  "quest.feywild.autumn.quest_03.complete.description": "Oh wow, that one taste even better than before. I could get used to this.",
+  "quest.feywild.autumn.quest_03.complete.title": "So Delicious",
+  "quest.feywild.autumn.quest_03.start.description": "Wow, I really hate to ask, but all that fighting took a lot out of me. Do you think that Chef Shaun would make me something to eat? I think some chicken tenders would really help me out. I might be tiny, but I sure love food! $(n)$(n)$(autumn)Objective: $()Give the Pixie another Fish Sticks.",
+  "quest.feywild.autumn.quest_03.start.title": "More Fish Sticks!",
+
+  "quest.feywild.autumn.quest_04.complete.description": "With the Concentrated Pixie Essence, and Manyullyn Ingots, we just need a few more items. ",
+  "quest.feywild.autumn.quest_04.complete.title": "Almost There!",
+  "quest.feywild.autumn.quest_04.start.description": "I wanted to let you know that I spoke with Queen Titania, and she’s willing to grant you an audience. If you want to make a device to travel to Feywild, you’re gonna need to get: 3 Manyullyn Ingots, 1 Witherite Ingot, 1 Sandstorm in a Bottle, and some of my, uh.. um... Concentrated Pixie Essence... You’re lucky I had a good feeling about you and created some in advance. $(n)$(n)$(autumn)Objective: $()Craft 3 Manyullyn Ingots",
+  "quest.feywild.autumn.quest_04.start.title": "Just Getting Started",
+
+  "quest.feywild.autumn.quest_05.complete.description": "",
+  "quest.feywild.autumn.quest_05.complete.title": "",
+  "quest.feywild.autumn.quest_05.start.description": "The Sandstorm in a Bottle is probably the most important part of the whole device we need to make. To get one, you will need to defeat an Ancient Remnant.",
+  "quest.feywild.autumn.quest_05.start.title": "Ancient Remnant",
+
   "quest.feywild.autumn.quest_06.complete.description": "$(autumn)Our Court$() isn't concerned with the power struggle of the other courts.$(n)We care more about a good home and preparing for when winter is coming.$(n)We also give those close to death a nice passing and good memories, before leaving them to the $(winter)cold slumber of Winter$().$(n)$(n)Unlike the other Fey Courts, the throne of the $(b;autumn)Autumn Court$() is a vacant one, though we do have a $(b;spring)sovereign$() of sorts, $(b;autumn)Ashe- the Elder Ent$(): the oldest of the Tree Ents.$(n)We honor him, since no Autumn Fey is foolish enough to take on the mantle of the Autumn Ruler!",
   "quest.feywild.autumn.quest_06.complete.title": "Eternal Falls",
   "quest.feywild.autumn.quest_06.start.description": "Would you like to know more about the seasonal Courts?$(n)Oh, no need to visit a library; as an Autumn Pixie, I already know many of the Feywild's secrets, so I can tell you all about the Seasonal Courts myself.$(n)You may want to grab a $(spring)book and quill$() to write all of this down!$(n)$(n)$(autumn)Objective: $()Obtain a Book and Quill.",
@@ -44,11 +48,6 @@
   "quest.feywild.autumn.quest_10.start.description": "Why don't we stay at home and postpone our visit to the $(winter)Winter Court$()?$(n)$(n)$(autumn)Objective: $()Going to the Frozen Retreat in the Feywild is still tempting, even if it´s against your Pixie´s wishes...",
   "quest.feywild.autumn.quest_10.start.title": "Avoiding Destiny",
   "quest.feywild.autumn.quest_11.complete.description": "You found it! You found it...$(n)It's up to you which Court to grant the mantle to.$(n)No, darling-- I won't take it; I have no desire for such power.$(n)Let's go home one last time? Please...$(n)$(n)$(spring)- You and your pixie friend return to the warmth of your home. -$()$(n)$(n)$(autumn)- An assassin from another court came that night. The Autumn Pixie embraces you with the touch of the Fey.$(n)You accept the sensation- warm and comfortable... your last breath leaves your mortal body.$(n)You become one of the fey and leave your adventurous life behind; it was good and full of memories.$(n)'Don't worry,' the Fey says, 'your canine friend will be there too; after all, they tried to protect you... loyal 'till the end!'-$()$(n)$(n)$(autumn)- END OF CHAPTER 2 -$()",
-
-
-
-
-  //
   "quest.feywild.autumn.quest_11.complete.title": "The End?",
   "quest.feywild.autumn.quest_11.start.description": "I realise now that I can't stop you from going out on your quest...$(n)I hoped the allure of home cooked meals would keep you safe here with me... but that was naive of me.$(n)If you want to go, and find$(summer)The Elytra$()... go ahead; just know I will support you, darling.$(n)$(n)$(autumn)Objective: $()Obtain The Elytra...",
   "quest.feywild.autumn.quest_11.start.title": "Endings",
@@ -56,10 +55,9 @@
   "quest.feywild.autumn.quest_12.complete.title": "Pixie Orb",
   "quest.feywild.autumn.quest_12.start.description": "Oh, I'd love to show you what life is like in the Eternal Falls, darling; it could be our home away from home! But to do that, we'll have to dabble in some uncouth magic. $(n)You will need to $(autumn)trap a fey inside an Eye of Ender$(), subtracting all of their magic.$(n)I can use my own magic to bind it to the Feywild, allowing it to take you there!$(n)$(n)$(autumn)Objective: $()Give your pixie a Pixie Orb.",
   "quest.feywild.autumn.quest_12.start.title": "Teleportation Orb",
-  "quest.feywild.autumn.root.start.description": "Darling, what took you so long! I've been waiting for a fine specimen just like you. Would you care to tell me your name, darling?$(n)$(n)$(b;autumn)Accepting this quest will bind you to the Autumn Court!$()",
-  "quest.feywild.autumn.root.start.title": "Welcome to the Autumn Court",
 
-
+  "quest.feywild.autumn.root.start.description": "Wait, what’s this? You dare summon me while I am eating? How rude! There had better be a good reason for this! If my food is cold when I get back, we’re going to have some choice words! You better have something good to say, or something delicious to eat!$(n)$(n)$(b;autumn)Accepting this quest will bind you to the Autumn Court!$()",
+  "quest.feywild.autumn.root.start.title": "Interrupted Meal",
 
   "quest.feywild.spring.quest_01.complete.description": "Finally!$(n)...It's a bit empty. $(n)Alright, let's go!$(n)- The tiny pixie pushes you fowards. - $(n)We need to fill it with loads and loads of treasure!",
   "quest.feywild.spring.quest_01.complete.title": "Let's Go!",
@@ -143,11 +141,6 @@
   "quest.feywild.spring.quest_20.start.title": "Teleportation Orb",
   "quest.feywild.spring.root.start.description": "Where am I? Who are you? Are you tasty?$(n)Let's go on an adventure!$(n)You wanna play? ...I'm hungry! $(n)What's your name?$(n)$(n)$(spring)Accepting this quest will bind you to the Spring Court!$()",
   "quest.feywild.spring.root.start.title": "Welcome to the Spring Court",
-
-
-
-
-
   "quest.feywild.summer.quest_01.complete.description": "...Oh, you're back? ...Alright, let me take another look at you!$(n)–  The pixie looks over you again with a less disdainful look; you can detect a small smile. –$(n)Turn around... once more... again!$(n)- The pixie laughs at that. - $(n)I guess it's an improvement. You are worthy of my insults now!$(n)",
   "quest.feywild.summer.quest_01.complete.title": "Worthy",
   "quest.feywild.summer.quest_01.start.description": "Just my luck I end up with someone like you...$(n)- The pixie looks at you from top to bottom with a disdainful look on her face. – $(n)Not much muscle, though that might be normal for its kind... And their look... Might not be the brightest. ...Hey!$(n)Stop gasping! I'm not insulting you- I'm assessing you! There's a difference!$(n)If you want to be part of the $(b;summer)Golden Seelie Court$(), you'd better look the part; I can't present you as my champion before $(b;summer)Queen Titania$() when you look like this! $(n)$(n)Obtain yourself a human-size $(b;summer)Golden Chestplate and Helmet$()!$(n)Don't look at me like that-- I'm not paying for it!$(n)Go on; present yourself to me when you are properly attired.$(n)$(n)The audacity... - the Pixies rolls her eyes. -$(n)$(n)$(summer)Objective:$()Obtain a Golden Chestplate and a Golden Helmet.",
@@ -194,10 +187,6 @@
   "quest.feywild.summer.quest_11.start.title": "Teleportation Orb",
   "quest.feywild.summer.root.start.description": "How dare you summon me like I am some sort of magician's pet!$(n)You'd better know your place... Hmph! $(n)I demand you tell me your name!$(n)$(n)$(b;summer)Accepting this quest will bind you to the Summer Court!$()",
   "quest.feywild.summer.root.start.title": "Welcome to the Summer Court",
-
-
-
-
   "quest.feywild.winter.quest_01.complete.description": "You seem rather efficient at collecting these... Maybe I can assign you with a purpose after all.$(n)Wasn't I clear...? Your soul belongs to us... and so you either provide us with more, or we collect yours...$(n)But were you to find an early demise, I could be your friend on the other side.$(n)Everything has a silver lining...",
   "quest.feywild.winter.quest_01.complete.title": "Silver Linings",
   "quest.feywild.winter.quest_01.start.description": "Greetings, mortal... Your arrival is as expected.$(n)– The pixie speaks in a monotone, with barely any inflection in her voice. –$(n)Meaning...? Eventually you would end up in the $(winter)arms of Winter$() anyways, as it's inevitable.$(n)Now that you've stated your name, $(winter)your soul belongs to us$()...$(n)If you don't want us to collect your soul at this moment in time, then you should prove your worth to us.$(n)I wouldn't want to overload your severely lacking mortal brain, so a simple task will suffice.$(n)How about you $(spring)provide$() us some $(winter)zombie flesh$(); eight should do.$(n)$(n)$(winter)Objective:$()Obtain 8 Rotten Flesh.",
@@ -242,13 +231,9 @@
   "quest.feywild.winter.quest_11.complete.title": "Pixie Orb",
   "quest.feywild.winter.quest_11.start.description": "If you want to go to the Feywild, mortal, all you have to do is perish, and I can take your soul there... $(n)...Or you could $(winter)trap a fey inside an Eye of Ender$(); it'll subtract all of their magic, reducing it to a pixie. And I could bind it to the Feywild with my own power. $(n)Either way works for me...$(n)$(n)$(winter)Objective: $()Give your pixie a Pixie Orb.",
   "quest.feywild.winter.quest_11.start.title": "Teleportation Orb",
-
-
-
   "quest.feywild.winter.root.start.description": "Such inconvenience... why did you summon me, mortal?$(n)This ordeal will most certainly lead to your premature demise. But then, maybe we can be friends... $()Care to tell me your name?$(n)$(n)$(b;winter)Accepting this quest will bind you to the Winter Court!$()",
   "quest.feywild.winter.root.start.title": "Welcome to the Winter Court",
   "spring_quest_pixie.feywild.summon_message": "Where am I? Who are you? Are you tasty? Let's go on an adventure! You wanna play? ...I'm hungry!",
   "summer_quest_pixie.feywild.summon_message": "How dare you summon me like I am some sort of magician's pet! You'd better know your place... Hmph!",
-  "title.feywild.library.available": "- Available Books -",
   "winter_quest_pixie.feywild.summon_message": "Such inconvenience... why did you summon me, mortal? This ordeal will most certainly lead to your premature demise. But then, maybe we can be friends..."
 }

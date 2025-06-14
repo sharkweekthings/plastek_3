@@ -8,7 +8,7 @@
       "translate": "quest.feywild.autumn.quest_02.complete.title"
     }
   },
-  "icon": "minecraft:smoker",
+  "icon": "pamhc2foodcore:fishsticksitem",
   "reputation": 5,
   "start": {
     "description": {
@@ -20,15 +20,10 @@
   },
   "tasks": [
     {
-      "id": "feywild:craft",
+      "alignment": "autumn",
+      "id": "feywild:fey_gift",
       "item": {
-        "item": "minecraft:smoker"
-      }
-    },
-    {
-      "id": "feywild:craft",
-      "item": {
-        "item": "minecraft:cauldron"
+        "item": "pamhc2foodcore:fishsticksitem"
       }
     }
   ]

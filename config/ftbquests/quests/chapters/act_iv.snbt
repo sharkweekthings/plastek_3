@@ -240,7 +240,7 @@
 			description: [
 				"It doesn't matter too much which &9Fey Altar&r you make."
 				""
-				"You were told that &dQueen Titania&r used to be the Queen of all &eFae&r until the &eGreat War&r broke out over 5,000 years ago. Now, those loyal to &dQueen Titania&r are the Autumn and Summer courts. &dQueen Mab&r reigns over Spring and Winter. The &dAutumn Court&r used to be neutral and ruled by &dElder Ashe&r, but recently they joined forces&r with &dQueen Titania&r."
+				"You were told that &dQueen Titania&r used to be the Queen of all &eFae&r until the &eGreat War&r broke out over 5,000 years ago. Now, those loyal to &dQueen Titania&r are the &eAutumn&r and &eSummer&r courts. &dQueen Mab&r reigns over &eSpring&r and &eWinter&r. The &eAutumn Court&r used to be neutral and ruled by &dElder Ashe&r, but recently they joined forces&r with &dQueen Titania&r."
 			]
 			id: "177E8457E2BB0F76"
 			rewards: [{

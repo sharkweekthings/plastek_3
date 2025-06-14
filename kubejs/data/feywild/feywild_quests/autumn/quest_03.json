@@ -20,8 +20,9 @@
   },
   "tasks": [
     {
-      "type": "minecraft:wolf",
-      "id": "feywild:tame"
+      "entity": "minecraft:zombie",
+      "id": "feywild:kill",
+      "times": 8
     }
   ]
 }

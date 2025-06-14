@@ -20,11 +20,8 @@
   },
   "tasks": [
     {
-      "amount": 1,
-      "id": "feywild:item_stack",
-      "item": {
-        "item": "minecraft:writable_book"
-      }
+      "entity": "cataclysm:ancient_remnant",
+      "id": "feywild:kill"
     }
   ]
 }
