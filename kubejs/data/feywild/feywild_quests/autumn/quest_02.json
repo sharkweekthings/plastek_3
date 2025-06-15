@@ -20,10 +20,10 @@
   },
   "tasks": [
     {
-      "alignment": "autumn",
-      "id": "feywild:fey_gift",
+      "amount": 20,
+      "id": "feywild:item_stack",
       "item": {
-        "item": "pamhc2foodcore:jellybeansitem"
+        "item": "minecraft:rotten_flesh"
       }
     }
   ]

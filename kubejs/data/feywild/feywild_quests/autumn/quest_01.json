@@ -24,7 +24,8 @@
       "id": "feywild:fey_gift",
       "item": {
         "item": "pamhc2foodcore:fishsticksitem"
-      }
+      },
+      "times": 5
     }
   ]
 }

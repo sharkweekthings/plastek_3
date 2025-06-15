@@ -20,8 +20,12 @@
   },
   "tasks": [
     {
-      "entity": "minecraft:iron_golem",
-      "id": "feywild:kill"
+      "alignment": "summer",
+      "id": "feywild:fey_gift",
+      "item": {
+        "item": "minecraft:white_wool"
+      },
+      "times": 10
     }
   ]
 }

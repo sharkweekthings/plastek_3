@@ -20,10 +20,9 @@
   },
   "tasks": [
     {
-      "amount": 12,
-      "id": "feywild:item_stack",
+      "id": "feywild:craft",
       "item": {
-        "item": "minecraft:ender_eye"
+        "tag": "feywild:pixie_wing_components"
       }
     }
   ]

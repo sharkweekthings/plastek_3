@@ -22,7 +22,7 @@
     {
       "id": "feywild:craft",
       "item": {
-        "item": "feywild:teleportation_orb"
+        "tag": "feywild:pixie_wing_components"
       }
     }
   ]
