@@ -20,9 +20,11 @@
   },
   "tasks": [
     {
-      "id": "feywild:tree",
-      "times": 3,
-      "tree": "feywild:winter_tree"
+      "amount": 1,
+      "id": "feywild:item_stack",
+      "item": {
+        "item": "cataclysm:sandstorm_in_a_bottle"
+      }
     }
   ]
 }

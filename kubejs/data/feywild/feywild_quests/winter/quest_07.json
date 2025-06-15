@@ -10,6 +10,15 @@
   },
   "icon": "minecraft:book",
   "reputation": 5,
+  "rewards": [
+    {
+      "id": "feywild:item",
+      "item": {
+        "count": 1,
+        "item": "feywild:pixie_wing_tiara"
+      }
+    }
+  ],
   "start": {
     "description": {
       "translate": "quest.feywild.winter.quest_07.start.description"
@@ -23,7 +32,7 @@
       "amount": 1,
       "id": "feywild:item_stack",
       "item": {
-        "item": "minecraft:book"
+        "item": "feywild:teleportation_orb"
       }
     }
   ]

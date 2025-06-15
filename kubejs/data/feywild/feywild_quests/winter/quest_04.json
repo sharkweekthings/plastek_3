@@ -14,8 +14,8 @@
     {
       "id": "feywild:item",
       "item": {
-        "count": 1,
-        "item": "minecraft:totem_of_undying"
+        "count": 4,
+        "item": "kubejs:concentrated_pixie_essence"
       }
     }
   ],
@@ -29,10 +29,10 @@
   },
   "tasks": [
     {
-      "amount": 10,
+      "amount": 3,
       "id": "feywild:item_stack",
       "item": {
-        "item": "feywild:soul_shard"
+        "item": "tconstruct:manyullyn_ingot"
       }
     }
   ]

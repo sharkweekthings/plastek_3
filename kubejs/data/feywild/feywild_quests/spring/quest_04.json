@@ -29,12 +29,11 @@
   },
   "tasks": [
     {
-      "alignment": "spring",
-      "id": "feywild:fey_gift",
+      "amount": 3,
+      "id": "feywild:item_stack",
       "item": {
-        "item": "minecraft:cake"
-      },
-      "times": 2
+        "item": "tconstruct:manyullyn_ingot"
+      }
     }
   ]
 }

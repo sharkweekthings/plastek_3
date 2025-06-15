@@ -10,6 +10,15 @@
   },
   "icon": "pamhc2foodextended:chickentendersitem",
   "reputation": 5,
+  "rewards": [
+    {
+      "id": "feywild:item",
+      "item": {
+        "count": 4,
+        "item": "kubejs:concentrated_pixie_essence"
+      }
+    }
+  ],
   "start": {
     "description": {
       "translate": "quest.feywild.autumn.quest_04.start.description"
@@ -20,10 +29,10 @@
   },
   "tasks": [
     {
-      "amount": 5,
+      "amount": 3,
       "id": "feywild:item_stack",
       "item": {
-        "item": "pamhc2foodextended:chickentendersitem"
+        "item": "tconstruct:manyullyn_ingot"
       }
     }
   ]

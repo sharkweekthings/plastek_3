@@ -29,9 +29,11 @@
   },
   "tasks": [
     {
-      "entity": "minecraft:pillager",
-      "id": "feywild:kill",
-      "times": 8
+      "amount": 3,
+      "id": "feywild:item_stack",
+      "item": {
+        "item": "tconstruct:manyullyn_ingot"
+      }
     }
   ]
 }

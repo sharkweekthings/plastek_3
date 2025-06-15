@@ -1460,17 +1460,17 @@
 		{
 			dependencies: ["752D1CA4C2899415"]
 			description: [
-				"There is currently a bug with Astral Dimension that is causing terrain to generate as all Astral Stone or all Desert, or other oddities."
+				"There is currently a bug with &6Astral Dimension&r that is causing terrain to generate as all &3Astral Ston&re or all &eDesert&r, or other oddities."
 				""
-				"To best avoid this, do not enter this dimension from Plains, Forests, or Savanna biomes. "
+				"To best avoid this, do not enter this dimension from &ePlains&r, &eForests&r, or &eSavanna&r biomes. "
 				""
-				"If you do experience an issue with terrain generation in this dimension, you can delete the dimension directory for Astral Dimension, or Astral Dimension / the specific dimension. "
+				"If you do experience an issue with terrain generation in this dimension, you can delete the dimension directory for &3Astral Dimension&r, or &6Astral Dimension&r / the specific dimension. "
 				""
 				"Here is the main directory: "
 				""
 				"saves\\New World\\dimensions\\astral_dimension"
 				""
-				"If you have a problem with Astral Dimension, just delete that folder; Setback is the other dimension that may cause issues, which you can delete and refresh. "
+				"If you have a problem with &6Astral Dimension&r, just delete that folder; &6Setback&r is the other dimension that may cause issues, which you can delete and refresh. "
 				""
 				"The problem has been reported to the dev, and will hopefully be fixed in a future update."
 			]

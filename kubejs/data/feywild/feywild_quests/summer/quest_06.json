@@ -20,8 +20,11 @@
   },
   "tasks": [
     {
-      "id": "feywild:structure",
-      "structure": "feywild:library"
+      "amount": 1,
+      "id": "feywild:item_stack",
+      "item": {
+        "item": "cataclysm:witherite_ingot"
+      }
     }
   ]
 }

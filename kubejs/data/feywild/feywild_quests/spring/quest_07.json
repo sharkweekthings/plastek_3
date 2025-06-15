@@ -20,8 +20,11 @@
   },
   "tasks": [
     {
-      "action": "annoy_librarian",
-      "id": "feywild:special"
+      "amount": 1,
+      "id": "feywild:item_stack",
+      "item": {
+        "item": "feywild:teleportation_orb"
+      }
     }
   ]
 }

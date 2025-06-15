@@ -20,11 +20,12 @@
   },
   "tasks": [
     {
-      "amount": 1,
-      "id": "feywild:item_stack",
+      "alignment": "winter",
+      "id": "feywild:fey_gift",
       "item": {
-        "item": "feywild:reaper_scythe"
-      }
+        "tag": "forge:seeds"
+      },
+      "times": 10
     }
   ]
 }

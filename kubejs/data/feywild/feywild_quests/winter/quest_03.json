@@ -10,15 +10,7 @@
   },
   "icon": "minecraft:zombie_head",
   "reputation": 5,
-  "rewards": [
-    {
-      "id": "feywild:item",
-      "item": {
-        "count": 1,
-        "item": "minecraft:wither_skeleton_skull"
-      }
-    }
-  ],
+  "rewards": [],
   "start": {
     "description": {
       "translate": "quest.feywild.winter.quest_03.start.description"
@@ -29,11 +21,12 @@
   },
   "tasks": [
     {
-      "amount": 1,
-      "id": "feywild:item_stack",
+      "alignment": "winter",
+      "id": "feywild:fey_gift",
       "item": {
-        "item": "minecraft:zombie_head"
-      }
+        "item": "pamhc2foodcore:carrotsoupitem"
+      },
+      "times": 10
     }
   ]
 }

@@ -14,6 +14,7 @@ StartupEvents.registry('item', e => {
   e.create('p3_passive')
   e.create('shop_aura_int')
   e.create('shop_support_str')
+  e.create('three_seashells')
 
   e.create('royal_pixie_dust')
   e.create('bobs_void_touched_heart')

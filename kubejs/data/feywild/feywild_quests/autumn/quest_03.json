@@ -20,9 +20,11 @@
   },
   "tasks": [
     {
-      "entity": "minecraft:zombie",
-      "id": "feywild:kill",
-      "times": 8
+      "alignment": "autumn",
+      "id": "feywild:fey_gift",
+      "item": {
+        "item": "pamhc2foodcore:fishsticksitem"
+      }
     }
   ]
 }

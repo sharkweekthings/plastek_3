@@ -20,10 +20,10 @@
   },
   "tasks": [
     {
-      "amount": 3,
-      "id": "feywild:craft",
+      "amount": 1,
+      "id": "feywild:item_stack",
       "item": {
-        "item": "tconstruct:manyullyn_ingot"
+        "item": "cataclysm:sandstorm_in_a_bottle"
       }
     }
   ]

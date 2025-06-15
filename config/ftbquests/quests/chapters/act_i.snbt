@@ -1387,7 +1387,7 @@
 		{
 			dependencies: ["3F18B971B4E3F6AD"]
 			description: [
-				"&6Tinker's Construct&r will allow you to make some of the best Pickaxe, Axe, Shovel, and Hoe's. While &3Armor&r and &3Weapons&r can be made with &6Tinker's&r, they still need to be converted into &6Mine and Slash&r gear to be effective."
+				"&6Tinker's Construct&r will allow you to make some of the best Pickaxe, Axe, Shovel, and Hoe's. &3Armor&r and &3Weapons&r can be made with &6Tinker's&r, however, they need to be converted into &6Mine and Slash&r gear to be effective, using a matching &3Gear Soul&r."
 				""
 				"While some of the &6Tinker's&r effects may be active and work as expected, &6Mine and Slash&r overwrites many aspects of the game, making many of the effects useless. Because of this, think of &6Tinker's&r more as a way to craft an item you like aesthetically, and don't care too much about the materials going into the weapon. Do take some caution in making your armor and weapon, though, as some of the negative effects of the various materials will still affect you."
 				""

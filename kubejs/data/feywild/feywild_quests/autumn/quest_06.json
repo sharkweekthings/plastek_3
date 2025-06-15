@@ -20,8 +20,11 @@
   },
   "tasks": [
     {
-      "entity": "cataclysm:ancient_remnant",
-      "id": "feywild:kill"
+      "amount": 1,
+      "id": "feywild:item_stack",
+      "item": {
+        "item": "cataclysm:witherite_ingot"
+      }
     }
   ]
 }

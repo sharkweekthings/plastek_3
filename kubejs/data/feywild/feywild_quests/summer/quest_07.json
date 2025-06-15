@@ -23,7 +23,7 @@
       "amount": 1,
       "id": "feywild:item_stack",
       "item": {
-        "item": "minecraft:book"
+        "item": "feywild:teleportation_orb"
       }
     }
   ]

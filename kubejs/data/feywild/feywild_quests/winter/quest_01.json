@@ -23,9 +23,9 @@
       "alignment": "winter",
       "id": "feywild:fey_gift",
       "item": {
-        "item": "minecraft:rotten_flesh"
+        "item": "kubejs:three_seashells"
       },
-      "times": 8
+      "times": 1
     }
   ]
 }
