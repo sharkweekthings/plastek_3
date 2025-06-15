@@ -20,10 +20,12 @@
   },
   "tasks": [
     {
-      "id": "feywild:craft",
+      "alignment": "spring",
+      "id": "feywild:fey_gift",
       "item": {
-        "tag": "forge:chests"
-      }
+        "tag": "forge:seeds"
+      },
+      "times": 10
     }
   ]
 }

@@ -62,23 +62,23 @@
 
 
   "quest.feywild.spring.quest_01.complete.description": "Thank you! The soil feels happier already!",
-  "quest.feywild.spring.quest_01.complete.title": "",
-  "quest.feywild.spring.quest_01.start.description": "I see... you have also been attacked by the Cult of the Void and lost a village. It’s scary. Their corruption goes beyond just living people. The corruption is even destroying our crops, which is causing our seed supply to run thin. Would you happen to have any spare cabbage seeds that could help us regrow our fields?",
-  "quest.feywild.spring.quest_01.start.title": "Cabbage Seed Aid",
+  "quest.feywild.spring.quest_01.complete.title": "Enriched Soil",
+  "quest.feywild.spring.quest_01.start.description": "I see... you have also been attacked by the Cult of the Void and lost a village. It’s scary. Their corruption goes beyond just living people. The corruption is even destroying our crops, which is causing our seed supply to run thin. Would you happen to have any spare cabbage seeds that could help us regrow our fields? $(n)$(n)$(autumn)Objective: $()Give the Pixie some seeds",
+  "quest.feywild.spring.quest_01.start.title": "Seed Delivery",
 
-  "quest.feywild.spring.quest_02.complete.description": "I've been listening to the crops and they seem very happy.",
-  "quest.feywild.spring.quest_02.complete.title": "",
-  "quest.feywild.spring.quest_02.start.description": "The fields are planted and we're currently waiting for them to grow. If our fertilizer didn't get destroyed, this process would go so much faster. Oh, whats that? You have some fertilizer you would like to give me?",
+  "quest.feywild.spring.quest_02.complete.description": "I've been listening to the crops and they seem pretty happy with their new start.",
+  "quest.feywild.spring.quest_02.complete.title": "Happy Plants",
+  "quest.feywild.spring.quest_02.start.description": "The fields are planted and we're currently waiting for them to grow. If our fertilizer didn't get destroyed, this process would go so much faster. Oh, whats that? You have some fertilizer you would like to give me? $(n)$(n)$(autumn)Objective: $()Give the Pixie some Mystical Fertilizer",
   "quest.feywild.spring.quest_02.start.title": "Nourish the Soil",
   
   "quest.feywild.spring.quest_03.complete.description": "Wow, that's amazing. Supremium Farmland?! You're incredible, friend!",
-  "quest.feywild.spring.quest_03.complete.title": "",
+  "quest.feywild.spring.quest_03.complete.title": "Supremium Farmland?!",
   "quest.feywild.spring.quest_03.start.description": "With how much you've done already, I hate to ask for more. We are trying to restore another plot of land, but unfortunately the ground is completely dead. Think you could help us out with some farmland blocks?",
   "quest.feywild.spring.quest_03.start.title": "Farmland",
   
   "quest.feywild.spring.quest_04.complete.description": "With that Concentrated Pixie Dust that I gave you, and those Manyullyn Ingots, all thats left is to defeat the Harbinger, and Ancient Remnant.",
   "quest.feywild.spring.quest_04.complete.title": "",
-  "quest.feywild.spring.quest_04.start.description": "You’ve shown such kindness. Queen Mab has requested an audience. Unfortunately, I won't be able to take you there directly. You’re going to need a couple of items from some hard-to-defeat bosses. In total, you’ll need 1 Witherite Ingot, 1 Sandstorm in a Bottle, 3 Manyullyn Ingots, and... oh... um... would you excuse me for just one moment? *the pixie wanders behind the building where you see a flash of glowing light* Here you go, the last ingredient: some Concentrated Pixie Essence.",
+  "quest.feywild.spring.quest_04.start.description": "You’ve shown such kindness. Queen Mab has requested an audience. Unfortunately, I won't be able to take you there directly. You’re going to need a couple of items from some hard-to-defeat bosses. In total, you’ll need 1 Witherite Ingot, 1 Sandstorm in a Bottle, 3 Manyullyn Ingots, and... oh... um... would you excuse me for just one moment? *the pixie wanders behind the building where you see a flash of glowing light* Here you go, this will be the first ingredient you need.  $(n)$(n)$(autumn)Objective: $()Craft some Manyullyn Ingots",
   "quest.feywild.spring.quest_04.start.title": "Mab's Request",
 
 
