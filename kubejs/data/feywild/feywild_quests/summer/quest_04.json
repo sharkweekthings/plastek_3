@@ -14,8 +14,8 @@
     {
       "id": "feywild:item",
       "item": {
-        "count": 1,
-        "item": "feywild:summoning_scroll_bee_knight"
+        "count": 4,
+        "item": "kubejs:concentrated_pixie_essence"
       }
     }
   ],

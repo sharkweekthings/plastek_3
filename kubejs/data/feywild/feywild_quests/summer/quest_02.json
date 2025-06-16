@@ -20,12 +20,11 @@
   },
   "tasks": [
     {
-      "alignment": "summer",
-      "id": "feywild:fey_gift",
+      "amount": 10,
+      "id": "feywild:item_stack",
       "item": {
-        "item": "minecraft:white_wool"
-      },
-      "times": 10
+        "tag": "forge:wool"
+      }
     }
   ]
 }

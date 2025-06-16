@@ -26,7 +26,7 @@
   "quest.feywild.autumn.quest_05.start.description": "I think we should try to fight the Ancient Remnant first and get the Sandstorm in a Bottle.$(n)$(n)$(autumn)Objective: $()Obtain a Sandstorm in a Bottle.",
   "quest.feywild.winter.quest_05.start.title": "Remnant Hunt",
 
-  "quest.feywild.autumn.quest_06.complete.description": "That was NOT easy. I am completely out of breath and all I did was just float here.$(n)$(n)That's it though. You have all the materials now! Let's get back and make the Orb.",
+  "quest.feywild.autumn.quest_06.complete.description": "That was NOT easy.$(n)$(n)I am completely out of breath and all I did was just float here.$(n)$(n)That's it though. You have all the materials now! Let's get back and make the Orb.",
   "quest.feywild.autumn.quest_06.complete.title": "I Have the Power",
   "quest.feywild.autumn.quest_06.start.description": "Now we just need to get a Witherite Ingot from the Harbinger, and we should have all the materials we need to get you to Feywild!$(n)$(n)$(autumn)Objective: $()Acquire a Witherite Ingot.",
   "quest.feywild.autumn.quest_06.start.title": "Harbinger Task",
@@ -74,14 +74,14 @@
   "quest.feywild.spring.quest_02.start.description": "Now that I have a new hoe, we sure could use some seeds and fertilizer. If you're feeling generous, that would really help us.$(n)$(n)$(spring)Objective: $()Give the pixie 10 seeds, and 10 Mystical Fertilizer",
   "quest.feywild.spring.quest_02.start.title": "Nourish the Soil",
 
-  "quest.feywild.spring.quest_03.complete.description": "Wow, that's amazing. Supremium Farmland?! You're an incredible, friend!",
+  "quest.feywild.spring.quest_03.complete.description": "Wow, that's amazing. Supremium Farmland?! You sure are an incredible, friend!",
   "quest.feywild.spring.quest_03.complete.title": "Supremium Farmland?!",
-  "quest.feywild.spring.quest_03.start.description": "With how much you've done already, I hate to ask for more. We are trying to restore another plot of land, but unfortunately, the ground is completely dead. Think you could help us out with some farmland blocks?$(n)$(n)$(spring)Objective: $()Give the pixie 10 Supremium Farmland",
+  "quest.feywild.spring.quest_03.start.description": "With how much you've done already, I hate to ask for more.$(n)$(n)We are trying to restore another plot of land, but unfortunately, the ground is completely dead. Think you could help us out with some farmland blocks?$(n)$(n)$(spring)Objective: $()Give the pixie 10 Supremium Farmland",
   "quest.feywild.spring.quest_03.start.title": "Farmland",
 
   "quest.feywild.spring.quest_04.complete.description": "With the Concentrated Pixie Dust that you just received, and those Manyullyn Ingots, all that's left is to defeat the Harbinger and Ancient Remnant.",
   "quest.feywild.spring.quest_04.complete.title": "Pixie Dust?",
-  "quest.feywild.spring.quest_04.start.description": "You’ve shown me such kindness, and Queen Mab is requesting an audience.$(n)$(n)Unfortunately, you will need some hard to get items to get to Feywild. You'll need 1 Witherite Ingot, 1 Sandstorm in a Bottle, 3 Manyullyn Ingots, and.. oh.. um.. would you excuse me for just one moment?$(n)$(n)$(i)the pixie wanders behind the building where you see a flash of glowing light$(r)$(n)$(n)$(spring)Objective: $()Make 3 Manyullyn Ingots",
+  "quest.feywild.spring.quest_04.start.description": "You’ve shown me such kindness, and Queen Mab is requesting an audience.$(n)$(n)Unfortunately, to get into Feywild you will need some hard to get items. You'll need 1 Witherite Ingot, 1 Sandstorm in a Bottle, 3 Manyullyn Ingots, and.. oh.. um.. would you excuse me for just one moment?$(n)$(n)$(i)the pixie wanders behind the building where you see a flash of glowing light$(r)$(n)$(n)$(spring)Objective: $()Make 3 Manyullyn Ingots",
   "quest.feywild.spring.quest_04.start.title": "Mab's Request",
 
   "quest.feywild.spring.quest_05.complete.description": "Wow, you're really strong! Hopefully Queen Mab sees what I see and chooses to ally with you.",
@@ -89,7 +89,7 @@
   "quest.feywild.spring.quest_05.start.description": "I think we should try to fight the Ancient Remnant first and get the Sandstorm in a Bottle.$(n)$(n)$(spring)Objective: $()Obtain a Sandstorm in a Bottle.",
   "quest.feywild.winter.quest_05.start.title": "Remnant Hunt",
 
-  "quest.feywild.spring.quest_06.complete.description": "That was NOT easy. I am completely out of breath and all I did was just float here.$(n)$(n)That's it though. You have all the materials now! Let's get back and make the Orb.",
+  "quest.feywild.spring.quest_06.complete.description": "That was NOT easy.$(n)$(n)I am completely out of breath and all I did was just float here.$(n)$(n)That's it though. You have all the materials now! Let's get back and make the Orb.",
   "quest.feywild.spring.quest_06.complete.title": "I Have the Power",
   "quest.feywild.spring.quest_06.start.description": "Now we just need to get a Witherite Ingot from the Harbinger, and we should have all the materials we need to get you to Feywild!$(n)$(n)$(spring)Objective: $()Acquire a Witherite Ingot.",
   "quest.feywild.spring.quest_06.start.title": "Harbinger Task",
@@ -169,24 +169,24 @@
 
 
 
-  "quest.feywild.summer.quest_01.complete.description": "Oh, that’s great. It fits even better than before!",
+  "quest.feywild.summer.quest_01.complete.description": "Oh, that’s great. Now it fits even better than before!",
   "quest.feywild.summer.quest_01.complete.title": "Perfect Fit",
-  "quest.feywild.summer.quest_01.start.description": "Gosh, who carries beans around in their pocket, anyway? You're a monster! What’s that...? Cult of the Void, you say? We’re familiar with them. They are the reason that Queen Titania is currently working with Queen Mab. Both queens are stretched really thin right now as they try to clear the corrupted villages to ensure a zombie apocalypse doesn’t start. Hey, I meant to tell you — when you summoned me, my armor was damaged. Do you think you could bring me a Tertium Gemstone so I can repair it?$(n)$(n)$(summer)Objective: $()Give the pixie a Tertium Gemstone.",
+  "quest.feywild.summer.quest_01.start.description": "Gosh, who even carries beans in their pocket? You’re a monster!$(n)$(n)What? Cult of the Void? Yeah, we know them. That’s why Queen Titania and Queen Mab are working together.$(n)$(n)Hey, when you summoned me, my armor got damaged. Could you bring me a Tertium Gemstone to fix it?$(n)$(n)$(summer)Objective: $()Give the pixie a Tertium Gemstone.",
   "quest.feywild.summer.quest_01.start.title": "Repair My Armor",
 
-  "quest.feywild.summer.quest_02.complete.description": "Think I can touch that wool? It looks really fluffy!",
+  "quest.feywild.summer.quest_02.complete.description": "Think I can touch that wool? It looks really fluffy!$(n)$(n)$(i)the pixie reaches her hand out to touch the wool$(r)",
   "quest.feywild.summer.quest_02.complete.title": "SO FLUFFY!",
   "quest.feywild.summer.quest_02.start.description": "I’ve got a hankering for some battle to test it out. Let’s go beat up some sheep!$(n)$(n)$(summer)Objective: $()Obtain 25 Wool.",
   "quest.feywild.summer.quest_02.start.title": "Durable Against Wool",
 
-  "quest.feywild.summer.quest_03.complete.description": "These are too squishy... How about you hold on to these — *hands you the Spider Eyes*",
+  "quest.feywild.summer.quest_03.complete.description": "Those look a bit too squishy. I don't think I want to touch them.",
   "quest.feywild.summer.quest_03.complete.title": "So squishy...",
   "quest.feywild.summer.quest_03.start.description": "I think I saw a few creepy spiders off in that other direction over there. Let’s go beat them up next!$(n)$(n)$(summer)Objective: $()Obtain 15 Spider Eyes.",
   "quest.feywild.summer.quest_03.start.title": "Itsy Bitsy",
 
-  "quest.feywild.summer.quest_04.complete.description": "I can't believe I had to make more essence. Anyway, with that Concentrated Pixie Essence I just gave you, plus the Manyullyn Ingots — all you need is the hard stuff now!",
+  "quest.feywild.summer.quest_04.complete.description": "I can't believe I had to make more essence....$(n)$(n)Anyway, with that Concentrated Pixie Essence I just gave you, plus the Manyullyn Ingots, all you need is the hard stuff now!",
   "quest.feywild.summer.quest_04.complete.title": "Why Is Your Face Red?",
-  "quest.feywild.summer.quest_04.start.description": "I was just speaking with Queen Titania and told her how you really helped me out, and that you are also having problems with the Cult of the Void. She would like to meet with you to potentially form an alliance, but we’re going to need to collect some items before you can get into Feywild. Would you mind turning around for a moment, please? *you hear the pixie making inaudible noises and a swirling sound*$(n)$(n)$(summer)Objective: $()Make 3 Manyullyn Ingots.",
+  "quest.feywild.summer.quest_04.start.description": "I told Queen Titania how you helped me and that you’re fighting the Cult of the Void. She wants to meet and maybe form an alliance. But first, we need some items to get you into Feywild. Would you turn around for a moment? $(i)you hear the pixie mumbling and then a magical swirling sound.%(r)$(n)$(n)$(summer)Objective: $()Make 3 Manyullyn Ingots.",
   "quest.feywild.summer.quest_04.start.title": "Alliance Prep",
 
   "quest.feywild.summer.quest_05.complete.description": "Wow, you're really strong! Hopefully Queen Titania sees what I see and chooses to ally with you.",
@@ -194,7 +194,7 @@
   "quest.feywild.summer.quest_05.start.description": "I think we should try to fight the Ancient Remnant first and get the Sandstorm in a Bottle.$(n)$(n)$(summer)Objective: $()Obtain a Sandstorm in a Bottle.",
   "quest.feywild.winter.quest_05.start.title": "Remnant Hunt",
 
-  "quest.feywild.summer.quest_06.complete.description": "That was NOT easy. I am completely out of breath and all I did was just float here.$(n)$(n)That's it though. You have all the materials now! Let’s get back and make the Orb.",
+  "quest.feywild.summer.quest_06.complete.description": "That was NOT easy.$(n)$(n)I am completely out of breath and all I did was just float here.$(n)$(n)That's it though. You have all the materials now! Let’s get back and make the Orb.",
   "quest.feywild.summer.quest_06.complete.title": "I Have the Power",
   "quest.feywild.summer.quest_06.start.description": "Now we just need to get a Witherite Ingot from the Harbinger, and we should have all the materials we need to get you to Feywild!$(n)$(n)$(summer)Objective: $()Acquire a Witherite Ingot.",
   "quest.feywild.summer.quest_06.start.title": "Harbinger Task",
@@ -224,7 +224,7 @@
   "quest.feywild.summer.quest_11.start.description": "Hey friend! I don't have anything for you at this time.",
   "quest.feywild.summer.quest_11.start.title": "I Don't Have Anything For You",
 
-  "quest.feywild.summer.root.start.description": "Huh, what...? Where am I? Who are you? Can’t a pixie take a nap without being summoned to another realm!? You’d better have a good reason for bringing me here, or I am gonna curse your pepper crops so badly that your children’s children will feel like they are in a famine! Hey... hey, no need to bring out those refried beans! I have a major allergy! Why don’t you just hand those over to me for now, so I can make sure they are disposed of properly.$(n)$(n)$(b;summer)Accepting this quest will bind you to the Summer Court!$()",
+  "quest.feywild.summer.root.start.description": "Huh, what...? Where am I? Who are you? You’d better have a good reason or I’ll curse your crops!$(n)$(n)Hey... don’t bring out those refried beans! I’m allergic! Just hand them over so I can dispose of them.$(n)$(n)$(b;summer)Accepting this quest will bind you to the Summer Court!$()",
   "quest.feywild.summer.root.start.title": "The Summer of Beans",
 
   "quest.feywild.winter.root.start.description": "Are you serious? You summon me here? In the middle of my own business?! Unbelievable! Mortals have no sense of timing. If you're going to interrupt my day, at least make yourself useful and bring me something to clean myself.$(n)$(n)$(b;winter)Accepting this quest will bind you to the Winter Court!$()",
@@ -255,7 +255,7 @@
   "quest.feywild.winter.quest_05.start.description": "I think we should try to fight the Ancient Remnant first and get the Sandstorm in a Bottle.$(n)$(n)$(winter)Objective: $()Obtain a Sandstorm in a Bottle.",
   "quest.feywild.winter.quest_05.start.title": "Remnant Hunt",
 
-  "quest.feywild.winter.quest_06.complete.description": "That was NOT easy. I am completely out of breath and all I did was just float here.$(n)$(n)That's it though. You have all the materials now! Let's get back and make the Orb.",
+  "quest.feywild.winter.quest_06.complete.description": "That was NOT easy.$(n)$(n)I am completely out of breath and all I did was just float here.$(n)$(n)That's it though. You have all the materials now! Let's get back and make the Orb.",
   "quest.feywild.winter.quest_06.complete.title": "I Have the Power",
   "quest.feywild.winter.quest_06.start.description": "Now we just need to get a Witherite Ingot from the Harbinger, and we should have all the materials we need to get you to Feywild!$(n)$(n)$(winter)Objective: $()Acquire a Witherite Ingot.",
   "quest.feywild.winter.quest_06.start.title": "Harbinger Task",

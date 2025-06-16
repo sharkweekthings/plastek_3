@@ -10,7 +10,15 @@
   },
   "icon": "minecraft:cake",
   "reputation": 5,
-  "rewards": [],
+  "rewards": [
+    {
+      "id": "feywild:item",
+      "item": {
+        "count": 4,
+        "item": "kubejs:concentrated_pixie_essence"
+      }
+    }
+  ],
   "start": {
     "description": {
       "translate": "quest.feywild.spring.quest_04.start.description"
