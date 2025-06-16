@@ -10,6 +10,15 @@
   },
   "icon": "feywild:library_bell",
   "reputation": 5,
+  "rewards": [
+    {
+      "id": "feywild:item",
+      "item": {
+        "count": 1,
+        "item": "feywild:pixie_wing_tiara"
+      }
+    }
+  ],
   "start": {
     "description": {
       "translate": "quest.feywild.spring.quest_07.start.description"

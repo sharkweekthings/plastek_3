@@ -9,6 +9,15 @@
     }
   },
   "icon": "minecraft:book",
+  "rewards": [
+    {
+      "id": "feywild:item",
+      "item": {
+        "count": 1,
+        "item": "feywild:pixie_wing_tiara"
+      }
+    }
+  ],
   "reputation": 5,
   "start": {
     "description": {

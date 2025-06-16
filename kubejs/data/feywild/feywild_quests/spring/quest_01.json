@@ -23,9 +23,9 @@
       "alignment": "spring",
       "id": "feywild:fey_gift",
       "item": {
-        "tag": "forge:seeds"
+        "item": "minecraft:diamond_hoe"
       },
-      "times": 10
+      "times": 1
     }
   ]
 }

@@ -20,9 +20,12 @@
   },
   "tasks": [
     {
-      "action": "levitate_sheep",
-      "id": "feywild:special",
-      "times": 3
+      "alignment": "spring",
+      "id": "feywild:fey_gift",
+      "item": {
+        "item": "mysticalagriculture:supremium_farmland"
+      },
+      "times": 10
     }
   ]
 }

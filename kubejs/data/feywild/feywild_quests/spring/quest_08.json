@@ -1,5 +1,5 @@
 {
-  "parent": "feywild:quest_06",
+  "parent": "feywild:quest_07",
   "complete": {
     "description": {
       "translate": "quest.feywild.spring.quest_08.complete.description"
@@ -20,7 +20,8 @@
   },
   "tasks": [
     {
-      "id": "feywild:craft",
+      "amount": 1,
+      "id": "feywild:item_stack",
       "item": {
         "tag": "feywild:pixie_wing_components"
       }

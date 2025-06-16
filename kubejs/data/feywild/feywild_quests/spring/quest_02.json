@@ -20,11 +20,20 @@
   },
   "tasks": [
     {
-      "amount": 3,
-      "id": "feywild:item_stack",
+      "alignment": "spring",
+      "id": "feywild:fey_gift",
       "item": {
-        "item": "minecraft:white_wool"
-      }
+        "tag": "forge:seeds"
+      },
+      "times": 10
+    },
+    {
+      "alignment": "spring",
+      "id": "feywild:fey_gift",
+      "item": {
+        "item": "mysticalagriculture:mystical_fertilizer"
+      },
+      "times": 10
     }
   ]
 }
