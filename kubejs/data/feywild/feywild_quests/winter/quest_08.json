@@ -8,7 +8,7 @@
       "translate": "quest.feywild.winter.quest_08.complete.title"
     }
   },
-  "icon": "minecraft:ender_eye",
+  "icon": "feywild:pixie_wing_tiara",
   "reputation": 5,
   "start": {
     "description": {

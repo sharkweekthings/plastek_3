@@ -20,8 +20,12 @@
   },
   "tasks": [
     {
-      "entity": "minecraft:ender_dragon",
-      "id": "feywild:kill"
+      "alignment": "winter",
+      "id": "feywild:fey_gift",
+      "item": {
+        "item": "kubejs:p3_chat"
+      },
+      "times": 32
     }
   ]
 }

@@ -20,15 +20,12 @@
   },
   "tasks": [
     {
-      "amount": 8,
-      "id": "feywild:item_stack",
+      "alignment": "autumn",
+      "id": "feywild:fey_gift",
       "item": {
-        "item": "minecraft:cookie"
-      }
-    },
-    {
-      "biome": "feywild:golden_seelie_fields",
-      "id": "feywild:biome"
+        "item": "kubejs:p3_chat"
+      },
+      "times": 32
     }
   ]
 }

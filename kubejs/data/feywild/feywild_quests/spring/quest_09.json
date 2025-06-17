@@ -20,8 +20,12 @@
   },
   "tasks": [
     {
-      "type": "minecraft:llama",
-      "id": "feywild:pet"
+      "alignment": "spring",
+      "id": "feywild:fey_gift",
+      "item": {
+        "item": "kubejs:p3_chat"
+      },
+      "times": 32
     }
   ]
 }
