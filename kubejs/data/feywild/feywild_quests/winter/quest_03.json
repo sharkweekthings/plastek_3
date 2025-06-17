@@ -24,7 +24,7 @@
       "alignment": "winter",
       "id": "feywild:fey_gift",
       "item": {
-        "item": "pamhc2foodcore:carrotsoupitem"
+        "tag": "p3:soup"
       },
       "times": 10
     }

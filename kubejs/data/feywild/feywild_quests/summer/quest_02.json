@@ -20,11 +20,12 @@
   },
   "tasks": [
     {
-      "amount": 10,
-      "id": "feywild:item_stack",
+      "alignment": "summer",
+      "id": "feywild:fey_gift",
       "item": {
-        "tag": "forge:wool"
-      }
+        "item": "mysticalagriculture:tertium_gemstone"
+      },
+      "times": 1
     }
   ]
 }

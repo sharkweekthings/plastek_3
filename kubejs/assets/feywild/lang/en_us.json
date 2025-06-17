@@ -16,7 +16,7 @@
   "quest.feywild.autumn.quest_03.start.description": "Ummm, I really hate to ask, but all that fighting took a lot out of me.$(n)$(n)Do you think that Chef Shaun would make me something to eat? I think some chicken tenders would really get my strength back.$(n)$(n)$(autumn)Objective: $()Give the pixie 5 Chicken Tenders.",
   "quest.feywild.autumn.quest_03.start.title": "Chicken Tendies!",
 
-  "quest.feywild.autumn.quest_04.complete.description": "The pixie asks you to look the other way.$(n)$(n)$(i)You hear some grunting, followed by a magical swirling sound.$(r)$(n)$(n)$(i)Okay, here is the Concentrated Pixie Essence.$(n)$(n)With that, and your Manyullyn Ingots, we just need a few more things to make the Teleportation Orb: Feywild.",
+  "quest.feywild.autumn.quest_04.complete.description": "The pixie asks you to look the other way.$(n)$(n)$(i)You hear some grunting, followed by a magical swirling sound.$(r)$(n)$(n)Okay, here is the Concentrated Pixie Essence.$(n)$(n)With that, and your Manyullyn Ingots, we just need a few more things to make the Teleportation Orb: Feywild.",
   "quest.feywild.autumn.quest_04.complete.title": "Almost There!",
   "quest.feywild.autumn.quest_04.start.description": "I've spoken with Queen Titania, and she’s willing to grant you an audience.$(n)$(n)If you want to travel to Feywild, you will need to get: 3 Manyullyn Ingots, 1 Witherite Ingot, 1 Sandstorm in a Bottle, and uh... um... 4 Concentrated Pixie Essence...$(n)$(n)$(autumn)Objective: $()Make 3 Manyullyn Ingots",
   "quest.feywild.autumn.quest_04.start.title": "Just Getting Started",
@@ -81,7 +81,7 @@
 
   "quest.feywild.spring.quest_04.complete.description": "With the Concentrated Pixie Dust that you just received, and those Manyullyn Ingots, all that's left is to defeat the Harbinger and Ancient Remnant.",
   "quest.feywild.spring.quest_04.complete.title": "Pixie Dust?",
-  "quest.feywild.spring.quest_04.start.description": "You’ve shown me such kindness, and Queen Mab is requesting an audience.$(n)$(n)Unfortunately, to get into Feywild you will need some hard to get items. You'll need 1 Witherite Ingot, 1 Sandstorm in a Bottle, 3 Manyullyn Ingots, and.. oh.. um.. would you excuse me for just one moment?$(n)$(n)$(i)the pixie wanders behind the building where you see a flash of glowing light$(r)$(n)$(n)$(spring)Objective: $()Make 3 Manyullyn Ingots",
+  "quest.feywild.spring.quest_04.start.description": "You’ve shown me such kindness, and Queen Mab is requesting an audience.$(n)$(n)Unfortunately, to get into Feywild you will need some hard to get items. You'll need 1 Witherite Ingot, 1 Sandstorm in a Bottle, 3 Manyullyn Ingots, and.. oh.. um.. would you excuse me for just one moment?$(n)$(n)$(i)The pixie wanders behind the building where you see a flash of glowing light$(r)$(n)$(n)$(spring)Objective: $()Make 3 Manyullyn Ingots",
   "quest.feywild.spring.quest_04.start.title": "Mab's Request",
 
   "quest.feywild.spring.quest_05.complete.description": "Wow, you're really strong! Hopefully Queen Mab sees what I see and chooses to ally with you.",
@@ -169,25 +169,25 @@
 
 
 
-  "quest.feywild.summer.quest_01.complete.description": "Oh, that’s great. Now it fits even better than before!",
-  "quest.feywild.summer.quest_01.complete.title": "Perfect Fit",
-  "quest.feywild.summer.quest_01.start.description": "Gosh, who even carries beans in their pocket? You’re a monster!$(n)$(n)Hey, when you summoned me, my armor got damaged. Could you bring me a Tertium Gemstone to fix it? Then maybe we can talk about the Cult of the Void.$(n)$(n)$(summer)Objective: $()Give the pixie a Tertium Gemstone.",
-  "quest.feywild.summer.quest_01.start.title": "Repair My Armor",
+  "quest.feywild.summer.quest_01.complete.description": "$(i)The pixie lets the refried beans drop to the floor and smites them.",
+  "quest.feywild.summer.quest_01.complete.title": "Smite!",
+  "quest.feywild.summer.quest_01.start.description": "Gosh, who even carries beans in their pocket? You’re a monster!$(n)$(n)$(summer)Objective: $()Give the pixie the Refried Beans.",
+  "quest.feywild.summer.quest_01.start.title": "Fork Them Over",
 
-  "quest.feywild.summer.quest_02.complete.description": "Think I can touch that wool? It looks really fluffy!$(n)$(n)$(i)the pixie reaches her hand out to touch the wool$(r)",
-  "quest.feywild.summer.quest_02.complete.title": "SO FLUFFY!",
-  "quest.feywild.summer.quest_02.start.description": "I’ve got a hankering for some battle to test it out. Let’s go beat up some sheep!$(n)$(n)$(summer)Objective: $()Obtain 25 Wool.",
-  "quest.feywild.summer.quest_02.start.title": "Durable Against Wool",
+  "quest.feywild.summer.quest_02.complete.description": "Thanks! Now it fits even better than before.$(n)$(n)Maybe we should try to go fight something so I can break in the new armor! ",
+  "quest.feywild.summer.quest_02.complete.title": "All Repaired",
+  "quest.feywild.summer.quest_02.start.description": "Hey, so... when you summoned me, my armor got damaged in transport.$(n)$(n)Could you bring me a Tertium Gemstone so I can fix it? Then maybe we can talk about the Cult of the Void.$(n)$(n)$(summer)Objective: $()Give the pixie a Tertium Gemstone.",
+  "quest.feywild.summer.quest_02.start.title": "Tertium Gemstone",
 
-  "quest.feywild.summer.quest_03.complete.description": "Those look a bit too squishy. I don't think I want to touch them.",
-  "quest.feywild.summer.quest_03.complete.title": "So squishy...",
-  "quest.feywild.summer.quest_03.start.description": "I think I saw a few creepy spiders off in that other direction over there. Let’s go beat them up next!$(n)$(n)$(summer)Objective: $()Obtain 15 Spider Eyes.",
+  "quest.feywild.summer.quest_03.complete.description": "Those look a bit too squishy. I don't think I want to touch them.$(n)$(n)Why don't you keep them?",
+  "quest.feywild.summer.quest_03.complete.title": "So Squishy...",
+  "quest.feywild.summer.quest_03.start.description": "I think I saw a few creepy spiders off in that other direction over there.$(n)$(n)Let's go beat them up and we can discuss your plans for an alliance.$(n)$(n)$(summer)Objective: $()Obtain 15 Spider Eyes.",
   "quest.feywild.summer.quest_03.start.title": "Itsy Bitsy",
 
-  "quest.feywild.summer.quest_04.complete.description": "I can't believe I had to make more essence....$(n)$(n)Anyway, with that Concentrated Pixie Essence I just gave you, plus the Manyullyn Ingots, all you need is the hard stuff now!",
-  "quest.feywild.summer.quest_04.complete.title": "Why Is Your Face Red?",
-  "quest.feywild.summer.quest_04.start.description": "I told Queen Titania how you helped me and that you’re fighting the Cult of the Void. She wants to meet and maybe form an alliance. But first, we need some items to get you into Feywild. Would you turn around for a moment? $(i)you hear the pixie mumbling and then a magical swirling sound.%(r)$(n)$(n)$(summer)Objective: $()Make 3 Manyullyn Ingots.",
-  "quest.feywild.summer.quest_04.start.title": "Alliance Prep",
+  "quest.feywild.summer.quest_04.complete.description": "Would you turn around for a moment?$(n)$(n)$(i)You hear the pixie mumbling and then a magical swirling sound.$(r)Here, take this.. I cannot BELIEVE I had to make more of that stuff..$(n)$(n)With the essence, and your Manyullyn Ingots, we just need to go defeat some bosses to get the rest!",
+  "quest.feywild.summer.quest_04.complete.title": "Well That's Embarassing",
+  "quest.feywild.summer.quest_04.start.description": "I let Queen Titania know you helped me, and about your fight with the Cult of the Void. She wants to meet you!$(n)$(n)We need some items to get you into Feywild. You will need 3 Manyullyn Ingots, 1 Witherite Ingot, 1 Sandstorm in a Bottle, and 4 Concentrated Pixie Essence.$(n)$(n)$(summer)Objective: $()Make 3 Manyullyn Ingots.",
+  "quest.feywild.summer.quest_04.start.title": "A Few More Items",
 
   "quest.feywild.summer.quest_05.complete.description": "Wow, you're really strong! Hopefully Queen Titania sees what I see and chooses to ally with you.",
   "quest.feywild.summer.quest_05.complete.title": "Let Me Flex",
@@ -230,24 +230,24 @@
   "quest.feywild.winter.root.start.description": "Are you serious? You summon me here? In the middle of my own business?! Unbelievable! Mortals have no sense of timing. If you're going to interrupt my day, at least make yourself useful and bring me something to clean myself.$(n)$(n)$(b;winter)Accepting this quest will bind you to the Winter Court!$()",
   "quest.feywild.winter.root.start.title": "Bad Timing",
 
-  "quest.feywild.winter.quest_01.complete.description": "Three Seashells? Really?! I didn't realize your people were so classy! I think we're going to get along just fine. Tell me, what made you summon me to this realm?",
+  "quest.feywild.winter.quest_01.complete.description": "Three Seashells? Really?! I didn't realize your people were so classy! I think we're going to get along just fine.$(n)$(n)Tell me, what made you summon me to this realm?",
   "quest.feywild.winter.quest_01.complete.title": "High Standards",
   "quest.feywild.winter.quest_01.start.description": "Well? I'm waiting!$(n)$(n)$(winter)Objective: $()Give the Pixie the Three Seashells.",
   "quest.feywild.winter.quest_01.start.title": "Clean as the Sea",
 
   "quest.feywild.winter.quest_02.complete.description": "Oh, this is perfect. We can start regrowing our fields now!",
   "quest.feywild.winter.quest_02.complete.title": "Field of Dreams",
-  "quest.feywild.winter.quest_02.start.description": "The Cult of the Void? I see... We were recently attacked by them as well. Queen Mab and Queen Titania even called for a temporary truce while they clean the lands of Corruption. Unfortunately, it's left our crop supply short. Think you could spare some seeds?$(n)$(n)$(winter)Objective: $()Give the Pixie 10 seeds.",
+  "quest.feywild.winter.quest_02.start.description": "The Cult of the Void? I see... We were recently attacked by them as well. Queen Mab and Queen Titania even called for a temporary truce while they clean the lands of Corruption.$(n)$(n)Unfortunately, it's left our crop supply short. Think you could spare some seeds?$(n)$(n)$(winter)Objective: $()Give the pixie 10 seeds.",
   "quest.feywild.winter.quest_02.start.title": "Corrupted Lands",
 
-  "quest.feywild.winter.quest_03.complete.description": "That sure was delicious. I even shared some with Queen Mab. She says that if you're willing to bring more delicacies like that, she will grant you an audience to discuss a potential alliance.",
+  "quest.feywild.winter.quest_03.complete.description": "That sure was delicious. I even shared some with Queen Mab and our court. She says that if you're willing to bring more delicacies like that, she will grant you an audience to discuss a potential alliance to take on the Cult of the Void.",
   "quest.feywild.winter.quest_03.complete.title": "Field of Dreams",
-  "quest.feywild.winter.quest_03.start.description": "We've started growing the fields again and look forward to our first hot meal in weeks. What? You have some Carrot Soup you would like to give us? I guess it's better than dirt, so thank you!$(n)$(n)$(winter)Objective: $()Give the Pixie 10 Carrot Soup.",
+  "quest.feywild.winter.quest_03.start.description": "We've started growing the fields again and look forward to our first hot meal in weeks.$(n)$(n)What? You have some food you would like to share with us?$(n)$(n)$(winter)Objective: $()Give the Pixie 10 of any soup.",
   "quest.feywild.winter.quest_03.start.title": "Pixies Don't Really Love Carrots",
 
-  "quest.feywild.winter.quest_04.complete.description": "With that Concentrated Pixie Essence I gave you, and the 3 Manyullyn Ingots you made, all you need now is something from an Ancient Remnant and the Harbinger.",
+  "quest.feywild.winter.quest_04.complete.description": "I will be right back.$(n)The pixie blushes, hides behind a barrel as you hear magical swirling sounds, and a glowing light$(r)$(n)$(n)With that Concentrated Pixie Essence I gave you, and the 3 Manyullyn Ingots you made, all you need now is something from an Ancient Remnant and the Harbinger.",
   "quest.feywild.winter.quest_04.complete.title": "Just a Few Things",
-  "quest.feywild.winter.quest_04.start.description": "To get into Feywild, you’re going to need some of these Concentrated Pixie Essences, as well as 1 Witherite Ingot, 1 Sandstorm in a Bottle, and 3 Manyullyn Ingots.$(n)$(n)$(winter)Objective: $()Make 3 Manyullyn Ingots.",
+  "quest.feywild.winter.quest_04.start.description": "To get into Feywild, you’re going to need some Concentrated Pixie Essences, as well as 1 Witherite Ingot, 1 Sandstorm in a Bottle, and 3 Manyullyn Ingots.$(n)$(n)$(winter)Objective: $()Make 3 Manyullyn Ingots.",
   "quest.feywild.winter.quest_04.start.title": "Mab's Invitation",
 
   "quest.feywild.winter.quest_05.complete.description": "Wow, you're really strong! Hopefully Queen Mab sees what I see and chooses to ally with you.",
