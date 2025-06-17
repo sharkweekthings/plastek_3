@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_07.complete.title"
     }
   },
-  "icon": "feywild:library_bell",
+  "icon": "feywild:teleportation_orb",
   "reputation": 5,
   "rewards": [
     {

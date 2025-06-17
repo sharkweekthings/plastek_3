@@ -8,7 +8,7 @@
       "translate": "quest.feywild.summer.quest_05.complete.title"
     }
   },
-  "icon": "feywild:summer_tree_sapling",
+  "icon": "cataclysm:sandstorm_in_a_bottle",
   "reputation": 5,
   "start": {
     "description": {

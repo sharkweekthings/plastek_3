@@ -8,7 +8,7 @@
       "translate": "quest.feywild.summer.quest_07.complete.title"
     }
   },
-  "icon": "minecraft:book",
+  "icon": "feywild:teleportation_orb",
   "rewards": [
     {
       "id": "feywild:item",

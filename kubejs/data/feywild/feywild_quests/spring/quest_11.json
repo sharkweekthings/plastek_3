@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_11.complete.title"
     }
   },
-  "icon": "minecraft:scute",
+  "icon": "kubejs:p3_chat",
   "reputation": 5,
   "start": {
     "description": {

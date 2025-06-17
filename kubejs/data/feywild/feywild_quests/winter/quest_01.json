@@ -8,7 +8,7 @@
       "translate": "quest.feywild.winter.quest_01.complete.title"
     }
   },
-  "icon": "minecraft:rotten_flesh",
+  "icon": "kubejs:three_seashells",
   "reputation": 5,
   "start": {
     "description": {

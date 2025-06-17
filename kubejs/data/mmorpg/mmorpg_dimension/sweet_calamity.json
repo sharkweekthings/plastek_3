@@ -3,7 +3,7 @@
   "dimension_id": "sweet_calamity:sweet_lands",
   "exp_multi": 1.0,
   "max_lvl": 35,
-  "min_lvl": 25,
+  "min_lvl": 20,
   "min_lvl_area": 100,
   "mob_lvl_per_distance": 100,
   "mob_strength_multi": 1.1,

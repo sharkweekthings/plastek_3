@@ -8,7 +8,7 @@
       "translate": "quest.feywild.summer.quest_06.complete.title"
     }
   },
-  "icon": "minecraft:bookshelf",
+  "icon": "cataclysm:witherite_ingot",
   "reputation": 5,
   "start": {
     "description": {

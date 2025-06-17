@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_09.complete.title"
     }
   },
-  "icon": "minecraft:pink_carpet",
+  "icon": "kubejs:p3_chat",
   "reputation": 5,
   "start": {
     "description": {

@@ -8,7 +8,7 @@
       "translate": "quest.feywild.summer.quest_02.complete.title"
     }
   },
-  "icon": "minecraft:iron_ingot",
+  "icon": "mysticalagriculture:tertium_gemstone",
   "reputation": 20,
   "start": {
     "description": {

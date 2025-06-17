@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_02.complete.title"
     }
   },
-  "icon": "minecraft:white_wool",
+  "icon": "mysticalagriculture:mystical_fertilizer",
   "reputation": 5,
   "start": {
     "description": {

@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_03.complete.title"
     }
   },
-  "icon": "minecraft:pink_wool",
+  "icon": "mysticalagriculture:supremium_farmland",
   "reputation": 5,
   "start": {
     "description": {

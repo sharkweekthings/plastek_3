@@ -8,7 +8,7 @@
       "translate": "quest.feywild.summer.quest_03.complete.title"
     }
   },
-  "icon": "minecraft:bee_nest",
+  "icon": "minecraft:spider_eye",
   "reputation": 20,
   "rewards": [],
   "start": {

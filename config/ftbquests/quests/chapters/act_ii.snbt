@@ -1323,7 +1323,7 @@
 				""
 				"You train under the &dChef&r for weeks, returning to him every morning at 3 AM sharp to prepare the kitchen, harvest the garden, and get the courses ready for the day."
 				""
-				"One day, he asks that you try and make some &3Toast&r. You try your hardest, grinding the finest flour—you even tried to use the &3Holy Water&r from the town’s church."
+				"One day, he asks that you try and make some &3Toast&r. You try your hardest, grinding the finest flour. You even tried to use the &3Holy Water&r from the town’s church."
 				""
 				"The &dChef&r looks at you and tells you, \"&cIT'S RAW!&r\" You look down at the &3Toast&r you so excitedly prepared and quickly realize that you didn't even bake the &3dough&r."
 				""
@@ -1355,7 +1355,7 @@
 			description: [
 				"You take the recipe back to town and get to work."
 				""
-				"One night, while you're preparing a dish, you wonder to yourself why you even feel bound to complete this task. You could likely just get up and walk away. However, you also remembered that Shaun made some pretty good eggs that one time&r."
+				"One night, while you're preparing a dish, you wonder to yourself why you even feel bound to complete this task. You could likely just get up and walk away. However, you also remembered that &dShaun&r made some pretty good eggs that one time&r."
 				""
 				"Later that evening, &dShaun&r came over with a few goodies. He was helping you out with some ingredients for the &3Echo Lollipop&r, &3Totem Cake&r, and &3Honeyed Brick&r, but the rest is up to you&r."
 				""
@@ -1514,7 +1514,7 @@
 				""
 				"\"Fascinating,\" he says, followed by what seems to be a very deep apology."
 				""
-				"He clarifies that the &cLeviathan&r was always the guardian of the &eSunken City&r, but it was supposed to be a peaceful, passive beast. Something must have changed it—perhaps something to do with the purple energy it was emitting."
+				"He clarifies that the &cLeviathan&r was always the guardian of the &eSunken City&r, but it was supposed to be a peaceful, passive beast. Something must have changed it, perhaps something to do with the purple energy it was emitting."
 			]
 			icon: {
 				Count: 1
@@ -1542,7 +1542,7 @@
 		{
 			dependencies: ["45117984A00EE197"]
 			description: [
-				"You've made it to the tastiest lands in all of the multidimensional plane of existence — &6Sweet Lands&r!"
+				"You've made it to the tastiest lands in all of the multidimensional plane of existence, &6Sweet Lands&r!"
 				""
 				"You're greeted by an envoy named &dLolli Poppins&r."
 				""
@@ -1584,7 +1584,7 @@
 				""
 				"Along the way, she explained that ultra-violent penguins from the &cCake and Ice Cream Clans&r have invaded her town and declared it theirs."
 				""
-				"She lets you know that, due to the peaceful nature of her people, their only defense was &3Raw Fish&r—but a maniac in purple robes destroyed their supply, which left them defenseless."
+				"She lets you know that, due to the peaceful nature of her people, their only defense was &3Raw Fish&r, but a maniac in purple robes destroyed their supply, which left them defenseless."
 				""
 				"Thinking about the reward that she mentioned, you officially agree to help out the &eIce Cream Village&r."
 			]
@@ -1648,7 +1648,7 @@
 				""
 				"Despite not having fighters, they were able to subdue the small amount of penguins with fish and marched them off a cliff. This was a horrible night in the history of the &6Sweet Lands&r, known as '&eThe Melting&r'."
 				""
-				"The remaining penguins eventually split off into two factions — &eCake&r and &eIce Cream&r — and had been warring with themselves for thousands of years."
+				"The remaining penguins eventually split off into two factions the &eCake&r and &eIce Cream&r clans, they had been warring with themselves for thousands of years."
 				""
 				"Something happened in recent weeks, though, that caused the &cCake&r and &cIce Cream Penguins&r to try and re-take the village that they once called home."
 			]
@@ -1959,9 +1959,9 @@
 				""
 				"As you head back to the portal, you recall that your adventure here was actually to recover some ingredients for &dShaun&r. You inspect the note once again to see what he was looking for."
 				""
-				"&dShaun&r is looking to make a \"&3Magic Charge&r,\" which will require &33 Magic Powder&r — something about a new, interactive recipe that literally explodes with flavor in your mouth."
+				"&dShaun&r is looking to make a \"&3Magic Charge&r,\" which will require &33 Magic Powder&r. Something about a new, interactive recipe that literally explodes with flavor in your mouth."
 				""
-				"You check your pockets and pull out several pieces of &3lint&r, a &3bottle cap&r, a &3worn tennis ball&r, and... oh, here we go — &33 Magic Powder&r! It seems like the &cCaramela&r had them on her when you looted her body."
+				"You check your pockets and pull out several pieces of &3lint&r, a &3bottle cap&r, a &3worn tennis ball&r, and... oh, here we go, &33 Magic Powder&r! It seems like the &cCaramela&r had them on her when you looted her body."
 			]
 			id: "0B332A8866319A7F"
 			rewards: [{
@@ -1996,7 +1996,7 @@
 				""
 				"You both walk over to the tavern together and start to ask around about the other towns."
 				""
-				"Several visitors speak up—some say that they passed through and those towns no longer exist, some have heard only rumor of them being wiped off the FTB map."
+				"Several visitors speak up, some say that they passed through and those towns no longer exist, some have heard only rumors of them being wiped off the FTB world map."
 				""
 				"Nevertheless, you're now certain that what happened at &eYowling Llama Village&r, what happened with &cBob&r, and what happened in the &6Sweet Lands&r was all connected."
 			]
@@ -2315,17 +2315,17 @@
 			description: [
 				"&dRyan&r says that we put about 62 lbs too much on the pigeon. Unfortunately, the pigeon was attacked by a &cPhantom&r because it hadn't slept in days while you gathered materials. He only knows this because he used his nano camera device, which relays the pigeon's every movement and uses a GPS system to track its location."
 				""
-				"He says not to worry—the pigeon was about 8 miles out from home, and he was able to recover most of the materials. The &3Precision Mechanism&r was lost, but &dRyan&r can replace it no problem. He just says you'll owe him one."
+				"He says not to worry, the pigeon was about 8 miles out from home, and he was able to recover most of the materials. The &3Precision Mechanism&r was lost, but &dRyan&r can replace it no problem. He just says you'll owe him one."
 				""
-				"Suddenly, there it was—written clear as day on the piece of paper:"
+				"Suddenly, there it was... written clear as day on the piece of paper:"
 				"\"Bzzztttttttt SLLLLLAMMMMSLAMMMMMM &orandom hydraulic noises&r\"."
 				"&dRyan&r says he just &9Pressed&r the &3Gold Ingot&r for your new &3Precision Mechanism&r."
 				""
-				"The new pigeon, a fledgling just barely able to fly, looks at you with dismay. It likely knows you're responsible for what happened to its mama—it can sense it on you."
+				"The new pigeon, a fledgling just barely able to fly, looks at you with dismay. It likely knows you're responsible for what happened to its mama, it can sense it on you."
 				""
 				"Nevertheless, it does its job and gives you an item called a \"&3Scanner&r\". &dRyan&r says he can't charge it for you, so you'll need to charge the device yourself. He also says you'll need to create the modules that go inside, which can help you locate various blocks, mobs, or fluids."
 				""
-				"As the little pigeon flies off, you look up to wave farewell. It, however, had other plans—and plopped a poop right in your eye."
+				"As the little pigeon flies off, you look up to wave farewell. It, however, had other plans, and plopped a poop right in your eye."
 				""
 				"&oYou now probably have conjunctivitis...&r"
 			]

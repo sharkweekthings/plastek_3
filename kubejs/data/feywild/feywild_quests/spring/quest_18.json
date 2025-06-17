@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_18.complete.title"
     }
   },
-  "icon": "minecraft:carved_pumpkin",
+  "icon": "kubejs:p3_chat",
   "reputation": 5,
   "start": {
     "description": {

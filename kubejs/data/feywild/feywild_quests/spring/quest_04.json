@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_04.complete.title"
     }
   },
-  "icon": "minecraft:cake",
+  "icon": "tconstruct:manyullyn_ingot",
   "reputation": 5,
   "rewards": [
     {

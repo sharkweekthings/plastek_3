@@ -8,7 +8,7 @@
       "translate": "quest.feywild.winter.quest_04.complete.title"
     }
   },
-  "icon": "feywild:soul_shard",
+  "icon": "tconstruct:manyullyn_ingot",
   "reputation": 5,
   "rewards": [
     {

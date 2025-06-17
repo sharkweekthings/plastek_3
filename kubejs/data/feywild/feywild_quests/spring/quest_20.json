@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_20.complete.title"
     }
   },
-  "icon": "feywild:pixie_orb",
+  "icon": "kubejs:p3_chat",
   "repeatable": true,
   "reputation": 5,
   "rewards": [

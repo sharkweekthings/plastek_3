@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_10.complete.title"
     }
   },
-  "icon": "minecraft:potato",
+  "icon": "kubejs:p3_chat",
   "reputation": 5,
   "start": {
     "description": {

@@ -2,7 +2,7 @@
   "all_drop_multi": 1.0,
   "dimension_id": "blue_skies:everbright",
   "exp_multi": 1.0,
-  "max_lvl": 45,
+  "max_lvl": 40,
   "min_lvl": 30,
   "min_lvl_area": 100,
   "mob_lvl_per_distance": 100,

@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_12.complete.title"
     }
   },
-  "icon": "minecraft:pearlescent_froglight",
+  "icon": "kubejs:p3_chat",
   "reputation": 5,
   "start": {
     "description": {

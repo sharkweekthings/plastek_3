@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_01.complete.title"
     }
   },
-  "icon": "minecraft:chest",
+  "icon": "minecraft:diamond_hoe",
   "reputation": 5,
   "start": {
     "description": {

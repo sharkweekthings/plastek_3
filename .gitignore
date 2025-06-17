@@ -114,6 +114,7 @@ config/epicknights
 config/equipmentcompare-common.toml
 config/explorerscompass-client.toml
 config/explorerscompass-common.toml
+config/immersive_armors.json
 config/extremereactors
 config/extremesoundmuffler-client.toml
 config/fastbench.cfg

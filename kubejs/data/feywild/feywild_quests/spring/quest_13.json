@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_13.complete.title"
     }
   },
-  "icon": "minecraft:sweet_berries",
+  "icon": "kubejs:p3_chat",
   "reputation": 5,
   "start": {
     "description": {

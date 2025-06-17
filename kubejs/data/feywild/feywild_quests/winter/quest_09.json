@@ -8,7 +8,7 @@
       "translate": "quest.feywild.winter.quest_09.complete.title"
     }
   },
-  "icon": "minecraft:dragon_head",
+  "icon": "kubejs:p3_chat",
   "reputation": 5,
   "start": {
     "description": {

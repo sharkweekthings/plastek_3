@@ -8,7 +8,7 @@
       "translate": "quest.feywild.spring.quest_16.complete.title"
     }
   },
-  "icon": "feywild:honeycomb",
+  "icon": "kubejs:p3_chat",
   "reputation": 5,
   "start": {
     "description": {

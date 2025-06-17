@@ -59,7 +59,7 @@
 				""
 				"She says that the last time she felt this&r specific magical energy was when the &6Astral Dimension&r was created. However, this feels wrong... warped... &eVoid Energy&r must be involved."
 				""
-				"&dThe Queen&r seems weaker as she tells you that she can feel her magic starting to drain—this time at a more rapid pace."
+				"&dThe Queen&r seems weaker as she tells you that she can feel her magic starting to drain, this time at a more rapid pace."
 				""
 				"She suspects that the &cCult of the Void&r must have used some of the magic they collected to create another dimension in order to keep harnessing the &ePixie Magic&r."
 			]
@@ -291,7 +291,7 @@
 				""
 				"For the &ePortal Frame&r, just construct it in the same basic shape as a &eNether Portal&r."
 				""
-				"&dThe Queen&r is requesting that you enter the dimension and take some samples of the wildlife and terrain—if there is any."
+				"&dThe Queen&r is requesting that you enter the dimension and take some samples of the wildlife and terrain, if there is any."
 				""
 				"&5&oThe monsters inside Setback will start at level 55&r&r."
 			]
@@ -833,7 +833,7 @@
 				""
 				"As the energy clears, the dragon emerges from the cloud of smoke in the sky."
 				""
-				"You see the dragon's appearance has changed. When you saw it moments ago, it had 1 head—now it has 3. Clearly, the cult was successful in merging the &cChaos Dragon's&r soul to the &cEnder Dragon&r."
+				"You see the dragon's appearance has changed. When you saw it moments ago, it had 1 head, now it has 3. Clearly, the cult was successful in merging the &cChaos Dragon's&r soul to the &cEnder Dragon&r."
 				""
 				"You take another deep breath, and try to swallow, but your mouth is dry. Then, you draw your weapon and prepare yourself for the battle."
 				""
@@ -886,7 +886,7 @@
 				""
 				"As you emerge on the other side&r, your feet firmly on the &3End Stone&r, you hear a roaring of a beast you never imagined yourself seeing face to face."
 				""
-				"You take a deep breath, your weapon at your side—ready to do battle with the &cEnder Dragon&r."
+				"You take a deep breath, your weapon at your side, ready to do battle with the &cEnder Dragon&r."
 			]
 			icon: {
 				Count: 1
