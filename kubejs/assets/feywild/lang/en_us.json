@@ -171,7 +171,7 @@
 
   "quest.feywild.summer.quest_01.complete.description": "Oh, that’s great. Now it fits even better than before!",
   "quest.feywild.summer.quest_01.complete.title": "Perfect Fit",
-  "quest.feywild.summer.quest_01.start.description": "Gosh, who even carries beans in their pocket? You’re a monster!$(n)$(n)What? Cult of the Void? Yeah, we know them. That’s why Queen Titania and Queen Mab are working together.$(n)$(n)Hey, when you summoned me, my armor got damaged. Could you bring me a Tertium Gemstone to fix it?$(n)$(n)$(summer)Objective: $()Give the pixie a Tertium Gemstone.",
+  "quest.feywild.summer.quest_01.start.description": "Gosh, who even carries beans in their pocket? You’re a monster!$(n)$(n)Hey, when you summoned me, my armor got damaged. Could you bring me a Tertium Gemstone to fix it? Then maybe we can talk about the Cult of the Void.$(n)$(n)$(summer)Objective: $()Give the pixie a Tertium Gemstone.",
   "quest.feywild.summer.quest_01.start.title": "Repair My Armor",
 
   "quest.feywild.summer.quest_02.complete.description": "Think I can touch that wool? It looks really fluffy!$(n)$(n)$(i)the pixie reaches her hand out to touch the wool$(r)",
@@ -224,7 +224,7 @@
   "quest.feywild.summer.quest_11.start.description": "Hey friend! I don't have anything for you at this time.",
   "quest.feywild.summer.quest_11.start.title": "I Don't Have Anything For You",
 
-  "quest.feywild.summer.root.start.description": "Huh, what...? Where am I? Who are you? You’d better have a good reason or I’ll curse your crops!$(n)$(n)Hey... don’t bring out those refried beans! I’m allergic! Just hand them over so I can dispose of them.$(n)$(n)$(b;summer)Accepting this quest will bind you to the Summer Court!$()",
+  "quest.feywild.summer.root.start.description": "Huh, what...? Where am I? Who are you? You’d better have a good reason or I’ll curse your crops!$(n)$(n)I'm kidding! Don’t bring out the refried beans! I’m allergic! Just hand them over so I can dispose of them.$(n)$(n)$(b;summer)Accepting this quest will bind you to the Summer Court!$()",
   "quest.feywild.summer.root.start.title": "The Summer of Beans",
 
   "quest.feywild.winter.root.start.description": "Are you serious? You summon me here? In the middle of my own business?! Unbelievable! Mortals have no sense of timing. If you're going to interrupt my day, at least make yourself useful and bring me something to clean myself.$(n)$(n)$(b;winter)Accepting this quest will bind you to the Winter Court!$()",
