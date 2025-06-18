@@ -5,11 +5,14 @@
 
 // priority: 1000
 
+//
+ServerEvents.tags('worldgen/biome', event => {
+//
+  event.add('sweet_calamity:is_sweet_calamity', ['sweet_calamity:candy_forest', 'sweet_calamity:cloying_fields', 'sweet_calamity:sweet_plains', 'sweet_calamity:sticky_grove'])
+})
+
 ServerEvents.tags('item', event => {
-
-
 // REMOVE
-
 event.remove('feywild:pixie_wing_components', 
 [
   'feywild:pixie_wing_tiara'

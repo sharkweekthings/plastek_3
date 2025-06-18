@@ -1,0 +1,27 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any",
+    "values": [
+      "#feywild:is_feywild"
+    ]
+},  "spawners": [
+    {
+      "type": "ba_bt:bt_cultist",
+      "weight": 95,
+      "minCount": 1,
+      "maxCount": 1,
+      "conditions": [
+        {
+          "type": "forge:height",
+          "min_inclusive": 90,
+          "max_inclusive": 150
+        },
+        {
+          "type": "forge:light_level",
+          "min_inclusive": 8
+        }
+      ]
+    }
+  ]
+}
