@@ -220,6 +220,8 @@
 				"&dSetback&r - 50 to 65"
 				"&0The End&r - 60 to 65"
 				""
+				"&6Battle Towers&r - Available at all levels, located in the &6Overworld&r. Break enough spawners in the various floors to unlock a chest. Collect &33 Land Tower&r keys or &32 Ocean Tower&r keys, place them in the &9Monolith&r atop the tower to defeat the &cGolem&r, and claim your treasure! Think fast though, cause they will explode after you loot the &9chest&r!"
+				""
 				"&6Dimensional Dungeons&r, &6Ancient Obelisk&r, &6The Harvest&r, and &6Dungeon Realm&r should be available as early as level 1, but you may need to make the respective &9Portal&r, &9Obelisk&r, or &9Map Device&r to use anything you find. "
 				""
 				"You can start running &6Mine and Slash&r &2maps at level 50&r. "
@@ -231,7 +233,6 @@
 			}
 			id: "3F93CF6B70529166"
 			shape: "square"
-			subtitle: "UPDATE ME BEFORE RELEASE"
 			tasks: [{
 				id: "68736F50E343B879"
 				title: "Ok"

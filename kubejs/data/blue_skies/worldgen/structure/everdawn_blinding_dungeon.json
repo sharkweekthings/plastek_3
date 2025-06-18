@@ -14,8 +14,8 @@
       "spawns": [
         {
           "type": "minecraft:witch",
-          "maxCount": 10,
-          "minCount": 3,
+          "maxCount": 3,
+          "minCount": 1,
           "weight": 2
         }
       ]
