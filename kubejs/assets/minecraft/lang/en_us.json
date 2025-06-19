@@ -1,0 +1,28 @@
+{
+"entity.minecraft.vindicator": "Melee Cultist",
+  "item.minecraft.vindicator_spawn_egg": "Melee Cultist Spawn Egg",
+  "subtitles.entity.vindicator.ambient": "Melee Cultist mutters",
+  "subtitles.entity.vindicator.celebrate": "Melee Cultist cheers",
+  "subtitles.entity.vindicator.death": "Melee Cultist dies",
+  "subtitles.entity.vindicator.hurt": "Melee Cultist hurts",
+
+  "entity.minecraft.evoker": "Cult Lord",
+  "item.minecraft.evoker_spawn_egg": "Cult Lord Spawn Egg",
+  "subtitles.entity.evoker.ambient": "Cult Lord murmurs",
+  "subtitles.entity.evoker.celebrate": "Cult Lord cheers",
+  "subtitles.entity.evoker.death": "Cult Lord dies",
+  "subtitles.entity.evoker.hurt": "Cult Lord hurts",
+  "subtitles.entity.evoker.prepare_attack": "Cult Lord prepares attack",
+  "subtitles.entity.evoker.prepare_summon": "Cult Lord prepares summoning",
+  "subtitles.entity.evoker.prepare_wololo": "Cult Lord prepares charming",
+  "entity.minecraft.evoker_fangs": "Cultist Fangs",
+
+  "entity.minecraft.witch": "Caster Cultist",
+  "item.minecraft.witch_spawn_egg": "Caster Cultist Spawn Egg",
+  "subtitles.entity.witch.ambient": "Caster Cultist giggles",
+  "subtitles.entity.witch.celebrate": "Caster Cultist cheers",
+  "subtitles.entity.witch.death": "Caster Cultist dies",
+  "subtitles.entity.witch.drink": "Caster Cultist drinks",
+  "subtitles.entity.witch.hurt": "Caster Cultist hurts",
+  "subtitles.entity.witch.throw": "Caster Cultist throws"
+}

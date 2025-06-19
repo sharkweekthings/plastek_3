@@ -41,5 +41,5 @@
 	# This does not make them spawn, it just allows them to pass the filter.
 	# Example: ["minecraft:bee", "moolands:awful_cow", "alexs_mobs:grizzly_bear"]
 	# Default: []
-	allowed_mobs_for_spawning = ["mowziesmobs:frostmaw", "born_in_chaos_v1:bonescaller", "born_in_chaos_v1:missioner", "minecraft:witch", "ba_bt:bt_cultist"]
+	allowed_mobs_for_spawning = ["mowziesmobs:frostmaw", "born_in_chaos_v1:bonescaller", "born_in_chaos_v1:missioner", "minecraft:witch", "ba_bt:bt_cultist", "minecraft:vindicator"]
 

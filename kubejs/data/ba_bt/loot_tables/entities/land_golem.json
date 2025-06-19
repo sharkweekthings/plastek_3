@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ba_bt:guardian_eye_land"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1.0
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "mmorpg:currency/affix_common_reroll" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/affix_number_reroll" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/affix_random_mythic_reroll" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/affix_tier_up_down" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/chaos_orb" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/enchant_reroll" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/entangled_affix_upgrade" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/entangled_potential" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/entangled_quality" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/entangled_unique_reroll" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/extract_gem" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/extract_rune" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/force_soul_tag_armor_stat" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/force_soul_tag_dodge_stat" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/force_soul_tag_magic_shield_stat" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/jewel_corrupt" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/jewel_sure_upgrade" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/jewel_upgrade_affix" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/level_up_orb" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/map_rarity_upgrade" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/orb_of_quality" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/orb_of_relief" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/socket_adder" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/unique_reroll" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/up_corrupt_affix" },
+        { "type": "minecraft:item", "name": "mmorpg:currency/upgrade_common_affix" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/amethyst/5" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/amethyst/6" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/azurite/5" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/azurite/6" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/emerald/5" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/emerald/6" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/garnet/5" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/garnet/6" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/opal/5" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/opal/6" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/ruby/5" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/ruby/6" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/sapphire/5" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/sapphire/6" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/topaz/5" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/topaz/6" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/tourmaline/5" },
+        { "type": "minecraft:item", "name": "mmorpg:gems/tourmaline/6" },
+        { "type": "minecraft:item", "name": "mmorpg:stone/0" },
+        { "type": "minecraft:item", "name": "mmorpg:stone/1" },
+        { "type": "minecraft:item", "name": "mmorpg:stone/2" },
+        { "type": "minecraft:item", "name": "mmorpg:stone/3" },
+        { "type": "minecraft:item", "name": "mmorpg:stone/4" },
+        { "type": "minecraft:item", "name": "mmorpg:stone/5" }
+      ]
+    }
+  ],
+  "random_sequence": "ba_bt:entities/land_golem"
+}

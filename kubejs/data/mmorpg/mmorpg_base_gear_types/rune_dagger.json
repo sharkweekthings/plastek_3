@@ -1,4 +1,4 @@
-1{
+{
   "base_stats": [
     {
       "type": "FLAT",
@@ -16,17 +16,17 @@
       "weight": 1000
     },
     {
-      "item_id": "samuraidynasty:wakizashi",
+      "item_id": "samurai_dynasty:wakizashi",
       "min_rar": "runeword",
       "weight": 1000
     },
     {
-      "item_id": "samuraidynasty:kunai",
+      "item_id": "samurai_dynasty:kunai",
       "min_rar": "runeword",
       "weight": 1000
     },
     {
-      "item_id": "samuraidynasty:sai",
+      "item_id": "samurai_dynasty:sai",
       "min_rar": "runeword",
       "weight": 1000
     },

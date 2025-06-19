@@ -19,13 +19,13 @@
       "item_id": "spartanweaponry:electrum_battleaxe",
       "min_rar": "runeword",
       "weight": 1000
-    },
+    }
   ],
   "req": {
     "base_req": {},
     "scaling_req": {
       "strength": 0.15,
-      "intelligence": 0.15,
+      "intelligence": 0.15
     }
   },
   "style": "STR",

@@ -72,11 +72,6 @@
       "weight": 1000
     },
     {
-      "item_id": "samurai_dynasty:iron_ninja_leggings",
-      "min_rar": "uncommon",
-      "weight": 1000
-    },
-    {
       "item_id": "magistuarmory:platemail_leggings",
       "min_rar": "uncommon",
       "weight": 1000
@@ -98,11 +93,6 @@
     },
     {
       "item_id": "samurai_dynasty:white_samurai_leggings",
-      "min_rar": "rare",
-      "weight": 1000
-    },
-    {
-      "item_id": "samurai_dynasty:steel_ninja_leggings",
       "min_rar": "rare",
       "weight": 1000
     },
@@ -143,11 +133,6 @@
     },
     {
       "item_id": "samurai_dynasty:gold_samurai_leggings",
-      "min_rar": "epic",
-      "weight": 1000
-    },
-    {
-      "item_id": "samurai_dynasty:gold_ninja_leggings",
       "min_rar": "epic",
       "weight": 1000
     },

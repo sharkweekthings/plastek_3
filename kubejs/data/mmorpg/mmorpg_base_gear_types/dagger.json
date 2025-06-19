@@ -21,11 +21,6 @@
       "weight": 1000
     },
     {
-      "item_id": "aquaculture:wooden_fillet_knife",
-      "min_rar": "common",
-      "weight": 1000
-    },
-    {
       "item_id": "better_weaponry:wooden_dagger",
       "min_rar": "common",
       "weight": 1000
@@ -57,11 +52,6 @@
     },
     {
       "item_id": "divine_weaponry:stone_dagger",
-      "min_rar": "uncommon",
-      "weight": 1000
-    },
-    {
-      "item_id": "aquaculture:stone_fillet_knife",
       "min_rar": "uncommon",
       "weight": 1000
     },
@@ -101,11 +91,6 @@
       "weight": 1000
     },
     {
-      "item_id": "aquaculture:iron_fillet_knife",
-      "min_rar": "rare",
-      "weight": 1000
-    },
-    {
       "item_id": "better_weaponry:iron_dagger",
       "min_rar": "rare",
       "weight": 1000
@@ -141,11 +126,6 @@
       "weight": 1000
     },
     {
-      "item_id": "aquaculture:gold_fillet_knife",
-      "min_rar": "epic",
-      "weight": 1000
-    },
-    {
       "item_id": "better_weaponry:golden_dagger",
       "min_rar": "epic",
       "weight": 1000
@@ -157,11 +137,6 @@
     },
     {
       "item_id": "better_weaponry:golden_sai",
-      "min_rar": "epic",
-      "weight": 1000
-    },
-    {
-      "item_id": "samuraidynasty:sai",
       "min_rar": "epic",
       "weight": 1000
     },
@@ -182,11 +157,6 @@
     },
     {
       "item_id": "divine_weaponry:diamond_dagger",
-      "min_rar": "legendary",
-      "weight": 1000
-    },
-    {
-      "item_id": "aquaculture:diamond_fillet_knife",
       "min_rar": "legendary",
       "weight": 1000
     },
@@ -222,11 +192,6 @@
     },
     {
       "item_id": "divine_weaponry:netherite_dagger",
-      "min_rar": "mythic",
-      "weight": 1000
-    },
-    {
-      "item_id": "aquaculture:neptunium_fillet_knife",
       "min_rar": "mythic",
       "weight": 1000
     },

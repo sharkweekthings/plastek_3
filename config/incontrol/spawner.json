@@ -1,0 +1,53 @@
+[
+  {
+    "mob": ["ba_bt:bt_cultist", "minecraft:vindicator"],
+    "persecond": 0.3,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "blue_skies:everbright",
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": 80,
+      "maxheight": 300,
+      "maxthis": 100
+    }
+  },
+  {
+    "mob": ["ba_bt:bt_cultist", "minecraft:vindicator"],
+    "persecond": 0.3,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "feywild:feywild",
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": 80,
+      "maxheight": 300,
+      "maxthis": 100
+    }
+  },
+  {
+    "mob": ["ba_bt:bt_cultist", "minecraft:vindicator"],
+    "persecond": 0.3,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "sweet_calamity:sweet_lands",
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": 50,
+      "maxheight": 300,
+      "maxthis": 100
+    }
+  }
+]
