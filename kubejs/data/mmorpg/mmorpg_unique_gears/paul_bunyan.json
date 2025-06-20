@@ -1,7 +1,7 @@
 {
   "base_gear": "great_axe",
   "flavor_text": "",
-  "force_item_id": "",
+  "force_item_id": "spartanweaponry:platinum_battleaxe",
   "guid": "paul_bunyan",
   "league": "",
   "min_drop_lvl": 1,
@@ -12,8 +12,8 @@
   "unique_stats": [
     {
       "type": "PERCENT",
-      "max": 200.0,
-      "min": 40.0,
+      "max": 74.0,
+      "min": 31.0,
       "stat": "gear_weapon_damage"
     },
     {

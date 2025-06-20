@@ -1,0 +1,51 @@
+{
+  "base_gear": "great_hammer",
+  "flavor_text": "",
+  "force_item_id": "spartanweaponry:platinum_warhammer",
+  "guid": "ashen_maul",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 59.0,
+      "min": 18.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 25.0,
+      "min": 15.0,
+      "stat": "armor"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 14.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 21.0,
+      "min": 15.0,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "all_physical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 19.0,
+      "min": 11.0,
+      "stat": "melee_cdr"
+    }
+  ],
+  "weight": 1000
+}

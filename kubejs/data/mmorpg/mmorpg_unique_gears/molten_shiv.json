@@ -1,0 +1,39 @@
+{
+  "base_gear": "dagger",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:dagger_7",
+  "guid": "molten_shiv",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 96.0,
+      "min": 67.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 21.0,
+      "min": 15.0,
+      "stat": "all_fire_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "PERCENT",
+      "max": 21.0,
+      "min": 11.0,
+      "stat": "all_elemental_damage"
+    }
+  ],
+  "weight": 1000
+}

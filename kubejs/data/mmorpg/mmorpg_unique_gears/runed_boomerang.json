@@ -1,0 +1,45 @@
+{
+  "base_gear": "boomerang",
+  "flavor_text": "",
+  "force_item_id": "spartanweaponry:platinum_boomerang",
+  "guid": "runed_boomerang",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 93.0,
+      "min": 72.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 11.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 14.0,
+      "stat": "projectile_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 11.0,
+      "stat": "move_speed"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 15.0,
+      "stat": "faster_projectiles"
+    }
+  ],
+  "weight": 1000
+}

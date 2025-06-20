@@ -1,0 +1,45 @@
+{
+  "base_gear": "cloth_gloves",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "ashen_binds",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 79.0,
+      "min": 59.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 14.0,
+      "stat": "move_speed"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 5.0,
+      "stat": "faster_projectiles"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 8.0,
+      "stat": "projectile_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 14.0,
+      "stat": "critical_damage"
+    }
+  ],
+  "weight": 1000
+}

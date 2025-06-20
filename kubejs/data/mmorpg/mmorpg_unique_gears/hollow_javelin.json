@@ -1,0 +1,45 @@
+{
+  "base_gear": "spear",
+  "flavor_text": "",
+  "force_item_id": "spartanweaponry:platinum_javelin",
+  "guid": "hollow_javelin",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 67.0,
+      "min": 25.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 13.0,
+      "stat": "all_elemental_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 8.0,
+      "stat": "mana_on_hit_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 17.0,
+      "min": 7.0,
+      "stat": "all_water_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 9.0,
+      "min": 7.0,
+      "stat": "mana_regen"
+    }
+  ],
+  "weight": 1000
+}

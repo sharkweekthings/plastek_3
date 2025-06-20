@@ -1,0 +1,45 @@
+{
+  "base_gear": "axe",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:axe_7",
+  "guid": "verdant_chopper",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 92.0,
+      "min": 20.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 8.0,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "PERCENT",
+      "max": 17.0,
+      "min": 9.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 10.0,
+      "stat": "armor"
+    },
+    {
+      "type": "FLAT",
+      "max": 19.0,
+      "min": 10.0,
+      "stat": "all_physical_damage"
+    }
+  ],
+  "weight": 1000
+}

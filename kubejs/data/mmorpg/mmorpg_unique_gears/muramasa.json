@@ -1,7 +1,7 @@
 {
   "base_gear": "katana",
   "flavor_text": "",
-  "force_item_id": "",
+  "force_item_id": "divine_weaponry:apophis_katana",
   "guid": "muramasa",
   "league": "",
   "min_drop_lvl": 1,
@@ -12,13 +12,13 @@
   "unique_stats": [
     {
       "type": "PERCENT",
-      "max": 180.0,
-      "min": 40.0,
+      "max": 92.0,
+      "min": 72.0,
       "stat": "gear_weapon_damage"
     },
     {
-      "type": "PERCENT",
-      "max": 10.0,
+      "type": "FLAT",
+      "max": 20.0,
       "min": 5.0,
       "stat": "critical_hit"
     },

@@ -1,0 +1,39 @@
+{
+  "base_gear": "spear",
+  "flavor_text": "",
+  "force_item_id": "spartanweaponry:platinum_lance",
+  "guid": "scarlet_lance",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 91.0,
+      "min": 46.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 14.0,
+      "min": 5.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 7.0,
+      "stat": "all_physical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 7.0,
+      "stat": "lifesteal"
+    }
+  ],
+  "weight": 1000
+}

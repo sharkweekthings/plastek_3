@@ -1,7 +1,7 @@
 {
   "base_gear": "sword",
   "flavor_text": "",
-  "force_item_id": "",
+  "force_item_id": "roe_weapons:sword_7",
   "guid": "excalibur",
   "league": "",
   "min_drop_lvl": 1,
@@ -12,8 +12,8 @@
   "unique_stats": [
     {
       "type": "PERCENT",
-      "max": 150.0,
-      "min": 25.0,
+      "max": 45.0,
+      "min": 17.0,
       "stat": "gear_weapon_damage"
     },
     {

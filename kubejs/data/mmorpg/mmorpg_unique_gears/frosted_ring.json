@@ -1,0 +1,51 @@
+{
+  "base_gear": "ring",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "frosted_ring",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 46.0,
+      "min": 26.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 7.0,
+      "stat": "melee_cdr"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 13.0,
+      "stat": "armor"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 8.0,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "all_water_damage"
+    }
+  ],
+  "weight": 1000
+}

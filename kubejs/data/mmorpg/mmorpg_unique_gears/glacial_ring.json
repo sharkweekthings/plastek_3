@@ -1,0 +1,51 @@
+{
+  "base_gear": "ring",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "glacial_ring",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 56.0,
+      "min": 34.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 17.0,
+      "min": 9.0,
+      "stat": "all_water_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 19.0,
+      "min": 9.0,
+      "stat": "armor"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 5.0,
+      "stat": "melee_cdr"
+    },
+    {
+      "type": "PERCENT",
+      "max": 16.0,
+      "min": 9.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 6.0,
+      "stat": "lifesteal"
+    }
+  ],
+  "weight": 1000
+}

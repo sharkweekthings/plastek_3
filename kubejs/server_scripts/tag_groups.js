@@ -27,6 +27,8 @@ event.remove('mmorpg:dagger',
 
 event.remove('mmorpg:sword', 
 [  
+  'samurai_dynasty:kunai',
+  'divine_weaponry:mjollnir_hammer',
   'spartanweaponry:aluminium_dagger',
   'spartanweaponry:aluminium_parrying_dagger',
   'spartanweaponry:aluminum_dagger',
@@ -725,6 +727,7 @@ event.add('mmorpg:great_sword',
 
 event.add('mmorpg:hammer', 
 [
+  'divine_weaponry:mjollnir_hammer',
   'aether:hammer_of_kingbdogz',
   'spartanweaponry:aluminum_battle_hammer',
   'divine_weaponry:wooden_hammer',
@@ -915,7 +918,7 @@ event.add('mmorpg:dagger',
   'roe_weapons:katar',
   'samurai_dynasty:kama',
   'samurai_dynasty:kama_netherite',
-  'samurai_dynasty:netherite_kunai',
+  'samurai_dynasty:kunai_netherite',
   'samurai_dynasty:sai',
   'samurai_dynasty:sai_netherite',
   'spartanweaponry:aluminium_dagger',
@@ -1103,6 +1106,9 @@ event.add('mmorpg:short_sword',
 
 event.add('mmorpg:spear', 
 [
+'cataclysm:coral_spear',
+'cataclysm:ancient_spear',
+'mowziesmobs:spear',
 'spartanweaponry:tin_lance',
 'spartanweaponry:bronze_lance',
 'spartanweaponry:steel_lance',
@@ -1189,7 +1195,19 @@ event.add('mmorpg:spear',
 'samurai_dynasty:tonbukiri_netherite',
 'samurai_dynasty:kamayari_netherite',
 'aether:valkyrie_lance',
-'born_in_chaos_v1:trident_hayfork'
+'born_in_chaos_v1:trident_hayfork',
+'spartanweaponry:copper_javelin',
+'spartanweaponry:tin_javelin',
+'spartanweaponry:bronze_javelin',
+'spartanweaponry:steel_javelin',
+'spartanweaponry:silver_javelin',
+'spartanweaponry:electrum_javelin',
+'spartanweaponry:lead_javelin',
+'spartanweaponry:nickel_javelin',
+'spartanweaponry:invar_javelin',
+'spartanweaponry:constantan_javelin',
+'spartanweaponry:platinum_javelin',
+'spartanweaponry:aluminum_javelin'
 ])
 
 event.add('mmorpg:katana', 
@@ -1353,7 +1371,7 @@ event.add('mmorpg:halberd',
   'spartanweaponry:iron_halberd',
   'spartanweaponry:lead_halberd',
   'spartanweaponry:netherite_halberd',
-  'spartanweaponry:nickle_halberd',
+  'spartanweaponry:nickel_halberd',
   'spartanweaponry:platinum_halberd',
   'spartanweaponry:silver_halberd',
   'spartanweaponry:steel_halberd',
@@ -1362,7 +1380,35 @@ event.add('mmorpg:halberd',
   'spartanweaponry:wooden_halberd'
 ])
 
-event.add('mmorpg:throwing_dagger', 
+event.add('mmorpg:lance', 
+[
+  'bosses_of_mass_destruction:earthdive_spear',
+  'blue_skies:bluebright_spear',
+  'blue_skies:starlit_spear',
+  'blue_skies:frostbright_spear',
+  'blue_skies:lunar_spear',
+  'blue_skies:dusk_spear',
+  'blue_skies:maple_spear',
+  'blue_skies:comet_spear',
+  'blue_skies:soulbound_spear'
+])
+
+event.add('mmorpg:kunai', 
+[
+  'roe_weapons:cursed_kunai_dagger',
+  'roe_weapons:kunai_0',
+  'roe_weapons:kunai_1',
+  'roe_weapons:kunai_2',
+  'roe_weapons:kunai_3',
+  'roe_weapons:kunai_4',
+  'roe_weapons:kunai_5',
+  'roe_weapons:kunai_6',
+  'roe_weapons:kunai_7',
+  'samurai_dynasty:kunai',
+  'samurai_dynasty:kunai_netherite'
+])
+
+event.add('mmorpg:shuriken', 
 [
   'better_weaponry:amethyst_shuriken',
   'better_weaponry:copper_shuriken',
@@ -1380,17 +1426,29 @@ event.add('mmorpg:throwing_dagger',
   'divine_weaponry:netherite_shuriken',
   'divine_weaponry:stone_shuriken',
   'divine_weaponry:wooden_shuriken',
-  'roe_weapons:cursed_kunai_dagger',
-  'roe_weapons:kunai_0',
-  'roe_weapons:kunai_1',
-  'roe_weapons:kunai_2',
-  'roe_weapons:kunai_3',
-  'roe_weapons:kunai_4',
-  'roe_weapons:kunai_5',
-  'roe_weapons:kunai_7',
-  'samurai_dynasty:kunai',
-  'samurai_dynasty:netherite_kunai',
   'samurai_dynasty:shuriken'
+])
+
+event.add('mmorpg:throwing_dagger', 
+[
+  'spartanweaponry:wooden_throwing_knife',
+  'spartanweaponry:stone_throwing_knife',
+  'spartanweaponry:copper_throwing_knife',
+  'spartanweaponry:iron_throwing_knife',
+  'spartanweaponry:golden_throwing_knife',
+  'spartanweaponry:diamond_throwing_knife',
+  'spartanweaponry:netherite_throwing_knife',
+  'spartanweaponry:tin_throwing_knife',
+  'spartanweaponry:bronze_throwing_knife',
+  'spartanweaponry:steel_throwing_knife',
+  'spartanweaponry:silver_throwing_knife',
+  'spartanweaponry:electrum_throwing_knife',
+  'spartanweaponry:lead_throwing_knife',
+  'spartanweaponry:nickel_throwing_knife',
+  'spartanweaponry:invar_throwing_knife',
+  'spartanweaponry:constantan_throwing_knife',
+  'spartanweaponry:platinum_throwing_knife',
+  'spartanweaponry:aluminum_throwing_knife'
 ])
 
 event.add('mmorpg:tomahawk', 
@@ -1741,14 +1799,6 @@ event.add('mmorpg:bow',
 event.add('mmorpg:pike', 
 [
   'spartanweaponry:aluminum_pike',
-  'roe_weapons:spear_0',
-  'roe_weapons:spear_1',
-  'roe_weapons:spear_2',
-  'roe_weapons:spear_3',
-  'roe_weapons:spear_4',
-  'roe_weapons:spear_5',
-  'roe_weapons:spear_7',
-  'roe_weapons:cursed_spear',
   'magistuarmory:iron_pike',
   'magistuarmory:wood_pike',
   'magistuarmory:stone_pike',
@@ -1799,10 +1849,7 @@ event.add('mmorpg:pike',
   'spartanweaponry:invar_pike',
   'spartanweaponry:constantan_pike',
   'spartanweaponry:platinum_pike',
-  'spartanweaponry:aluminium_pike',
-  'cataclysm:coral_spear',
-  'cataclysm:ancient_spear',
-  'mowziesmobs:spear'
+  'spartanweaponry:aluminium_pike'
 ])
 
 event.add('mmorpg:mace', 

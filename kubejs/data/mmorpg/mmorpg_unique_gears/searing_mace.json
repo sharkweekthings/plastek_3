@@ -1,0 +1,51 @@
+{
+  "base_gear": "mace",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:mace_7",
+  "guid": "searing_mace",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 62.0,
+      "min": 31.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 11.0,
+      "min": 6.0,
+      "stat": "armor"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 13.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 17.0,
+      "min": 11.0,
+      "stat": "all_physical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 23.0,
+      "min": 13.0,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "PERCENT",
+      "max": 19.0,
+      "min": 14.0,
+      "stat": "melee_cdr"
+    }
+  ],
+  "weight": 1000
+}

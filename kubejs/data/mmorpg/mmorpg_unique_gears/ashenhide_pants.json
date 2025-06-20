@@ -1,0 +1,39 @@
+{
+  "base_gear": "leather_pants",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "ashenhide_pants",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 80.0,
+      "min": 54.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 7.0,
+      "stat": "projectile_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 14.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "PERCENT",
+      "max": 19.0,
+      "min": 13.0,
+      "stat": "critical_damage"
+    }
+  ],
+  "weight": 1000
+}

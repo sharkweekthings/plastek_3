@@ -1,7 +1,7 @@
 {
   "base_gear": "hammer",
   "flavor_text": "",
-  "force_item_id": "",
+  "force_item_id": "spartanweaponry:platinum_battle_hammer",
   "guid": "mjolnir",
   "league": "",
   "min_drop_lvl": 1,
@@ -12,20 +12,20 @@
   "unique_stats": [
     {
       "type": "PERCENT",
-      "max": 140.0,
-      "min": 80.0,
+      "max": 75.0,
+      "min": 49.0,
       "stat": "gear_weapon_damage"
     },
     {
       "type": "FLAT",
-      "max": 100.0,
-      "min": 50.0,
+      "max": 30.0,
+      "min": 15.0,
       "stat": "lightning_any_wep_damage"
     },
     {
-      "type": "PERCENT",
-      "max": 50.0,
-      "min": 10.0,
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 1.0,
       "stat": "all_lightning_damage"
     },
     {

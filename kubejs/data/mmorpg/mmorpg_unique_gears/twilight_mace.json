@@ -1,0 +1,51 @@
+{
+  "base_gear": "mace",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:mace_7",
+  "guid": "twilight_mace",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 86.0,
+      "min": 36.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 16.0,
+      "min": 11.0,
+      "stat": "critical_hit"
+    },
+    {
+      "type": "PERCENT",
+      "max": 19.0,
+      "min": 14.0,
+      "stat": "move_speed"
+    },
+    {
+      "type": "FLAT",
+      "max": 22.0,
+      "min": 14.0,
+      "stat": "all_physical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 11.0,
+      "min": 6.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "critical_damage"
+    }
+  ],
+  "weight": 1000
+}

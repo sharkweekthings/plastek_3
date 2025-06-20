@@ -1,0 +1,39 @@
+{
+  "base_gear": "sword",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:sword_7",
+  "guid": "runed_scimitar",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 79.0,
+      "min": 41.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 12.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 7.0,
+      "stat": "all_physical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 16.0,
+      "min": 10.0,
+      "stat": "melee_cdr"
+    }
+  ],
+  "weight": 1000
+}
