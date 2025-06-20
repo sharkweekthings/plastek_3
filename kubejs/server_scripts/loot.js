@@ -1,5 +1,5 @@
 ////
-// custom loot te
+// custom loot test
 //// renik
 
 // VARIOUS LOOT TABLE REPLACEMENTS
