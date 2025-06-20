@@ -1098,6 +1098,12 @@
 				"After that, &6MineColonies&r will not be required if you wish to ignore it."
 				""
 				"&6Mine and Slash&r rewards will be granted on most &2MineColonies&r quests for going through the series. You will get around &e60 Attribute Points&r and a decent amount of &eExperience Points&r."
+				""
+				"Due to the nature of &6Mine and Slash&r with its &eleveling system&r, &elevel 60&r is the minimum level that a colonist / visitor will spawn in at. This is to account for colonists not being able to level on their own. As you get higher level, this number will continue to scale up; so you might want to consider replacing some colonists much later in the game."
+				""
+				"Hopefully by the time you're &elevel 60&r; you will have sufficient defenses in place for your colonists like &3Mega Torches&r, and walls to prevent them from being attacked by outside sources. "
+				""
+				"During a &6Minecolonies&r raid, the invaders will be around your level, so your guards are likely to take care of them pretty quickly until much later in the game when they might need your help."
 			]
 			icon: {
 				Count: 1

@@ -1,12 +1,12 @@
 {
-  "dmg_multi": 5.0,
+  "dmg_multi": 1.0,
   "exp_multi": 0.1,
-  "hp_multi": 10.0,
+  "hp_multi": 5.0,
   "identifier": "minecolonies:visitor",
   "loot_multi": 0.1,
   "max_lvl": 1000000,
-  "min_lvl": 1,
-  "set_health_damage_override": true,
+  "min_lvl": 60,
+  "set_health_damage_override": false,
   "set_rar": "",
   "stat_multi": 1.0,
   "stats": {
@@ -26,8 +26,14 @@
       {
         "type": "flat",
         "scale_to_lvl": false,
-        "v1": 1000,
+        "v1": 50,
         "stat": "health_regen"
+      },
+      {
+        "type": "flat",
+        "scale_to_lvl": false,
+        "v1": 20,
+        "stat": "health_per_sec"
       }
 	]
   }
