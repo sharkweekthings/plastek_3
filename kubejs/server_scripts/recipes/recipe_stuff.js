@@ -45,6 +45,60 @@ ServerEvents.recipes(event => {
 
 ServerEvents.recipes(event => {
 
+// MMORPG Stone Convert # to #
+  event.shaped('mmorpg:stone/1',
+    [' 1 ','121',' 1 '], {
+    1: 'mmorpg:stone/0',
+    2: '#p3:ma_1'}).id('p3:stone_convert_0_to_1')
+
+// MMORPG Stone Convert 1 to 2
+  event.shaped('mmorpg:stone/2',
+    [' 1 ','121',' 1 '], {
+    1: 'mmorpg:stone/1',
+    2: '#p3:ma_2'}).id('p3:stone_convert_1_to_2')
+
+// MMORPG Stone Convert 2 to 3
+  event.shaped('mmorpg:stone/3',
+    [' 1 ','121',' 1 '], {
+    1: 'mmorpg:stone/2',
+    2: '#p3:ma_3'}).id('p3:stone_convert_2_to_3')
+
+// MMORPG Stone Convert 3 to 4
+  event.shaped('mmorpg:stone/4',
+    [' 1 ','121',' 1 '], {
+    1: 'mmorpg:stone/3',
+    2: '#p3:ma_4'}).id('p3:stone_convert_3_to_4')
+
+// MMORPG Stone Convert 4 to 5
+  event.shaped('mmorpg:stone/5',
+    [' 1 ','121',' 1 '], {
+    1: 'mmorpg:stone/4',
+    2: '#p3:ma_5'}).id('p3:stone_convert_4_to_5')
+
+// MMORPG Stone Convert 5 to 4
+  event.shapeless(Item.of('4x mmorpg:stone/4'), ['mmorpg:stone/5']).id('p3_stone_convert_5_to_4')
+
+// MMORPG Stone Convert 4 to 3
+  event.shapeless(Item.of('4x mmorpg:stone/3'), ['mmorpg:stone/4']).id('p3_stone_convert_4_to_3')
+
+// MMORPG Stone Convert 3 to 2
+  event.shapeless(Item.of('4x mmorpg:stone/2'), ['mmorpg:stone/3']).id('p3_stone_convert_3_to_2')
+
+// MMORPG Stone Convert 2 to 1
+  event.shapeless(Item.of('4x mmorpg:stone/1'), ['mmorpg:stone/2']).id('p3_stone_convert_2_to_1')
+
+// MMORPG Stone Convert 1 to 0
+  event.shapeless(Item.of('4x mmorpg:stone/0'), ['mmorpg:stone/1']).id('p3_stone_convert_1_to_0')
+
+
+
+
+// // MMORPG Stone Convert 5 to 6
+//   event.shaped('mmorpg:stone/6',
+//     [' 1 ','121',' 1 '], {
+//     1: 'mmorpg:stone/5',
+//     2: 'p3:ma_5'}).id('p3:stone_convert_5_to_6')
+
 // Replace Wheat Dough w/ Create Dough
   event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
   event.replaceInput({}, 'refurbished_furniture:dough', 'create:dough')

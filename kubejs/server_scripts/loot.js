@@ -1,16 +1,16 @@
 ////
-// custom loot test
+// custom loot
 //// renik
 
 // VARIOUS LOOT TABLE REPLACEMENTS
 LootJS.modifiers(event => {
   // event.addLootTableModifier(/.*/).replaceLoot("thermal:blizz_rod", "thermal:blizz_powder", true);
-  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:diamond", "mmorpg:stone/5");
-  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:emerald", "mmorpg:stone/4");
-  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:gold_ingot", "mmorpg:stone/3");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:diamond", "mmorpg:stone/4");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:emerald", "mmorpg:stone/3");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:gold_ingot", "mmorpg:stone/2");
   event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_ingot", "mmorpg:stone/2");
-  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_nugget", "mmorpg:stone/1");
-  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:gold_nugget", "mmorpg:stone/0");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:gold_nugget", "mmorpg:stone/1");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_nugget", "mmorpg:stone/0");
 });
 
 // LootJS.modifiers(event => {
@@ -2069,9 +2069,6 @@ LootJS.modifiers((e) => {
   LootEntry.of("mmorpg:currency/affix_tier_up_down").withWeight(15).limitCount([0, 1]),
   LootEntry.of("mmorpg:currency/chaos_orb").withWeight(15).limitCount([0, 1]),
   LootEntry.of("mmorpg:currency/enchant_reroll").withWeight(15).limitCount([0, 1]),
-  LootEntry.of("mmorpg:currency/entangled_affix_upgrade").withWeight(15).limitCount([0, 1]),
-  LootEntry.of("mmorpg:currency/entangled_potential").withWeight(15).limitCount([0, 1]),
-  LootEntry.of("mmorpg:currency/entangled_quality").withWeight(15).limitCount([0, 1]),
   LootEntry.of("mmorpg:currency/entangled_unique_reroll").withWeight(15).limitCount([0, 1]),
   LootEntry.of("mmorpg:currency/extract_gem").withWeight(15).limitCount([0, 1]),
   LootEntry.of("mmorpg:currency/extract_rune").withWeight(15).limitCount([0, 1]),
@@ -2107,7 +2104,7 @@ LootJS.modifiers((e) => {
 
 // MYSTICAL AG ESSENCE
   e.addLootTypeModifier(LootType.CHEST)
-    .randomChance(0.35)
+    .randomChance(0.40)
     .addWeightedLoot(
       [0, 1], //0-1 rolls
       [

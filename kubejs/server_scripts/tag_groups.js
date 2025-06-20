@@ -2768,10 +2768,40 @@ event.add('p3:pop',
 'minepop:minepop_darth_vader'
 ])
 
-// add silent saws to be usable with nat prog
-event.add('natprog:saw', 'silentgear:saw')
+event.add('p3:ma_1', 
+[
+  'matc:inferium_crystal',
+  'mysticalagriculture:master_infusion_crystal'
+])
 
-event.add('snd:fertilizer', 'sliceanddice:fertilizer')
+event.add('p3:ma_2', 
+[
+  'matc:prudentium_crystal',
+  'mysticalagriculture:master_infusion_crystal'
+])
+
+event.add('p3:ma_3', 
+[
+  'matc:tertium_crystal',
+  'mysticalagriculture:master_infusion_crystal'
+])
+
+event.add('p3:ma_4', 
+[
+  'matc:imperium_crystal',
+  'mysticalagriculture:master_infusion_crystal'
+])
+
+event.add('p3:ma_5', 
+[
+  'matc:supremium_crystal',
+  'mysticalagriculture:master_infusion_crystal'
+])
+
+// // add silent saws to be usable with nat prog
+// event.add('natprog:saw', 'silentgear:saw')
+
+// event.add('snd:fertilizer', 'sliceanddice:fertilizer')
 
 
 //
@@ -2787,10 +2817,6 @@ event.add('biomancy:acid',
   ])
 
 })
-
-
-
-
 
 ServerEvents.tags('block', event => {
 event.add('p3:ore_t0', 

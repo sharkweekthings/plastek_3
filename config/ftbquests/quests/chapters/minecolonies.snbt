@@ -20,6 +20,8 @@
 				"Let's start with getting your citizens some food."
 				""
 				"You wouldn't want them to starve... would you?"
+				""
+				"Tip: Your Minecolonists all have extremely beefed up HP and Resistances. They are not invulnerable; and will need some care when it comes to random mobs and raids, but they shouldn't be getting 1 shot by things."
 			]
 			icon: "kubejs:p3_chat"
 			id: "009BB242F0FB6D2D"

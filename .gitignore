@@ -162,7 +162,6 @@ config/mantle-client.toml
 config/matc-client.toml
 config/merequester-common.toml
 config/minecolonies-client.toml
-config/minecolonies-common.toml
 config/mine_and_slash_neat_gui-client.toml
 config/modnametooltip-client.toml
 config/moonlight-client.toml
