@@ -5,13 +5,12 @@
 // VARIOUS LOOT TABLE REPLACEMENTS
 LootJS.modifiers(event => {
   // event.addLootTableModifier(/.*/).replaceLoot("thermal:blizz_rod", "thermal:blizz_powder", true);
-  // event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:diamond", "silentgear:diamond_shard");
-  // event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:emerald", "silentgear:emerald_shard");
-  // event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:gold_ingot", "minecraft:gold_nugget");
-  // event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_ingot", "minecraft:iron_nugget");
-  // event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_ingot", "minecraft:iron_nugget");
-  // event.addLootTypeModifier(LootType.CHEST).replaceLoot("pneumaticcraft:ingot_iron_compressed", "silentgear:diamond_shard");
-  // event.addLootTypeModifier(LootType.CHEST).replaceLoot("botania:manasteel_ingot", "silentgear:diamond_shard");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:diamond", "mmorpg:stone/5");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:emerald", "mmorpg:stone/4");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:gold_ingot", "mmorpg:stone/3");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_ingot", "mmorpg:stone/2");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_nugget", "mmorpg:stone/1");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:gold_nugget", "mmorpg:stone/0");
 });
 
 // LootJS.modifiers(event => {
