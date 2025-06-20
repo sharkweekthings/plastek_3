@@ -7,8 +7,8 @@
   "cap_to_wep_dmg": 1000.0,
   "dmg_effectiveness": {
     "multi": {
-      "max": 0.75,
-      "min": 0.5
+      "max": 2.5,
+      "min": 2.0
     },
     "stat": "health"
   },
@@ -16,8 +16,8 @@
   "stat_scalings": [
     {
       "multi": {
-        "max": 0.75,
-        "min": 0.5
+        "max": 2.5,
+        "min": 2.0
       },
       "stat": "weapon_damage"
     }
