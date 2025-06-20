@@ -1,0 +1,39 @@
+{
+  "base_gear": "cloth_gloves",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "stonebound_clasp",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 80.0,
+      "min": 59.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "FLAT",
+      "max": 11.0,
+      "min": 7.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 14.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "PERCENT",
+      "max": 16.0,
+      "min": 6.0,
+      "stat": "all_elemental_damage"
+    }
+  ],
+  "weight": 1000
+}

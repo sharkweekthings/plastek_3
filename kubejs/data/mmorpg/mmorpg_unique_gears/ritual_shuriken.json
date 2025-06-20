@@ -1,0 +1,51 @@
+{
+  "base_gear": "shuriken",
+  "flavor_text": "",
+  "force_item_id": "divine_weaponry:amaterasu_shuriken",
+  "guid": "ritual_shuriken",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 93.0,
+      "min": 64.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 14.0,
+      "min": 8.0,
+      "stat": "projectile_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 11.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "PERCENT",
+      "max": 21.0,
+      "min": 13.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 14.0,
+      "stat": "faster_projectiles"
+    },
+    {
+      "type": "PERCENT",
+      "max": 21.0,
+      "min": 12.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 1000
+}

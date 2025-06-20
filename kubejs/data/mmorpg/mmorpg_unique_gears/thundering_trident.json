@@ -1,0 +1,51 @@
+{
+  "base_gear": "trident",
+  "flavor_text": "",
+  "force_item_id": "minecraft:trident",
+  "guid": "thundering_trident",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 92.0,
+      "min": 33.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 14.0,
+      "min": 6.0,
+      "stat": "melee_cdr"
+    },
+    {
+      "type": "FLAT",
+      "max": 22.0,
+      "min": 13.0,
+      "stat": "all_physical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 15.0,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "PERCENT",
+      "max": 14.0,
+      "min": 7.0,
+      "stat": "lightning_penetration"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 11.0,
+      "stat": "all_lightning_damage"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,39 @@
+{
+  "base_gear": "cloth_pants",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "emberforged_wraps",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 46.0,
+      "min": 23.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 6.0,
+      "stat": "all_fire_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 13.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "PERCENT",
+      "max": 19.0,
+      "min": 11.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 1000
+}

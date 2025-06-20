@@ -1,0 +1,39 @@
+{
+  "base_gear": "spear",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:spear_7",
+  "guid": "verdant_spear",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 77.0,
+      "min": 51.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 12.0,
+      "min": 7.0,
+      "stat": "armor"
+    },
+    {
+      "type": "PERCENT",
+      "max": 17.0,
+      "min": 7.0,
+      "stat": "melee_cdr"
+    },
+    {
+      "type": "PERCENT",
+      "max": 17.0,
+      "min": 12.0,
+      "stat": "lifesteal"
+    }
+  ],
+  "weight": 1000
+}

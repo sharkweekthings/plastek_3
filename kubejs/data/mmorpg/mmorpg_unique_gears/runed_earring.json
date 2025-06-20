@@ -1,0 +1,39 @@
+{
+  "base_gear": "earring",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "runed_earring",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 74.0,
+      "min": 49.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 7.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 13.0,
+      "stat": "move_speed"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 13.0,
+      "stat": "faster_projectiles"
+    }
+  ],
+  "weight": 1000
+}

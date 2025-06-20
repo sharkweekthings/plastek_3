@@ -1,0 +1,45 @@
+{
+  "base_gear": "plate_helmet",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "ebon_helm",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 66.0,
+      "min": 36.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 9.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 5.0,
+      "stat": "mana_on_hit_hit"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 9.0,
+      "stat": "all_elemental_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 5.0,
+      "stat": "all_water_damage"
+    }
+  ],
+  "weight": 1000
+}

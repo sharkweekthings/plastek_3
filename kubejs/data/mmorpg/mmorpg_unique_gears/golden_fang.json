@@ -1,0 +1,45 @@
+{
+  "base_gear": "sword",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:sword_7",
+  "guid": "golden_fang",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 96.0,
+      "min": 75.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 16.0,
+      "min": 8.0,
+      "stat": "move_speed"
+    },
+    {
+      "type": "PERCENT",
+      "max": 16.0,
+      "min": 10.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 13.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 13.0,
+      "stat": "magic_find"
+    }
+  ],
+  "weight": 1000
+}

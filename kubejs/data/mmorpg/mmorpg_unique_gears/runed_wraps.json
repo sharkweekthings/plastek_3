@@ -1,0 +1,39 @@
+{
+  "base_gear": "cloth_pants",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "runed_wraps",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 80.0,
+      "min": 45.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 17.0,
+      "min": 8.0,
+      "stat": "dodge"
+    },
+    {
+      "type": "PERCENT",
+      "max": 14.0,
+      "min": 9.0,
+      "stat": "projectile_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 14.0,
+      "min": 9.0,
+      "stat": "move_speed"
+    }
+  ],
+  "weight": 1000
+}

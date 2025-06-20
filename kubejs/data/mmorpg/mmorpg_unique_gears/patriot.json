@@ -1,0 +1,33 @@
+{
+  "base_gear": "bow",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:bow_7",
+  "guid": "patriot",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 99.0,
+      "min": 64.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 50.0,
+      "min": 10.0,
+      "stat": "energy"
+    },
+    {
+      "type": "FLAT",
+      "max": 40.0,
+      "min": 10.0,
+      "stat": "energy_on_hit_hit"
+    }
+  ],
+  "weight": 0
+}

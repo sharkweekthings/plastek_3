@@ -1,0 +1,45 @@
+{
+  "base_gear": "sword",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:sword_7",
+  "guid": "hollow_scimitar",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 100.0,
+      "min": 80.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 16.0,
+      "min": 10.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 20.0,
+      "min": 11.0,
+      "stat": "all_physical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 10.0,
+      "stat": "melee_cdr"
+    },
+    {
+      "type": "PERCENT",
+      "max": 14.0,
+      "min": 8.0,
+      "stat": "lifesteal"
+    }
+  ],
+  "weight": 1000
+}

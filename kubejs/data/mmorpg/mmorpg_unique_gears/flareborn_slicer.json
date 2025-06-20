@@ -1,0 +1,51 @@
+{
+  "base_gear": "dagger",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:dagger_7",
+  "guid": "flareborn_slicer",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 69.0,
+      "min": 20.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 10.0,
+      "stat": "melee_cdr"
+    },
+    {
+      "type": "FLAT",
+      "max": 15.0,
+      "min": 10.0,
+      "stat": "all_fire_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 9.0,
+      "stat": "armor"
+    },
+    {
+      "type": "PERCENT",
+      "max": 21.0,
+      "min": 15.0,
+      "stat": "critical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 18.0,
+      "min": 13.0,
+      "stat": "lifesteal"
+    }
+  ],
+  "weight": 1000
+}

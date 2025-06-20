@@ -1,0 +1,39 @@
+{
+  "base_gear": "cloth_pants",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "crimson_wraps",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 78.0,
+      "min": 53.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 16.0,
+      "min": 6.0,
+      "stat": "melee_cdr"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 5.0,
+      "stat": "armor"
+    },
+    {
+      "type": "PERCENT",
+      "max": 16.0,
+      "min": 6.0,
+      "stat": "critical_damage"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,51 @@
+{
+  "base_gear": "cloth_pants",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "thundering_wraps",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 79.0,
+      "min": 59.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 21.0,
+      "min": 11.0,
+      "stat": "all_lightning_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 16.0,
+      "min": 6.0,
+      "stat": "all_elemental_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 11.0,
+      "min": 5.0,
+      "stat": "magic_shield"
+    },
+    {
+      "type": "PERCENT",
+      "max": 21.0,
+      "min": 15.0,
+      "stat": "mana_on_hit_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "mana_regen"
+    }
+  ],
+  "weight": 1000
+}

@@ -1,0 +1,45 @@
+{
+  "base_gear": "earring",
+  "flavor_text": "",
+  "force_item_id": "",
+  "guid": "crimson_loop",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 57.0,
+      "min": 22.0,
+      "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 21.0,
+      "min": 14.0,
+      "stat": "armor"
+    },
+    {
+      "type": "PERCENT",
+      "max": 11.0,
+      "min": 5.0,
+      "stat": "melee_cdr"
+    },
+    {
+      "type": "PERCENT",
+      "max": 24.0,
+      "min": 14.0,
+      "stat": "all_physical_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 20.0,
+      "min": 10.0,
+      "stat": "lifesteal"
+    }
+  ],
+  "weight": 1000
+}

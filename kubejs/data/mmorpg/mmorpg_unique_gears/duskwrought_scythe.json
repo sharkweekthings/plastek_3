@@ -1,0 +1,45 @@
+{
+  "base_gear": "scythe",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:scythe_7",
+  "guid": "duskwrought_scythe",
+  "league": "",
+  "min_drop_lvl": 1,
+  "min_tier": 0,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 98.0,
+      "min": 64.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 10.0,
+      "min": 5.0,
+      "stat": "lifesteal"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 15.0,
+      "stat": "melee_cdr"
+    },
+    {
+      "type": "PERCENT",
+      "max": 15.0,
+      "min": 9.0,
+      "stat": "armor"
+    },
+    {
+      "type": "PERCENT",
+      "max": 11.0,
+      "min": 5.0,
+      "stat": "critical_damage"
+    }
+  ],
+  "weight": 1000
+}
