@@ -4,6 +4,7 @@
 
 
 	"mmorpg.stat.roll_cooldown": "Roll Cooldown",
+	"mmorpg.stat.weapon_skill_cdr_per_attack_speed": "Weapon Skill CDR Per Attack Speed",
 
 
 	"mmorpg.stat_desc.health_leech_cap": "How much Health you can leech from On Hit, On Kill, or Leech per second. Cap is based off the total maximum Health.",
@@ -680,8 +681,8 @@
 	"mmorpg.unique_gear.echoing_saber.name": "Echoing Saber",
 	"mmorpg.unique_gear.echoing_scimitar.name": "Echoing Scimitar",
 	"mmorpg.unique_gear.echoing_shiv.name": "Echoing Shiv",
-	"mmorpg.unique_gear.ele_aegis.name": "Ele Aegis",
-	"mmorpg.unique_gear.ele_gamble.name": "Ele Gamble",
+	"mmorpg.unique_gear.ele_aegis.name": "Aegis",
+	"mmorpg.unique_gear.ele_gamble.name": "Gamble",
 	"mmorpg.unique_gear.emberforged_amulet.name": "Emberforged Amulet",
 	"mmorpg.unique_gear.emberforged_binds.name": "Emberforged Binds",
 	"mmorpg.unique_gear.emberforged_boots.name": "Emberforged Boots",
@@ -697,7 +698,6 @@
 	"mmorpg.unique_gear.emberforged_tome.name": "Emberforged Tome",
 	"mmorpg.unique_gear.emberforged_wraps.name": "Emberforged Wraps",
 	"mmorpg.unique_gear.excalibur.name": "Excalibur",
-	"mmorpg.unique_gear.filename.txt.name": "Filename.Txt",
 	"mmorpg.unique_gear.fire_step.name": "Fire Step",
 	"mmorpg.unique_gear.flareborn_blade.name": "Flareborn Blade",
 	"mmorpg.unique_gear.flareborn_chopper.name": "Flareborn Chopper",

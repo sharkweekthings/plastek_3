@@ -1,5 +1,19 @@
 {
-"entity.minecraft.vindicator": "Melee Cultist",
+
+  "entity.minecraft.wandering_trader": "Renik, the Wandering Trader",
+  "item.minecraft.wandering_trader_spawn_egg": "Renik, the Wandering Trader Spawn Egg",
+  "subtitles.entity.wandering_trader.ambient": "Renik, the Wandering Trader mumbles",
+  "subtitles.entity.wandering_trader.death": "Renik, the Wandering Trader dies",
+  "subtitles.entity.wandering_trader.disappeared": "Renik, the Wandering Trader disappears",
+  "subtitles.entity.wandering_trader.drink_milk": "Renik, the Wandering Trader drinks milk",
+  "subtitles.entity.wandering_trader.drink_potion": "Renik, the Wandering Trader drinks potion",
+  "subtitles.entity.wandering_trader.hurt": "Renik, the Wandering Trader hurts",
+  "subtitles.entity.wandering_trader.no": "Renik, the Wandering Trader disagrees",
+  "subtitles.entity.wandering_trader.reappeared": "Renik, the Wandering Trader appears",
+  "subtitles.entity.wandering_trader.trade": "Renik, the Wandering Trader trades",
+  "subtitles.entity.wandering_trader.yes": "Renik, the Wandering Trader agrees",
+
+  "entity.minecraft.vindicator": "Melee Cultist",
   "item.minecraft.vindicator_spawn_egg": "Melee Cultist Spawn Egg",
   "subtitles.entity.vindicator.ambient": "Melee Cultist mutters",
   "subtitles.entity.vindicator.celebrate": "Melee Cultist cheers",

@@ -5,7 +5,7 @@
   "id": "mc_health_compat",
   "maximum_cap": 100,
   "minimum_cap": 0,
-  "mns_stat_id": "magic_shield",
+  "mns_stat_id": "health_regen",
   "mod_type": "PERCENT",
   "per_item_max": 100,
   "per_item_min": 0,

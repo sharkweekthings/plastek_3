@@ -54,7 +54,7 @@
 	[crashable.towerMobs]
 		#Lists of mob ids of possible mobs to spawn in spawners inside each Tower. Each list must contain at least one value
 		landTowerMobs = ["minecraft:zombie", "minecraft:vindicator", "minecraft:skeleton", "minecraft:spider", "ba_bt:bt_cultist"]
-		oceanTowerMobs = ["minecraft:drowned", cataclysm:deepling", "cataclysm:deepling", "cataclysm:deepling_angler", "cataclysm:deepling_priest", "minecraft:pufferfish"]
+		oceanTowerMobs = ["minecraft:drowned", "cataclysm:deepling", "cataclysm:deepling", "cataclysm:deepling_angler", "cataclysm:deepling_priest", "minecraft:pufferfish"]
 
 	[crashable.towerLootOptions]
 		#The number of xp levels books and tools are enchanted with in loot, Ie a 20 here means that books and tools that appear in loot will contain enchants as if enchanted with 20 levels of xp  up to 41 (3 extra per tower floor)

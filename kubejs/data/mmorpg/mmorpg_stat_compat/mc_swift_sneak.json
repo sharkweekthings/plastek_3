@@ -5,7 +5,7 @@
   "id": "mc_sweeping_compat",
   "maximum_cap": 18,
   "minimum_cap": 0,
-  "mns_stat_id": "inc_aoe",
+  "mns_stat_id": "dodge",
   "mod_type": "FLAT",
   "per_item_max": 6,
   "per_item_min": 0,

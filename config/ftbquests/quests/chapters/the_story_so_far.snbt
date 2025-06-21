@@ -26,6 +26,7 @@
 				""
 				"Many planets and dimensions became inaccessible, either due to complete and total destruction from mining away all the blocks or due to the &ePlastimpocalypse&r."
 			]
+			icon: "minecraft:writable_book"
 			id: "51A9C0A183BB2661"
 			subtitle: "Plastek 1"
 			tasks: [{
@@ -47,6 +48,7 @@
 				""
 				"Unfortunately, during the celebrations, a saboteur snuck into the main base and slipped a small fragment of active &3Plastim&r into the &9Draconic Reactor&r, which caused a massive explosion and sent an unknown wave of purple energy directly into the &9End Portal&r, which was witnessed by travelers who were thousands of blocks away from the explosion. Aptly named the &eDraconic Disaster&r, the hero, their party, friends, family, and anyone else in the radius of the explosion had been eliminated instantly."
 			]
+			icon: "minecraft:writable_book"
 			id: "0A27E54DBB4F8ADB"
 			subtitle: "Plastek 2"
 			tasks: [{
@@ -79,6 +81,7 @@
 				""
 				"&6Setback&r is a dimension created toward the end of the story."
 			]
+			icon: "minecraft:writable_book"
 			id: "2C7CBC69FB5A35F6"
 			subtitle: "Dimensional Update"
 			tasks: [{
@@ -93,10 +96,11 @@
 		{
 			dependencies: ["2C7CBC69FB5A35F6"]
 			description: [
-				"While technology exists, due to so many catastrophes over the hundreds of thousands of years, most villages opt to lead a relatively low tech life. So rare infact, that you may not ever encounter a technologicaly advanced town, and if you do -- it may just be a low tech town running on Create's Rotational Power, which is still a rare and fascinating sight to behold. "
+				"While technology exists, due to so many catastrophes over the hundreds of thousands of years, most villages opt to lead a relatively low tech life. So rare infact, that you may not ever encounter a technologicaly advanced town, and if you do -- it may just be a low tech town running on &6Create's&r &eRotational Power&r, which is still a rare and fascinating sight to behold for most denizens of this world."
 				""
-				"Safe, non explodable technologies like Applied Energistics storage, or Powah reactors are free to use in construction, but due to peoples fears of how scary the machines look, you will likely never come across a village with such technology. "
+				"Safe, non explodable technologies like &6Applied Energistics&r storage, or &6Powah&r reactors are free to use in construction, but due to peoples fears of how scary the machines look, you will likely never come across a village with such technology. "
 			]
+			icon: "minecraft:writable_book"
 			id: "73AB3804DE28551B"
 			subtitle: "Technology"
 			tasks: [{

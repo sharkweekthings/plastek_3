@@ -403,9 +403,9 @@
 				""
 				"In this pack, if you die, you will retain all of your items, including your &6Curios&r slots."
 				""
-				"Starting at &eLevel 30&r, you will incur &410% XP loss per death&r, as well as a significant portion of &eFavor&r."
+				"Starting at &2Level 50&r, you will incur &410% XP loss per death&r. &eFavor&r will be lost regardless of your level."
 				""
-				"Furthermore, if you attempt to challenge powerful monsters that are higher level than you can handle, this penalty is multiplied, so be careful not to fight mobs that show a \"&4Skull&r\" for their level, if you don't think you can beat them."
+				"Furthermore, if you attempt to challenge powerful monsters that are higher level than you can handle, this penalty is multiplied, so be careful not to fight mobs that show a \"&4Skull&r\" for their level, if you don't think you can beat them. "
 			]
 			hide_dependency_lines: true
 			icon: "minecolonies:blockminecoloniesgrave"
@@ -733,6 +733,83 @@
 			title: "Default Keybinds"
 			x: 1.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["59518B193D9F7836"]
+			description: [
+				"Most regular &3Enchant Books&r are somewhat useless if they add some kind of character &eattack power&r, &edamage&r, &mhealth&r&e, etc. "
+				""
+				"There are a few exceptions in which the enchant will have some of it's stats converted into &6Mine and Slash&r stats, making it more useful. "
+				""
+				"&eDamage&r: All Physical Damage"
+				""
+				"&eSculk Smite&r: Chaos Penetration"
+				""
+				"&eAqua Affinity&r: Water Resistance"
+				""
+				"&eBane of Arthropods&r: Increase DoT Damage"
+				""
+				"&eBlast Protection&r: Dodge"
+				""
+				"&eFire Aspect&r: All Fire Damage"
+				""
+				"&eFire Protection&r: Fire Resist"
+				""
+				"&eFlame&r: Fire Penetration"
+				""
+				"&eHealth&r: Health Regen"
+				""
+				"&eImpaling&r: Water Penetration"
+				""
+				"&eLooting&r: Increased Quantity"
+				""
+				"&eLuck&r: Magic Find"
+				""
+				"&eLuck of the Sea&r: Fishing Double Drop"
+				""
+				"&eMultishot&r: Projectile Count (&o&4bugged on non Bow / Crossbows&r&r)"
+				""
+				"&ePiercing&r: Armor Penetration"
+				""
+				"&ePower&r: Projectile Damage"
+				""
+				"&eProjectile Protection&r: Projectile Damage Received"
+				""
+				"&eProtection&r: Armor"
+				""
+				"&eSmite&r: Damage to Undead"
+				""
+				"&eSoul Speed&r: Magic Shield"
+				""
+				"&eStrength&r: Health"
+				""
+				"&eSweeping&r: Increased Area of Effect"
+				""
+				"&eSwift Sneak&r: Dodge"
+				""
+				"&eSharpness&r: All Physical Damage"
+				""
+				"&eStasis&r: Trap Spell Damage"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "393C275B722AEDAA"
+			tasks: [{
+				id: "4188044244A7DE4B"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Enchant Conversions"
+			x: -3.5d
+			y: 1.0d
 		}
 	]
 	title: "Read Me!"

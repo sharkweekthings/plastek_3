@@ -236,5 +236,4 @@ config/ultimine_addition
 config/vinery.toml
 config/voidscape-client.toml
 config/voidscape-common.toml
-config/waystones-common.toml
 config/zeta-common.toml
