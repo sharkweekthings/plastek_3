@@ -676,6 +676,64 @@
 			x: -4.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["7C437754A4ECF3C2"]
+			description: [
+				"&eH&r: &6Mine and Slash&r Hub"
+				""
+				"&eR&r: Roll"
+				""
+				"&eQ&r: Skill 1"
+				""
+				"&eT&r: Skill 2"
+				""
+				"&eF&r: Skill 3"
+				""
+				"&eG&r: Skill 4"
+				""
+				"&eNot Set&r: Skill 5 - 8"
+				""
+				"&eC&r: Open &6Irons Spellbooks&r Spell Wheel"
+				""
+				"&eV&r: Cast Selected &6Irons Spellbooks&r Spell"
+				""
+				"&eNot Set&r: Quickcast 1-15 &6Irons Spellbooks&r Spells"
+				""
+				"&eJ&r: Open Quests"
+				""
+				"&eM&r: Open Map"
+				""
+				"&e`&r: Ultimine"
+				""
+				"&e-&r: Dismiss Summons"
+				""
+				"&eF1&r: Switch &6Mine and Slash&r Spell Bar"
+				""
+				"&eMiddle Mouse&r: Auto Walk"
+				""
+				"&eNum Pad 5&r: Deposit To Nearby Chests"
+				""
+				"&eDel&r: Drop Selected Item"
+				""
+				"&eCtrl+Del&r: Drop Stack"
+				""
+				"&eCtrl+H&r: Swap Item With Offhand"
+				""
+				"&eHold Shift&r: Compare Items"
+				""
+				"&eEnter&r: Open Chat"
+			]
+			icon: "aether:gold_dungeon_key"
+			id: "78AADC47CFB2BFF4"
+			tasks: [{
+				id: "291CEABA6B66B670"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Default Keybinds"
+			x: 1.5d
+			y: -5.0d
+		}
 	]
 	title: "Read Me!"
 }
