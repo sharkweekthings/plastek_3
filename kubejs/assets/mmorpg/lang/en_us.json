@@ -2,6 +2,10 @@
 	"mmorpg.stat.attack_speed": "Attack Speed",
 	"mmorpg.stat_desc.attack_speed": "Increases speed of basic melee and ranged attacks as well as the cooldown of Attack-tagged Skills. Attack Speed does NOT apply to Summons.",
 
+
+	"mmorpg.stat.roll_cooldown": "Roll Cooldown",
+
+
 	"mmorpg.stat_desc.health_leech_cap": "How much Health you can leech from On Hit, On Kill, or Leech per second. Cap is based off the total maximum Health.",
 	"mmorpg.stat_desc.blood_leech_cap": "How much Blood you can leech from On Hit, On Kill, or Leech per second. Cap is based off the total maximum Blood.",
 	"mmorpg.stat_desc.magic_shield_leech_cap": "How much Magic Shield you can leech from On Hit, On Kill, or Leech per second. Cap is based off the total maximum Magic Shield.",

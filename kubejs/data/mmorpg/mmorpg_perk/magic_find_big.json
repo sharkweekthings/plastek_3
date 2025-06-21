@@ -1,0 +1,15 @@
+{
+  "type": "SPECIAL",
+  "icon": "mmorpg:textures/gui/spells/passives/magic_find.png",
+  "id": "magic_find_big",
+  "is_entry": false,
+  "max_lvls": 8,
+  "stats": [
+    {
+      "type": "FLAT",
+      "scale_to_lvl": false,
+      "stat": "magic_find",
+      "v1": 10.0
+    }
+  ]
+}

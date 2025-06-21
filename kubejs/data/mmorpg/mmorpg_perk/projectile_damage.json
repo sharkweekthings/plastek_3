@@ -1,14 +1,14 @@
 {
   "type": "STAT",
-  "icon": "mmorpg:textures/gui/spells/passives/p_roll_cooldown_bwl.png",
-  "id": "p_roll_cooldown_bwl",
+  "icon": "mmorpg:textures/gui/spells/passives/p_projectile_damage.png",
+  "id": "projectile_damage",
   "is_entry": false,
   "max_lvls": 8,
   "stats": [
     {
       "type": "FLAT",
       "scale_to_lvl": false,
-      "stat": "roll_cooldown",
+      "stat": "projectile_damage",
       "v1": 5.0
     }
   ]
