@@ -6,7 +6,7 @@ crash-reports/
 local/
 logs/
 mods/
-options.txt
+/options.txt
 p3_notes.xlsx
 patchouli_data.json
 resourcepacks/

@@ -1238,6 +1238,31 @@
 			x: 4.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["009BB242F0FB6D2D"]
+			description: ["The &3Builder's Goggles&r allow you to toggle the build preview so you can see which blocks still need to be placed in order to help the builder."]
+			id: "2AD16F3084DB595A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2500"
+				icon: "kubejs:p3_xp"
+				id: "0671BD8AF9297C3A"
+				title: "2500 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0D44294C1ED0EE87"
+				item: {
+					Count: 1
+					id: "minecolonies:build_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
 	]
 	title: "MineColonies"
 }
