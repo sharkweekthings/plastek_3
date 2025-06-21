@@ -659,6 +659,8 @@
 				"Throughout your adventure, you will find various &6Harvest&r items."
 				""
 				"If you put your &3Harvest Map&r inside a &9Harvest Altar&r, you will be able to challenge the arena."
+				""
+				"To exit the arena, just look for the &9Exit Altar&r inside your &3Harvest Map&r. "
 			]
 			icon: "kubejs:p3_chat"
 			id: "333E9B9520ED6962"
