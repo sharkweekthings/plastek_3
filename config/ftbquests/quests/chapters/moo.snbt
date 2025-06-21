@@ -24,6 +24,11 @@
 				"&9The Market&r folk sell various goods that will help you on your adventure like exclusive kitchen items, and even &eSupport Gems&r!"
 			]
 			id: "6EEBED8A78540A3B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "47E6EB75ABAA05CC"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2A718D858D523ACA"
 				item: "farmingforblockheads:market"
@@ -35,6 +40,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "18379E21C70B2772"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "5E07AFC00756BE56"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0FEF90C9D5FB764C"
 				item: {
@@ -50,6 +60,11 @@
 		{
 			dependencies: ["58C012AD3D76A5CF"]
 			id: "58C371195E59DEF7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				id: "792655A8AA601B1F"
+				type: "command"
+			}]
 			tasks: [{
 				id: "76E2F892F4C3B4E3"
 				item: {
@@ -65,6 +80,11 @@
 		{
 			dependencies: ["58C012AD3D76A5CF"]
 			id: "4C7030DC9AEAC502"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				id: "28C13BED5C5293A1"
+				type: "command"
+			}]
 			tasks: [{
 				id: "78A4015C5432850B"
 				item: {
@@ -80,6 +100,11 @@
 		{
 			dependencies: ["58C012AD3D76A5CF"]
 			id: "3086828251F5BC6E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "70D0606FF8A96D1F"
+				type: "command"
+			}]
 			tasks: [{
 				id: "4F2AAAEC7E2623AA"
 				item: {
@@ -95,6 +120,11 @@
 		{
 			dependencies: ["58C012AD3D76A5CF"]
 			id: "377462CE0A173C07"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "1AB0255983E25FFB"
+				type: "command"
+			}]
 			tasks: [{
 				id: "546BB73D3D40D9D7"
 				item: {
@@ -110,6 +140,11 @@
 		{
 			dependencies: ["58C012AD3D76A5CF"]
 			id: "027CEDB2A18D464C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "002475CB9137C66F"
+				type: "command"
+			}]
 			tasks: [{
 				id: "02AD9EAD5FBB644B"
 				item: {
@@ -125,6 +160,11 @@
 		{
 			dependencies: ["58C012AD3D76A5CF"]
 			id: "2033FE511BAC6616"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "4FB8059235A8E4D5"
+				type: "command"
+			}]
 			tasks: [{
 				id: "4E2ED914928A45D3"
 				item: {
@@ -140,6 +180,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "68B299DCF526FB2C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "1591263A3C1CF1F6"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "7A76CF1A7DFBD94D"
@@ -166,6 +211,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "18047105E8BE0C35"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "79807BA09D66F704"
+				type: "command"
+			}]
 			tasks: [{
 				id: "044414953EDB9B72"
 				item: {
@@ -181,6 +231,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "2D84B54BA5891C11"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "603A8D3B95C7A1DE"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7373E130F79DF7A0"
 				item: {
@@ -197,6 +252,11 @@
 			dependencies: ["58C012AD3D76A5CF"]
 			description: ["You'll find this on the &6Farming for Blockheads&r &9Market&r block."]
 			id: "1B3DDFC48FD31D68"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "211BAF53C80AF303"
+				type: "command"
+			}]
 			tasks: [{
 				id: "755149B352D8CD51"
 				item: {
@@ -230,6 +290,11 @@
 		{
 			dependencies: ["21B8B2D077BF1740"]
 			id: "4C310CF30DD887FD"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "1E2A4AF04FEF9C57"
+				type: "command"
+			}]
 			tasks: [{
 				id: "06605A209732893D"
 				item: {
@@ -251,6 +316,11 @@
 				"006EC724C42A91BF"
 			]
 			id: "644BAA2A03614FC5"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "50EEC240AA1669A8"
+				type: "command"
+			}]
 			tasks: [{
 				id: "3FF4D3D7D6DFBA8A"
 				item: {
@@ -270,6 +340,11 @@
 		{
 			dependencies: ["2E12D425C205CDBC"]
 			id: "5ED68A2AF28C4E7F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1500"
+				id: "43ABF16DFC92F82E"
+				type: "command"
+			}]
 			tasks: [{
 				id: "5086693B89D166D6"
 				item: {
@@ -306,6 +381,11 @@
 		{
 			dependencies: ["2288864C907E2F6A"]
 			id: "5DCB2F889DCB70EC"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2000"
+				id: "151FE27F4900C490"
+				type: "command"
+			}]
 			tasks: [{
 				id: "43DCFC64DC962E50"
 				item: {
@@ -322,27 +402,12 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["2288864C907E2F6A"]
-			id: "3FCB085E15333155"
-			tasks: [{
-				id: "0D921D056CD0D492"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "botanypotstiers:creative_normal"
-					}
-				}
-				title: "Creative Botany Pot"
-				type: "item"
-			}]
-			title: "Creative Botany Pot"
-			x: -2.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["3FCB085E15333155"]
 			id: "08AC396C43405580"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 4000"
+				id: "7D05D0D31CE227C6"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2C6907DDDE2E73F0"
 				item: {
@@ -361,6 +426,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "182A45821CFBE4CC"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "112D9B4CFF66670D"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7BC55C88172FAE6E"
 				item: {
@@ -376,6 +446,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "1D279EE3FD97C60A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "3B73FACBF1F09E42"
+				type: "command"
+			}]
 			tasks: [{
 				id: "43952076D30F0ECE"
 				item: {
@@ -391,6 +466,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "1D354F2A4AB5DC19"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "20D8E21C0864817A"
+				type: "command"
+			}]
 			tasks: [{
 				id: "497B8D7ADB9C6D65"
 				item: {
@@ -406,6 +486,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "3469755EB7A2D1B7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "56F559DD6088618A"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0F43207CC926CC39"
 				item: {
@@ -421,6 +506,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "0DD7A17C24E39863"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "5D33B14B361EE66B"
+				type: "command"
+			}]
 			tasks: [{
 				id: "42BB6DB20D9648F0"
 				item: {
@@ -436,6 +526,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "35CB1D973B1F65EC"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "417DD83C6665B953"
+				type: "command"
+			}]
 			tasks: [{
 				id: "3E6FE86A173FAF61"
 				item: {
@@ -451,6 +546,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "2C68ECBDC3D94DC0"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "62B0DFA0B0C0FF89"
+				type: "command"
+			}]
 			tasks: [{
 				id: "3790BC068488396B"
 				item: {
@@ -466,6 +566,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "38FECBA91E96B5A4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "3830EF96B2512C93"
+				type: "command"
+			}]
 			tasks: [{
 				id: "1038E153E695BFF4"
 				item: {
@@ -481,6 +586,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "1931EF55784EC8C2"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "6E1A09B617FB1FB1"
+				type: "command"
+			}]
 			tasks: [{
 				id: "1FDD802276D63EE9"
 				item: {
@@ -496,6 +606,11 @@
 		{
 			dependencies: ["1B6C1C76041C5730"]
 			id: "4D4383C60BE226C5"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				id: "5C487BF3FBECD420"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0980338F41E99563"
 				item: {
@@ -511,6 +626,11 @@
 		{
 			dependencies: ["6BB3BEBFE518D0F2"]
 			id: "6DA2080C54F4CE27"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3000"
+				id: "3F44A869748A35F5"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "181D3CE5EAE21B71"
@@ -546,6 +666,11 @@
 		{
 			dependencies: ["6BB3BEBFE518D0F2"]
 			id: "030E9D56A7187D5D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3000"
+				id: "715E846BCE333F88"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "34FA12B3CDAB95B2"
@@ -582,6 +707,11 @@
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["This device will let you connect your &6AE2&r and &6Cooking For Blockheads&r together."]
 			id: "4110425AB97554F6"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				id: "64C2D6680877C367"
+				type: "command"
+			}]
 			tasks: [{
 				id: "12EBC808D8921E7A"
 				item: {
@@ -597,6 +727,11 @@
 		{
 			dependencies: ["6F51530CCB2F4539"]
 			id: "76D5C746A2431485"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "0156B86E594D0627"
+				type: "command"
+			}]
 			tasks: [{
 				id: "57EE7DCD4BF0C948"
 				item: {
@@ -614,6 +749,11 @@
 			description: ["&6Cooking For Blockheads&r offers a wide range of utility for all of your cooking needs. "]
 			icon: "kubejs:p3_chat"
 			id: "58C012AD3D76A5CF"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				id: "0AF629509BF44458"
+				type: "command"
+			}]
 			shape: "octagon"
 			subtitle: "Make me a sandwich!"
 			tasks: [{
@@ -630,6 +770,11 @@
 			description: ["Auto Harvest and Ranch with&6 Industrial Foregoing&r. "]
 			icon: "kubejs:p3_chat"
 			id: "6BB3BEBFE518D0F2"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				id: "1EE61F593DCD34B7"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "5721E1DF3FCDC9CA"
@@ -645,6 +790,11 @@
 			description: ["Various ways to capture mobs"]
 			icon: "kubejs:p3_chat"
 			id: "17B3B5D1CD42BA6C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				id: "1E1091314EBA234E"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6223501674125146"
@@ -660,6 +810,11 @@
 			description: ["Tier up your &3Botany Pots&r to blazing fast speeds. "]
 			icon: "kubejs:p3_chat"
 			id: "006EC724C42A91BF"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				id: "47916E3E093388CC"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "4E65DEE120F0E76F"
@@ -679,6 +834,11 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "6F51530CCB2F4539"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 300"
+				id: "371CA23B56793B0E"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "2B42EB3D6B70D7A2"
@@ -692,6 +852,11 @@
 		{
 			dependencies: ["006EC724C42A91BF"]
 			id: "21B8B2D077BF1740"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				id: "2B12D35CEA9213CB"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7AFCE61B675D7660"
 				item: {
@@ -707,6 +872,11 @@
 		{
 			dependencies: ["17B3B5D1CD42BA6C"]
 			id: "1B6C1C76041C5730"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				id: "5CBB888ACC974190"
+				type: "command"
+			}]
 			tasks: [{
 				id: "240090E8DD6CE04A"
 				item: {
@@ -723,6 +893,11 @@
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["Pump your fluids, even across dimensions!"]
 			id: "397D9F7ABC967F71"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2000"
+				id: "758F9AB569AB5970"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7EC7EFA9ADE31AA0"
 				item: "rangedpumps:pump"

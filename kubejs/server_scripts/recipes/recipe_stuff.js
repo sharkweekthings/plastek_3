@@ -42,6 +42,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'torchmaster:megatorch'})
   event.remove({id: 'torchmaster:dreadlamp'})
   event.remove({id: 'minepop:random_box_recp'})
+  event.remove({id: 'botanypotstiers:crafting/creative_terracotta_botany_pot_2'})
+  event.remove({id: 'botanypotstiers:crafting/creative_terracotta_compact_hopper_botany_pot_2'})
+  event.remove({id: 'botanypotstiers:crafting/creative_terracotta_compact_hopper_botany_pot_3'})
   event.remove({ mod: 'a_man_with_plushies' })
   event.remove({ mod: 'plushies' })
 //

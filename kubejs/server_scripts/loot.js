@@ -39,10 +39,11 @@ LootJS.modifiers((e) => {
 
 // TRINKETS & ARTIFACTS
   e.addLootTypeModifier(LootType.CHEST)
-    .randomChance(0.25)
+    .randomChance(0.30)
     .addWeightedLoot(
       [0, 1], //0-1 rolls
       [
+  LootEntry.of("botanypotstiers:creative_terracotta_botany_pot").withWeight(15).limitCount([0, 1]),
   LootEntry.of("artifacts:pocket_piston").withWeight(15).limitCount([0, 1]),
   LootEntry.of("artifacts:charm_of_sinking").withWeight(15).limitCount([0, 1]),
   LootEntry.of("artifacts:shock_pendant").withWeight(15).limitCount([0, 1]),
