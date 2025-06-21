@@ -39,6 +39,11 @@ ServerEvents.recipes(event => {
   event.remove({id: 'botania:flighttiara_0'})
   event.remove({id: 'bosses_of_mass_destruction:levitation_block'})
   event.remove({id: 'projecte:swiftwolf_rending_gale'})
+  event.remove({id: 'torchmaster:megatorch'})
+  event.remove({id: 'torchmaster:dreadlamp'})
+  event.remove({id: 'minepop:random_box_recp'})
+  event.remove({ mod: 'a_man_with_plushies' })
+  event.remove({ mod: 'plushies' })
 //
 })
 //

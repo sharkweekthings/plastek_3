@@ -59,7 +59,6 @@ config/ba_bt-common-2.toml.bak
 config/ba_bt-common-3.toml.bak
 config/ba_bt-common-4.toml.bak
 config/ba_bt-common-5.toml.bak
-config/ba_bt-common.toml
 config/betteradvancements-client.toml
 config/bettercombat/client.json5
 config/bettercombat/fallback_compatibility.json

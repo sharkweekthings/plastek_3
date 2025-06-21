@@ -73,6 +73,8 @@
     }
   },
   "customEntries": [
+    {"output": {"item": "torchmaster:megatorch","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
+    {"output": {"item": "torchmaster:dreadlamp","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
     {"output": {"item": "toybox:abacus","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
     {"output": {"item": "toybox:stacking_tower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
     {"output": {"item": "toybox:toy_robot","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
@@ -98,6 +100,9 @@
     {"output": {"item": "pamhc2foodcore:cuttingboarditem","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 40},"category": "shopping"},
     {"output": {"item": "pamhc2foodcore:saucepanitem","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 40},"category": "shopping"},
     {"output": {"item": "pamhc2foodcore:juiceritem","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 40},"category": "shopping"},
+    {"output": {"item": "minepop:randombox","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
+    {"output": {"item": "a_man_with_plushies:plush_box","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
+    {"output": {"item": "a_man_with_plushies:golden_plush_box","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 64},"category": "shopping"},
     {"output": {"item": "aether:white_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "aether:purple_flower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
     {"output": {"item": "biomesoplenty:rose","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "flowers"},
