@@ -1,9 +1,9 @@
 {
-  "all_drop_multi": 1.0,
+  "all_drop_multi": 1.2,
   "dimension_id": "dungeon_realm:dungeon",
-  "exp_multi": 1.0,
-  "max_lvl": 100,
-  "min_lvl": 15,
+  "exp_multi": 1.5,
+  "max_lvl": 100000,
+  "min_lvl": 40,
   "min_lvl_area": 100,
   "mob_lvl_per_distance": 100,
   "mob_strength_multi": 1.0,

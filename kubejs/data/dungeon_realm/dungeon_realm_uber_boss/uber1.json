@@ -1,0 +1,26 @@
+{
+  "id": "uber1",
+  "possible_bosses": [
+    "minecraft:evoker",
+    "toybox:bonk",
+    "minecraft:wither",
+    "sweet_calamity:creamy",
+    "sweet_calamity:sweet_witch",
+    "blue_skies:starlit_crusher",
+    "blue_skies:arachnarch",
+    "blue_skies:night_lich",
+    "blue_skies:mowziesmobs:frostmaw",
+    "mowziesmobs:umvuthi",
+    "mowziesmobs:sculptor",
+    "cataclysm:deepling_brute",
+    "theorcs:orc_boss",
+    "born_in_chaos_v1:lifestealer_true_form",
+    "born_in_chaos_v1:mother_spider",
+    "born_in_chaos_v1:nightmare_stalker"
+  ],
+  "structure": {
+    "rooms_folder": "dungeon_realm:uber/river",
+    "size": 3
+  },
+  "weight": 1000
+}

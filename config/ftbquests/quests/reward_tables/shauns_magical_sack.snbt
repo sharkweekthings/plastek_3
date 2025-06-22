@@ -1,4 +1,5 @@
 {
+	icon: "supplementaries:sack"
 	id: "7D2BFD90E5AE1C23"
 	loot_size: 1
 	order_index: 0
@@ -921,4 +922,5 @@
 		{ item: "nightlights:frog_purple", weight: 15.0f }
 	]
 	title: "Shauns Magical Sack"
+	use_title: true
 }

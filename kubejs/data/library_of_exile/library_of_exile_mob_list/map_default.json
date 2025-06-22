@@ -1,0 +1,43 @@
+{
+  "id": "map_default",
+  "mobs": [
+    {
+      "mob_id": "minecraft:zombie",
+      "weight": 1000
+    },
+    {
+      "mob_id": "born_in_chaos_v1:decaying_zombie",
+      "weight": 500
+    },
+    {
+      "mob_id": "ba_bt:bt_cultist",
+      "weight": 250
+    },
+    {
+      "mob_id": "minecraft:vindicator",
+      "weight": 250
+    },
+    {
+      "mob_id": "minecraft:witch",
+      "weight": 25
+    },
+    {
+      "mob_id": "minecraft:slime",
+      "weight": 25
+    },
+    {
+      "mob_id": "minecraft:spider",
+      "weight": 100
+    },
+    {
+      "mob_id": "minecraft:pillager",
+      "weight": 100
+    }
+  ],
+  "tags": {
+    "tags": [
+      "map"
+    ]
+  },
+  "weight": 1000
+}

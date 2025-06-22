@@ -1,0 +1,36 @@
+{
+  "id": "forest",
+  "mobs": [
+    {
+      "mob_id": "minecraft:cave_spider",
+      "weight": 700
+    },
+    {
+      "mob_id": "minecraft:spider",
+      "weight": 300
+    },
+    {
+      "mob_id": "minecraft:witch",
+      "weight": 100
+    },
+    {
+      "mob_id": "minecraft:slime",
+      "weight": 33
+    },
+    {
+      "mob_id": "minecraft:vindicator",
+      "weight": 5
+    },
+    {
+      "mob_id": "ba_bt:bt_cultist",
+      "weight": 5
+    }
+  ],
+  "tags": {
+    "tags": [
+      "forest",
+      "harvest"
+    ]
+  },
+  "weight": 1000
+}

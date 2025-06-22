@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "scannable"
 	group: "2FC07CCE1ABE9089"
+	icon: "scannable:blank_module"
 	id: "7AFFDBB4B115EB5E"
 	order_index: 5
 	quest_links: [ ]

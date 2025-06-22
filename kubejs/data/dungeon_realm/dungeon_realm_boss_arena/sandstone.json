@@ -1,0 +1,27 @@
+{
+  "id": "sandstone",
+  "possible_bosses": [
+    "minecraft:evoker",
+    "mutantmonsters:mutant_skeleton",
+    "mutantmonsters:mutant_zombie",
+    "born_in_chaos_v1:dire_hound_leader",
+    "born_in_chaos_v1:bonescaller",
+    "born_in_chaos_v1:spirit_guide",
+    "born_in_chaos_v1:skeleton_thrasher",
+    "sweet_calamity:creamy",
+    "sweet_calamity:sweet_witch",
+    "theorcs:orc_boss",
+    "cataclysm:deepling_brute",
+    "cataclysm:ender_golem",
+    "endermanoverhaul:desert_enderman",
+    "endermanoverhaul:desert_creeper",
+    "samurai_dynasty:oni",
+    "samurai_dynasty:jorogumo"
+  ],
+  "simple_prebuilt_map": {
+    "rooms_folder": "dungeon_realm:map_boss/sandstone",
+    "size": 1
+  },
+  "size": 2,
+  "weight": 1000
+}

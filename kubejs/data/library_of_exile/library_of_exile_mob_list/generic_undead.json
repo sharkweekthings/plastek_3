@@ -1,0 +1,41 @@
+{
+  "id": "generic_undead",
+  "mobs": [
+    {
+      "mob_id": "minecraft:zombie",
+      "weight": 1000
+    },
+    {
+      "mob_id": "minecraft:skeleton",
+      "weight": 300
+    },
+    {
+      "mob_id": "minecraft:husk",
+      "weight": 500
+    },
+    {
+      "mob_id": "born_in_chaos_v1:baby_skeleton",
+      "weight": 500
+    },
+    {
+      "mob_id": "born_in_chaos_v1:zombie_clown",
+      "weight": 500
+    },
+    {
+      "mob_id": "born_in_chaos_v1:zombie_fisherman",
+      "weight": 500
+    },
+    {
+      "mob_id": "born_in_chaos_v1:zombie_lumberjack",
+      "weight": 500
+    },
+    {
+      "mob_id": "born_in_chaos_v1:decaying_zombie",
+      "weight": 500
+    }
+  ],
+  "tags": {
+    "tags": []
+  },
+  "weight": 1000
+}

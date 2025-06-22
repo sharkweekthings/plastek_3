@@ -83,7 +83,7 @@
 			]
 			icon: "minecraft:writable_book"
 			id: "2C7CBC69FB5A35F6"
-			subtitle: "Dimensional Update"
+			subtitle: "The World"
 			tasks: [{
 				id: "34A7B8191F96AF93"
 				title: "Ok"
@@ -116,6 +116,7 @@
 			dependencies: ["73AB3804DE28551B"]
 			icon: "minecraft:writable_book"
 			id: "6A8F919085492077"
+			shape: "heart"
 			tasks: [{
 				id: "3446D5661ED48932"
 				title: "Ok"

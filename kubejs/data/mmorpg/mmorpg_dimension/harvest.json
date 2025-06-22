@@ -1,8 +1,8 @@
 {
-  "all_drop_multi": 1.0,
+  "all_drop_multi": 1.2,
   "dimension_id": "the_harvest:harvest",
-  "exp_multi": 1.0,
-  "max_lvl": 80,
+  "exp_multi": 1.5,
+  "max_lvl": 100000,
   "min_lvl": 10,
   "min_lvl_area": 100,
   "mob_lvl_per_distance": 100,

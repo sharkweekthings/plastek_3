@@ -1,13 +1,13 @@
 {
-  "all_drop_multi": 1.0,
+  "all_drop_multi": 1.2,
   "dimension_id": "ancient_obelisk:obelisk",
-  "exp_multi": 1.0,
-  "max_lvl": 80,
-  "min_lvl": 10,
+  "exp_multi": 1.5,
+  "max_lvl": 100000,
+  "min_lvl": 20,
   "min_lvl_area": 100,
   "mob_lvl_per_distance": 100,
   "mob_strength_multi": 1.0,
-  "mob_tier": 1,
+  "mob_tier": 2,
   "scale_to_nearest_player": true,
   "secondary_lvl_range": {
     "max": -1,

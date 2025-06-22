@@ -1,0 +1,35 @@
+{
+  "id": "green",
+  "mobs": [
+    {
+      "mob_id": "minecraft:slime",
+      "weight": 50
+    },
+    {
+      "mob_id": "minecraft:creeper",
+      "weight": 300
+    },
+    {
+      "mob_id": "minecraft:zombie",
+      "weight": 1000
+    },
+    {
+      "mob_id": "born_in_chaos_v1:swarmer",
+      "weight": 300
+    },
+    {
+      "mob_id": "born_in_chaos_v1:decaying_zombie",
+      "weight": 500
+    },
+    {
+      "mob_id": "born_in_chaos_v1:barrel_zombie",
+      "weight": 500
+    }
+  ],
+  "tags": {
+    "tags": [
+      "has_flying_mobs"
+    ]
+  },
+  "weight": 1000
+}

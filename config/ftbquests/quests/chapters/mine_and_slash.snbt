@@ -630,7 +630,7 @@
 		{
 			dependencies: ["09EFFD4A4D7C74D3"]
 			description: [
-				"Starting at level 50, you will find various &3Adventurer Maps&r."
+				"Starting at &2level 40&r, you will be able to access any &3Adventurer Maps&r that you've found."
 				""
 				"If you put your &3Adventurer Map&r inside a &9Map Device&r, you will be able to challenge the dungeon."
 			]
@@ -644,12 +644,13 @@
 				type: "command"
 			}]
 			shape: "octagon"
+			subtitle: "Mob Level: 40+"
 			tasks: [{
 				id: "1D13BC4093D70CB6"
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Maps"
+			title: "Adventure Maps"
 			x: 8.0d
 			y: 3.5d
 		}
@@ -661,6 +662,8 @@
 				"If you put your &3Harvest Map&r inside a &9Harvest Altar&r, you will be able to challenge the arena."
 				""
 				"To exit the arena, just look for the &9Exit Altar&r inside your &3Harvest Map&r. "
+				""
+				"&5&oAll Harvest Maps will have an innate 1.5x experience multiplier, and a 1.2x loot multiplier.&r&r"
 			]
 			icon: "kubejs:p3_chat"
 			id: "333E9B9520ED6962"
@@ -672,6 +675,7 @@
 				type: "command"
 			}]
 			shape: "octagon"
+			subtitle: "Mob Level: 10+"
 			tasks: [{
 				id: "7F8883030D36FC41"
 				title: "Ok"
@@ -709,6 +713,7 @@
 				}
 			]
 			shape: "octagon"
+			subtitle: "Mob Level: Any"
 			tasks: [{
 				id: "6C26AD7F088526F5"
 				title: "Ok"
@@ -724,6 +729,8 @@
 				"Throughout your adventure, you will find various &6Ancient Obelisk&r items."
 				""
 				"If you put your &3Obelisk Map&r inside a &9Obelisk Altar&r, you will be able to challenge the arena."
+				""
+				"&5&oAll Ancient Obelisk Maps will have an innate 1.5x experience multiplier, and a 1.2x loot multiplier.&r&r"
 			]
 			icon: "kubejs:p3_chat"
 			id: "4259DC7F600AEFD0"
@@ -735,6 +742,7 @@
 				type: "command"
 			}]
 			shape: "octagon"
+			subtitle: "Mob Level: 20+"
 			tasks: [{
 				id: "7DEF6A3C19D382AD"
 				title: "Ok"
@@ -747,9 +755,11 @@
 		{
 			dependencies: ["09EFFD4A4D7C74D3"]
 			description: [
-				"Throughout your adventure, you will find various &6Dungeon Realm&r items."
+				"Throughout your adventure, you will find various &6Dungeon Realm&r maps."
 				""
 				"If you put your &3Dungeon Map&r inside a &9Map Device&r, you will be able to challenge the dungeon."
+				""
+				"&5&oAll Dungeon Realm Maps will have an innate 1.5x experience multiplier, and a 1.2x loot multiplier.&r&r"
 			]
 			icon: "kubejs:p3_chat"
 			id: "54A25EB74E87B514"
@@ -761,6 +771,7 @@
 				type: "command"
 			}]
 			shape: "octagon"
+			subtitle: "Mob Level: 40+"
 			tasks: [{
 				id: "366207674C8E9185"
 				title: "Ok"
@@ -1080,25 +1091,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0996B597E654479B"]
-			id: "4729694FE3DA1015"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 250"
-				icon: "kubejs:p3_xp"
-				id: "6B19BBF6C5993B66"
-				title: "250 Experience Points"
-				type: "command"
-			}]
-			tasks: [{
-				id: "6606476B0746C1FC"
-				item: "dungeon_realm:map_device"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["54A25EB74E87B514"]
+			dependencies: [
+				"54A25EB74E87B514"
+				"0996B597E654479B"
+			]
 			id: "5B2B4D277DEC25C2"
 			rewards: [
 				{
@@ -1122,10 +1118,10 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4729694FE3DA1015"]
+			dependencies: ["5B2B4D277DEC25C2"]
 			description: ["If you earn yourself any &3Prophecy Coins&r, you can use the &eProphecy&r tab in the &6Mine and Slash&r Hub while you are in a map."]
 			id: "594E8BFBFAE0A844"
 			tasks: [
@@ -1197,7 +1193,7 @@
 				}
 			]
 			x: 9.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2D8EC1DB50B1A94F"]
@@ -1320,7 +1316,7 @@
 			}]
 			title: "Broken Compass Eye"
 			x: 11.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -1352,7 +1348,7 @@
 			}]
 			title: "Broken Compass Eye Recovery"
 			x: 12.5d
-			y: 2.5d
+			y: 3.0d
 		}
 	]
 	title: "Mine and Slash"

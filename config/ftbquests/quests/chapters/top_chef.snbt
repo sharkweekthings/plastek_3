@@ -15,6 +15,12 @@
 		{
 			can_repeat: true
 			id: "2DEA18AC9F71748E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15BBFB933F785F7E"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -36,6 +42,12 @@
 		{
 			can_repeat: true
 			id: "094D3ACDEB6592C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AA4C5567E2EB175"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -57,6 +69,12 @@
 		{
 			can_repeat: true
 			id: "425AF2653F1809B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63CF51DF862343DD"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -78,6 +96,12 @@
 		{
 			can_repeat: true
 			id: "17E8F7F5568905F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "468647315507C0FF"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -99,6 +123,12 @@
 		{
 			can_repeat: true
 			id: "2B480B6611FA2B3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7195C46D1AD11E19"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -120,6 +150,12 @@
 		{
 			can_repeat: true
 			id: "6763744D99844F22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00FDF598D1B33351"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -141,6 +177,12 @@
 		{
 			can_repeat: true
 			id: "7A995D537315858E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37A2077500DF81DD"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -162,6 +204,12 @@
 		{
 			can_repeat: true
 			id: "2C04B4937FD2C8C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5501C87A4B0FE3AA"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -183,6 +231,12 @@
 		{
 			can_repeat: true
 			id: "0159CFB9FE991A86"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F5C9038BB82EFAC"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -204,6 +258,12 @@
 		{
 			can_repeat: true
 			id: "2D3B12C6FF23120A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "465C2EFCD0FC739C"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -225,6 +285,12 @@
 		{
 			can_repeat: true
 			id: "5CF68995BB13F4FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E47D367AA660F68"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -246,6 +312,12 @@
 		{
 			can_repeat: true
 			id: "3FA78EA8572FB94B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C0B19A41E231A19"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -267,6 +339,12 @@
 		{
 			can_repeat: true
 			id: "38790D34248933B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D589DF8736855D2"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -287,6 +365,12 @@
 		{
 			can_repeat: true
 			id: "3A0ABBB4B31B2B5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3650586B72DE68B8"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L
@@ -307,6 +391,12 @@
 		{
 			can_repeat: true
 			id: "618365AFE75697CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "351EDBD14158A387"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 50L

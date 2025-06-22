@@ -14,11 +14,11 @@
 	#Mns tries to replicate vanilla atk speed and reduces dmg of basic attacks if hit too often
 	REMOVE_ATK_SPEED_COOLDOWN = true
 	#Range: > 0
-	min_level_map_drops = 50
+	min_level_map_drops = 35
 	#Range: > 0
 	MIN_SLIME_SIZE_FOR_LOOT = 3
 	#Range: > 0
-	DEATH_PENALTY_START_LEVEL = 50
+	DEATH_PENALTY_START_LEVEL = 35
 	#Range: > 0
 	LEVEL_DISTANCE_PENALTY_LEEWAY = 2
 	#Range: 0 ~ 100
