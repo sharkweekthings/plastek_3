@@ -112,6 +112,19 @@
 			x: 4.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["73AB3804DE28551B"]
+			icon: "minecraft:writable_book"
+			id: "6A8F919085492077"
+			tasks: [{
+				id: "3446D5661ED48932"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Part 5"
+			x: 6.0d
+			y: 0.0d
+		}
 	]
 	title: "The Story So Far"
 }

@@ -237,3 +237,13 @@ config/vinery.toml
 config/voidscape-client.toml
 config/voidscape-common.toml
 config/zeta-common.toml
+config/moreoverlays.toml
+config/observable.json
+config/smoothchunk.json
+observable_announce
+111-pre-clean/
+config/betterchunkloading.json
+config/chunksending.json
+config/cupboard.json
+config/entityculling.json
+config/explorerscompass/

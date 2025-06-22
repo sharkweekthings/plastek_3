@@ -249,13 +249,7 @@
 			y: -0.5d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "tombstone:decorative_grave_simple"
-				tag: {
-					model_texture: 1
-				}
-			}
+			icon: "minecolonies:blockminecoloniesgrave"
 			id: "1DC4F5003BB67B0F"
 			shape: "circle"
 			tasks: [{
@@ -793,13 +787,7 @@
 			id: "67D741A143CBBC3D"
 			shape: "circle"
 			tasks: [{
-				icon: {
-					Count: 1
-					id: "inventorypets:pet_pig"
-					tag: {
-						Damage: 0
-					}
-				}
+				icon: "tconstruct:pig_iron_ingot"
 				id: "199D4F0FB31402BF"
 				stat: "minecraft:pig_one_cm"
 				type: "stat"
@@ -846,7 +834,7 @@
 			shape: "circle"
 			tasks: [{
 				entity: "minecraft:wither"
-				icon: "thermal:basalz_spawn_egg"
+				icon: "minecraft:enderman_spawn_egg"
 				id: "5A4468C10EA855FE"
 				type: "kill"
 				value: 50L
@@ -1291,11 +1279,11 @@
 			shape: "circle"
 			subtitle: "End the Enderman"
 			tasks: [{
-				entity: "occultism:possessed_enderman"
-				icon: "occultism:spawn_egg/possessed_enderman"
+				entity: "endertrigon:baby_ender_dragon"
+				icon: "born_in_chaos_v1:phantom_creeper_spawn_egg"
 				id: "3207422650434EE3"
 				type: "kill"
-				value: 50L
+				value: 25L
 			}]
 			x: 9.5d
 			y: 0.5d
@@ -1368,595 +1356,6 @@
 			}]
 			x: -3.5d
 			y: -2.0d
-		}
-		{
-			can_repeat: true
-			id: "36D2D3C2D653601E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2A227F50B51ED856"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:siren"
-				icon: "iceandfire:spawn_egg_siren"
-				id: "0AD817A135B79501"
-				type: "kill"
-				value: 50L
-			}]
-			x: 0.5d
-			y: 4.5d
-		}
-		{
-			can_repeat: true
-			id: "68DFE408A3CF1011"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2317B56E9AA4D64A"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:deathworm"
-				icon: "iceandfire:spawn_egg_death_worm"
-				id: "7B425333A45EAA45"
-				type: "kill"
-				value: 50L
-			}]
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			can_repeat: true
-			id: "62F1B69AB52F8B52"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "414CEA1F2D316734"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:cockatrice"
-				icon: "iceandfire:spawn_egg_cockatrice"
-				id: "75BF4DCD8AAAC97B"
-				type: "kill"
-				value: 50L
-			}]
-			x: 2.5d
-			y: 4.5d
-		}
-		{
-			can_repeat: true
-			id: "3D7B84D07011C000"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "52F20C0C0C444E6F"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:stymphalian_bird"
-				icon: "iceandfire:spawn_egg_stymphalian_bird"
-				id: "38B84F4664139DBC"
-				type: "kill"
-				value: 50L
-			}]
-			x: 3.5d
-			y: 4.5d
-		}
-		{
-			can_repeat: true
-			id: "3D6F3F564299F779"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "75F1388F6A0D0D1F"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:troll"
-				icon: "iceandfire:spawn_egg_troll"
-				id: "6125D0AA1568BB43"
-				type: "kill"
-				value: 50L
-			}]
-			x: 4.5d
-			y: 4.5d
-		}
-		{
-			can_repeat: true
-			id: "77E6480E93DD8DA4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "257A78E91888B1EC"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:sea_serpent"
-				icon: "iceandfire:spawn_egg_sea_serpent"
-				id: "4BA75DD94B527FA8"
-				type: "kill"
-				value: 50L
-			}]
-			x: 5.5d
-			y: 7.5d
-		}
-		{
-			can_repeat: true
-			id: "5C865CAE4A8E4698"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "29C5D1B8CB300FE2"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:myrmex_worker"
-				icon: "iceandfire:spawn_egg_myrmex_worker"
-				id: "50A8926EFBDD17AB"
-				type: "kill"
-				value: 50L
-			}]
-			x: 1.0d
-			y: 5.5d
-		}
-		{
-			can_repeat: true
-			id: "17040E4DCDCD630A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "735131EE8DEA8030"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:myrmex_soldier"
-				icon: "iceandfire:spawn_egg_myrmex_soldier"
-				id: "49EA4BBB2B8D83EE"
-				type: "kill"
-				value: 50L
-			}]
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			can_repeat: true
-			icon: "iceandfire:spawn_egg_myrmex_sentinel"
-			id: "09F18B81D7487BB7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "14D70B22B6726335"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:myrmex_sentinel"
-				id: "643ED5E1CDDD80A1"
-				type: "kill"
-				value: 50L
-			}]
-			x: 3.0d
-			y: 5.5d
-		}
-		{
-			can_repeat: true
-			id: "5B5F2C8EE40E91C5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4DECF0BABD329106"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:myrmex_royal"
-				icon: "iceandfire:spawn_egg_myrmex_royal"
-				id: "38376087586E1A3F"
-				type: "kill"
-				value: 50L
-			}]
-			x: 4.0d
-			y: 5.5d
-		}
-		{
-			can_repeat: true
-			id: "7ECAFBB67A675F63"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "21E791A73B9029FA"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:myrmex_queen"
-				icon: "iceandfire:spawn_egg_myrmex_queen"
-				id: "7999897082DCA797"
-				type: "kill"
-				value: 50L
-			}]
-			x: 3.0d
-			y: 7.5d
-		}
-		{
-			can_repeat: true
-			id: "17861F9E7F794AE0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3AF255C0BDACBDB1"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:cyclops"
-				icon: "iceandfire:spawn_egg_cyclops"
-				id: "71DC1C59AEB97BD3"
-				type: "kill"
-				value: 50L
-			}]
-			x: 6.5d
-			y: 7.5d
-		}
-		{
-			can_repeat: true
-			id: "53406D88D248418E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6CC56F34ECFDA748"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "twilightforest:hydra"
-				icon: "iceandfire:spawn_egg_hydra"
-				id: "27D7CA56ED2AB7AC"
-				type: "kill"
-				value: 50L
-			}]
-			x: 6.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			id: "525BE9B38D392480"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "13F641FF372D0719"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:dread_beast"
-				icon: "iceandfire:spawn_egg_dread_beast"
-				id: "3E74E7941871B573"
-				type: "kill"
-				value: 50L
-			}]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: true
-			id: "42B8E13BC0A0FA53"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D09B20E2C92D07F"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:dread_ghoul"
-				icon: "iceandfire:spawn_egg_dread_ghoul"
-				id: "348C263BD22C58CA"
-				type: "kill"
-				value: 50L
-			}]
-			x: 1.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: true
-			id: "3CC9439DA5589EAB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4EA0AD2DBFB36AE3"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [
-				{
-					entity: "iceandfire:dread_knight"
-					icon: "iceandfire:spawn_egg_dread_knight"
-					id: "32AE45CB5489936C"
-					type: "kill"
-					value: 50L
-				}
-				{
-					entity: "iceandfire:dread_horse"
-					icon: "iceandfire:spawn_egg_dread_horse"
-					id: "26E63B11A32D9AB2"
-					type: "kill"
-					value: 50L
-				}
-			]
-			x: 2.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: true
-			id: "20F2A786D2E45A0A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4C485FEE84FECC7F"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:dread_scuttler"
-				icon: "iceandfire:spawn_egg_dread_scuttler"
-				id: "13D81D38B4ADB920"
-				type: "kill"
-				value: 50L
-			}]
-			x: 3.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: true
-			id: "7694D17E30023932"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D48823F6F42CCD1"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:dread_thrall"
-				icon: "iceandfire:spawn_egg_dread_thrall"
-				id: "59C95366157D4A7F"
-				type: "kill"
-				value: 50L
-			}]
-			x: 4.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: true
-			id: "275DF6A8C6BF418A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7C67344F0A184489"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:dread_lich"
-				icon: "iceandfire:spawn_egg_lich"
-				id: "43AFE65EAE27DE27"
-				type: "kill"
-				value: 50L
-			}]
-			x: 5.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: true
-			id: "02C9A522771A99CE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7D739593F9C08DA5"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:ghost"
-				icon: "iceandfire:spawn_egg_ghost"
-				id: "74A8B82EE9F5B598"
-				type: "kill"
-				value: 50L
-			}]
-			x: 2.0d
-			y: 7.5d
-		}
-		{
-			can_repeat: true
-			id: "097967ADEBD9B438"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "274834535BF14921"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:gorgon"
-				icon: "iceandfire:spawn_egg_gorgon"
-				id: "0E8A387314F4046D"
-				type: "kill"
-				value: 50L
-			}]
-			x: 5.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			id: "3D2A31BDF6E53B9B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1CCC586697B5F750"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:hippogryph"
-				icon: "iceandfire:spawn_egg_hippogryph"
-				id: "0ABCA38C0BC37434"
-				type: "kill"
-				value: 50L
-			}]
-			x: 2.5d
-			y: 8.5d
-		}
-		{
-			can_repeat: true
-			id: "784626ED5BC75F76"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7E8856D6F6EC8CC2"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:ice_dragon"
-				icon: "iceandfire:spawn_egg_ice_dragon"
-				id: "511521F43CA05AE8"
-				type: "kill"
-				value: 25L
-			}]
-			x: 1.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			id: "7226D9210236FA97"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B8821BDAF8116D3"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:fire_dragon"
-				icon: "iceandfire:spawn_egg_fire_dragon"
-				id: "38AE5A8A1B8DA047"
-				type: "kill"
-				value: 25L
-			}]
-			x: 2.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			id: "203F97BC0CAECC23"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4748861D821E0B10"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:lightning_dragon"
-				icon: "iceandfire:spawn_egg_lightning_dragon"
-				id: "64D504BF23B059D5"
-				type: "kill"
-				value: 25L
-			}]
-			x: 3.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			id: "21B979DE25124CA2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "06916B126D0681F6"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:hippogryph"
-				icon: "iceandfire:spawn_egg_hippogryph"
-				id: "182EFE565B9345C8"
-				type: "kill"
-				value: 50L
-			}]
-			x: -1.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			id: "39FB68FCA61AE88D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4429CD39B09F5C3A"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:hippocampus"
-				icon: "iceandfire:spawn_egg_hippocampus"
-				id: "3BAE84847BAC2F3D"
-				type: "kill"
-				value: 50L
-			}]
-			x: -0.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			id: "0E88237593023640"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "42FF86E659461B24"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "botania:pixie"
-				icon: "iceandfire:spawn_egg_pixie"
-				id: "33A64913E2307005"
-				type: "kill"
-				value: 50L
-			}]
-			x: -1.5d
-			y: 7.5d
-		}
-		{
-			can_repeat: true
-			id: "36B291EB11322964"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4F4EBCE858F491E8"
-				type: "random"
-			}]
-			shape: "circle"
-			subtitle: "Beasts of Ice and Fire"
-			tasks: [{
-				entity: "iceandfire:amphithere"
-				icon: "iceandfire:spawn_egg_amphithere"
-				id: "24A6AD9C307CBCA3"
-				type: "kill"
-				value: 50L
-			}]
-			x: -0.5d
-			y: 7.5d
 		}
 		{
 			icon: {
@@ -2033,6 +1432,59 @@
 			}]
 			x: 10.5d
 			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "476F50C89A885B9F"
+			subtitle: "Pushing Back The Cult"
+			tasks: [{
+				entity: "ba_bt:bt_cultist"
+				icon: "blue_skies:artificial_golem_spawn_egg"
+				id: "11627D4D7DADDF40"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "59DC0AC6154F825D"
+			subtitle: "Pushing Back The Cult"
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "29A77094D89B2542"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "33A25A69DD6A3893"
+			subtitle: "Pushing Back The Cult"
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "0B096108B2F726D1"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "7CEDA894196D27DB"
+			subtitle: "Pushing Back The Cult"
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "532C4CA0F91D49B7"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.5d
+			y: 4.5d
 		}
 	]
 	title: "For Fun"

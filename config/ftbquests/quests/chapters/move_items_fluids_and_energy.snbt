@@ -11,6 +11,13 @@
 		{
 			dependencies: ["0C2FA55ACFC84397"]
 			id: "0361439F91128D7C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "1533FA8BD3F3DC71"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "5C0E3ACD9DDA9BEB"
 				item: "pipez:item_pipe"
@@ -22,6 +29,13 @@
 		{
 			dependencies: ["0C2FA55ACFC84397"]
 			id: "5D5BFC28F3FD6BAF"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "7DB7FC5397CB29B3"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0531ECB66D163B20"
 				item: "pipez:fluid_pipe"
@@ -33,6 +47,13 @@
 		{
 			dependencies: ["0C2FA55ACFC84397"]
 			id: "58E74A5853447205"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "5CFA030C9773F7F8"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "1EE707CEAE96D003"
 				item: "pipez:energy_pipe"
@@ -44,6 +65,13 @@
 		{
 			dependencies: ["0C2FA55ACFC84397"]
 			id: "088AC74E07592753"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "00E49E3CCBAA0C1C"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "677B71AA0AB53867"
 				item: "pipez:universal_pipe"
@@ -55,6 +83,13 @@
 		{
 			dependencies: ["0C2FA55ACFC84397"]
 			id: "02B3D37CDAD6E064"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "7CFC344DCCD202B6"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "5E670FF094F3DE8F"
 				item: "pipez:basic_upgrade"
@@ -66,6 +101,13 @@
 		{
 			dependencies: ["0C2FA55ACFC84397"]
 			id: "401DD17921A938DE"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 800"
+				icon: "kubejs:p3_xp"
+				id: "62384F17A8F2CC5E"
+				title: "800 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "22304F283B01C954"
 				item: "pipez:improved_upgrade"
@@ -77,6 +119,13 @@
 		{
 			dependencies: ["0C2FA55ACFC84397"]
 			id: "081DFD490E50DE55"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				icon: "kubejs:p3_xp"
+				id: "21F56E9B96937AA5"
+				title: "1000 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "44A28D8514A313B1"
 				item: "pipez:advanced_upgrade"
@@ -88,6 +137,13 @@
 		{
 			dependencies: ["0C2FA55ACFC84397"]
 			id: "0AC48DC09D985E12"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1500"
+				icon: "kubejs:p3_xp"
+				id: "18C5B6F53FCA2580"
+				title: "1500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "078EB054F5312776"
 				item: "pipez:ultimate_upgrade"
@@ -99,6 +155,13 @@
 		{
 			dependencies: ["0C2FA55ACFC84397"]
 			id: "783E68CE48547F90"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "1AA4AFA5D5F0A49D"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "57CF6ABCF3C0F0C6"
 				item: "pipez:wrench"
@@ -116,6 +179,13 @@
 			]
 			icon: "kubejs:p3_chat"
 			id: "0C2FA55ACFC84397"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
+				id: "1DDC2720DD4180C7"
+				title: "200 Experience Points"
+				type: "command"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "19A3D3D90CDC738F"

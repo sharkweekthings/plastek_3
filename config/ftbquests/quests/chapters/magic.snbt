@@ -14,7 +14,9 @@
 			id: "0CD86725C497F5C1"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 800"
+				icon: "kubejs:p3_xp"
 				id: "74A6E0A48DEEDE29"
+				title: "800 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -30,7 +32,9 @@
 			id: "2A56494C61A74D08"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
 				id: "07D8F2AB72EEE304"
+				title: "5000 Experience Points"
 				type: "command"
 			}]
 			tasks: [
@@ -70,7 +74,9 @@
 			id: "0310FC25C05F89A6"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 800"
+				icon: "kubejs:p3_xp"
 				id: "0BC39A27AEA67BBC"
+				title: "800 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -87,7 +93,9 @@
 			id: "4FE8BE31AC37D43C"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 800"
+				icon: "kubejs:p3_xp"
 				id: "704D2BBE8BE13A92"
+				title: "800 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -104,7 +112,9 @@
 			id: "5D117ACF56E5E1F7"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 800"
+				icon: "kubejs:p3_xp"
 				id: "4FC6A5BF02473F05"
+				title: "800 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -129,7 +139,9 @@
 			id: "5CA88DDF43886F01"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 300"
+				icon: "kubejs:p3_xp"
 				id: "337B0F00930C1CE4"
+				title: "300 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -157,7 +169,9 @@
 			id: "4A36DEFBC944092D"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
 				id: "51E3F6570436FC72"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -185,7 +199,9 @@
 			id: "36954B8560101DE1"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 800"
+				icon: "kubejs:p3_xp"
 				id: "43086B4CDBD686B7"
+				title: "800 Experience Points"
 				type: "command"
 			}]
 			tasks: [
@@ -231,7 +247,9 @@
 			id: "6BDD4BCDDC6F4165"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 8000"
+				icon: "kubejs:p3_xp"
 				id: "34928BF619913919"
+				title: "8000 Experience Points"
 				type: "command"
 			}]
 			tasks: [
@@ -386,7 +404,9 @@
 			id: "77888F234FBF6B63"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 10000"
+				icon: "kubejs:p3_xp"
 				id: "27A9BA283FBF3128"
+				title: "10000 Experience Points"
 				type: "command"
 			}]
 			tasks: [
@@ -441,8 +461,10 @@
 			icon: "kubejs:p3_chat"
 			id: "761C1D27642E0C50"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 300"
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
 				id: "0B3EF9D307D61C89"
+				title: "200 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -469,8 +491,10 @@
 			icon: "kubejs:p3_chat"
 			id: "45026D921A799C4D"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 300"
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
 				id: "54ABD988DA3ADF37"
+				title: "200 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -488,7 +512,9 @@
 			id: "35277DF60F15A3EE"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
-				id: "05350D9744AF754E"
+				icon: "kubejs:p3_xp"
+				id: "6FAED55610179A4B"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -512,7 +538,9 @@
 			id: "14B1D3C124E08C82"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
-				id: "588A43A6768EE9ED"
+				icon: "kubejs:p3_xp"
+				id: "3DCAEDEC0E43BF49"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -529,7 +557,9 @@
 			id: "1EA09636671ACDE3"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
-				id: "5FD67C388D5C282E"
+				icon: "kubejs:p3_xp"
+				id: "465583796C94F391"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -551,7 +581,9 @@
 			id: "194A4ABD1F30B051"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
-				id: "0F4D6E3DBA79D6EB"
+				icon: "kubejs:p3_xp"
+				id: "2CD6C5C3284CA06F"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -573,7 +605,9 @@
 			id: "4DB48DC649082355"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
-				id: "48150B66FC6A265C"
+				icon: "kubejs:p3_xp"
+				id: "1AE94DA08AE9118A"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -603,7 +637,9 @@
 			id: "465DC71E6F8C88E0"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2000"
+				icon: "kubejs:p3_xp"
 				id: "4F66FAAFF5BDD4A4"
+				title: "2000 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
@@ -620,8 +656,10 @@
 			dependencies: ["465DC71E6F8C88E0"]
 			id: "144AC3CE8FEC6661"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				id: "29A11C0AABE783EB"
+				command: "/mine_and_slash give exp @p 1200"
+				icon: "kubejs:p3_xp"
+				id: "6A0E63D12C4FCF44"
+				title: "1200 Experience Points"
 				type: "command"
 			}]
 			tasks: [
@@ -644,8 +682,10 @@
 			dependencies: ["465DC71E6F8C88E0"]
 			id: "7B7D97B0C7D2668F"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				id: "38B74072B115966B"
+				command: "/mine_and_slash give exp @p 1200"
+				icon: "kubejs:p3_xp"
+				id: "1499791BD66781F8"
+				title: "1200 Experience Points"
 				type: "command"
 			}]
 			shape: "square"
@@ -661,8 +701,10 @@
 			dependencies: ["465DC71E6F8C88E0"]
 			id: "05A7D5C714C12399"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				id: "4919FDBA3F596120"
+				command: "/mine_and_slash give exp @p 1200"
+				icon: "kubejs:p3_xp"
+				id: "28B10AD70D45D449"
+				title: "1200 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -677,8 +719,10 @@
 			dependencies: ["465DC71E6F8C88E0"]
 			id: "50DB9ABCEA7F0C76"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				id: "4AD26C7908161683"
+				command: "/mine_and_slash give exp @p 1200"
+				icon: "kubejs:p3_xp"
+				id: "3893744A934A35C5"
+				title: "1200 Experience Points"
 				type: "command"
 			}]
 			tasks: [
@@ -707,8 +751,10 @@
 			dependencies: ["465DC71E6F8C88E0"]
 			id: "27674FA2A6B14FE0"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				id: "17DC4D65BDBF3AA1"
+				command: "/mine_and_slash give exp @p 1200"
+				icon: "kubejs:p3_xp"
+				id: "771709A707503BE5"
+				title: "1200 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -728,7 +774,9 @@
 			id: "459F2CEEFE703A76"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
 				id: "65B69571A569E1A7"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -750,7 +798,9 @@
 			id: "5E49E933AA24D749"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 800"
+				icon: "kubejs:p3_xp"
 				id: "3423166CAA3DBB46"
+				title: "800 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -772,7 +822,9 @@
 			id: "75F1FBBACA1282C2"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 1000"
+				icon: "kubejs:p3_xp"
 				id: "4F6DC8362F9BCF1F"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -794,7 +846,9 @@
 			id: "11A5C91C31D354AC"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 1500"
+				icon: "kubejs:p3_xp"
 				id: "3DC52C8069699550"
+				title: "1500 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -815,8 +869,10 @@
 			dependencies: ["4086873F1F9B7E49"]
 			id: "48274B6C55D134A6"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 2000"
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
 				id: "1BA00D2744422216"
+				title: "5000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -837,8 +893,10 @@
 			dependencies: ["15FB00D2E063E9D3"]
 			id: "334948FED6A92E99"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
+				command: "/mine_and_slash give exp @p 10000"
+				icon: "kubejs:p3_xp"
 				id: "523B32C73D8B912E"
+				title: "10000"
 				type: "command"
 			}]
 			tasks: [{
@@ -856,7 +914,9 @@
 			id: "62A79913A48A8255"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
 				id: "60F428805FEB325C"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -874,7 +934,9 @@
 			id: "2DDC66BF88815B5E"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
 				id: "49386814AAC01387"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -890,7 +952,9 @@
 			id: "17F52407F4FD42F1"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 100"
+				icon: "kubejs:p3_xp"
 				id: "122E1ABE6027530A"
+				title: "100 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -906,7 +970,9 @@
 			id: "64557BDC73B5CFB0"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
 				id: "56BB4A220AAAD76D"
+				title: "500 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -922,7 +988,9 @@
 			id: "0E9DAF200911FD12"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 800"
+				icon: "kubejs:p3_xp"
 				id: "02898D6E56DD4908"
+				title: "800 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -938,7 +1006,9 @@
 			id: "3970788EC8D4AB55"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 1000"
+				icon: "kubejs:p3_xp"
 				id: "78CF6187E96FB504"
+				title: "1000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -954,7 +1024,9 @@
 			id: "4086873F1F9B7E49"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 1500"
+				icon: "kubejs:p3_xp"
 				id: "4A5F8F46D9874C5D"
+				title: "1500 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -970,7 +1042,9 @@
 			id: "15FB00D2E063E9D3"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2000"
+				icon: "kubejs:p3_xp"
 				id: "7316856227CB2DF7"
+				title: "2000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -986,7 +1060,9 @@
 			id: "2909647B220FE694"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 2000"
+				icon: "kubejs:p3_xp"
 				id: "5C2526D6ECDAACD4"
+				title: "2000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
@@ -1003,8 +1079,10 @@
 			icon: "kubejs:p3_chat"
 			id: "473CFA32B668CCCE"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 300"
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
 				id: "7B8B43A0AF231541"
+				title: "200 Experience Points"
 				type: "command"
 			}]
 			shape: "octagon"
