@@ -642,7 +642,7 @@
 			can_repeat: true
 			dependencies: ["3F2F44D7BC690425"]
 			description: [
-				"Did you do a naughty thing and eat something you shouldn't have?"
+				"Did you do a naughty thing and eat something you shouldn't have? Maybe your DIET stats are being penalized?"
 				""
 				"Don't worry! Just take this pill &4&ocrams it down your throat&r&r, and you'll be pooping in no time."
 				""
@@ -657,6 +657,7 @@
 				command: "/diet reset @p"
 				icon: "decocraft:toilet_paper_gold"
 				id: "3817CF15992F24DA"
+				title: "Wipe It Away"
 				type: "command"
 			}]
 			subtitle: "Flush the negative status away."
@@ -669,7 +670,7 @@
 						value: "refurbished_furniture:wooden_toilets"
 					}
 				}
-				title: "Any #refurbished_furniture:wooden_toilets"
+				title: "Any Toilet"
 				type: "item"
 			}]
 			title: "Gotta Go Poop"

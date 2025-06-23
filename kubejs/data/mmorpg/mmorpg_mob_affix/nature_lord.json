@@ -33,12 +33,6 @@
       "max": 20.0,
       "min": 20.0,
       "stat": "extra_mob_drops"
-    },
-    {
-      "type": "FLAT",
-      "max": 100.0,
-      "min": 100.0,
-      "stat": "proc_chaos_id"
     }
   ],
   "weight": 0

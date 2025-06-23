@@ -827,26 +827,40 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
 			can_repeat: true
 			id: "53550D3BA82CC16B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "24BD4C2AE9C9AC44"
-				table_id: 9019581477510061091L
-				type: "random"
-			}]
-			shape: "circle"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24BD4C2AE9C9AC44"
+					table_id: 9019581477510061091L
+					type: "random"
+				}
+				{
+					id: "5947E75E97454EA9"
+					item: {
+						Count: 1
+						id: "mmorpg:seafood/mythic_loot"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "Kill it with fire!"
 			tasks: [{
 				entity: "minecraft:wandering_trader"
 				id: "27D7E651B1454AFD"
 				type: "kill"
-				value: 50L
+				value: 100L
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -4.5d
 		}
 		{

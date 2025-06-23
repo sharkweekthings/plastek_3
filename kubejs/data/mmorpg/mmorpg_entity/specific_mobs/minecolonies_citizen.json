@@ -15,7 +15,7 @@
         "type": "flat",
         "scale_to_lvl": false,
         "v1": 75.0,
-        "stat": "all_resist"
+        "stat": "elemental_resist"
       },
       {
         "type": "flat",

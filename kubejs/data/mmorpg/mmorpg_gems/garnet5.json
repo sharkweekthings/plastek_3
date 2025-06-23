@@ -15,7 +15,7 @@
     {
       "type": "PERCENT",
       "scale_to_lvl": false,
-      "stat": "str",
+      "stat": "strength",
       "v1": 13.0
     }
   ],
