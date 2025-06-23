@@ -63,7 +63,7 @@
 				""
 				"He lets you know that you can stay in the village for as long as you need but does require that you do some work to help out around the town."
 				""
-				"You're given what looks to be more of a stick than an actual weapon – but you thank him anyway and let him know that you will help clear out the zombies..."
+				"You're given what looks to be more of a stick than an actual weapon, and a ragged change of clothes that clearly has a dog bite in the leg area – but you thank him anyway and let him know that you will help clear out the zombies..."
 			]
 			icon: {
 				Count: 1
@@ -79,18 +79,63 @@
 						id: "better_weaponry:wooden_dagger"
 						tag: {
 							Damage: 0
-							mmorpg_gear: "{\"baseStats\":{\"p\":5},\"imp\":{\"p\":1,\"imp\":\"assassin_dagger\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":7,\"id\":\"wep_item_both\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":1,\"gtype\":\"dagger\"}"
+							mmorpg_gear: "{\"baseStats\":{\"p\":22},\"imp\":{\"p\":93,\"imp\":\"kukri_knife\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":7,\"id\":\"basic\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":1,\"gtype\":\"dagger\"}"
 							mmorpg_potential: "{\"potential\":5}"
 						}
 					}
 					type: "item"
 				}
 				{
-					command: "/mine_and_slash give exp @p 200"
-					icon: "kubejs:p3_xp"
-					id: "2E21A57FF23908E0"
-					title: "200 Experience Points"
-					type: "command"
+					id: "3F0D58A49CBB90A0"
+					item: {
+						Count: 1
+						id: "cte_essentials:leather_0_helmet"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":95},\"imp\":{\"p\":67,\"imp\":\"bandit_mask\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":4,\"id\":\"item_flat_dodge_half\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":1,\"gtype\":\"leather_helmet\"}"
+							mmorpg_potential: "{\"potential\":5}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1123C3F41F77376B"
+					item: {
+						Count: 1
+						id: "cte_essentials:leather_0_chestplate"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":26},\"imp\":{\"p\":66,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":5,\"id\":\"item_both_dodge\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":1,\"gtype\":\"leather_chest\"}"
+							mmorpg_potential: "{\"potential\":5}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28F334C91510AC50"
+					item: {
+						Count: 1
+						id: "magistuarmory:pantyhose"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":80},\"imp\":{\"p\":55,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":5,\"id\":\"item_both_dodge\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":1,\"gtype\":\"leather_pants\"}"
+							mmorpg_potential: "{\"potential\":5}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CF562A50D230148"
+					item: {
+						Count: 1
+						id: "magistuarmory:gambeson_boots"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":48},\"imp\":{\"p\":23,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[{\"p\":9,\"id\":\"item_flat_dodge_half\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"common\",\"lvl\":1,\"gtype\":\"leather_boots\"}"
+							mmorpg_potential: "{\"potential\":5}"
+						}
+					}
+					type: "item"
 				}
 			]
 			shape: "octagon"
