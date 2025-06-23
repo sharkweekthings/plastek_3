@@ -8,6 +8,7 @@
 
 
 	"mmorpg.stat.basic_attack_dmg": "Basic Attack Damage",
+	"mmorpg.stat.elemental_attack_dmg": "Elemental Attack Damage",
 	"mmorpg.stat.bleed_effect_when_hit": "Bleed On Hit",
 	"mmorpg.stat.burn_effect_when_hit": "Burn On Hit",
 	"mmorpg.stat.freeze_effect_when_hit": "Freeze On Hit",
