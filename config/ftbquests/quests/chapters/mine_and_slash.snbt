@@ -66,7 +66,11 @@
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
-			description: ["There are many different level ranges for every &6Mine and Slash&r food."]
+			description: [
+				"There are many different level ranges for every &6Mine and Slash&r food."
+				""
+				"Look at the different food in &6JEI&r searching for &e@mmorpg&r"
+			]
 			id: "46AE04B160AC037A"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
@@ -86,7 +90,11 @@
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
-			description: ["There are many different level ranges for every &6Mine and Slash&r potion."]
+			description: [
+				"There are many different level ranges for every &6Mine and Slash&r potion."
+				""
+				"Look at the different potions in &6JEI&r searching for &e@mmorpg&r"
+			]
 			id: "74582CCB20372137"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"
@@ -110,6 +118,8 @@
 				"If you aren't having luck with drops, there is always crafting or converting."
 				""
 				"Most gear can be converted into a &6Mine and Slash&r piece using a &3Gear Soul&r of its appropriate type."
+				""
+				"Narrow down the search in &6JEI&r by searching for \"&eCrafted Soul&r\""
 			]
 			id: "3E1A4B71A4F4B629"
 			rewards: [{
@@ -130,6 +140,11 @@
 		}
 		{
 			dependencies: ["33CA3CE459F326BD"]
+			description: [
+				"If you found some equipment that you like, you can use the &9Infusing Station&r and craft &3Infusion Scrolls&r. "
+				""
+				"Using the scrolls on your gear has a chance to give them additional stats."
+			]
 			id: "5A24E649CC6113B2"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 500"

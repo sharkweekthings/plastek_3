@@ -1954,6 +1954,34 @@
 			x: 13.0d
 			y: 7.5d
 		}
+		{
+			dependencies: [
+				"3F18B971B4E3F6AD"
+				"6EEBED8A78540A3B"
+			]
+			description: [
+				"Collect &325 Plastim Bags&r from the &3sand&r or &3gravel&r blocks in the ocean, or near the water. "
+				""
+				"Trade those bags with a &eMarket&r person to buy the &3Miner's Certificate&r. "
+				""
+				"This will let you use the \"&eUltimine&r\" ability with the &e`&r key. "
+				""
+				"&eThe Market&r people deal in &3Plastim Bags&r. If you wish to buy anything from them, you'll have to gather bags! "
+			]
+			id: "0382A717A745A3BB"
+			subtitle: "Unlock Ultimine!"
+			tasks: [{
+				id: "7C9037E412FFB86C"
+				item: {
+					Count: 1
+					id: "ultimine_addition:miner_certificate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
 	]
 	title: "Act I"
 }

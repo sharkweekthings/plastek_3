@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "minecraft:clock"
   },
-  "loops": 2,
+  "loops": 5,
   "results": [
     {
       "chance": 120.0,

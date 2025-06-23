@@ -67,9 +67,9 @@
 	#Range: 0.0 ~ 10000.0
 	favor_death_loss = 500.0
 	#Range: 0 ~ 10000000
-	MAX_POSSIBLE_FAVOR = 10000000
+	MAX_POSSIBLE_FAVOR = 3000
 	#Range: 0.0 ~ 10000.0
-	favor_chest_gain = 1.0
+	favor_chest_gain = 5.0
 	#Range: 0 ~ 10000000
 	MAP_START_COOLDOWN_SECONDS = 120
 	#Range: 0.0 ~ 1000.0

@@ -420,6 +420,7 @@
 				table_id: 9019581477510061091L
 				type: "random"
 			}]
+			subtitle: "No increase to Mine and Slash stats"
 			tasks: [{
 				id: "3C5F18F16D5F00F9"
 				item: {
@@ -440,6 +441,7 @@
 				table_id: 9019581477510061091L
 				type: "random"
 			}]
+			subtitle: "No increase to Mine and Slash stats"
 			tasks: [{
 				id: "0D26996426027505"
 				item: {
@@ -600,6 +602,7 @@
 				table_id: 9019581477510061091L
 				type: "random"
 			}]
+			subtitle: "No increase to Mine and Slash stats"
 			tasks: [{
 				id: "0914C4E93F1D9F30"
 				item: {
@@ -820,6 +823,7 @@
 				table_id: 9019581477510061091L
 				type: "random"
 			}]
+			subtitle: "No increase to Mine and Slash stats"
 			tasks: [{
 				id: "6A5694937582231B"
 				item: {
