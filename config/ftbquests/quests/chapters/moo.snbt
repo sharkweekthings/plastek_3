@@ -974,6 +974,32 @@
 			x: -11.5d
 			y: 1.0d
 		}
+		{
+			description: ["Any &3Green Stained Glass&r should act as &eGreenhouse Glass&r."]
+			id: "5867C6D9AA9A2527"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "6C9C5000D53A4C11"
+				title: "500 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7103342B51BCA5D4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "chipped:green_stained_glass"
+					}
+				}
+				title: "Any #chipped:green_stained_glass"
+				type: "item"
+			}]
+			title: "Greenhouse Glass"
+			x: -3.5d
+			y: 1.0d
+		}
 	]
 	title: "Moo"
 }

@@ -35,6 +35,146 @@
     {
       "item": "botania:flight_tiara",
       "emc": 0
-    }
+    },
+    {
+      "item": "minecraft:apple",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:melon_slice",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:carrot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potato",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:baked_potato",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:poisonous_potato",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beetroot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dried_kelp",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beef",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:porkchop",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_porkchop",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mutton",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_mutton",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chicken",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_chicken",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rabbit",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_rabbit",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cod",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:salmon",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_salmon",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tropical_fish",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pufferfish",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bread",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cookie",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cake",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pumpkin_pie",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mushroom_stew",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beetroot_soup",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rabbit_stew",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:suspicious_stew",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sugar",
+      "emc": 0
+    },
+    {
+      "item": "create:dough",
+      "emc": 0
+    },
   ]
 }

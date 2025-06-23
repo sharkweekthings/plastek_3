@@ -7,6 +7,14 @@
 	"mmorpg.stat.weapon_skill_cdr_per_attack_speed": "Weapon Skill CDR Per Attack Speed",
 
 
+	"mmorpg.stat.bleed_effect_when_hit": "Bleed On Hit",
+	"mmorpg.stat.burn_effect_when_hit": "Burn On Hit",
+	"mmorpg.stat.freeze_effect_when_hit": "Freeze On Hit",
+	"mmorpg.stat.poison_effect_when_hit": "Poison On Hit",
+	"mmorpg.stat.electrify_effect_when_hit": "Electrify On Hit",
+	"mmorpg.stat.draw_speed_per_attack_speed": "Draw Speed Per Attack Speed",
+
+
 	"mmorpg.stat_desc.health_leech_cap": "How much Health you can leech from On Hit, On Kill, or Leech per second. Cap is based off the total maximum Health.",
 	"mmorpg.stat_desc.blood_leech_cap": "How much Blood you can leech from On Hit, On Kill, or Leech per second. Cap is based off the total maximum Blood.",
 	"mmorpg.stat_desc.magic_shield_leech_cap": "How much Magic Shield you can leech from On Hit, On Kill, or Leech per second. Cap is based off the total maximum Magic Shield.",
@@ -1058,6 +1066,7 @@
 	"mmorpg.mob_affix.of_evasion": "of the Ninja",
 	"mmorpg.mob_affix.of_the_vampire": "of the Vampire",
 	"mmorpg.mob_affix.of_elemental_resistance": "of Elemental Resistance",
+	"mmorpg.mob_affix.elemental_resist_suffix": "of Elemental Resistance",
 	"mmorpg.mob_affix.lightning_mob_affix": "of Lightning",
 	"mmorpg.mob_affix.chaos_mob_affix": "of Chaos",
 	"mmorpg.mob_affix.water_mob_affix": "of Frost",

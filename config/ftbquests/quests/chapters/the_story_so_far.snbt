@@ -71,11 +71,11 @@
 				""
 				"The bees of the &6Bumblezone&r and the Elves of &6Alfheim&r finally cut ties with the &6Overworld&r, and closed access to their worlds. while the Elves are still willing to trade, no being is allowed to drink the &3Mead of Kvasir&r and enter their portal. Failure to do so will result in instant, and merciless war; where the dragons will reign down Ice, Fire, and Lightning across all villages."
 				""
-				"&6The Aether&r is still open for travel, as is &6Everdawn&r and &6Everbright&r; however in order to enter you must travel to a &dCoxworth Yorkington&r."
+				"&6The Aether&r is still open for travel, as is &6Everdawn&r and &6Everbright&r; however in order to enter you must travel to a &dCoxworth Yorkington&r and buy a &3Zeal Lighter&r."
 				""
 				"&6Dimensional Dungeons&r continues to infinitely expand and has warped into multiple realms; &6Dungeon Realm&r, &6Ancient Obelisk&r, &6The Harvest&r, and &6Maps&r. "
 				""
-				"Toybox and Sweet Lands are both newly discovered dimensions, rich with their own history. "
+				"&6Toybox&r and &6Sweet Lands&r are both newly discovered dimensions, rich with their own history. "
 				""
 				"&6Feywild&r and &6Astral Dimension&r are interconnected; the &6Astral Dimension&r being a dimension created by the &aPixies&r to store their massive amounts of magical energy."
 				""
@@ -114,15 +114,68 @@
 		}
 		{
 			dependencies: ["73AB3804DE28551B"]
+			description: [
+				"Thanks for taking the time to read through all of that. "
+				""
+				"If you didn't read through it, thanks for taking the time to click through all of that!"
+				""
+				"Your efforts are rewarded with food, and an orb."
+			]
 			icon: "minecraft:writable_book"
 			id: "6A8F919085492077"
+			rewards: [
+				{
+					id: "3949AD35AA90098F"
+					item: {
+						Count: 1
+						id: "mmorpg:seafood/epic_loot"
+						tag: {
+							tier: 0
+						}
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "0454289DB5C3324C"
+					item: {
+						Count: 1
+						id: "mmorpg:seafood/epic_exp"
+						tag: {
+							tier: 0
+						}
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3B2F995ACCE02834"
+					item: "pamhc2foodextended:wafflesitem"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					count: 5
+					id: "67BB99921C2A3A97"
+					item: "pamhc2foodextended:babaganoushitem"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "08DCE43DAEE7E40C"
+					item: "mmorpg:currency/affix_common_reroll"
+					random_bonus: 4
+					type: "item"
+				}
+			]
 			shape: "heart"
 			tasks: [{
 				id: "3446D5661ED48932"
 				title: "Ok"
 				type: "checkmark"
 			}]
-			title: "Part 5"
+			title: "The Rewards"
 			x: 6.0d
 			y: 0.0d
 		}
