@@ -1248,7 +1248,11 @@
 				""
 				"There are many varieties of &3Gems&r, which you can find in JEI by searching @mmorpg and looking at the gems portion. Slotting these into your gear has different effects depending on whether it's a weapon, gear, or jewelry."
 				""
-				"&3Runes&r are special items that grant various effects, depending on the &3Rune&r. There are many items called '&eRunewords&r' that have a predetermined order of runes, with specific bonuses. If you put a &3Rune&r on your hotbar and right-click, it will open the &6Mine and Slash&r library and show you the available &eRunewords&r that specific &eRune&r can create."
+				"&3Runes&r are special items that grant various effects, depending on the &3Rune&r. "
+				""
+				"There are items called '&eRunewords&r' that have a predetermined order of runes, with specific bonuses. If you put a &3Rune&r on your hotbar and right-click, it will open the &6Mine and Slash&r library and show you the available &eRunewords&r that specific &eRune&r can create."
+				""
+				"You can find some &3Runes&r in various chests or barrels, the other way is to defeat bosses. By farming the various campaign bosses you can get their individual &3Runes&r."
 			]
 			icon: "kubejs:p3_chat"
 			id: "2D8EC1DB50B1A94F"

@@ -2103,6 +2103,15 @@ LootJS.modifiers((e) => {
   LootEntry.of("mmorpg:runes/sid").withWeight(50).limitCount([0, 1])
       ]);
 
+// PLASTIM BOTTLE BONUS
+  e.addLootTypeModifier(LootType.CHEST)
+    .randomChance(0.45)
+    .addWeightedLoot(
+      [0, 1], //0-1 rolls
+      [
+  LootEntry.of("ocean_recovery:plastic_bottle").withWeight(35).limitCount([0, 1])
+      ]);
+
 // MYSTICAL AG ESSENCE
   e.addLootTypeModifier(LootType.CHEST)
     .randomChance(0.40)
