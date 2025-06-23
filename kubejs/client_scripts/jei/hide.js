@@ -7,7 +7,7 @@ JEIEvents.hideItems(event => {
 //
 
 // AE2 Facade
-	event.hide('ae2:facade')
+	// event.hide('ae2:facade')
 
 // // FARMERS DELIGHT
 // 	event.hide('farmersdelight:wheat_dough')

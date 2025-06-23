@@ -1,6 +1,6 @@
 {
   "fam": "OffHand",
-  "id": "shield",
+  "id": "rune_shield",
   "model_num": 1011,
   "weapon_data": {
     "damage_multiplier": 0.0,

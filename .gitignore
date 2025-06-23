@@ -19,6 +19,8 @@ season_assignments.ods
 season_assignment.ods
 servers.dat
 servers.dat_old
+config/emi.css
+emi.json
 
 
 kubejs/data/mmorpg/mmorpg_base_gear_types/earring.json

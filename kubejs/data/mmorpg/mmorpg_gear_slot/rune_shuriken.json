@@ -1,6 +1,6 @@
 {
   "fam": "Weapon",
-  "id": "rune_throwing_dagger",
+  "id": "rune_shuriken",
   "model_num": 1114,
   "weapon_data": {
     "damage_multiplier": 2.1,
