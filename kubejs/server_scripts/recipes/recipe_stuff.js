@@ -47,6 +47,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_compact_hopper_botany_pot_3'})
   event.remove({ mod: 'a_man_with_plushies' })
   event.remove({ mod: 'plushies' })
+  event.remove({ mod: 'ultimine_addition' })
 //
 })
 //
@@ -83,6 +84,13 @@ ServerEvents.recipes(event => {
     1: 'mmorpg:stone/4',
     2: '#p3:ma_5'}).id('p3:stone_convert_4_to_5')
 
+// Bottle To Bag Weak
+  event.shaped('2x ocean_recovery:plastic_bag',
+    [' 2 ','131',' 1 '], {
+    1: '#mysticalagriculture:infusion_crystals',
+    2: 'mysticalagriculture:fire_essence',
+    3: 'ocean_recovery:plastic_bottle'}).id('p3:bottle_to_bag')
+
 // MMORPG Stone Convert 5 to 4
   event.shapeless(Item.of('4x mmorpg:stone/4'), ['mmorpg:stone/5']).id('p3_stone_convert_5_to_4')
 
@@ -110,5 +118,6 @@ ServerEvents.recipes(event => {
 // Replace Wheat Dough w/ Create Dough
   event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
   event.replaceInput({}, 'refurbished_furniture:dough', 'create:dough')
+  event.replaceInput({}, 'ocean_recovery:plastic_shard', 'ocean_recovery:plastic_bottle')
 
   })

@@ -235,7 +235,8 @@ config/tombstone-common.toml
 config/tombstone-server.toml
 config/torchmaster.toml
 config/trashcans-common.toml
-config/ultimine_addition
+config/ultimine_addition/custom_cards
+config/ultimine_addition/client-config.toml
 config/vinery.toml
 config/voidscape-client.toml
 config/voidscape-common.toml

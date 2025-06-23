@@ -73,17 +73,18 @@
     }
   },
   "customEntries": [
+    {"output": {"item": "ultimine_addition:miner_certificate","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 25},"category": "shopping"},
     {"output": {"item": "torchmaster:megatorch","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
     {"output": {"item": "torchmaster:dreadlamp","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
-    {"output": {"item": "toybox:abacus","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
-    {"output": {"item": "toybox:stacking_tower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
-    {"output": {"item": "toybox:toy_robot","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
-    {"output": {"item": "toybox:toy_car","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
-    {"output": {"item": "toybox:toy_elephant","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
-    {"output": {"item": "toybox:foam_rocket","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
-    {"output": {"item": "sweet_calamity:honeyed_brick","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
-    {"output": {"item": "sweet_calamity:echo_lollipop","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
-    {"output": {"item": "sweet_calamity:totem_cake","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 64},"category": "shopping"},
+    {"output": {"item": "toybox:abacus","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "toybox:stacking_tower","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "toybox:toy_robot","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "toybox:toy_car","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "toybox:toy_elephant","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "toybox:foam_rocket","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "sweet_calamity:honeyed_brick","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "sweet_calamity:echo_lollipop","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "sweet_calamity:totem_cake","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
     {"output": {"item": "cookingforblockheads:spice_rack","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 25},"category": "shopping"},
     {"output": {"item": "cookingforblockheads:fridge","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 64},"category": "shopping"},
     {"output": {"item": "cookingforblockheads:heating_unit","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 64},"category": "shopping"},
@@ -474,7 +475,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"mana_reg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 20
 		},
 		"category": "augments"
@@ -486,7 +487,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"quickstrikes\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 20
 		},
 		"category": "augments"
@@ -498,7 +499,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"health_reg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 20
 		},
 		"category": "augments"
@@ -510,7 +511,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"magic_shield_reg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 20
 		},
 		"category": "augments"
@@ -522,7 +523,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"energy_reg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 20
 		},
 		"category": "augments"
@@ -534,7 +535,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"chaos_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 30
 		},
 		"category": "augments"
@@ -546,7 +547,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"armor\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 30
 		},
 		"category": "augments"
@@ -558,7 +559,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"lightning_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 30
 		},
 		"category": "augments"
@@ -570,7 +571,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fire_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 30
 		},
 		"category": "augments"
@@ -582,7 +583,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"magic_shield\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 30
 		},
 		"category": "augments"
@@ -594,7 +595,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"physical_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 30
 		},
 		"category": "augments"
@@ -606,7 +607,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"dodge\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 30
 		},
 		"category": "augments"
@@ -618,7 +619,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"cold_ailment\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 30
 		},
 		"category": "augments"
@@ -630,7 +631,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"ele_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 40
 		},
 		"category": "augments"
@@ -642,7 +643,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"cold_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":11,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 40
 		},
 		"category": "augments"
@@ -654,7 +655,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"block\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 40
 		},
 		"category": "augments"
@@ -666,7 +667,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"chaos_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 40
 		},
 		"category": "augments"
@@ -678,7 +679,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"summon_dmg\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 40
 		},
 		"category": "augments"
@@ -690,7 +691,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"light_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 40
 		},
 		"category": "augments"
@@ -702,7 +703,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"guardian\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 40
 		},
 		"category": "augments"
@@ -714,7 +715,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fire_res\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 40
 		},
 		"category": "augments"
@@ -726,7 +727,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"cold_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 50
 		},
 		"category": "augments"
@@ -738,7 +739,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"lightning_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 50
 		},
 		"category": "augments"
@@ -750,7 +751,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"chaos_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 50
 		},
 		"category": "augments"
@@ -762,7 +763,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"physical_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 50
 		},
 		"category": "augments"
@@ -774,7 +775,7 @@
 			"nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fire_damage\\\",\\\"type\\\":\\\"AURA\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1}\"}"
 		},
 		"payment": {
-			"item": "ocean_recovery:plastic_bottle",
+			"item": "ocean_recovery:plastic_bag",
 			"count": 50
 		},
 		"category": "augments"
@@ -786,7 +787,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"burn_chance\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -798,7 +799,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"bleed_chance\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -810,7 +811,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"totem_dmg_cdr\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -822,7 +823,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"proc_freeze\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -834,7 +835,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"poison_chance\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -846,7 +847,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"lmp\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -858,7 +859,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"faster_attacks\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -870,7 +871,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"crit_chance\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -882,7 +883,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"accuracy\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -894,7 +895,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"dot_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -906,7 +907,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"proc_shock\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -918,7 +919,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"freeze_chance\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -930,7 +931,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"electrify_chance\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -942,7 +943,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"summon_duration\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -954,7 +955,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"small_cdr\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 25
 	  },
 	  "category": "support"
@@ -966,7 +967,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"lightning_flat_dmg\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 30
 	  },
 	  "category": "support"
@@ -978,7 +979,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fire_flat_dmg\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 30
 	  },
 	  "category": "support"
@@ -990,7 +991,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"water_flat_dmg\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 30
 	  },
 	  "category": "support"
@@ -1002,7 +1003,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fire_pene\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1014,7 +1015,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"physical_pene\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1026,7 +1027,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"crit_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1038,7 +1039,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"totem_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1050,7 +1051,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"lmp_barrage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1062,7 +1063,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"proj_speed\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":11,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1074,7 +1075,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"water_pene\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1086,7 +1087,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"void_manipulation\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1098,7 +1099,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"frenzy_on_crit\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1110,7 +1111,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"chaos_pene\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1122,7 +1123,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"trap_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1134,7 +1135,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"mana_saver_dmg\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1146,7 +1147,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"heal_at_low\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1158,7 +1159,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"lightning_pene\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1170,7 +1171,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"plus_aoe\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1182,7 +1183,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"summon_health\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1194,7 +1195,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"summon_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1206,7 +1207,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"spell_damage_no_crit\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1218,7 +1219,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"cast_speed\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 35
 	  },
 	  "category": "support"
@@ -1230,7 +1231,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fire_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1242,7 +1243,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"fortify\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1254,7 +1255,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"health_on_hit\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":11,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1266,7 +1267,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"phys_to_fire\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1278,7 +1279,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"defensive_minions\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1290,7 +1291,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"minion_threat\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1302,7 +1303,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"melee_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1314,7 +1315,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"threat\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1326,7 +1327,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"aggressive_minions\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1338,7 +1339,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"endurance_on_hit\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1350,7 +1351,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"physical_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1362,7 +1363,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"lightning_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1374,7 +1375,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"aoe_dmg\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1386,7 +1387,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"effect_duration\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":18,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1398,7 +1399,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"magic_shield_on_hit\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":16,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1410,7 +1411,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"mana_on_hit\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1422,7 +1423,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"phys_to_lightning\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1434,7 +1435,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"inc_heal\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1446,7 +1447,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"chaos_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1458,7 +1459,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"ailment_damage_less_hit_dmg\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1470,7 +1471,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"ranged_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1482,7 +1483,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"cold_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1494,7 +1495,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"phys_to_cold\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1506,7 +1507,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"energy_on_hit\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1518,7 +1519,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"power_on_crit\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1530,7 +1531,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"focused_shot\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 40
 	  },
 	  "category": "support"
@@ -1542,7 +1543,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"crit_dmg_less_non_crit_dmg\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1554,7 +1555,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"brutality\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":19,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1566,7 +1567,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"swift_affliction\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":10,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1578,7 +1579,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"reduced_proj_speed\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":20,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1590,7 +1591,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"gmp\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1602,7 +1603,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"gmp_barrage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1614,7 +1615,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"chaos_flat_dmg\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1626,7 +1627,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"cluster_traps\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1638,7 +1639,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"archmage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1650,7 +1651,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"spell_damage\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":14,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1662,7 +1663,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"iron_will\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":17,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 45
 	  },
 	  "category": "support"
@@ -1674,7 +1675,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"rare_mana_eff\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":13,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 50
 	  },
 	  "category": "support"
@@ -1686,7 +1687,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"enlighten\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":12,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 50
 	  },
 	  "category": "support"
@@ -1698,7 +1699,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"rare_cooldown\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":15,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 50
 	  },
 	  "category": "support"
@@ -1710,7 +1711,7 @@
 	    "nbt": "{mmorpg_skill_gem:\"{\\\"id\\\":\\\"magic_find\\\",\\\"type\\\":\\\"SUPPORT\\\",\\\"perc\\\":11,\\\"rar\\\":\\\"uncommon\\\",\\\"links\\\":1,\\\"sal\\\":true}\"}"
 	  },
 	  "payment": {
-	    "item": "ocean_recovery:plastic_bottle",
+	    "item": "ocean_recovery:plastic_bag",
 	    "count": 50
 	  },
 	  "category": "support"
