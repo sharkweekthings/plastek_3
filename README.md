@@ -18,6 +18,8 @@
 
  - Sometimes the starting town is waterlogged. just make a new seed and it should fix it.
 
+ - Navigating in the Creative Screen from Page 2 to 3 causes a client side crash
+
  - Battle Towers spawn too close to some villages (reported to ba_bt devs // waiting on fix)
 
  - Some custom spawning rules for cultist and witch mob is causing them to spawn underground despite a min Y level being set. seesky rule breaks the spawn.
