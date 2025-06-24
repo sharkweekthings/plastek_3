@@ -239,6 +239,7 @@ config/ultimine_addition/custom_cards
 config/ultimine_addition/client-config.toml
 backup.zip
 config/configured-developer.toml
+/shaderpacks
 config/vinery.toml
 config/voidscape-client.toml
 config/voidscape-common.toml
