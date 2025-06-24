@@ -11,6 +11,11 @@ LootJS.modifiers(event => {
   event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_ingot", "mmorpg:stone/2");
   event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:gold_nugget", "mmorpg:stone/1");
   event.addLootTypeModifier(LootType.CHEST).replaceLoot("minecraft:iron_nugget", "mmorpg:stone/0");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:copper_backpack", "mmorpg:stone/0");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:iron_backpack", "mmorpg:stone/0");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:gold_backpack", "mmorpg:stone/1");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:diamond_backpack", "mmorpg:stone/1");
+  event.addLootTypeModifier(LootType.CHEST).replaceLoot("sophisticatedbackpacks:netherite_backpack", "mmorpg:stone/2");
 });
 
 // LootJS.modifiers(event => {

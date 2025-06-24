@@ -18,7 +18,7 @@
 
  - Sometimes the starting town is waterlogged. just make a new seed and it should fix it.
 
- - Navigating in the Creative Screen from Page 2 to 3 causes a client side crash
+ - Navigating in the Creative Screen from Page 2 to 3 causes a client side crash - reported bug: https://legacy.curseforge.com/minecraft/mc-mods/decocraft/issues/1961
 
  - Battle Towers spawn too close to some villages (reported to ba_bt devs // waiting on fix)
 

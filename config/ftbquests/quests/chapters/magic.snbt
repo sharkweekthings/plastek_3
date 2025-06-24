@@ -454,7 +454,9 @@
 				""
 				"You start by finding &3Scrolls&r in the world through looting various chests, or killing certain mobs."
 				""
-				"The damage from &6Iron's Spells and Spellbooks&r does scale with your &6Mine and Slash&r stats; and uses it's own independent &eMana Pool&r. This opens you up to a whole separate arsenal of magical abilities to use outside of what is included in &6Mine and Slash&r."
+				"The damage from &6Iron's Spells and Spellbooks&r should scale with your &6Mine and Slash&r &eWeapon Damage&r or &eSpell Damage&r stat; and uses it's own independent &eMana Pool&r. "
+				""
+				"This opens you up to a whole separate arsenal of magical abilities to use outside of what is included in &6Mine and Slash&r. Unfortunately, Elemental Bonus Damage from &6Mine and Slash&r isn't converted into &6Iron's Spellbooks&r (&oto the best of my knowledge&r)."
 				""
 				"If you're struggling to get some cloth gear, or you want to make gear specific to this mod -- you can craft it as normal, then use a &3Gear Soul&r on the crafted gear to convert it into a &6Mine and Slash&r piece."
 			]
