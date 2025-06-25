@@ -73,6 +73,13 @@
     }
   },
   "customEntries": [
+    {"output": {"item": "mmorpg:potion/resource/0","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 3},"category": "shopping"},
+    {"output": {"item": "mmorpg:potion/health/0","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 3},"category": "shopping"},
+    {"output": {"item": "mmorpg:potions/reset_points_talent","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "mmorpg:potions/reset_points_spell","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "mmorpg:potions/reset_points_passive","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "mmorpg:potions/reset_points_stat","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
+    {"output": {"item": "mmorpg:potions/reset_points_ascendancy","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
     {"output": {"item": "ultimine_addition:miner_certificate","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 25},"category": "shopping"},
     {"output": {"item": "torchmaster:megatorch","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
     {"output": {"item": "torchmaster:dreadlamp","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},

@@ -1042,22 +1042,18 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["413F9D6EE5E50726"]
-			id: "250B1C4772E1820D"
-			tasks: [{
-				id: "4851BFC30B877581"
-				item: "decocraft:decobench"
-				type: "item"
-			}]
-			title: "Decobench"
-			x: -11.5d
-			y: 5.0d
-		}
-		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: ["While not farming related, there was no better place for these purely decorative mods. "]
 			icon: "kubejs:p3_chat"
 			id: "413F9D6EE5E50726"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7CA18BE97E043F25"
+				title: "200 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "22A551B751E00BA6"
 				title: "Ok"
@@ -1070,6 +1066,13 @@
 		{
 			dependencies: ["413F9D6EE5E50726"]
 			id: "672688E05D1E1AAD"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "35303121345936B1"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [{
 				id: "151B43913F082739"
 				item: "refurbished_furniture:workbench"
@@ -1082,6 +1085,13 @@
 		{
 			dependencies: ["413F9D6EE5E50726"]
 			id: "76C8B73FFBCE1821"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 3000"
+				icon: "kubejs:p3_xp"
+				id: "7225697D8983DACA"
+				title: "3000 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "7F733C556560C912"
@@ -1120,12 +1130,19 @@
 				}
 			]
 			title: "Chipped"
-			x: -12.5d
+			x: -11.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["413F9D6EE5E50726"]
 			id: "3C381965A4069884"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "6B647F6935525808"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "542766A1532911A4"

@@ -51,14 +51,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "ars_nouveau:worn_notebook"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "ars_nouveau:novice_spell_book"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 15,
           "name": "minecraft:book",
           "functions": [
@@ -161,7 +153,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "ars_nouveau:blank_parchment",
+          "name": "minecraft:dirt",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -180,118 +172,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:empty",
+          "type": "minecraft:dirt",
           "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_burrowing"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_challenge"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_binding"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_awakening"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_disintegration"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_sunrise"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_cloudshaping"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_flight"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_conjure_island_plains"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_restoration"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_animal_summon"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_forestation"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_moonfall"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_containment"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_scrying"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_gravity"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_flowering"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_sanctuary"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_fertility"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_overgrowth"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_conjure_island_desert"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "ars_nouveau:ritual_harvest"
         }
       ]
     }
