@@ -1,30 +1,30 @@
 {
-  "armorSetName": "gold",
+  "armorSetName": "Phoenix",
   "performanceMode": true,
   "head": {
-    "itemKey": "minecraft:golden_helmet",
+    "itemKey": "aether:phoenix_boots",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "minecraft:golden_chestplate",
+    "itemKey": "aether:phoenix_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "minecraft:golden_leggings",
+    "itemKey": "aether:phoenix_helmet",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "minecraft:golden_boots",
+    "itemKey": "aether:phoenix_leggings",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:magic_shield",
-      "value": 15,
-      "modifierUUID": "c5ee75e8-6c93-4257-8983-8dca2bf9190c",
-      "description": "15% Magic Shield",
+      "name": "kubejs:fire_resist",
+      "value": 10,
+      "modifierUUID": "c0a4fc48-7ef4-4e95-9342-ea539e23191c",
+      "description": "20% Armor",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -35,10 +35,10 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:all_stats",
-      "value": 10,
-      "modifierUUID": "9c0ba28b-19ff-43ff-bb01-d759e8c54376",
-      "description": "+10 All Stats",
+      "name": "kubejs:all_fire_damage",
+      "value": 15,
+      "modifierUUID": "8d05e78a-8532-439e-8e56-39d6e1f88d81",
+      "description": "25 To Attack Damage",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -49,7 +49,7 @@
   "hideGeneratedTooltip": true,
   "customTooltips": [
     "Set Bonus: ",
-    "2) 15% Magic Shield",
-    "4) +10 All Stats"
+    "2) +10 Fire Resist",
+    "4) +15 All Fire Damage"
   ]
 }

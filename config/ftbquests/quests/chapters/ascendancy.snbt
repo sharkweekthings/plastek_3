@@ -38,6 +38,7 @@
 			id: "5F7CE47E4494300E"
 			rewards: [{
 				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				elevate_perms: true
 				icon: "kubejs:p3_asc"
 				id: "7437E3C2316DAC8C"
 				title: "+1 Ascendancy Point"
@@ -125,6 +126,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "73137DDB28E13EB8"
 					title: "75000 Experience Points"
@@ -132,6 +134,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "5E79644560EFE84D"
 					title: "1 Talent Point"
@@ -162,6 +165,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "74C73857A257C3CF"
 					title: "75000 Experience Points"
@@ -169,6 +173,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "09B54B0D8BD40D57"
 					title: "1 Talent Point"
@@ -244,6 +249,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "372ED30522952274"
 					title: "75000 Experience Points"
@@ -251,6 +257,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "7DB9E87CF955B19C"
 					title: "1 Talent Point"
@@ -284,6 +291,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "26B873DE118E28C1"
 					title: "75000 Experience Points"
@@ -291,6 +299,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "28BAAA2C38274E46"
 					title: "1 Talent Point"
@@ -325,6 +334,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "2111B587EBD2C464"
 					title: "75000 Experience Points"
@@ -332,6 +342,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "109CC30D0402B0FC"
 					title: "1 Talent Point"
@@ -363,6 +374,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "4E34E06B899D64B5"
 					title: "75000 Experience Points"
@@ -370,6 +382,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "486E59C0EC9632C2"
 					title: "1 Talent Point"
@@ -404,6 +417,7 @@
 			id: "7030D7639993BCFE"
 			rewards: [{
 				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				elevate_perms: true
 				icon: "kubejs:p3_asc"
 				id: "7B30F59947605B99"
 				title: "+1 Ascendancy Point"
@@ -433,6 +447,7 @@
 			id: "1731A66B3F94C366"
 			rewards: [{
 				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				elevate_perms: true
 				icon: "kubejs:p3_asc"
 				id: "29A770458EF0B76A"
 				title: "+1 Ascendancy Point"
@@ -461,6 +476,7 @@
 			id: "67929281D6D59AC6"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 50000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "3E8E59BE0C43D6CC"
 				title: "50000 Experience Points"
@@ -516,6 +532,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "5F955ECB0114B8A4"
 					title: "75000 Experience Points"
@@ -523,6 +540,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "3DC9545261C2D065"
 					title: "1 Talent Point"
@@ -556,6 +574,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "6341F4B6D7A55994"
 					title: "75000 Experience Points"
@@ -563,6 +582,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "2F3A3C0D8B047294"
 					title: "1 Talent Point"
@@ -598,6 +618,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "45A9E94177950A73"
 					title: "75000 Experience Points"
@@ -605,6 +626,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "1D4A4B25A255AD16"
 					title: "1 Talent Point"
@@ -638,6 +660,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "326E4857E8D17BD3"
 					title: "75000 Experience Points"
@@ -645,6 +668,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "384038183742C46A"
 					title: "1 Talent Point"
@@ -677,6 +701,7 @@
 			id: "658A7EFAE367F2F9"
 			rewards: [{
 				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				elevate_perms: true
 				icon: "kubejs:p3_asc"
 				id: "7F64F489726F8C9F"
 				title: "+1 Ascendancy Point"
@@ -710,6 +735,7 @@
 			id: "262789E7EE7A7C35"
 			rewards: [{
 				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				elevate_perms: true
 				icon: "kubejs:p3_asc"
 				id: "609D537FC439EC91"
 				title: "+1 Ascendancy Point"
@@ -732,6 +758,7 @@
 			id: "1C3E877C2452D7D2"
 			rewards: [{
 				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				elevate_perms: true
 				icon: "kubejs:p3_asc"
 				id: "06172B922D080638"
 				title: "+1 Ascendancy Point"
@@ -758,6 +785,7 @@
 			id: "0F6A019DDF84CB5A"
 			rewards: [{
 				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				elevate_perms: true
 				icon: "kubejs:p3_asc"
 				id: "68CC71103F21B979"
 				title: "+1 Ascendancy Point"
@@ -786,6 +814,7 @@
 			id: "4D618E37E7437C9E"
 			rewards: [{
 				command: "/mine_and_slash points give @p ASCENDANCY 1"
+				elevate_perms: true
 				icon: "kubejs:p3_asc"
 				id: "29ED6E3803905FBA"
 				title: "+1 Ascendancy Point"
@@ -818,6 +847,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "3A05408568AA5724"
 					title: "75000 Experience Points"
@@ -825,6 +855,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "4F49B05DD74DDA96"
 					title: "1 Talent Point"
@@ -862,6 +893,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 75000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "7008CDB5B5F99535"
 					title: "75000 Experience Points"
@@ -869,6 +901,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "3F4B45404EBCE7D5"
 					title: "1 Talent Point"
@@ -903,6 +936,7 @@
 			id: "5F897E7A4F68E851"
 			rewards: [{
 				command: "/mine_and_slash points give @p ASCENDANCY 2"
+				elevate_perms: true
 				icon: "kubejs:p3_asc"
 				id: "1236CAE8CF067655"
 				title: "+2 Ascendancy Points"

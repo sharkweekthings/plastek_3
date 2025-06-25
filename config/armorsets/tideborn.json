@@ -1,20 +1,20 @@
 {
-  "armorSetName": "gold",
+  "armorSetName": "Tideborn",
   "performanceMode": true,
   "head": {
-    "itemKey": "minecraft:golden_helmet",
+    "itemKey": "allthewizardgear:vibranium_mage_helmet", 
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "minecraft:golden_chestplate",
+    "itemKey": "allthewizardgear:vibranium_mage_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "minecraft:golden_leggings",
+    "itemKey": "allthewizardgear:vibranium_mage_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "minecraft:golden_boots",
+    "itemKey": "allthewizardgear:vibranium_mage_boots",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,
@@ -22,9 +22,9 @@
     {
       "type": "attribute",
       "name": "kubejs:magic_shield",
-      "value": 15,
-      "modifierUUID": "c5ee75e8-6c93-4257-8983-8dca2bf9190c",
-      "description": "15% Magic Shield",
+      "value": 30,
+      "modifierUUID": "bf26f7bb-58db-4061-bdef-6306bfa60171",
+      "description": "30% Magic Shield",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -35,10 +35,10 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:all_stats",
-      "value": 10,
-      "modifierUUID": "9c0ba28b-19ff-43ff-bb01-d759e8c54376",
-      "description": "+10 All Stats",
+      "name": "kubejs:water_resist",
+      "value": 20,
+      "modifierUUID": "558c5c6d-e429-419b-a0f2-e65440607c11",
+      "description": "20 Water Resistance",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -49,7 +49,7 @@
   "hideGeneratedTooltip": true,
   "customTooltips": [
     "Set Bonus: ",
-    "2) 15% Magic Shield",
-    "4) +10 All Stats"
+    "2) +30% Magic Shield",
+    "4) +20 Water Resistance"
   ]
 }

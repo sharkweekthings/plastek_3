@@ -17,13 +17,14 @@
     "itemKey": "minecraft:diamond_boots",
     "mustBeEmpty": false
   },
-  "fullSetBonuses": [
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.max_health",
-      "value": 4.0,
-      "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b4c6dd218",
-      "description": "+2 hearts",
+      "name": "kubejs:ele_resist",
+      "value": 15,
+      "modifierUUID": "415d59d5-4d50-416c-8077-212b65920152",
+      "description": "15% Elemental Resist",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -31,5 +32,24 @@
       "onlyImmuneToNewEffects": false
     }
   ],
-  "hideGeneratedTooltip": false
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:all_stats",
+      "value": 12,
+      "modifierUUID": "0349fe65-645d-4186-8016-598bb547ce97",
+      "description": "+12 All Stats",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 15% Elemental Resist",
+    "4) +12 All Stats"
+  ]
 }

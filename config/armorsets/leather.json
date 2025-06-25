@@ -17,18 +17,39 @@
     "itemKey": "minecraft:leather_boots",
     "mustBeEmpty": false
   },
-  "fullSetBonuses": [
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.armor",
-      "value": 3.0,
-      "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b4c6dd218",
-      "description": "+3 armor",
+      "name": "kubejs:dodge",
+      "value": 15,
+      "modifierUUID": "2c14f122-b1c9-40ca-ac2f-52fab0dc91f7",
+      "description": "15% Dodge",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
     }
   ],
-  "hideGeneratedTooltip": false
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:all_stats",
+      "value": 5,
+      "modifierUUID": "2941f74d-e1df-489f-9b43-89728bb60463",
+      "description": "+5 All Stats",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 15% Dodge",
+    "4) +5 All Stats"
+  ]
 }

@@ -29,6 +29,7 @@
 			id: "7EA63909997D6C3D"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "659EB57C5C9C97B8"
 				title: "4000 Experience Points"
@@ -71,6 +72,7 @@
 			id: "60B581E389E8085A"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "39923439F31CD40B"
 				title: "4000 Experience Points"
@@ -96,6 +98,7 @@
 			id: "20A30498BD2020C5"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "59931E8C330E721C"
 				title: "4000 Experience Points"
@@ -128,6 +131,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "2ADBA8D144D76A69"
 					title: "20000 Experience Points"
@@ -135,6 +139,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "7F5B70D96B322482"
 					title: "1 Talent Point"
@@ -171,6 +176,7 @@
 			id: "7949FA7849F2A6D9"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "543654A4B4C33672"
 				title: "4000 Experience Points"
@@ -203,6 +209,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "6A52D637D3F89A00"
 					title: "20000 Experience Points"
@@ -210,6 +217,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "02C968C1594E567A"
 					title: "1 Talent Point"
@@ -237,6 +245,7 @@
 			id: "157B7989DC9152D0"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4200"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "14FA56EAB9FD6D02"
 				title: "4200 Experience Points"
@@ -260,6 +269,7 @@
 			id: "453F4E3ED2EE7DE8"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4200"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "655D4CDDC78F772A"
 				title: "4200 Experience Points"
@@ -298,6 +308,7 @@
 			id: "752D1CA4C2899415"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4500"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "731D0A5CDBE6E1D1"
 				title: "4500 Experience Points"
@@ -357,6 +368,7 @@
 			id: "14527A39D456F6C1"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "44875E5AB163092C"
 				title: "4000 Experience Points"
@@ -388,6 +400,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 20000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "4D247D18A8126C5B"
 					title: "20000 Experience Points"
@@ -395,6 +408,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "62A52A7F51F5A868"
 					title: "1 Talent Point"
@@ -432,6 +446,7 @@
 			id: "4B6984CE3691DF66"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "5AB478FE6C51D80A"
 				title: "4000 Experience Points"
@@ -459,6 +474,7 @@
 			id: "4A15E187C9741B83"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4200"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "6801FEF1B345530F"
 				title: "4200 Experience Points"
@@ -497,6 +513,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 4200"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "53A773D3398AB20C"
 					title: "4200 Experience Points"
@@ -553,6 +570,7 @@
 			id: "680E0CE425EB05A3"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4500"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "20EDD75ADB14DC2A"
 				title: "4500 Experience Points"
@@ -611,6 +629,7 @@
 			id: "5A3B99BC18DF73ED"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4500"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "616759B18BAA603F"
 				title: "4500 Experience Points"
@@ -670,6 +689,7 @@
 			id: "03D3EED70D7C3A8C"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "0CADE6AABA5F8FEC"
 				title: "5000 Experience Points"
@@ -734,6 +754,7 @@
 			id: "025597A8B0943247"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4500"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "7B3DB588CF39959E"
 				title: "4500 Experience Points"
@@ -766,6 +787,7 @@
 			id: "699199EA3FA6DE99"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4500"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "2E73C45BCC22434B"
 				title: "4500 Experience Points"
@@ -848,6 +870,7 @@
 			rewards: [
 				{
 					command: "/mine_and_slash give exp @p 50000"
+					elevate_perms: true
 					icon: "kubejs:p3_xp"
 					id: "2335C4D1B2D37C2B"
 					title: "50000 Experience Points"
@@ -855,6 +878,7 @@
 				}
 				{
 					command: "/mine_and_slash points give @p TALENTS 1"
+					elevate_perms: true
 					icon: "kubejs:p3_passive"
 					id: "2C4350EF6BB825B3"
 					title: "1 Talent Point"
@@ -896,6 +920,7 @@
 			id: "19234246C5D4818A"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4600"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "12FC6AA0384C27F0"
 				title: "4600 Experience Points"
@@ -934,6 +959,7 @@
 			id: "3144E5B8E9551900"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4600"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "4D6374718910378D"
 				title: "4600 Experience Points"
@@ -1007,6 +1033,7 @@
 			id: "3907CC2E404A2C31"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4800"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "220C1BEB765FCC88"
 				title: "4800 Experience Points"
@@ -1045,6 +1072,7 @@
 			id: "4C1EF8F51267FEC5"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "29380AE9D48E8DC3"
 				title: "5000 Experience Points"
@@ -1079,6 +1107,7 @@
 			id: "204722BDD681089C"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "32D6166029C21558"
 				title: "5000 Experience Points"
@@ -1111,6 +1140,7 @@
 			id: "6E6A6B9EC3AE9C50"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "0E6553530FA05626"
 				title: "5000 Experience Points"
@@ -1147,6 +1177,7 @@
 			id: "6FE134FB9BECA29D"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "7931D2A7ED8EA1B5"
 				title: "5000 Experience Points"
@@ -1185,6 +1216,7 @@
 			id: "0513603A119AFBAE"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "41ACF7D98DBB4967"
 				title: "5000 Experience Points"
@@ -1223,6 +1255,7 @@
 			id: "7D642A89D54EDEF6"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "40A6E838463721DD"
 				title: "5000 Experience Points"
@@ -1264,6 +1297,7 @@
 			id: "31ABF97A4BE2448F"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 100000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "74A47CE93D2727C1"
 				title: "100000 Experience Points"
@@ -1299,6 +1333,7 @@
 			id: "315740FFD6D8A200"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "63D85F01E976DD7B"
 				title: "5000 Experience Points"
@@ -1337,6 +1372,7 @@
 			id: "5CE47BF7E2224681"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "38669CC7CCA658A5"
 				title: "5000 Experience Points"
@@ -1358,6 +1394,7 @@
 			id: "4AE9E8E4B0FE6478"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 15000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "489A437F7A42314E"
 				title: "15000 Experience Points"
@@ -1390,6 +1427,7 @@
 			id: "464B7D793B1D05A4"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "4285542B1CC2D00E"
 				title: "5000 Experience Points"
@@ -1416,6 +1454,7 @@
 			id: "6DFE4C83E03A804C"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "6E1CBCBF30540F41"
 				title: "4000 Experience Points"
@@ -1442,6 +1481,7 @@
 			id: "60248D80D0C868B2"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 4000"
+				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "354B503A2B9F1FB6"
 				title: "4000 Experience Points"

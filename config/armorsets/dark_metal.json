@@ -1,30 +1,30 @@
 {
-  "armorSetName": "gold",
+  "armorSetName": "Dark Metal",
   "performanceMode": true,
   "head": {
-    "itemKey": "minecraft:golden_helmet",
+    "itemKey": "born_in_chaos_v1:dark_metal_armor_helmet", 
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "minecraft:golden_chestplate",
+    "itemKey": "born_in_chaos_v1:dark_metal_armor_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "minecraft:golden_leggings",
+    "itemKey": "born_in_chaos_v1:dark_metal_armor_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "minecraft:golden_boots",
+    "itemKey": "born_in_chaos_v1:dark_metal_armor_boots",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:magic_shield",
-      "value": 15,
-      "modifierUUID": "c5ee75e8-6c93-4257-8983-8dca2bf9190c",
-      "description": "15% Magic Shield",
+      "name": "kubejs:armor",
+      "value": 30,
+      "modifierUUID": "056b9723-2217-4076-9ab7-5af65fd7a622",
+      "description": "30% Armor",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -35,10 +35,10 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:all_stats",
-      "value": 10,
-      "modifierUUID": "9c0ba28b-19ff-43ff-bb01-d759e8c54376",
-      "description": "+10 All Stats",
+      "name": "kubejs:all_physical_damage",
+      "value": 15,
+      "modifierUUID": "e44e996e-3f75-46a4-8470-dbe21f0f7b8c",
+      "description": "15 All Physical Damage",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -49,7 +49,7 @@
   "hideGeneratedTooltip": true,
   "customTooltips": [
     "Set Bonus: ",
-    "2) 15% Magic Shield",
-    "4) +10 All Stats"
+    "2) +30% Armor",
+    "4) +15 All Physical Damage"
   ]
 }

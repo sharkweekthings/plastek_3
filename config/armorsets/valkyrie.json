@@ -1,30 +1,30 @@
 {
-  "armorSetName": "gold",
+  "armorSetName": "Valkyrie",
   "performanceMode": true,
   "head": {
-    "itemKey": "minecraft:golden_helmet",
+    "itemKey": "aether:valkyrie_boots",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "minecraft:golden_chestplate",
+    "itemKey": "aether:valkyrie_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "minecraft:golden_leggings",
+    "itemKey": "aether:valkyrie_helmet",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "minecraft:golden_boots",
+    "itemKey": "aether:valkyrie_leggings",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:magic_shield",
-      "value": 15,
-      "modifierUUID": "c5ee75e8-6c93-4257-8983-8dca2bf9190c",
-      "description": "15% Magic Shield",
+      "name": "kubejs:lightning_resist",
+      "value": 10,
+      "modifierUUID": "fc8bb28d-487f-4a9b-9edf-fd3c2a0dd8a0",
+      "description": "20% Armor",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -35,10 +35,10 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:all_stats",
-      "value": 10,
-      "modifierUUID": "9c0ba28b-19ff-43ff-bb01-d759e8c54376",
-      "description": "+10 All Stats",
+      "name": "kubejs:all_lightning_damage",
+      "value": 15,
+      "modifierUUID": "e14d9247-586d-4dd9-911d-5976aa7c8834",
+      "description": "25 To Attack Damage",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -49,7 +49,7 @@
   "hideGeneratedTooltip": true,
   "customTooltips": [
     "Set Bonus: ",
-    "2) 15% Magic Shield",
-    "4) +10 All Stats"
+    "2) +10 Lightning Resist",
+    "4) +15 All Lightning Damage"
   ]
 }

@@ -29,16 +29,39 @@
     ],
     "mustBeEmpty": false
   },
-  "fullSetBonuses": [
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
     {
-      "type": "effect",
-      "name": "minecraft:strength",
-      "value": 0.0,
+      "type": "attribute",
+      "name": "kubejs:armor",
+      "value": 15,
+      "modifierUUID": "ddb12f35-4890-4da9-afc5-f527fa680b4a",
+      "description": "15% Armor",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
     }
   ],
-  "hideGeneratedTooltip": false
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:all_stats",
+      "value": 8,
+      "modifierUUID": "7f1e8a00-767e-4063-8112-28087fc19270",
+      "description": "+8 All Stats",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 15% Armor",
+    "4) +8 All Stats"
+  ]
 }

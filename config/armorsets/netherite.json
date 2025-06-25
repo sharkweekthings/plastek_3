@@ -20,9 +20,12 @@
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
     {
-      "type": "effect",
-      "name": "minecraft:resistance",
-      "value": 0.0,
+      "type": "attribute",
+      "name": "kubejs:gear_defense",
+      "value": 25,
+      "modifierUUID": "6d155d12-cb88-4421-8784-0008b46bac26",
+      "description": "+25 Gear Defense",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,
@@ -31,14 +34,22 @@
   ],
   "fullSetBonuses": [
     {
-      "type": "effect",
-      "name": "minecraft:fire_resistance",
-      "value": 0.0,
+      "type": "attribute",
+      "name": "kubejs:all_stats",
+      "value": 15,
+      "modifierUUID": "2f529257-d544-4ff3-9a4f-a95fab36e33c",
+      "description": "+15 All Stats",
+      "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
     }
   ],
-  "hideGeneratedTooltip": false
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) +25 Gear Defense",
+    "4) +15 All Stats"
+  ]
 }

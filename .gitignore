@@ -190,7 +190,6 @@ config/Plushie_Buddies-Common.toml
 config/polymorph-integrations.toml
 config/ponder-client.toml
 config/print.txt
-config/armorsets/
 config/ProjectE/client.toml
 config/ProjectE/common.toml
 config/ProjectE/processing.toml
@@ -240,6 +239,7 @@ config/ultimine_addition/client-config.toml
 backup.zip
 config/configured-developer.toml
 /shaderpacks
+config/l2_configs/
 config/vinery.toml
 config/voidscape-client.toml
 config/voidscape-common.toml
