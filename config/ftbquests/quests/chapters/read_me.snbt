@@ -529,7 +529,7 @@
 		{
 			dependencies: ["7DA184125BC90240"]
 			description: [
-				"&eExperience Points&r - To level your character you need to gain Mine and Slash Experience Points by completing quests, or fighting monsters. You will gain Bonus Combat Experience by working on your Mine and Slash professions, and you will gain Bonus Profession Experience by defeating monsters. "
+				"&eExperience Points&r - To level your character you need to gain &6Mine and Slash&r &eExperience Points&r by completing quests, or fighting monsters. You will gain &eBonus Combat Experience&r by working on your &6Mine and Slash&r professions, and you will gain &eBonus Profession Experience&r by defeating monsters. "
 				""
 				"&cDeath Penalty&r - Starting at &2level 50&r, each death will result in a 10% permanent loss of &eExperience Points&r. &eExperience Debt&r is disabled in this pack."
 				""
