@@ -1,30 +1,30 @@
 {
-  "armorSetName": "Netherite",
+  "armorSetName": "Cardboard",
   "performanceMode": true,
   "head": {
-    "itemKey": "minecraft:netherite_helmet",
+    "itemKey": "create:cardboard_helmet",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "minecraft:netherite_chestplate",
+    "itemKey": "create:cardboard_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "minecraft:netherite_leggings",
+    "itemKey": "create:iron_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "minecraft:netherite_boots",
+    "itemKey": "create:cardboard_leggings",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:gear_defense",
-      "value": 25,
-      "modifierUUID": "6d155d12-cb88-4421-8784-0008b46bac26",
-      "description": "+25 Gear Defense",
+      "name": "kubejs:accuracy",
+      "value": 15,
+      "modifierUUID": "5ec9d729-7ec5-485f-8e26-c16461498341",
+      "description": "15% Accuracy",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -36,9 +36,9 @@
     {
       "type": "attribute",
       "name": "kubejs:all_stats",
-      "value": 15,
-      "modifierUUID": "2f529257-d544-4ff3-9a4f-a95fab36e33c",
-      "description": "+15 All Stats",
+      "value": 4,
+      "modifierUUID": "f6683467-0c8b-4ec6-86b6-88418f9d2c35",
+      "description": "+4 All Stats",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -49,7 +49,7 @@
   "hideGeneratedTooltip": true,
   "customTooltips": [
     "Set Bonus: ",
-    "2) +25 Gear Defense",
-    "4) +15 All Stats"
+    "2) 15% Accuracy",
+    "4) +4 All Stats"
   ]
 }

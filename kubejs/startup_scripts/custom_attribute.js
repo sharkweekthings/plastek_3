@@ -24,18 +24,18 @@ StartupEvents.registry("attribute", e => {
     e.createCustom("kubejs:all_fire_damage", () => new $RangedAttribute("All Fire Damage", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:chaos_resist", () => new $RangedAttribute("Chaos Resistance", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:all_chaos_damage", () => new $RangedAttribute("Chaos Resistance", 1, 0, 100).setSyncable(true));
-    e.createCustom("kubejs:gear_defense", () => new $RangedAttribute("Gear Defense", 1, 0, 100).setSyncable(true));
+    e.createCustom("kubejs:gear_defense", () => new $RangedAttribute("Gear Defense", 1, 0, 1000).setSyncable(true));
     e.createCustom("kubejs:bonus_exp", () => new $RangedAttribute("Bonus Experience", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:move_speed", () => new $RangedAttribute("Move Speed", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:critical_hit", () => new $RangedAttribute("Critical Hit", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:magic_find", () => new $RangedAttribute("Magic Find", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:plus_lvl_all_spells", () => new $RangedAttribute("+ to All Skills", 1, 0, 100).setSyncable(true));
 
-    
     e.createCustom("kubejs:all_stats", () => new $RangedAttribute("All Stats", 1, 0, 1000).setSyncable(true));
     e.createCustom("kubejs:strength", () => new $RangedAttribute("Bonus Strength", 1, 0, 1000).setSyncable(true));
     e.createCustom("kubejs:dexterity", () => new $RangedAttribute("Bonus Dexterity", 1, 0, 1000).setSyncable(true));
     e.createCustom("kubejs:intelligence", () => new $RangedAttribute("Bonus Intelligence", 1, 0, 1000).setSyncable(true));
+    e.createCustom("kubejs:accuracy", () => new $RangedAttribute("Accuracy", 1, 0, 10000).setSyncable(true));
 });
 
 EntityJSEvents.attributes(event => {
@@ -68,5 +68,6 @@ EntityJSEvents.attributes(event => {
         attribute.add("kubejs:strength", 0.0);
         attribute.add("kubejs:dexterity", 0.0);
         attribute.add("kubejs:intelligence", 0.0);
+        attribute.add("kubejs:accuracy", 0.0);
     })
 }) 
