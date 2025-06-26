@@ -1,8 +1,8 @@
 {
-  "dmg_multi": 0.5,
+  "dmg_multi": 1.0,
   "exp_multi": 1.0,
   "hp_multi": 0.5,
-  "identifier": "minecraft:enderman",
+  "identifier": "creeperoverhaul:snowy_creeper",
   "loot_multi": 1.0,
   "max_lvl": 1000000,
   "min_lvl": 1,

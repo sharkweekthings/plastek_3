@@ -18,10 +18,13 @@
     "samurai_dynasty:oni",
     "samurai_dynasty:jorogumo"
   ],
-  "simple_prebuilt_map": {
-    "rooms_folder": "dungeon_realm:map_boss/sandstone",
-    "size": 1
-  },
   "size": 2,
+  "structure": {
+    "rooms_folder": "dungeon_realm:map_boss/sandstone",
+    "size": 1,
+    "teleport_offset_x": 0,
+    "teleport_offset_y": 0,
+    "teleport_offset_z": 0
+  },
   "weight": 1000
 }

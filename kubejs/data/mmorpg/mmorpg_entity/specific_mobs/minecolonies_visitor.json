@@ -14,27 +14,21 @@
       {
         "type": "flat",
         "scale_to_lvl": false,
-        "v1": 150.0,
+        "v1": 75.0,
         "stat": "elemental_resist"
       },
       {
         "type": "flat",
         "scale_to_lvl": false,
-        "v1": 150,
+        "v1": 75,
         "stat": "physical_resist"
       },
       {
         "type": "flat",
         "scale_to_lvl": false,
-        "v1": 50,
+        "v1": 25,
         "stat": "health_regen"
-      },
-      {
-        "type": "flat",
-        "scale_to_lvl": false,
-        "v1": 20,
-        "stat": "health_per_sec"
       }
-	]
+  ]
   }
 }

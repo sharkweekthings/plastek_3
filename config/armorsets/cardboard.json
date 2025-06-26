@@ -10,7 +10,7 @@
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "create:iron_leggings",
+    "itemKey": "create:cardboard_leggings",
     "mustBeEmpty": false
   },
   "boots": {

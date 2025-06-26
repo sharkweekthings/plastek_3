@@ -18,9 +18,12 @@
     "born_in_chaos_v1:mother_spider",
     "born_in_chaos_v1:nightmare_stalker"
   ],
-  "structure": {
+  "structure_data": {
     "rooms_folder": "dungeon_realm:uber/river",
-    "size": 3
+    "size": 3,
+    "teleport_offset_x": 0,
+    "teleport_offset_y": 0,
+    "teleport_offset_z": 0
   },
   "weight": 1000
 }
