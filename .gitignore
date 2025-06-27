@@ -191,6 +191,8 @@ config/polymorph-integrations.toml
 config/ponder-client.toml
 config/print.txt
 config/armorsets/WIP/
+config/aiimprovements-common.toml
+config/connectivity.json
 config/ProjectE/client.toml
 config/ProjectE/common.toml
 config/ProjectE/processing.toml

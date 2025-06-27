@@ -50,6 +50,9 @@ ServerEvents.recipes(event => {
   event.remove({id: 'epicpaladins:assassin_chestplate'})
   event.remove({id: 'epicpaladins:assassin_eggings'})
   event.remove({id: 'epicpaladins:angel_boots'})
+  event.remove({id: 'epicpaladins:steel_ingot_from_blasting_iron_ingot'})
+  event.remove({id: 'magistuarmory:steel_ingot_blasting'})
+  event.remove({id: 'magistuarmory:furnace/steel_ingot_blasting'})
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_botany_pot_2'})
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_compact_hopper_botany_pot_2'})
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_compact_hopper_botany_pot_3'})
@@ -126,6 +129,14 @@ ServerEvents.recipes(event => {
 // Replace Wheat Dough w/ Create Dough
   event.replaceInput({}, 'pamhc2foodcore:doughitem', 'create:dough')
   event.replaceInput({}, 'refurbished_furniture:dough', 'create:dough')
+
   event.replaceInput({}, 'ocean_recovery:plastic_shard', 'ocean_recovery:plastic_bottle')
+
+  event.replaceInput({}, 'magistuarmory:steel_ingot', 'samurai_dynasty:steel_ingot')
+  event.replaceInput({}, 'epicpaladins:steel_ingot', 'samurai_dynasty:steel_ingot')
+  event.replaceInput({}, 'tconstruct:steel_ingot', 'samurai_dynasty:steel_ingot')
+  event.replaceOutput({}, 'magistuarmory:steel_ingot', 'samurai_dynasty:steel_ingot')
+  event.replaceOutput({}, 'epicpaladins:steel_ingot', 'samurai_dynasty:steel_ingot')
+  event.replaceOutput({}, 'tconstruct:steel_ingot', 'samurai_dynasty:steel_ingot')
 
   })

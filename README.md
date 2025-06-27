@@ -18,13 +18,11 @@
 
  - Sometimes the starting town is waterlogged. just make a new seed and it should fix it.
 
- - Navigating in the Creative Screen from Page 2 to 3 causes a client side crash - reported bug: https://legacy.curseforge.com/minecraft/mc-mods/decocraft/issues/1961
-
  - Battle Towers spawn too close to some villages (reported to ba_bt devs // waiting on fix)
 
  - Some custom spawning rules for cultist and witch mob is causing them to spawn underground despite a min Y level being set. seesky rule breaks the spawn.
 
- - Unique items don’t actually have unique models at this time
+ - Unique items don’t actually have unique models
 
  - Minecolonies nametags still render up close
 
@@ -33,5 +31,3 @@
  - Some affixes/prefixes most likely need to be properly named through the lang file
 
  - Flywheel rendering crash is present // someone has reported it as a bug: https://github.com/Engine-Room/Flywheel/issues/290
-
- - Just enough resources was causing a frequent crash. it’s temporarily removed and may be added back later
