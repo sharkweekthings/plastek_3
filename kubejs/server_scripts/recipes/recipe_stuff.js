@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'epicpaladins:assassin_helmet'})
   event.remove({id: 'epicpaladins:assassin_chestplate'})
   event.remove({id: 'epicpaladins:assassin_eggings'})
-  event.remove({id: 'epicpaladins:assassin_boots'})
+  event.remove({id: 'epicpaladins:angel_boots'})
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_botany_pot_2'})
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_compact_hopper_botany_pot_2'})
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_compact_hopper_botany_pot_3'})
