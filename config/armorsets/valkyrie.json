@@ -2,7 +2,7 @@
   "armorSetName": "Valkyrie",
   "performanceMode": true,
   "head": {
-    "itemKey": "aether:valkyrie_boots",
+    "itemKey": "aether:valkyrie_helmet",
     "mustBeEmpty": false
   },
   "chest": {
@@ -10,11 +10,11 @@
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "aether:valkyrie_helmet",
+    "itemKey": "aether:valkyrie_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "aether:valkyrie_leggings",
+    "itemKey": "aether:valkyrie_boots",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,

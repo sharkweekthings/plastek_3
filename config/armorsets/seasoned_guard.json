@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Seasoned Guard",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cte_essentials:plate_3_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "cte_essentials:plate_3_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "cte_essentials:plate_3_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "cte_essentials:plate_3_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:armor",
+      "value": 25,
+      "modifierUUID": "d14b20d1-d19d-45a9-af12-f180956fcaa1",
+      "description": "25% Armor",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:health",
+      "value": 100,
+      "modifierUUID": "d88c0d81-4fdc-496c-b4c6-2d4369f1b093",
+      "description": "+50 Health",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 25% Armor",
+    "4) +100 Health"
+  ]
+}

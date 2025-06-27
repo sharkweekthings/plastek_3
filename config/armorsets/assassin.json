@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Assassin",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "epicpaladins:assassin_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "epicpaladins:assassin_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "epicpaladins:assassin_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "epicpaladins:assassin_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:total_damage",
+      "value": 15,
+      "modifierUUID": "b831eb73-97d4-4565-939d-669a529364f2",
+      "description": "15% Total Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:lifesteal",
+      "value": 25,
+      "modifierUUID": "5ec713c5-463d-491b-b059-c648003d4355",
+      "description": "25% Lifesteal",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 15% Total Damage",
+    "4) 25% Lifesteal"
+  ]
+}

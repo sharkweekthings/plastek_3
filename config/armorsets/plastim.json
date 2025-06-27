@@ -1,0 +1,52 @@
+{
+  "armorSetName": "Plastim",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "ocean_recovery:plastic_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "ocean_recovery:plastic_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "ocean_recovery:plastic_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "ocean_recovery:plastic_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:bonus_exp",
+      "value": 20,
+      "modifierUUID": "74947c01-739b-4167-b18d-8578a6645b93",
+      "description": "20% Bonus Experience",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "divine_weaponry:wither_resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 20% Bonus Experience",
+    "4) Wither Resistance"
+  ]
+}

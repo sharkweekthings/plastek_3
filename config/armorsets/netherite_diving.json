@@ -1,0 +1,35 @@
+{
+  "armorSetName": "Copper Diving",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "create:netherite_diving_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "create:netherite_backtank",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "create:netherite_diving_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:trident_damage",
+      "value": 25,
+      "modifierUUID": "16d855bb-6112-42b4-9207-accc1bd56df8",
+      "description": "+25 Trident Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "3) +25 Trident Damage"
+  ]
+}

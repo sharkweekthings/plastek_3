@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Master Netherite Samurai",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "samurai_dynasty:netherite_samurai_helmet_master",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "samurai_dynasty:netherite_samurai_chestplate_master",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "samurai_dynasty:netherite_samurai_leggings_master",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "samurai_dynasty:netherite_samurai_boots_master",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:all_stats",
+      "value": 15,
+      "modifierUUID": "0be13a7f-5fff-43f2-8347-d6f9fc9e7451",
+      "description": "+15 All Stats",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:skill_damage",
+      "value": 15,
+      "modifierUUID": "06fd4fc0-1fa4-4681-871d-8caefbf41539",
+      "description": "+15 Skill Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) +15 All Stats",
+    "4) +15 Skill Damage"
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "attribute_id": "kubejs:spell_damage",
+  "attribute_id": "kubejs:skill_damage",
   "conversion": 1.0,
   "enchant_id": "",
-  "id": "p3_spell_damage_compat",
+  "id": "p3_skill_damage_compat",
   "maximum_cap": 1000,
   "minimum_cap": 0,
   "mns_stat_id": "spell_damage",

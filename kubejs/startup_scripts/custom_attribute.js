@@ -12,8 +12,8 @@ StartupEvents.registry("attribute", e => {
     e.createCustom("kubejs:dodge", () => new $RangedAttribute("Dodge", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:armor", () => new $RangedAttribute("Armor", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:magic_shield", () => new $RangedAttribute("Magic Shield", 1, 0, 100).setSyncable(true));
-    e.createCustom("kubejs:spell_damage", () => new $RangedAttribute("Spell Damage", 1, 0, 100).setSyncable(true));
-    e.createCustom("kubejs:all_elemental_damage", () => new $RangedAttribute("Spell Damage", 1, 0, 100).setSyncable(true));
+    e.createCustom("kubejs:skill_damage", () => new $RangedAttribute("Skill Damage", 1, 0, 100).setSyncable(true));
+    e.createCustom("kubejs:all_elemental_damage", () => new $RangedAttribute("Elemental Damage", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:all_dot_damage", () => new $RangedAttribute("Spell Damage", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:total_damage", () => new $RangedAttribute("Spell Damage", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:water_resist", () => new $RangedAttribute("Water Resistance", 1, 0, 100).setSyncable(true));
@@ -26,6 +26,7 @@ StartupEvents.registry("attribute", e => {
     e.createCustom("kubejs:all_chaos_damage", () => new $RangedAttribute("Chaos Resistance", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:gear_defense", () => new $RangedAttribute("Gear Defense", 1, 0, 1000).setSyncable(true));
     e.createCustom("kubejs:bonus_exp", () => new $RangedAttribute("Bonus Experience", 1, 0, 100).setSyncable(true));
+    
     e.createCustom("kubejs:move_speed", () => new $RangedAttribute("Move Speed", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:critical_hit", () => new $RangedAttribute("Critical Hit", 1, 0, 100).setSyncable(true));
     e.createCustom("kubejs:magic_find", () => new $RangedAttribute("Magic Find", 1, 0, 100).setSyncable(true));
@@ -36,6 +37,15 @@ StartupEvents.registry("attribute", e => {
     e.createCustom("kubejs:dexterity", () => new $RangedAttribute("Bonus Dexterity", 1, 0, 1000).setSyncable(true));
     e.createCustom("kubejs:intelligence", () => new $RangedAttribute("Bonus Intelligence", 1, 0, 1000).setSyncable(true));
     e.createCustom("kubejs:accuracy", () => new $RangedAttribute("Accuracy", 1, 0, 10000).setSyncable(true));
+    e.createCustom("kubejs:trident_damage", () => new $RangedAttribute("Trident Damage", 1, 0, 500).setSyncable(true));
+    e.createCustom("kubejs:plus_max_summon", () => new $RangedAttribute("Max Summon", 1, 0, 10).setSyncable(true));
+    e.createCustom("kubejs:spell_elemental_damage", () => new $RangedAttribute("Spell Elemental Damage", 1, 0, 1000).setSyncable(true));
+    e.createCustom("kubejs:katana_damage", () => new $RangedAttribute("Katana Damage", 1, 0, 1000).setSyncable(true));
+    e.createCustom("kubejs:projectile_damage", () => new $RangedAttribute("Projectile Damage", 1, 0, 1000).setSyncable(true));
+    e.createCustom("kubejs:health", () => new $RangedAttribute("Health", 1, 0, 1000).setSyncable(true));
+    e.createCustom("kubejs:more_food_stats", () => new $RangedAttribute("Bonus Food Stats", 1, 0, 1000).setSyncable(true));
+    e.createCustom("kubejs:attack_speed", () => new $RangedAttribute("Attack Speed", 1, 0, 1000).setSyncable(true));
+    e.createCustom("kubejs:lifesteal", () => new $RangedAttribute("Lifesteal", 1, 0, 1000).setSyncable(true));
 });
 
 EntityJSEvents.attributes(event => {
@@ -46,7 +56,6 @@ EntityJSEvents.attributes(event => {
         attribute.add("kubejs:dodge", 0.0);
         attribute.add("kubejs:armor", 0.0);
         attribute.add("kubejs:magic_shield", 0.0);
-        attribute.add("kubejs:spell_damage", 0.0);
         attribute.add("kubejs:all_chaos_damage", 0.0);
         attribute.add("kubejs:all_elemental_damage", 0.0);
         attribute.add("kubejs:all_dot_damage", 0.0);
@@ -69,5 +78,15 @@ EntityJSEvents.attributes(event => {
         attribute.add("kubejs:dexterity", 0.0);
         attribute.add("kubejs:intelligence", 0.0);
         attribute.add("kubejs:accuracy", 0.0);
+        attribute.add("kubejs:trident_damage", 0.0);
+        attribute.add("kubejs:plus_max_summon", 0.0);
+        attribute.add("kubejs:skill_damage", 0.0);
+        attribute.add("kubejs:spell_elemental_damage", 0.0);
+        attribute.add("kubejs:katana_damage", 0.0);
+        attribute.add("kubejs:projectile_damage", 0.0);
+        attribute.add("kubejs:health", 0.0);
+        attribute.add("kubejs:more_food_stats", 0.0);
+        attribute.add("kubejs:attack_speed", 0.0);
+        attribute.add("kubejs:lifesteal", 0.0);
     })
 }) 

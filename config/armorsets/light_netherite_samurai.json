@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Light Netherite Samurai",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "samurai_dynasty:netherite_samurai_helmet_light",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "samurai_dynasty:netherite_samurai_chestplate_light",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "samurai_dynasty:netherite_samurai_leggings_light",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "samurai_dynasty:netherite_samurai_boots_light",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:all_stats",
+      "value": 15,
+      "modifierUUID": "9b760461-dc5d-4c5a-862f-32d09fcffcd2",
+      "description": "+15 All Stats",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:projectile_damage",
+      "value": 15,
+      "modifierUUID": "b7fb141d-343d-455a-b6b0-5a3e627012a5",
+      "description": "+15 Projectile Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) +15 All Stats",
+    "4) +15 Projectile Damage"
+  ]
+}

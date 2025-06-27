@@ -1,0 +1,13 @@
+{
+  "attribute_id": "kubejs:plus_max_summon",
+  "conversion": 1.0,
+  "enchant_id": "",
+  "id": "kube_plus_max_summon",
+  "maximum_cap": 10,
+  "minimum_cap": 0,
+  "mns_stat_id": "max_total_summons",
+  "mod_type": "FLAT",
+  "per_item_max": 10,
+  "per_item_min": 0,
+  "scaling": "NONE"
+}

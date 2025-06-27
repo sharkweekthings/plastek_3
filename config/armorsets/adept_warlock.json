@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Adept Warlock",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cte_essentials:cloth_5_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "cte_essentials:cloth_5_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "cte_essentials:cloth_5_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "cte_essentials:cloth_5_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:ele_resist",
+      "value": 25,
+      "modifierUUID": "3b9de35e-c6ac-4b47-910f-8ba4173bca68",
+      "description": "25% Elemental Resist",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:all_dot_damage",
+      "value": 20,
+      "modifierUUID": "27ada21d-30a8-4eae-9ae8-51d2f80ba1db",
+      "description": "+15 DoT Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 25% Elemental Resist",
+    "4) +20 DoT Damage"
+  ]
+}

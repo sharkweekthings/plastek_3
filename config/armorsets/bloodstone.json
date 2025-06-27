@@ -1,0 +1,52 @@
+{
+  "armorSetName": "Bloodstone",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "epicpaladins:bloodstone_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "epicpaladins:bloodstone_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "epicpaladins:bloodstone_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "epicpaladins:bloodstone_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:bad_omen",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:skill_damage",
+      "value": 30,
+      "modifierUUID": "61bc9af0-d24a-4ae7-9343-20b4185fd371",
+      "description": "30% Skill Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) Bad Omen",
+    "4) 30% Skill Damage"
+  ]
+}

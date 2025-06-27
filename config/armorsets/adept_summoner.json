@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Adept Summoner",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cte_essentials:cloth_4_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "cte_essentials:cloth_4_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "cte_essentials:cloth_4_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "cte_essentials:cloth_4_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:ele_resist",
+      "value": 25,
+      "modifierUUID": "c1080ac2-b034-4b76-a447-c447807a373d",
+      "description": "25% Elemental Resist",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:plus_max_summon",
+      "value": 3,
+      "modifierUUID": "2b57ab32-53ad-4b44-97e2-6e571aca6ef8",
+      "description": "+1 Max Summon",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 25% Elemental Resist",
+    "4) +4 Max Summons"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Brass Samurai",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "samurai_dynasty:brass_samurai_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "samurai_dynasty:brass_samurai_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "samurai_dynasty:brass_samurai_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "samurai_dynasty:brass_samurai_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:move_speed",
+      "value": 5,
+      "modifierUUID": "045e7f66-46fe-453d-90e4-9446525fed78",
+      "description": "10% Movement Speed",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:plus_lvl_all_spells",
+      "value": 2,
+      "modifierUUID": "bbbd794c-d1cc-45fc-9515-1c816755acd1",
+      "description": "+2 to All Skills",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 5% Movement Speed",
+    "4) +2 to All Skills"
+  ]
+}

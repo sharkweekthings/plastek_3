@@ -1,0 +1,51 @@
+{
+  "armorSetName": "Iron Ninja",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "samurai_dynasty:iron_ninja_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "samurai_dynasty:iron_ninja_chestplate",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "samurai_dynasty:iron_ninja_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:all_stats",
+      "value": 5,
+      "modifierUUID": "1be122c5-462d-452f-bbc5-e872da0fb9b6",
+      "description": "+5 All Stats",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:total_damage",
+      "value": 5,
+      "modifierUUID": "a7940f32-5bd6-4069-b7eb-dae34e583ee2",
+      "description": "+5 Total Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) +5 All Stats",
+    "4) +5 Total Damage"
+  ]
+}

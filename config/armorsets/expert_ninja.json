@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Expert Ninja",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cte_essentials:leather_4_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "cte_essentials:leather_4_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "cte_essentials:leather_4_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "cte_essentials:leather_4_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:dodge",
+      "value": 25,
+      "modifierUUID": "88fe582e-5350-49df-9595-5cb6389b26ab",
+      "description": "25% Dodge",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:attack_damage",
+      "value": 20,
+      "modifierUUID": "4a047a0a-4b01-4dd5-a1fa-fb223fb07b61",
+      "description": "+20 Attack Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 25% Dodge",
+    "4) +20 Attack Damage"
+  ]
+}

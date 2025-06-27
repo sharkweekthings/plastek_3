@@ -192,13 +192,13 @@
       "weight": 1000
     },
     {
-      "item_id": "epicpaladins:angel_boots",
+      "item_id": "magistuarmory:ceremonial_boots",
       "min_rar": "legendary",
       "weight": 1000
     },
     {
-      "item_id": "magistuarmory:ceremonial_boots",
-      "min_rar": "legendary",
+      "item_id": "epicpaladins:angel_boots",
+      "min_rar": "mythic",
       "weight": 1000
     },
     {

@@ -1312,9 +1312,7 @@
 			description: [
 				"&eFavor&r rewards you for staying alive."
 				""
-				"You generate a little bit of &eFavor&r every minute, up to 1000. This is the soft cap."
-				""
-				"If you reach this cap, you may exceed it by exploring and opening various chests and barrels."
+				"You generate &e5 Favor&r per &9Chest&r or &9Barrel&r looted."
 				""
 				"The more &eFavor&r you have, the higher your &eLoot and Experience&r multiplier will be."
 				""

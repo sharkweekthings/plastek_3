@@ -190,6 +190,7 @@ config/Plushie_Buddies-Common.toml
 config/polymorph-integrations.toml
 config/ponder-client.toml
 config/print.txt
+config/armorsets/WIP/
 config/ProjectE/client.toml
 config/ProjectE/common.toml
 config/ProjectE/processing.toml

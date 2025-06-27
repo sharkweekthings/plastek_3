@@ -157,6 +157,11 @@
       "weight": 1000
     },
     {
+      "item_id": "epicpaladins:angel_leggings",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
       "item_id": "cte_essentials:plate_5_leggings",
       "min_rar": "mythic",
       "weight": 1000

@@ -2,7 +2,7 @@
   "armorSetName": "Phoenix",
   "performanceMode": true,
   "head": {
-    "itemKey": "aether:phoenix_boots",
+    "itemKey": "aether:phoenix_helmet",
     "mustBeEmpty": false
   },
   "chest": {
@@ -10,11 +10,11 @@
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "aether:phoenix_helmet",
+    "itemKey": "aether:phoenix_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "aether:phoenix_leggings",
+    "itemKey": "aether:phoenix_boots",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,

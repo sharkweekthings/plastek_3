@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Winemaker",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "vinery:straw_hat",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "vinery:winemaker_apron",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "vinery:winemaker_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "vinery:winemaker_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:health",
+      "value": 50,
+      "modifierUUID": "3a29b115-ddab-46a3-a4a2-b4cc47a4ba6e",
+      "description": "+50 Health",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:more_food_stats",
+      "value": 15,
+      "modifierUUID": "b4f5930b-6bd2-4d69-93f1-c4826254c683",
+      "description": "15% Bonus Food Stats",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) +50 Health",
+    "4) 15% Bonus Food Stats"
+  ]
+}

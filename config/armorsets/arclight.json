@@ -1,0 +1,52 @@
+{
+  "armorSetName": "Arclight",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "epicpaladins:arclight_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "epicpaladins:arclight_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "epicpaladins:arclight_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "epicpaladins:arclight_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:ele_resist",
+      "value": 25,
+      "modifierUUID": "9d80381e-7889-4ceb-a179-fd4bb61458f9",
+      "description": "25% Elemental Resist",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:night_vision",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 25% Elemental Resist",
+    "4) Night Vision"
+  ]
+}

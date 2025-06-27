@@ -35,7 +35,7 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:spell_damage",
+      "name": "kubejs:spell_elemental_damage",
       "value": 25,
       "modifierUUID": "caf7bc02-3252-43f3-94f6-10a828d1aa10",
       "description": "25 To Attack Damage",

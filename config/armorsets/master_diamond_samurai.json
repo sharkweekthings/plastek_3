@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Master Diamond Samurai",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "samurai_dynasty:diamond_samurai_helmet_master",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "samurai_dynasty:diamond_samurai_chestplate_master",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "samurai_dynasty:diamond_samurai_leggings_master",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "samurai_dynasty:diamond_samurai_boots_master",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:all_stats",
+      "value": 10,
+      "modifierUUID": "67ef23c1-a906-47ee-bc1f-143a705d399a",
+      "description": "+10 All Stats",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:skill_damage",
+      "value": 10,
+      "modifierUUID": "445d6f9d-d8e9-4b13-ae4b-93a6616327b7",
+      "description": "+10 Skill Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) +10 All Stats",
+    "4) +10 Skill Damage"
+  ]
+}

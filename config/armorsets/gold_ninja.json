@@ -1,0 +1,51 @@
+{
+  "armorSetName": "Goldem Ninja",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "samurai_dynasty:gold_ninja_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "samurai_dynasty:gold_ninja_chestplate",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "samurai_dynasty:gold_ninja_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:all_stats",
+      "value": 10,
+      "modifierUUID": "098a9ff3-16fd-42dc-8931-0544b7e7a2f5",
+      "description": "+10 All Stats",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:total_damage",
+      "value": 10,
+      "modifierUUID": "c82a6f53-ea73-456d-a452-03bf4b319c65",
+      "description": "+10 Total Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) +10 All Stats",
+    "4) +10 Total Damage"
+  ]
+}

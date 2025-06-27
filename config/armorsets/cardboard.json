@@ -14,7 +14,7 @@
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "create:cardboard_leggings",
+    "itemKey": "create:cardboard_boots",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,

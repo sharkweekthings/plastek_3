@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Expert Samurai",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cte_essentials:leather_3_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "cte_essentials:leather_3_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "cte_essentials:leather_3_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "cte_essentials:leather_3_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:dodge",
+      "value": 25,
+      "modifierUUID": "d4234514-6f59-4a86-bfd7-052b6d2d6bbe",
+      "description": "25% Dodge",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:katana_damage",
+      "value": 20,
+      "modifierUUID": "9baec0a0-22fc-4068-a286-f318d000619f",
+      "description": "+20 Katana Damage",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 25% Dodge",
+    "4) +20 Katana Damage"
+  ]
+}

@@ -197,6 +197,11 @@
       "weight": 1000
     },
     {
+      "item_id": "epicpaladins:angel_chestplate",
+      "min_rar": "mythic",
+      "weight": 1000
+    },
+    {
       "item_id": "cte_essentials:plate_5_chestplate",
       "min_rar": "mythic",
       "weight": 1000

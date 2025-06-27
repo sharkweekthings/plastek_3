@@ -1,0 +1,55 @@
+{
+  "armorSetName": "Cadet Guard",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cte_essentials:plate_0_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "cte_essentials:plate_0_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "cte_essentials:plate_0_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "cte_essentials:plate_0_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:armor",
+      "value": 15,
+      "modifierUUID": "6898d888-a8e1-4943-b7f6-0f6762e7b025",
+      "description": "15% Armor",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "kubejs:health",
+      "value": 50,
+      "modifierUUID": "0d747595-ef74-4d3e-afe7-3913c0abe5b2",
+      "description": "+50 Health",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true,
+  "customTooltips": [
+    "Set Bonus: ",
+    "2) 15% Armor",
+    "4) +50 Health"
+  ]
+}
