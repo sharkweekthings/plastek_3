@@ -24,7 +24,7 @@ emi.json
 
 
 kubejs/data/mmorpg/mmorpg_base_gear_types/earring.json
-
+config/nerb.yaml
 config/perfectplushieapi-common.toml
 config/betterarcheology-common.toml
 config/defaultoptions-common.toml
@@ -195,6 +195,10 @@ config/aiimprovements-common.toml
 config/connectivity.json
 config/ProjectE/client.toml
 config/ProjectE/common.toml
+config/awesomedungeon_1.properties
+config/bettervillage_1.properties
+config/libraryferret_1.properties
+config/scuba_gear-common.toml
 config/ProjectE/processing.toml
 config/ProjectE/server.toml
 config/ProjectE/mapping.toml

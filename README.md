@@ -16,7 +16,7 @@
 ##
 ## Known Issues
 
- - Sometimes the starting town is waterlogged. just make a new seed and it should fix it.
+ - Sometimes you wil start under the Sky Village instead of in it. That's okay, the village isn't necessary to progression. 
 
  - Battle Towers spawn too close to some villages (reported to ba_bt devs // waiting on fix)
 

@@ -25,9 +25,11 @@
 				""
 				"As you back up and look off into the distance, you witness an eerie purple glow slowly engulfing your village. Out of the haze come dozens more villagers that were recently turned, slowly walking toward you. You are forced to flee the cursed village, so you run for hundreds of blocks until you're out of energy and pass out..."
 				""
-				"Luckily, you passed out near a village, and some of the villagers were out foraging and helped you back to their community."
+				"Luckily, you passed out under a village! Some of the villagers went to the mainland to forage for food, and found your passed out body. They somehow carried you into their village, and stuffed an &3Umbrella&r in your pocket while you were sleeping."
 				""
-				"You find yourself in a fascinating town, like the ones you read about in stories. with the large gears moving and structures taller than you've ever seen. You're awestruck by your surroundings, almost forgetting the horrors you just witnessed."
+				"You find yourself in a fascinating town, like the ones you read about in stories. high above in the air, unable to see the ground. No elevators in sight only you and the unwarranted &3Umbrella&r. You try to take a breath, but it's almost hard to breathe. "
+				""
+				"You're awestruck by your surroundings, feeling a weird sense of calm, almost forgetting the horrors you just witnessed."
 				""
 				"As you're looking around the town, a villager lets you know that the community leader wants to speak with you. They point you in the direction you need to go."
 			]
@@ -64,7 +66,9 @@
 				""
 				"He lets you know that you can stay in the village for as long as you need but does require that you do some work to help out around the town."
 				""
-				"You're given what looks to be more of a stick than an actual weapon, and a ragged change of clothes that clearly has a dog bite in the leg area – but you thank him anyway and let him know that you will help clear out the zombies..."
+				"You're given what looks to be more of a stick than an actual weapon, and a ragged change of clothes that clearly has a dog bite in the leg area."
+				""
+				"You thank him anyway, and let him know that you will help clear out the zombies..."
 			]
 			icon: {
 				Count: 1
@@ -1561,11 +1565,7 @@
 			}]
 			tasks: [{
 				id: "098DC03DD9A4FECE"
-				item: {
-					Count: 1
-					id: "create:basin"
-					tag: { }
-				}
+				item: "tconstruct:seared_basin"
 				type: "item"
 			}]
 			x: 0.0d

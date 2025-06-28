@@ -53,6 +53,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'epicpaladins:steel_ingot_from_blasting_iron_ingot'})
   event.remove({id: 'magistuarmory:steel_ingot_blasting'})
   event.remove({id: 'magistuarmory:furnace/steel_ingot_blasting'})
+  event.remove({id: 'pamhc2foodcore:doughitem_x2'})
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_botany_pot_2'})
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_compact_hopper_botany_pot_2'})
   event.remove({id: 'botanypotstiers:crafting/creative_terracotta_compact_hopper_botany_pot_3'})
