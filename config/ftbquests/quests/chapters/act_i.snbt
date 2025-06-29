@@ -54,7 +54,7 @@
 				type: "checkmark"
 			}]
 			title: "New Beginnings"
-			x: -0.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -1208,7 +1208,9 @@
 			description: [
 				"You found the perfect location for your colony!"
 				""
-				"Just select your preferred &9Supply Camp&r or &9Supply Ship&r, depending on whether you want your colony to thrive in the ocean or on the land. It doesn't really matter where you place it as it doesn't have any bearing on your town."
+				"Just select your preferred &9Supply Camp&r or &9Supply Ship&r, depending on whether you want your colony to thrive in the ocean or on the land. "
+				""
+				"&oIt doesn't really matter where you place it as it doesn't have any bearing on your town.&r"
 				""
 				"Rummage through the chests until you find your &9Town Hall&r and a &3Build Tool&r, and place the &9Town Hall&r with your &3Build Tool&r."
 				""
@@ -1216,6 +1218,7 @@
 				""
 				"Tip: When you click to place your structure and the &6MineColonies&r UI comes up that allows you to adjust your building, you can tap 'Esc' to back your character up and get a better view of the structure sample. Then you can use the on screen Arrow UI to adjust the placement of your structure. This will apply to the &3Build Tool&r as well when you start using it."
 			]
+			icon: "plushies:villager_plushie"
 			id: "725586269FDA5525"
 			rewards: [{
 				command: "/mine_and_slash give exp @p 700"
@@ -1232,7 +1235,7 @@
 				id: "6A5D81B06EDC5D11"
 				type: "advancement"
 			}]
-			title: "By Land or By Sea"
+			title: "The Perfect Location"
 			x: 14.5d
 			y: 1.5d
 		}
@@ -1997,7 +2000,7 @@
 				"6EEBED8A78540A3B"
 			]
 			description: [
-				"Collect &325 Plastim Bags&r from the &3sand&r or &3gravel&r blocks in the ocean, or near the water. "
+				"Collect &325 Plastim Bags&r from the &3sand&r or &3gravel&r blocks in the ocean, or near the water that contain &3Plastim&r. "
 				""
 				"Trade those bags with a &eMarket&r person to buy the &3Miner's Certificate&r. "
 				""
@@ -2018,6 +2021,32 @@
 			}]
 			x: 1.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7B91BD993D902FFE"]
+			description: ["If you want a colony that is land based, you can start with the &3Supply Ship&r."]
+			id: "2E4BE00656A6BAAE"
+			tasks: [{
+				id: "60AB7983BC342455"
+				item: "minecolonies:supplychestdeployer"
+				type: "item"
+			}]
+			title: "By Sea"
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B91BD993D902FFE"]
+			description: ["If you want a colony that is land based, you can start with the &3Supply Camp&r."]
+			id: "1C9CCD49C105137D"
+			tasks: [{
+				id: "41A3DE2B76EEE208"
+				item: "minecolonies:supplycampdeployer"
+				type: "item"
+			}]
+			title: "By Land"
+			x: 13.5d
+			y: 1.0d
 		}
 	]
 	title: "Act I"

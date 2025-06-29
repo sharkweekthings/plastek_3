@@ -27,6 +27,8 @@
 				"&oOverall, the pack is relatively light on the tech side. Most of your automations will be for agricultural reasons.&r"
 				""
 				"Some recipes may be modified to fit certain progression goals, but nowhere near as extreme as my previous packs."
+				""
+				"&a&oYou can skip this \"Read Me\" quest series by going directly to \"The End\" quest and completing it.&r&r "
 			]
 			icon: {
 				Count: 1
@@ -477,12 +479,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"672220A1E0B85F2D"
-				"545937C5689C339F"
-				"4A2336D2932CBBAF"
-				"7C437754A4ECF3C2"
-			]
 			description: [
 				"You will need to complete various tasks in each dimension to unlock a few of the &6End Remastered&r &3Eyes&r, which will be used on the &9End Portal Frame&r to get to &6The End&r."
 				""
@@ -509,6 +505,8 @@
 				"&3Astral Guardian Eye&r – Received after defeating the &aAstral Guardian&r."
 				""
 				"&3Dimensional Catastrophe Eye&r – Can be found in the &6Setback&r dimension by mining the &3Harsh Stone&r."
+				""
+				"&d&oStart your adventure by clicking on Act I&r&r"
 			]
 			icon: {
 				Count: 1
@@ -517,6 +515,7 @@
 			}
 			id: "30F9D708441CB9FC"
 			shape: "square"
+			subtitle: "SKIP THE READ ME"
 			tasks: [{
 				id: "42F32BB1BB0E0A79"
 				title: "Ok"
@@ -644,9 +643,13 @@
 			can_repeat: true
 			dependencies: ["3F2F44D7BC690425"]
 			description: [
-				"Did you do a naughty thing and eat something you shouldn't have? Maybe your DIET stats are being penalized?"
+				"Did you do a naughty thing and eat something you shouldn't have? Maybe your &6DIET&r stats are being penalized?"
 				""
-				"Don't worry! Just take this pill &4&ocrams it down your throat&r&r, and you'll be pooping in no time."
+				"Don't worry! Just take this pill "
+				""
+				"&4&ocrams it down your throat&r&r "
+				""
+				"You'll be pooping in no time."
 				""
 				"Whether you poop out the food you ate, or poop out your organs because you haven't eaten anything – this product is guaranteed to reset your &6DIET&r stats to default, or your money back!"
 				""
@@ -657,7 +660,7 @@
 			id: "43D311CB01BBCD9B"
 			rewards: [{
 				command: "/diet reset @p"
-				icon: "decocraft:toilet_paper_gold"
+				icon: "minecraft:cactus"
 				id: "3817CF15992F24DA"
 				title: "Wipe It Away"
 				type: "command"
