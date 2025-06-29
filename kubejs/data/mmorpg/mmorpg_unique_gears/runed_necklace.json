@@ -1,8 +1,8 @@
 {
-  "base_gear": "cloth_gloves",
+  "base_gear": "necklace",
   "flavor_text": "",
   "force_item_id": "",
-  "guid": "glacial_clasp",
+  "guid": "runed_amulet",
   "league": "",
   "min_drop_lvl": 1,
   "min_tier": 0,
@@ -12,33 +12,27 @@
   "unique_stats": [
     {
       "type": "PERCENT",
-      "max": 70.0,
-      "min": 43.0,
+      "max": 74.0,
+      "min": 49.0,
       "stat": "gear_defense"
     },
     {
       "type": "PERCENT",
-      "max": 17.0,
-      "min": 12.0,
-      "stat": "faster_projectiles"
+      "max": 13.0,
+      "min": 7.0,
+      "stat": "dodge"
     },
     {
       "type": "PERCENT",
       "max": 18.0,
       "min": 13.0,
-      "stat": "critical_damage"
+      "stat": "move_speed"
     },
     {
       "type": "PERCENT",
-      "max": 17.0,
-      "min": 11.0,
-      "stat": "dodge"
-    },
-    {
-      "type": "PERCENT",
-      "max": 17.0,
-      "min": 12.0,
-      "stat": "all_water_damage"
+      "max": 20.0,
+      "min": 13.0,
+      "stat": "faster_projectiles"
     }
   ],
   "weight": 1000

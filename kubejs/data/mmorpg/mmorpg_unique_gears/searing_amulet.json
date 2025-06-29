@@ -1,8 +1,8 @@
 {
-  "base_gear": "cloth_gloves",
+  "base_gear": "necklace",
   "flavor_text": "",
   "force_item_id": "",
-  "guid": "withered_binds",
+  "guid": "searing_amulet",
   "league": "",
   "min_drop_lvl": 1,
   "min_tier": 0,
@@ -12,39 +12,39 @@
   "unique_stats": [
     {
       "type": "PERCENT",
-      "max": 74.0,
-      "min": 54.0,
+      "max": 79.0,
+      "min": 12.0,
       "stat": "gear_defense"
     },
     {
       "type": "PERCENT",
-      "max": 14.0,
-      "min": 8.0,
-      "stat": "all_physical_damage"
-    },
-    {
-      "type": "PERCENT",
-      "max": 15.0,
-      "min": 8.0,
-      "stat": "critical_damage"
-    },
-    {
-      "type": "PERCENT",
-      "max": 15.0,
+      "max": 17.0,
       "min": 9.0,
-      "stat": "lifesteal"
+      "stat": "magic_shield"
     },
     {
       "type": "PERCENT",
-      "max": 22.0,
-      "min": 12.0,
-      "stat": "melee_cdr"
+      "max": 17.0,
+      "min": 8.0,
+      "stat": "all_fire_damage"
     },
     {
       "type": "PERCENT",
-      "max": 16.0,
-      "min": 9.0,
-      "stat": "armor"
+      "max": 23.0,
+      "min": 14.0,
+      "stat": "all_elemental_damage"
+    },
+    {
+      "type": "PERCENT",
+      "max": 19.0,
+      "min": 10.0,
+      "stat": "mana_on_hit_hit"
+    },
+    {
+      "type": "FLAT",
+      "max": 9.0,
+      "min": 3.0,
+      "stat": "mana_regen"
     }
   ],
   "weight": 1000

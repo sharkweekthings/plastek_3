@@ -1,8 +1,8 @@
 {
-  "base_gear": "earring",
+  "base_gear": "necklace",
   "flavor_text": "",
   "force_item_id": "",
-  "guid": "runed_earring",
+  "guid": "twilight_necklace",
   "league": "",
   "min_drop_lvl": 1,
   "min_tier": 0,
@@ -12,27 +12,33 @@
   "unique_stats": [
     {
       "type": "PERCENT",
-      "max": 74.0,
-      "min": 49.0,
+      "max": 78.0,
+      "min": 40.0,
       "stat": "gear_defense"
+    },
+    {
+      "type": "PERCENT",
+      "max": 22.0,
+      "min": 14.0,
+      "stat": "all_water_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 13.0,
+      "min": 7.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "PERCENT",
+      "max": 13.0,
+      "min": 8.0,
+      "stat": "magic_shield"
     },
     {
       "type": "PERCENT",
       "max": 13.0,
       "min": 7.0,
-      "stat": "dodge"
-    },
-    {
-      "type": "PERCENT",
-      "max": 18.0,
-      "min": 13.0,
-      "stat": "move_speed"
-    },
-    {
-      "type": "PERCENT",
-      "max": 20.0,
-      "min": 13.0,
-      "stat": "faster_projectiles"
+      "stat": "mana_on_hit_hit"
     }
   ],
   "weight": 1000

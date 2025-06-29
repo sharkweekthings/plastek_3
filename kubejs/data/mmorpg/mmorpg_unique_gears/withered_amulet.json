@@ -1,8 +1,8 @@
 {
-  "base_gear": "earring",
+  "base_gear": "necklace",
   "flavor_text": "",
   "force_item_id": "",
-  "guid": "withered_earring",
+  "guid": "withered_amulet",
   "league": "",
   "min_drop_lvl": 1,
   "min_tier": 0,

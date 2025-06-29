@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "dimension": "minecraft:overworld",
+    "mob": ["born_in_chaos_v1:lifestealer", "born_in_chaos_v1:lifestealer_true_form", "born_in_chaos_v1:nightmare_stalker"],
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": ["born_in_chaos_v1:krampus", "born_in_chaos_v1:krampus_henchman"],
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "*",
+    "result": "deny",
+    "maxcount": 500
+  },
+  {
+    "mob": "minecraft:villager",
+    "result": "deny",
+    "maxcount": 50
+  }
+]

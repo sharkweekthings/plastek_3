@@ -1,8 +1,8 @@
 {
-  "base_gear": "cloth_gloves",
+  "base_gear": "necklace",
   "flavor_text": "",
   "force_item_id": "",
-  "guid": "ritual_binds",
+  "guid": "echoing_amulet",
   "league": "",
   "min_drop_lvl": 1,
   "min_tier": 0,
@@ -12,27 +12,27 @@
   "unique_stats": [
     {
       "type": "PERCENT",
-      "max": 68.0,
-      "min": 31.0,
+      "max": 51.0,
+      "min": 21.0,
       "stat": "gear_defense"
     },
     {
       "type": "PERCENT",
-      "max": 21.0,
-      "min": 11.0,
-      "stat": "all_elemental_damage"
+      "max": 23.0,
+      "min": 15.0,
+      "stat": "faster_projectiles"
     },
     {
-      "type": "FLAT",
-      "max": 5.0,
-      "min": 3.0,
-      "stat": "mana_regen"
+      "type": "PERCENT",
+      "max": 21.0,
+      "min": 13.0,
+      "stat": "move_speed"
     },
     {
       "type": "PERCENT",
       "max": 14.0,
       "min": 6.0,
-      "stat": "all_water_damage"
+      "stat": "projectile_damage"
     }
   ],
   "weight": 1000

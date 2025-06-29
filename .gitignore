@@ -25,6 +25,8 @@ emi.json
 
 kubejs/data/mmorpg/mmorpg_base_gear_types/earring.json
 config/nerb.yaml
+config/canary.properties
+kubejs/data/mmorpg/mmorpg_unique_gears/WIP/
 config/perfectplushieapi-common.toml
 config/betterarcheology-common.toml
 config/defaultoptions-common.toml
