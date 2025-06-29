@@ -11,11 +11,6 @@
     "result": "deny"
   },
   {
-    "mob": "*",
-    "result": "deny",
-    "maxcount": 500
-  },
-  {
     "mob": "minecraft:villager",
     "result": "deny",
     "maxcount": 50
