@@ -660,6 +660,7 @@
 			id: "43D311CB01BBCD9B"
 			rewards: [{
 				command: "/diet reset @p"
+				elevate_perms: true
 				icon: "minecraft:cactus"
 				id: "3817CF15992F24DA"
 				title: "Wipe It Away"
