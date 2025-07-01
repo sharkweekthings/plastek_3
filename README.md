@@ -16,7 +16,7 @@
 ##
 ## Known Issues
 
- - Sometimes you will start under the Sky Village instead of in it. That's okay, the village isn't necessary to progression.
+ - Sometimes you will start under the Sky Village instead of in it. That's okay, the village isn't necessary to progression. If you die without setting your spawn, you might respawn at the real spawn.
 
  - Battle Towers spawn too close to some villages (reported to ba_bt devs // waiting on fix)
 

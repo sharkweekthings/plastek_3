@@ -656,6 +656,8 @@
 				"Now go on, friend... Get to poopin :)"
 				""
 				"&oDon't forget to wipe!&r"
+				""
+				"The &3Toilet&r can be crafted on the &6Refurbished Furniture&r &9Workbench&r"
 			]
 			id: "43D311CB01BBCD9B"
 			rewards: [{
