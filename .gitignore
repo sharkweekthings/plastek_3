@@ -219,7 +219,6 @@ config/simplehats-client.toml
 config/simplehats-common.toml
 config/simplehats.json
 config/solcarrot-client.toml
-config/sophisticatedbackpacks-common.toml
 config/sophisticatedcore-client.toml
 config/sophisticatedcore-common.toml
 config/sophisticatedstorage-client.toml
