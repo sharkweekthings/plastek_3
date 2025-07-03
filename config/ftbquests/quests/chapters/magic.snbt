@@ -1115,7 +1115,7 @@
 		}
 		{
 			dependencies: ["34C6E99130CC78B0"]
-			description: ["These &6Mystical Agriculture&r quests outline the tiers in which you need to progress up to &3Insanium&r, which will be a requirement later."]
+			description: ["These &6Mystical Agriculture&r quests outline the tiers in which you need to progress up to &3Insanium&r, which will be a requirement eventually."]
 			icon: "kubejs:p3_chat"
 			id: "473CFA32B668CCCE"
 			rewards: [{

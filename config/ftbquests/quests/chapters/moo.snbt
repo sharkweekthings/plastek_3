@@ -11,9 +11,13 @@
 		{
 			dependencies: ["30F9D708441CB9FC"]
 			description: [
-				"&9The Market&r people used to deal in &3Plastim Scrap&r; however, over time, their inventory has become full of rare items, and they have become a little greedy..."
+				"&9The Market&r people used to deal in &3Plastim Scrap&r; however, over time, their family adopted hundreds of thousands of cats, with anywhere between 50 and 100 cats residing with the current living families, at any given time. "
 				""
-				"Nowadays, they settle for nothing less than &3Plastim Bags&r or &3Plastim Bottles&r. Luckily, the &3Plastim&r is inert and won't harm you, so it's safe to handle. However, standing on top of unmined &3Plastim&r can make you a little sick, it's never a good idea to touch it in the ground without the proper tools!"
+				"Their need for &3Plastim Scrap&r quickly became a need for &3Plastim Bags&r."
+				""
+				"Nowadays, they settle for nothing less than the bags, because there is just so much cat poop to clean up."
+				""
+				"Luckily, the &3Plastim&r is inert and won't harm you, so it's safe to handle. However, standing on top of unmined &3Plastim&r can make you a little sick, it's never a good idea to touch it in the ground without the proper tools!"
 				""
 				"&9The Market&r folk sell various goods that will help you on your adventure like exclusive kitchen items, and even &eSupport Gems&r!"
 			]
@@ -1184,6 +1188,25 @@
 				type: "item"
 			}]
 			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["006EC724C42A91BF"]
+			description: ["Can only be found in &6Lootr&r style &3Chest&r and &3Barrels&r. "]
+			id: "52140D68E8932078"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				icon: "kubejs:p3_xp"
+				id: "3B86D2766C1C5EED"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0553723F34A51FC8"
+				item: "botanypotstiers:creative_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -5.5d
 			y: 5.5d
 		}
 	]
