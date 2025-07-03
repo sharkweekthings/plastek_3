@@ -789,7 +789,7 @@
 			]
 			title: "Novice Samurai"
 			x: 0.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			id: "0C993FE53C337DAB"
@@ -841,7 +841,7 @@
 			]
 			title: "Novice Ninja"
 			x: 1.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			id: "0A5890512A3C53EF"
@@ -893,7 +893,7 @@
 			]
 			title: "Novice Hunter"
 			x: 2.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			id: "26855EE403669341"
@@ -945,7 +945,7 @@
 			]
 			title: "Expert Samurai"
 			x: 0.0d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			id: "310ACECF5D8D4499"
@@ -997,7 +997,7 @@
 			]
 			title: "Expert Ninja"
 			x: 1.0d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			id: "7A1009FFEB518E90"
@@ -1049,7 +1049,7 @@
 			]
 			title: "Expert Hunter"
 			x: 2.0d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			id: "00ED292D74B1FC21"
@@ -1661,7 +1661,7 @@
 			]
 			title: "Cadet Guard"
 			x: 3.5d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			id: "06153F038E881096"
@@ -1713,7 +1713,7 @@
 			]
 			title: "Cadet Knight"
 			x: 4.5d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			id: "2D005650796F1FA4"
@@ -1765,7 +1765,7 @@
 			]
 			title: "Cadet Soldier"
 			x: 5.5d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			id: "5CF4E4E3252B5744"
@@ -1817,7 +1817,7 @@
 			]
 			title: "Seasoned Guard"
 			x: 3.5d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			id: "29DF4882F9BE3034"
@@ -1869,7 +1869,7 @@
 			]
 			title: "Seasoned Knight"
 			x: 4.5d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			id: "5C30D446B48FE3EF"
@@ -1921,7 +1921,7 @@
 			]
 			title: "Seasoned Soldier"
 			x: 5.5d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			id: "644717AF066E5D94"

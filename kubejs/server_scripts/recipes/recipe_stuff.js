@@ -116,7 +116,7 @@ ServerEvents.recipes(event => {
 
 // Bottle To Bag Weak
   event.shaped('2x ocean_recovery:plastic_bag',
-    [' 2 ','131',' 1 '], {
+    [' 1 ','232',' 2 '], {
     1: '#mysticalagriculture:infusion_crystals',
     2: 'mysticalagriculture:fire_essence',
     3: 'ocean_recovery:plastic_bottle'}).id('p3:bottle_to_bag')

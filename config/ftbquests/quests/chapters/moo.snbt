@@ -3,13 +3,7 @@
 	default_quest_shape: ""
 	filename: "moo"
 	group: "2FC07CCE1ABE9089"
-	icon: {
-		Count: 1
-		id: "minecraft:diamond_hoe"
-		tag: {
-			Damage: 0
-		}
-	}
+	icon: "a_man_with_plushies:cow_plush"
 	id: "3A3E3EB8EEF30018"
 	order_index: 3
 	quest_links: [ ]
@@ -1172,6 +1166,25 @@
 			title: "The Rest"
 			x: -11.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["413F9D6EE5E50726"]
+			description: ["With your trusty &9Target Dummy&r you can test out your damage."]
+			id: "79AC93857D4DE13B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				icon: "kubejs:p3_xp"
+				id: "16C2A00CFA974831"
+				title: "500 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4D5EDA8BF1249366"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
 		}
 	]
 	title: "Moo"

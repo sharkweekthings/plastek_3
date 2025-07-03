@@ -481,18 +481,20 @@
 		}
 		{
 			dependencies: ["2F63560C16CE35A5"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "160B178171F9D521"
 			tasks: [{
 				id: "51FE3B2627406D3D"
 				item: "megacells:bulk_cell_component"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.0d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
+			dependencies: ["2C8346B524BDED63"]
 			description: [""]
+			hide_dependency_lines: true
 			id: "06AC697FE7E1EF25"
 			tasks: [
 				{
@@ -898,7 +900,9 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["2C8346B524BDED63"]
 			description: ["The ME Storage Cells from AE2 Things are able to store items without an item limit."]
+			hide_dependency_lines: true
 			id: "3CA5DE63287220CF"
 			tasks: [{
 				id: "1F5E6E144A9F8ACA"
@@ -1255,6 +1259,8 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["2C8346B524BDED63"]
+			hide_dependency_lines: true
 			id: "52FB9970F595196D"
 			tasks: [
 				{

@@ -22,7 +22,7 @@
     {
       "type": "attribute",
       "name": "kubejs:all_stats",
-      "value": 10,
+      "value": 12,
       "modifierUUID": "67ef23c1-a906-47ee-bc1f-143a705d399a",
       "description": "+10 All Stats",
       "attributeOperation": 0,
@@ -36,7 +36,7 @@
     {
       "type": "attribute",
       "name": "kubejs:skill_damage",
-      "value": 10,
+      "value": 12,
       "modifierUUID": "445d6f9d-d8e9-4b13-ae4b-93a6616327b7",
       "description": "+10 Skill Damage",
       "attributeOperation": 0,
@@ -49,7 +49,7 @@
   "hideGeneratedTooltip": true,
   "customTooltips": [
     "Set Bonus: ",
-    "2) +10 All Stats",
-    "4) +10 Skill Damage"
+    "2) +12 All Stats",
+    "4) +12 Skill Damage"
   ]
 }
