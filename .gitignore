@@ -205,7 +205,6 @@ config/libraryferret_1.properties
 config/scuba_gear-common.toml
 config/ProjectE/processing.toml
 config/ProjectE/server.toml
-config/ProjectE/mapping.toml
 config/quark-common.toml
 config/quark_emotes
 config/quickstack-client.toml
@@ -214,6 +213,7 @@ config/refurbished_furniture.server.toml
 config/resourceful-config-web.json
 config/roe_weapons-bow-settings.toml
 config/roughlyenoughitems
+config/powah.json5
 config/sidebar_buttons.json
 config/simplehats-client.toml
 config/simplehats-common.toml

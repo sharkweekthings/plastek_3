@@ -73,6 +73,7 @@ ServerEvents.recipes(event => {
   event.remove({id: 'elevatorid:elevator_red'})
   event.remove({id: 'elevatorid:elevator_black'})
   event.remove({id: 'elevatorid:elevator_white'})
+  event.remove({id: 'botania:mana_infusion/diorite_to_granite'})
 
   event.remove({ mod: 'a_man_with_plushies' })
   event.remove({ mod: 'plushies' })

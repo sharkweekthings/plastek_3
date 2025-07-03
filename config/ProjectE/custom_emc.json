@@ -9,12 +9,28 @@
       "emc": 100
     },
     {
+      "item": "#forge:mushrooms",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:gravel",
+      "emc": 1
+    },
+    {
+      "item": "#forge:dusts/glowstone",
+      "emc": 64
+    },
+    {
       "item": "#forge:seeds",
       "emc": 0
     },
     {
       "item": "#minecraft:saplings",
       "emc": 0
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 4
     },
     {
       "item": "mysticalagriculture:infusion_altar",
@@ -175,6 +191,164 @@
     {
       "item": "create:dough",
       "emc": 0
+    },
+
+
+    {
+      "item": "minecraft:soul_sand",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:flint",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:sunflower",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:lilac",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:rose_bush",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:peony",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:calcite",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:lily_pad",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:andesite",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:granite",
+      "emc": 11
+    },
+    {
+      "item": "minecraft:tuff",
+      "emc": 2
+    },
+    {
+      "item": "minecraft:blackstone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:obsidian",
+      "emc": 20
+    },
+    {
+      "item": "minecraft:name_tag",
+      "emc": 83
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "emc": 126
+    },
+    {
+      "item": "#forge:ingots/iron",
+      "emc": 252
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "tconstruct:cobalt_ingot",
+      "emc": 6138
+    },
+    {
+      "item": "tconstruct:bronze_ingot",
+      "emc": 153
+    },
+    {
+      "item": "samurai_dynasty:silver_ingot",
+      "emc": 504
+    },
+    {
+      "item": "minecraft:disc_fragment_5",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:saddle",
+      "emc": 172
+    },
+    {
+      "item": "minecraft:diamond",
+      "emc": 8192
+    },
+    {
+      "item": "#minecraft:tall_flowers",
+      "emc": 16
+    },
+    {
+      "item": "#minecraft:small_flowers",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "emc": 1008
+    },
+    {
+      "item": "botania:pure_daisy",
+      "emc": 4
+    },
+    {
+      "item": "botania:daybloom_motif",
+      "emc": 4
+    },
+    {
+      "item": "botania:endoflame",
+      "emc": 4
+    },
+    {
+      "item": "botania:manastar",
+      "emc": 4
+    },
+    {
+      "item": "botania:nightshade_motif",
+      "emc": 4
+    },
+    {
+      "item": "botania:hydroangeas",
+      "emc": 4
+    },
+    {
+      "item": "minecraft:diorite",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:andesite",
+      "emc": 1
     }
   ]
 }
