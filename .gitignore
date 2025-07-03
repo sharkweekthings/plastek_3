@@ -204,6 +204,9 @@ config/bettervillage_1.properties
 config/libraryferret_1.properties
 config/scuba_gear-common.toml
 config/ProjectE/processing.toml
+config/mcjtylib-client.toml
+config/rftoolsbuilder-client.toml
+config/rftoolsutility-client.toml
 config/ProjectE/server.toml
 config/quark-common.toml
 config/quark_emotes
