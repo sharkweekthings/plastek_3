@@ -184,7 +184,7 @@ LootJS.modifiers((e) => {
   LootEntry.of("sophisticatedbackpacks:blasting_upgrade").withWeight(15).limitCount([0, 1]),
   LootEntry.of("sophisticatedbackpacks:battery_upgrade").withWeight(15).limitCount([0, 1]),
   LootEntry.of("rangedpumps:pump").withWeight(15).limitCount([0, 1]),
-    LootEntry.of("powah:solar_panel_hardened").withWeight(15).limitCount([0, 1]),
+  LootEntry.of("powah:solar_panel_hardened").withWeight(15).limitCount([0, 1]),
   LootEntry.of("botanypots:terracotta_hopper_botany_pot").withWeight(20).limitCount([0, 1]),
   LootEntry.of("botanypotstiers:elite_terracotta_hopper_botany_pot").withWeight(15).limitCount([0, 1]),
   LootEntry.of("constructionwand:infinity_wand").withWeight(1).limitCount([0, 1]),
