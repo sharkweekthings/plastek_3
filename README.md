@@ -2,8 +2,9 @@
 ## Tips
 
 1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)! Someone will try to answer your question as soon as they can. 
-2) Read the in game "Read Me"!  It should be the first thing you do when you get in game. 
-3) Don't forget to distribute your initial Stat and Passive Talent points through the Mine and Slash Hub.
+2) A Seed that starts you off in a Forest biome; hopefully in the Sky Village! 886715890208359411 (food for Build 0.009+)
+3) Read the in game "Read Me"!  It should be the first thing you do when you get in game. 
+4) Don't forget to distribute your initial Stat and Passive Talent points through the Mine and Slash Hub.
 
 ##
 ## Current ToDo List
