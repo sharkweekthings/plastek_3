@@ -3,7 +3,7 @@
   "conversion": 2.0,
   "enchant_id": "minecraft:aqua_affinity",
   "id": "mc_aqua_affinity_compat",
-  "maximum_cap": 36,
+  "maximum_cap": 1000,
   "minimum_cap": 0,
   "mns_stat_id": "water_resist",
   "mod_type": "FLAT",
