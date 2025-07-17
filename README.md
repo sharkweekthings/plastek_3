@@ -2,22 +2,25 @@
 ## Tips
 
 1) If you have any questions, you are welcome to join us on the [Discord](https://discord.gg/Tt8sGvQRH4)! Someone will try to answer your question as soon as they can. 
-2) A Seed that starts you off in a Forest biome; hopefully in the Sky Village! 886715890208359411 (food for Build 0.009+)
-3) Read the in game "Read Me"!  It should be the first thing you do when you get in game. 
-4) Don't forget to distribute your initial Stat and Passive Talent points through the Mine and Slash Hub.
+2) If you die without setting your spawn, you might respawn at the real spawn in the sky, so don't toss the Umbrella.
+3) Notably the biggest temporary TPS hits for structures that I've seen are the Tinker's Workshop and Citadel. While fun to explore, and loot -- be respectful of exploring these if you're on a server with a lot of people. Wait til the population is offline, or give people a heads up. Server Admins can chose to disable these by creating a Datapack. Feel free to ask me for help if you need!
+4) A Seed that starts you off in a Forest biome; hopefully in the Sky Village! 886715890208359411 (food for Build 0.009+)
+5) Read the in game "Read Me"!  It should be the first thing you do when you get in game. 
+6) Don't forget to distribute your initial Stat and Passive Talent points through the Mine and Slash Hub.
 
 ##
 ## Current ToDo List
 
  - Fix any bugs that get reported
- - Work on additional 2 and 4 piece armor sets
- - Add additional Runewords
- - Tailor some additional uniques using some of the unused models in the pack
+ - Add some quests for Alex's Caves
+ - Add additional Runewords (Current Total: 9)
+ - Work on additional 2 and 4 piece armor sets (Current Total: 71)
+ - Tailor some additional uniques using some of the unused models in the pack (Current Total: 401)
 
 ##
 ## Known Issues
 
- - Sometimes you will start under the Sky Village instead of in it. That's okay, the village isn't necessary to progression. If you die without setting your spawn, you might respawn at the real spawn.
+ - Sometimes you will start under the Sky Village instead of in it. That's okay, the village isn't necessary to progression. 
 
  - Battle Towers spawn too close to some villages (reported to ba_bt devs // waiting on fix)
 
