@@ -200,14 +200,22 @@
 				tag: { }
 			}
 			id: "1088AFC04181D210"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 250"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "4DA636A916CFDC2F"
-				title: "250 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "4DA636A916CFDC2F"
+					title: "250 Experience Points"
+					type: "command"
+				}
+				{
+					id: "4B6A8C4FC76C2578"
+					item: "mmorpg:stone/2"
+					random_bonus: 4
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:creeper"
 				icon: {
@@ -231,14 +239,22 @@
 				tag: { }
 			}
 			id: "40C137454D3DEF35"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 250"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "39731C6EC48120D9"
-				title: "250 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "39731C6EC48120D9"
+					title: "250 Experience Points"
+					type: "command"
+				}
+				{
+					id: "57B60B5A92EF083E"
+					item: "mmorpg:stone/2"
+					random_bonus: 4
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:enderman"
 				icon: {

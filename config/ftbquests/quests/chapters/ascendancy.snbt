@@ -56,15 +56,13 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["0593A121B67328ED"]
-			description: [""]
+			dependencies: ["2569400466B36E20"]
 			icon: "minecraft:oak_sapling"
 			id: "4ECF02F06B62281E"
 			tasks: [{
-				amount: 10000000L
-				fluid: "minecraft:water"
-				id: "4BE86E112C6EC2A5"
-				type: "fluid"
+				id: "31C8E746D104CB6A"
+				title: "Ok"
+				type: "checkmark"
 			}]
 			title: "The Sapling Collector"
 			x: -10.0d
@@ -73,7 +71,7 @@
 		{
 			dependencies: [
 				"64A014908D3585BF"
-				"2569400466B36E20"
+				"6740ED5393D8FC8A"
 			]
 			icon: "minecraft:wheat_seeds"
 			id: "0593A121B67328ED"
@@ -795,13 +793,18 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4ECF02F06B62281E"]
+			dependencies: [
+				"0593A121B67328ED"
+				"4ECF02F06B62281E"
+			]
 			description: [
 				"After collecting all of the seeds and saplings, you go into a coma from all of the hard work it took to even collect all of those. "
 				""
 				"In your coma, you are visited by a pumpkin shaped bunny named &dJay&r."
 				""
 				"&dJay&r bestows some of it's power into you, to aide in your recovery."
+				""
+				"&dJay&r was actually an evil &cVoid Bunny&r who infused you with some bad stuff...."
 			]
 			icon: "kubejs:p3_asc"
 			id: "4D618E37E7437C9E"
@@ -973,7 +976,7 @@
 			description: [
 				"Just collect all of the &3seeds&r and &3saplings&r for an &eAscendancy Point&r!"
 				""
-				"You can buy them all from the &eMarket People&r."
+				"You can even buy them all from the &eMarket People&r."
 			]
 			icon: "mysticalagriculture:nature_essence"
 			id: "64A014908D3585BF"

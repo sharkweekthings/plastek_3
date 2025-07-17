@@ -2208,16 +2208,10 @@
 							Damage: 0
 							tic_broken: 0b
 							tic_materials: ["tconstruct:copper"]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:tanned"
-								}
-								{
-									level: 1
-									name: "tconstruct:depth_protection"
-								}
-							]
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:depth_protection"
+							}]
 							tic_multipliers: {
 								"tconstruct:durability": 0.75f
 							}
@@ -2244,16 +2238,10 @@
 							Damage: 0
 							tic_broken: 0b
 							tic_materials: ["tconstruct:copper"]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:tanned"
-								}
-								{
-									level: 1
-									name: "tconstruct:depth_protection"
-								}
-							]
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:depth_protection"
+							}]
 							tic_multipliers: {
 								"tconstruct:attack_damage": 0.55f
 								"tconstruct:durability": 0.75f
@@ -2281,16 +2269,10 @@
 							Damage: 0
 							tic_broken: 0b
 							tic_materials: ["tconstruct:copper"]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:tanned"
-								}
-								{
-									level: 1
-									name: "tconstruct:depth_protection"
-								}
-							]
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:depth_protection"
+							}]
 							tic_multipliers: {
 								"tconstruct:durability": 0.75f
 							}
@@ -2318,10 +2300,6 @@
 							tic_broken: 0b
 							tic_materials: ["tconstruct:copper"]
 							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:tanned"
-								}
 								{
 									level: 1
 									name: "tconstruct:depth_protection"

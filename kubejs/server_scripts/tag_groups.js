@@ -5,6 +5,7 @@
 
 // priority: 1000
 
+
 //
 ServerEvents.tags('worldgen/biome', event => {
 //
@@ -23,6 +24,12 @@ event.remove('mmorpg:dagger',
   'samurai_dynasty:kunai',
   'samurai_dynasty:netherite_kunai',
   'samuraidynasty:wakizashi'
+])
+
+event.remove('mmorpg:spear', 
+[
+  'cataclysm:coral_spear',
+  'cataclysm:ancient_spear'
 ])
 
 event.remove('mmorpg:sword', 
@@ -1106,8 +1113,6 @@ event.add('mmorpg:short_sword',
 
 event.add('mmorpg:spear', 
 [
-'cataclysm:coral_spear',
-'cataclysm:ancient_spear',
 'mowziesmobs:spear',
 'spartanweaponry:tin_lance',
 'spartanweaponry:bronze_lance',
@@ -1390,7 +1395,13 @@ event.add('mmorpg:lance',
   'blue_skies:dusk_spear',
   'blue_skies:maple_spear',
   'blue_skies:comet_spear',
-  'blue_skies:soulbound_spear'
+  'blue_skies:soulbound_spear',
+  'alexscaves:limestone_spear',
+  'alexscaves:extinction_spear',
+  'alexscaves:frostmint_spear',
+  'cataclysm:coral_spear',
+  'cataclysm:astrape',
+  'cataclysm:ancient_spear'
 ])
 
 event.add('mmorpg:kunai', 

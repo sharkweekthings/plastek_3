@@ -121,7 +121,7 @@
 				""
 				"Your efforts are rewarded with food, and probably 1 orb."
 			]
-			icon: "minecraft:writable_book"
+			icon: "minecraft:chest"
 			id: "6A8F919085492077"
 			rewards: [
 				{

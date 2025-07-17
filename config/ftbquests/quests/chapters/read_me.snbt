@@ -128,7 +128,11 @@
 		{
 			dependencies: ["59518B193D9F7836"]
 			description: [
-				"At Levels &225&r, &250&r, and &275&r you will receive a &4-25%&r &4Resist Penalty&r on all elements. This means that you will need to find better resist gear. All Resists will cap at &275%&r, and it's highly encouraged to get as close to the cap as possible; otherwise, mobs may one-shot, or deal significant damage to you. You can get over the cap if you find items w/ &eMaximum Cap Increase&r on them."
+				"At Levels &225&r, &250&r, and &275&r you will receive a &4-25%&r &4Resist Penalty&r on all elements. "
+				""
+				"This means that you will need to find better resist gear. All Resists will cap at &275%&r, and it's highly encouraged to get as close to the cap as possible; otherwise, mobs may one-shot, or deal significant damage to you. "
+				""
+				"You can get over the cap if you find items w/ &eMaximum Cap Increase&r on them."
 				""
 				"To assist in planning your build, here are the point caps for the pack:"
 				""

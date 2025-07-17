@@ -207,6 +207,10 @@ config/ProjectE/processing.toml
 config/mcjtylib-client.toml
 config/rftoolsbuilder-client.toml
 config/rftoolsutility-client.toml
+config/alexscaves-client.toml
+config/alexscaves-general.toml
+config/alexscaves_biome_generation/
+config/citadel-common.toml
 config/ProjectE/server.toml
 config/quark-common.toml
 config/quark_emotes

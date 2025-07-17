@@ -375,6 +375,8 @@
 		{
 			dependencies: ["5C725AFB88690002"]
 			description: [
+				"Little is known about the &cAncient Remnant&r. It's definitely not trying to kill you because it's corrupted by &eVoid Energy&r, though."
+				""
 				"&cAncient Remnant&r has &835 flat Physical Damage&r converted to &cFire Damage&r and &825 Physical Damage&r converted to &dChaos Damage&r. It is also &4immune&r to &3Bow and Arrow&r attacks."
 				""
 				"&5&oThe Harbinger will start at level 40&r&r."
@@ -431,7 +433,7 @@
 					value: 1L
 				}
 			]
-			title: "Defeat the Ancient Remnant, Wadjet, and the Koboldiator"
+			title: "Defeat the Ancient Remnant and Crew"
 			x: 4.0d
 			y: 2.0d
 		}
@@ -471,26 +473,33 @@
 		{
 			dependencies: ["3469ED62942E1428"]
 			description: [
-				"The &aPixie&r has spoken with the &dQueen&r, and she's agreed to give you an audience.r "
+				"The &aPixie&r has spoken with the &dQueen&r, and she's agreed to give you an audience."
 				""
 				"She hands you some of her &3Concentrated Pixie Essence&r and tells you that the rest of the items won't be so easy to get."
 			]
 			icon: "kubejs:concentrated_pixie_essence"
 			id: "1076EAAF2F4486EA"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 3200"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "291B3BC57374AD0C"
-				title: "3200 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 3200"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "291B3BC57374AD0C"
+					title: "3200 Experience Points"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "7AB786996FDABE7C"
+					item: "kubejs:concentrated_pixie_essence"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
-				count: 4L
-				id: "638211203C8F6A9A"
-				item: "kubejs:concentrated_pixie_essence"
-				type: "item"
+				id: "6D75FFD05668FDBC"
+				title: "Ok"
+				type: "checkmark"
 			}]
 			title: "Some Big Nasties"
 			x: 3.0d
@@ -756,9 +765,10 @@
 			dependencies: ["73B89A457AB9E16B"]
 			description: [
 				"Despite doing exactly as the &dQueen&r stated, unfortunately, the &cAmethyst Knights&r still registered you as an intruder and attacked you."
+				""
 				"Judging by their appearance, they were surely corrupted by &eVoid Energy&r."
 				""
-				"You begin to wonder if the keys that they dropped might go to any chests around here."
+				"&oYou begin to wonder if the keys that they dropped might go to any chests around here.&r"
 			]
 			id: "15BAD58ECC06D101"
 			rewards: [{
@@ -904,9 +914,7 @@
 				""
 				"You had no other choice but to engage in battle with it."
 				""
-				"Somehow, you wor..."
-				""
-				"As the &cAstral Guardian&r fell, an eruption occurred that shook the very essence of reality. This didn't come from the guardian itself; it was just purely coincidence that it happened at the same time. But what could it be? What could have happened?"
+				"As the &cAstral Guardian&r fell, an eruption occurred that shook the very essence of reality. This didn't come from the guardian itself; it was just purely coincidence that it happened at the same time. But what could it be? &oWhat could have happened?&r"
 				""
 				"You better make your way to the &dQueen&r and report what's happened; hopefully, she will be okay with what you had to do..."
 				""
