@@ -1,0 +1,328 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure"
+	group: "2FC07CCE1ABE9089"
+	id: "4BE4AD795F1733B4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "kubejs:p3_chat"
+			id: "3E6D146A16421845"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7AEFFD129A3723F0"
+				title: "200 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "67F785FD7B93B5B1"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Alex's Caves"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E6D146A16421845"]
+			id: "708FD45030B11790"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "329F0D618A7D3B38"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+				criterion: ""
+				id: "5020F279D38F5784"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E6D146A16421845"]
+			id: "40BBB54A7D839C3A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "6ADC7D8FECB4AA3B"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_primordial_caves"
+				criterion: ""
+				id: "17872649374E2EC7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E6D146A16421845"]
+			id: "0069388993B5A9D6"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7C849F4B73188A11"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+				criterion: ""
+				id: "01081D80C84882C7"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E6D146A16421845"]
+			id: "75D98EE9A16AB688"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "28C0E69DC2C0A1BF"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_toxic_caves"
+				criterion: ""
+				id: "720ECDF3AF5B53C0"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E6D146A16421845"]
+			id: "1EE93B83E73C725C"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "5BF06C9ECDD5EFFE"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+				criterion: ""
+				id: "53E844AB2AC74A44"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E6D146A16421845"]
+			id: "6006C8A3895F60A6"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "18493FB6BB737BF2"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_candy_cavity"
+				criterion: ""
+				id: "55C71A1A73EDDE92"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: "kubejs:p3_chat"
+			id: "0DE9C0EA9CF26C98"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "73AB2B3F5390F282"
+				title: "200 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "168F72C4EE328C1F"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Battletowers"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DE9C0EA9CF26C98"]
+			icon: "kubejs:p3_boss"
+			id: "777C2EBDFD6BE190"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "6C716C8877DE6216"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "Land Tower"
+			tasks: [{
+				advancement: "ba_bt:battletowers/kill_land_golem"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "3DABBE93EF17F590"
+				type: "advancement"
+			}]
+			title: "Defeat Bahryn'muul, Entombed Watcher"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DE9C0EA9CF26C98"]
+			icon: "kubejs:p3_boss"
+			id: "0DCF48EFD1D7D035"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "2F63633843495C0D"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "Ocean Tower"
+			tasks: [{
+				advancement: "ba_bt:battletowers/kill_ocean_golem"
+				criterion: ""
+				icon: "kubejs:p3_boss"
+				id: "4B388968C2E58124"
+				type: "advancement"
+			}]
+			title: "Defeat Moraizu'un, Idol of the Drowned"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40BBB54A7D839C3A"]
+			description: [
+				"To summon the &cLuxtructosaurus&r, drop &31 Ominous Catalyst&r onto an active &eVolcanic Core&r. "
+				""
+				"If you are successful, the sky will turn red, indicating that the &cLuxtructosaurus&r has spawned."
+			]
+			id: "5EE91E7681E5B013"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "293B2FF32B9FBD53"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "kubejs:p3_boss"
+				id: "1B06E06D38281550"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Luxtructosaurus"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "21FA546BC602F564"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "58CAA46373F2FD68"
+				title: "500 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "lootr:10loot"
+				criterion: ""
+				id: "44EE111A43D04BBC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "6CB6CB2E39E89E40"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "79CB36402EEF5AEE"
+				title: "1000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "lootr:25loot"
+				criterion: ""
+				id: "78E6C0FFF2B9D488"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "5CD2EB6F26B9D3EF"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 2000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "472A257414122800"
+				title: "2000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "45ED540C9B28BE6F"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "079C14DC32C41B87"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "22A98D7FFEF0E440"
+				title: "5000 Experience Points"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "0F3DABF2856EFB4A"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+	]
+	title: "Adventure"
+}

@@ -3,7 +3,7 @@
   "dimension_id": "the_harvest:harvest",
   "exp_multi": 1.5,
   "max_lvl": 100000,
-  "min_lvl": 10,
+  "min_lvl": 1,
   "min_lvl_area": 100,
   "mob_lvl_per_distance": 100,
   "mob_strength_multi": 1.0,

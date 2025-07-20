@@ -1396,7 +1396,7 @@
 				""
 				"&oOnce you complete all of the recipes, make sure to claim the Melted Caramel item from the Recipe Book.&r"
 				""
-				"&oIn the event you lose the 3 reward items, you can buy them from the&r &e&oMarketplace&r&r."
+				"&oYou can also buy the 3 reward items from the&r &e&oMarketplace&r&r."
 			]
 			id: "683CB909FE694A79"
 			rewards: [

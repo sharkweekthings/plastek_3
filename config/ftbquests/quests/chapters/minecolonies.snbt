@@ -33,6 +33,7 @@
 				title: "2500 Experience Points"
 				type: "command"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "1EF126C64A040E07"
 				title: "Ok"
@@ -128,6 +129,7 @@
 				title: "2500 Experience Points"
 				type: "command"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "698C002250E30792"
 				title: "Ok"
@@ -260,6 +262,7 @@
 				title: "2500 Experience Points"
 				type: "command"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "27612998A124B907"
 				title: "Ok"
@@ -313,6 +316,7 @@
 				title: "2500 Experience Points"
 				type: "command"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "185DD2121661BC9E"
 				title: "Ok"
@@ -378,6 +382,7 @@
 				title: "2500 Experience Points"
 				type: "command"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "17C987E639C7A079"
 				title: "Ok"
@@ -475,6 +480,7 @@
 				title: "2500 Experience Points"
 				type: "command"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "74998CB55AEC25CF"
 				title: "Ok"

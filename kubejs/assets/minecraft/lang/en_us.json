@@ -38,5 +38,14 @@
   "subtitles.entity.witch.death": "Caster Cultist dies",
   "subtitles.entity.witch.drink": "Caster Cultist drinks",
   "subtitles.entity.witch.hurt": "Caster Cultist hurts",
-  "subtitles.entity.witch.throw": "Caster Cultist throws"
+  "subtitles.entity.witch.throw": "Caster Cultist throws",
+
+  "entity.minecraft.illusioner": "Cultist Illusioner",
+  "subtitles.entity.illusioner.ambient": "Cultist Illusioner murmurs",
+  "subtitles.entity.illusioner.cast_spell": "Cultist Illusioner casts spell",
+  "subtitles.entity.illusioner.death": "Cultist Illusioner dies",
+  "subtitles.entity.illusioner.hurt": "Cultist Illusioner hurts",
+  "subtitles.entity.illusioner.mirror_move": "Cultist Illusioner displaces",
+  "subtitles.entity.illusioner.prepare_blindness": "Cultist Illusioner prepares blindness",
+  "subtitles.entity.illusioner.prepare_mirror": "Cultist Illusioner prepares mirror image"
 }
