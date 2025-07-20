@@ -370,7 +370,7 @@
 			description: [
 				"Some inspectors have visited the town and have approved you to be put on the map. "
 				""
-				"The town is coming together, but you have little defenses. "
+				"The town is coming together, but you have little defenses. It's time to start building your troops!"
 			]
 			icon: "kubejs:p3_chat"
 			id: "55E6DE3D4ECCF1E7"

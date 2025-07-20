@@ -145,6 +145,12 @@
 					title: "1 Talent Point"
 					type: "command"
 				}
+				{
+					id: "1883A752F2707664"
+					item: "mmorpg:stone/5"
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -222,6 +228,12 @@
 					id: "02C968C1594E567A"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "0E5E5871C8405F25"
+					item: "mmorpg:stone/5"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -413,6 +425,12 @@
 					id: "62A52A7F51F5A868"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "68B2D5D57752E27C"
+					item: "mmorpg:stone/5"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -883,6 +901,12 @@
 					id: "2C4350EF6BB825B3"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "2F8D9F54760CD002"
+					item: "mmorpg:stone/5"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -1360,7 +1384,7 @@
 				""
 				"As the heroic professor reached his hand down to save the student, &dFred&r quickly latched on to his hand, panicked, and ran up &dTrevor's&r arm like a demonic little gremlin. It was the final step that &dFred&r took that caused &dTrevor&r to lose his footing and fall roughly 78 blocks down, straight into a pit of lava."
 				""
-				"&eAugust 38th, Year 10002&r is forever known as &eTrev's Hole Day&r, where the town goes out for the whole day and buries any holes that they can find&r to prevent such a tragedy from happening again."
+				"&eAugust 38th, Year 10002&r is forever known as &eTrev's Hole Day&r, where the whole town goes out for the whole day and buries any holes that they can find&r to prevent such a tragedy from happening again."
 				""
 				"Nowadays, the hole digging class is taught by &dProfessor Eric Blockhater&r. He graduated top of &dProfessor Trevor's&r last known class and went on to teach the children how to dig safe and managed holes."
 			]
@@ -1392,14 +1416,22 @@
 			dependencies: ["7949FA7849F2A6D9"]
 			icon: "kubejs:p3_mob"
 			id: "4AE9E8E4B0FE6478"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 15000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "489A437F7A42314E"
-				title: "15000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 15000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "489A437F7A42314E"
+					title: "15000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "3F241BB83F299408"
+					item: "mmorpg:stone/4"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:aptrgangr"
 				icon: "kubejs:p3_mob"

@@ -236,14 +236,22 @@
 				tag: { }
 			}
 			id: "1BF8C975A75134B6"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1300"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "1F11D6A86849FC04"
-				title: "1300 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1300"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "1F11D6A86849FC04"
+					title: "1300 Experience Points"
+					type: "command"
+				}
+				{
+					id: "6BAB2F04972BFC7E"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -280,14 +288,22 @@
 				tag: { }
 			}
 			id: "359353B0760C9872"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1200"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "0D55FF3F9E40F8DA"
-				title: "1200 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1200"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "0D55FF3F9E40F8DA"
+					title: "1200 Experience Points"
+					type: "command"
+				}
+				{
+					id: "7D914B260F90A18E"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					entity: "aether:phyg"
@@ -325,14 +341,22 @@
 				tag: { }
 			}
 			id: "1DE0B2C104A25E73"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1200"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "1841F5493F2B5654"
-				title: "1200 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1200"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "1841F5493F2B5654"
+					title: "1200 Experience Points"
+					type: "command"
+				}
+				{
+					id: "7FF264417E797492"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -369,14 +393,22 @@
 				tag: { }
 			}
 			id: "0A6AE539D92AF009"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1200"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "2E793B91E2BAF3B9"
-				title: "1200 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1200"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "2E793B91E2BAF3B9"
+					title: "1200 Experience Points"
+					type: "command"
+				}
+				{
+					id: "093A7341EAF4DF0F"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					entity: "aether:golden_swet"
@@ -445,6 +477,12 @@
 					title: "1 Talent Point"
 					type: "command"
 				}
+				{
+					id: "1EEF22B09D238BFC"
+					item: "mmorpg:stone/3"
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "Boss Fight"
@@ -500,6 +538,12 @@
 					title: "1 Talent Point"
 					type: "command"
 				}
+				{
+					id: "13C82F2EE6FBFC64"
+					item: "mmorpg:stone/3"
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -548,6 +592,12 @@
 					id: "021B9A9C69692269"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "68F4A74F1AF4D0F5"
+					item: "mmorpg:stone/3"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -790,14 +840,22 @@
 				tag: { }
 			}
 			id: "115C7088A2143C33"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1200"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "15C775E06A6F3DD5"
-				title: "1200 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1200"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "15C775E06A6F3DD5"
+					title: "1200 Experience Points"
+					type: "command"
+				}
+				{
+					id: "0131A1ECA57E1F80"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -1015,7 +1073,7 @@
 					type: "command"
 				}
 				{
-					id: "1050862F6CD60871"
+					id: "4DB54826C26B1163"
 					item: {
 						Count: 1
 						id: "cataclysm:athame"
@@ -1023,6 +1081,12 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "6CCEF0125C2891AC"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -1070,6 +1134,12 @@
 				{
 					id: "2E8506D28C2A2307"
 					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "0C97E2D35B0F262B"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -1182,6 +1252,12 @@
 					title: "1 Talent Point"
 					type: "command"
 				}
+				{
+					id: "055F094B407722E9"
+					item: "mmorpg:stone/3"
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "Boss Fight"
@@ -1246,14 +1322,22 @@
 				tag: { }
 			}
 			id: "4C441AB2DBE56DB3"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "4986CDC8C2C3EBB1"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "4986CDC8C2C3EBB1"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "34638EB3D63DEC5C"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "This one"
 			tasks: [{
@@ -1284,14 +1368,22 @@
 				tag: { }
 			}
 			id: "7239A74CCC203924"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 3500"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "4DEF62D4459E8CD6"
-				title: "3500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 3500"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "4DEF62D4459E8CD6"
+					title: "3500 Experience Points"
+					type: "command"
+				}
+				{
+					id: "357574B2B439B9FA"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Or that one"
 			tasks: [{
@@ -1655,14 +1747,22 @@
 				tag: { }
 			}
 			id: "36DC19475494BE74"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1300"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "6A5487D1F51FFDF3"
-				title: "1300 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1300"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "6A5487D1F51FFDF3"
+					title: "1300 Experience Points"
+					type: "command"
+				}
+				{
+					id: "49D09480198506A2"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "sweet_calamity:cake_penguin"
@@ -1698,14 +1798,22 @@
 				tag: { }
 			}
 			id: "41D0AA47E1F0612B"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1300"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "3CAD96513F245CAA"
-				title: "1300 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1300"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "3CAD96513F245CAA"
+					title: "1300 Experience Points"
+					type: "command"
+				}
+				{
+					id: "61A970B60AF5D555"
+					item: "mmorpg:stone/2"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "sweet_calamity:ice_cream_penguin"
@@ -1789,6 +1897,12 @@
 					id: "7C9470299A473AC6"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "4B26E6F7D0780EA7"
+					item: "mmorpg:stone/3"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -1938,29 +2052,6 @@
 			id: "4E44995904180ECE"
 			rewards: [
 				{
-					id: "13305C8E6EAC8163"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							author: "Caramela, the Sweet Witch"
-							pages: ["{\"text\":\"Town of Sprybrooke\\nSan Creeper City\\nYowling Llama Village\\nHoneybeak Farms\\nLos Dragon City\\nTown of Hammerhorn\\n\\n\"}"]
-							title: "List of Towns"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "1A48AE616B52343D"
-					item: {
-						Count: 1
-						id: "sweet_calamity:magic_powder"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
 					command: "/mine_and_slash give exp @p 10000"
 					elevate_perms: true
 					icon: "kubejs:p3_xp"
@@ -1975,6 +2066,35 @@
 					id: "5E2274D00A59B427"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "79F66B83DB806A42"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Caramela, the Sweet Witch"
+							pages: ["{\"text\":\"Town of Sprybrooke\\nSan Creeper City\\nYowling Llama Village\\nHoneybeak Farms\\nLos Dragon City\\nTown of Hammerhorn\\n\\n\"}"]
+							title: "List of Towns"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3C8BA553AF0B1D99"
+					item: {
+						Count: 1
+						id: "sweet_calamity:magic_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3FFF8E4F6E165A4A"
+					item: "mmorpg:stone/3"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"

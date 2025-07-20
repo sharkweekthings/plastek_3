@@ -355,6 +355,12 @@
 					title: "1 Talent Point"
 					type: "command"
 				}
+				{
+					id: "473319E2EE9E7C96"
+					item: "mmorpg:stone/4"
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -403,6 +409,12 @@
 					id: "376ECDD46963D14A"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "794A5F99048B6664"
+					item: "mmorpg:stone/4"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -944,6 +956,12 @@
 					id: "3A63FAD00F3FA967"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "4FBA048F86BA4E0B"
+					item: "mmorpg:stone/4"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"

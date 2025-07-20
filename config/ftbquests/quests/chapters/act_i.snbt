@@ -168,14 +168,22 @@
 				tag: { }
 			}
 			id: "61563D99394AE671"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 200"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "09E88A1070AFF56C"
-				title: "200 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "09E88A1070AFF56C"
+					title: "200 Experience Points"
+					type: "command"
+				}
+				{
+					id: "441185B71579DC05"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:zombie"
@@ -211,8 +219,8 @@
 				}
 				{
 					id: "4B6A8C4FC76C2578"
-					item: "mmorpg:stone/2"
-					random_bonus: 4
+					item: "mmorpg:stone/0"
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -250,8 +258,8 @@
 				}
 				{
 					id: "57B60B5A92EF083E"
-					item: "mmorpg:stone/2"
-					random_bonus: 4
+					item: "mmorpg:stone/0"
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -403,14 +411,22 @@
 				tag: { }
 			}
 			id: "08EF1FCBD5EE830D"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 350"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "3E9193166F42E498"
-				title: "350 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 350"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "3E9193166F42E498"
+					title: "350 Experience Points"
+					type: "command"
+				}
+				{
+					id: "6B45A9B2AFFE3368"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -459,14 +475,22 @@
 				tag: { }
 			}
 			id: "015D3A4DD99A2031"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 300"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "6A3ACE7D8C629A87"
-				title: "300 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 300"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "6A3ACE7D8C629A87"
+					title: "300 Experience Points"
+					type: "command"
+				}
+				{
+					id: "0920E93BA2628966"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -504,14 +528,22 @@
 				tag: { }
 			}
 			id: "3AC0581900A27CF5"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 300"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "0F72B153DF1DA77B"
-				title: "300 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 300"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "0F72B153DF1DA77B"
+					title: "300 Experience Points"
+					type: "command"
+				}
+				{
+					id: "4ADD938F62A28343"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "toybox:teddy"
@@ -610,6 +642,12 @@
 					id: "12D4CB9B994B4125"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "2385AE68362E2122"
+					item: "mmorpg:stone/2"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -778,14 +816,22 @@
 				tag: { }
 			}
 			id: "323B6BECF06EC7A1"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 400"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "0E0E84AFB37DD62B"
-				title: "400 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 400"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "0E0E84AFB37DD62B"
+					title: "400 Experience Points"
+					type: "command"
+				}
+				{
+					id: "3F3EEFCA36FE0954"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -850,14 +896,22 @@
 				tag: { }
 			}
 			id: "696103BCE53FF152"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 600"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "769FB3153DFBB494"
-				title: "600 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 600"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "769FB3153DFBB494"
+					title: "600 Experience Points"
+					type: "command"
+				}
+				{
+					id: "78D437F4F9065133"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "minecraft:blaze"
@@ -883,14 +937,22 @@
 				tag: { }
 			}
 			id: "3704E2607CFD1C4B"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 600"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "28930CED8D85C2EB"
-				title: "600 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 600"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "28930CED8D85C2EB"
+					title: "600 Experience Points"
+					type: "command"
+				}
+				{
+					id: "2DFDEEDB9D28D765"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -928,14 +990,22 @@
 				tag: { }
 			}
 			id: "61F88611B965C4EA"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 400"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "30E89F9A3B08AB8A"
-				title: "400 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 400"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "30E89F9A3B08AB8A"
+					title: "400 Experience Points"
+					type: "command"
+				}
+				{
+					id: "35DC1CFB58473A70"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:piglin_brute"
 				icon: {
@@ -964,14 +1034,22 @@
 				tag: { }
 			}
 			id: "7369CE683B8BD25A"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 400"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "4F9AA4B7B9042EF0"
-				title: "400 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 400"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "4F9AA4B7B9042EF0"
+					title: "400 Experience Points"
+					type: "command"
+				}
+				{
+					id: "3AD4F6434F9B377A"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:zombified_piglin"
 				icon: {
@@ -1051,6 +1129,12 @@
 					id: "18F04651831E63A8"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "278CE19E5FDA82CA"
+					item: "mmorpg:stone/2"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -1147,6 +1231,8 @@
 				"You thank &dRyan&r for the hospitality that the town bestowed, and for saving your life. You let them know that they've inspired you to go forth and try to rebuild a village."
 				""
 				"You bid your farewells as you wave goodbye to the fascinating town and its people."
+				""
+				"They look back at you, waving with horrified, but happy faces. They definitely noticed your wings, thankfully everyone was too terrified to question it."
 				""
 				"You could always put a &9Waystone&r in the town, but you're unsure if you want to visit again."
 			]
@@ -1919,11 +2005,13 @@
 				"7766A356952F2BF4"
 			]
 			description: [
-				"After killing the Wither, you handled some Concentrated Void Energy. "
+				"After killing the &cWither&r, you handled some &3Concentrated Void Energy&r. "
 				""
-				"Shortly after that, you started scratching at your back like crazy. So much so that a few pieces of skin got scratched off. You start to feel something sprouting out of your back. "
+				"Shortly after that, you started scratching at your back like crazy. So much so that a few pieces of skin got scratched off. "
 				""
-				"It seems like you might have grown some Purple Feathered Wings...  "
+				"&oYou start to feel something sprouting out of your back.&r "
+				""
+				"It seems like you might have grown some &3Purple Feathered Wings&r...  "
 				""
 				"Lets hope that nobody notices? "
 			]

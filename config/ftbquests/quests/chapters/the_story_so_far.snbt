@@ -168,6 +168,12 @@
 					random_bonus: 4
 					type: "item"
 				}
+				{
+					id: "243F44B11EEA849D"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 4
+					type: "item"
+				}
 			]
 			shape: "heart"
 			tasks: [{

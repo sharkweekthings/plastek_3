@@ -16,6 +16,14 @@
 	quests: [
 		{
 			id: "7A456DB333C6C3E9"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7CF4626AEA7F1B66"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "0F2BF457D466BB5D"
@@ -68,6 +76,14 @@
 		}
 		{
 			id: "0A5065D9E3A20C08"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "12DF3289F39F7750"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "06E8AB29BD6D778A"
@@ -120,6 +136,14 @@
 		}
 		{
 			id: "0C3CA42471DCEBBB"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "03DEA068F7CA628A"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "28C1B4E77378D40D"
@@ -172,6 +196,14 @@
 		}
 		{
 			id: "14573F2547270613"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "4E1CDA32B7E8E050"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "17012093F4215AD5"
@@ -224,6 +256,14 @@
 		}
 		{
 			id: "1F88FBCBDEA91F34"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "32172029C22DE176"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "131DD28B9302C175"
@@ -276,6 +316,14 @@
 		}
 		{
 			id: "30657C80E425AFB4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "5F848779EDDF855B"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "643284293AEE5441"
@@ -328,6 +376,14 @@
 		}
 		{
 			id: "51CB7352DBF1E958"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "4BFB3C51FF60C233"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "45BC11F686C3A709"
@@ -380,6 +436,14 @@
 		}
 		{
 			id: "570C8C61AF3543AB"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "03CBD3430C747834"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "3F5EE16573310E74"
@@ -439,6 +503,14 @@
 				"Each item is a &d&oMythic&r&r level drop only. "
 			]
 			id: "0CDDF4CF5AC8E96A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "549CFD38382BF31A"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			subtitle: "Creative Flight... if you're lucky!"
 			tasks: [
 				{
@@ -492,6 +564,14 @@
 		}
 		{
 			id: "3CE90530A70486F2"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7990D122A03C37B2"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "12D001BB0732FB83"
@@ -544,6 +624,14 @@
 		}
 		{
 			id: "335E570E48974D92"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "76BAC5BD47302093"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "7F121257CA0B8D9A"
@@ -596,6 +684,14 @@
 		}
 		{
 			id: "01875A027CD54B6A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "2062473246D774E3"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "3E137E8B5DCF1067"
@@ -637,6 +733,14 @@
 		}
 		{
 			id: "5A7F5F6702AB7DB5"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "55CE2E43008F467E"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "41383169156177FE"
@@ -689,6 +793,14 @@
 		}
 		{
 			id: "7A6169A21724B91F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "148E6C71903ADFC0"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "47F1A13B60AEC85F"
@@ -741,6 +853,14 @@
 		}
 		{
 			id: "26B6BEC5849AD535"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "495C0089C195C332"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "4AC336AE7B04DF6C"
@@ -793,6 +913,14 @@
 		}
 		{
 			id: "0C993FE53C337DAB"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "6487C87467CAF070"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "3DFC224A808DFBAF"
@@ -845,6 +973,14 @@
 		}
 		{
 			id: "0A5890512A3C53EF"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "09272C32350DA635"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "077A69A0814F374E"
@@ -897,6 +1033,14 @@
 		}
 		{
 			id: "26855EE403669341"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7312B34B99748084"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "724E10BCC986D0CB"
@@ -949,6 +1093,14 @@
 		}
 		{
 			id: "310ACECF5D8D4499"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "1672C786626FF3E9"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "560855896DE6B1A9"
@@ -1001,6 +1153,14 @@
 		}
 		{
 			id: "7A1009FFEB518E90"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "0C16CF47D9ADCCD2"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "49730CA961AF5BEE"
@@ -1053,6 +1213,14 @@
 		}
 		{
 			id: "00ED292D74B1FC21"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "24A154BB6F728E43"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "32E845E4F2D6C564"
@@ -1105,6 +1273,14 @@
 		}
 		{
 			id: "13A449F5D579EFDD"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "35AA66F905FBFCA1"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "0B8B28855C8403C0"
@@ -1157,6 +1333,14 @@
 		}
 		{
 			id: "72ACE912942E3234"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "69FEBAA7B6D0D13F"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "128772D40201496D"
@@ -1209,6 +1393,14 @@
 		}
 		{
 			id: "5EC3A9ACCB48FC81"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "1BF69C1DA79AE072"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "5C62A21F89E9656F"
@@ -1261,6 +1453,14 @@
 		}
 		{
 			id: "400A4A04C7041F71"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "5F1ED44F8EAB3FBF"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "6E6F21EC1F3320B6"
@@ -1313,6 +1513,14 @@
 		}
 		{
 			id: "2F5C094EA3909B34"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "60BF19B0710B8895"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "43D2D65C1241A71E"
@@ -1365,6 +1573,14 @@
 		}
 		{
 			id: "413D75C0719A6F3F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "377B691560CB895B"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "3428E6E2D0581B83"
@@ -1417,6 +1633,14 @@
 		}
 		{
 			id: "27EC8868F96AAD96"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "5461F1566DD9D201"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "3FFFD73C6051A20B"
@@ -1468,6 +1692,14 @@
 		}
 		{
 			id: "27D8151649134917"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7764C4939A2509C2"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "0B1AA8BA1D4A927A"
@@ -1520,6 +1752,14 @@
 		}
 		{
 			id: "45BFE16A3930693D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "01B15C451FD1BC11"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "44881213AB30A168"
@@ -1561,6 +1801,14 @@
 		}
 		{
 			id: "30CA9E5C4B95029B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "0292E6AA4F6E2746"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "24A38347ABED0B4A"
@@ -1613,6 +1861,14 @@
 		}
 		{
 			id: "4B9BD806FD9C6B1B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "5ED031CAF797037C"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "06A528573B386554"
@@ -1665,6 +1921,14 @@
 		}
 		{
 			id: "06153F038E881096"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "5FD21AC8AD6DE5D8"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "652BD4E0D62B0B0A"
@@ -1717,6 +1981,14 @@
 		}
 		{
 			id: "2D005650796F1FA4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "67F8BEDB56476583"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "0F2D4B448A562222"
@@ -1769,6 +2041,14 @@
 		}
 		{
 			id: "5CF4E4E3252B5744"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "1C4A1E3168341A06"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "2DF6DD7DA1377A5F"
@@ -1821,6 +2101,14 @@
 		}
 		{
 			id: "29DF4882F9BE3034"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "264B987E7B6A4B2A"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "1B8F73945681453A"
@@ -1873,6 +2161,14 @@
 		}
 		{
 			id: "5C30D446B48FE3EF"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "0A245301ACE7AB30"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "44A4225EBD99E632"
@@ -1925,6 +2221,14 @@
 		}
 		{
 			id: "644717AF066E5D94"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "19D56F7E54156B14"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "146D52E2EE91BEC1"
@@ -1977,6 +2281,14 @@
 		}
 		{
 			id: "76BCFC57ACAB140E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "2E916A5C23FF2EC1"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "53C051471FDED9A5"
@@ -2028,6 +2340,14 @@
 		}
 		{
 			id: "49B3B190C87B8068"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "22C3D8C156A18F38"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "45288D4CB20EAEFC"
@@ -2067,6 +2387,14 @@
 		}
 		{
 			id: "26352CCCC389FEDE"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "1DE0DEF65214C253"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "5FF74BFF94938F5C"
@@ -2106,6 +2434,14 @@
 		}
 		{
 			id: "2861B170EE3441E1"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "36C14AA8F3C4F182"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "55537A34F8220AD4"
@@ -2145,6 +2481,14 @@
 		}
 		{
 			id: "6413AC4A2004D98B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "337E407F03BB3B5A"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "62907A348134161C"
@@ -2198,6 +2542,14 @@
 		{
 			description: ["You can interchange any available material type for the set bonus. Not just &3Copper&r."]
 			id: "7CF3078400E598C9"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "381EF2CE33252076"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "45D9F58D79791650"
@@ -2334,6 +2686,14 @@
 		}
 		{
 			id: "27D90A942D0D6542"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "2F32BA756D0A5C3F"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "56FA5B8AF3E984C0"
@@ -2385,6 +2745,14 @@
 		}
 		{
 			id: "3752C8B2D1C6C04B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "3D07C022B05142D3"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "5D1371875835152A"
@@ -2437,6 +2805,14 @@
 		}
 		{
 			id: "0F15820488A8C32A"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "45C85EF6B400540A"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "170E515E7D290933"
@@ -2489,6 +2865,14 @@
 		}
 		{
 			id: "5CC2B5657E75D194"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "5A375B44D7A69639"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "390157A21787B584"
@@ -2541,6 +2925,14 @@
 		}
 		{
 			id: "4576D599BE50014E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "6E01C938BF83983D"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "460F7FF1A0730CF0"
@@ -2582,6 +2974,14 @@
 		}
 		{
 			id: "6E6F7029E1D849F7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "4B7BF36D9BA26E5B"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "6C5787B0C62E4F8D"
@@ -2623,6 +3023,14 @@
 		}
 		{
 			id: "116B5E6B86EF9C5F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7E0EF56B59144BA0"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "774639947C2D0C36"
@@ -2664,6 +3072,14 @@
 		}
 		{
 			id: "6EE9AEB7EFEB6FB7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "175DCA05DAA6E1AB"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "12A7BAB31790BF20"
@@ -2705,6 +3121,14 @@
 		}
 		{
 			id: "2881EF63E28FCA55"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "5FE3EDF00B87AE3A"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "66A9331C2CFB083A"
@@ -2757,6 +3181,14 @@
 		}
 		{
 			id: "1ADE51207BED4C69"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "1E14BF137534D0B5"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "045C23318AD6BEA3"
@@ -2809,6 +3241,14 @@
 		}
 		{
 			id: "0D67273CD4573F30"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7CD4C1115B4209AB"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "32A4845C1ABC4E06"
@@ -2861,6 +3301,14 @@
 		}
 		{
 			id: "4D3A65355AF03D8E"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "55E7D4B7378048AF"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "359D46454D8ED739"
@@ -2913,6 +3361,14 @@
 		}
 		{
 			id: "3D16FB2E567D4C0B"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "72785FC3EEFC9D2D"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "2B01327CCCFAA1A8"
@@ -2965,6 +3421,14 @@
 		}
 		{
 			id: "63EA631F9BA57931"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "2E7BE71334207AE6"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "56C76A8AD300D2E0"
@@ -3017,6 +3481,14 @@
 		}
 		{
 			id: "22B98C58FD76065F"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "2FF690BE194D418C"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "7511D9DFC6902064"
@@ -3069,6 +3541,14 @@
 		}
 		{
 			id: "7E5D0626787D9FD8"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "407C49FEF0DB2689"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "54B015E1529B568F"
@@ -3121,6 +3601,14 @@
 		}
 		{
 			id: "253CA83C93C3BDE9"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "281611F469F995D8"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "16277F0602A5EF86"
@@ -3173,6 +3661,14 @@
 		}
 		{
 			id: "7A5EE6401CA50399"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "755A0FA78A57D562"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "139E6F413ECD7ADA"
@@ -3225,6 +3721,14 @@
 		}
 		{
 			id: "3800D040741C2317"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "53ED78EEC83976C1"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "183EC174D80BA2BC"
@@ -3277,6 +3781,14 @@
 		}
 		{
 			id: "3C23C425D5175BA0"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "4B3075748F67649C"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "579F22106810EB2C"
@@ -3329,6 +3841,14 @@
 		}
 		{
 			id: "2D7951DE0CD66E8D"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "7283610A785D7C41"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "018B2BEDE7E66D60"
@@ -3370,6 +3890,14 @@
 		}
 		{
 			id: "4495BC69E6A447D4"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "2A16EC279AF80CD0"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "4DD19316242C88E9"
@@ -3422,6 +3950,14 @@
 		}
 		{
 			id: "685107CA0AE685F0"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "1CAEFEE30B2EB610"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "6C837F5FF048D395"
@@ -3474,6 +4010,14 @@
 		}
 		{
 			id: "4DD67A40C3C119DC"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "2DF9DAE5FFD0076F"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "007DF7C579F1D2FA"
@@ -3526,6 +4070,14 @@
 		}
 		{
 			id: "2BD132F96060E7D7"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "2D5A609C17344702"
+				title: "500 Experience Points"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "026AF0D32AC337E0"

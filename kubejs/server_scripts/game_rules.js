@@ -10,5 +10,6 @@ ServerEvents.loaded(event => {
     event.server.gameRules.set("maggotsAppearance", false)
     event.server.gameRules.set("krampusSpawn", false)
     event.server.gameRules.set("restlessSpiritSpawn", false)
+    event.server.gameRules.set("playersSleepingPercentage", "50")
     event.server.persistentData.gameRules = false
 })

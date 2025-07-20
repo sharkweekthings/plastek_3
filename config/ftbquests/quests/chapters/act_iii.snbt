@@ -316,14 +316,22 @@
 				tag: { }
 			}
 			id: "457F149D17FFBA60"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2700"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "145DBE9A05B5D1D5"
-				title: "2700 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2700"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "145DBE9A05B5D1D5"
+					title: "2700 Experience Points"
+					type: "command"
+				}
+				{
+					id: "38D8E25C6567A7D6"
+					item: "mmorpg:stone/3"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "blue_skies:armored_frost_spirit"
@@ -348,14 +356,22 @@
 				tag: { }
 			}
 			id: "4BAB781BF077B982"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2700"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "12D771AC1D7CD8DC"
-				title: "2700 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2700"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "12D771AC1D7CD8DC"
+					title: "2700 Experience Points"
+					type: "command"
+				}
+				{
+					id: "578B3A882604520D"
+					item: "mmorpg:stone/3"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "blue_skies:diophyde_prowler"
@@ -463,6 +479,12 @@
 					title: "1 Talent Point"
 					type: "command"
 				}
+				{
+					id: "2E83157BC009750C"
+					item: "mmorpg:stone/4"
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -488,14 +510,22 @@
 				tag: { }
 			}
 			id: "1896513C210B0066"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2800"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "31A17EAD78D459F8"
-				title: "2800 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2800"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "31A17EAD78D459F8"
+					title: "2800 Experience Points"
+					type: "command"
+				}
+				{
+					id: "2161AC4AF94AD045"
+					item: "mmorpg:stone/3"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -544,14 +574,22 @@
 				tag: { }
 			}
 			id: "416C9CFC16835399"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2700"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "61DA6DCA83272DF6"
-				title: "2700 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2700"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "61DA6DCA83272DF6"
+					title: "2700 Experience Points"
+					type: "command"
+				}
+				{
+					id: "2D0F3245172FADC0"
+					item: "mmorpg:stone/3"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "blue_skies:emberback"
@@ -576,14 +614,22 @@
 				tag: { }
 			}
 			id: "2682A76544743663"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2700"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "41B1FBC5575E5D20"
-				title: "2700 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2700"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "41B1FBC5575E5D20"
+					title: "2700 Experience Points"
+					type: "command"
+				}
+				{
+					id: "2CAAE855903623E3"
+					item: "mmorpg:stone/3"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				entity: "blue_skies:shade_monitor"
@@ -679,14 +725,22 @@
 				tag: { }
 			}
 			id: "013D1546C4D8CFF3"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2800"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "08CEC3A63FC0F48D"
-				title: "2800 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2800"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "08CEC3A63FC0F48D"
+					title: "2800 Experience Points"
+					type: "command"
+				}
+				{
+					id: "25E1A36F8A9B4ACF"
+					item: "mmorpg:stone/3"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -776,6 +830,12 @@
 					id: "61E2920F9E2778D3"
 					title: "1 Talent Point"
 					type: "command"
+				}
+				{
+					id: "5609BD2C824DE63D"
+					item: "mmorpg:stone/4"
+					random_bonus: 2
+					type: "item"
 				}
 			]
 			shape: "gear"

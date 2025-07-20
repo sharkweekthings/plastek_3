@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "adventure"
 	group: "2FC07CCE1ABE9089"
+	icon: "supplementaries:globe"
 	id: "4BE4AD795F1733B4"
 	order_index: 2
 	quest_links: [ ]
@@ -174,7 +175,7 @@
 			icon: "kubejs:p3_boss"
 			id: "777C2EBDFD6BE190"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
+				command: "/mine_and_slash give exp @p 8000"
 				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "6C716C8877DE6216"
@@ -199,7 +200,7 @@
 			icon: "kubejs:p3_boss"
 			id: "0DCF48EFD1D7D035"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
+				command: "/mine_and_slash give exp @p 8000"
 				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "2F63633843495C0D"
@@ -228,7 +229,7 @@
 			]
 			id: "5EE91E7681E5B013"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
+				command: "/mine_and_slash give exp @p 8000"
 				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "293B2FF32B9FBD53"
@@ -307,11 +308,11 @@
 		{
 			id: "079C14DC32C41B87"
 			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
+				command: "/mine_and_slash give exp @p 3000"
 				elevate_perms: true
 				icon: "kubejs:p3_xp"
 				id: "22A98D7FFEF0E440"
-				title: "5000 Experience Points"
+				title: "3000 Experience Points"
 				type: "command"
 			}]
 			tasks: [{
