@@ -728,8 +728,8 @@
 				}
 			]
 			title: "Copper Diving"
-			x: -6.5d
-			y: -5.5d
+			x: 0.0d
+			y: -14.5d
 		}
 		{
 			id: "5A7F5F6702AB7DB5"
@@ -1796,8 +1796,8 @@
 				}
 			]
 			title: "Netherite Diving"
-			x: -5.5d
-			y: -5.5d
+			x: 1.0d
+			y: -14.5d
 		}
 		{
 			id: "30CA9E5C4B95029B"
@@ -4127,6 +4127,183 @@
 			title: "Bloodstone"
 			x: 2.5d
 			y: -13.0d
+		}
+		{
+			id: "572DC01BB92E58EC"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "6B2D57209A2EB434"
+				title: "500 Experience Points"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "0E2D9AD76B4326E9"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41BCFCEC96043820"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56E4C10A0CD92A41"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56895B60366FBD76"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -14.5d
+		}
+		{
+			id: "48ADD9B99E039FEE"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "5C44A167497BC6A4"
+				title: "500 Experience Points"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "21B26854B2B3A0CB"
+					item: {
+						Count: 1
+						id: "epicpaladins:sculk_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54B056EB6F61F929"
+					item: {
+						Count: 1
+						id: "epicpaladins:sculk_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "158E1437092C329C"
+					item: {
+						Count: 1
+						id: "epicpaladins:sculk_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F8111A1CC76BFBF"
+					item: {
+						Count: 1
+						id: "epicpaladins:sculk_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			id: "2202E58995B62B58"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "kubejs:p3_xp"
+				id: "310BC726CC23FDFD"
+				title: "500 Experience Points"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "1E06394E2019F0F4"
+					item: {
+						Count: 1
+						id: "epicpaladins:cryorium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B6843D33019815B"
+					item: {
+						Count: 1
+						id: "epicpaladins:cryorium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17ABAFFF846C40D3"
+					item: {
+						Count: 1
+						id: "epicpaladins:cryorium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D255630B68C801"
+					item: {
+						Count: 1
+						id: "epicpaladins:cryorium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -5.5d
 		}
 	]
 	title: "Armor Sets"

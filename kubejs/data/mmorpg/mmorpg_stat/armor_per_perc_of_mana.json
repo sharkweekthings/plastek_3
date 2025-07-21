@@ -4,6 +4,7 @@
     "adder_stat": "mana",
     "base": 0.0,
     "ele": "Physical",
+    "priority": 25,
     "id": "armor_per_perc_of_mana",
     "max": 1.0E8,
     "min": 0.0,

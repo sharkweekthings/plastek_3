@@ -2,9 +2,33 @@
   "armorSetName": "Aquatic",
   "performanceMode": true,
   "head": {
-    "itemKey": "artifacts:snorkel",
+    "itemKey": "alexscaves:diving_helmet",
     "mustBeEmpty": false
   },
+  "chest": {
+    "itemKey": "alexscaves:diving_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "alexscaves:diving_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "alexscaves:diving_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "alexscaves:deepsight",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
   "fullSetBonuses": [
     {
       "type": "effect",
@@ -18,7 +42,8 @@
   ],
   "hideGeneratedTooltip": true,
   "customTooltips": [
-    "Plastek Bonus: ",
-    "Permanent Water Breathing (Fixed In a Future Update)"
+    "Set Bonus: ",
+    "2) Water Vision",
+    "4) Permanent Water Breathing"
   ]
 }

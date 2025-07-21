@@ -1,27 +1,27 @@
 {
-  "armorSetName": "Bloodstone",
+  "armorSetName": "Sculk",
   "performanceMode": true,
   "head": {
-    "itemKey": "epicpaladins:bloodstone_helmet",
+    "itemKey": "epicpaladins:sculk_helmet",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "epicpaladins:bloodstone_chestplate",
+    "itemKey": "epicpaladins:sculk_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "epicpaladins:bloodstone_leggings",
+    "itemKey": "epicpaladins:sculk_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "epicpaladins:bloodstone_boots",
+    "itemKey": "epicpaladins:sculk_boots",
     "mustBeEmpty": false
   },
   "partialBonusRequiredAmount": 2,
   "partialSetBonuses": [
     {
       "type": "effect",
-      "name": "botania:bloodthirst",
+      "name": "minecraft:bad_omen",
       "value": 1.0,
       "interactionType": "self",
       "interactionDuration": 300,
@@ -34,7 +34,7 @@
       "type": "attribute",
       "name": "kubejs:skill_damage",
       "value": 30,
-      "modifierUUID": "61bc9af0-d24a-4ae7-9343-20b4185fd371",
+      "modifierUUID": "cfaf59e3-8c34-45ee-9269-33efba091833",
       "description": "30% Skill Damage",
       "attributeOperation": 0,
       "interactionType": "self",
@@ -46,7 +46,7 @@
   "hideGeneratedTooltip": true,
   "customTooltips": [
     "Set Bonus: ",
-    "2) Bloodthirst (mobs spawn around you regardless of light level)",
+    "2) Bad Omen",
     "4) 30% Skill Damage"
   ]
 }

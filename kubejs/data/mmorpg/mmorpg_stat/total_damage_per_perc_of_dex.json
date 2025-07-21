@@ -1,11 +1,11 @@
 {
   "data": {
-    "add_to": "spell_damage",
-    "adder_stat": "block_chance",
+    "add_to": "weapon_damage",
+    "adder_stat": "dexterity",
     "base": 0.0,
     "ele": "Physical",
     "priority": 75,
-    "id": "skill_damage_per_block_chance",
+    "id": "total_damage_per_perc_of_dexterity",
     "max": 1.0E8,
     "min": 0.0,
     "perc": true,

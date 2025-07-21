@@ -4,6 +4,7 @@
     "adder_stat": "health",
     "base": 0.0,
     "ele": "Physical",
+    "priority": 75,
     "id": "total_damage_per_perc_of_health",
     "max": 1.0E8,
     "min": 0.0,

@@ -804,7 +804,9 @@
 				""
 				"&dJay&r bestows some of it's power into you, to aide in your recovery."
 				""
-				"&dJay&r was actually an evil &cVoid Bunny&r who infused you with some bad stuff...."
+				"&dJay&r was actually an evil &cVoid Bunny&r who infused you with some bad stuff.... "
+				""
+				"While you feel more powerful, you have definitely lost some of your humanity."
 			]
 			icon: "kubejs:p3_asc"
 			id: "4D618E37E7437C9E"
@@ -926,7 +928,9 @@
 				""
 				"This makes you feel really good about yourself. You didn't even ask for a reward, and they didn't give you one!"
 				""
-				"Because of your selfeless acr, you are bestowed &e1 Ascendancy Point&r from &dThe God of Cats&r."
+				"Because of your selfeless act, you are bestowed &e1 Ascendancy Point&r from &dMr. Big&r and his little dog &dCharlie&r. "
+				""
+				"&oFor some reason this point feels different, more pure, less purple, almost pure.....&r"
 			]
 			icon: "kubejs:p3_asc"
 			id: "5F897E7A4F68E851"

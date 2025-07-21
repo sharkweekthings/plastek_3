@@ -4,6 +4,7 @@
     "adder_stat": "health",
     "base": 0.0,
     "ele": "Physical",
+    "priority": 25,
     "id": "blood_per_perc_of_health",
     "max": 100.0,
     "min": 0.0,
