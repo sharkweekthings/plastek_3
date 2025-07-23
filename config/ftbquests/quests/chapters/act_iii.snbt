@@ -327,7 +327,7 @@
 				}
 				{
 					id: "38D8E25C6567A7D6"
-					item: "mmorpg:stone/3"
+					item: "mmorpg:stone/2"
 					random_bonus: 1
 					type: "item"
 				}
@@ -367,7 +367,7 @@
 				}
 				{
 					id: "578B3A882604520D"
-					item: "mmorpg:stone/3"
+					item: "mmorpg:stone/2"
 					random_bonus: 1
 					type: "item"
 				}
@@ -481,7 +481,7 @@
 				}
 				{
 					id: "2E83157BC009750C"
-					item: "mmorpg:stone/4"
+					item: "mmorpg:stone/3"
 					random_bonus: 2
 					type: "item"
 				}
@@ -521,7 +521,7 @@
 				}
 				{
 					id: "2161AC4AF94AD045"
-					item: "mmorpg:stone/3"
+					item: "mmorpg:stone/2"
 					random_bonus: 1
 					type: "item"
 				}
@@ -585,7 +585,7 @@
 				}
 				{
 					id: "2D0F3245172FADC0"
-					item: "mmorpg:stone/3"
+					item: "mmorpg:stone/2"
 					random_bonus: 1
 					type: "item"
 				}
@@ -625,7 +625,7 @@
 				}
 				{
 					id: "2CAAE855903623E3"
-					item: "mmorpg:stone/3"
+					item: "mmorpg:stone/2"
 					random_bonus: 1
 					type: "item"
 				}
@@ -736,7 +736,7 @@
 				}
 				{
 					id: "25E1A36F8A9B4ACF"
-					item: "mmorpg:stone/3"
+					item: "mmorpg:stone/2"
 					random_bonus: 1
 					type: "item"
 				}
@@ -833,7 +833,7 @@
 				}
 				{
 					id: "5609BD2C824DE63D"
-					item: "mmorpg:stone/4"
+					item: "mmorpg:stone/3"
 					random_bonus: 2
 					type: "item"
 				}

@@ -166,6 +166,11 @@
 		{
 			dependencies: ["548134C655C0099F"]
 			id: "66C01F1D69682A72"
+			rewards: [{
+				id: "762D6C4F0AC8F844"
+				item: "mysticalagriculture:fluix_seeds"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "71940BFCA63E1CAB"
@@ -182,6 +187,11 @@
 		{
 			dependencies: ["2AFF651107625D6F"]
 			id: "6E691472309458FE"
+			rewards: [{
+				id: "0E99A692349C89CB"
+				item: "mysticalagriculture:certus_quartz_seeds"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "7696595A5EB8E0CA"

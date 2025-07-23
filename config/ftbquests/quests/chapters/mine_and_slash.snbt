@@ -818,14 +818,28 @@
 			dependencies: ["76171D4EB0C9B147"]
 			description: ["With these items, you'll need to construct the &9Portal Frame&r like the example below:"]
 			id: "27DC0C3CC30F4B14"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 800"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "73D56E624E41652E"
-				title: "800 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 800"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "73D56E624E41652E"
+					title: "800 Experience Points"
+					type: "command"
+				}
+				{
+					id: "167A926C9AE4B015"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "11900FF5CCF9AB7E"
+					item: "dimdungeons:item_homeward_pearl"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -853,14 +867,21 @@
 			dependencies: ["27DC0C3CC30F4B14"]
 			description: ["Using the &3Portal Crown&r and some &3Banners&r, you can upgrade your &9Portal Frame&r to allow you to use &3Advanced Portal Keys&r."]
 			id: "352CF64632D7B8C4"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "75C1A1D9272CE0D7"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "75C1A1D9272CE0D7"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "5712E866AF34D2B9"
+					item: "mmorpg:currency/affix_number_reroll"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "17751C4FF29D75AE"
 				item: "dimdungeons:block_portal_crown"
@@ -962,14 +983,21 @@
 				"&3Portal Key&r: This is the basic key of this mod. Place it into a &3Portal Keystone&r to visit a dungeon."
 			]
 			id: "118F616C9D40B661"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 800"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "72A705DFAEE57184"
-				title: "800 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 800"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "72A705DFAEE57184"
+					title: "800 Experience Points"
+					type: "command"
+				}
+				{
+					id: "653DCE26FF1DEAE5"
+					item: "dimdungeons:item_homeward_pearl"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "7E160ABED8E267E0"
@@ -989,14 +1017,21 @@
 				"&3Teleporter Key&r: Brings you to a &9Teleporter Hub&r with 7 keys. All keys link back to the hub. This could help you set up a fast travel network through various dimensions."
 			]
 			id: "59F00D0D0EC19210"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "52F079C79DE36715"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "52F079C79DE36715"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "7C3C8FDEE4E40DD1"
+					item: "mmorpg:currency/affix_number_reroll"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "36A7AD75F8D7B245"
@@ -1097,6 +1132,12 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "678FAABEAF1A9A79"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "6CE030B59D7D800A"
@@ -1126,6 +1167,12 @@
 					id: "2624B0092F83B6C9"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "353F4527C8A9A13D"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1158,6 +1205,12 @@
 					id: "20E4302563121603"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "55AFB6F2DEF7D214"
+					item: "mmorpg:stone/0"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{

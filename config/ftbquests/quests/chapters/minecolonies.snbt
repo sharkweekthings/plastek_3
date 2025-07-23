@@ -63,6 +63,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "19AA9D891F3AE0CA"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "75B554C00B6307EF"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_fisherman"
@@ -93,6 +105,18 @@
 					id: "0AC67AF0907AC4A6"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "08906C6ED72D0427"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76153FE36B9D7F11"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -166,6 +190,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "2E53557E8DAB0D56"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "12156D0991767EAD"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_cook"
@@ -197,6 +233,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "1F7838A1E8E1A993"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "443464F154F84463"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_lumberjack"
@@ -227,6 +275,18 @@
 					id: "630CF59E733BECD9"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "51524FAB38A05EDE"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "328AF37C997E0C7D"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -277,14 +337,28 @@
 			description: ["If you notice your homeless population on the rise, you'll need to build adequate housing."]
 			icon: "minecolonies:blockhutcitizen"
 			id: "0DD56943FEACEC41"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 2500"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "4116CCDD96216FB8"
-				title: "2500 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "4116CCDD96216FB8"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					id: "39970D0E6A1A863A"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "70D39A04EE74C5B9"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3290A6497A672409"
 				item: "minecolonies:blockhutcitizen"
@@ -351,6 +425,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "20908E8D7C7CD308"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "78A657DA53E16A3E"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_warehouse"
@@ -412,6 +498,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "7587F545B60FDE9B"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1043D9602B6F2E29"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			subtitle: "Don't forget to equip your guards!"
 			tasks: [{
@@ -443,6 +541,18 @@
 					id: "2D326483A2C26D14"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "53863555DC132A21"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7ADC5299EDFA71AD"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			subtitle: "Don't forget to equip your guards!"
@@ -494,14 +604,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "00F81073D4657BBC"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "2944B1302E38F55D"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "2944B1302E38F55D"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "67DEDFA5FB18076E"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "325AB15D20AEE1D0"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0A3E78D2F3A0FF3F"
 				item: "minecolonies:blockhutschool"
@@ -514,14 +638,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "074486D9C594B411"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "3AD0AF6B8C7E2E72"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "3AD0AF6B8C7E2E72"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "72BA8443819A4243"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "468296A8A857143F"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "50A53B9DCEACF977"
 				item: "minecolonies:blockhutuniversity"
@@ -550,6 +688,18 @@
 					id: "660B160915798F63"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "196CDDF77CE5B55E"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "48069D8A16E607E9"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -583,6 +733,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "51804663A5F5EA59"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7F958D94D0D5BD5E"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_library"
@@ -614,6 +776,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "1DE42CD54205BCF3"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "539F331D01A6E935"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:military/build_combat_academy"
@@ -629,14 +803,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "07F504A66E2E9B82"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "6B4AFCB75EB78F31"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "6B4AFCB75EB78F31"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "4E1EC44C7F233308"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4A538DEB50ED53CA"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2D9A841FB53582A4"
 				item: "minecolonies:blockhutalchemist"
@@ -665,6 +853,18 @@
 					id: "4DFDAE9BE2FF0396"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "1D42765ED35E10AD"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "21F5A4727BAEDE86"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -698,6 +898,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "117EAB69AED5E98B"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "325182890DEAD63E"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_smeltery"
@@ -713,14 +925,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "0D734D846878A212"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "085FD4378343813A"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "085FD4378343813A"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "4BDCCADCC15B4D45"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4645F10E4FECFE15"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "48F439740BA52E64"
 				item: "minecolonies:blockhutmechanic"
@@ -749,6 +975,18 @@
 					id: "77D2FA5634345B4F"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "14899C862E3EA541"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "157AC15A8FB3C397"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -782,6 +1020,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "69A25E8694945764"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "68221CD3276CB95B"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_crusher"
@@ -797,14 +1047,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "3B247D80BE44595A"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "3FC7ACE55003AB77"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "3FC7ACE55003AB77"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "66AB956BAF36BCF5"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0859B7CC1BAF4BE3"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "12317FDDEDAF1E39"
 				item: "minecolonies:blockhutconcretemixer"
@@ -834,6 +1098,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "6A36B33075B7CB03"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "59D8CB433B74A5FD"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_sifter"
@@ -849,14 +1125,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "4A0F31A129F2540D"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "3AD905AD651BEC8B"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "3AD905AD651BEC8B"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "445C08413A88204C"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5D8A5DC70BAAFB73"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "59D904838A732B62"
 				item: "minecolonies:simplequarry"
@@ -869,14 +1159,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "3DA2D29AE585FB7D"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "64752CC95829262C"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "64752CC95829262C"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "77623A3A1FFDE795"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4E2CC97C75B78FD2"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0F2C52A4DF00A158"
 				item: "minecolonies:mediumquarry"
@@ -889,14 +1193,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "5D200316D87C080E"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "7B315306DBB0C188"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "7B315306DBB0C188"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "388D57DB96B0CD3D"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "39322F1FC9B7817E"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "58A838CEF133242A"
 				item: "minecolonies:blockhutglassblower"
@@ -925,6 +1243,18 @@
 					id: "5307D26E800EEC3B"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "0143AD1069078AE3"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1ED007FA94D2BC32"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -958,6 +1288,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "7E45962A9BEED54B"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B1D85DF8E17C94C"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_florist"
@@ -989,6 +1331,18 @@
 					id: "63A737F257743D40"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "52BFF3EEE0218D57"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "329CF5AF688C9E6D"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1022,6 +1376,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "7948AA1EF62CEC17"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7839B57DD5F1E7A1"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_stone_smeltery"
@@ -1037,14 +1403,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "4DF717037521AF3F"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "374FBF2E1279C63D"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "374FBF2E1279C63D"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "78B49BE46932F320"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2CD2B15F44E7A090"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D7A2B3282E70C10"
 				item: "minecolonies:blockhutnetherworker"
@@ -1057,14 +1437,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "02587FFE92B79803"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "2AEA41B218CB0BC3"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "2AEA41B218CB0BC3"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "2A81B2FF2CCB0AF7"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5956C648E156D5FC"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "653FA155646D4344"
 				item: "minecolonies:blockhutfletcher"
@@ -1094,6 +1488,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "7B10909317BE6F87"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "70C34BA078AFB18F"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_sawmill"
@@ -1109,14 +1515,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "4342B61463C2AEB8"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "0C06EEDB82355364"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "0C06EEDB82355364"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "42FB8CFC8CA0BAFD"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "02523BF75D5BA335"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2B3AA8A20DB39B72"
@@ -1136,14 +1556,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "4CDB3B0B921A24CB"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "3D3342D0D490B445"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "3D3342D0D490B445"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "6ABD5E221DB75E9E"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0B0A464B9D771825"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "21BEADAC3C4C181B"
 				item: "minecolonies:blockhutfield"
@@ -1156,14 +1590,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "652BE14926326B54"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "19089201E6E6548C"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "19089201E6E6548C"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "384C39C28371FD3B"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E1732655F2A4B16"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7FE8CAB7429A78B3"
 				item: "minecolonies:blockhutbeekeeper"
@@ -1193,6 +1641,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "30DE3863265A5C2A"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E74155EA769D929"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_mysticalsite"
@@ -1208,14 +1668,28 @@
 			dependencies: ["035B5BF00E0C9501"]
 			hide_dependency_lines: true
 			id: "3BC07F8C2FE9AC62"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 1000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "5195B578F39FCAB2"
-				title: "1000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 1000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "5195B578F39FCAB2"
+					title: "1000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "65226D7037369F56"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6E166007A7AFCDC2"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3FA81014D6D7C277"
 				item: "minecolonies:blockhutgraveyard"
@@ -1244,6 +1718,18 @@
 					title: "2 Attribute Points"
 					type: "command"
 				}
+				{
+					id: "678B77459DA776A1"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2457CEB389ABF9C0"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				advancement: "minecolonies:production/build_delivery_person"
@@ -1263,14 +1749,36 @@
 				"&9Chicken Herder&r, &9Cow Herder&r, &9Swine Herder&r, &9Rabbit Hutch&r, and a &9Shepherd Hut&r."
 			]
 			id: "26BC57AC40A8FFBB"
-			rewards: [{
-				command: "/mine_and_slash points give @p STATS 10"
-				elevate_perms: true
-				icon: "kubejs:p3_stat"
-				id: "5995122FE3B28F99"
-				title: "10 Attribute Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "6131DD2E806C1FFA"
+					title: "2500 Experience Points"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash points give @p STATS 10"
+					elevate_perms: true
+					icon: "kubejs:p3_stat"
+					id: "5995122FE3B28F99"
+					title: "10 Attribute Points"
+					type: "command"
+				}
+				{
+					id: "0789437CFF4F6B45"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "042E10A0162619AB"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			subtitle: "This is worth more Attribute Points"
 			tasks: [{
 				advancement: "minecolonies:production/build_all_herders"
@@ -1302,6 +1810,18 @@
 					id: "35CAA10F1B11ABEE"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "7CA98F8070F623CC"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "52399D8CBC0B1DF3"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			tasks: [{

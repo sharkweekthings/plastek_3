@@ -32,7 +32,7 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "kubejs:water_damage",
+      "name": "kubejs:all_water_damage",
       "value": 30,
       "modifierUUID": "ad1b2e4c-dfae-4b38-a1f0-6667d58ed766",
       "description": "30% Cold Damage",
@@ -47,6 +47,6 @@
   "customTooltips": [
     "Set Bonus: ",
     "2) Water Walking",
-    "4) 30% Water Damage"
+    "4) 30% All Water Damage"
   ]
 }
