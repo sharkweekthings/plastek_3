@@ -2893,7 +2893,8 @@ event.add('p3:ore_t3',
   'powah:uraninite_ore_dense',
   'samurai_dynasty:aquamarine_ore',
   'samurai_dynasty:deepslate_silver_ore',
-  'tconstruct:cobalt_ore'
+  'tconstruct:cobalt_ore',
+  'rftoolsbase:dimensionalshard_overworld'
 ])
 
 event.add('p3:ore_t4', 
@@ -2918,7 +2919,8 @@ event.add('p3:ore_t4',
   'powah:deepslate_uraninite_ore',
   'samurai_dynasty:ruby_ore',
   'samurai_dynasty:jade_ore',
-  'samurai_dynasty:onyx_ore'
+  'samurai_dynasty:onyx_ore',
+  'rftoolsbase:dimensionalshard_nether'
 ])
 
 event.add('p3:ore_t5', 
@@ -2932,7 +2934,10 @@ event.add('p3:ore_t5',
   'samurai_dynasty:deepslate_ruby_ore',
   'samurai_dynasty:deepslate_aquamarine_ore',
   'samurai_dynasty:deepslate_jade_ore',
-  'samurai_dynasty:deepslate_onyx_ore'
+  'samurai_dynasty:deepslate_onyx_ore',
+  'alexscaves:galena_iron_ore',
+  'alexscaves:radrock_uranium_ore',
+  'rftoolsbase:dimensionalshard_end'
 ])
 
 })
