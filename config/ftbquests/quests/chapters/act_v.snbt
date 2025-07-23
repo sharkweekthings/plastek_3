@@ -151,6 +151,12 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "33416B14A7B27668"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -233,6 +239,12 @@
 					id: "0E5E5871C8405F25"
 					item: "mmorpg:stone/5"
 					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "43A9F07466EF7214"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -430,6 +442,12 @@
 					id: "68B2D5D57752E27C"
 					item: "mmorpg:stone/5"
 					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0443BD227335C32F"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -906,6 +924,12 @@
 					id: "2F8D9F54760CD002"
 					item: "mmorpg:stone/5"
 					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "15AEA58578D05863"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
 					type: "item"
 				}
 			]

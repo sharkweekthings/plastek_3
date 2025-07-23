@@ -17,8 +17,8 @@
 			id: "2DEA18AC9F71748E"
 			rewards: [{
 				id: "7C63F2BB14427D17"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -44,8 +44,8 @@
 			id: "094D3ACDEB6592C0"
 			rewards: [{
 				id: "2BE8BBDBA46D6F51"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -71,8 +71,8 @@
 			id: "425AF2653F1809B3"
 			rewards: [{
 				id: "6C5EAC8A1E563345"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -98,8 +98,8 @@
 			id: "17E8F7F5568905F0"
 			rewards: [{
 				id: "6B2ED535586E090E"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -125,8 +125,8 @@
 			id: "2B480B6611FA2B3D"
 			rewards: [{
 				id: "0652ABE436C362A4"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -152,8 +152,8 @@
 			id: "6763744D99844F22"
 			rewards: [{
 				id: "16F7A1353181C87C"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -179,8 +179,8 @@
 			id: "7A995D537315858E"
 			rewards: [{
 				id: "5CA3545878A2601E"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -206,8 +206,8 @@
 			id: "2C04B4937FD2C8C4"
 			rewards: [{
 				id: "54C639578DB5C9DF"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -233,8 +233,8 @@
 			id: "0159CFB9FE991A86"
 			rewards: [{
 				id: "58A2A2C2C9159A54"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -260,8 +260,8 @@
 			id: "2D3B12C6FF23120A"
 			rewards: [{
 				id: "37CF1A9C7078E589"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -287,8 +287,8 @@
 			id: "5CF68995BB13F4FE"
 			rewards: [{
 				id: "4CAB75D618F99A81"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -314,8 +314,8 @@
 			id: "3FA78EA8572FB94B"
 			rewards: [{
 				id: "40B89A92904F869B"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 4
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
@@ -341,8 +341,8 @@
 			id: "38790D34248933B1"
 			rewards: [{
 				id: "09D3CC2692D3B018"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 9
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 4
 				type: "item"
 			}]
 			tasks: [{
@@ -368,8 +368,8 @@
 			id: "3A0ABBB4B31B2B5E"
 			rewards: [{
 				id: "48C129DE736A9636"
-				item: "ocean_recovery:plastic_bag"
-				random_bonus: 14
+				item: "ocean_recovery:plastic_bottle"
+				random_bonus: 9
 				type: "item"
 			}]
 			tasks: [{
@@ -395,7 +395,7 @@
 			id: "618365AFE75697CB"
 			rewards: [{
 				id: "66F0564B6FC598FC"
-				item: "ocean_recovery:plastic_bag"
+				item: "ocean_recovery:plastic_bottle"
 				random_bonus: 19
 				type: "item"
 			}]

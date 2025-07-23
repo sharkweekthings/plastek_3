@@ -483,6 +483,12 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "51E44EF2052F0231"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "Boss Fight"
@@ -544,6 +550,12 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "7BFAFDC7A0606004"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -597,6 +609,12 @@
 					id: "68F4A74F1AF4D0F5"
 					item: "mmorpg:stone/2"
 					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "64B52B2A0EA665B8"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -1258,6 +1276,12 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "5FE1A3E9D3831178"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "Boss Fight"
@@ -1904,6 +1928,12 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "50A43D045F2E3143"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "Boss Fight"
@@ -2094,6 +2124,12 @@
 					id: "3FFF8E4F6E165A4A"
 					item: "mmorpg:stone/2"
 					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5B787C90BE80ADE6"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
 					type: "item"
 				}
 			]

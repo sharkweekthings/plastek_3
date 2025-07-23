@@ -649,6 +649,12 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "1C064567F5E37728"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "Boss Fight"
@@ -1136,6 +1142,12 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "10CD4C1A6A9B6684"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "Boss Fight"
@@ -1410,6 +1422,18 @@
 					id: "070FB610D6A03C80"
 					title: "2 Attribute Points"
 					type: "command"
+				}
+				{
+					id: "74312A00CA58978B"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7B164B8B4D97B01A"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			shape: "square"
