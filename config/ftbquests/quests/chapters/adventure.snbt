@@ -174,14 +174,22 @@
 			dependencies: ["0DE9C0EA9CF26C98"]
 			icon: "kubejs:p3_boss"
 			id: "777C2EBDFD6BE190"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 8000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "6C716C8877DE6216"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "6C716C8877DE6216"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "5B2CEEF05868A4BD"
+					item: "mmorpg:currency/map_rarity_upgrade"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Land Tower"
 			tasks: [{
@@ -199,14 +207,22 @@
 			dependencies: ["0DE9C0EA9CF26C98"]
 			icon: "kubejs:p3_boss"
 			id: "0DCF48EFD1D7D035"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 8000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "2F63633843495C0D"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "2F63633843495C0D"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "56E3242AEB5495AF"
+					item: "mmorpg:currency/map_rarity_upgrade"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "gear"
 			subtitle: "Ocean Tower"
 			tasks: [{
@@ -228,14 +244,22 @@
 				"If you are successful, the sky will turn red, indicating that the &cLuxtructosaurus&r has spawned."
 			]
 			id: "5EE91E7681E5B013"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 8000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "293B2FF32B9FBD53"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "293B2FF32B9FBD53"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "195B1CC101A6321F"
+					item: "mmorpg:currency/map_rarity_upgrade"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				entity: "alexscaves:luxtructosaurus"

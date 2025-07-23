@@ -829,7 +829,7 @@
 				}
 				{
 					id: "167A926C9AE4B015"
-					item: "mmorpg:stone/0"
+					item: "mmorpg:stone/1"
 					random_bonus: 1
 					type: "item"
 				}
@@ -939,14 +939,22 @@
 				"You will place a &3Portal Key&r inside, and it will turn it into a dungeon key that can be placed inside the frame."
 			]
 			id: "4EE1ADF352D1FA90"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 800"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "69FDD3453DCF8FE3"
-				title: "800 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 800"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "69FDD3453DCF8FE3"
+					title: "800 Experience Points"
+					type: "command"
+				}
+				{
+					id: "162B5C47BFD8B7EB"
+					item: "mmorpg:stone/1"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "04798798B76E8E3C"
@@ -993,7 +1001,12 @@
 					type: "command"
 				}
 				{
-					id: "653DCE26FF1DEAE5"
+					id: "0A8C4703E79AECD5"
+					item: "mmorpg:stone/1"
+					type: "item"
+				}
+				{
+					id: "1882F4184F287EEE"
 					item: "dimdungeons:item_homeward_pearl"
 					type: "item"
 				}
@@ -1134,7 +1147,7 @@
 				}
 				{
 					id: "678FAABEAF1A9A79"
-					item: "mmorpg:stone/0"
+					item: "mmorpg:stone/1"
 					random_bonus: 1
 					type: "item"
 				}
@@ -1170,7 +1183,7 @@
 				}
 				{
 					id: "353F4527C8A9A13D"
-					item: "mmorpg:stone/0"
+					item: "mmorpg:stone/1"
 					random_bonus: 1
 					type: "item"
 				}
@@ -1208,7 +1221,7 @@
 				}
 				{
 					id: "55AFB6F2DEF7D214"
-					item: "mmorpg:stone/0"
+					item: "mmorpg:stone/1"
 					random_bonus: 1
 					type: "item"
 				}
