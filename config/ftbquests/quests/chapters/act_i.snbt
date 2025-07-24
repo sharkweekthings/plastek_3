@@ -618,7 +618,7 @@
 				""
 				"&cBonk&r has &850 flat Physical Damage&r converted to &9Water Damage&r."
 				""
-				"&5&oBonk will start at level 15&r&r."
+				"&5&oBonk is level 15&r&r."
 			]
 			icon: {
 				Count: 1
@@ -1111,7 +1111,7 @@
 				""
 				"&cThe Wither&r has &850 flat Physical Damage&r converted to &5Chaos Damage&r."
 				""
-				"&5&oThe Wither will start at level 20&r&r."
+				"&5&oThe Wither is level 20&r&r."
 			]
 			icon: {
 				Count: 1

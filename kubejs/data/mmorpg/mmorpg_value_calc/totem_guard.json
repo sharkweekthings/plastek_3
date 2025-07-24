@@ -1,6 +1,6 @@
 {
   "base": {
-    "max": 2.25,
+    "max": 2.50,
     "min": 0.5
   },
   "base_scaling_type": "NORMAL",

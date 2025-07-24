@@ -1,7 +1,7 @@
 {
   "base": {
-    "max": 2.8125,
-    "min": 0.625
+    "max": 3.2,
+    "min": 0.75
   },
   "base_scaling_type": "NORMAL",
   "cap_to_wep_dmg": 1000.0,

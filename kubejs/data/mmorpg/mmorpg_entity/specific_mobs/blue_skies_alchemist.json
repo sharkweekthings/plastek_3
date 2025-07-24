@@ -1,13 +1,13 @@
 {
   "dmg_multi": 1.1,
   "exp_multi": 1.5,
-  "hp_multi": 0.63,
+  "hp_multi": 0.50,
   "identifier": "blue_skies:alchemist",
   "loot_multi": 5.0,
-  "max_lvl": 1000000,
-  "min_lvl": 35,
+  "max_lvl": 40,
+  "min_lvl": 40,
   "set_health_damage_override": true,
-  "set_rar": "rare",
+  "set_rar": "boss",
   "stat_multi": 1.0,
   "stats": {
     "stats": [

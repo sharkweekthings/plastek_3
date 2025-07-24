@@ -329,7 +329,7 @@
 				""
 				"&cThe Harbinger&r has &835 flat Physical Damage&r converted to &eLightning Damage&r and &825 Physical Damage&r converted to &dChaos Damage&r."
 				""
-				"&5&oThe Harbinger will start at level 40&r&r."
+				"&5&oThe Harbinger is level 40&r&r."
 			]
 			icon: {
 				Count: 1
@@ -391,7 +391,7 @@
 				""
 				"&cAncient Remnant&r has &835 flat Physical Damage&r converted to &cFire Damage&r and &825 Physical Damage&r converted to &dChaos Damage&r. It is also &4immune&r to &3Bow and Arrow&r attacks."
 				""
-				"&5&oThe Harbinger will start at level 40&r&r."
+				"&5&oAncient Remnant is level 40&r&r."
 			]
 			icon: {
 				Count: 1
@@ -944,7 +944,7 @@
 				""
 				"&cAstral Guardian&r has &875 flat Physical Damage&r converted to &cChaos Damage&r and &e35% Elemental Resist&r."
 				""
-				"&5&oAstral Guardian will start at level 45&r&r."
+				"&5&oAstral Guardian is level 45&r&r."
 			]
 			icon: {
 				Count: 1

@@ -120,7 +120,7 @@
 			description: [
 				"&cNetherite Monstrosity&r has &850 flat Physical Damage&r converted to &4Fire Damage&r and &475% Fire Resistance&r."
 				""
-				"&5&oThe Netherite Monstrosity will start at level 50&r&r."
+				"&5&oThe Netherite Monstrosity is level 50&r&r."
 			]
 			icon: {
 				Count: 1
@@ -210,7 +210,7 @@
 			description: [
 				"&cMaledictus&r has &825 flat Physical Damage&r converted to &9Water Damage&r and &850 flat Physical Damage&r converted to &dChaos Damage&r, and &950% Water Resistance&r."
 				""
-				"&5&oMaledictus will start at level 50&r&r."
+				"&5&oMaledictus is level 50&r&r."
 			]
 			icon: {
 				Count: 1
@@ -413,7 +413,7 @@
 			description: [
 				"&cFrostmaw&r has &850 flat Physical Damage&r converted to &9Water Damage&r and &935% Water Resistance&r."
 				""
-				"&5&oFrostmaw will start at level 50&r&r."
+				"&5&oFrostmaw is level 50&r&r."
 			]
 			icon: {
 				Count: 1
@@ -895,7 +895,7 @@
 				""
 				"You take another deep breath, and try to swallow, but your mouth is dry. Then, you draw your weapon and prepare yourself for the battle."
 				""
-				"&5&oThe Ender Dragon will start at level 60&r&r."
+				"&5&oThe Ender Dragon is level 60&r&r."
 			]
 			icon: {
 				Count: 1

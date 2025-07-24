@@ -452,7 +452,7 @@
 				""
 				"&cSlider&r has &850 flat Physical Damage&r converted to &5Chaos Damage&r."
 				""
-				"&5&oSlider will start at level 25&r&r."
+				"&5&oSlider is level 25&r&r."
 			]
 			icon: {
 				Count: 1
@@ -519,7 +519,7 @@
 				""
 				"&cSun Spirit&r has &850 flat Physical Damage&r converted to &cFire Damage&r, &c10% to all Fire Damage&r and &c100% Fire Resistance&r."
 				""
-				"&5&oSun Spirit will start at level 25&r&r."
+				"&5&oSun Spirit is level 30&r&r."
 			]
 			icon: {
 				Count: 1
@@ -580,7 +580,7 @@
 				""
 				"&cValkyrie Queen&r has &850 flat Physical Damage&r converted to &eLightning Damage&r and &e50% Lightning Resistance&r."
 				""
-				"&5&oValkyrie Queen will start at level 25&r&r."
+				"&5&oValkyrie Queen is level 25&r&r."
 			]
 			icon: {
 				Count: 1
@@ -1245,7 +1245,7 @@
 				""
 				"&cLeviathan&r has &825 flat Physical Damage&r converted to &9Water Damage&r and &5Chaos Damage&r."
 				""
-				"&5&oLeviathan will start at level 30&r&r."
+				"&5&oLeviathan is level 30&r&r."
 			]
 			icon: {
 				Count: 1
@@ -1897,7 +1897,7 @@
 			description: [
 				"&cCreamy&r has &850 flat Physical Damage&r converted to &9Water Damage&r and &950% Water Resistance&r."
 				""
-				"&5&oCreamy, the Ice Cream Golem, will start at level 30&r&r."
+				"&5&oCreamy, the Ice Cream Golem is level 30&r&r."
 			]
 			icon: {
 				Count: 1
@@ -2072,7 +2072,7 @@
 				""
 				"&cSweet Witch&r has &825 flat Physical Damage&r converted to &aAll Elements&r, &a10% Elemental Damage&r and &a20% Elemental Resist&r."
 				""
-				"&5&oSweet Witch will start at level 30&r&r."
+				"&5&oSweet Witch is level 30&r&r."
 			]
 			icon: {
 				Count: 1

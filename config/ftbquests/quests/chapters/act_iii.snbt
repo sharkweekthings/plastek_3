@@ -108,6 +108,8 @@
 				"They also inform you that an &6Everbright&r portal was activated several hours ago, but there are many portals in the world, and many of their locations have been lost to time."
 				""
 				"&6Coxworth&r lets you know that a powerful summoner named &cBueford&r reigns over the dimension these days, and if you go through the portal, he may try to stop you. "
+				""
+				"&o&cThe boss at the end of this dimension is level 35.&r&r"
 			]
 			id: "55AF7F08E21B9C47"
 			rewards: [{
@@ -144,6 +146,8 @@
 				"They assume that you have a &3Zeal Lighter&r already, but you can buy one for &38 Emeralds&r if you don't."
 				""
 				"They tell you to go find the portal and light it yourself."
+				""
+				"&o&cThe boss at the end of this dimension is level 40.&r&r"
 			]
 			icon: {
 				Count: 1
@@ -454,7 +458,7 @@
 				""
 				"&cBueford, the Summoner&r has &825 flat Physical Damage&r converted to &eLightning Damage&r and &dChaos Damage&r and &a25% Elemental Resist&r."
 				""
-				"&5&oBueford, the Summoner will start at level 35&r&r."
+				"&5&oBueford, the Summoner is level 35&r&r."
 			]
 			icon: {
 				Count: 1
@@ -812,7 +816,7 @@
 				""
 				"&cBarnaby, the Alchemist&r has &825 flat Physical Damage&r converted to &cFire Damage&r and &dChaos Damage&r and &a20% Elemental Resist&r."
 				""
-				"&5&oBarnaby, the Alchemist will start at level 35&r&r."
+				"&5&oBarnaby, the Alchemist is level 40&r&r."
 			]
 			icon: {
 				Count: 1

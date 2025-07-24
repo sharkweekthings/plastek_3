@@ -1,13 +1,13 @@
 {
   "dmg_multi": 1.1,
   "exp_multi": 2.0,
-  "hp_multi": 0.61,
+  "hp_multi": 0.45,
   "identifier": "aether:sun_spirit",
   "loot_multi": 5.0,
-  "max_lvl": 1000000,
-  "min_lvl": 25,
+  "max_lvl": 30,
+  "min_lvl": 30,
   "set_health_damage_override": true,
-  "set_rar": "rare",
+  "set_rar": "boss",
   "stat_multi": 1.0,
   "stats": {
     "stats": [

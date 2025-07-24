@@ -4,10 +4,10 @@
   "hp_multi": 0.5,
   "identifier": "cataclysm:maledictus",
   "loot_multi": 5.0,
-  "max_lvl": 1000000,
+  "max_lvl": 50,
   "min_lvl": 50,
   "set_health_damage_override": true,
-  "set_rar": "rare",
+  "set_rar": "boss",
   "stat_multi": 1.0,
   "stats": {
     "stats": [
