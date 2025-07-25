@@ -666,6 +666,7 @@
   "mmorpg.affix.fishing_double": "Fishing Double",
   "mmorpg.affix.fishing_exp": "Fishing Exp",
   "mmorpg.affix.fishing_triple": "Fishing Triple",
+  "mmorpg.affix.elemental_resist_suffix": "of Elemental Protection",
   "mmorpg.affix.husbandry_core_exp": "Husbandry Core Exp",
   "mmorpg.affix.husbandry_double": "Husbandry Double",
   "mmorpg.affix.husbandry_exp": "Husbandry Exp",
@@ -1144,6 +1145,7 @@
   "mmorpg.mob_affix.critical": "Critical",
   "mmorpg.mob_affix.vampire": "Sanguine",
   "mmorpg.mob_affix.savage": "Savage",
+  "mmorpg.mob_affix.swift": "Swift",
   "mmorpg.mob_affix.penetrating": "Penetrating",
   "mmorpg.mob_affix.winter": "Chilly",
   "mmorpg.mob_affix.lightning_lord": "Shocking",
@@ -1154,5 +1156,6 @@
   "mmorpg.mob_affix.chaos_mob_affix": "of Chaos",
   "mmorpg.mob_affix.water_mob_affix": "of Frost",
   "mmorpg.mob_affix.fire_mob_affix": "of Flames",
-  "mmorpg.mob_affix.of_wealth": "of Wealth"
+  "mmorpg.mob_affix.of_wealth": "of Wealth",
+	"mmorpg.mob_rarity.lucky": "Lucky"
 }

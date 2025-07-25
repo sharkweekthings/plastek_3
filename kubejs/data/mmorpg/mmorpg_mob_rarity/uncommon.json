@@ -2,7 +2,7 @@
   "affixes": 1,
   "dmg_multi": 0.9,
   "exp_multi": 1.25,
-  "extra_hp_multi": 2.2,
+  "extra_hp_multi": 2.3,
   "force_custom_hp": -1,
   "id": "uncommon",
   "is_elite": false,

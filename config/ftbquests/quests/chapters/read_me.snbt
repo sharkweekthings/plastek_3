@@ -166,11 +166,13 @@
 			description: [
 				"Progression in this pack is largely focused on following the story, navigating through the various quests which will take you through all of the dimensions, to challenge the various bosses. The quests will take you up through \"&6The End&r\" in &eAct V&r."
 				""
-				"The '&eEndgame&r' is the &6Mine and Slash&r Map system, which will first become accessible at &2level 50&r."
+				"If you continue to play beyond the main campaign your main activities will be:"
 				""
-				"&6MineColonies&r is highly encouraged through your whole playthrough for something to do between adventuring, and will be partially required."
+				"The &6Mine and Slash&r Map system, which will first become accessible at &2level 40&r."
 				""
-				"I do know this mod isn't for everybody though, so if this one isn't for you, don't worry. The forced interaction will be very limited; then you can pretty much do whatever."
+				"&6MineColonies&r is highly encouraged through your whole playthrough for something to do between adventuring, and/or once the story is complete."
+				""
+				"Or just some good ole fashion exploring, and building!"
 			]
 			icon: {
 				Count: 1

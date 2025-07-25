@@ -1796,7 +1796,7 @@
 				}
 			]
 			title: "Netherite Diving"
-			x: 1.0d
+			x: 2.0d
 			y: -14.5d
 		}
 		{
@@ -4185,8 +4185,8 @@
 				}
 			]
 			title: "Aquatic"
-			x: 2.0d
-			y: -14.5d
+			x: 1.0d
+			y: -15.0d
 		}
 		{
 			id: "48ADD9B99E039FEE"

@@ -1,0 +1,18 @@
+{
+  "affixes": 2,
+  "dmg_multi": 1.0,
+  "exp_multi": 10.0,
+  "extra_hp_multi": 7.0,
+  "force_custom_hp": -1,
+  "id": "lucky",
+  "is_elite": true,
+  "is_special": false,
+  "loot_multi": 50.0,
+  "max_slow_from_chill": 25,
+  "min_lvl": 1,
+  "name": "Lucky",
+  "spells": [],
+  "stat_multi": 1.5,
+  "text_format": "YELLOW",
+  "weight": 30
+}

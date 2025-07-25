@@ -1904,6 +1904,72 @@
 			x: 2.5d
 			y: 4.5d
 		}
+		{
+			id: "640CD9ED3D01EF4A"
+			tasks: [{
+				entity: "treasure_pigs_forge:treasure_pig"
+				id: "0EA386558C8E5AC1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "29FCD13C348D7FE0"
+			tasks: [{
+				entity: "treasure_pigs_forge:treasure_pig_emerald"
+				id: "05BFC02502FF4C2D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "494EE2AD4EC68EF6"
+			tasks: [{
+				entity: "treasure_pigs_forge:treasure_pig_coal"
+				id: "6A98A8DD65C4599E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "05843F11909F458F"
+			tasks: [{
+				entity: "treasure_pigs_forge:treasure_pig_copper_e"
+				id: "77DC6EFBA69D0E2D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "7B43C3D92CB3ACB7"
+			tasks: [{
+				entity: "treasure_pigs_forge:treasure_pig_librarian"
+				id: "784C331931907487"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "3A5DC09008095EB3"
+			tasks: [{
+				entity: "treasure_pigs_forge:treasure_pig_witch"
+				id: "15B5A7D1E4D5117E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
 	]
 	title: "For Fun"
 }

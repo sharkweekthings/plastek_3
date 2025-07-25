@@ -2178,6 +2178,83 @@
 			x: 13.5d
 			y: 1.0d
 		}
+		{
+			dependencies: [
+				"2D192377F9B82A2E"
+				"7E557E0A285AF534"
+				"09EE7BF567B5482D"
+				"74E5A584646FC35D"
+				"576F9F679631AB49"
+				"57981D417D475021"
+				"4A2336D2932CBBAF"
+				"545937C5689C339F"
+				"672220A1E0B85F2D"
+				"7C437754A4ECF3C2"
+				"78AADC47CFB2BFF4"
+				"30F9D708441CB9FC"
+			]
+			description: [
+				"That was a lot of clicking you had to do to get to this point."
+				""
+				"Whether you read it all or not, have some free stufF!"
+			]
+			hide_until_deps_complete: true
+			icon: "kubejs:p3_chat"
+			id: "7328F10D8BB9F727"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "2D9912BA056F7656"
+					title: "500 Experience Points"
+					type: "command"
+				}
+				{
+					id: "0C85E57BACFF49F8"
+					item: "mmorpg:stone/3"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2C61502382B458E6"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "53E198158285850E"
+					item: "mmorpg:currency/implicit_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F1E41926CA2A643"
+					item: "library_of_exile:legendary_enchant_tool"
+					type: "item"
+				}
+				{
+					id: "5AF064ECBBE30AB5"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/epic"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "285B7E9BEAC3BC08"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Click Click Click"
+			x: 1.0d
+			y: 4.0d
+		}
 	]
 	title: "Act I"
 }
