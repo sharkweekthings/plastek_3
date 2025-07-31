@@ -87,7 +87,7 @@
     "movableChatSelectedColor": -939458816,
     "movableChatToggleTextBarElement": false,
     "inputBoxSettings": {
-        "startY": -10,
+        "startY": 512,
         "normalizeInputWhileTyping": false,
         "maxInputBoxInputLength": 1280,
         "showInputBoxInputLength": true,
@@ -225,7 +225,7 @@
             },
             "renderer": {
                 "x": 0,
-                "y": 515,
+                "y": 513,
                 "width": 270,
                 "height": 81
             },

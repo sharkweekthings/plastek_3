@@ -26,64 +26,112 @@
 				type: "checkmark"
 			}]
 			title: "Alex's Caves"
-			x: 0.0d
-			y: 0.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3E6D146A16421845"]
 			id: "708FD45030B11790"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "329F0D618A7D3B38"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "329F0D618A7D3B38"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "6C8E15173EF435F1"
+					item: "mmorpg:currency/orb_of_relief"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
 				criterion: ""
 				id: "5020F279D38F5784"
 				type: "advancement"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3E6D146A16421845"]
 			id: "40BBB54A7D839C3A"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "6ADC7D8FECB4AA3B"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "6ADC7D8FECB4AA3B"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "6CF28D9B07CA097D"
+					item: "mmorpg:currency/orb_of_relief"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "alexscaves:alexscaves/discover_primordial_caves"
 				criterion: ""
 				id: "17872649374E2EC7"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3E6D146A16421845"]
 			id: "0069388993B5A9D6"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "7C849F4B73188A11"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "7C849F4B73188A11"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "5BCBC18CB71EC42F"
+					item: "mmorpg:currency/orb_of_relief"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
 				criterion: ""
 				id: "01081D80C84882C7"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E6D146A16421845"]
+			id: "75D98EE9A16AB688"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "28C0E69DC2C0A1BF"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "14904BAA2CF57048"
+					item: "mmorpg:currency/orb_of_relief"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_toxic_caves"
+				criterion: ""
+				id: "720ECDF3AF5B53C0"
 				type: "advancement"
 			}]
 			x: 1.5d
@@ -91,63 +139,57 @@
 		}
 		{
 			dependencies: ["3E6D146A16421845"]
-			id: "75D98EE9A16AB688"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "28C0E69DC2C0A1BF"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
-			tasks: [{
-				advancement: "alexscaves:alexscaves/discover_toxic_caves"
-				criterion: ""
-				id: "720ECDF3AF5B53C0"
-				type: "advancement"
-			}]
-			x: -1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["3E6D146A16421845"]
 			id: "1EE93B83E73C725C"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "5BF06C9ECDD5EFFE"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "5BF06C9ECDD5EFFE"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "6E6390244EEED785"
+					item: "mmorpg:currency/orb_of_relief"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "alexscaves:alexscaves/discover_magnetic_caves"
 				criterion: ""
 				id: "53E844AB2AC74A44"
 				type: "advancement"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3E6D146A16421845"]
 			id: "6006C8A3895F60A6"
-			rewards: [{
-				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
-				icon: "kubejs:p3_xp"
-				id: "18493FB6BB737BF2"
-				title: "5000 Experience Points"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "18493FB6BB737BF2"
+					title: "5000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "647E7E1817610AD8"
+					item: "mmorpg:currency/orb_of_relief"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "alexscaves:alexscaves/discover_candy_cavity"
 				criterion: ""
 				id: "55C71A1A73EDDE92"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			icon: "kubejs:p3_chat"
@@ -167,11 +209,16 @@
 				type: "checkmark"
 			}]
 			title: "Battletowers"
-			x: 5.0d
-			y: 0.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0DE9C0EA9CF26C98"]
+			description: [
+				"&cBahryn'muul, Entombed Watcher&r has no additional bonuses."
+				""
+				"&5&oBahryn'muul, Entombed Watcher will start at level 1.&r&r"
+			]
 			icon: "kubejs:p3_boss"
 			id: "777C2EBDFD6BE190"
 			rewards: [
@@ -200,11 +247,16 @@
 				type: "advancement"
 			}]
 			title: "Defeat Bahryn'muul, Entombed Watcher"
-			x: 3.5d
-			y: 0.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0DE9C0EA9CF26C98"]
+			description: [
+				"&cMoraizu'un, Idol of the Drowned&r has no additional bonuses."
+				""
+				"&5&oMoraizu'un, Idol of the Drowned will start at level 1.&r&r"
+			]
 			icon: "kubejs:p3_boss"
 			id: "0DCF48EFD1D7D035"
 			rewards: [
@@ -233,8 +285,8 @@
 				type: "advancement"
 			}]
 			title: "Defeat Moraizu'un, Idol of the Drowned"
-			x: 6.5d
-			y: 0.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["40BBB54A7D839C3A"]
@@ -269,8 +321,8 @@
 				value: 1L
 			}]
 			title: "Defeat Luxtructosaurus"
-			x: 0.0d
-			y: -3.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			id: "21FA546BC602F564"
@@ -347,6 +399,186 @@
 			}]
 			x: 6.0d
 			y: -5.5d
+		}
+		{
+			description: [
+				"&cBellringer&r has &875 flat Physical Damage&r converted to &9Water Damage&r, &910% All Water Damage&r, and &a30% Elemental Resistance&r."
+				""
+				"&5&oBellringer will start at level 1.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "6CAA44084EEB9FA6"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "5043D115458AE655"
+					title: "8000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "2803526595CAAA75"
+					item: "mmorpg:currency/affix_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				icon: "kubejs:p3_boss"
+				id: "18C533EFCA407DEA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Bellringer"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&cDame Fortuna&r has &875 flat Physical Damage&r converted to &dChaos Damage&r, &d10% All Chaos Damage&r, and &a30% Elemental Resistance&r."
+				""
+				"&5&oDame Fortuna will start at level 1.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "00615579B3390D06"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "129E33BFE7275F0B"
+					title: "8000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "1DA772217E9041DF"
+					item: "mmorpg:currency/affix_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				icon: "kubejs:p3_boss"
+				id: "7D6EA78B41867C91"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Dame Fortuna"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"&cRosalyne, Blade of Dusk&r has &820 All Physical Damage&r, and &a50% armor&r."
+				""
+				"&5&oRosalyne, Blade of Dusk will start at level 1.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "023D46B9CAF32466"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "50190B2767E69D86"
+					title: "8000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "5719518EC9367235"
+					item: "mmorpg:currency/affix_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "meetyourfight:rosalyne"
+				icon: "kubejs:p3_boss"
+				id: "285C1A881A51CE68"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Rosalyne, Blade of Dusk"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&cSwampjaw&r has &875 flat Physical Damage&r converted to &9Water Damage&r, &910% All Water Damage&r, and &930% Water Resistance&r."
+				""
+				"&5&oSwampjaw will start at level 1.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "4770CF5B934A4305"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "0F49401439DE3FA8"
+					title: "8000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "1AA3CEA46B4C6115"
+					item: "mmorpg:currency/affix_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "meetyourfight:swampjaw"
+				icon: "kubejs:p3_boss"
+				id: "16F64946EF5ACA70"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Swampjaw"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"&cOssukage&r has &875 flat Physical Damage&r converted to &eLightning Damage&r, &e10% All Lightning Damage&r, and &730% Dodge&r."
+				""
+				"&5&oOssukage will start at level 1.&r&r"
+			]
+			icon: "kubejs:p3_boss"
+			id: "06619171B5AEAEAC"
+			rewards: [
+				{
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "kubejs:p3_xp"
+					id: "3452CDB01F8CC541"
+					title: "8000 Experience Points"
+					type: "command"
+				}
+				{
+					id: "3D6AB0848D65231A"
+					item: "mmorpg:currency/affix_number_reroll"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "remnant_bosses:ossukage"
+				icon: "kubejs:p3_boss"
+				id: "75A19A811DEC0A2D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Ossukage"
+			x: 3.0d
+			y: 6.0d
 		}
 	]
 	title: "Adventure"

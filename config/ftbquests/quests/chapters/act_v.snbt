@@ -1569,6 +1569,8 @@
 				"If you have a problem with &6Astral Dimension&r, just delete that folder; &6Setback&r is the other dimension that may cause issues, which you can delete and refresh. "
 				""
 				"The problem has been reported to the dev, and will hopefully be fixed in a future update."
+				""
+				"&o&aAs of 7/30/2025 I believe this issue has been fixed, and hasnt been present in any of my recent tests. I will leave this quest in here for awhile longer until I am 100% sure it's resolved.&r&r"
 			]
 			icon: "kubejs:p3_chat"
 			id: "341D8483CC5061D3"

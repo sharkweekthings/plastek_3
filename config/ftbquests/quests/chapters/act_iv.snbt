@@ -457,7 +457,7 @@
 					value: 1L
 				}
 			]
-			title: "Defeat the Ancient Remnant and Crew"
+			title: "Defeat the Ancient Remnant and Guards"
 			x: 4.0d
 			y: 2.0d
 		}
@@ -1385,6 +1385,8 @@
 				"If you have a problem with Astral Dimension, just delete that folder; Setback is the other dimension that may cause issues, which you can delete and refresh. "
 				""
 				"The problem has been reported to the dev, and will hopefully be fixed in a future update."
+				""
+				"&o&aAs of 7/30/2025 I believe this issue has been fixed, and hasnt been present in any of my recent tests. I will leave this quest in here for awhile longer until I am 100% sure it's resolved.&r&r"
 			]
 			icon: "kubejs:p3_chat"
 			id: "4DF78A81A2061C99"

@@ -1,0 +1,9 @@
+{
+	"gateways.act/1": "Act I Void Rift",
+	"gateways.act/2": "Act II Void Rift",
+	"gateways.act/3": "Act III Void Rift",
+	"gateways.act/4": "Act IV Void Rift",
+	"gateways.act/5": "Act V Void Rift",
+    "rewards.gateways.loot_table.drops": "Common Reward",
+    "rewards.gateways.loot_table.treasures": "Epic Reward"
+}

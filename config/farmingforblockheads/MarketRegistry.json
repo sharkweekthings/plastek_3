@@ -81,6 +81,7 @@
     {"output": {"item": "mmorpg:potions/reset_points_stat","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
     {"output": {"item": "mmorpg:potions/reset_points_ascendancy","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
     {"output": {"item": "ultimine_addition:miner_certificate","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 25},"category": "shopping"},
+    {"output": {"item": "cookingforblockheads:crafting_book","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 15},"category": "shopping"},
     {"output": {"item": "torchmaster:megatorch","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
     {"output": {"item": "torchmaster:dreadlamp","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 32},"category": "shopping"},
     {"output": {"item": "minecraft:end_portal_frame","count": 1},"payment": {"item": "ocean_recovery:plastic_bag","count": 64},"category": "shopping"},

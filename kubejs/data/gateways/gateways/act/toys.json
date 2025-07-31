@@ -1,0 +1,98 @@
+{
+	"size": "small",
+	"color": "#8000ff",
+	"waves": [{
+			"entities": [
+				{ 
+					"entity": "toybox:walking_wooden_bricks",
+					"count": 2
+				},
+				{
+					"entity": "toybox:toy_tank",
+					"count": 1
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "toybox:doll",
+					"count": 1
+				},
+				{
+					"entity": "toybox:walking_wooden_bricks",
+					"count": 2
+				},
+				{
+					"entity": "toybox:toy_tank",
+					"count": 1
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "toybox:faceless_doll",
+					"count": 1
+				},
+				{
+					"entity": "toybox:doll",
+					"count": 2
+				},
+				{
+					"entity": "toybox:teddy",
+					"count": 1
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "toybox:tin_robot",
+					"count": 2
+				},
+				{
+					"entity": "toybox:teddy",
+					"count": 2
+				},
+				{
+					"entity": "toybox:doll",
+					"count": 2
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1800,
+			"setup_time": 60
+		}
+	],
+    "rewards": [
+        {
+            "type": "gateways:loot_table",
+            "loot_table": "p3:p3_gateways",
+            "rolls": 1,
+            "desc": "Test Drops p3 gateways"
+        },
+        {
+            "type": "gateways:loot_table",
+            "loot_table": "p3:p3_treasure",
+            "rolls": 1,
+            "desc": "Test Drops P3 Treasure"
+        }
+    ],
+    "failures": [
+    ],
+    "rules": {
+        "spawn_range": 4,
+        "leash_range": 16,
+        "spacing": 100
+    }
+}

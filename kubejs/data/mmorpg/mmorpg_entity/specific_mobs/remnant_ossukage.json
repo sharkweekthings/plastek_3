@@ -1,0 +1,34 @@
+{
+  "dmg_multi": 1.2,
+  "exp_multi": 1.5,
+  "hp_multi": 0.40,
+  "identifier": "remnant_bosses:ossukage",
+  "loot_multi": 5.0,
+  "max_lvl": 1000,
+  "min_lvl": 1,
+  "set_health_damage_override": true,
+  "set_rar": "boss",
+  "stat_multi": 1.0,
+  "stats": {
+    "stats": [
+      {
+        "type": "flat",
+        "scale_to_lvl": false,
+        "v1": 75.0,
+        "stat": "phys_to_lightning"
+      },
+      {
+        "type": "flat",
+        "scale_to_lvl": false,
+        "v1": 10.0,
+        "stat": "all_lightning_damage"
+      },
+      {
+        "type": "percent",
+        "scale_to_lvl": false,
+        "v1": 30.0,
+        "stat": "dodge"
+      }
+	]
+  }
+}
