@@ -210,7 +210,7 @@
 			}]
 			title: "Battletowers"
 			x: 3.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0DE9C0EA9CF26C98"]
@@ -248,7 +248,7 @@
 			}]
 			title: "Defeat Bahryn'muul, Entombed Watcher"
 			x: 1.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0DE9C0EA9CF26C98"]
@@ -286,7 +286,7 @@
 			}]
 			title: "Defeat Moraizu'un, Idol of the Drowned"
 			x: 4.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["40BBB54A7D839C3A"]
@@ -295,6 +295,7 @@
 				""
 				"If you are successful, the sky will turn red, indicating that the &cLuxtructosaurus&r has spawned."
 			]
+			icon: "kubejs:p3_boss"
 			id: "5EE91E7681E5B013"
 			rewards: [
 				{
@@ -306,20 +307,35 @@
 					type: "command"
 				}
 				{
-					id: "195B1CC101A6321F"
+					command: "/mine_and_slash points give @p TALENTS 2"
+					elevate_perms: true
+					icon: "kubejs:p3_passive"
+					id: "5F5CF13CC2B1C878"
+					title: "2 Talent Points"
+					type: "command"
+				}
+				{
+					id: "4BE97D3303C94B14"
 					item: "mmorpg:currency/map_rarity_upgrade"
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				entity: "alexscaves:luxtructosaurus"
-				icon: "kubejs:p3_boss"
-				id: "1B06E06D38281550"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "alexscaves:luxtructosaurus"
+					icon: "kubejs:p3_boss"
+					id: "1B06E06D38281550"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0132666A6B11B61E"
+					item: "alexscaves:ominous_catalyst"
+					type: "item"
+				}
+			]
 			title: "Defeat Luxtructosaurus"
 			x: 3.0d
 			y: 1.5d
@@ -340,6 +356,7 @@
 				id: "44EE111A43D04BBC"
 				type: "advancement"
 			}]
+			title: "Open 10 Lootr Chests or Barrels"
 			x: 0.0d
 			y: -5.5d
 		}
@@ -359,6 +376,7 @@
 				id: "78E6C0FFF2B9D488"
 				type: "advancement"
 			}]
+			title: "Open 25 Lootr Chests or Barrels"
 			x: 2.0d
 			y: -6.0d
 		}
@@ -378,6 +396,7 @@
 				id: "45ED540C9B28BE6F"
 				type: "advancement"
 			}]
+			title: "Open 50 Lootr Chests or Barrels"
 			x: 4.0d
 			y: -6.0d
 		}
@@ -397,12 +416,15 @@
 				id: "0F3DABF2856EFB4A"
 				type: "advancement"
 			}]
+			title: "Open 100 Lootr Chests or Barrels"
 			x: 6.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"&cBellringer&r has &875 flat Physical Damage&r converted to &9Water Damage&r, &910% All Water Damage&r, and &a30% Elemental Resistance&r."
+				"Use a &3Haunted Bell&r to summon &cBellringer&r."
+				""
+				"&cBellringer&r has &875 flat Physical Damage&r converted to &dChaos Damage&r, &d10% All Chaos Damage&r, and &a30% Elemental Resistance&r."
 				""
 				"&5&oBellringer will start at level 1.&r&r"
 			]
@@ -418,27 +440,44 @@
 					type: "command"
 				}
 				{
-					id: "2803526595CAAA75"
+					command: "/mine_and_slash points give @p TALENTS 2"
+					elevate_perms: true
+					icon: "kubejs:p3_passive"
+					id: "76FF53AEE5E83B8A"
+					title: "2 Talent Points"
+					type: "command"
+				}
+				{
+					id: "4ACA86B24CB14756"
 					item: "mmorpg:currency/affix_number_reroll"
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				entity: "meetyourfight:bellringer"
-				icon: "kubejs:p3_boss"
-				id: "18C533EFCA407DEA"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:bellringer"
+					icon: "kubejs:p3_boss"
+					id: "18C533EFCA407DEA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2ACFFB9C91FC47B9"
+					item: "meetyourfight:haunted_bell"
+					type: "item"
+				}
+			]
 			title: "Defeat Bellringer"
 			x: 0.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			description: [
-				"&cDame Fortuna&r has &875 flat Physical Damage&r converted to &dChaos Damage&r, &d10% All Chaos Damage&r, and &a30% Elemental Resistance&r."
+				"Use a &3Devil's Ante&r to summon &cDame Fortuna&r."
+				""
+				"&cDame Fortuna&r has &875 flat Physical Damage&r converted to &4Fire Damage&r, &410% All Fire Damage&r, and &430% Fire Resistance&r."
 				""
 				"&5&oDame Fortuna will start at level 1.&r&r"
 			]
@@ -454,26 +493,43 @@
 					type: "command"
 				}
 				{
-					id: "1DA772217E9041DF"
+					command: "/mine_and_slash points give @p TALENTS 2"
+					elevate_perms: true
+					icon: "kubejs:p3_passive"
+					id: "74937C0AE3B6FC91"
+					title: "2 Talent Points"
+					type: "command"
+				}
+				{
+					id: "0F772D71B3B140FB"
 					item: "mmorpg:currency/affix_number_reroll"
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				entity: "meetyourfight:dame_fortuna"
-				icon: "kubejs:p3_boss"
-				id: "7D6EA78B41867C91"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:dame_fortuna"
+					icon: "kubejs:p3_boss"
+					id: "7D6EA78B41867C91"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "50CEBE499429C6B0"
+					item: "meetyourfight:devils_ante"
+					type: "item"
+				}
+			]
 			title: "Defeat Dame Fortuna"
-			x: 1.5d
-			y: 5.0d
+			x: 2.0d
+			y: 5.5d
 		}
 		{
 			description: [
+				"Use a &3Dusk Key&r to summon &cRosalyne, Blade of Dusk&r."
+				""
 				"&cRosalyne, Blade of Dusk&r has &820 All Physical Damage&r, and &a50% armor&r."
 				""
 				"&5&oRosalyne, Blade of Dusk will start at level 1.&r&r"
@@ -490,26 +546,43 @@
 					type: "command"
 				}
 				{
-					id: "5719518EC9367235"
+					command: "/mine_and_slash points give @p TALENTS 2"
+					elevate_perms: true
+					icon: "kubejs:p3_passive"
+					id: "3CCACD11A83479B3"
+					title: "2 Talent Points"
+					type: "command"
+				}
+				{
+					id: "0FD5B1807958010E"
 					item: "mmorpg:currency/affix_number_reroll"
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				entity: "meetyourfight:rosalyne"
-				icon: "kubejs:p3_boss"
-				id: "285C1A881A51CE68"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "meetyourfight:rosalyne"
+					icon: "kubejs:p3_boss"
+					id: "285C1A881A51CE68"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "676D602ED323B5A2"
+					item: "meetyourfight:dusk_key"
+					type: "item"
+				}
+			]
 			title: "Defeat Rosalyne, Blade of Dusk"
 			x: 6.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			description: [
+				"Use a &3Fossil Bait&r to summon &cSwampjaw&r."
+				""
 				"&cSwampjaw&r has &875 flat Physical Damage&r converted to &9Water Damage&r, &910% All Water Damage&r, and &930% Water Resistance&r."
 				""
 				"&5&oSwampjaw will start at level 1.&r&r"
@@ -526,59 +599,97 @@
 					type: "command"
 				}
 				{
-					id: "1AA3CEA46B4C6115"
-					item: "mmorpg:currency/affix_number_reroll"
-					random_bonus: 1
-					type: "item"
-				}
-			]
-			shape: "gear"
-			tasks: [{
-				entity: "meetyourfight:swampjaw"
-				icon: "kubejs:p3_boss"
-				id: "16F64946EF5ACA70"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat Swampjaw"
-			x: 4.5d
-			y: 5.0d
-		}
-		{
-			description: [
-				"&cOssukage&r has &875 flat Physical Damage&r converted to &eLightning Damage&r, &e10% All Lightning Damage&r, and &730% Dodge&r."
-				""
-				"&5&oOssukage will start at level 1.&r&r"
-			]
-			icon: "kubejs:p3_boss"
-			id: "06619171B5AEAEAC"
-			rewards: [
-				{
-					command: "/mine_and_slash give exp @p 8000"
+					command: "/mine_and_slash points give @p TALENTS 2"
 					elevate_perms: true
-					icon: "kubejs:p3_xp"
-					id: "3452CDB01F8CC541"
-					title: "8000 Experience Points"
+					icon: "kubejs:p3_passive"
+					id: "6D9DEB8CC59C48FF"
+					title: "2 Talent Points"
 					type: "command"
 				}
 				{
-					id: "3D6AB0848D65231A"
+					id: "593DC6BE9F90FACF"
 					item: "mmorpg:currency/affix_number_reroll"
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			shape: "gear"
+			tasks: [
+				{
+					entity: "meetyourfight:swampjaw"
+					icon: "kubejs:p3_boss"
+					id: "16F64946EF5ACA70"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "608A584123C2BB3B"
+					item: "meetyourfight:fossil_bait"
+					type: "item"
+				}
+			]
+			title: "Defeat Swampjaw"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Throughout your adventures you might run into a rare &aLoaf Cat&r. "
+				""
+				"There are 10 total &aLoaf Cats&r you can find throughout the world."
+			]
+			icon: "kubejs:p3_chat"
+			id: "268A491226F5370F"
+			shape: "octagon"
+			subtitle: "for reals"
 			tasks: [{
-				entity: "remnant_bosses:ossukage"
-				icon: "kubejs:p3_boss"
-				id: "75A19A811DEC0A2D"
-				type: "kill"
-				value: 1L
+				id: "2DBF5537DD87693C"
+				title: "Ok"
+				type: "checkmark"
 			}]
-			title: "Defeat Ossukage"
-			x: 3.0d
-			y: 6.0d
+			title: "No Kitten Around"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["268A491226F5370F"]
+			description: [
+				"Feed a &aLoaf Cat&r a treat, or maybe a few and they might become your friend!"
+				""
+				"Right click them to put them into &eLoaf Mode&r."
+			]
+			id: "29D9AF2265AA3B80"
+			tasks: [{
+				id: "03595035D8B17DD2"
+				item: "loafcats:cat_treat"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["268A491226F5370F"]
+			description: ["Use &3Catnip&r to breed your &aLoaf Cats&r."]
+			id: "6132EB60F2B82262"
+			tasks: [{
+				id: "60E17FF68BD4332B"
+				item: "loafcats:catnip"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["268A491226F5370F"]
+			description: ["Use some &3Cat Food&r to heal and feed your &aLoaf Cat&r."]
+			id: "5EC60DCEAC1D727D"
+			tasks: [{
+				id: "157C21E08BD831D5"
+				item: "loafcats:cat_food"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
 		}
 	]
 	title: "Adventure"

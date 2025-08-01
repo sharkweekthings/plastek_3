@@ -617,6 +617,32 @@
 			x: 8.0d
 			y: -5.0d
 		}
+		{
+			description: [
+				"I'll eventually add some quests here, but for now I am too lazy. "
+				""
+				"Thanks for understanding <3"
+			]
+			icon: "kubejs:p3_chat"
+			id: "784F2E2FB39C95A6"
+			rewards: [{
+				command: "/mine_and_slash give exp @p 200"
+				icon: "kubejs:p3_xp"
+				id: "49EE74AA28D8C11D"
+				title: "200 Experience Points"
+				type: "command"
+			}]
+			shape: "octagon"
+			subtitle: "ETA: Soon"
+			tasks: [{
+				id: "0C3E575F7234B789"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Integrated Dynamics"
+			x: 2.5d
+			y: -7.5d
+		}
 	]
 	title: "Tech"
 }

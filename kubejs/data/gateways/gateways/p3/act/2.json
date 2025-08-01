@@ -4,22 +4,15 @@
 	"waves": [{
 			"entities": [
 				{ 
-					"entity": "theorcs:orc_grunt",
-					"count": 3
-				}
-			],
-			"rewards": [],
-			"max_wave_time": 1200,
-			"setup_time": 60
-		},
-		{
-			"entities": [
-				{
-					"entity": "theorcs:orc_grunt",
+					"entity": "minecraft:vindicator",
 					"count": 2
 				},
 				{
-					"entity": "theorcs:orc_ranger",
+					"entity": "ba_bt:bt_cultist",
+					"count": 2
+				},
+				{
+					"entity": "minecraft:witch",
 					"count": 1
 				}
 			],
@@ -30,15 +23,30 @@
 		{
 			"entities": [
 				{
-					"entity": "theorcs:orc_grunt",
+					"entity": "astral_dimension:lunatic",
+					"count": 1
+				},
+				{
+					"entity": "minecraft:vindicator",
+					"count": 2
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "ba_bt:bt_cultist",
 					"count": 2
 				},
 				{
-					"entity": "theorcs:orc_ranger",
+					"entity": "astral_dimension:lunatic",
 					"count": 2
 				},
 				{
-					"entity": "theorcs:orc_shaman",
+					"entity": "minecraft:witch",
 					"count": 1
 				}
 			],
@@ -49,16 +57,8 @@
 		{
 			"entities": [
 				{
-					"entity": "theorcs:orc_boss",
+					"entity": "minecraft:evoker",
 					"count": 1
-				},
-				{
-					"entity": "theorcs:orc_shaman",
-					"count": 1
-				},
-				{
-					"entity": "theorcs:orc_ranger",
-					"count": 2
 				}
 			],
 			"rewards": [],
@@ -70,14 +70,14 @@
         {
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
-            "rolls": 1,
-            "desc": "Test Drops p3 gateways"
+            "rolls": 3,
+            "loot_table": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
-            "loot_table": "p3:p3_treasure",
+            "loot_table": "p3:p3_epic",
             "rolls": 1,
-            "desc": "Test Drops P3 Treasure"
+            "desc": "Epic Reward"
         }
     ],
     "failures": [

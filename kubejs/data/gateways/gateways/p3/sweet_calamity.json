@@ -4,15 +4,30 @@
 	"waves": [{
 			"entities": [
 				{ 
-					"entity": "minecraft:vindicator",
+					"entity": "sweet_calamity:bittersweet",
+					"count": 2
+				},
+				{ 
+					"entity": "alexscaves:bittersweet",
+					"count": 2
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "sweet_calamity:cake_penguin",
 					"count": 2
 				},
 				{
-					"entity": "ba_bt:bt_cultist",
-					"count": 3
+					"entity": "sweet_calamity:ice_cream_penguin",
+					"count": 1
 				},
 				{
-					"entity": "minecraft:witch",
+					"entity": "alexscaves:caramel_cube",
 					"count": 1
 				}
 			],
@@ -23,30 +38,15 @@
 		{
 			"entities": [
 				{
-					"entity": "astral_dimension:lunatic",
+					"entity": "sweet_calamity:cake_penguin",
 					"count": 2
 				},
 				{
-					"entity": "minecraft:vindicator",
-					"count": 3
-				}
-			],
-			"rewards": [],
-			"max_wave_time": 1200,
-			"setup_time": 60
-		},
-		{
-			"entities": [
-				{
-					"entity": "ba_bt:bt_cultist",
-					"count": 3
+					"entity": "alexscaves:caniac",
+					"count": 1
 				},
 				{
-					"entity": "astral_dimension:lunatic",
-					"count": 2
-				},
-				{
-					"entity": "minecraft:witch",
+					"entity": "sweet_calamity:bittersweet",
 					"count": 1
 				}
 			],
@@ -57,8 +57,12 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:evoker",
+					"entity": "alexscaves:licowitch",
 					"count": 1
+				},
+				{
+					"entity": "alexscaves:gumbeeper",
+					"count": 2
 				}
 			],
 			"rewards": [],
@@ -70,14 +74,14 @@
         {
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
-            "rolls": 3,
-            "desc": "Test Drops p3 gateways"
+            "rolls": 1,
+            "loot_table": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
-            "loot_table": "p3:p3_treasure",
+            "loot_table": "p3:p3_epic",
             "rolls": 1,
-            "desc": "Test Drops P3 Treasure"
+            "desc": "Epic Reward"
         }
     ],
     "failures": [

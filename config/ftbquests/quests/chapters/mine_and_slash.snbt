@@ -46,6 +46,8 @@
 				""
 				"You can use the &9Salvage Station&r to salvage items manually, or you can use the '&eSalvaging&r' menu from your &6Mine and Slash&r &eHub&r as you pick up certain items."
 				""
+				"Stones can also be acquired through mining. "
+				""
 				"You can toggle to salvage individual item types of &3Skill Gems&r, &3Gear&r, and &3Jewels&r, and will automatically receive the appropriate stone instead of the specified rarity of item."
 			]
 			id: "0C794C6B6C513375"

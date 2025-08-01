@@ -60,11 +60,15 @@
           "weight": 10
         },
         {
+          "type": "ocean_recovery:plastic_bottle",
+          "weight": 500
+        },
+        {
           "type": "minecraft:empty",
           "weight": 810
         }
       ]
     }
   ],
-  "random_sequence": "p3:p3_rune"
+  "random_sequence": "p3:p3_bonus"
 }

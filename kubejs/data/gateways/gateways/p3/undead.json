@@ -4,15 +4,11 @@
 	"waves": [{
 			"entities": [
 				{ 
-					"entity": "minecraft:vindicator",
-					"count": 3
+					"entity": "minecraft:zombie",
+					"count": 2
 				},
-				{
-					"entity": "ba_bt:bt_cultist",
-					"count": 3
-				},
-				{
-					"entity": "minecraft:witch",
+				{ 
+					"entity": "minecraft:zombie_villager",
 					"count": 2
 				}
 			],
@@ -23,12 +19,16 @@
 		{
 			"entities": [
 				{
-					"entity": "astral_dimension:lunatic",
-					"count": 3
+					"entity": "born_in_chaos_v1:zombie_fisherman",
+					"count": 1
 				},
 				{
-					"entity": "minecraft:vindicator",
-					"count": 3
+					"entity": "born_in_chaos_v1:zombie_lumberjack",
+					"count": 1
+				},
+				{
+					"entity": "born_in_chaos_v1:zombie_bruiser",
+					"count": 1
 				}
 			],
 			"rewards": [],
@@ -38,16 +38,16 @@
 		{
 			"entities": [
 				{
-					"entity": "ba_bt:bt_cultist",
-					"count": 3
-				},
-				{
-					"entity": "astral_dimension:lunatic",
-					"count": 3
-				},
-				{
-					"entity": "minecraft:witch",
+					"entity": "born_in_chaos_v1:decaying_zombie",
 					"count": 2
+				},
+				{
+					"entity": "born_in_chaos_v1:zombie_clown",
+					"count": 1
+				},
+				{
+					"entity": "born_in_chaos_v1:barrel_zombie",
+					"count": 1
 				}
 			],
 			"rewards": [],
@@ -57,7 +57,11 @@
 		{
 			"entities": [
 				{
-					"entity": "minecraft:evoker",
+					"entity": "mutantmonsters:mutant_zombie",
+					"count": 1
+				},
+				{ 
+					"entity": "minecraft:zombie",
 					"count": 2
 				}
 			],
@@ -70,14 +74,14 @@
         {
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
-            "rolls": 3,
-            "desc": "Test Drops p3 gateways"
+            "rolls": 1,
+            "loot_table": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
-            "loot_table": "p3:p3_treasure",
+            "loot_table": "p3:p3_epic",
             "rolls": 1,
-            "desc": "Test Drops P3 Treasure"
+            "desc": "Epic Reward"
         }
     ],
     "failures": [

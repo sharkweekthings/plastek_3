@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "49003CDC4D5E6B69"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -1286,6 +1286,21 @@
 			]
 			x: 1.5d
 			y: 7.0d
+		}
+		{
+			description: [
+				"Will allow you to input/output items using EMC through your storage network."
+				""
+				"Put an &3ME Storage Bus&r on the &3EMC Interface&r in order to connect it."
+			]
+			id: "17680B6131337F7B"
+			tasks: [{
+				id: "692DAA035DC49C0D"
+				item: "emc_interface:emc_interface"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
 		}
 	]
 	title: "Applied Energistics 2"

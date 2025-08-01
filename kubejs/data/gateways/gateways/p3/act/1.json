@@ -71,13 +71,13 @@
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
             "rolls": 1,
-            "desc": "Test Drops p3 gateways"
+            "loot_table": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
-            "loot_table": "p3:p3_treasure",
+            "loot_table": "p3:p3_epic",
             "rolls": 1,
-            "desc": "Test Drops P3 Treasure"
+            "desc": "Epic Reward"
         }
     ],
     "failures": [

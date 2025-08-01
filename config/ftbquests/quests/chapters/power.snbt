@@ -5,7 +5,7 @@
 	group: "506A6F854E7C4775"
 	icon: "powah:reactor_nitro"
 	id: "2DBF2A3E4D1C9A43"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

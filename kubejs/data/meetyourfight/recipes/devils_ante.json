@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"NCN",
+		"IDI",
+		"NIN"
+	],
+	"key": {
+		"D": { "tag": "forge:gems/diamond" },
+		"I": { "tag": "forge:ingots/gold" },
+		"N": { "tag": "forge:netherrack" },
+		"C": { "item": "mysticalagriculture:master_infusion_crystal" }
+	},
+	"result": { "item": "meetyourfight:devils_ante" }
+}

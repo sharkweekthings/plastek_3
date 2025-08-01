@@ -244,10 +244,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "p3:p3_rune"
+          "name": "p3:p3_bonus"
         }
       ]
     }
   ],
-  "random_sequence": "p3:p3_treasure"
+  "random_sequence": "p3:p3_epic"
 }

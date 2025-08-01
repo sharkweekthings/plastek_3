@@ -4,11 +4,15 @@
 	"waves": [{
 			"entities": [
 				{ 
-					"entity": "toybox:walking_wooden_bricks",
+					"entity": "goblins_tyranny:mini_goblin_1",
 					"count": 2
 				},
 				{
-					"entity": "toybox:toy_tank",
+					"entity": "goblins_tyranny:mini_goblin_2",
+					"count": 1
+				},
+				{
+					"entity": "goblins_tyranny:mini_goblin_3",
 					"count": 1
 				}
 			],
@@ -19,34 +23,15 @@
 		{
 			"entities": [
 				{
-					"entity": "toybox:doll",
+					"entity": "goblins_tyranny:knight_goblin",
 					"count": 1
 				},
 				{
-					"entity": "toybox:walking_wooden_bricks",
+					"entity": "goblins_tyranny:mini_goblin_3",
 					"count": 2
 				},
 				{
-					"entity": "toybox:toy_tank",
-					"count": 1
-				}
-			],
-			"rewards": [],
-			"max_wave_time": 1200,
-			"setup_time": 60
-		},
-		{
-			"entities": [
-				{
-					"entity": "toybox:faceless_doll",
-					"count": 1
-				},
-				{
-					"entity": "toybox:doll",
-					"count": 2
-				},
-				{
-					"entity": "toybox:teddy",
+					"entity": "goblins_tyranny:goblin_hunter",
 					"count": 1
 				}
 			],
@@ -57,16 +42,35 @@
 		{
 			"entities": [
 				{
-					"entity": "toybox:tin_robot",
+					"entity": "goblins_tyranny:knight_goblin",
+					"count": 1
+				},
+				{
+					"entity": "goblins_tyranny:goblin_huntsman",
 					"count": 2
 				},
 				{
-					"entity": "toybox:teddy",
-					"count": 2
+					"entity": "goblins_tyranny:goblin_hunter",
+					"count": 1
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "goblins_tyranny:leader_goblin",
+					"count": 1
 				},
 				{
-					"entity": "toybox:doll",
-					"count": 2
+					"entity": "goblins_tyranny:mini_goblin_1",
+					"count": 1
+				},
+				{
+					"entity": "goblins_tyranny:mini_goblin_2",
+					"count": 1
 				}
 			],
 			"rewards": [],
@@ -79,13 +83,13 @@
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
             "rolls": 1,
-            "desc": "Test Drops p3 gateways"
+            "loot_table": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
-            "loot_table": "p3:p3_treasure",
+            "loot_table": "p3:p3_epic",
             "rolls": 1,
-            "desc": "Test Drops P3 Treasure"
+            "desc": "Epic Reward"
         }
     ],
     "failures": [

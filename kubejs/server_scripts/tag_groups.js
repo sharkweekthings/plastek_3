@@ -2833,6 +2833,8 @@ ServerEvents.tags('block', event => {
 event.add('p3:ore_t0', 
 [
   'minecraft:coal_ore',
+  'minecraft:stone',
+  'minecraft:deepslate',
   'powah:uraninite_ore_poor'
 ])
 

@@ -4,15 +4,22 @@
 	"waves": [{
 			"entities": [
 				{ 
-					"entity": "minecraft:vindicator",
+					"entity": "theorcs:orc_grunt",
 					"count": 3
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "theorcs:orc_grunt",
+					"count": 2
 				},
 				{
-					"entity": "ba_bt:bt_cultist",
-					"count": 3
-				},
-				{
-					"entity": "minecraft:witch",
+					"entity": "theorcs:orc_ranger",
 					"count": 1
 				}
 			],
@@ -23,42 +30,35 @@
 		{
 			"entities": [
 				{
-					"entity": "astral_dimension:lunatic",
+					"entity": "theorcs:orc_grunt",
 					"count": 2
 				},
 				{
-					"entity": "minecraft:vindicator",
-					"count": 3
-				}
-			],
-			"rewards": [],
-			"max_wave_time": 1200,
-			"setup_time": 60
-		},
-		{
-			"entities": [
-				{
-					"entity": "ba_bt:bt_cultist",
-					"count": 3
-				},
-				{
-					"entity": "astral_dimension:lunatic",
-					"count": 3
-				},
-				{
-					"entity": "minecraft:witch",
+					"entity": "theorcs:orc_ranger",
 					"count": 2
-				}
-			],
-			"rewards": [],
-			"max_wave_time": 1200,
-			"setup_time": 60
-		},
-		{
-			"entities": [
+				},
 				{
-					"entity": "minecraft:evoker",
+					"entity": "theorcs:orc_shaman",
 					"count": 1
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "theorcs:orc_boss",
+					"count": 1
+				},
+				{
+					"entity": "theorcs:orc_shaman",
+					"count": 1
+				},
+				{
+					"entity": "theorcs:orc_ranger",
+					"count": 2
 				}
 			],
 			"rewards": [],
@@ -70,14 +70,14 @@
         {
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
-            "rolls": 3,
-            "desc": "Test Drops p3 gateways"
+            "rolls": 1,
+            "loot_table": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
-            "loot_table": "p3:p3_treasure",
+            "loot_table": "p3:p3_epic",
             "rolls": 1,
-            "desc": "Test Drops P3 Treasure"
+            "desc": "Epic Reward"
         }
     ],
     "failures": [

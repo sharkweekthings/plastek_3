@@ -1,9 +1,15 @@
 {
-	"gateways.act/1": "Act I Void Rift",
-	"gateways.act/2": "Act II Void Rift",
-	"gateways.act/3": "Act III Void Rift",
-	"gateways.act/4": "Act IV Void Rift",
-	"gateways.act/5": "Act V Void Rift",
+	"gateways.p3/act/1": "Act I Void Rift",
+	"gateways.p3/act/2": "Act II Void Rift",
+	"gateways.p3/act/3": "Act III Void Rift",
+	"gateways.p3/act/4": "Act IV Void Rift",
+	"gateways.p3/act/5": "Act V Void Rift",
+	"gateways.p3/goblin": "Goblin Void Rift",
+	"gateways.p3/orcs": "Orcs Void Rift",
+	"gateways.p3/orcs_goblins": "Orcs and Goblins Void Rift",
+	"gateways.p3/sweet_calamity": "Tasty Void Rift",
+	"gateways.p3/toys": "Toy Void Rift",
+	"gateways.p3/undead": "Unead Void Rift",
     "rewards.gateways.loot_table.drops": "Common Reward",
     "rewards.gateways.loot_table.treasures": "Epic Reward"
 }

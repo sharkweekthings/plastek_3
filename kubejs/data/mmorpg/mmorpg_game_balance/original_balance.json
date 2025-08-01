@@ -81,7 +81,7 @@
     "TALENTS": {
       "type": "TALENTS",
       "base_points": 1,
-      "max_bonus_points": 30,
+      "max_bonus_points": 40,
       "max_total_points": 200,
       "points_per_lvl": 1.0
     }

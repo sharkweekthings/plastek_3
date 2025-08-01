@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" FS",
+		"AC ",
+		"DA "
+	],
+	"key": {
+		"S": { "item": "minecraft:blackstone" },
+		"A": { "tag": "forge:gems/amethyst" },
+		"D": { "tag": "forge:gems/diamond" },
+		"F": { "item": "minecraft:allium" },
+		"C": { "item": "mysticalagriculture:master_infusion_crystal" }
+	},
+	"result": { "item": "meetyourfight:dusk_key" }
+}

@@ -23,6 +23,12 @@ config/emi.css
 emi.json
 
 
+config/commoncapabilities-common.toml
+config/cyclopscore-common.toml
+config/integrateddynamics-common.toml
+config/integrateddynamicscompat-common.toml
+config/integratedterminals-common.toml
+config/integratedtunnels-common.toml
 
 config/meetyourfight-common.toml
 config/plagatesummon-common.toml

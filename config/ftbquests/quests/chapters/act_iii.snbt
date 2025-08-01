@@ -386,9 +386,9 @@
 				}
 				id: "192BAFAC2EE83DDA"
 				type: "kill"
-				value: 5L
+				value: 3L
 			}]
-			title: "Take Out 5 Diophyde Prowlers"
+			title: "Take Out 3 Diophyde Prowlers"
 			x: -2.0d
 			y: 2.0d
 		}
@@ -610,9 +610,9 @@
 				}
 				id: "3D707D83479E03C3"
 				type: "kill"
-				value: 5L
+				value: 3L
 			}]
-			title: "Take Out 5 Emberbacks"
+			title: "Take Out 3 Emberbacks"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -650,9 +650,9 @@
 				}
 				id: "41F38D852A1FC39F"
 				type: "kill"
-				value: 5L
+				value: 3L
 			}]
-			title: "Take Out 5 Shade Monitors"
+			title: "Take Out 3 Shade Monitors"
 			x: 4.0d
 			y: 2.0d
 		}

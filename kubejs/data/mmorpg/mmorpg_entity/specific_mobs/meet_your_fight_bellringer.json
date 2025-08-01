@@ -15,13 +15,13 @@
         "type": "flat",
         "scale_to_lvl": false,
         "v1": 70.0,
-        "stat": "phys_to_water"
+        "stat": "phys_to_chaos"
       },
       {
         "type": "flat",
         "scale_to_lvl": false,
         "v1": 10.0,
-        "stat": "all_water_damage"
+        "stat": "all_chaos_damage"
       },
       {
         "type": "percent",

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" G ",
+		"GSG",
+		"GCG"
+	],
+	"key": {
+		"G": { "tag": "forge:ingots/gold" },
+		"S": { "item": "minecraft:cobbled_deepslate" },
+		"C": { "item": "mysticalagriculture:master_infusion_crystal" }
+	},
+	"result": { "item": "meetyourfight:haunted_bell" }
+}

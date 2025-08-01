@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"EBE",
+		"FBF",
+		"FCF"
+	],
+	"key": {
+		"E": { "item": "minecraft:spider_eye" },
+		"B": { "tag": "forge:bones" },
+		"F": { "item": "minecraft:rotten_flesh" },
+		"C": { "item": "mysticalagriculture:master_infusion_crystal" }
+	},
+	"result": { "item": "meetyourfight:fossil_bait" }
+}

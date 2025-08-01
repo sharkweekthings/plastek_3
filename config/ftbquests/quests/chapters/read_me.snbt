@@ -140,7 +140,7 @@
 				"&2Stat&r: 160 (&o60 come from quests&r)"
 				"&9Spell&r: 100"
 				"&3Passive&r: 50"
-				"&6Talent&r: 130 (&o29 come from quests&r)"
+				"&6Talent&r: 140 (&o39 come from quests&r)"
 				"&dAscendancy&r: 10"
 			]
 			icon: {
@@ -534,21 +534,21 @@
 		{
 			dependencies: ["7DA184125BC90240"]
 			description: [
+				"&6Mine and Slash&r – The mobs in each dimension will scale to the nearest player. This means that if you're level 20, the mobs in the area should also be around &2level 20&r. Each dimension has it's own level range, which you can read about in this tutorial later. The way the mod is currently configured, &eEnergy&r depletes when using tools, or hitting something bare handed."
+				""
 				"&eExperience Points&r - To level your character you need to gain &6Mine and Slash&r &eExperience Points&r by completing quests, or fighting monsters. You will gain &eBonus Combat Experience&r by working on your &6Mine and Slash&r professions, and you will gain &eBonus Profession Experience&r by defeating monsters. "
 				""
 				"&cDeath Penalty&r - Starting at &2level 50&r, each death will result in a 10% permanent loss of &eExperience Points&r. &eExperience Debt&r is disabled in this pack."
 				""
 				"&6Better Combat&r – Your character will have a range of new attack animations with various weapons, as well as attack combos."
 				""
-				"&6Mine and Slash&r – The mobs in each dimension will scale to the nearest player. This means that if you're level 20, the mobs in the area should also be around &2level 20&r. Each dimension has it's own level range, which you can read about in this tutorial later. The way the mod is currently configured, &eEnergy&r doesn't currently have a lot of purpose."
-				""
 				"&6Combat Roll&r – You can press 'R', which will let you dodge roll forward."
 				""
 				"&6Dropped Buffs&r - While you kill monsters there is a 10% chance that they will drop a temporary buff that will automatically apply for 60 seconds.. These buffs can be picked up by anyone, but will only last for 20 seconds on the ground."
 				""
-				"&6Level Cap&r – Most dimensions are 65. However, you will have access to &6Dimensional Dungeons&r, &6Ancient Obelisks&r, &6The Harvest&r, and &6Dungeon Realm&r starting as early as &2level 1&r (&oif you get extremely lucky&r), and &eMaps&r starting at &2level 50&r – all of which will take you to &2level 100&r."
+				"&6Level Cap&r – Most dimensions are 65. However, you will have access to &6Dimensional Dungeons&r, &6Ancient Obelisks&r, and &6The Harvest&r starting as early as &2level 1&r (&oif you get extremely lucky&r), with &6Dungeon Realm&r, and &eMaps&r starting at &2level 50&r – all of which can take you to &2level 100&r."
 				""
-				"&6Gateways To Eternity&r - While defeating enemies, there is a chance that the Cult of the Void may send it's henchmen after you. They are even known to kidnap aggressive denizens throughout various worlds, and send them through as well."
+				"&6Gateways To Eternity&r - While defeating enemies, there is a chance that the &cCult of the Void&r may send it's henchmen after you through a &eVoid Rift&r. They are even known to kidnap aggressive denizens throughout various worlds, and send them through as well, hoping to stop you."
 				""
 				"This pack uses &6Anti Mob Farm&r, which restricts loot and experience after killing mobs in the same chunk for too long. It's strongly advised and encouraged to travel about and slay monsters – do not sit in one spot for very long."
 				""
@@ -677,18 +677,25 @@
 				type: "command"
 			}]
 			subtitle: "Flush the negative status away."
-			tasks: [{
-				id: "3C63CE9464BCF51A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "refurbished_furniture:wooden_toilets"
+			tasks: [
+				{
+					id: "3C63CE9464BCF51A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "refurbished_furniture:wooden_toilets"
+						}
 					}
+					title: "Any Toilet"
+					type: "item"
 				}
-				title: "Any Toilet"
-				type: "item"
-			}]
+				{
+					id: "056202947D56AEFE"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
 			title: "Gotta Go Poop"
 			x: -4.5d
 			y: -3.0d

@@ -15,19 +15,19 @@
         "type": "flat",
         "scale_to_lvl": false,
         "v1": 70.0,
-        "stat": "phys_to_chaos"
+        "stat": "phys_to_fire"
       },
       {
         "type": "flat",
         "scale_to_lvl": false,
         "v1": 10.0,
-        "stat": "all_chaos_damage"
+        "stat": "all_fire_damage"
       },
       {
         "type": "percent",
         "scale_to_lvl": false,
         "v1": 30.0,
-        "stat": "elemental_resist"
+        "stat": "fire_resist"
       }
 	]
   }
