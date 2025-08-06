@@ -25,7 +25,6 @@ config/inventory_pets_illuminati_blacklist.json
 
 config/commoncapabilities-common.toml
 config/cyclopscore-common.toml
-config/integrateddynamics-common.toml
 config/integrateddynamicscompat-common.toml
 config/integratedterminals-common.toml
 config/integratedtunnels-common.toml
