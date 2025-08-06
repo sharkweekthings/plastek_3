@@ -959,11 +959,7 @@
 			}]
 			tasks: [{
 				id: "7AFCE61B675D7660"
-				item: {
-					Count: 1
-					id: "supplementaries:planter"
-					tag: { }
-				}
+				item: "minecraft:flower_pot"
 				type: "item"
 			}]
 			x: -5.5d

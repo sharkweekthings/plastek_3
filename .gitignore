@@ -21,7 +21,7 @@ servers.dat
 servers.dat_old
 config/emi.css
 emi.json
-
+config/inventory_pets_illuminati_blacklist.json
 
 config/commoncapabilities-common.toml
 config/cyclopscore-common.toml
