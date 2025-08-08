@@ -33,10 +33,6 @@
                 {
                     "entity": "minecraft:spider",
                     "count": 1
-                },
-                {
-                    "entity": "minecraft:creeper",
-                    "count": 1
                 }
             ],
 			"rewards": [],
@@ -55,10 +51,6 @@
                 },
                 {
                     "entity": "minecraft:spider",
-                    "count": 1
-                },
-                {
-                    "entity": "minecraft:creeper",
                     "count": 1
                 },
                 {
