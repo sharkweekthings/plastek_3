@@ -1145,7 +1145,7 @@
 				""
 				"Whether it's actually the &6Twilight Forest&r or another dimension remains to be seen, but she wanted to be there in case anyone got hurt."
 				""
-				"She left the town in the capable hands of her mentor &dDr. Mandi Mandibles&r, who went on to be the first doctor in the 88 currently known dimensions to successfully transplant an &3Alpaca's Head&r onto the &dWandering Merchant&r, which saved the life of the merchant and allowed him to become the first &3Wandering Merchant&r to achieve the goal of 100 billion currencies."
+				"She left the town in the capable hands of her mentor &dDr. Mandi Mandibles&r, who went on to be the first doctor in the 88 currently known dimensions to successfully transplant an &3Alpaca's Head&r onto &dRenik, the Wandering Merchant&r, which saved the life of the merchant and allowed him to become the first &3Wandering Merchant&r to achieve the goal of 100 billion currencies."
 			]
 			icon: {
 				Count: 1
@@ -1179,6 +1179,14 @@
 				"It was a place for the magically inclined to learn magic — for a pretty penny, of course."
 				""
 				"People from all over the land came to train under &dTim&r, and he was happy to take their coin."
+				""
+				"One night, an assassin came to visit &dTim&r in his chambers, however the assassin was no match his burly voice. With a simple \"OUT!\", &dTim's&r voice echoed throughout the chamber, as the walls and the ground shook. You could hear children from the village crying in fear over how scary it was. "
+				""
+				"The assassin quickly retreated. While trying to flee, the assassin looked back for a brief moment, turned back around, and ran head first into a comically large &3Iron Shovel&r held by the &eMonument of Professor Trevor&r. "
+				""
+				"It was later revealed that this assassin was &cBob's&r third cousin, twice removed, from his sisters side; &cRob&r who was attempting to seek revenge on the one who killed his uncle. If &cRob&r actually had the right person, they might have been successful, but unfortunately they stumbled into the wrong chambers..."
+				""
+				"It seems &cBob&r had a pretty messed up family tree..."
 			]
 			icon: {
 				Count: 1
@@ -1434,7 +1442,7 @@
 			}]
 			title: "Professor Trev"
 			x: 10.5d
-			y: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7949FA7849F2A6D9"]
@@ -1469,15 +1477,13 @@
 		{
 			dependencies: ["4C1EF8F51267FEC5"]
 			description: [
-				""
-				""
-				"Thanks to you and your Pixie friend, all &aPixie's&r were able to return to &6Feywild&r if they wanted; united under a '&eTwo Queen&r' system, each with a 50 percent balance of power for their Fey houses, this was called the &dUnited Fey Alliance&r and all denizens of &6Feywild&r were united, including the &aDwarves&r."
+				"Thanks to you and your pixie friend, all &aPixie's&r were able to return to &6Feywild&r if they wanted; united under a '&eTwo Queen&r' system, each with a 50 percent balance of power for their Fey houses. This was called the &dUnited Fey Alliance&r and all denizens of &6Feywild&r were united, including the &aDwarves&r."
 				""
 				"Every year on the anniversary of the &dUnited Fey Alliance&r, the &aPixie's&r will sprinkle &3Pixie Dust&r over your village; making it a magical night for anyone in attendance. Villagers from all of the world, and even across dimensions come to stay at your village for this one magical night of festivities and dancing. "
 				""
 				"This is also how you found out that not everybody has the same tolerance to &3Pixie Dust&r as you do, which likely came from you inhaling the &3Royal Pixie Dust&r many years ago, as the normal stuff just doesn't have any effect on you."
 				""
-				"While most people dance, and act silly; some people are a little too over the top and have to be asked to leave the festival. There was even one time a festival goer stripped down in front of the monument to &dProfessor Trevor&r, and announced his love to the fallen &dProfessor&r. "
+				"While most people dance, and act silly; some people are a little too over the top and have to be asked to leave the festival. There was even one time a festival goer stripped down in front of the monument to &dProfessor Trevor&r, and pronounced his love to the fallen &dProfessor&r. "
 			]
 			icon: "kubejs:p3_chat"
 			id: "464B7D793B1D05A4"
@@ -1497,7 +1503,7 @@
 			}]
 			title: "Pixie Friend"
 			x: 10.5d
-			y: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["20A30498BD2020C5"]

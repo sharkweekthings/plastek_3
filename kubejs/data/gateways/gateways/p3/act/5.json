@@ -13,7 +13,7 @@
 				},
 				{
 					"entity": "minecraft:witch",
-					"count": 2
+					"count": 1
 				}
 			],
 			"rewards": [],
@@ -24,7 +24,7 @@
 			"entities": [
 				{
 					"entity": "astral_dimension:lunatic",
-					"count": 3
+					"count": 2
 				},
 				{
 					"entity": "minecraft:vindicator",
@@ -47,7 +47,7 @@
 				},
 				{
 					"entity": "minecraft:witch",
-					"count": 2
+					"count": 1
 				}
 			],
 			"rewards": [],
@@ -70,13 +70,13 @@
         {
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
-            "rolls": 3,
-            "loot_table": "Basic Reward"
+            "rolls": 4,
+            "desc": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_epic",
-            "rolls": 1,
+            "rolls": 4,
             "desc": "Epic Reward"
         }
     ],

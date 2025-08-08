@@ -4,22 +4,15 @@
 	"waves": [{
 			"entities": [
 				{ 
-					"entity": "theorcs:orc_grunt",
-					"count": 3
-				}
-			],
-			"rewards": [],
-			"max_wave_time": 1200,
-			"setup_time": 60
-		},
-		{
-			"entities": [
-				{
-					"entity": "theorcs:orc_grunt",
+					"entity": "goblins_tyranny:mini_goblin_1",
 					"count": 2
 				},
 				{
-					"entity": "theorcs:orc_ranger",
+					"entity": "goblins_tyranny:mini_goblin_2",
+					"count": 1
+				},
+				{
+					"entity": "goblins_tyranny:mini_goblin_3",
 					"count": 1
 				}
 			],
@@ -30,15 +23,15 @@
 		{
 			"entities": [
 				{
-					"entity": "theorcs:orc_grunt",
+					"entity": "goblins_tyranny:knight_goblin",
+					"count": 1
+				},
+				{
+					"entity": "goblins_tyranny:mini_goblin_3",
 					"count": 2
 				},
 				{
-					"entity": "theorcs:orc_ranger",
-					"count": 2
-				},
-				{
-					"entity": "theorcs:orc_shaman",
+					"entity": "goblins_tyranny:goblin_hunter",
 					"count": 1
 				}
 			],
@@ -49,16 +42,35 @@
 		{
 			"entities": [
 				{
-					"entity": "theorcs:orc_boss",
+					"entity": "goblins_tyranny:knight_goblin",
 					"count": 1
 				},
 				{
-					"entity": "theorcs:orc_shaman",
-					"count": 1
-				},
-				{
-					"entity": "theorcs:orc_ranger",
+					"entity": "goblins_tyranny:goblin_huntsman",
 					"count": 2
+				},
+				{
+					"entity": "goblins_tyranny:goblin_hunter",
+					"count": 1
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "goblins_tyranny:leader_goblin",
+					"count": 1
+				},
+				{
+					"entity": "goblins_tyranny:mini_goblin_1",
+					"count": 1
+				},
+				{
+					"entity": "goblins_tyranny:mini_goblin_2",
+					"count": 1
 				}
 			],
 			"rewards": [],
@@ -71,7 +83,7 @@
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
             "rolls": 1,
-            "loot_table": "Basic Reward"
+            "desc": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",

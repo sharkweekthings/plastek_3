@@ -9,7 +9,7 @@
 				},
 				{
 					"entity": "ba_bt:bt_cultist",
-					"count": 2
+					"count": 1
 				},
 				{
 					"entity": "minecraft:witch",
@@ -44,10 +44,6 @@
 				{
 					"entity": "astral_dimension:lunatic",
 					"count": 2
-				},
-				{
-					"entity": "minecraft:witch",
-					"count": 1
 				}
 			],
 			"rewards": [],
@@ -70,13 +66,13 @@
         {
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
-            "rolls": 3,
-            "loot_table": "Basic Reward"
+            "rolls": 2,
+            "desc": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_epic",
-            "rolls": 1,
+            "rolls": 2,
             "desc": "Epic Reward"
         }
     ],

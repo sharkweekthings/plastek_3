@@ -8,7 +8,7 @@
 					"count": 2
 				},
 				{ 
-					"entity": "alexscaves:bittersweet",
+					"entity": "alexscaves:gummy_bear",
 					"count": 2
 				}
 			],
@@ -75,7 +75,7 @@
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
             "rolls": 1,
-            "loot_table": "Basic Reward"
+            "desc": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",

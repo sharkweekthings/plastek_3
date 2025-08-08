@@ -78,6 +78,7 @@ ServerEvents.recipes(event => {
   event.remove({ mod: 'a_man_with_plushies' })
   event.remove({ mod: 'plushies' })
   event.remove({ mod: 'ultimine_addition' })
+  event.remove({ mod: 'gateways' })
 //
 })
 //

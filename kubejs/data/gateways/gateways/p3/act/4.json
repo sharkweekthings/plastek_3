@@ -5,7 +5,7 @@
 			"entities": [
 				{ 
 					"entity": "minecraft:vindicator",
-					"count": 3
+					"count": 2
 				},
 				{
 					"entity": "ba_bt:bt_cultist",
@@ -43,7 +43,7 @@
 				},
 				{
 					"entity": "astral_dimension:lunatic",
-					"count": 3
+					"count": 2
 				},
 				{
 					"entity": "minecraft:witch",
@@ -71,12 +71,12 @@
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
             "rolls": 3,
-            "loot_table": "Basic Reward"
+            "desc": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_epic",
-            "rolls": 1,
+            "rolls": 3,
             "desc": "Epic Reward"
         }
     ],

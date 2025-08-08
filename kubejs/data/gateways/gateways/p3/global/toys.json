@@ -4,30 +4,11 @@
 	"waves": [{
 			"entities": [
 				{ 
-					"entity": "minecraft:zombie",
+					"entity": "toybox:walking_wooden_bricks",
 					"count": 2
 				},
-				{ 
-					"entity": "minecraft:zombie_villager",
-					"count": 2
-				}
-			],
-			"rewards": [],
-			"max_wave_time": 1200,
-			"setup_time": 60
-		},
-		{
-			"entities": [
 				{
-					"entity": "born_in_chaos_v1:zombie_fisherman",
-					"count": 1
-				},
-				{
-					"entity": "born_in_chaos_v1:zombie_lumberjack",
-					"count": 1
-				},
-				{
-					"entity": "born_in_chaos_v1:zombie_bruiser",
+					"entity": "toybox:toy_tank",
 					"count": 1
 				}
 			],
@@ -38,15 +19,15 @@
 		{
 			"entities": [
 				{
-					"entity": "born_in_chaos_v1:decaying_zombie",
-					"count": 2
-				},
-				{
-					"entity": "born_in_chaos_v1:zombie_clown",
+					"entity": "toybox:doll",
 					"count": 1
 				},
 				{
-					"entity": "born_in_chaos_v1:barrel_zombie",
+					"entity": "toybox:walking_wooden_bricks",
+					"count": 2
+				},
+				{
+					"entity": "toybox:toy_tank",
 					"count": 1
 				}
 			],
@@ -57,11 +38,34 @@
 		{
 			"entities": [
 				{
-					"entity": "mutantmonsters:mutant_zombie",
+					"entity": "toybox:faceless_doll",
 					"count": 1
 				},
-				{ 
-					"entity": "minecraft:zombie",
+				{
+					"entity": "toybox:doll",
+					"count": 2
+				},
+				{
+					"entity": "toybox:teddy",
+					"count": 1
+				}
+			],
+			"rewards": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "toybox:tin_robot",
+					"count": 2
+				},
+				{
+					"entity": "toybox:teddy",
+					"count": 2
+				},
+				{
+					"entity": "toybox:doll",
 					"count": 2
 				}
 			],
@@ -75,7 +79,7 @@
             "type": "gateways:loot_table",
             "loot_table": "p3:p3_gateways",
             "rolls": 1,
-            "loot_table": "Basic Reward"
+            "desc": "Basic Reward"
         },
         {
             "type": "gateways:loot_table",
