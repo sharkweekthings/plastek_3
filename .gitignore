@@ -28,7 +28,8 @@ config/cyclopscore-common.toml
 config/integrateddynamicscompat-common.toml
 config/integratedterminals-common.toml
 config/integratedtunnels-common.toml
-
+config/chatplus/chatplus-v2.7.0.json
+config/loafcats-client.toml
 config/meetyourfight-common.toml
 config/plagatesummon-common.toml
 config/remnant/

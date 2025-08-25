@@ -667,6 +667,7 @@
 				""
 				"The &3Toilet&r can be crafted on the &6Refurbished Furniture&r &9Workbench&r"
 			]
+			icon: "refurbished_furniture:oak_toilet"
 			id: "43D311CB01BBCD9B"
 			rewards: [{
 				command: "/diet reset @p"
@@ -679,6 +680,7 @@
 			subtitle: "Flush the negative status away."
 			tasks: [
 				{
+					consume_items: true
 					id: "3C63CE9464BCF51A"
 					item: {
 						Count: 1

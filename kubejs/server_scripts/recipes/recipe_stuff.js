@@ -122,6 +122,7 @@ ServerEvents.recipes(event => {
     2: 'mysticalagriculture:fire_essence',
     3: 'ocean_recovery:plastic_bottle'}).id('p3:bottle_to_bag')
 
+
 // MMORPG Stone Convert 5 to 4
   event.shapeless(Item.of('4x mmorpg:stone/4'), ['mmorpg:stone/5']).id('p3_stone_convert_5_to_4')
 
@@ -136,6 +137,9 @@ ServerEvents.recipes(event => {
 
 // MMORPG Stone Convert 1 to 0
   event.shapeless(Item.of('4x mmorpg:stone/0'), ['mmorpg:stone/1']).id('p3_stone_convert_1_to_0')
+
+// Scrap to Scrap Metal
+  event.shapeless(Item.of('4x goblins_tyranny:engineer_scrap'), ['alexscave:scrap_metal']).id('scrap_to_scrap_block')
 
 
 
