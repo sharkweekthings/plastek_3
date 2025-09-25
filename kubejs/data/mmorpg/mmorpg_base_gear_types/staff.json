@@ -4,8 +4,20 @@
       "type": "FLAT",
       "max": 10.0,
       "min": 5.0,
-      "stat": "spell_damage"
-    }
+      "stat": "weapon_damage"
+    },
+  {
+    "type": "FLAT",
+    "max": 1.0,
+    "min": 1.0,
+    "stat": "learn_blast"
+  },
+  {
+    "type": "FLAT",
+    "max": 4.0,
+    "min": 2.0,
+    "stat": "mana_on_blast_hit"
+  }
   ],
   "gear_slot": "staff",
   "guid": "staff",

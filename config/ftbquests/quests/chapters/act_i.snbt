@@ -2246,7 +2246,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Secret Cheat Menu Is Still Locked"
+			subtitle: "The Secret Cheat Menu Is Still Locked"
 			tasks: [{
 				id: "285B7E9BEAC3BC08"
 				title: "Ok"
