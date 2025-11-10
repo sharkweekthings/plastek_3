@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "thorn_consume",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

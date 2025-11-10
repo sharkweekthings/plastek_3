@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "taunt",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {
@@ -22,4 +23,8 @@
       "stat": "health"
     }
   ]
+}
+    ],
+    "target_stat_scalings": [
+    ]
 }

@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "heart_of_ice",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

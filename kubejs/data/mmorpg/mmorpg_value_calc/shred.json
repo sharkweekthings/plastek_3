@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "shred",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "explode_minion",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

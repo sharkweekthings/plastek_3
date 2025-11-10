@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "poisonball",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "hunter_pot_heal",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

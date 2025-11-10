@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "ignite_explosion",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

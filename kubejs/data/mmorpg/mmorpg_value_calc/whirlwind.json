@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "whirlwind",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

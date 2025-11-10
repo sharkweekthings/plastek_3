@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "arrow_storm",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

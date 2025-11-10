@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "magma_flower",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

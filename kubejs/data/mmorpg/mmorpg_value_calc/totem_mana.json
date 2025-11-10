@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "totem_mana",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

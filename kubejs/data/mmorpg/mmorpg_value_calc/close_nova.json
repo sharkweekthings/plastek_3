@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "close_nova",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

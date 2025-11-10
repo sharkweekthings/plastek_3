@@ -22,7 +22,8 @@ servers.dat_old
 config/emi.css
 emi.json
 config/inventory_pets_illuminati_blacklist.json
-
+config/refurbished_furniture.client.toml.bak
+config/refurbished_furniture.server.toml.bak
 config/commoncapabilities-common.toml
 config/cyclopscore-common.toml
 config/integrateddynamicscompat-common.toml

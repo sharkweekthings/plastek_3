@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "inner_calm",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

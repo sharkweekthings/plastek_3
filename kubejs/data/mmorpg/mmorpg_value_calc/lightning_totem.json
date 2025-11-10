@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "lightning_totem",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

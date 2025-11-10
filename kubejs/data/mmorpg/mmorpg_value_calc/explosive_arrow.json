@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "explosive_arrow",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

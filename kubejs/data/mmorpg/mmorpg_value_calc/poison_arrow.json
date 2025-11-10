@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "poison_arrow",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {

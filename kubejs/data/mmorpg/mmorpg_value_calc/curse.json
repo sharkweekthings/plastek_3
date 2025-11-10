@@ -13,6 +13,7 @@
     "stat": "health"
   },
   "id": "curse",
+  "target_stat_scalings": [],
   "stat_scalings": [
     {
       "multi": {
