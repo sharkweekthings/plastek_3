@@ -60,7 +60,8 @@
           "weight": 10
         },
         {
-          "type": "ocean_recovery:plastic_bottle",
+          "type": "minecraft:item",
+          "name": "ocean_recovery:plastic_bottle",
           "weight": 500
         },
         {

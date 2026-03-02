@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "ocean_recovery:plastic_bottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "ocean_recovery:plastic_bag"
+    }
+  ]
+}

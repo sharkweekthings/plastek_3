@@ -14,19 +14,12 @@
 	quests: [
 		{
 			id: "1911F551B6AA8179"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "41D89923CFB18F31"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4A165A4A997166A9"
-					table_id: 9019581477510061091L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A165A4A997166A9"
+				table_id: 9019581477510061091L
+				type: "random"
+			}]
 			shape: "circle"
 			subtitle: "Jump jump!"
 			tasks: [{
@@ -1903,6 +1896,118 @@
 			}]
 			x: 2.5d
 			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "inventorypets:pet_house"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "439055AFB92A4E4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A625F4C16BB2026"
+					table_id: 9019581477510061091L
+					type: "random"
+				}
+				{
+					id: "4421225469C9A97F"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Hey!"
+			tasks: [{
+				advancement: "dungeons_arise:find_bandit_towers"
+				criterion: ""
+				id: "7F2FADA2D58994DE"
+				type: "advancement"
+			}]
+			title: "Apartment?"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "708777DF7525B324"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45EA8BF12905E129"
+					table_id: 9019581477510061091L
+					type: "random"
+				}
+				{
+					id: "3CA7D7CA768BE104"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "429605678AC9313B"
+				type: "advancement"
+			}]
+			title: "Distant Dreamer"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			id: "347C23E6BF47BC85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FC2E56146F9B4D9"
+					table_id: 9019581477510061091L
+					type: "random"
+				}
+				{
+					id: "7F7A017651C0289B"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_conqueror"
+				criterion: ""
+				id: "5AF9CF46A6917A0B"
+				type: "advancement"
+			}]
+			title: "Ghost Riders In the Sky"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "6B7FAA1AE313F9EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CD3BD4228384722"
+					table_id: 9019581477510061091L
+					type: "random"
+				}
+				{
+					id: "13E569CEE34E2237"
+					item: "ocean_recovery:plastic_bottle"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "dungeons_arise:find_shiraz_palace"
+				criterion: ""
+				id: "62F7EC694CF56025"
+				type: "advancement"
+			}]
+			title: "Enter Sandman"
+			x: 5.5d
+			y: 3.5d
 		}
 	]
 	title: "For Fun"
