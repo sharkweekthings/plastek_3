@@ -4762,12 +4762,14 @@
 		}
 		{
 			id: "5B2730A884D43053"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "07EC5302D55AD661"
 				table_id: 9019581477510061091L
 				type: "random"
 			}]
+			subtitle: "WAT HAPPEN TO THE BIRB?"
 			tasks: [{
 				id: "4AA146E18CEDB745"
 				item: "perfectbirbs:bearded_reedling_plushie"
@@ -4778,12 +4780,14 @@
 		}
 		{
 			id: "25AD433C1B556490"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "32DA1257A123DCD9"
 				table_id: 9019581477510061091L
 				type: "random"
 			}]
+			subtitle: "WAT HAPPEN TO THE BIRB?"
 			tasks: [{
 				id: "49BEE753B088F545"
 				item: "perfectbirbs:cisticola_plushie"
@@ -4794,12 +4798,14 @@
 		}
 		{
 			id: "3513D8BFBA192BE5"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "082F90E8B8EF2727"
 				table_id: 9019581477510061091L
 				type: "random"
 			}]
+			subtitle: "WAT HAPPEN TO THE BIRB?"
 			tasks: [{
 				id: "2BB25F9868AD2E6D"
 				item: "perfectbirbs:blue_footed_booby_plushie"

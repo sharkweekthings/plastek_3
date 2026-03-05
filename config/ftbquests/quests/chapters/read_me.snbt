@@ -28,7 +28,11 @@
 				""
 				"Some recipes may be modified to fit certain progression goals, but nowhere near as extreme as my previous packs."
 				""
+				"&oSome quests may have a lot of dialogue. You can use your scroll wheel to scroll up or down on the quest text.&r"
+				""
 				"&a&oYou can skip this \"Read Me\" quest series by going directly to \"The End\" quest and completing it.&r&r "
+				""
+				"&o&cYou should start in a Sky Village, if you start under one, this is a known bug. If you die without setting a new spawn, it may respawn you in the Sky Village&r&r"
 			]
 			icon: {
 				Count: 1
