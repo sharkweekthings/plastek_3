@@ -2813,6 +2813,14 @@ event.add('p3:ma_5',
   'mysticalagriculture:master_infusion_crystal'
 ])
 
+event.add('p3:task_screen', 
+[
+  'ftbquests:screen_1',
+  'ftbquests:screen_3',
+  'ftbquests:screen_5',
+  'ftbquests:screen_7'
+])
+
 // // add silent saws to be usable with nat prog
 // event.add('natprog:saw', 'silentgear:saw')
 

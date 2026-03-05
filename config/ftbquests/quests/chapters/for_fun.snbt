@@ -197,12 +197,26 @@
 				type: "random"
 			}]
 			shape: "circle"
-			tasks: [{
-				amount: 100000L
-				fluid: "minecraft:water"
-				id: "6C52197248F8F7C3"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 100000L
+					fluid: "minecraft:water"
+					id: "6C52197248F8F7C3"
+					type: "fluid"
+				}
+				{
+					id: "250714CF68DE8F36"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "p3:task_screen"
+						}
+					}
+					title: "Any Task Screen"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 0.5d
 		}
