@@ -1205,6 +1205,36 @@
 			x: -5.5d
 			y: 5.5d
 		}
+		{
+			dependencies: ["58C012AD3D76A5CF"]
+			description: ["Grants only Health Bonuses."]
+			id: "46ADDA50409020FC"
+			subtitle: "Tracks Most Foods Eaten"
+			tasks: [{
+				id: "1160FC250A727649"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58C012AD3D76A5CF"]
+			description: [
+				"Grants bonuses such as:"
+				""
+				"Max Health, Elemental Resistance, Roll Distance, and Total Damage."
+			]
+			id: "00E612E0DB91C13E"
+			subtitle: "Tracks Food Diversity"
+			tasks: [{
+				id: "49F4FD546146E515"
+				item: "solonion:food_book"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
 	]
 	title: "Moo"
 }

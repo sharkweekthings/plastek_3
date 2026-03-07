@@ -617,6 +617,162 @@
 			x: 8.0d
 			y: -5.0d
 		}
+		{
+			description: ["While &6Create&r is not required for the pack, it can offer some useful utility, and help with a few automations that might come in handy. "]
+			icon: "kubejs:p3_chat"
+			id: "369D406770E65E7E"
+			shape: "octagon"
+			tasks: [{
+				id: "5D01DA4E067AF240"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Create"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["369D406770E65E7E"]
+			description: [
+				"&3Water Wheels&r or &3Windmills&r are pretty easy setups to get you going with what you'll need for &2Rotational Power&r. "
+				""
+				"&oYou can hold \"w\" over certain &6Create&r items to see how to use them.&r"
+			]
+			icon: "kubejs:p3_chat"
+			id: "466F10485A92C489"
+			shape: "octagon"
+			tasks: [{
+				id: "22BA7644531FBEC7"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "Rotational Power"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2AC4831BF47CA223"]
+			description: [
+				"You can use &3Mechanical Belts&r to move through various machines to create a &3Sequenced Assmebly&r. "
+				""
+				"By lining up a &3Spout&r, &3Mechanical Saw&r, and &3Mechanical Press&r you can turn your &3Plastim Bottles&r into MORE &3Plastim Bags!&r"
+			]
+			id: "2826F7D420E9DA25"
+			tasks: [
+				{
+					id: "5A743EF3592A44D8"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "3FE91005F1334ABA"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "496868686BF13308"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "52C6270550614DC8"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "578C63E5D9519902"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "Sequenced Assembly"
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"76A381329E6BBDC4"
+				"23A0B19B063747CB"
+			]
+			dependency_requirement: "one_completed"
+			description: ["The &3Mechanical Press&r can help you turn &3Plastim Bottles&r into &3Plastim Bags&r!"]
+			id: "2AC4831BF47CA223"
+			tasks: [
+				{
+					id: "3B49999461B118D9"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "5C3596E78E8C0ED7"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "Pressing"
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["369D406770E65E7E"]
+			id: "5690C472FFEE5E0F"
+			tasks: [
+				{
+					id: "0250F3E0F7580D19"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "0156F0BD3432B5E5"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "Tools of the Trade"
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["466F10485A92C489"]
+			id: "23A0B19B063747CB"
+			tasks: [{
+				id: "764B0548D234D6EF"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["466F10485A92C489"]
+			id: "76A381329E6BBDC4"
+			tasks: [{
+				id: "271B578470CB5587"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["369D406770E65E7E"]
+			id: "4D2F31BF28A5C87C"
+			tasks: [
+				{
+					id: "2CD7356DB1627AE1"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+				{
+					id: "2B7788A08F5533CE"
+					item: "create:gearbox"
+					type: "item"
+				}
+			]
+			title: "Go Faster!"
+			x: 1.0d
+			y: -7.5d
+		}
 	]
 	title: "Tech"
 }

@@ -473,6 +473,8 @@
 				"Your main objective is the &3Ice Crystal&r, which usually rests in a &cFrostmaw's&r hand."
 				""
 				"If you take the stones off your feet and try to be sneaky enough, you might be able to avoid a fight with the beast."
+				""
+				"You'll want to look in snowy areas of the &6Overworld&r for one. "
 			]
 			icon: {
 				Count: 1
